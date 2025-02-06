@@ -20,5 +20,17 @@ Cognitive thread; Cognitive Digital thread; Digital thread; Traceability managem
 
 # Citation format
 
-Wu S, Wang G, Lu J, et al. Design ontology for cognitive thread supporting traceability management in model-based systems engineering[J]. Journal of Industrial Information Integration, 2024, 40: 100619.
 
+**GB/T 7714**: Wu S, Wang G, Lu J, et al. Design ontology for cognitive thread supporting traceability management in model-based systems engineering[J]. Journal of Industrial Information Integration, 2024, 40: 100619.
+**MLA**: Wu, Shouxuan, et al. "Design ontology for cognitive thread supporting traceability management in model-based systems engineering." Journal of Industrial Information Integration 40 (2024): 100619.
+**APA**: Wu, S., Wang, G., Lu, J., Hu, Z., Yan, Y., & Kiritsis, D. (2024). Design ontology for cognitive thread supporting traceability management in model-based systems engineering. Journal of Industrial Information Integration, 40, 100619.
+**Bibtex**:
+@article{wu2024design,
+  title={Design ontology for cognitive thread supporting traceability management in model-based systems engineering},
+  author={Wu, Shouxuan and Wang, Guoxin and Lu, Jinzhi and Hu, Zhenchao and Yan, Yan and Kiritsis, Dimitris},
+  journal={Journal of Industrial Information Integration},
+  volume={40},
+  pages={100619},
+  year={2024},
+  publisher={Elsevier}
+}
