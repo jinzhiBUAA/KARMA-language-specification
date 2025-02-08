@@ -1,0 +1,14 @@
+   Relationship Relationship_Extend
+      initial Property  Relationship_Extend_Property_Name_05849c = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Extend_Property_Condition_63705c = "null" extends Property_Condition annotation(localLabel ="条件");
+      initial Property  Relationship_Extend_Property_To_Do_0de53f = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Extension;
+   Role Role_Extended_Case;
+   annotation(
+      localLabel="扩展",
+      description="",
+      icon="扩展.png",
+      shape="dashLine",
+      );
+   end Relationship_Extend;
+ 

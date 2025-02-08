@@ -1,0 +1,21 @@
+   Object Object_Block
+      initial Property  Object_Block_Property_Name_2c6507 = "null" extends Property_Name annotation(localLabel ="Name");
+      initial Property  Object_Block_Property_Constraint_b44569 = "null" extends Property_Constraint annotation(localLabel ="Constraint");
+      initial Property  Object_Block_Property_Value_339726 = "null" extends Property_Value annotation(localLabel ="Value");
+      initial Property  Object_Block_Property_Part_932cf5 = "null" extends Property_Part annotation(localLabel ="Part");
+      Undirected Point Object_Block_Point_Control_Port_322192 extends Point_Control_Port annotation (localLabel ="Control Port");
+      Undirected Point Object_Block_Point_Mechanical_Port_ae19e1 extends Point_Mechanical_Port annotation (localLabel ="Mechanical Port");
+      Undirected Point Object_Block_Point_Power_Port_a1b6d0 extends Point_Power_Port annotation (localLabel ="Power Port");
+      Undirected Point Object_Block_Point_Signal_Port_9d01e4 extends Point_Signal_Port annotation (localLabel ="Signal Port");
+   annotation(
+      localLabel="Block",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Block;
+ 

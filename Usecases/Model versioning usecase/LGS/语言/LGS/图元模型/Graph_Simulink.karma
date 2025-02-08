@@ -1,0 +1,62 @@
+   partial Graph Graph_Simulink
+    Object Object_Clock;
+    Object Object_Constant;
+    Object Object_Display;
+    Object Object_Gain;
+    Object Object_Product;
+    Object Object_Scope;
+    Object Object_Sum;
+    Object Object_devide;
+    Relationship Relationship_Association;
+    Constraint (
+    bind connector(Object_Clock.Object_Clock_Point_Output_d57733,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Clock,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Sum.Object_Sum_Point_Output_d62931,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Sum,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Clock.Object_Clock_Point_Input_689fda,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Scope.Object_Scope_Point_Input_9ff9f1,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Constant.Object_Constant_Point_Input_7dab6e,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Gain,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Scope.Object_Scope_Point_Output_5a5a16,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Product,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Gain.Object_Gain_Point_Output_b222b6,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Product.Object_Product_Point_Output_e94650,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Constant.Object_Constant_Point_Output_580b85,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Sum.Object_Sum_Point_Input_179fb5,Relationship_Association.Role_Association_Source),
+    bind connector(Object_devide.Object_devide_Point_Output_439b18,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Constant,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Display.Object_Display_Point_Output_e8dce2,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Display,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Display.Object_Display_Point_Input_8657f6,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Gain.Object_Gain_Point_Input_9367d5,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Product.Object_Product_Point_Input_586c8a,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Scope,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Clock.Object_Clock_Point_Output_d57733,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Clock,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Sum.Object_Sum_Point_Output_d62931,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Sum,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Clock.Object_Clock_Point_Input_689fda,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Scope.Object_Scope_Point_Input_9ff9f1,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Constant.Object_Constant_Point_Input_7dab6e,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Gain,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Scope.Object_Scope_Point_Output_5a5a16,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Product,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Gain.Object_Gain_Point_Output_b222b6,Relationship_Association.Role_Association_Target),
+    bind connector(Object_devide.Object_devide_Point_Input_6f659e,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Product.Object_Product_Point_Output_e94650,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Constant.Object_Constant_Point_Output_580b85,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Sum.Object_Sum_Point_Input_179fb5,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Constant,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Display.Object_Display_Point_Output_e8dce2,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Display,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Display.Object_Display_Point_Input_8657f6,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Gain.Object_Gain_Point_Input_9367d5,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Product.Object_Product_Point_Input_586c8a,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Scope,Relationship_Association.Role_Association_Target),
+    );
+    annotation(
+        localLabel="Simulink Diagram",
+        type = diagram,
+        description="",
+       );
+        end Graph_Simulink;

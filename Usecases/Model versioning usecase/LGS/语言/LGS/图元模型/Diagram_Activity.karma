@@ -1,0 +1,74 @@
+   partial Graph Diagram_Activity
+    Object Object_Action;
+    Object Object_Activity_Final;
+    Object Object_Actor;
+    Object Object_Call_Behavior_Action;
+    Object Object_Decision;
+    Object Object_Flow_Final;
+    Object Object_Initial_Node;
+    Object Object_Swimming_Lane;
+    Object Object_UseCase;
+    Object Object_forkHorizontal;
+    Object Object_joinHorizontal;
+    Relationship Relationship_Control_Flow;
+    Relationship Relationship_Object_Flow;
+    Constraint (
+    bind connector(Object_Initial_Node,Relationship_Control_Flow.Role_Control_Flow_Source),
+    bind connector(Object_forkHorizontal,Relationship_Control_Flow.Role_Control_Flow_Source),
+    bind connector(Object_Swimming_Lane,Relationship_Control_Flow.Role_Control_Flow_Source),
+    bind connector(Object_Activity_Final,Relationship_Control_Flow.Role_Control_Flow_Source),
+    bind connector(Object_Actor,Relationship_Control_Flow.Role_Control_Flow_Source),
+    bind connector(Object_Call_Behavior_Action,Relationship_Control_Flow.Role_Control_Flow_Source),
+    bind connector(Object_Decision,Relationship_Control_Flow.Role_Control_Flow_Source),
+    bind connector(Object_joinHorizontal,Relationship_Control_Flow.Role_Control_Flow_Source),
+    bind connector(Object_Action,Relationship_Control_Flow.Role_Control_Flow_Source),
+    bind connector(Object_Flow_Final,Relationship_Control_Flow.Role_Control_Flow_Source),
+    bind connector(Object_UseCase,Relationship_Control_Flow.Role_Control_Flow_Source),
+    bind connector(Object_Action.Object_Action_Point_Signal_Port_31d8c5,Relationship_Control_Flow.Role_Control_Flow_Source),
+    bind connector(Object_Initial_Node,Relationship_Control_Flow.Role_Control_Flow_Target),
+    bind connector(Object_forkHorizontal,Relationship_Control_Flow.Role_Control_Flow_Target),
+    bind connector(Object_Swimming_Lane,Relationship_Control_Flow.Role_Control_Flow_Target),
+    bind connector(Object_Activity_Final,Relationship_Control_Flow.Role_Control_Flow_Target),
+    bind connector(Object_Actor,Relationship_Control_Flow.Role_Control_Flow_Target),
+    bind connector(Object_Call_Behavior_Action,Relationship_Control_Flow.Role_Control_Flow_Target),
+    bind connector(Object_Decision,Relationship_Control_Flow.Role_Control_Flow_Target),
+    bind connector(Object_joinHorizontal,Relationship_Control_Flow.Role_Control_Flow_Target),
+    bind connector(Object_Action,Relationship_Control_Flow.Role_Control_Flow_Target),
+    bind connector(Object_Flow_Final,Relationship_Control_Flow.Role_Control_Flow_Target),
+    bind connector(Object_UseCase,Relationship_Control_Flow.Role_Control_Flow_Target),
+    bind connector(Object_Action.Object_Action_Point_Signal_Port_31d8c5,Relationship_Control_Flow.Role_Control_Flow_Target),
+    bind connector(Object_Initial_Node,Relationship_Object_Flow.Role_Object_Flow_Source),
+    bind connector(Object_forkHorizontal,Relationship_Object_Flow.Role_Object_Flow_Source),
+    bind connector(Object_Swimming_Lane,Relationship_Object_Flow.Role_Object_Flow_Source),
+    bind connector(Object_Activity_Final,Relationship_Object_Flow.Role_Object_Flow_Source),
+    bind connector(Object_joinHorizontal,Relationship_Object_Flow.Role_Object_Flow_Source),
+    bind connector(Object_Action,Relationship_Object_Flow.Role_Object_Flow_Source),
+    bind connector(Object_Flow_Final,Relationship_Object_Flow.Role_Object_Flow_Source),
+    bind connector(Object_UseCase,Relationship_Object_Flow.Role_Object_Flow_Source),
+    bind connector(Object_Action.Object_Action_Point_Signal_Port_31d8c5,Relationship_Object_Flow.Role_Object_Flow_Source),
+    bind connector(Object_Actor,Relationship_Object_Flow.Role_Object_Flow_Source),
+    bind connector(Object_Call_Behavior_Action,Relationship_Object_Flow.Role_Object_Flow_Source),
+    bind connector(Object_Decision,Relationship_Object_Flow.Role_Object_Flow_Source),
+    bind connector(Object_Call_Behavior_Action.Object_Call_Behavior_Action_Point_Signal_Port_ac75b6,Relationship_Object_Flow.Role_Object_Flow_Source),
+    bind connector(Object_Initial_Node,Relationship_Object_Flow.Role_Object_Flow_Target),
+    bind connector(Object_forkHorizontal,Relationship_Object_Flow.Role_Object_Flow_Target),
+    bind connector(Object_Swimming_Lane,Relationship_Object_Flow.Role_Object_Flow_Target),
+    bind connector(Object_Activity_Final,Relationship_Object_Flow.Role_Object_Flow_Target),
+    bind connector(Object_joinHorizontal,Relationship_Object_Flow.Role_Object_Flow_Target),
+    bind connector(Object_Action,Relationship_Object_Flow.Role_Object_Flow_Target),
+    bind connector(Object_Flow_Final,Relationship_Object_Flow.Role_Object_Flow_Target),
+    bind connector(Object_UseCase,Relationship_Object_Flow.Role_Object_Flow_Target),
+    bind connector(Object_Action.Object_Action_Point_Signal_Port_31d8c5,Relationship_Object_Flow.Role_Object_Flow_Target),
+    bind connector(Object_Actor,Relationship_Object_Flow.Role_Object_Flow_Target),
+    bind connector(Object_Call_Behavior_Action,Relationship_Object_Flow.Role_Object_Flow_Target),
+    bind connector(Object_Decision,Relationship_Object_Flow.Role_Object_Flow_Target),
+    bind connector(Object_Call_Behavior_Action.Object_Call_Behavior_Action_Point_Signal_Port_ac75b6,Relationship_Object_Flow.Role_Object_Flow_Target),
+    Object_Swimming_Lane.explode(Diagram_Activity),
+    Object_Call_Behavior_Action.explode(Diagram_Activity),
+    );
+    annotation(
+        localLabel="Activity Diagram",
+        type = diagram,
+        description="",
+       );
+        end Diagram_Activity;

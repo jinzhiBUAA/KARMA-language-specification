@@ -1,4 +1,6 @@
-# Data Retention Policies (Version 0.1) 
+# KARMA Modeling Language Repository (Version 0.1) 
+
+<img src=".\Images\KARMA.png"> ![Repository](https://img.shields.io/static/v1?style=plastic&label=KARMA&message=Repository&color=green)
 
 This is a repository for related resources for the KARMA modeling language.
 
@@ -18,16 +20,16 @@ No prior versions were officially published.
 
 This version is in productive use and supported by modeling tools for KARMA (e.g., MetaGraph)
 
-# Contributors
+## Contributors
 The main contributors to the KARMA language so far are as follows:
 
-- Jinzhi Lu (BUAA)
-- Guoxin Wang (BIT)
-- Junda Ma (BIT)
-- Xiaodu Hu (BUAA)
-- Shouxuan Wu (BIT)
-- Mengru Dong (BIT)
-- Yihui Gong (BIT)
-- Xiaochen Zheng (SUSTech)
-- Jian Wang (UESTC)
-- Jinwei Chen (SJTU)
+- **BUAA**:
+Jinzhi Lu, Xiaodu Hu
+- **BIT**:
+Guoxin Wang, Junda Ma, Shouxuan Wu, Yihui Gong, Mengru Dong, Jiawei Li, Zhiqing Liu, Zhen Zhang, Haoxuan Zhang, Yongji Yuan, Jiaxing Qiao, Xing Song
+- **SUSTech**
+Xiaochen Zheng
+- **UESTC**
+Jian Wang
+- **SJTU**
+Huisheng Zhang, Jinwei Chen, Zhenchao Hu

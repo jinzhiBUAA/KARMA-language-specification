@@ -1,0 +1,276 @@
+    partial Model nKVBlf8O instanceof Diagram_Activity
+      Object nKVBlf8O_object_84fd refer Object_Action
+        Property nKVBlf8O_object_84fd_property_0c2c = "Monitor touchdown and send WOW signal" refer Object_Action_Property_Name_a98dd6 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      Point nKVBlf8O_object_84fd_undirected_d79e refer Object_Action_Point_Signal_Port_31d8c5
+      annotation(
+         localLabel="WOW signal",
+         labelLocation=(-48,21),
+		 initialLocation=(168,84,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",10,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end nKVBlf8O_object_84fd_undirected_d79e;
+ 
+        annotation(
+          initialLocation=(123,107,346,94),
+          localLabel="Action",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end nKVBlf8O_object_84fd;
+
+      Object nKVBlf8O_object_2be2 refer Object_forkHorizontal
+        annotation(
+          initialLocation=(102,261,386,43),
+          localLabel="Fork Horizontal",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end nKVBlf8O_object_2be2;
+
+      Object nKVBlf8O_object_84fd_6674 refer Object_Action
+        Property nKVBlf8O_object_84fd_property_0c2c_23c7 = "Receive automatic braking preset" refer Object_Action_Property_Name_a98dd6 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(182,367,283,94),
+          localLabel="Action",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end nKVBlf8O_object_84fd_6674;
+
+      Object nKVBlf8O_object_84fd_6674_aff9 refer Object_Action
+        Property nKVBlf8O_object_84fd_property_0c2c_23c7_494e = "Activate automatic braking" refer Object_Action_Property_Name_a98dd6 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      Point nKVBlf8O_object_84fd_6674_aff9_undirected_b18d refer Object_Action_Point_Signal_Port_31d8c5
+      annotation(
+         localLabel="WOW signal",
+         labelLocation=(-118,0),
+		 initialLocation=(-12,35,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",10,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end nKVBlf8O_object_84fd_6674_aff9_undirected_b18d;
+ 
+      Point nKVBlf8O_object_84fd_6674_aff9_undirected_3e3d refer Object_Action_Point_Signal_Port_31d8c5
+      annotation(
+         localLabel="Wheel brake status",
+         labelLocation=(-80,21),
+		 initialLocation=(131,84,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",10,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end nKVBlf8O_object_84fd_6674_aff9_undirected_3e3d;
+ 
+        annotation(
+          initialLocation=(186,535,283,94),
+          localLabel="Action",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end nKVBlf8O_object_84fd_6674_aff9;
+
+      Object nKVBlf8O_object_2be2_16c7 refer Object_forkHorizontal
+        annotation(
+          initialLocation=(91,675,463,43),
+          localLabel="Fork Horizontal",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end nKVBlf8O_object_2be2_16c7;
+
+      Relationship nKVBlf8O_relationship_807d refer Relationship_Control_Flow
+        Role nKVBlf8O_fromrole_14cd refer Role_Control_Flow_Source
+          annotation(
+            localLabel="Control Flow_Source",
+            shape="no"
+          );
+        end nKVBlf8O_fromrole_14cd;
+         Role nKVBlf8O_torole_f1ee refer Role_Control_Flow_Target
+          annotation(
+            localLabel="Control Flow_Target",
+            shape="arrowShape"
+          );
+        end nKVBlf8O_torole_f1ee;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(35,-10),
+          shape="dashLine",
+          endLocation=(330,460;334,704),
+          polylineLocation="[7,46,3,-122]$[7,122,3,-46];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end nKVBlf8O_relationship_807d;
+ 
+      Relationship nKVBlf8O_relationship_fd08 refer Relationship_Object_Flow
+        Role nKVBlf8O_fromrole_20a8 refer Role_Object_Flow_Source
+          annotation(
+            localLabel="Object Flow_Source",
+            shape="no"
+          );
+        end nKVBlf8O_fromrole_20a8;
+         Role nKVBlf8O_torole_c925 refer Role_Object_Flow_Target
+          annotation(
+            localLabel="Object Flow_Target",
+            shape="arrowShape"
+          );
+        end nKVBlf8O_torole_c925;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-10,0),
+          shape="solidLine",
+          endLocation=(295,152;294,332),
+          polylineLocation="[-1,-2,35,-52]$[-1,50,35,0];(0.55,1.0);(0.4263622974963181,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end nKVBlf8O_relationship_fd08;
+ 
+      Relationship nKVBlf8O_relationship_7d9b refer Relationship_Object_Flow
+        Role nKVBlf8O_fromrole_ab2c refer Role_Object_Flow_Source
+          annotation(
+            localLabel="Object Flow_Source",
+            shape="no"
+          );
+        end nKVBlf8O_fromrole_ab2c;
+         Role nKVBlf8O_torole_aa5b refer Role_Object_Flow_Target
+          annotation(
+            localLabel="Object Flow_Target",
+            shape="arrowShape"
+          );
+        end nKVBlf8O_torole_aa5b;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(11,-10),
+          shape="solidLine",
+          endLocation=(326,591;321,742),
+          polylineLocation="[-1,9,4,-58]$[-1,46,4,-21];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end nKVBlf8O_relationship_7d9b;
+ 
+      Relationship nKVBlf8O_relationship_1932 refer Relationship_Object_Flow
+        Role nKVBlf8O_fromrole_880f refer Role_Object_Flow_Source
+          annotation(
+            localLabel="Object Flow_Source",
+            shape="no"
+          );
+        end nKVBlf8O_fromrole_880f;
+         Role nKVBlf8O_torole_d1c5 refer Role_Object_Flow_Target
+          annotation(
+            localLabel="Object Flow_Target",
+            shape="arrowShape"
+          );
+        end nKVBlf8O_torole_d1c5;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(93,-10),
+          shape="solidLine",
+          endLocation=(102,282;206,887),
+          polylineLocation="[-193,0,-82,-298]$[-246,0,-135,-298]$[-246,305,-135,7]$[-121,305,-10,7];(0.4263622974963181,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end nKVBlf8O_relationship_1932;
+ 
+    Connect(connector(nKVBlf8O_object_84fd_6674,nKVBlf8O_relationship_807d.nKVBlf8O_fromrole_14cd),connector(nKVBlf8O_object_84fd_6674_aff9,nKVBlf8O_relationship_807d.nKVBlf8O_torole_f1ee));
+ 
+    Connect(connector(nKVBlf8O_object_84fd.nKVBlf8O_object_84fd_undirected_d79e,nKVBlf8O_relationship_fd08.nKVBlf8O_fromrole_20a8),connector(nKVBlf8O_object_2be2,nKVBlf8O_relationship_fd08.nKVBlf8O_torole_c925));
+ 
+    Connect(connector(nKVBlf8O_object_84fd_6674_aff9.nKVBlf8O_object_84fd_6674_aff9_undirected_3e3d,nKVBlf8O_relationship_7d9b.nKVBlf8O_fromrole_ab2c),connector(nKVBlf8O_object_2be2_16c7,nKVBlf8O_relationship_7d9b.nKVBlf8O_torole_aa5b));
+ 
+    Connect(connector(nKVBlf8O_object_2be2,nKVBlf8O_relationship_1932.nKVBlf8O_fromrole_880f),connector(nKVBlf8O_object_84fd_6674_aff9.nKVBlf8O_object_84fd_6674_aff9_undirected_b18d,nKVBlf8O_relationship_1932.nKVBlf8O_torole_d1c5));
+ 
+
+      annotation(
+        localLabel="Section-Act-ground deceleration-Landing gear system",
+        SDIdentification="",
+    );
+   end nKVBlf8O;

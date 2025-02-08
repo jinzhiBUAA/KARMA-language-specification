@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Diagram_Block_Definition" nsURI="D:/MetaGraph_2/MetaGraph/workspace/LGS_V6/语言/LGS/图元模型/Diagram_Block_Definition.karma" nsPrefix="Diagram_Block_Definition">
+  <eClassifiers xsi:type="ecore:EClass" name="DiagramGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//Diagram"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LayoutGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KLayout"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MatrixGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KMatrix"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GanttGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KPlugin"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GraphGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ObjectGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PointGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KPoint"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="direction">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="position">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KProperty"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refValue">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RelationshipGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KRelationship"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KRole"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InputPointGen" eSuperTypes="//PointGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OutputPointGen" eSuperTypes="//PointGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UndirectedPointGen" eSuperTypes="//PointGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ExportRoleGen" eSuperTypes="//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ImportRoleGen" eSuperTypes="//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TableGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KTable"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TableRowGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KTableRow"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TableCellGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KTableCell"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model__Diagram_Block_Definition" eSuperTypes="//GraphGen">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Block Definition Diagram [ Diagram_Block_Definition ] "/>
+      <details key="self" value="Diagram_Block_Definition"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Block Definition Diagram"/>
+    </eAnnotations>
+    <eAnnotations source="Binding">
+      <details key="sourceRule" value="Def__Diagram_Block_Definition__Object_Block->Def__Relationship_Aggregation__Role_Aggregation_Source,Def__Object_Block__Object_Block_Point_Mechanical_Port_ae19e1->Def__Relationship_Aggregation__Role_Aggregation_Source,Def__Object_Block__Object_Block_Point_Power_Port_a1b6d0->Def__Relationship_Aggregation__Role_Aggregation_Source,Def__Diagram_Block_Definition__Object_Constraint_Block->Def__Relationship_Aggregation__Role_Aggregation_Source,Def__Object_Block__Object_Block_Point_Signal_Port_9d01e4->Def__Relationship_Aggregation__Role_Aggregation_Source,Def__Object_Block__Object_Block_Point_Control_Port_322192->Def__Relationship_Aggregation__Role_Aggregation_Source,Def__Diagram_Block_Definition__Object_Interface_Block->Def__Relationship_Aggregation__Role_Aggregation_Source,Def__Diagram_Block_Definition__Object_Block->Def__Relationship_Composition__Role_Composition_Source,Def__Object_Block__Object_Block_Point_Mechanical_Port_ae19e1->Def__Relationship_Composition__Role_Composition_Source,Def__Object_Block__Object_Block_Point_Power_Port_a1b6d0->Def__Relationship_Composition__Role_Composition_Source,Def__Diagram_Block_Definition__Object_Constraint_Block->Def__Relationship_Composition__Role_Composition_Source,Def__Object_Block__Object_Block_Point_Signal_Port_9d01e4->Def__Relationship_Composition__Role_Composition_Source,Def__Object_Block__Object_Block_Point_Control_Port_322192->Def__Relationship_Composition__Role_Composition_Source,Def__Diagram_Block_Definition__Object_Interface_Block->Def__Relationship_Composition__Role_Composition_Source"/>
+      <details key="targetRule" value="Def__Diagram_Block_Definition__Object_Block->Def__Relationship_Aggregation__Role_Aggregation_Target,Def__Object_Block__Object_Block_Point_Mechanical_Port_ae19e1->Def__Relationship_Aggregation__Role_Aggregation_Target,Def__Object_Block__Object_Block_Point_Power_Port_a1b6d0->Def__Relationship_Aggregation__Role_Aggregation_Target,Def__Diagram_Block_Definition__Object_Constraint_Block->Def__Relationship_Aggregation__Role_Aggregation_Target,Def__Object_Block__Object_Block_Point_Signal_Port_9d01e4->Def__Relationship_Aggregation__Role_Aggregation_Target,Def__Object_Block__Object_Block_Point_Control_Port_322192->Def__Relationship_Aggregation__Role_Aggregation_Target,Def__Diagram_Block_Definition__Object_Interface_Block->Def__Relationship_Aggregation__Role_Aggregation_Target,Def__Diagram_Block_Definition__Object_Block->Def__Relationship_Composition__Role_Composition_Target,Def__Object_Block__Object_Block_Point_Mechanical_Port_ae19e1->Def__Relationship_Composition__Role_Composition_Target,Def__Object_Block__Object_Block_Point_Power_Port_a1b6d0->Def__Relationship_Composition__Role_Composition_Target,Def__Diagram_Block_Definition__Object_Constraint_Block->Def__Relationship_Composition__Role_Composition_Target,Def__Object_Block__Object_Block_Point_Signal_Port_9d01e4->Def__Relationship_Composition__Role_Composition_Target,Def__Object_Block__Object_Block_Point_Control_Port_322192->Def__Relationship_Composition__Role_Composition_Target,Def__Diagram_Block_Definition__Object_Interface_Block->Def__Relationship_Composition__Role_Composition_Target"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="layouts" upperBound="-1" eType="//Tag__Layout__Diagram_Block_Definition" containment="true" eOpposite="//Tag__Layout__Diagram_Block_Definition/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tables" upperBound="-1" eType="//Tag__Table__Diagram_Block_Definition" containment="true" eOpposite="//Tag__Table__Diagram_Block_Definition/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="matrixs" upperBound="-1" eType="//Tag__Matrix__Diagram_Block_Definition" containment="true" eOpposite="//Tag__Matrix__Diagram_Block_Definition/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="gantts" upperBound="-1" eType="//Gantt" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Diagram_Block_Definition" containment="true" eOpposite="//Tag__Property__Diagram_Block_Definition/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="objects" upperBound="-1" eType="//Tag__Object__Diagram_Block_Definition" containment="true" eOpposite="//Tag__Object__Diagram_Block_Definition/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="relationships" upperBound="-1" eType="//Tag__Relationship__Diagram_Block_Definition" containment="true" eOpposite="//Tag__Relationship__Diagram_Block_Definition/enclosingGraph"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Layout__Diagram_Block_Definition" eSuperTypes="//LayoutGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="diagramKind" eType="//diagramKinds"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modelElementType" eType="//modelElementTypes"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modelElementName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__Diagram_Block_Definition" eOpposite="//Model__Diagram_Block_Definition/layouts"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="diagramKinds">
+    <eLiterals name="bdd"/>
+    <eLiterals name="idd" value="1"/>
+    <eLiterals name="uc" value="2"/>
+    <eLiterals name="act" value="3"/>
+    <eLiterals name="sd" value="4"/>
+    <eLiterals name="stm" value="5"/>
+    <eLiterals name="par" value="6"/>
+    <eLiterals name="req" value="7"/>
+    <eLiterals name="pkg" value="8"/>
+    <eLiterals name="annotation" value="9"/>
+    <eLiterals name="others" value="10"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="modelElementTypes">
+    <eLiterals name="package"/>
+    <eLiterals name="model" value="1"/>
+    <eLiterals name="modelLibrary" value="2"/>
+    <eLiterals name="view" value="3"/>
+    <eLiterals name="block" value="4"/>
+    <eLiterals name="constraintBlock" value="5"/>
+    <eLiterals name="activity" value="6"/>
+    <eLiterals name="interaction" value="7"/>
+    <eLiterals name="stateMachine" value="8"/>
+    <eLiterals name="profile" value="9"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__layout" eSuperTypes="//Tag__Layout__Diagram_Block_Definition //LayoutGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="布局插件"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Table__Diagram_Block_Definition" eSuperTypes="//TableGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__Diagram_Block_Definition" eOpposite="//Model__Diagram_Block_Definition/tables"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__table" eSuperTypes="//Tag__Table__Diagram_Block_Definition //TableGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="表单"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Matrix__Diagram_Block_Definition" eSuperTypes="//MatrixGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__Diagram_Block_Definition" eOpposite="//Model__Diagram_Block_Definition/matrixs"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__matrix" eSuperTypes="//Tag__Matrix__Diagram_Block_Definition //MatrixGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="表单"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Gantt" eSuperTypes="//GanttGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="time" eType="//times"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeUnit">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startTime">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endTime">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="color">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ganttTasks" upperBound="-1" eType="//GanttTask" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="times">
+    <eLiterals name="YEAR"/>
+    <eLiterals name="MONTH" value="1"/>
+    <eLiterals name="DAY" value="2"/>
+    <eLiterals name="HOUR" value="3"/>
+    <eLiterals name="MINUTE" value="4"/>
+    <eLiterals name="SECOND" value="5"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__gantt" eSuperTypes="//Gantt"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GanttTask" abstract="true" eSuperTypes="//GanttGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ganttTaskElements" upperBound="-1" eType="//GanttTaskElement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__ganttTask" eSuperTypes="//GanttTask"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GanttTaskElement" abstract="true" eSuperTypes="//GanttGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementOffset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementLength">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementColor">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__ganttTaskElement" eSuperTypes="//GanttTaskElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Diagram_Block_Definition" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__Diagram_Block_Definition" eOpposite="//Model__Diagram_Block_Definition/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Object__Diagram_Block_Definition" abstract="true" eSuperTypes="//ObjectGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__Diagram_Block_Definition" eOpposite="//Model__Diagram_Block_Definition/objects"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Relationship__Diagram_Block_Definition" abstract="true" eSuperTypes="//RelationshipGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__Diagram_Block_Definition" eOpposite="//Model__Diagram_Block_Definition/relationships"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__Object_Block" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Block"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Block" containment="true" eOpposite="//Tag__Property__Object_Block/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__Object_Block" containment="true" eOpposite="//Tag__InputPoint__Object_Block/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__Object_Block" containment="true" eOpposite="//Tag__OutputPoint__Object_Block/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__Object_Block" containment="true" eOpposite="//Tag__UndirectedPoint__Object_Block/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Block" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Block" eOpposite="//Object__Object_Block/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__Object_Block" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Block" eOpposite="//Object__Object_Block/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__Object_Block" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Block" eOpposite="//Object__Object_Block/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__Object_Block" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Block" eOpposite="//Object__Object_Block/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__Property_Name" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Name"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Block__Object_Block_Property_Name_2c6507" eSuperTypes="//Property__Property_Name //Tag__Property__Object_Block">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Name [ Object_Block_Property_Name_2c6507 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Name"/>
+      <details key="value" value="null"/>
+      <details key="self" value="Object_Block_Property_Name_2c6507"/>
+      <details key="parent" value="Object_Block"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Name"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__Property_Constraint" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Constraint"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Block__Object_Block_Property_Constraint_b44569" eSuperTypes="//Property__Property_Constraint //Tag__Property__Object_Block">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Constraint [ Object_Block_Property_Constraint_b44569 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Constraint"/>
+      <details key="value" value="null"/>
+      <details key="self" value="Object_Block_Property_Constraint_b44569"/>
+      <details key="parent" value="Object_Block"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Constraint"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__Property_Value" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Value"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Block__Object_Block_Property_Value_339726" eSuperTypes="//Property__Property_Value //Tag__Property__Object_Block">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Value [ Object_Block_Property_Value_339726 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Value"/>
+      <details key="value" value="null"/>
+      <details key="self" value="Object_Block_Property_Value_339726"/>
+      <details key="parent" value="Object_Block"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Value"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__Property_Part" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Part"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Block__Object_Block_Property_Part_932cf5" eSuperTypes="//Property__Property_Part //Tag__Property__Object_Block">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Part [ Object_Block_Property_Part_932cf5 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Part"/>
+      <details key="value" value="null"/>
+      <details key="self" value="Object_Block_Property_Part_932cf5"/>
+      <details key="parent" value="Object_Block"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Part"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Block_Point_Control_Port_322192" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Block_Point_Control_Port_322192" eOpposite="//Point__Object_Block_Point_Control_Port_322192/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Block_Point_Control_Port_322192" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Control Port"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Block_Point_Control_Port_322192" containment="true" eOpposite="//Tag__Property__Object_Block_Point_Control_Port_322192/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Block__Object_Block_Point_Control_Port_322192" eSuperTypes="//Tag__UndirectedPoint__Object_Block //Point__Object_Block_Point_Control_Port_322192">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="triangle"/>
+      <details key="parent" value="Object_Block"/>
+      <details key="self" value="Object_Block_Point_Control_Port_322192"/>
+      <details key="metaInfo" value="Control Port [ Object_Block_Point_Control_Port_322192 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Control Port"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Block_Point_Mechanical_Port_ae19e1" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Block_Point_Mechanical_Port_ae19e1" eOpposite="//Point__Object_Block_Point_Mechanical_Port_ae19e1/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Block_Point_Mechanical_Port_ae19e1" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Mechanical Port"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Block_Point_Mechanical_Port_ae19e1" containment="true" eOpposite="//Tag__Property__Object_Block_Point_Mechanical_Port_ae19e1/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Block__Object_Block_Point_Mechanical_Port_ae19e1" eSuperTypes="//Tag__UndirectedPoint__Object_Block //Point__Object_Block_Point_Mechanical_Port_ae19e1">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="circle"/>
+      <details key="parent" value="Object_Block"/>
+      <details key="self" value="Object_Block_Point_Mechanical_Port_ae19e1"/>
+      <details key="metaInfo" value="Mechanical Port [ Object_Block_Point_Mechanical_Port_ae19e1 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Mechanical Port"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Block_Point_Power_Port_a1b6d0" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Block_Point_Power_Port_a1b6d0" eOpposite="//Point__Object_Block_Point_Power_Port_a1b6d0/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Block_Point_Power_Port_a1b6d0" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Power Port"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Block_Point_Power_Port_a1b6d0" containment="true" eOpposite="//Tag__Property__Object_Block_Point_Power_Port_a1b6d0/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Block__Object_Block_Point_Power_Port_a1b6d0" eSuperTypes="//Tag__UndirectedPoint__Object_Block //Point__Object_Block_Point_Power_Port_a1b6d0">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Block"/>
+      <details key="self" value="Object_Block_Point_Power_Port_a1b6d0"/>
+      <details key="metaInfo" value="Power Port [ Object_Block_Point_Power_Port_a1b6d0 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Power Port"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Block_Point_Signal_Port_9d01e4" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Block_Point_Signal_Port_9d01e4" eOpposite="//Point__Object_Block_Point_Signal_Port_9d01e4/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Block_Point_Signal_Port_9d01e4" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Signal Port"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Block_Point_Signal_Port_9d01e4" containment="true" eOpposite="//Tag__Property__Object_Block_Point_Signal_Port_9d01e4/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Block__Object_Block_Point_Signal_Port_9d01e4" eSuperTypes="//Tag__UndirectedPoint__Object_Block //Point__Object_Block_Point_Signal_Port_9d01e4">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="triangle"/>
+      <details key="parent" value="Object_Block"/>
+      <details key="self" value="Object_Block_Point_Signal_Port_9d01e4"/>
+      <details key="metaInfo" value="Signal Port [ Object_Block_Point_Signal_Port_9d01e4 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Signal Port"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__Object_Constraint_Block" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Constraint Block"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Constraint_Block" containment="true" eOpposite="//Tag__Property__Object_Constraint_Block/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__Object_Constraint_Block" containment="true" eOpposite="//Tag__InputPoint__Object_Constraint_Block/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__Object_Constraint_Block" containment="true" eOpposite="//Tag__OutputPoint__Object_Constraint_Block/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__Object_Constraint_Block" containment="true" eOpposite="//Tag__UndirectedPoint__Object_Constraint_Block/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Constraint_Block" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Constraint_Block" eOpposite="//Object__Object_Constraint_Block/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__Object_Constraint_Block" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Constraint_Block" eOpposite="//Object__Object_Constraint_Block/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__Object_Constraint_Block" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Constraint_Block" eOpposite="//Object__Object_Constraint_Block/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__Object_Constraint_Block" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Constraint_Block" eOpposite="//Object__Object_Constraint_Block/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Constraint_Block__Object_Constraint_Block_Property_Name_7b1d8c" eSuperTypes="//Property__Property_Name //Tag__Property__Object_Constraint_Block">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Name [ Object_Constraint_Block_Property_Name_7b1d8c ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Name"/>
+      <details key="value" value="null"/>
+      <details key="self" value="Object_Constraint_Block_Property_Name_7b1d8c"/>
+      <details key="parent" value="Object_Constraint_Block"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Name"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__Property_Parameter" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Parmeter"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Constraint_Block__Object_Constraint_Block_Property_Parameter_9d91ae" eSuperTypes="//Property__Property_Parameter //Tag__Property__Object_Constraint_Block">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Parmeter [ Object_Constraint_Block_Property_Parameter_9d91ae ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Parmeter"/>
+      <details key="value" value="null"/>
+      <details key="self" value="Object_Constraint_Block_Property_Parameter_9d91ae"/>
+      <details key="parent" value="Object_Constraint_Block"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Parmeter"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Constraint_Block__Object_Constraint_Block_Property_Constraint_d13832" eSuperTypes="//Property__Property_Constraint //Tag__Property__Object_Constraint_Block">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Constraint [ Object_Constraint_Block_Property_Constraint_d13832 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Constraint"/>
+      <details key="value" value="null"/>
+      <details key="self" value="Object_Constraint_Block_Property_Constraint_d13832"/>
+      <details key="parent" value="Object_Constraint_Block"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Constraint"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__Property_Text" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Text"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Constraint_Block__Object_Constraint_Block_Property_Text_c9c373" eSuperTypes="//Property__Property_Text //Tag__Property__Object_Constraint_Block">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Text [ Object_Constraint_Block_Property_Text_c9c373 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Text"/>
+      <details key="value" value="null"/>
+      <details key="self" value="Object_Constraint_Block_Property_Text_c9c373"/>
+      <details key="parent" value="Object_Constraint_Block"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Text"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__Object_Interface_Block" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Interface Block"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Interface_Block" containment="true" eOpposite="//Tag__Property__Object_Interface_Block/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__Object_Interface_Block" containment="true" eOpposite="//Tag__InputPoint__Object_Interface_Block/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__Object_Interface_Block" containment="true" eOpposite="//Tag__OutputPoint__Object_Interface_Block/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__Object_Interface_Block" containment="true" eOpposite="//Tag__UndirectedPoint__Object_Interface_Block/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Interface_Block" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Interface_Block" eOpposite="//Object__Object_Interface_Block/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__Object_Interface_Block" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Interface_Block" eOpposite="//Object__Object_Interface_Block/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__Object_Interface_Block" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Interface_Block" eOpposite="//Object__Object_Interface_Block/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__Object_Interface_Block" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Interface_Block" eOpposite="//Object__Object_Interface_Block/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Interface_Block__Object_Interface_Block_Property_Name_c8c00d" eSuperTypes="//Property__Property_Name //Tag__Property__Object_Interface_Block">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Name [ Object_Interface_Block_Property_Name_c8c00d ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Name"/>
+      <details key="value" value="null"/>
+      <details key="self" value="Object_Interface_Block_Property_Name_c8c00d"/>
+      <details key="parent" value="Object_Interface_Block"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Name"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__Object_Block" eSuperTypes="//Tag__Object__Diagram_Block_Definition //Object__Object_Block">
+    <eAnnotations source="annotation">
+      <details key="self" value="Object_Block"/>
+      <details key="parent" value="Diagram_Block_Definition"/>
+      <details key="mode" value="propertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="LocalLabel" value="Block"/>
+      <details key="metaInfo" value="Block[Object_Block]"/>
+      <details key="properties" value="Def__Object_Block__Object_Block_Property_Name_2c6507,Object_Block_Property_Name_2c6507,Name,null;Def__Object_Block__Object_Block_Property_Constraint_b44569,Object_Block_Property_Constraint_b44569,Constraint,null;Def__Object_Block__Object_Block_Property_Value_339726,Object_Block_Property_Value_339726,Value,null;Def__Object_Block__Object_Block_Property_Part_932cf5,Object_Block_Property_Part_932cf5,Part,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value="Def__Object_Block__Object_Block_Point_Control_Port_322192,Object_Block_Point_Control_Port_322192,Control Port;Def__Object_Block__Object_Block_Point_Mechanical_Port_ae19e1,Object_Block_Point_Mechanical_Port_ae19e1,Mechanical Port;Def__Object_Block__Object_Block_Point_Power_Port_a1b6d0,Object_Block_Point_Power_Port_a1b6d0,Power Port;Def__Object_Block__Object_Block_Point_Signal_Port_9d01e4,Object_Block_Point_Signal_Port_9d01e4,Signal Port"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Block"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__Diagram_Block_Definition__Object_Block__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__Diagram_Block_Definition__Object_Block__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__Object_Block__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__Object_Block__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ModelN__Diagram_Internal_Block" eSuperTypes="//GraphGen //Def__Diagram_Block_Definition__Object_Block__explodesN">
+    <eAnnotations source="annotation">
+      <details key="self" value="Diagram_Internal_Block"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__Object_Constraint_Block" eSuperTypes="//Tag__Object__Diagram_Block_Definition //Object__Object_Constraint_Block">
+    <eAnnotations source="annotation">
+      <details key="self" value="Object_Constraint_Block"/>
+      <details key="parent" value="Diagram_Block_Definition"/>
+      <details key="mode" value="propertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="LocalLabel" value="Constraint Block"/>
+      <details key="metaInfo" value="Constraint Block[Object_Constraint_Block]"/>
+      <details key="properties" value="Def__Object_Constraint_Block__Object_Constraint_Block_Property_Name_7b1d8c,Object_Constraint_Block_Property_Name_7b1d8c,Name,null;Def__Object_Constraint_Block__Object_Constraint_Block_Property_Parameter_9d91ae,Object_Constraint_Block_Property_Parameter_9d91ae,Parmeter,null;Def__Object_Constraint_Block__Object_Constraint_Block_Property_Constraint_d13832,Object_Constraint_Block_Property_Constraint_d13832,Constraint,null;Def__Object_Constraint_Block__Object_Constraint_Block_Property_Text_c9c373,Object_Constraint_Block_Property_Text_c9c373,Text,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Constraint Block"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__Diagram_Block_Definition__Object_Constraint_Block__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__Diagram_Block_Definition__Object_Constraint_Block__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__Object_Constraint_Block__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__Object_Constraint_Block__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ModelN__Diagram_Parameter" eSuperTypes="//GraphGen //Def__Diagram_Block_Definition__Object_Constraint_Block__explodesN">
+    <eAnnotations source="annotation">
+      <details key="self" value="Diagram_Parameter"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__Object_Interface_Block" eSuperTypes="//Tag__Object__Diagram_Block_Definition //Object__Object_Interface_Block">
+    <eAnnotations source="annotation">
+      <details key="self" value="Object_Interface_Block"/>
+      <details key="parent" value="Diagram_Block_Definition"/>
+      <details key="mode" value="propertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="LocalLabel" value="Interface Block"/>
+      <details key="metaInfo" value="Interface Block[Object_Interface_Block]"/>
+      <details key="properties" value="Def__Object_Interface_Block__Object_Interface_Block_Property_Name_c8c00d,Object_Interface_Block_Property_Name_c8c00d,Name,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Interface Block"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__Diagram_Block_Definition__Object_Interface_Block__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__Diagram_Block_Definition__Object_Interface_Block__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__Object_Interface_Block__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__Object_Interface_Block__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Relationship_Aggregation" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRelationship" ordered="false" lowerBound="1" eType="//Relationship__Relationship_Aggregation" eOpposite="//Relationship__Relationship_Aggregation/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Relationship__Relationship_Aggregation" eSuperTypes="//RelationshipGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Aggregation"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Relationship_Aggregation" containment="true" eOpposite="//Tag__Property__Relationship_Aggregation/enclosingRelationship"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fromRole" eType="//Tag__Role__Import__Relationship_Aggregation" containment="true" eOpposite="//Tag__Role__Import__Relationship_Aggregation/enclosingRelationship"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="toRole" eType="//Tag__Role__Export__Relationship_Aggregation" containment="true" eOpposite="//Tag__Role__Export__Relationship_Aggregation/enclosingRelationship"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Role__Import__Relationship_Aggregation" abstract="true" eSuperTypes="//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRelationship" ordered="false" lowerBound="1" eType="//Relationship__Relationship_Aggregation" eOpposite="//Relationship__Relationship_Aggregation/fromRole"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Role__Export__Relationship_Aggregation" abstract="true" eSuperTypes="//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRelationship" ordered="false" lowerBound="1" eType="//Relationship__Relationship_Aggregation" eOpposite="//Relationship__Relationship_Aggregation/toRole"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Role_Aggregation_Source" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRole" ordered="false" lowerBound="1" eType="//Role__Role_Aggregation_Source"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Relationship_Aggregation__Role_Aggregation_Source" eSuperTypes="//Tag__Role__Import__Relationship_Aggregation //Role__Role_Aggregation_Source">
+    <eAnnotations source="annotation">
+      <details key="shape" value="no"/>
+      <details key="properties" value=""/>
+      <details key="metaInfo" value="Aggregation_Source [ Role_Aggregation_Source ] "/>
+      <details key="LocalLabel" value="Aggregation_Source"/>
+      <details key="parent" value="Relationship_Aggregation"/>
+      <details key="self" value="Role_Aggregation_Source"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Role__Role_Aggregation_Source" eSuperTypes="//ImportRoleGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Aggregation_Source"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Role_Aggregation_Source" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Role_Aggregation_Target" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRole" ordered="false" lowerBound="1" eType="//Role__Role_Aggregation_Target"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Relationship_Aggregation__Role_Aggregation_Target" eSuperTypes="//Tag__Role__Export__Relationship_Aggregation //Role__Role_Aggregation_Target">
+    <eAnnotations source="annotation">
+      <details key="shape" value="dottedDiamond"/>
+      <details key="properties" value=""/>
+      <details key="metaInfo" value="Aggregation_Target [ Role_Aggregation_Target ] "/>
+      <details key="LocalLabel" value="Aggregation_Target"/>
+      <details key="parent" value="Relationship_Aggregation"/>
+      <details key="self" value="Role_Aggregation_Target"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Role__Role_Aggregation_Target" eSuperTypes="//ExportRoleGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Aggregation_Target"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Role_Aggregation_Target" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__Relationship_Aggregation" eSuperTypes="//Tag__Relationship__Diagram_Block_Definition //Relationship__Relationship_Aggregation">
+    <eAnnotations source="annotation">
+      <details key="parent" value="Diagram_Block_Definition"/>
+      <details key="self" value="Relationship_Aggregation"/>
+      <details key="roles" value="Role_Aggregation_Source,Role_Aggregation_Target"/>
+      <details key="metaInfo" value="Aggregation [ Relationship_Aggregation ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Relationship_Composition" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRelationship" ordered="false" lowerBound="1" eType="//Relationship__Relationship_Composition" eOpposite="//Relationship__Relationship_Composition/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Relationship__Relationship_Composition" eSuperTypes="//RelationshipGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Composition"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Relationship_Composition" containment="true" eOpposite="//Tag__Property__Relationship_Composition/enclosingRelationship"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fromRole" eType="//Tag__Role__Import__Relationship_Composition" containment="true" eOpposite="//Tag__Role__Import__Relationship_Composition/enclosingRelationship"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="toRole" eType="//Tag__Role__Export__Relationship_Composition" containment="true" eOpposite="//Tag__Role__Export__Relationship_Composition/enclosingRelationship"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Role__Import__Relationship_Composition" abstract="true" eSuperTypes="//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRelationship" ordered="false" lowerBound="1" eType="//Relationship__Relationship_Composition" eOpposite="//Relationship__Relationship_Composition/fromRole"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Role__Export__Relationship_Composition" abstract="true" eSuperTypes="//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRelationship" ordered="false" lowerBound="1" eType="//Relationship__Relationship_Composition" eOpposite="//Relationship__Relationship_Composition/toRole"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Role_Composition_Source" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRole" ordered="false" lowerBound="1" eType="//Role__Role_Composition_Source"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Relationship_Composition__Role_Composition_Source" eSuperTypes="//Tag__Role__Import__Relationship_Composition //Role__Role_Composition_Source">
+    <eAnnotations source="annotation">
+      <details key="shape" value="no"/>
+      <details key="properties" value=""/>
+      <details key="metaInfo" value="Composition_Source [ Role_Composition_Source ] "/>
+      <details key="LocalLabel" value="Composition_Source"/>
+      <details key="parent" value="Relationship_Composition"/>
+      <details key="self" value="Role_Composition_Source"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Role__Role_Composition_Source" eSuperTypes="//ImportRoleGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Composition_Source"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Role_Composition_Source" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Role_Composition_Target" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRole" ordered="false" lowerBound="1" eType="//Role__Role_Composition_Target"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Relationship_Composition__Role_Composition_Target" eSuperTypes="//Tag__Role__Export__Relationship_Composition //Role__Role_Composition_Target">
+    <eAnnotations source="annotation">
+      <details key="shape" value="solidDiamond"/>
+      <details key="properties" value=""/>
+      <details key="metaInfo" value="Composition_Target [ Role_Composition_Target ] "/>
+      <details key="LocalLabel" value="Composition_Target"/>
+      <details key="parent" value="Relationship_Composition"/>
+      <details key="self" value="Role_Composition_Target"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Role__Role_Composition_Target" eSuperTypes="//ExportRoleGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Composition_Target"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Role_Composition_Target" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Diagram_Block_Definition__Relationship_Composition" eSuperTypes="//Tag__Relationship__Diagram_Block_Definition //Relationship__Relationship_Composition">
+    <eAnnotations source="annotation">
+      <details key="parent" value="Diagram_Block_Definition"/>
+      <details key="self" value="Relationship_Composition"/>
+      <details key="roles" value="Role_Composition_Source,Role_Composition_Target"/>
+      <details key="metaInfo" value="Composition [ Relationship_Composition ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+  </eClassifiers>
+</ecore:EPackage>

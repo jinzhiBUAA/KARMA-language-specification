@@ -1,0 +1,15 @@
+   Object Object_Clock
+      Undirected Point Object_Clock_Point_Input_689fda extends Point_Input annotation (localLabel ="Input");
+      Undirected Point Object_Clock_Point_Output_d57733 extends Point_Output annotation (localLabel ="Output");
+   annotation(
+      localLabel="Clock",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="Clock.png",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Clock;
+ 

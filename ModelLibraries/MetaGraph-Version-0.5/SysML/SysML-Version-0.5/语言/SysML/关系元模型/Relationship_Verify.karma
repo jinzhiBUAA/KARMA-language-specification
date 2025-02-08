@@ -1,0 +1,13 @@
+   Relationship Relationship_Verify
+      initial Property  Relationship_Verify_Property_Name_fcb260 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Verify_Property_To_Do_a20d9e = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Client;
+   Role Role_Supplier;
+   annotation(
+      localLabel="验证",
+      description="",
+      icon="验证.png",
+      shape="dashLine",
+      );
+   end Relationship_Verify;
+ 

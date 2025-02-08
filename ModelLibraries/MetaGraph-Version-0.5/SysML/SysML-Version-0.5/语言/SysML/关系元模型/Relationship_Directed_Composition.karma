@@ -1,0 +1,12 @@
+   Relationship Relationship_Directed_Composition
+      initial Property  Relationship_Directed_Composition_Property_Name_b5e2ac = "null" extends Property_Name annotation(localLabel ="名称");
+   Role Role_Composition_Role;
+   Role Role_Directed_Role_A;
+   annotation(
+      localLabel="定向组合",
+      description="",
+      icon="定向组合.png",
+      shape="solidLine",
+      );
+   end Relationship_Directed_Composition;
+ 

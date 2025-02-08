@@ -1,0 +1,14 @@
+   Relationship Message
+      initial Property  Message_Property_On_Port_7d5174 = "null" extends Property_On_Port annotation(localLabel ="处于端口");
+      initial Property  Message_Message_Sort_61282f = "null" extends Message_Sort annotation(localLabel ="消息类");
+      initial Property  Message_Property_To_Do_443abc = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Message_Source;
+   Role Message_Target;
+   annotation(
+      localLabel="消息",
+      description="",
+      icon="",
+      shape="solidLine",
+      );
+   end Message;
+ 

@@ -1,0 +1,25 @@
+   Object Object_Constraint_Property
+      initial Property  Object_Constraint_Property_Property_Name_d74a5a = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Constraint_Property_Property_Type_9e7a35 = "null" extends Property_Type annotation(localLabel ="类型");
+      initial Property  Object_Constraint_Property_Property_Default_Value_e44c9e = "null" extends Property_Default_Value annotation(localLabel ="默认值");
+      initial Property  Object_Constraint_Property_Property_Multiplicity_372910 = "null" extends Property_Multiplicity annotation(localLabel ="多重度");
+      initial Property  Object_Constraint_Property_Property_Is_Read_Only_0515dd = false extends Property_Is_Read_Only annotation(localLabel ="是否只读");
+      initial Property  Object_Constraint_Property_Property_Is_Static_86d708 = false extends Property_Is_Static annotation(localLabel ="是否静态");
+      initial Property  Object_Constraint_Property_Property_Aggregation_2e9b7e = "null" extends Property_Aggregation annotation(localLabel ="聚合");
+      initial Property  Object_Constraint_Property_Property_Is_Derived_f44708 = false extends Property_Is_Derived annotation(localLabel ="是否派生");
+      initial Property  Object_Constraint_Property_Property_To_Do_f3c164 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      Undirected Point Object_Constraint_Property_Point_Constraint_Parameter_850c76 extends Point_Constraint_Parameter annotation (localLabel ="约束参数");
+      Undirected Point Object_Constraint_Property_Point_Proxy_Port_d887a1 extends Point_Proxy_Port annotation (localLabel ="代理端口");
+      Undirected Point Object_Constraint_Property_Point_Full_Port_2ca47c extends Point_Full_Port annotation (localLabel ="完整端口");
+      Undirected Point Object_Constraint_Property_Point_Port_76d545 extends Point_Port annotation (localLabel ="端口");
+      Undirected Point Object_Constraint_Property_Point_Flow_Port_acfb89 extends Point_Flow_Port annotation (localLabel ="流端口");
+   annotation(
+      localLabel="约束属性",
+      description="",
+      icon="约束属性.png",
+      shape="rectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      );
+   end Object_Constraint_Property;
+ 

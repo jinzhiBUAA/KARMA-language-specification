@@ -1,0 +1,16 @@
+   Relationship Relationship_Item_Flow_Binding_Connector
+      initial Property  Relationship_Item_Flow_Binding_Connector_Property_Name_604936 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Item_Flow_Binding_Connector_Property_Contract_32ae1f = "null" extends Property_Contract annotation(localLabel ="契约");
+      initial Property  Relationship_Item_Flow_Binding_Connector_Property_Kind_96ce9d = "null" extends Property_Kind annotation(localLabel ="种类");
+      initial Property  Relationship_Item_Flow_Binding_Connector_Property_Type_b12287 = "null" extends Property_Type annotation(localLabel ="类型");
+      initial Property  Relationship_Item_Flow_Binding_Connector_Property_To_Do_5a85fe = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Connectot_End_A;
+   Role Role_Item_Flow_B;
+   annotation(
+      localLabel="项目流绑定连接器",
+      description="",
+      icon="项目流绑定连接器.png",
+      shape="solidLine",
+      );
+   end Relationship_Item_Flow_Binding_Connector;
+ 

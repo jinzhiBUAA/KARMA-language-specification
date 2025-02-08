@@ -1,0 +1,407 @@
+    partial Model jDR5N3pO instanceof Diagram_Activity
+      Object jDR5N3pO_object_03aa refer Object_Initial_Node
+        Property jDR5N3pO_object_03aa_property_28de = "null" refer Object_Initial_Node_Property_Name_fe57ec annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(42,105,77,76),
+          localLabel="Initial Node",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end jDR5N3pO_object_03aa;
+
+      Object jDR5N3pO_object_34ec refer Object_Action
+        Property jDR5N3pO_object_34ec_property_4e02 = "Monitor aircraft status" refer Object_Action_Property_Name_a98dd6 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(189,280,283,101),
+          localLabel="Action",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end jDR5N3pO_object_34ec;
+
+      Object jDR5N3pO_object_7425 refer Object_forkHorizontal
+        annotation(
+          initialLocation=(238,35,64,241),
+          localLabel="Fork Horizontal",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end jDR5N3pO_object_7425;
+
+      Object jDR5N3pO_object_7425_3b32 refer Object_forkHorizontal
+        annotation(
+          initialLocation=(63,434,414,43),
+          localLabel="Fork Horizontal",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end jDR5N3pO_object_7425_3b32;
+
+      Object jDR5N3pO_object_34ec_f833 refer Object_Action
+        Property jDR5N3pO_object_34ec_property_4e02_e542 = "Preset automatic braking" refer Object_Action_Property_Name_a98dd6 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(309,620,283,101),
+          localLabel="Action",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end jDR5N3pO_object_34ec_f833;
+
+      Object jDR5N3pO_object_34ec_f833_069f refer Object_Action
+        Property jDR5N3pO_object_34ec_property_4e02_e542_e253 = "Preset ground lift dump" refer Object_Action_Property_Name_a98dd6 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(176,844,283,101),
+          localLabel="Action",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end jDR5N3pO_object_34ec_f833_069f;
+
+      Object jDR5N3pO_object_34ec_f833_069f_8eac refer Object_Action
+        Property jDR5N3pO_object_34ec_property_4e02_e542_e253_b41f = "Monitor landing deceleration status" refer Object_Action_Property_Name_a98dd6 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      Point jDR5N3pO_object_34ec_f833_069f_8eac_undirected_4f23 refer Object_Action_Point_Signal_Port_31d8c5
+      annotation(
+         localLabel="Wheel brake status",
+         labelLocation=(21,-7),
+		 initialLocation=(273,45,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",10,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end jDR5N3pO_object_34ec_f833_069f_8eac_undirected_4f23;
+ 
+        annotation(
+          initialLocation=(42,1103,283,101),
+          localLabel="Action",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end jDR5N3pO_object_34ec_f833_069f_8eac;
+
+      Object jDR5N3pO_object_34ec_f833_069f_8eac_331d refer Object_Action
+        Property jDR5N3pO_object_34ec_property_4e02_e542_e253_b41f_e529 = "Operate thrust reverser handle" refer Object_Action_Property_Name_a98dd6 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(50,1481,283,101),
+          localLabel="Action",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end jDR5N3pO_object_34ec_f833_069f_8eac_331d;
+
+      Relationship jDR5N3pO_relationship_0eb5 refer Relationship_Control_Flow
+        Role jDR5N3pO_fromrole_256c refer Role_Control_Flow_Source
+          annotation(
+            localLabel="Control Flow_Source",
+            shape="no"
+          );
+        end jDR5N3pO_fromrole_256c;
+         Role jDR5N3pO_torole_d4c9 refer Role_Control_Flow_Target
+          annotation(
+            localLabel="Control Flow_Target",
+            shape="arrowShape"
+          );
+        end jDR5N3pO_torole_d4c9;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="dashLine",
+          endLocation=(80,143;389,155),
+          polylineLocation="[0,0,-119,0]$[119,0,0,0];(1.0,0.3684210526315789);(0.0,0.4052936311000827)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end jDR5N3pO_relationship_0eb5;
+ 
+      Relationship jDR5N3pO_relationship_e9bd refer Relationship_Control_Flow
+        Role jDR5N3pO_fromrole_8b5f refer Role_Control_Flow_Source
+          annotation(
+            localLabel="Control Flow_Source",
+            shape="no"
+          );
+        end jDR5N3pO_fromrole_8b5f;
+         Role jDR5N3pO_torole_fd01 refer Role_Control_Flow_Target
+          annotation(
+            localLabel="Control Flow_Target",
+            shape="arrowShape"
+          );
+        end jDR5N3pO_torole_fd01;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="dashLine",
+          endLocation=(270,175;412,421),
+          polylineLocation="[0,20,-104,-71]$[82,20,-22,-71]$[82,91,-22,0];(0.4078178214778053,0.6368899917287015);(0.6476868327402135,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end jDR5N3pO_relationship_e9bd;
+ 
+      Relationship jDR5N3pO_relationship_e97e refer Relationship_Control_Flow
+        Role jDR5N3pO_fromrole_e330 refer Role_Control_Flow_Source
+          annotation(
+            localLabel="Control Flow_Source",
+            shape="no"
+          );
+        end jDR5N3pO_fromrole_e330;
+         Role jDR5N3pO_torole_ea19 refer Role_Control_Flow_Target
+          annotation(
+            localLabel="Control Flow_Target",
+            shape="arrowShape"
+          );
+        end jDR5N3pO_torole_ea19;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(10,-77),
+          shape="dashLine",
+          endLocation=(211,330;151,510),
+          polylineLocation="[-119,0,-105,-55]$[-119,55,-105,0];(0.6725978647686833,1.0);(0.7270531400966184,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end jDR5N3pO_relationship_e97e;
+ 
+      Relationship jDR5N3pO_relationship_d7d1 refer Relationship_Control_Flow
+        Role jDR5N3pO_fromrole_b711 refer Role_Control_Flow_Source
+          annotation(
+            localLabel="Control Flow_Source",
+            shape="no"
+          );
+        end jDR5N3pO_fromrole_b711;
+         Role jDR5N3pO_torole_9cc1 refer Role_Control_Flow_Target
+          annotation(
+            localLabel="Control Flow_Target",
+            shape="arrowShape"
+          );
+        end jDR5N3pO_torole_9cc1;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-28,-10),
+          shape="dashLine",
+          endLocation=(285,455;465,813),
+          polylineLocation="[15,0,0,-143]$[15,143,0,0];(0.8454106280193237,1.0);(0.4234875444839858,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end jDR5N3pO_relationship_d7d1;
+ 
+      Relationship jDR5N3pO_relationship_058e refer Relationship_Control_Flow
+        Role jDR5N3pO_fromrole_452c refer Role_Control_Flow_Source
+          annotation(
+            localLabel="Control Flow_Source",
+            shape="no"
+          );
+        end jDR5N3pO_fromrole_452c;
+         Role jDR5N3pO_torole_a130 refer Role_Control_Flow_Target
+          annotation(
+            localLabel="Control Flow_Target",
+            shape="arrowShape"
+          );
+        end jDR5N3pO_torole_a130;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-33,-10),
+          shape="dashLine",
+          endLocation=(278,455;325,1261),
+          polylineLocation="[8,0,0,-367]$[8,367,0,0];(0.5,1.0);(0.36298932384341637,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end jDR5N3pO_relationship_058e;
+ 
+      Relationship jDR5N3pO_relationship_dec7 refer Relationship_Control_Flow
+        Role jDR5N3pO_fromrole_2e46 refer Role_Control_Flow_Source
+          annotation(
+            localLabel="Control Flow_Source",
+            shape="no"
+          );
+        end jDR5N3pO_fromrole_2e46;
+         Role jDR5N3pO_torole_fef0 refer Role_Control_Flow_Target
+          annotation(
+            localLabel="Control Flow_Target",
+            shape="arrowShape"
+          );
+        end jDR5N3pO_torole_fef0;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-76,-10),
+          shape="dashLine",
+          endLocation=(284,455;197,1779),
+          polylineLocation="[14,0,0,-626]$[14,626,0,0];(0.13285024154589373,1.0);(0.3202846975088968,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end jDR5N3pO_relationship_dec7;
+ 
+      Relationship jDR5N3pO_relationship_793e refer Relationship_Control_Flow
+        Role jDR5N3pO_fromrole_5fb8 refer Role_Control_Flow_Source
+          annotation(
+            localLabel="Control Flow_Source",
+            shape="no"
+          );
+        end jDR5N3pO_fromrole_5fb8;
+         Role jDR5N3pO_torole_a556 refer Role_Control_Flow_Target
+          annotation(
+            localLabel="Control Flow_Target",
+            shape="arrowShape"
+          );
+        end jDR5N3pO_torole_a556;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(99,-6),
+          shape="dashLine",
+          endLocation=(182,1153;190,1810),
+          polylineLocation="[-1,0,-8,-279]$[-1,279,-8,0];(0.5516014234875445,1.0);(0.5480427046263345,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end jDR5N3pO_relationship_793e;
+ 
+    Connect(connector(jDR5N3pO_object_03aa,jDR5N3pO_relationship_0eb5.jDR5N3pO_fromrole_256c),connector(jDR5N3pO_object_7425,jDR5N3pO_relationship_0eb5.jDR5N3pO_torole_d4c9));
+ 
+    Connect(connector(jDR5N3pO_object_7425,jDR5N3pO_relationship_e9bd.jDR5N3pO_fromrole_8b5f),connector(jDR5N3pO_object_34ec,jDR5N3pO_relationship_e9bd.jDR5N3pO_torole_fd01));
+ 
+    Connect(connector(jDR5N3pO_object_34ec,jDR5N3pO_relationship_e97e.jDR5N3pO_fromrole_e330),connector(jDR5N3pO_object_7425_3b32,jDR5N3pO_relationship_e97e.jDR5N3pO_torole_ea19));
+ 
+    Connect(connector(jDR5N3pO_object_7425_3b32,jDR5N3pO_relationship_d7d1.jDR5N3pO_fromrole_b711),connector(jDR5N3pO_object_34ec_f833,jDR5N3pO_relationship_d7d1.jDR5N3pO_torole_9cc1));
+ 
+    Connect(connector(jDR5N3pO_object_7425_3b32,jDR5N3pO_relationship_058e.jDR5N3pO_fromrole_452c),connector(jDR5N3pO_object_34ec_f833_069f,jDR5N3pO_relationship_058e.jDR5N3pO_torole_a130));
+ 
+    Connect(connector(jDR5N3pO_object_7425_3b32,jDR5N3pO_relationship_dec7.jDR5N3pO_fromrole_2e46),connector(jDR5N3pO_object_34ec_f833_069f_8eac,jDR5N3pO_relationship_dec7.jDR5N3pO_torole_fef0));
+ 
+    Connect(connector(jDR5N3pO_object_34ec_f833_069f_8eac,jDR5N3pO_relationship_793e.jDR5N3pO_fromrole_5fb8),connector(jDR5N3pO_object_34ec_f833_069f_8eac_331d,jDR5N3pO_relationship_793e.jDR5N3pO_torole_a556));
+ 
+
+      annotation(
+        localLabel="Section-Act-ground deceleration-Aviator",
+        SDIdentification="",
+    );
+   end jDR5N3pO;

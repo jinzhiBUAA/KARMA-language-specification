@@ -1,0 +1,31 @@
+   partial Graph Diagram_Parameter
+    Object Object_Constraint_Property;
+    Object Object_Part_Property;
+    Object Object_Value_Porperty;
+    Relationship Relationship_Connector;
+    Constraint (
+    bind connector(Object_Value_Porperty,Relationship_Connector.Role_Connector_Source),
+    bind connector(Object_Part_Property.Object_Part_Property_Point_Power_Port_d0e49d,Relationship_Connector.Role_Connector_Source),
+    bind connector(Object_Constraint_Property,Relationship_Connector.Role_Connector_Source),
+    bind connector(Object_Part_Property,Relationship_Connector.Role_Connector_Source),
+    bind connector(Object_Part_Property.Object_Part_Property_Point_Signal_Port_ec5c7d,Relationship_Connector.Role_Connector_Source),
+    bind connector(Object_Part_Property.Object_Part_Property_Point_Control_Port_7eee9d,Relationship_Connector.Role_Connector_Source),
+    bind connector(Object_Part_Property.Object_Part_Property_Point_Mechanical_Port_3e5275,Relationship_Connector.Role_Connector_Source),
+    bind connector(Object_Constraint_Property.Object_Constraint_Property_Point_Parameter_Port_f83ecd,Relationship_Connector.Role_Connector_Source),
+    bind connector(Object_Value_Porperty,Relationship_Connector.Role_Connector_Target),
+    bind connector(Object_Part_Property.Object_Part_Property_Point_Power_Port_d0e49d,Relationship_Connector.Role_Connector_Target),
+    bind connector(Object_Constraint_Property,Relationship_Connector.Role_Connector_Target),
+    bind connector(Object_Part_Property,Relationship_Connector.Role_Connector_Target),
+    bind connector(Object_Part_Property.Object_Part_Property_Point_Signal_Port_ec5c7d,Relationship_Connector.Role_Connector_Target),
+    bind connector(Object_Part_Property.Object_Part_Property_Point_Control_Port_7eee9d,Relationship_Connector.Role_Connector_Target),
+    bind connector(Object_Part_Property.Object_Part_Property_Point_Mechanical_Port_3e5275,Relationship_Connector.Role_Connector_Target),
+    bind connector(Object_Constraint_Property.Object_Constraint_Property_Point_Parameter_Port_f83ecd,Relationship_Connector.Role_Connector_Target),
+    Object_Part_Property.explode(Diagram_Parameter),
+    Object_Part_Property.decompose(Diagram_Parameter),
+    );
+    annotation(
+        localLabel="Parameter Diagram",
+        type = diagram,
+        description="",
+       );
+        end Diagram_Parameter;

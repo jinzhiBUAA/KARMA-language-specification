@@ -1,0 +1,974 @@
+    partial Model model_Diagram_Internal_Block_ab8e6 instanceof Diagram_Internal_Block
+    
+      Object model_Diagram_Internal_Block_ab8e6_object_9ea4 refer Object_Part_Property
+        Property model_Diagram_Internal_Block_ab8e6_object_9ea4_property_4c36 = "open space sensor system" refer Object_Part_Property_Property_Name_6d5867 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Internal_Block_ab8e6_object_9ea4_property_3671 = "Open space sensor system" refer Object_Part_Property_Property_Type_ee68ab annotation(localLabel = "Type",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      Point model_Diagram_Internal_Block_ab8e6_object_9ea4_undirected_28da refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Flight position signal port",
+         labelLocation=(-174,0),
+		 initialLocation=(363,112,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_9ea4_undirected_28da;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_9ea4_undirected_2462 refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Flight position signal port",
+         labelLocation=(-174,0),
+		 initialLocation=(363,154,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_9ea4_undirected_2462;
+ 
+      
+        annotation(
+          initialLocation=(350,252,373,198),
+          localLabel="Open space sensor system",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Internal_Block_ab8e6_object_9ea4;
+
+      Object model_Diagram_Internal_Block_ab8e6_object_92f7 refer Object_Part_Property
+        Property model_Diagram_Internal_Block_ab8e6_object_92f7_property_6e24 = "aviator" refer Object_Part_Property_Property_Name_6d5867 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Internal_Block_ab8e6_object_92f7_property_0de0 = "Aviator" refer Object_Part_Property_Property_Type_ee68ab annotation(localLabel = "Type",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      Point model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_56f5 refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Flight position signal port",
+         labelLocation=(21,0),
+		 initialLocation=(-12,105,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_56f5;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_91aa refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Take-off/Landing request command port",
+         labelLocation=(-277,0),
+		 initialLocation=(357,74,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_91aa;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_2f29 refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Feedback allowed/rejected command port",
+         labelLocation=(-286,0),
+		 initialLocation=(357,126,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_2f29;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_85dc refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Commands port",
+         labelLocation=(21,0),
+		 initialLocation=(-12,147,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_85dc;
+ 
+      
+        annotation(
+          initialLocation=(952,301,366,178),
+          localLabel="Aviator",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Internal_Block_ab8e6_object_92f7;
+
+      Object model_Diagram_Internal_Block_ab8e6_object_92f7_90a8 refer Object_Part_Property
+        Property model_Diagram_Internal_Block_ab8e6_object_92f7_property_6e24_5323 = "ground monitoring system" refer Object_Part_Property_Property_Name_6d5867 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Internal_Block_ab8e6_object_92f7_property_0de0_4cda = "Ground monitoring system" refer Object_Part_Property_Property_Type_ee68ab annotation(localLabel = "Type",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      Point model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_56f5_6609 refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Operating status signal port",
+         labelLocation=(-83,-21),
+		 initialLocation=(352,364,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_56f5_6609;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_92f7_90a8_undirected_3417 refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Flight position signal port",
+         labelLocation=(21,0),
+		 initialLocation=(-12,84,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_92f7_90a8_undirected_3417;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_92f7_90a8_undirected_1613 refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Take-off/Landing request command port",
+         labelLocation=(21,0),
+		 initialLocation=(-12,259,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_92f7_90a8_undirected_1613;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_92f7_90a8_undirected_f1be refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Feedback allowed/rejected command port",
+         labelLocation=(21,0),
+		 initialLocation=(-12,315,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_92f7_90a8_undirected_f1be;
+ 
+      
+        annotation(
+          initialLocation=(1652,112,465,374),
+          localLabel="Ground monitoring system",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Internal_Block_ab8e6_object_92f7_90a8;
+
+      Object model_Diagram_Internal_Block_ab8e6_object_34ff refer Object_Part_Property
+        Property model_Diagram_Internal_Block_ab8e6_object_34ff_property_608b = "flight control system" refer Object_Part_Property_Property_Name_6d5867 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Internal_Block_ab8e6_object_34ff_property_b2d5 = "Flight control system" refer Object_Part_Property_Property_Type_ee68ab annotation(localLabel = "Type",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      Point model_Diagram_Internal_Block_ab8e6_object_34ff_undirected_def6 refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Commands port",
+         labelLocation=(21,0),
+		 initialLocation=(-12,91,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_34ff_undirected_def6;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_34ff_undirected_44ab refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Commands port",
+         labelLocation=(-109,0),
+		 initialLocation=(363,126,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_34ff_undirected_44ab;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_34ff_undirected_7021 refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Commands port",
+         labelLocation=(-44,-21),
+		 initialLocation=(363,34,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_34ff_undirected_7021;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_34ff_undirected_57ab refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Commands port",
+         labelLocation=(-109,0),
+		 initialLocation=(363,78,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_34ff_undirected_57ab;
+ 
+      
+        annotation(
+          initialLocation=(350,560,373,178),
+          localLabel="Flight control system",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Internal_Block_ab8e6_object_34ff;
+
+      Object model_Diagram_Internal_Block_ab8e6_object_32e8 refer Object_Part_Property
+        Property model_Diagram_Internal_Block_ab8e6_object_32e8_property_e030 = "energy supply system" refer Object_Part_Property_Property_Name_6d5867 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Internal_Block_ab8e6_object_32e8_property_1cad = "Energy supply system" refer Object_Part_Property_Property_Type_ee68ab annotation(localLabel = "Type",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      Point model_Diagram_Internal_Block_ab8e6_object_32e8_undirected_1506 refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Hydraulic power port",
+         labelLocation=(21,0),
+		 initialLocation=(-12,161,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_32e8_undirected_1506;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_32e8_undirected_668d refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Commands Port",
+         labelLocation=(21,0),
+		 initialLocation=(-12,7,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_32e8_undirected_668d;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_32e8_undirected_89cc refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Hydrualic power port",
+         labelLocation=(-143,0),
+		 initialLocation=(518,161,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_32e8_undirected_89cc;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_32e8_undirected_eb37 refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Mechanical power port",
+         labelLocation=(-157,0),
+		 initialLocation=(518,105,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_32e8_undirected_eb37;
+ 
+      
+        annotation(
+          initialLocation=(871,679,528,226),
+          localLabel="Energy supply system",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Internal_Block_ab8e6_object_32e8;
+
+      Object model_Diagram_Internal_Block_ab8e6_object_03f2 refer Object_Part_Property
+        Property model_Diagram_Internal_Block_ab8e6_object_03f2_property_2e45 = "fuselage" refer Object_Part_Property_Property_Name_6d5867 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Internal_Block_ab8e6_object_03f2_property_bc7c = "Fuselage" refer Object_Part_Property_Property_Type_ee68ab annotation(localLabel = "Type",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      Point model_Diagram_Internal_Block_ab8e6_object_03f2_undirected_0682 refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Mechanical power port",
+         labelLocation=(21,0),
+		 initialLocation=(-12,149,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_03f2_undirected_0682;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_03f2_undirected_231c refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Hydrualic power port",
+         labelLocation=(21,0),
+		 initialLocation=(-12,205,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_03f2_undirected_231c;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_03f2_undirected_a4f1 refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Commands port",
+         labelLocation=(21,0),
+		 initialLocation=(-12,1,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_03f2_undirected_a4f1;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_03f2_undirected_89f8 refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Mechanical power port",
+         labelLocation=(-68,-21),
+		 initialLocation=(101,342,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_03f2_undirected_89f8;
+ 
+      
+        annotation(
+          initialLocation=(1652,637,338,352),
+          localLabel="Fuslage",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Internal_Block_ab8e6_object_03f2;
+
+      Object model_Diagram_Internal_Block_ab8e6_object_25d9 refer Object_Part_Property
+        Property model_Diagram_Internal_Block_ab8e6_object_25d9_property_e545 = "landing gear system" refer Object_Part_Property_Property_Name_6d5867 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Internal_Block_ab8e6_object_25d9_property_e81a = "Landing gear system" refer Object_Part_Property_Property_Type_ee68ab annotation(localLabel = "Type",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      Point model_Diagram_Internal_Block_ab8e6_object_25d9_undirected_92ec refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Hydraulic power port",
+         labelLocation=(-143,0),
+		 initialLocation=(363,77,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_25d9_undirected_92ec;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_25d9_undirected_bd66 refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Commands port",
+         labelLocation=(21,0),
+		 initialLocation=(-12,98,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_25d9_undirected_bd66;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_25d9_undirected_5f8b refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Mechanical power port",
+         labelLocation=(-157,0),
+		 initialLocation=(363,147,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_25d9_undirected_5f8b;
+ 
+      Point model_Diagram_Internal_Block_ab8e6_object_25d9_undirected_034d refer Object_Part_Property_Point_Signal_Port_ec5c7d
+      annotation(
+         localLabel="Operating status signal port",
+         labelLocation=(-188,0),
+		 initialLocation=(363,217,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Diagram_Internal_Block_ab8e6_object_25d9_undirected_034d;
+ 
+      
+        annotation(
+          initialLocation=(350,861,373,248),
+          localLabel="Landing gear system",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Internal_Block_ab8e6_object_25d9;
+
+      Relationship model_Diagram_Internal_Block_ab8e6_relationship_1fb6 refer Relationship_Connector
+        Role model_Diagram_Internal_Block_ab8e6_fromrole_f752 refer Role_Connector_Source
+          annotation(
+            localLabel="Connector_Source",
+            shape="no"
+          );
+        end model_Diagram_Internal_Block_ab8e6_fromrole_f752;
+         Role model_Diagram_Internal_Block_ab8e6_torole_d5c2 refer Role_Connector_Target
+          annotation(
+            localLabel="Connector_Target",
+            shape="solidArrow"
+          );
+        end model_Diagram_Internal_Block_ab8e6_torole_d5c2;
+       
+        annotation(
+          localLabel="Flight position signal",
+          labelLocation=(-1,-10),
+          shape="solidLine",
+          endLocation=(535,355;1342,394),
+          polylineLocation="[-1,4,-208,4]$[207,4,0,4];(1.0,0.5);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Internal_Block_ab8e6_relationship_1fb6;
+ 
+      Relationship model_Diagram_Internal_Block_ab8e6_relationship_bc29 refer Relationship_Connector
+        Role model_Diagram_Internal_Block_ab8e6_fromrole_92fc refer Role_Connector_Source
+          annotation(
+            localLabel="Connector_Source",
+            shape="no"
+          );
+        end model_Diagram_Internal_Block_ab8e6_fromrole_92fc;
+         Role model_Diagram_Internal_Block_ab8e6_torole_768b refer Role_Connector_Target
+          annotation(
+            localLabel="Connector_Target",
+            shape="solidArrow"
+          );
+        end model_Diagram_Internal_Block_ab8e6_torole_768b;
+       
+        annotation(
+          localLabel="Flight position signal",
+          labelLocation=(-39,-18),
+          shape="solidLine",
+          endLocation=(535,351;2791,138),
+          polylineLocation="[-1,0,-908,161]$[43,0,-864,161]$[43,-161,-864,0]$[907,-161,0,0];(1.0,0.35);(0.0,0.7)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Internal_Block_ab8e6_relationship_bc29;
+ 
+      Relationship model_Diagram_Internal_Block_ab8e6_relationship_0dfb refer Relationship_Connector
+        Role model_Diagram_Internal_Block_ab8e6_fromrole_afb0 refer Role_Connector_Source
+          annotation(
+            localLabel="Connector_Source",
+            shape="no"
+          );
+        end model_Diagram_Internal_Block_ab8e6_fromrole_afb0;
+         Role model_Diagram_Internal_Block_ab8e6_torole_536f refer Role_Connector_Target
+          annotation(
+            localLabel="Connector_Target",
+            shape="solidArrow"
+          );
+        end model_Diagram_Internal_Block_ab8e6_torole_536f;
+       
+        annotation(
+          localLabel="Feedback allowed/rejected command",
+          labelLocation=(4,-21),
+          shape="solidLine",
+          endLocation=(1884,299;822,390),
+          polylineLocation="[0,0,312,0]$[-313,0,-1,0];(0.0,0.45);(1.0,0.45)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Internal_Block_ab8e6_relationship_0dfb;
+ 
+      Relationship model_Diagram_Internal_Block_ab8e6_relationship_a75a refer Relationship_Connector
+        Role model_Diagram_Internal_Block_ab8e6_fromrole_5fad refer Role_Connector_Source
+          annotation(
+            localLabel="Connector_Source",
+            shape="no"
+          );
+        end model_Diagram_Internal_Block_ab8e6_fromrole_5fad;
+         Role model_Diagram_Internal_Block_ab8e6_torole_da1b refer Role_Connector_Target
+          annotation(
+            localLabel="Connector_Target",
+            shape="solidArrow"
+          );
+        end model_Diagram_Internal_Block_ab8e6_torole_da1b;
+       
+        annotation(
+          localLabel="Take-off/Landing request command",
+          labelLocation=(-8,-20),
+          shape="solidLine",
+          endLocation=(1134,390;2196,299),
+          polylineLocation="[-1,0,-313,0]$[312,0,0,0];(1.0,0.25);(0.0,0.45)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Internal_Block_ab8e6_relationship_a75a;
+ 
+      Relationship model_Diagram_Internal_Block_ab8e6_relationship_8e48 refer Relationship_Connector
+        Role model_Diagram_Internal_Block_ab8e6_fromrole_cec9 refer Role_Connector_Source
+          annotation(
+            localLabel="Connector_Source",
+            shape="no"
+          );
+        end model_Diagram_Internal_Block_ab8e6_fromrole_cec9;
+         Role model_Diagram_Internal_Block_ab8e6_torole_acac refer Role_Connector_Target
+          annotation(
+            localLabel="Connector_Target",
+            shape="solidArrow"
+          );
+        end model_Diagram_Internal_Block_ab8e6_torole_acac;
+       
+        annotation(
+          localLabel="Commands",
+          labelLocation=(3,-54),
+          shape="solidLine",
+          endLocation=(1135,390;329,803),
+          polylineLocation="[0,0,207,-154]$[-104,0,103,-154]$[-104,154,103,0]$[-207,154,0,0];(0.0,0.35);(1.0,0.75)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Internal_Block_ab8e6_relationship_8e48;
+ 
+      Relationship model_Diagram_Internal_Block_ab8e6_relationship_818b refer Relationship_Connector
+        Role model_Diagram_Internal_Block_ab8e6_fromrole_e24b refer Role_Connector_Source
+          annotation(
+            localLabel="Connector_Source",
+            shape="no"
+          );
+        end model_Diagram_Internal_Block_ab8e6_fromrole_e24b;
+         Role model_Diagram_Internal_Block_ab8e6_torole_4866 refer Role_Connector_Target
+          annotation(
+            localLabel="Connector_Target",
+            shape="solidArrow"
+          );
+        end model_Diagram_Internal_Block_ab8e6_torole_4866;
+       
+        annotation(
+          localLabel="Mechanical power",
+          labelLocation=(11,-8),
+          shape="solidLine",
+          endLocation=(1134,792;2052,813),
+          polylineLocation="[-1,0,-232,-2]$[231,0,0,-2];(1.0,0.5);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Internal_Block_ab8e6_relationship_818b;
+ 
+      Relationship model_Diagram_Internal_Block_ab8e6_relationship_2234 refer Relationship_Connector
+        Role model_Diagram_Internal_Block_ab8e6_fromrole_e087 refer Role_Connector_Source
+          annotation(
+            localLabel="Connector_Source",
+            shape="no"
+          );
+        end model_Diagram_Internal_Block_ab8e6_fromrole_e087;
+         Role model_Diagram_Internal_Block_ab8e6_torole_d76f refer Role_Connector_Target
+          annotation(
+            localLabel="Connector_Target",
+            shape="solidArrow"
+          );
+        end model_Diagram_Internal_Block_ab8e6_torole_d76f;
+       
+        annotation(
+          localLabel="Hydrualic power",
+          labelLocation=(11,-8),
+          shape="solidLine",
+          endLocation=(1134,792;2052,813),
+          polylineLocation="[-1,0,-232,-2]$[231,0,0,-2];(1.0,0.5);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Internal_Block_ab8e6_relationship_2234;
+ 
+      Relationship model_Diagram_Internal_Block_ab8e6_relationship_f738 refer Relationship_Connector
+        Role model_Diagram_Internal_Block_ab8e6_fromrole_070c refer Role_Connector_Source
+          annotation(
+            localLabel="Connector_Source",
+            shape="no"
+          );
+        end model_Diagram_Internal_Block_ab8e6_fromrole_070c;
+         Role model_Diagram_Internal_Block_ab8e6_torole_94f0 refer Role_Connector_Target
+          annotation(
+            localLabel="Connector_Target",
+            shape="solidArrow"
+          );
+        end model_Diagram_Internal_Block_ab8e6_torole_94f0;
+       
+        annotation(
+          localLabel="Commands",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(536,649;1261,792),
+          polylineLocation="[0,0,-126,0]$[126,0,0,0];(1.0,0.5);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Internal_Block_ab8e6_relationship_f738;
+ 
+      Relationship model_Diagram_Internal_Block_ab8e6_relationship_e051 refer Relationship_Connector
+        Role model_Diagram_Internal_Block_ab8e6_fromrole_568a refer Role_Connector_Source
+          annotation(
+            localLabel="Connector_Source",
+            shape="no"
+          );
+        end model_Diagram_Internal_Block_ab8e6_fromrole_568a;
+         Role model_Diagram_Internal_Block_ab8e6_torole_575a refer Role_Connector_Target
+          annotation(
+            localLabel="Connector_Target",
+            shape="solidArrow"
+          );
+        end model_Diagram_Internal_Block_ab8e6_torole_575a;
+       
+        annotation(
+          localLabel="Commands",
+          labelLocation=(11,-8),
+          shape="solidLine",
+          endLocation=(535,647;2728,811),
+          polylineLocation="[-1,-2,-908,4]$[907,-2,0,4];(1.0,0.5);(0.0,0.2)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Internal_Block_ab8e6_relationship_e051;
+ 
+      Relationship model_Diagram_Internal_Block_ab8e6_relationship_6bc5 refer Relationship_Connector
+        Role model_Diagram_Internal_Block_ab8e6_fromrole_1fd6 refer Role_Connector_Source
+          annotation(
+            localLabel="Connector_Source",
+            shape="no"
+          );
+        end model_Diagram_Internal_Block_ab8e6_fromrole_1fd6;
+         Role model_Diagram_Internal_Block_ab8e6_torole_7e8f refer Role_Connector_Target
+          annotation(
+            localLabel="Connector_Target",
+            shape="solidArrow"
+          );
+        end model_Diagram_Internal_Block_ab8e6_torole_7e8f;
+       
+        annotation(
+          localLabel="Operating status signal",
+          labelLocation=(-7,-10),
+          shape="solidLine",
+          endLocation=(535,985;3167,-291),
+          polylineLocation="[-1,0,-1272,609]$[1283,0,12,609]$[1283,-590,12,19];(1.0,0.35);(0.0,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Internal_Block_ab8e6_relationship_6bc5;
+ 
+      Relationship model_Diagram_Internal_Block_ab8e6_relationship_3de0 refer Relationship_Connector
+        Role model_Diagram_Internal_Block_ab8e6_fromrole_a084 refer Role_Connector_Source
+          annotation(
+            localLabel="Connector_Source",
+            shape="no"
+          );
+        end model_Diagram_Internal_Block_ab8e6_fromrole_a084;
+         Role model_Diagram_Internal_Block_ab8e6_torole_bf25 refer Role_Connector_Target
+          annotation(
+            localLabel="Connector_Target",
+            shape="solidArrow"
+          );
+        end model_Diagram_Internal_Block_ab8e6_torole_bf25;
+       
+        annotation(
+          localLabel="Hydraulic power",
+          labelLocation=(-78,6),
+          shape="solidLine",
+          endLocation=(1135,792;410,1090),
+          polylineLocation="[0,0,126,-105]$[-63,0,63,-105]$[-63,105,63,0]$[-126,105,0,0];(0.0,0.35);(1.0,0.7)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Internal_Block_ab8e6_relationship_3de0;
+ 
+      Relationship model_Diagram_Internal_Block_ab8e6_relationship_10cc refer Relationship_Connector
+        Role model_Diagram_Internal_Block_ab8e6_fromrole_aa20 refer Role_Connector_Source
+          annotation(
+            localLabel="Connector_Source",
+            shape="no"
+          );
+        end model_Diagram_Internal_Block_ab8e6_fromrole_aa20;
+         Role model_Diagram_Internal_Block_ab8e6_torole_d8b8 refer Role_Connector_Target
+          annotation(
+            localLabel="Connector_Target",
+            shape="solidArrow"
+          );
+        end model_Diagram_Internal_Block_ab8e6_torole_d8b8;
+       
+        annotation(
+          localLabel="Mechanical power",
+          labelLocation=(-2,-10),
+          shape="solidLine",
+          endLocation=(535,992;2852,796),
+          polylineLocation="[-1,7,-1021,28]$[1031,7,11,28]$[1031,-17,11,4];(1.0,0.35);(0.0,0.75)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Internal_Block_ab8e6_relationship_10cc;
+ 
+      Relationship model_Diagram_Internal_Block_ab8e6_relationship_3fe7 refer Relationship_Connector
+        Role model_Diagram_Internal_Block_ab8e6_fromrole_37ed refer Role_Connector_Source
+          annotation(
+            localLabel="Connector_Source",
+            shape="no"
+          );
+        end model_Diagram_Internal_Block_ab8e6_fromrole_37ed;
+         Role model_Diagram_Internal_Block_ab8e6_torole_53b5 refer Role_Connector_Target
+          annotation(
+            localLabel="Connector_Target",
+            shape="solidArrow"
+          );
+        end model_Diagram_Internal_Block_ab8e6_torole_53b5;
+       
+        annotation(
+          localLabel="Commands",
+          labelLocation=(-4,61),
+          shape="solidLine",
+          endLocation=(527,639;527,1283),
+          polylineLocation="[-9,-10,-9,-298]$[-54,-10,-54,-298]$[-54,298,-54,10]$[-9,298,-9,10];(0.45,1.0);(0.45,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Internal_Block_ab8e6_relationship_3fe7;
+ 
+    Connect(connector(model_Diagram_Internal_Block_ab8e6_object_9ea4.model_Diagram_Internal_Block_ab8e6_object_9ea4_undirected_2462,model_Diagram_Internal_Block_ab8e6_relationship_1fb6.model_Diagram_Internal_Block_ab8e6_fromrole_f752),connector(model_Diagram_Internal_Block_ab8e6_object_92f7.model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_56f5,model_Diagram_Internal_Block_ab8e6_relationship_1fb6.model_Diagram_Internal_Block_ab8e6_torole_d5c2));
+ 
+    Connect(connector(model_Diagram_Internal_Block_ab8e6_object_9ea4.model_Diagram_Internal_Block_ab8e6_object_9ea4_undirected_28da,model_Diagram_Internal_Block_ab8e6_relationship_bc29.model_Diagram_Internal_Block_ab8e6_fromrole_92fc),connector(model_Diagram_Internal_Block_ab8e6_object_92f7_90a8.model_Diagram_Internal_Block_ab8e6_object_92f7_90a8_undirected_3417,model_Diagram_Internal_Block_ab8e6_relationship_bc29.model_Diagram_Internal_Block_ab8e6_torole_768b));
+ 
+    Connect(connector(model_Diagram_Internal_Block_ab8e6_object_92f7_90a8.model_Diagram_Internal_Block_ab8e6_object_92f7_90a8_undirected_f1be,model_Diagram_Internal_Block_ab8e6_relationship_0dfb.model_Diagram_Internal_Block_ab8e6_fromrole_afb0),connector(model_Diagram_Internal_Block_ab8e6_object_92f7.model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_2f29,model_Diagram_Internal_Block_ab8e6_relationship_0dfb.model_Diagram_Internal_Block_ab8e6_torole_536f));
+ 
+    Connect(connector(model_Diagram_Internal_Block_ab8e6_object_92f7.model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_91aa,model_Diagram_Internal_Block_ab8e6_relationship_a75a.model_Diagram_Internal_Block_ab8e6_fromrole_5fad),connector(model_Diagram_Internal_Block_ab8e6_object_92f7_90a8.model_Diagram_Internal_Block_ab8e6_object_92f7_90a8_undirected_1613,model_Diagram_Internal_Block_ab8e6_relationship_a75a.model_Diagram_Internal_Block_ab8e6_torole_da1b));
+ 
+    Connect(connector(model_Diagram_Internal_Block_ab8e6_object_92f7.model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_85dc,model_Diagram_Internal_Block_ab8e6_relationship_8e48.model_Diagram_Internal_Block_ab8e6_fromrole_cec9),connector(model_Diagram_Internal_Block_ab8e6_object_34ff.model_Diagram_Internal_Block_ab8e6_object_34ff_undirected_7021,model_Diagram_Internal_Block_ab8e6_relationship_8e48.model_Diagram_Internal_Block_ab8e6_torole_acac));
+ 
+    Connect(connector(model_Diagram_Internal_Block_ab8e6_object_32e8.model_Diagram_Internal_Block_ab8e6_object_32e8_undirected_eb37,model_Diagram_Internal_Block_ab8e6_relationship_818b.model_Diagram_Internal_Block_ab8e6_fromrole_e24b),connector(model_Diagram_Internal_Block_ab8e6_object_03f2.model_Diagram_Internal_Block_ab8e6_object_03f2_undirected_0682,model_Diagram_Internal_Block_ab8e6_relationship_818b.model_Diagram_Internal_Block_ab8e6_torole_4866));
+ 
+    Connect(connector(model_Diagram_Internal_Block_ab8e6_object_32e8.model_Diagram_Internal_Block_ab8e6_object_32e8_undirected_89cc,model_Diagram_Internal_Block_ab8e6_relationship_2234.model_Diagram_Internal_Block_ab8e6_fromrole_e087),connector(model_Diagram_Internal_Block_ab8e6_object_03f2.model_Diagram_Internal_Block_ab8e6_object_03f2_undirected_231c,model_Diagram_Internal_Block_ab8e6_relationship_2234.model_Diagram_Internal_Block_ab8e6_torole_d76f));
+ 
+    Connect(connector(model_Diagram_Internal_Block_ab8e6_object_34ff.model_Diagram_Internal_Block_ab8e6_object_34ff_undirected_44ab,model_Diagram_Internal_Block_ab8e6_relationship_f738.model_Diagram_Internal_Block_ab8e6_fromrole_070c),connector(model_Diagram_Internal_Block_ab8e6_object_32e8.model_Diagram_Internal_Block_ab8e6_object_32e8_undirected_668d,model_Diagram_Internal_Block_ab8e6_relationship_f738.model_Diagram_Internal_Block_ab8e6_torole_94f0));
+ 
+    Connect(connector(model_Diagram_Internal_Block_ab8e6_object_34ff.model_Diagram_Internal_Block_ab8e6_object_34ff_undirected_57ab,model_Diagram_Internal_Block_ab8e6_relationship_e051.model_Diagram_Internal_Block_ab8e6_fromrole_568a),connector(model_Diagram_Internal_Block_ab8e6_object_03f2.model_Diagram_Internal_Block_ab8e6_object_03f2_undirected_a4f1,model_Diagram_Internal_Block_ab8e6_relationship_e051.model_Diagram_Internal_Block_ab8e6_torole_575a));
+ 
+    Connect(connector(model_Diagram_Internal_Block_ab8e6_object_25d9.model_Diagram_Internal_Block_ab8e6_object_25d9_undirected_034d,model_Diagram_Internal_Block_ab8e6_relationship_6bc5.model_Diagram_Internal_Block_ab8e6_fromrole_1fd6),connector(model_Diagram_Internal_Block_ab8e6_object_92f7_90a8.model_Diagram_Internal_Block_ab8e6_object_92f7_undirected_56f5_6609,model_Diagram_Internal_Block_ab8e6_relationship_6bc5.model_Diagram_Internal_Block_ab8e6_torole_7e8f));
+ 
+    Connect(connector(model_Diagram_Internal_Block_ab8e6_object_32e8.model_Diagram_Internal_Block_ab8e6_object_32e8_undirected_1506,model_Diagram_Internal_Block_ab8e6_relationship_3de0.model_Diagram_Internal_Block_ab8e6_fromrole_a084),connector(model_Diagram_Internal_Block_ab8e6_object_25d9.model_Diagram_Internal_Block_ab8e6_object_25d9_undirected_92ec,model_Diagram_Internal_Block_ab8e6_relationship_3de0.model_Diagram_Internal_Block_ab8e6_torole_bf25));
+ 
+    Connect(connector(model_Diagram_Internal_Block_ab8e6_object_25d9.model_Diagram_Internal_Block_ab8e6_object_25d9_undirected_5f8b,model_Diagram_Internal_Block_ab8e6_relationship_10cc.model_Diagram_Internal_Block_ab8e6_fromrole_aa20),connector(model_Diagram_Internal_Block_ab8e6_object_03f2.model_Diagram_Internal_Block_ab8e6_object_03f2_undirected_89f8,model_Diagram_Internal_Block_ab8e6_relationship_10cc.model_Diagram_Internal_Block_ab8e6_torole_d8b8));
+ 
+    Connect(connector(model_Diagram_Internal_Block_ab8e6_object_34ff.model_Diagram_Internal_Block_ab8e6_object_34ff_undirected_def6,model_Diagram_Internal_Block_ab8e6_relationship_3fe7.model_Diagram_Internal_Block_ab8e6_fromrole_37ed),connector(model_Diagram_Internal_Block_ab8e6_object_25d9.model_Diagram_Internal_Block_ab8e6_object_25d9_undirected_bd66,model_Diagram_Internal_Block_ab8e6_relationship_3fe7.model_Diagram_Internal_Block_ab8e6_torole_53b5));
+ 
+
+      annotation(
+        localLabel="IBD-System Context",
+        SDIdentification="",
+    );
+    
+   end model_Diagram_Internal_Block_ab8e6;

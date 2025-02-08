@@ -1,0 +1,19 @@
+   Object Object_Interface_Block
+      initial Property  Object_Interface_Block_Property_Name_ca0dee = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Interface_Block_Property_Is_Encapsulated_b6802d = false extends Property_Is_Encapsulated annotation(localLabel ="是否封装");
+      initial Property  Object_Interface_Block_Property_Is_Abstract_0ac7dc = false extends Property_Is_Abstract annotation(localLabel ="是否抽象");
+      initial Property  Object_Interface_Block_Property_To_Do_c8f936 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      Undirected Point Object_Interface_Block_Point_Proxy_Port_2a94e8 extends Point_Proxy_Port annotation (localLabel ="代理端口");
+      Undirected Point Object_Interface_Block_Point_Full_Port_7b4ee7 extends Point_Full_Port annotation (localLabel ="完整端口");
+      Undirected Point Object_Interface_Block_Point_Port_abb203 extends Point_Port annotation (localLabel ="端口");
+      Undirected Point Object_Interface_Block_Point_Flow_Port_2148ee extends Point_Flow_Port annotation (localLabel ="流端口");
+   annotation(
+      localLabel="接口模块",
+      description="",
+      icon="接口模块.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      );
+   end Object_Interface_Block;
+ 

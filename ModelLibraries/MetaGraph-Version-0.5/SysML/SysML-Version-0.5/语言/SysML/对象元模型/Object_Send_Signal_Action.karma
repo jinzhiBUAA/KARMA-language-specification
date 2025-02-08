@@ -1,0 +1,17 @@
+   Object Object_Send_Signal_Action
+      initial Property  Object_Send_Signal_Action_Property_Name_c68aa5 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Send_Signal_Action_Property_Signal_ef7329 = "null" extends Property_Signal annotation(localLabel ="信号");
+      initial Property  Object_Send_Signal_Action_Property_On_Port_89be7c = "null" extends Property_On_Port annotation(localLabel ="处于端口");
+      Input Point Object_Send_Signal_Action_Point_Input_Pin_c12aa2 extends Point_Input_Pin annotation (localLabel ="输入引脚");
+      Input Point Object_Send_Signal_Action_Point_Value_Pin_501f15 extends Point_Value_Pin annotation (localLabel ="值引脚");
+      Input Point Object_Send_Signal_Action_Point_Action_Input_Pin_375cb5 extends Point_Action_Input_Pin annotation (localLabel ="动作输入引脚");
+   annotation(
+      localLabel="发送信号动作",
+      description="",
+      icon="发送信号动作.png",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="固定语法-发送矩形.png",
+      );
+   end Object_Send_Signal_Action;
+ 

@@ -1,0 +1,144 @@
+    partial Model efXYn0bQ instanceof Diagram_Activity
+      Object efXYn0bQ_object_0f38 refer Object_Action
+        Property efXYn0bQ_object_0f38_property_cfce = "Confirm touchdown" refer Object_Action_Property_Name_a98dd6 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      Point efXYn0bQ_object_0f38_undirected_34ab refer Object_Action_Point_Signal_Port_31d8c5
+      annotation(
+         localLabel="WOW signal",
+         labelLocation=(-84,0),
+		 initialLocation=(-12,77,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",10,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end efXYn0bQ_object_0f38_undirected_34ab;
+ 
+        annotation(
+          initialLocation=(213,46,269,115),
+          localLabel="Action",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end efXYn0bQ_object_0f38;
+
+      Object efXYn0bQ_object_0f38_bc3a refer Object_Action
+        Property efXYn0bQ_object_0f38_property_cfce_b753 = "Supply power" refer Object_Action_Property_Name_a98dd6 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(220,471,269,115),
+          localLabel="Action",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end efXYn0bQ_object_0f38_bc3a;
+
+      Object efXYn0bQ_object_0f38_bc3a_ba38 refer Object_Action
+        Property efXYn0bQ_object_0f38_property_cfce_b753_8082 = "Complete power configuration" refer Object_Action_Property_Name_a98dd6 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(227,758,269,115),
+          localLabel="Action",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end efXYn0bQ_object_0f38_bc3a_ba38;
+
+      Relationship efXYn0bQ_relationship_f589 refer Relationship_Control_Flow
+        Role efXYn0bQ_fromrole_2137 refer Role_Control_Flow_Source
+          annotation(
+            localLabel="Control Flow_Source",
+            shape="no"
+          );
+        end efXYn0bQ_fromrole_2137;
+         Role efXYn0bQ_torole_f232 refer Role_Control_Flow_Target
+          annotation(
+            localLabel="Control Flow_Target",
+            shape="arrowShape"
+          );
+        end efXYn0bQ_torole_f232;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(44,-7),
+          shape="dashLine",
+          endLocation=(318,103;325,840),
+          polylineLocation="[-29,0,-16,-312]$[-29,312,-16,0];(0.602996254681648,1.0);(0.5280898876404494,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end efXYn0bQ_relationship_f589;
+ 
+      Relationship efXYn0bQ_relationship_0034 refer Relationship_Control_Flow
+        Role efXYn0bQ_fromrole_c3b5 refer Role_Control_Flow_Source
+          annotation(
+            localLabel="Control Flow_Source",
+            shape="no"
+          );
+        end efXYn0bQ_fromrole_c3b5;
+         Role efXYn0bQ_torole_95f9 refer Role_Control_Flow_Target
+          annotation(
+            localLabel="Control Flow_Target",
+            shape="arrowShape"
+          );
+        end efXYn0bQ_torole_95f9;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(10,5),
+          shape="dashLine",
+          endLocation=(290,528;297,989),
+          polylineLocation="[-64,0,-29,-174]$[-64,174,-29,0];(0.7078651685393258,1.0);(0.550561797752809,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end efXYn0bQ_relationship_0034;
+ 
+    Connect(connector(efXYn0bQ_object_0f38,efXYn0bQ_relationship_f589.efXYn0bQ_fromrole_2137),connector(efXYn0bQ_object_0f38_bc3a,efXYn0bQ_relationship_f589.efXYn0bQ_torole_f232));
+ 
+    Connect(connector(efXYn0bQ_object_0f38_bc3a,efXYn0bQ_relationship_0034.efXYn0bQ_fromrole_c3b5),connector(efXYn0bQ_object_0f38_bc3a_ba38,efXYn0bQ_relationship_0034.efXYn0bQ_torole_95f9));
+ 
+
+      annotation(
+        localLabel="Section-Act-ground deceleration-Energy supply system",
+        SDIdentification="",
+    );
+   end efXYn0bQ;

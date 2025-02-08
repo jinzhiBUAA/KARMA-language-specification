@@ -1,0 +1,144 @@
+    partial Model yfSIWh4F instanceof Diagram_Activity
+      Object pt6UiRYy_object_ce95_24d3_b08a refer Object_Action
+        Property pt6UiRYy_object_ce95_property_ba9b_00f0_b3d4 = "Confirm skidding status" refer Object_Action_Property_Name_a98dd6 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(15,108,220,94),
+          localLabel="Action",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end pt6UiRYy_object_ce95_24d3_b08a;
+
+      Object pt6UiRYy_object_5b6d_d6fb refer Object_Decision
+        Property pt6UiRYy_object_5b6d_property_8d00_de3d = "null" refer Object_Decision_Property_Name_f7d8ea annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(54,402,140,85),
+          localLabel="Decision",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end pt6UiRYy_object_5b6d_d6fb;
+
+      Object pt6UiRYy_object_ce95_24d3_b08a_f2ca refer Object_Action
+        Property pt6UiRYy_object_ce95_property_ba9b_00f0_b3d4_387b = "Adjust braking force" refer Object_Action_Property_Name_a98dd6 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      Point pt6UiRYy_object_ce95_24d3_b08a_f2ca_undirected_52e3 refer Object_Action_Point_Signal_Port_31d8c5
+      annotation(
+         localLabel="Braking force feedback signal",
+         labelLocation=(21,-7),
+		 initialLocation=(210,42,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",10,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end pt6UiRYy_object_ce95_24d3_b08a_f2ca_undirected_52e3;
+ 
+        annotation(
+          initialLocation=(15,773,220,94),
+          localLabel="Action",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end pt6UiRYy_object_ce95_24d3_b08a_f2ca;
+
+      Relationship yfSIWh4F_relationship_6631 refer Relationship_Control_Flow
+        Role yfSIWh4F_fromrole_3a42 refer Role_Control_Flow_Source
+          annotation(
+            localLabel="Control Flow_Source",
+            shape="no"
+          );
+        end yfSIWh4F_fromrole_3a42;
+         Role yfSIWh4F_torole_532f refer Role_Control_Flow_Target
+          annotation(
+            localLabel="Control Flow_Target",
+            shape="arrowShape"
+          );
+        end yfSIWh4F_torole_532f;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-77,-10),
+          shape="dashLine",
+          endLocation=(125,155;124,646),
+          polylineLocation="[0,0,0,-202]$[0,202,0,0];(0.5,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end yfSIWh4F_relationship_6631;
+ 
+      Relationship yfSIWh4F_relationship_9a1b refer Relationship_Control_Flow
+        Role yfSIWh4F_fromrole_2f9a refer Role_Control_Flow_Source
+          annotation(
+            localLabel="Control Flow_Source",
+            shape="no"
+          );
+        end yfSIWh4F_fromrole_2f9a;
+         Role yfSIWh4F_torole_605a refer Role_Control_Flow_Target
+          annotation(
+            localLabel="Control Flow_Target",
+            shape="arrowShape"
+          );
+        end yfSIWh4F_torole_605a;
+       
+        annotation(
+          localLabel="[skidding]",
+          labelLocation=(-8,2),
+          shape="dashLine",
+          endLocation=(123,444;124,1106),
+          polylineLocation="[-1,0,10,-286]$[-1,286,10,0];(0.5214285714285715,1.0);(0.463302752293578,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end yfSIWh4F_relationship_9a1b;
+ 
+    Connect(connector(pt6UiRYy_object_ce95_24d3_b08a,yfSIWh4F_relationship_6631.yfSIWh4F_fromrole_3a42),connector(pt6UiRYy_object_5b6d_d6fb,yfSIWh4F_relationship_6631.yfSIWh4F_torole_532f));
+ 
+    Connect(connector(pt6UiRYy_object_5b6d_d6fb,yfSIWh4F_relationship_9a1b.yfSIWh4F_fromrole_2f9a),connector(pt6UiRYy_object_ce95_24d3_b08a_f2ca,yfSIWh4F_relationship_9a1b.yfSIWh4F_torole_605a));
+ 
+
+      annotation(
+        localLabel="Section-Act-Active automatic braking-Anti-skid subsystem",
+        SDIdentification="",
+    );
+   end yfSIWh4F;

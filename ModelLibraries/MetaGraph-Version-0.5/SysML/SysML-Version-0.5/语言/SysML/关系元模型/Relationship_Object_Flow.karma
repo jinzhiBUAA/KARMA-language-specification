@@ -1,0 +1,16 @@
+   Relationship Relationship_Object_Flow
+      initial Property  Relationship_Object_Flow_Property_Name_966d77 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Object_Flow_Property_To_Do_e7bed1 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Relationship_Object_Flow_Property_Probability_196f14 = "null" extends Property_Probability annotation(localLabel ="概率");
+      initial Property  Relationship_Object_Flow_Property_Rate_4d85b7 = "null" extends Property_Rate annotation(localLabel ="速率");
+      initial Property  Relationship_Object_Flow_Property_Redefined_Edge_17c854 = "null" extends Property_Redefined_Edge annotation(localLabel ="重定义边");
+   Role Role_Source;
+   Role Role_Target;
+   annotation(
+      localLabel="对象流",
+      description="",
+      icon="对象流.png",
+      shape="solidLine",
+      );
+   end Relationship_Object_Flow;
+ 

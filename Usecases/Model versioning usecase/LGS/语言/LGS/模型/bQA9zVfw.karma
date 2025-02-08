@@ -1,0 +1,38 @@
+    partial Model bQA9zVfw instanceof Diagram_Activity
+      Object pt6UiRYy_object_ce95_24d3_b08a_f2ca_d5e6 refer Object_Action
+        Property pt6UiRYy_object_ce95_property_ba9b_00f0_b3d4_387b_c0ff = "Apply braking force" refer Object_Action_Property_Name_a98dd6 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      Point pt6UiRYy_object_ce95_24d3_b08a_f2ca_undirected_52e3_9cc4 refer Object_Action_Point_Signal_Port_31d8c5
+      annotation(
+         localLabel="Braking force feedback signal",
+         labelLocation=(-283,-7),
+		 initialLocation=(-12,56,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",10,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end pt6UiRYy_object_ce95_24d3_b08a_f2ca_undirected_52e3_9cc4;
+ 
+        annotation(
+          initialLocation=(325,771,220,94),
+          localLabel="Action",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end pt6UiRYy_object_ce95_24d3_b08a_f2ca_d5e6;
+
+
+      annotation(
+        localLabel="Section-Act-Active automatic braking-Wheel and brake subsystem",
+        SDIdentification="",
+    );
+   end bQA9zVfw;

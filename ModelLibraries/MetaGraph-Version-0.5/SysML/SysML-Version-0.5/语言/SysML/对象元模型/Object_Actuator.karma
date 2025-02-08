@@ -1,0 +1,15 @@
+   Object Object_Actuator
+      initial Property  Object_Actuator_Property_Name_7f4977 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Actuator_Property_Is_Abstract_032f47 = false extends Property_Is_Abstract annotation(localLabel ="是否抽象");
+      initial Property  Object_Actuator_Property_To_Do_ce02fb = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Actuator_Property_Owned_Behavior_d709a0 = "null" extends Property_Owned_Behavior annotation(localLabel ="拥有的行为");
+   annotation(
+      localLabel="执行器",
+      description="",
+      icon="执行器.png",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="固定语法-立方体.png",
+      );
+   end Object_Actuator;
+ 

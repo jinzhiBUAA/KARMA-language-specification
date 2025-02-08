@@ -1,0 +1,13 @@
+   Relationship Relationship_Refine
+      initial Property  Relationship_Refine_Property_Name_6d16ba = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Refine_Property_To_Do_d9e3df = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Client;
+   Role Role_Supplier;
+   annotation(
+      localLabel="细化",
+      description="",
+      icon="细化.png",
+      shape="dashLine",
+      );
+   end Relationship_Refine;
+ 

@@ -1,0 +1,280 @@
+    partial Model model_Diagram_Activity_8abad instanceof Diagram_Activity
+    
+      Object model_Diagram_Activity_8abad_object_9184 refer Object_Swimming_Lane
+        Property model_Diagram_Activity_8abad_object_9184_property_c002 = "Monitoring subsystem" refer Object_Swimming_Lane_Property_Name_cb9a93 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+    this.explode(pt6UiRYy);
+      
+        annotation(
+          initialLocation=(546,126,-1,-1),
+          localLabel="Monitoring subsystem",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="pt6UiRYy:(0,0,-1,-1)",
+        );
+      end model_Diagram_Activity_8abad_object_9184;
+
+      Object model_Diagram_Activity_8abad_object_9184_a9ca refer Object_Swimming_Lane
+        Property model_Diagram_Activity_8abad_object_9184_property_c002_3436 = "Anti-skid subsystem" refer Object_Swimming_Lane_Property_Name_cb9a93 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+    this.explode(yfSIWh4F);
+      
+        annotation(
+          initialLocation=(1110,126,-1,-1),
+          localLabel="Anti-skid subsystem",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="yfSIWh4F:(0,0,-1,-1)",
+        );
+      end model_Diagram_Activity_8abad_object_9184_a9ca;
+
+      Object model_Diagram_Activity_8abad_object_9184_a9ca_1d5b refer Object_Swimming_Lane
+        Property model_Diagram_Activity_8abad_object_9184_property_c002_3436_0b89 = "Wheel and brake subsystem" refer Object_Swimming_Lane_Property_Name_cb9a93 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+    this.explode(bQA9zVfw);
+      
+        annotation(
+          initialLocation=(1650,128,-1,-1),
+          localLabel="Wheel and brake subsystem",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="bQA9zVfw:(0,0,-1,-1)",
+        );
+      end model_Diagram_Activity_8abad_object_9184_a9ca_1d5b;
+
+      Object nKVBlf8O_object_2be2_16c7_3b47 refer Object_forkHorizontal
+      
+        annotation(
+          initialLocation=(70,294,463,43),
+          localLabel="Fork Horizontal",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end nKVBlf8O_object_2be2_16c7_3b47;
+
+      Object nKVBlf8O_object_2be2_16c7_3b47_8ccf refer Object_forkHorizontal
+      
+        annotation(
+          initialLocation=(2226,693,463,43),
+          localLabel="Fork Horizontal",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end nKVBlf8O_object_2be2_16c7_3b47_8ccf;
+
+      Relationship model_Diagram_Activity_8abad_relationship_1343 refer Relationship_Control_Flow
+        Role model_Diagram_Activity_8abad_fromrole_bf42 refer Role_Control_Flow_Source
+          annotation(
+            localLabel="Control Flow_Source",
+            shape="no"
+          );
+        end model_Diagram_Activity_8abad_fromrole_bf42;
+         Role model_Diagram_Activity_8abad_torole_1122 refer Role_Control_Flow_Target
+          annotation(
+            localLabel="Control Flow_Target",
+            shape="arrowShape"
+          );
+        end model_Diagram_Activity_8abad_torole_1122;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-5,-7),
+          shape="dashLine",
+          endLocation=(447,248;225,155),
+          polylineLocation="[0,0,-100,14]$[100,0,0,14];(1.0,0.285132382892057);(0.0,0.22826086956521738)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Activity_8abad_relationship_1343;
+ 
+      Relationship model_Diagram_Activity_8abad_relationship_ef3e refer Relationship_Control_Flow
+        Role model_Diagram_Activity_8abad_fromrole_a327 refer Role_Control_Flow_Source
+          annotation(
+            localLabel="Control Flow_Source",
+            shape="no"
+          );
+        end model_Diagram_Activity_8abad_fromrole_a327;
+         Role model_Diagram_Activity_8abad_torole_a069 refer Role_Control_Flow_Target
+          annotation(
+            localLabel="Control Flow_Target",
+            shape="arrowShape"
+          );
+        end model_Diagram_Activity_8abad_torole_a069;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-178,-10),
+          shape="dashLine",
+          endLocation=(447,248;1476,1546),
+          polylineLocation="[0,0,-1041,-728]$[1041,0,0,-728]$[1041,728,0,0];(1.0,0.0855397148676171);(0.41743119266055045,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Activity_8abad_relationship_ef3e;
+ 
+      Relationship model_Diagram_Activity_8abad_relationship_3e69 refer Relationship_Object_Flow
+        Role model_Diagram_Activity_8abad_fromrole_a330 refer Role_Object_Flow_Source
+          annotation(
+            localLabel="Object Flow_Source",
+            shape="no"
+          );
+        end model_Diagram_Activity_8abad_fromrole_a330;
+         Role model_Diagram_Activity_8abad_torole_c150 refer Role_Object_Flow_Target
+          annotation(
+            localLabel="Object Flow_Target",
+            shape="arrowShape"
+          );
+        end model_Diagram_Activity_8abad_torole_c150;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(14,-4),
+          shape="solidLine",
+          endLocation=(124,834;1043,832),
+          polylineLocation="[-1,14,-609,0]$[608,14,0,0];(1.0,0.2);(0.0,0.2)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Activity_8abad_relationship_3e69;
+ 
+      Relationship model_Diagram_Activity_8abad_relationship_fdff refer Relationship_Object_Flow
+        Role model_Diagram_Activity_8abad_fromrole_eef9 refer Role_Object_Flow_Source
+          annotation(
+            localLabel="Object Flow_Source",
+            shape="no"
+          );
+        end model_Diagram_Activity_8abad_fromrole_eef9;
+         Role model_Diagram_Activity_8abad_torole_af00 refer Role_Object_Flow_Target
+          annotation(
+            localLabel="Object Flow_Target",
+            shape="arrowShape"
+          );
+        end model_Diagram_Activity_8abad_torole_af00;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-35,-10),
+          shape="solidLine",
+          endLocation=(301,315;554,290),
+          polylineLocation="[0,0,-303,-68]$[0,65,-303,-3]$[303,65,0,-3];(0.6652267818574514,1.0);(0.0,0.3)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Activity_8abad_relationship_fdff;
+ 
+      Relationship model_Diagram_Activity_8abad_relationship_197b refer Relationship_Object_Flow
+        Role model_Diagram_Activity_8abad_fromrole_e367 refer Role_Object_Flow_Source
+          annotation(
+            localLabel="Object Flow_Source",
+            shape="no"
+          );
+        end model_Diagram_Activity_8abad_fromrole_e367;
+         Role model_Diagram_Activity_8abad_torole_9a1d refer Role_Object_Flow_Target
+          annotation(
+            localLabel="Object Flow_Target",
+            shape="arrowShape"
+          );
+        end model_Diagram_Activity_8abad_torole_9a1d;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(67,-10),
+          shape="solidLine",
+          endLocation=(249,649;3997,628),
+          polylineLocation="[-2,-3,-1305,98]$[1540,-3,237,98]$[1540,-86,237,15];(1.0,0.2);(0.0,0.6511627906976745)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Activity_8abad_relationship_197b;
+ 
+    Connect(connector(pt6UiRYy_object_79ad,model_Diagram_Activity_8abad_relationship_1343.model_Diagram_Activity_8abad_fromrole_bf42),connector(pt6UiRYy_object_ce95_24d3_b08a,model_Diagram_Activity_8abad_relationship_1343.model_Diagram_Activity_8abad_torole_1122));
+ 
+    Connect(connector(pt6UiRYy_object_79ad,model_Diagram_Activity_8abad_relationship_ef3e.model_Diagram_Activity_8abad_fromrole_a327),connector(pt6UiRYy_object_ce95_24d3_b08a_f2ca_d5e6,model_Diagram_Activity_8abad_relationship_ef3e.model_Diagram_Activity_8abad_torole_a069));
+ 
+    Connect(connector(pt6UiRYy_object_ce95_24d3_b08a_f2ca.pt6UiRYy_object_ce95_24d3_b08a_f2ca_undirected_52e3,model_Diagram_Activity_8abad_relationship_3e69.model_Diagram_Activity_8abad_fromrole_a330),connector(pt6UiRYy_object_ce95_24d3_b08a_f2ca_d5e6.pt6UiRYy_object_ce95_24d3_b08a_f2ca_undirected_52e3_9cc4,model_Diagram_Activity_8abad_relationship_3e69.model_Diagram_Activity_8abad_torole_c150));
+ 
+    Connect(connector(nKVBlf8O_object_2be2_16c7_3b47,model_Diagram_Activity_8abad_relationship_fdff.model_Diagram_Activity_8abad_fromrole_eef9),connector(pt6UiRYy_object_ce95.pt6UiRYy_object_ce95_undirected_1241,model_Diagram_Activity_8abad_relationship_fdff.model_Diagram_Activity_8abad_torole_af00));
+ 
+    Connect(connector(pt6UiRYy_object_ce95_24d3.pt6UiRYy_object_ce95_undirected_1241_8301,model_Diagram_Activity_8abad_relationship_197b.model_Diagram_Activity_8abad_fromrole_e367),connector(nKVBlf8O_object_2be2_16c7_3b47_8ccf,model_Diagram_Activity_8abad_relationship_197b.model_Diagram_Activity_8abad_torole_9a1d));
+ 
+
+      annotation(
+        localLabel="Act-Activate automatic braking",
+        SDIdentification="",
+    );
+    
+   end model_Diagram_Activity_8abad;

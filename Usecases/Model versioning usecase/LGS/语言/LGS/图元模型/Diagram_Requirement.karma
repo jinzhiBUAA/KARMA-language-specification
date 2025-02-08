@@ -1,0 +1,16 @@
+   partial Graph Diagram_Requirement
+    Object Object_Requirement;
+    Relationship Relationship_Containment;
+    Relationship Relationship_Refine;
+    Constraint (
+    bind connector(Object_Requirement,Relationship_Containment.Role_Containment_Source),
+    bind connector(Object_Requirement,Relationship_Containment.Role_Containment_Target),
+    bind connector(Object_Requirement,Relationship_Refine.Role_Refine_Source),
+    bind connector(Object_Requirement,Relationship_Refine.Role_Refine_Target),
+    );
+    annotation(
+        localLabel="Requirement Diagram",
+        type = diagram,
+        description="",
+       );
+        end Diagram_Requirement;

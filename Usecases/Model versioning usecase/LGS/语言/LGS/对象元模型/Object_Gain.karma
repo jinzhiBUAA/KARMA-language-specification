@@ -1,0 +1,16 @@
+   Object Object_Gain
+      initial Property  Object_Gain_Prop_Gain_Value_e5738c = "null" extends Prop_Gain_Value annotation(localLabel ="Gain Value");
+      Undirected Point Object_Gain_Point_Input_9367d5 extends Point_Input annotation (localLabel ="Input");
+      Undirected Point Object_Gain_Point_Output_b222b6 extends Point_Output annotation (localLabel ="Output");
+   annotation(
+      localLabel="Gain",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="gain.png",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Gain;
+ 

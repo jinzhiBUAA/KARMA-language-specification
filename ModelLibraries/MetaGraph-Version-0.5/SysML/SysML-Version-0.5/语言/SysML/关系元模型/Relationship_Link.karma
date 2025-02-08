@@ -1,0 +1,13 @@
+   Relationship Relationship_Link
+      initial Property  Relationship_Link_Property_Name_a2e01b = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Link_Property_To_Do_33aa34 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Link_Input;
+   Role Role_Link_Output;
+   annotation(
+      localLabel="链接",
+      description="",
+      icon="链接.png",
+      shape="solidLine",
+      );
+   end Relationship_Link;
+ 

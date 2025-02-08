@@ -1,0 +1,61 @@
+   partial Graph State_Machine_Diagram
+      initial Property  State_Machine_Diagram_Property_To_Do_a9cf1e = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  State_Machine_Diagram_Property_Context_43446a = "null" extends Property_Context annotation(localLabel ="上下文");
+    Object Object_State;
+    Object Object_Composite_State;
+    Object Object_Orthogonal_State;
+    Object Object_Submachine_State;
+    Object Object_Initial_Pseudo_State;
+    Object Object_Final_State;
+    Object Object_Terminate_Pseudo_State;
+    Object Object_Deep_History_Pseudostate;
+    Object Object_Shallow_History_Pseudo_State;
+    Object Object_Junction_Pseudo_State;
+    Object Object_Choice_Pseudo_State;
+    Object Object_Fork_Pseudo_State;
+    Object Object_Join_Pseudo_State;
+    Relationship Relationship_Transition;
+    Constraint (
+    bind connector(Object_Terminate_Pseudo_State,Relationship_Transition.Role_Source),
+    bind connector(Object_Orthogonal_State,Relationship_Transition.Role_Source),
+    bind connector(Object_Composite_State.Object_Composite_State_Point_Pseudo_State_373e35,Relationship_Transition.Role_Source),
+    bind connector(Object_State,Relationship_Transition.Role_Source),
+    bind connector(Object_Submachine_State,Relationship_Transition.Role_Source),
+    bind connector(Object_Fork_Pseudo_State,Relationship_Transition.Role_Source),
+    bind connector(Object_Join_Pseudo_State,Relationship_Transition.Role_Source),
+    bind connector(Object_State.Object_State_Point_Pseudo_State_4d1a30,Relationship_Transition.Role_Source),
+    bind connector(Object_Deep_History_Pseudostate,Relationship_Transition.Role_Source),
+    bind connector(Object_Shallow_History_Pseudo_State,Relationship_Transition.Role_Source),
+    bind connector(Object_Initial_Pseudo_State,Relationship_Transition.Role_Source),
+    bind connector(Object_Choice_Pseudo_State,Relationship_Transition.Role_Source),
+    bind connector(Object_Junction_Pseudo_State,Relationship_Transition.Role_Source),
+    bind connector(Object_Orthogonal_State.Object_Opaque_Action_Point_Pseudo_State_981043,Relationship_Transition.Role_Source),
+    bind connector(Object_Submachine_State.Object_Submachine_State_Point_Connection_Point_Reference_b39e28,Relationship_Transition.Role_Source),
+    bind connector(Object_Composite_State,Relationship_Transition.Role_Source),
+    bind connector(Object_Terminate_Pseudo_State,Relationship_Transition.Role_Target),
+    bind connector(Object_Orthogonal_State,Relationship_Transition.Role_Target),
+    bind connector(Object_Composite_State.Object_Composite_State_Point_Pseudo_State_373e35,Relationship_Transition.Role_Target),
+    bind connector(Object_State,Relationship_Transition.Role_Target),
+    bind connector(Object_Submachine_State,Relationship_Transition.Role_Target),
+    bind connector(Object_Fork_Pseudo_State,Relationship_Transition.Role_Target),
+    bind connector(Object_Join_Pseudo_State,Relationship_Transition.Role_Target),
+    bind connector(Object_Final_State,Relationship_Transition.Role_Target),
+    bind connector(Object_State.Object_State_Point_Pseudo_State_4d1a30,Relationship_Transition.Role_Target),
+    bind connector(Object_Deep_History_Pseudostate,Relationship_Transition.Role_Target),
+    bind connector(Object_Shallow_History_Pseudo_State,Relationship_Transition.Role_Target),
+    bind connector(Object_Choice_Pseudo_State,Relationship_Transition.Role_Target),
+    bind connector(Object_Junction_Pseudo_State,Relationship_Transition.Role_Target),
+    bind connector(Object_Orthogonal_State.Object_Opaque_Action_Point_Pseudo_State_981043,Relationship_Transition.Role_Target),
+    bind connector(Object_Submachine_State.Object_Submachine_State_Point_Connection_Point_Reference_b39e28,Relationship_Transition.Role_Target),
+    bind connector(Object_Composite_State,Relationship_Transition.Role_Target),
+    Object_State.explode(State_Machine_Diagram),
+    Object_Submachine_State.explode(State_Machine_Diagram),
+    Object_Composite_State.explode(State_Machine_Diagram),
+    Object_Orthogonal_State.explode(State_Machine_Diagram),
+    );
+    annotation(
+        localLabel="状态机图",
+        type = diagram,
+        description="",
+       );
+        end State_Machine_Diagram;

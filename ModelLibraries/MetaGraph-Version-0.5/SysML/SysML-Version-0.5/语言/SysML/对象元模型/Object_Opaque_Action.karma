@@ -1,0 +1,18 @@
+   Object Object_Opaque_Action
+      initial Property  Object_Opaque_Action_Property_Name_964708 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Opaque_Action_Property_Body_And_Language_d4f0b1 = "null" extends Property_Body_And_Language annotation(localLabel ="身体和语言");
+      initial Property  Object_Opaque_Action_Property_To_Do_7e31e3 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      Input Point Object_Opaque_Action_Point_Input_Pin_eddb86 extends Point_Input_Pin annotation (localLabel ="输入引脚");
+      Input Point Object_Opaque_Action_Point_Value_Pin_940d5a extends Point_Value_Pin annotation (localLabel ="值引脚");
+      Input Point Object_Opaque_Action_Point_Action_Input_Pin_d0880c extends Point_Action_Input_Pin annotation (localLabel ="动作输入引脚");
+      Output Point Object_Opaque_Action_Point_Output_Pin_cb47a3 extends Point_Output_Pin annotation (localLabel ="输出引脚");
+   annotation(
+      localLabel="不透明动作",
+      description="",
+      icon="不透明动作.png",
+      shape="roundedRectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      );
+   end Object_Opaque_Action;
+ 

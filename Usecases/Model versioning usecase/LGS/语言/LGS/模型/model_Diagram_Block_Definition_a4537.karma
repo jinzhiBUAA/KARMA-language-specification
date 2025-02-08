@@ -1,0 +1,701 @@
+    partial Model model_Diagram_Block_Definition_a4537 instanceof Diagram_Block_Definition
+    
+      Object model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_729c refer Object_Block
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_property_f054_2a6f_b76d_1f19_4764_256f = "Landing gear system" refer Object_Block_Property_Name_2c6507 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_property_94b7_f1ea = "Mload: Load torque" refer Object_Block_Property_Constraint_b44569 annotation(localLabel = "Constraint",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_property_ecbb_b8db = "a: Braking acceleration" refer Object_Block_Property_Constraint_b44569 annotation(localLabel = "Constraint",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_property_669f_20bd = "E: Brakinng kinetic energy" refer Object_Block_Property_Constraint_b44569 annotation(localLabel = "Constraint",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_property_c044_1932 = "L: Braking distance" refer Object_Block_Property_Constraint_b44569 annotation(localLabel = "Constraint",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_property_a89f_4444 = "Wheel and brake subsystem" refer Object_Block_Property_Part_932cf5 annotation(localLabel = "Part",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_property_22c6_d87b = "Monitoring subsystem" refer Object_Block_Property_Part_932cf5 annotation(localLabel = "Part",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_property_c97d_2a59 = "Landing gear control subsystem " refer Object_Block_Property_Part_932cf5 annotation(localLabel = "Part",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_property_6a21_4f4c = "Retraction and deployment subsystem" refer Object_Block_Property_Part_932cf5 annotation(localLabel = "Part",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_property_3e9b_2a29 = "Anti-skid subsystem" refer Object_Block_Property_Part_932cf5 annotation(localLabel = "Part",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_property_dee5_2fee = "Buffer subsystem" refer Object_Block_Property_Part_932cf5 annotation(localLabel = "Part",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_property_626a_d5bf = "32.33 m" refer Object_Block_Property_Value_339726 annotation(localLabel = "b: Distance from front wheel to main wheel",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_property_0dde_0776 = "16.165 m" refer Object_Block_Property_Value_339726 annotation(localLabel = "l: Distance from forward limit of gravity center to front wheel",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_property_425a_cc2c = "12.932 m" refer Object_Block_Property_Value_339726 annotation(localLabel = "M: Distance from back limit of gravity center to main wheel",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_property_9b26_4228 = "16.165 m" refer Object_Block_Property_Value_339726 annotation(localLabel = "N: Distance from forward limit of gravity center to main wheel",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_729c_property_9db9 = "3.05 m/s" refer Object_Block_Property_Value_339726 annotation(localLabel = "a: Braking acceleration",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(826,273,430,289),
+          localLabel="Landing gear system",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_729c;
+
+      Object model_Diagram_Block_Definition_a4537_object_7c85 refer Object_Block
+        Property model_Diagram_Block_Definition_a4537_object_7c85_property_7a57 = "Monitoring subsystem" refer Object_Block_Property_Name_2c6507 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(280,637,290,73),
+          localLabel="Monitoring subsystem",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Block_Definition_a4537_object_7c85;
+
+      Object model_Diagram_Block_Definition_a4537_object_7c85_6db4 refer Object_Block
+        Property model_Diagram_Block_Definition_a4537_object_7c85_property_7a57_235f = "Retraction and deployment subsystem" refer Object_Block_Property_Name_2c6507 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(721,637,394,73),
+          localLabel="Retraction and deployment subsystem",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Block_Definition_a4537_object_7c85_6db4;
+
+      Object model_Diagram_Block_Definition_a4537_object_7c85_6db4_da42 refer Object_Block
+        Property model_Diagram_Block_Definition_a4537_object_7c85_property_7a57_235f_befc = "Landing gear control subsystem" refer Object_Block_Property_Name_2c6507 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1155,637,346,73),
+          localLabel="Landing gear control subsystem",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Block_Definition_a4537_object_7c85_6db4_da42;
+
+      Object model_Diagram_Block_Definition_a4537_object_7c85_56c9 refer Object_Block
+        Property model_Diagram_Block_Definition_a4537_object_7c85_property_7a57_620f = "Anti-skid subsystem" refer Object_Block_Property_Name_2c6507 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(406,798,346,73),
+          localLabel="Anti-skid subsystem",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Block_Definition_a4537_object_7c85_56c9;
+
+      Object model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5 refer Object_Block
+        Property model_Diagram_Block_Definition_a4537_object_7c85_property_7a57_620f_726a = "Buffer subsystem" refer Object_Block_Property_Name_2c6507 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(910,798,346,73),
+          localLabel="Buffer subsystem",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5;
+
+      Object model_Diagram_Block_Definition_a4537_object_aa04 refer Object_Block
+        Property model_Diagram_Block_Definition_a4537_object_aa04_property_9e10 = "Wheel and brake subsystem" refer Object_Block_Property_Name_2c6507 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_a4537_object_aa04_property_a9c1 = "Pressure servo valve" refer Object_Block_Property_Part_932cf5 annotation(localLabel = "Part",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_a4537_object_aa04_property_1577 = "Control unit" refer Object_Block_Property_Part_932cf5 annotation(localLabel = "Part",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_a4537_object_aa04_property_d0b5 = "Brake temperature sensor" refer Object_Block_Property_Part_932cf5 annotation(localLabel = "Part",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_a4537_object_aa04_property_8b08 = "Brake disc" refer Object_Block_Property_Part_932cf5 annotation(localLabel = "Part",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_a4537_object_aa04_property_7ad8 = "Brake actuator" refer Object_Block_Property_Part_932cf5 annotation(localLabel = "Part",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_a4537_object_aa04_property_9657 = "Wheel" refer Object_Block_Property_Part_932cf5 annotation(localLabel = "Part",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_a4537_object_aa04_property_1802 = "0.43 m" refer Object_Block_Property_Value_339726 annotation(localLabel = "R: Wheel radius",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_a4537_object_aa04_property_9810 = "2609328.4 N" refer Object_Block_Property_Value_339726 annotation(localLabel = "F: Braking load",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_a4537_object_aa04_property_084b = "55.0 m/s" refer Object_Block_Property_Value_339726 annotation(localLabel = "V: Linear velocity of wheel",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_a4537_object_aa04_property_243d = "0.0368" refer Object_Block_Property_Value_339726 annotation(localLabel = "C: Damping coeffcient",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Diagram_Block_Definition_a4537_object_aa04_property_3fde = "174599.0 N*m" refer Object_Block_Property_Value_339726 annotation(localLabel = "Mbrake: Braking torque",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1393,1078,528,318),
+          localLabel="Wheel and brake subsystem",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Block_Definition_a4537_object_aa04;
+
+      Object model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59 refer Object_Block
+        Property model_Diagram_Block_Definition_a4537_object_7c85_property_7a57_620f_726a_5488 = "Brake actuator" refer Object_Block_Property_Name_2c6507 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1260,1477,276,114),
+          localLabel="Brake actuator",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59;
+
+      Object model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_6783 refer Object_Block
+        Property model_Diagram_Block_Definition_a4537_object_7c85_property_7a57_620f_726a_5488_337e = "Wheel" refer Object_Block_Property_Name_2c6507 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1554,1477,182,114),
+          localLabel="Wheel",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_6783;
+
+      Object model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_6783_c011 refer Object_Block
+        Property model_Diagram_Block_Definition_a4537_object_7c85_property_7a57_620f_726a_5488_337e_4fd3 = "Control unit" refer Object_Block_Property_Name_2c6507 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1309,1624,262,114),
+          localLabel="Control unit",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_6783_c011;
+
+      Object model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_bff7 refer Object_Block
+        Property model_Diagram_Block_Definition_a4537_object_7c85_property_7a57_620f_726a_5488_edce = "Pressure servo valve" refer Object_Block_Property_Name_2c6507 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1764,1477,325,114),
+          localLabel="Pressure servo valve",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_bff7;
+
+      Object model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_6783_c011_7696 refer Object_Block
+        Property model_Diagram_Block_Definition_a4537_object_7c85_property_7a57_620f_726a_5488_337e_4fd3_0aaa = "Brake disc" refer Object_Block_Property_Name_2c6507 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1925,1624,227,114),
+          localLabel="Brake disc",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_6783_c011_7696;
+
+      Object model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_bff7_c827 refer Object_Block
+        Property model_Diagram_Block_Definition_a4537_object_7c85_property_7a57_620f_726a_5488_edce_fb56 = "Brake temperature sensor" refer Object_Block_Property_Name_2c6507 annotation(localLabel = "Name",color="0,0,0",text=("Microsoft YaHei UI",10,Bold,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1589,1624,325,114),
+          localLabel="Brake temperature sensor",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_bff7_c827;
+
+      Relationship model_Diagram_Block_Definition_a4537_relationship_6c8b refer Relationship_Composition
+        Role model_Diagram_Block_Definition_a4537_fromrole_fee1 refer Role_Composition_Source
+          annotation(
+            localLabel="Composition_Source",
+            shape="no"
+          );
+        end model_Diagram_Block_Definition_a4537_fromrole_fee1;
+         Role model_Diagram_Block_Definition_a4537_torole_7eef refer Role_Composition_Target
+          annotation(
+            localLabel="Composition_Target",
+            shape="solidDiamond"
+          );
+        end model_Diagram_Block_Definition_a4537_torole_7eef;
+       
+        annotation(
+          localLabel="Composition",
+          labelLocation=(-235,18),
+          shape="solidLine",
+          endLocation=(425,673;1615,341),
+          polylineLocation="[0,0,-224,434]$[0,-28,-224,406]$[574,-28,350,406]$[574,-76,350,358];(0.6562500000000001,0.0);(-0.3107476635514019,-0.24593967517401397)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Block_Definition_a4537_relationship_6c8b;
+ 
+      Relationship model_Diagram_Block_Definition_a4537_relationship_b456 refer Relationship_Composition
+        Role model_Diagram_Block_Definition_a4537_fromrole_e400 refer Role_Composition_Source
+          annotation(
+            localLabel="Composition_Source",
+            shape="no"
+          );
+        end model_Diagram_Block_Definition_a4537_fromrole_e400;
+         Role model_Diagram_Block_Definition_a4537_torole_fd1a refer Role_Composition_Target
+          annotation(
+            localLabel="Composition_Target",
+            shape="solidDiamond"
+          );
+        end model_Diagram_Block_Definition_a4537_torole_fd1a;
+       
+        annotation(
+          localLabel="Composition",
+          labelLocation=(-23,-17),
+          shape="solidLine",
+          endLocation=(918,673;1209,340),
+          polylineLocation="[0,0,-113,77]$[0,-29,-113,48]$[168,-29,55,48]$[168,-77,55,0];(0.39127235680326017,0.0);(0.37616822429906543,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Block_Definition_a4537_relationship_b456;
+ 
+      Relationship model_Diagram_Block_Definition_a4537_relationship_d7ea refer Relationship_Composition
+        Role model_Diagram_Block_Definition_a4537_fromrole_310a refer Role_Composition_Source
+          annotation(
+            localLabel="Composition_Source",
+            shape="no"
+          );
+        end model_Diagram_Block_Definition_a4537_fromrole_310a;
+         Role model_Diagram_Block_Definition_a4537_torole_97d6 refer Role_Composition_Target
+          annotation(
+            localLabel="Composition_Target",
+            shape="solidDiamond"
+          );
+        end model_Diagram_Block_Definition_a4537_torole_97d6;
+       
+        annotation(
+          localLabel="Composition",
+          labelLocation=(-116,-18),
+          shape="solidLine",
+          endLocation=(1268,673;649,341),
+          polylineLocation="[-60,0,108,76]$[-60,-28,108,48]$[-392,-28,-224,48]$[-392,-76,-224,0];(0.813953488372093,0.0);(1.030373831775701,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Block_Definition_a4537_relationship_d7ea;
+ 
+      Relationship model_Diagram_Block_Definition_a4537_relationship_de3d refer Relationship_Composition
+        Role model_Diagram_Block_Definition_a4537_fromrole_9b73 refer Role_Composition_Source
+          annotation(
+            localLabel="Composition_Source",
+            shape="no"
+          );
+        end model_Diagram_Block_Definition_a4537_fromrole_9b73;
+         Role model_Diagram_Block_Definition_a4537_torole_5cb5 refer Role_Composition_Target
+          annotation(
+            localLabel="Composition_Target",
+            shape="solidDiamond"
+          );
+        end model_Diagram_Block_Definition_a4537_torole_5cb5;
+       
+        annotation(
+          localLabel="Composition",
+          labelLocation=(-98,178),
+          shape="solidLine",
+          endLocation=(544,834;1454,180),
+          polylineLocation="[-35,0,-413,237]$[-35,-189,-413,48]$[413,-189,35,48]$[413,-237,35,0];(0.6511627906976745,0.0);(0.4252336448598131,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Block_Definition_a4537_relationship_de3d;
+ 
+      Relationship model_Diagram_Block_Definition_a4537_relationship_3c30 refer Relationship_Composition
+        Role model_Diagram_Block_Definition_a4537_fromrole_354c refer Role_Composition_Source
+          annotation(
+            localLabel="Composition_Source",
+            shape="no"
+          );
+        end model_Diagram_Block_Definition_a4537_fromrole_354c;
+         Role model_Diagram_Block_Definition_a4537_torole_62c3 refer Role_Composition_Target
+          annotation(
+            localLabel="Composition_Target",
+            shape="solidDiamond"
+          );
+        end model_Diagram_Block_Definition_a4537_torole_62c3;
+       
+        annotation(
+          localLabel="Composition",
+          labelLocation=(-163,-143),
+          shape="solidLine",
+          endLocation=(1657,1237;446,-100),
+          polylineLocation="[0,0,247,658]$[0,-469,247,189]$[-595,-469,-348,189]$[-595,-517,-348,141];(0.4657794676806083,0.0);(1.3200934579439252,0.5092807424593967)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Block_Definition_a4537_relationship_3c30;
+ 
+      Relationship model_Diagram_Block_Definition_a4537_relationship_c756 refer Relationship_Composition
+        Role model_Diagram_Block_Definition_a4537_fromrole_2957 refer Role_Composition_Source
+          annotation(
+            localLabel="Composition_Source",
+            shape="no"
+          );
+        end model_Diagram_Block_Definition_a4537_fromrole_2957;
+         Role model_Diagram_Block_Definition_a4537_torole_55a0 refer Role_Composition_Target
+          annotation(
+            localLabel="Composition_Target",
+            shape="solidDiamond"
+          );
+        end model_Diagram_Block_Definition_a4537_torole_55a0;
+       
+        annotation(
+          localLabel="Composition",
+          labelLocation=(-104,45),
+          shape="solidLine",
+          endLocation=(1223,1534;1848,1154),
+          polylineLocation="[-175,0,-105,378]$[-175,-63,-105,315]$[191,-63,261,315]$[191,-83,261,295];(0.7408759124087592,0.0);(0.0,0.06645569620253164)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Block_Definition_a4537_relationship_c756;
+ 
+      Relationship model_Diagram_Block_Definition_a4537_relationship_c982 refer Relationship_Composition
+        Role model_Diagram_Block_Definition_a4537_fromrole_92ee refer Role_Composition_Source
+          annotation(
+            localLabel="Composition_Source",
+            shape="no"
+          );
+        end model_Diagram_Block_Definition_a4537_fromrole_92ee;
+         Role model_Diagram_Block_Definition_a4537_torole_ebb9 refer Role_Composition_Target
+          annotation(
+            localLabel="Composition_Target",
+            shape="solidDiamond"
+          );
+        end model_Diagram_Block_Definition_a4537_torole_ebb9;
+       
+        annotation(
+          localLabel="Composition",
+          labelLocation=(-23,-52),
+          shape="solidLine",
+          endLocation=(1647,1534;1659,1154),
+          polylineLocation="[2,0,261,371]$[2,-83,261,288];(0.5444444444444444,0.0);(0.0,0.08860759493670886)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Block_Definition_a4537_relationship_c982;
+ 
+      Relationship model_Diagram_Block_Definition_a4537_relationship_9248 refer Relationship_Composition
+        Role model_Diagram_Block_Definition_a4537_fromrole_2e42 refer Role_Composition_Source
+          annotation(
+            localLabel="Composition_Source",
+            shape="no"
+          );
+        end model_Diagram_Block_Definition_a4537_fromrole_2e42;
+         Role model_Diagram_Block_Definition_a4537_torole_2ade refer Role_Composition_Target
+          annotation(
+            localLabel="Composition_Target",
+            shape="solidDiamond"
+          );
+        end model_Diagram_Block_Definition_a4537_torole_2ade;
+       
+        annotation(
+          localLabel="Composition",
+          labelLocation=(-167,-46),
+          shape="solidLine",
+          endLocation=(1828,1534;1317,1154),
+          polylineLocation="[-98,0,245,83]$[-98,-64,245,19]$[-340,-64,3,19]$[-340,-83,3,0];(0.7151702786377709,0.0);(0.4923954372623574,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Block_Definition_a4537_relationship_9248;
+ 
+      Relationship model_Diagram_Block_Definition_a4537_relationship_b6d7 refer Relationship_Composition
+        Role model_Diagram_Block_Definition_a4537_fromrole_1eb6 refer Role_Composition_Source
+          annotation(
+            localLabel="Composition_Source",
+            shape="no"
+          );
+        end model_Diagram_Block_Definition_a4537_fromrole_1eb6;
+         Role model_Diagram_Block_Definition_a4537_torole_650d refer Role_Composition_Target
+          annotation(
+            localLabel="Composition_Target",
+            shape="solidDiamond"
+          );
+        end model_Diagram_Block_Definition_a4537_torole_650d;
+       
+        annotation(
+          localLabel="Composition",
+          labelLocation=(-151,-61),
+          shape="solidLine",
+          endLocation=(1467,1681;1792,1007),
+          polylineLocation="[27,0,-183,230]$[27,-210,-183,20]$[135,-210,-75,20]$[135,-230,-75,0];(0.8076923076923077,0.0);(0.6387832699619772,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Block_Definition_a4537_relationship_b6d7;
+ 
+      Relationship model_Diagram_Block_Definition_a4537_relationship_b482 refer Relationship_Composition
+        Role model_Diagram_Block_Definition_a4537_fromrole_4b33 refer Role_Composition_Source
+          annotation(
+            localLabel="Composition_Source",
+            shape="no"
+          );
+        end model_Diagram_Block_Definition_a4537_fromrole_4b33;
+         Role model_Diagram_Block_Definition_a4537_torole_d2bc refer Role_Composition_Target
+          annotation(
+            localLabel="Composition_Target",
+            shape="solidDiamond"
+          );
+        end model_Diagram_Block_Definition_a4537_torole_d2bc;
+       
+        annotation(
+          localLabel="Composition",
+          labelLocation=(-153,-49),
+          shape="solidLine",
+          endLocation=(1814,1681;1624,1007),
+          polylineLocation="[63,0,-169,511]$[63,-210,-169,301]$[-33,-210,-265,301]$[-33,-230,-265,281];(0.30340557275541796,0.0);(1.0,0.11075949367088607)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Block_Definition_a4537_relationship_b482;
+ 
+      Relationship model_Diagram_Block_Definition_a4537_relationship_dcf5 refer Relationship_Composition
+        Role model_Diagram_Block_Definition_a4537_fromrole_1e6b refer Role_Composition_Source
+          annotation(
+            localLabel="Composition_Source",
+            shape="no"
+          );
+        end model_Diagram_Block_Definition_a4537_fromrole_1e6b;
+         Role model_Diagram_Block_Definition_a4537_torole_ba69 refer Role_Composition_Target
+          annotation(
+            localLabel="Composition_Target",
+            shape="solidDiamond"
+          );
+        end model_Diagram_Block_Definition_a4537_torole_ba69;
+       
+        annotation(
+          localLabel="Composition",
+          labelLocation=(-75,-192),
+          shape="solidLine",
+          endLocation=(2156,1681;1323,1007),
+          polylineLocation="[118,0,187,539]$[118,-210,187,329]$[-334,-210,-265,329]$[-334,-230,-265,309];(0.28,0.0);(1.0,0.022151898734177215)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Block_Definition_a4537_relationship_dcf5;
+ 
+      Relationship model_Diagram_Block_Definition_a4537_relationship_4549 refer Relationship_Composition
+        Role model_Diagram_Block_Definition_a4537_fromrole_b6a7 refer Role_Composition_Source
+          annotation(
+            localLabel="Composition_Source",
+            shape="no"
+          );
+        end model_Diagram_Block_Definition_a4537_fromrole_b6a7;
+         Role model_Diagram_Block_Definition_a4537_torole_55cc refer Role_Composition_Target
+          annotation(
+            localLabel="Composition_Target",
+            shape="solidDiamond"
+          );
+        end model_Diagram_Block_Definition_a4537_torole_55cc;
+       
+        annotation(
+          localLabel="Composition",
+          labelLocation=(-151,-57),
+          shape="solidLine",
+          endLocation=(1090,834;955,180),
+          polylineLocation="[7,0,7,237]$[7,-189,7,48]$[-86,-189,-86,48]$[-86,-237,-86,0];(0.6308139534883721,0.0);(0.7032710280373833,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Diagram_Block_Definition_a4537_relationship_4549;
+ 
+    Connect(connector(model_Diagram_Block_Definition_a4537_object_7c85,model_Diagram_Block_Definition_a4537_relationship_6c8b.model_Diagram_Block_Definition_a4537_fromrole_fee1),connector(model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_729c,model_Diagram_Block_Definition_a4537_relationship_6c8b.model_Diagram_Block_Definition_a4537_torole_7eef));
+ 
+    Connect(connector(model_Diagram_Block_Definition_a4537_object_7c85_6db4,model_Diagram_Block_Definition_a4537_relationship_b456.model_Diagram_Block_Definition_a4537_fromrole_e400),connector(model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_729c,model_Diagram_Block_Definition_a4537_relationship_b456.model_Diagram_Block_Definition_a4537_torole_fd1a));
+ 
+    Connect(connector(model_Diagram_Block_Definition_a4537_object_7c85_6db4_da42,model_Diagram_Block_Definition_a4537_relationship_d7ea.model_Diagram_Block_Definition_a4537_fromrole_310a),connector(model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_729c,model_Diagram_Block_Definition_a4537_relationship_d7ea.model_Diagram_Block_Definition_a4537_torole_97d6));
+ 
+    Connect(connector(model_Diagram_Block_Definition_a4537_object_7c85_56c9,model_Diagram_Block_Definition_a4537_relationship_de3d.model_Diagram_Block_Definition_a4537_fromrole_9b73),connector(model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_729c,model_Diagram_Block_Definition_a4537_relationship_de3d.model_Diagram_Block_Definition_a4537_torole_5cb5));
+ 
+    Connect(connector(model_Diagram_Block_Definition_a4537_object_aa04,model_Diagram_Block_Definition_a4537_relationship_3c30.model_Diagram_Block_Definition_a4537_fromrole_354c),connector(model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_729c,model_Diagram_Block_Definition_a4537_relationship_3c30.model_Diagram_Block_Definition_a4537_torole_62c3));
+ 
+    Connect(connector(model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59,model_Diagram_Block_Definition_a4537_relationship_c756.model_Diagram_Block_Definition_a4537_fromrole_2957),connector(model_Diagram_Block_Definition_a4537_object_aa04,model_Diagram_Block_Definition_a4537_relationship_c756.model_Diagram_Block_Definition_a4537_torole_55a0));
+ 
+    Connect(connector(model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_6783,model_Diagram_Block_Definition_a4537_relationship_c982.model_Diagram_Block_Definition_a4537_fromrole_92ee),connector(model_Diagram_Block_Definition_a4537_object_aa04,model_Diagram_Block_Definition_a4537_relationship_c982.model_Diagram_Block_Definition_a4537_torole_ebb9));
+ 
+    Connect(connector(model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_bff7,model_Diagram_Block_Definition_a4537_relationship_9248.model_Diagram_Block_Definition_a4537_fromrole_2e42),connector(model_Diagram_Block_Definition_a4537_object_aa04,model_Diagram_Block_Definition_a4537_relationship_9248.model_Diagram_Block_Definition_a4537_torole_2ade));
+ 
+    Connect(connector(model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_6783_c011,model_Diagram_Block_Definition_a4537_relationship_b6d7.model_Diagram_Block_Definition_a4537_fromrole_1eb6),connector(model_Diagram_Block_Definition_a4537_object_aa04,model_Diagram_Block_Definition_a4537_relationship_b6d7.model_Diagram_Block_Definition_a4537_torole_650d));
+ 
+    Connect(connector(model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_bff7_c827,model_Diagram_Block_Definition_a4537_relationship_b482.model_Diagram_Block_Definition_a4537_fromrole_4b33),connector(model_Diagram_Block_Definition_a4537_object_aa04,model_Diagram_Block_Definition_a4537_relationship_b482.model_Diagram_Block_Definition_a4537_torole_d2bc));
+ 
+    Connect(connector(model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5_9e59_6783_c011_7696,model_Diagram_Block_Definition_a4537_relationship_dcf5.model_Diagram_Block_Definition_a4537_fromrole_1e6b),connector(model_Diagram_Block_Definition_a4537_object_aa04,model_Diagram_Block_Definition_a4537_relationship_dcf5.model_Diagram_Block_Definition_a4537_torole_ba69));
+ 
+    Connect(connector(model_Diagram_Block_Definition_a4537_object_7c85_56c9_5af5,model_Diagram_Block_Definition_a4537_relationship_4549.model_Diagram_Block_Definition_a4537_fromrole_b6a7),connector(model_Diagram_Block_Definition_52f18_object_b8e1_7a09_7358_3233_46b9_729c,model_Diagram_Block_Definition_a4537_relationship_4549.model_Diagram_Block_Definition_a4537_torole_55cc));
+ 
+
+      annotation(
+        localLabel="BDD-Landing gear system",
+        SDIdentification="",
+    );
+    
+   end model_Diagram_Block_Definition_a4537;

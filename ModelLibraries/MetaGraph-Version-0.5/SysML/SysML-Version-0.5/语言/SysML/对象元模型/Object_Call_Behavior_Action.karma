@@ -1,0 +1,18 @@
+   Object Object_Call_Behavior_Action
+      initial Property  Object_Call_Behavior_Action_Property_Name_afe6b7 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Call_Behavior_Action_Property_Behavior_176feb = "null" extends Property_Behavior annotation(localLabel ="行为");
+      initial Property  Object_Call_Behavior_Action_Property_To_Do_c1d6ed = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      Input Point Object_Call_Behavior_Action_Point_Input_Pin_d1c3dc extends Point_Input_Pin annotation (localLabel ="输入引脚");
+      Input Point Object_Call_Behavior_Action_Point_Value_Pin_f0b44f extends Point_Value_Pin annotation (localLabel ="值引脚");
+      Input Point Object_Call_Behavior_Action_Point_Action_Input_Pin_2de96c extends Point_Action_Input_Pin annotation (localLabel ="动作输入引脚");
+      Output Point Object_Call_Behavior_Action_Point_Output_Pin_9cfe4f extends Point_Output_Pin annotation (localLabel ="输出引脚");
+   annotation(
+      localLabel="调用行为动作",
+      description="",
+      icon="调用行为动作.png",
+      shape="roundedRectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      );
+   end Object_Call_Behavior_Action;
+ 

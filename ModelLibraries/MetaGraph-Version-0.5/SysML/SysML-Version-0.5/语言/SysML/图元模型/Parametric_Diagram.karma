@@ -1,0 +1,41 @@
+   partial Graph Parametric_Diagram
+      initial Property  Parametric_Diagram_Property_To_Do_537ce9 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Parametric_Diagram_Property_Context_a9cc1c = "null" extends Property_Context annotation(localLabel ="上下文");
+    Object Object_Constraint_Property;
+    Object Object_Moe;
+    Object Object_Objective_Function;
+    Object Object_Part_Property;
+    Object Object_Reference_Property;
+    Relationship Relationship_Binding_Connector;
+    Constraint (
+    bind connector(Object_Objective_Function.Object_Objective_Function_Point_Constraint_Parameter_4e4fc0,Relationship_Binding_Connector.Role_Connectot_End_A),
+    bind connector(Object_Constraint_Property,Relationship_Binding_Connector.Role_Connectot_End_A),
+    bind connector(Object_Reference_Property.Object_Reference_Property_Point_Constraint_Parameter_aaf75b,Relationship_Binding_Connector.Role_Connectot_End_A),
+    bind connector(Object_Part_Property,Relationship_Binding_Connector.Role_Connectot_End_A),
+    bind connector(Object_Objective_Function,Relationship_Binding_Connector.Role_Connectot_End_A),
+    bind connector(Object_Part_Property.Object_Part_Property_Point_Constraint_Parameter_119082,Relationship_Binding_Connector.Role_Connectot_End_A),
+    bind connector(Object_Constraint_Property.Object_Constraint_Property_Point_Constraint_Parameter_850c76,Relationship_Binding_Connector.Role_Connectot_End_A),
+    bind connector(Object_Reference_Property,Relationship_Binding_Connector.Role_Connectot_End_A),
+    bind connector(Object_Moe,Relationship_Binding_Connector.Role_Connectot_End_A),
+    bind connector(Object_Objective_Function.Object_Objective_Function_Point_Constraint_Parameter_4e4fc0,Relationship_Binding_Connector.Role_Connectot_End_B),
+    bind connector(Object_Constraint_Property,Relationship_Binding_Connector.Role_Connectot_End_B),
+    bind connector(Object_Reference_Property.Object_Reference_Property_Point_Constraint_Parameter_aaf75b,Relationship_Binding_Connector.Role_Connectot_End_B),
+    bind connector(Object_Part_Property,Relationship_Binding_Connector.Role_Connectot_End_B),
+    bind connector(Object_Objective_Function,Relationship_Binding_Connector.Role_Connectot_End_B),
+    bind connector(Object_Part_Property.Object_Part_Property_Point_Constraint_Parameter_119082,Relationship_Binding_Connector.Role_Connectot_End_B),
+    bind connector(Object_Constraint_Property.Object_Constraint_Property_Point_Constraint_Parameter_850c76,Relationship_Binding_Connector.Role_Connectot_End_B),
+    bind connector(Object_Reference_Property,Relationship_Binding_Connector.Role_Connectot_End_B),
+    bind connector(Object_Moe,Relationship_Binding_Connector.Role_Connectot_End_B),
+    Object_Constraint_Property.explode(Parametric_Diagram),
+    Object_Objective_Function.explode(Parametric_Diagram),
+    Object_Part_Property.explode(Parametric_Diagram),
+    Object_Reference_Property.explode(Parametric_Diagram),
+    Object_Constraint_Property.decompose(Parametric_Diagram),
+    Object_Objective_Function.decompose(Parametric_Diagram),
+    );
+    annotation(
+        localLabel="参数图",
+        type = diagram,
+        description="",
+       );
+        end Parametric_Diagram;

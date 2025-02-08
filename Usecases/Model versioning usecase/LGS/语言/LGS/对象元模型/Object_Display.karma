@@ -1,0 +1,15 @@
+   Object Object_Display
+      Undirected Point Object_Display_Point_Input_8657f6 extends Point_Input annotation (localLabel ="Input");
+      Undirected Point Object_Display_Point_Output_e8dce2 extends Point_Output annotation (localLabel ="Output");
+   annotation(
+      localLabel="Display",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="display.png",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Display;
+ 

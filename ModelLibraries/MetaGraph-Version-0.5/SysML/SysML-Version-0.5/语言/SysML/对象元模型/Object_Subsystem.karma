@@ -1,0 +1,17 @@
+   Object Object_Subsystem
+      initial Property  Object_Subsystem_Property_Name_d06b76 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Subsystem_Property_Is_Encapsulated_78f171 = false extends Property_Is_Encapsulated annotation(localLabel ="是否封装");
+      Undirected Point Object_Subsystem_Point_Proxy_Port_a6686f extends Point_Proxy_Port annotation (localLabel ="代理端口");
+      Undirected Point Object_Subsystem_Point_Full_Port_b8642e extends Point_Full_Port annotation (localLabel ="完整端口");
+      Undirected Point Object_Subsystem_Point_Port_b62283 extends Point_Port annotation (localLabel ="端口");
+      Undirected Point Object_Subsystem_Point_Flow_Port_53e8cc extends Point_Flow_Port annotation (localLabel ="流端口");
+   annotation(
+      localLabel="子系统",
+      description="",
+      icon="子系统.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      );
+   end Object_Subsystem;
+ 

@@ -1,0 +1,13 @@
+   Relationship Relationship_Derive
+      initial Property  Relationship_Derive_Property_Name_2839c9 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Derive_Property_To_Do_ef7cc3 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Client;
+   Role Role_Supplier;
+   annotation(
+      localLabel="派生",
+      description="",
+      icon="派生.png",
+      shape="dashLine",
+      );
+   end Relationship_Derive;
+ 

@@ -1,0 +1,12 @@
+   Relationship Relationship_Package_Import
+      initial Property  Relationship_Package_Import_Property_To_Do_bd156f = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Importing_Namespace;
+   Role Role_Imported_Package;
+   annotation(
+      localLabel="包导入",
+      description="",
+      icon="包导入.png",
+      shape="dashLine",
+      );
+   end Relationship_Package_Import;
+ 

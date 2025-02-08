@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Graph_Simulink" nsURI="D:/MetaGraph_2/MetaGraph/workspace/LGS_V6/语言/LGS/图元模型/Graph_Simulink.karma" nsPrefix="Graph_Simulink">
+  <eClassifiers xsi:type="ecore:EClass" name="DiagramGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//Diagram"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LayoutGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KLayout"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MatrixGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KMatrix"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GanttGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KPlugin"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GraphGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ObjectGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PointGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KPoint"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="direction">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="position">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KProperty"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refValue">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RelationshipGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KRelationship"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KRole"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InputPointGen" eSuperTypes="//PointGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OutputPointGen" eSuperTypes="//PointGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UndirectedPointGen" eSuperTypes="//PointGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ExportRoleGen" eSuperTypes="//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ImportRoleGen" eSuperTypes="//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TableGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KTable"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TableRowGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KTableRow"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TableCellGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KTableCell"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model__Graph_Simulink" eSuperTypes="//GraphGen">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Simulink Diagram [ Graph_Simulink ] "/>
+      <details key="self" value="Graph_Simulink"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Simulink Diagram"/>
+    </eAnnotations>
+    <eAnnotations source="Binding">
+      <details key="sourceRule" value="Def__Object_Clock__Object_Clock_Point_Output_d57733->Def__Relationship_Association__Role_Association_Source,Def__Graph_Simulink__Object_Clock->Def__Relationship_Association__Role_Association_Source,Def__Object_Sum__Object_Sum_Point_Output_d62931->Def__Relationship_Association__Role_Association_Source,Def__Graph_Simulink__Object_Sum->Def__Relationship_Association__Role_Association_Source,Def__Object_Clock__Object_Clock_Point_Input_689fda->Def__Relationship_Association__Role_Association_Source,Def__Object_Scope__Object_Scope_Point_Input_9ff9f1->Def__Relationship_Association__Role_Association_Source,Def__Object_Constant__Object_Constant_Point_Input_7dab6e->Def__Relationship_Association__Role_Association_Source,Def__Graph_Simulink__Object_Gain->Def__Relationship_Association__Role_Association_Source,Def__Object_Scope__Object_Scope_Point_Output_5a5a16->Def__Relationship_Association__Role_Association_Source,Def__Graph_Simulink__Object_Product->Def__Relationship_Association__Role_Association_Source,Def__Object_Gain__Object_Gain_Point_Output_b222b6->Def__Relationship_Association__Role_Association_Source,Def__Object_Product__Object_Product_Point_Output_e94650->Def__Relationship_Association__Role_Association_Source,Def__Object_Constant__Object_Constant_Point_Output_580b85->Def__Relationship_Association__Role_Association_Source,Def__Object_Sum__Object_Sum_Point_Input_179fb5->Def__Relationship_Association__Role_Association_Source,Def__Object_devide__Object_devide_Point_Output_439b18->Def__Relationship_Association__Role_Association_Source,Def__Graph_Simulink__Object_Constant->Def__Relationship_Association__Role_Association_Source,Def__Object_Display__Object_Display_Point_Output_e8dce2->Def__Relationship_Association__Role_Association_Source,Def__Graph_Simulink__Object_Display->Def__Relationship_Association__Role_Association_Source,Def__Object_Display__Object_Display_Point_Input_8657f6->Def__Relationship_Association__Role_Association_Source,Def__Object_Gain__Object_Gain_Point_Input_9367d5->Def__Relationship_Association__Role_Association_Source,Def__Object_Product__Object_Product_Point_Input_586c8a->Def__Relationship_Association__Role_Association_Source,Def__Graph_Simulink__Object_Scope->Def__Relationship_Association__Role_Association_Source"/>
+      <details key="targetRule" value="Def__Object_Clock__Object_Clock_Point_Output_d57733->Def__Relationship_Association__Role_Association_Target,Def__Graph_Simulink__Object_Clock->Def__Relationship_Association__Role_Association_Target,Def__Object_Sum__Object_Sum_Point_Output_d62931->Def__Relationship_Association__Role_Association_Target,Def__Graph_Simulink__Object_Sum->Def__Relationship_Association__Role_Association_Target,Def__Object_Clock__Object_Clock_Point_Input_689fda->Def__Relationship_Association__Role_Association_Target,Def__Object_Scope__Object_Scope_Point_Input_9ff9f1->Def__Relationship_Association__Role_Association_Target,Def__Object_Constant__Object_Constant_Point_Input_7dab6e->Def__Relationship_Association__Role_Association_Target,Def__Graph_Simulink__Object_Gain->Def__Relationship_Association__Role_Association_Target,Def__Object_Scope__Object_Scope_Point_Output_5a5a16->Def__Relationship_Association__Role_Association_Target,Def__Graph_Simulink__Object_Product->Def__Relationship_Association__Role_Association_Target,Def__Object_Gain__Object_Gain_Point_Output_b222b6->Def__Relationship_Association__Role_Association_Target,Def__Object_devide__Object_devide_Point_Input_6f659e->Def__Relationship_Association__Role_Association_Target,Def__Object_Product__Object_Product_Point_Output_e94650->Def__Relationship_Association__Role_Association_Target,Def__Object_Constant__Object_Constant_Point_Output_580b85->Def__Relationship_Association__Role_Association_Target,Def__Object_Sum__Object_Sum_Point_Input_179fb5->Def__Relationship_Association__Role_Association_Target,Def__Graph_Simulink__Object_Constant->Def__Relationship_Association__Role_Association_Target,Def__Object_Display__Object_Display_Point_Output_e8dce2->Def__Relationship_Association__Role_Association_Target,Def__Graph_Simulink__Object_Display->Def__Relationship_Association__Role_Association_Target,Def__Object_Display__Object_Display_Point_Input_8657f6->Def__Relationship_Association__Role_Association_Target,Def__Object_Gain__Object_Gain_Point_Input_9367d5->Def__Relationship_Association__Role_Association_Target,Def__Object_Product__Object_Product_Point_Input_586c8a->Def__Relationship_Association__Role_Association_Target,Def__Graph_Simulink__Object_Scope->Def__Relationship_Association__Role_Association_Target"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="layouts" upperBound="-1" eType="//Tag__Layout__Graph_Simulink" containment="true" eOpposite="//Tag__Layout__Graph_Simulink/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tables" upperBound="-1" eType="//Tag__Table__Graph_Simulink" containment="true" eOpposite="//Tag__Table__Graph_Simulink/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="matrixs" upperBound="-1" eType="//Tag__Matrix__Graph_Simulink" containment="true" eOpposite="//Tag__Matrix__Graph_Simulink/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="gantts" upperBound="-1" eType="//Gantt" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Graph_Simulink" containment="true" eOpposite="//Tag__Property__Graph_Simulink/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="objects" upperBound="-1" eType="//Tag__Object__Graph_Simulink" containment="true" eOpposite="//Tag__Object__Graph_Simulink/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="relationships" upperBound="-1" eType="//Tag__Relationship__Graph_Simulink" containment="true" eOpposite="//Tag__Relationship__Graph_Simulink/enclosingGraph"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Layout__Graph_Simulink" eSuperTypes="//LayoutGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="diagramKind" eType="//diagramKinds"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modelElementType" eType="//modelElementTypes"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modelElementName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__Graph_Simulink" eOpposite="//Model__Graph_Simulink/layouts"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="diagramKinds">
+    <eLiterals name="bdd"/>
+    <eLiterals name="idd" value="1"/>
+    <eLiterals name="uc" value="2"/>
+    <eLiterals name="act" value="3"/>
+    <eLiterals name="sd" value="4"/>
+    <eLiterals name="stm" value="5"/>
+    <eLiterals name="par" value="6"/>
+    <eLiterals name="req" value="7"/>
+    <eLiterals name="pkg" value="8"/>
+    <eLiterals name="annotation" value="9"/>
+    <eLiterals name="others" value="10"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="modelElementTypes">
+    <eLiterals name="package"/>
+    <eLiterals name="model" value="1"/>
+    <eLiterals name="modelLibrary" value="2"/>
+    <eLiterals name="view" value="3"/>
+    <eLiterals name="block" value="4"/>
+    <eLiterals name="constraintBlock" value="5"/>
+    <eLiterals name="activity" value="6"/>
+    <eLiterals name="interaction" value="7"/>
+    <eLiterals name="stateMachine" value="8"/>
+    <eLiterals name="profile" value="9"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__layout" eSuperTypes="//Tag__Layout__Graph_Simulink //LayoutGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="布局插件"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Table__Graph_Simulink" eSuperTypes="//TableGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__Graph_Simulink" eOpposite="//Model__Graph_Simulink/tables"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__table" eSuperTypes="//Tag__Table__Graph_Simulink //TableGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="表单"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Matrix__Graph_Simulink" eSuperTypes="//MatrixGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__Graph_Simulink" eOpposite="//Model__Graph_Simulink/matrixs"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__matrix" eSuperTypes="//Tag__Matrix__Graph_Simulink //MatrixGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="表单"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Gantt" eSuperTypes="//GanttGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="time" eType="//times"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeUnit">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startTime">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endTime">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="color">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ganttTasks" upperBound="-1" eType="//GanttTask" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="times">
+    <eLiterals name="YEAR"/>
+    <eLiterals name="MONTH" value="1"/>
+    <eLiterals name="DAY" value="2"/>
+    <eLiterals name="HOUR" value="3"/>
+    <eLiterals name="MINUTE" value="4"/>
+    <eLiterals name="SECOND" value="5"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__gantt" eSuperTypes="//Gantt"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GanttTask" abstract="true" eSuperTypes="//GanttGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ganttTaskElements" upperBound="-1" eType="//GanttTaskElement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__ganttTask" eSuperTypes="//GanttTask"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GanttTaskElement" abstract="true" eSuperTypes="//GanttGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementOffset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementLength">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementColor">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__ganttTaskElement" eSuperTypes="//GanttTaskElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Graph_Simulink" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__Graph_Simulink" eOpposite="//Model__Graph_Simulink/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Object__Graph_Simulink" abstract="true" eSuperTypes="//ObjectGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__Graph_Simulink" eOpposite="//Model__Graph_Simulink/objects"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Relationship__Graph_Simulink" abstract="true" eSuperTypes="//RelationshipGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__Graph_Simulink" eOpposite="//Model__Graph_Simulink/relationships"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__Object_Clock" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Clock"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Clock" containment="true" eOpposite="//Tag__Property__Object_Clock/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__Object_Clock" containment="true" eOpposite="//Tag__InputPoint__Object_Clock/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__Object_Clock" containment="true" eOpposite="//Tag__OutputPoint__Object_Clock/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__Object_Clock" containment="true" eOpposite="//Tag__UndirectedPoint__Object_Clock/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Clock" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Clock" eOpposite="//Object__Object_Clock/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__Object_Clock" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Clock" eOpposite="//Object__Object_Clock/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__Object_Clock" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Clock" eOpposite="//Object__Object_Clock/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__Object_Clock" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Clock" eOpposite="//Object__Object_Clock/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Clock_Point_Input_689fda" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Clock_Point_Input_689fda" eOpposite="//Point__Object_Clock_Point_Input_689fda/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Clock_Point_Input_689fda" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Clock_Point_Input_689fda" containment="true" eOpposite="//Tag__Property__Object_Clock_Point_Input_689fda/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Clock__Object_Clock_Point_Input_689fda" eSuperTypes="//Tag__UndirectedPoint__Object_Clock //Point__Object_Clock_Point_Input_689fda">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Clock"/>
+      <details key="self" value="Object_Clock_Point_Input_689fda"/>
+      <details key="metaInfo" value="Input [ Object_Clock_Point_Input_689fda ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Clock_Point_Output_d57733" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Clock_Point_Output_d57733" eOpposite="//Point__Object_Clock_Point_Output_d57733/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Clock_Point_Output_d57733" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Clock_Point_Output_d57733" containment="true" eOpposite="//Tag__Property__Object_Clock_Point_Output_d57733/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Clock__Object_Clock_Point_Output_d57733" eSuperTypes="//Tag__UndirectedPoint__Object_Clock //Point__Object_Clock_Point_Output_d57733">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Clock"/>
+      <details key="self" value="Object_Clock_Point_Output_d57733"/>
+      <details key="metaInfo" value="Output [ Object_Clock_Point_Output_d57733 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__Object_Constant" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Constant"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Constant" containment="true" eOpposite="//Tag__Property__Object_Constant/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__Object_Constant" containment="true" eOpposite="//Tag__InputPoint__Object_Constant/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__Object_Constant" containment="true" eOpposite="//Tag__OutputPoint__Object_Constant/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__Object_Constant" containment="true" eOpposite="//Tag__UndirectedPoint__Object_Constant/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Constant" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Constant" eOpposite="//Object__Object_Constant/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__Object_Constant" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Constant" eOpposite="//Object__Object_Constant/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__Object_Constant" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Constant" eOpposite="//Object__Object_Constant/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__Object_Constant" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Constant" eOpposite="//Object__Object_Constant/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__Prop_Constant_Value" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Constant Value"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Constant__Object_Constant_Prop_Constant_Value_ec4e54" eSuperTypes="//Property__Prop_Constant_Value //Tag__Property__Object_Constant">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Constant Value [ Object_Constant_Prop_Constant_Value_ec4e54 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Constant Value"/>
+      <details key="value" value="null"/>
+      <details key="self" value="Object_Constant_Prop_Constant_Value_ec4e54"/>
+      <details key="parent" value="Object_Constant"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Constant Value"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Constant_Point_Input_7dab6e" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Constant_Point_Input_7dab6e" eOpposite="//Point__Object_Constant_Point_Input_7dab6e/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Constant_Point_Input_7dab6e" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Constant_Point_Input_7dab6e" containment="true" eOpposite="//Tag__Property__Object_Constant_Point_Input_7dab6e/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Constant__Object_Constant_Point_Input_7dab6e" eSuperTypes="//Tag__UndirectedPoint__Object_Constant //Point__Object_Constant_Point_Input_7dab6e">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Constant"/>
+      <details key="self" value="Object_Constant_Point_Input_7dab6e"/>
+      <details key="metaInfo" value="Input [ Object_Constant_Point_Input_7dab6e ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Constant_Point_Output_580b85" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Constant_Point_Output_580b85" eOpposite="//Point__Object_Constant_Point_Output_580b85/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Constant_Point_Output_580b85" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Constant_Point_Output_580b85" containment="true" eOpposite="//Tag__Property__Object_Constant_Point_Output_580b85/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Constant__Object_Constant_Point_Output_580b85" eSuperTypes="//Tag__UndirectedPoint__Object_Constant //Point__Object_Constant_Point_Output_580b85">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Constant"/>
+      <details key="self" value="Object_Constant_Point_Output_580b85"/>
+      <details key="metaInfo" value="Output [ Object_Constant_Point_Output_580b85 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__Object_Display" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Display"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Display" containment="true" eOpposite="//Tag__Property__Object_Display/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__Object_Display" containment="true" eOpposite="//Tag__InputPoint__Object_Display/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__Object_Display" containment="true" eOpposite="//Tag__OutputPoint__Object_Display/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__Object_Display" containment="true" eOpposite="//Tag__UndirectedPoint__Object_Display/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Display" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Display" eOpposite="//Object__Object_Display/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__Object_Display" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Display" eOpposite="//Object__Object_Display/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__Object_Display" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Display" eOpposite="//Object__Object_Display/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__Object_Display" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Display" eOpposite="//Object__Object_Display/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Display_Point_Input_8657f6" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Display_Point_Input_8657f6" eOpposite="//Point__Object_Display_Point_Input_8657f6/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Display_Point_Input_8657f6" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Display_Point_Input_8657f6" containment="true" eOpposite="//Tag__Property__Object_Display_Point_Input_8657f6/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Display__Object_Display_Point_Input_8657f6" eSuperTypes="//Tag__UndirectedPoint__Object_Display //Point__Object_Display_Point_Input_8657f6">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Display"/>
+      <details key="self" value="Object_Display_Point_Input_8657f6"/>
+      <details key="metaInfo" value="Input [ Object_Display_Point_Input_8657f6 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Display_Point_Output_e8dce2" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Display_Point_Output_e8dce2" eOpposite="//Point__Object_Display_Point_Output_e8dce2/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Display_Point_Output_e8dce2" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Display_Point_Output_e8dce2" containment="true" eOpposite="//Tag__Property__Object_Display_Point_Output_e8dce2/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Display__Object_Display_Point_Output_e8dce2" eSuperTypes="//Tag__UndirectedPoint__Object_Display //Point__Object_Display_Point_Output_e8dce2">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Display"/>
+      <details key="self" value="Object_Display_Point_Output_e8dce2"/>
+      <details key="metaInfo" value="Output [ Object_Display_Point_Output_e8dce2 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__Object_Gain" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Gain"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Gain" containment="true" eOpposite="//Tag__Property__Object_Gain/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__Object_Gain" containment="true" eOpposite="//Tag__InputPoint__Object_Gain/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__Object_Gain" containment="true" eOpposite="//Tag__OutputPoint__Object_Gain/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__Object_Gain" containment="true" eOpposite="//Tag__UndirectedPoint__Object_Gain/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Gain" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Gain" eOpposite="//Object__Object_Gain/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__Object_Gain" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Gain" eOpposite="//Object__Object_Gain/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__Object_Gain" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Gain" eOpposite="//Object__Object_Gain/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__Object_Gain" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Gain" eOpposite="//Object__Object_Gain/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__Prop_Gain_Value" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Gain Value"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Gain__Object_Gain_Prop_Gain_Value_e5738c" eSuperTypes="//Property__Prop_Gain_Value //Tag__Property__Object_Gain">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Gain Value [ Object_Gain_Prop_Gain_Value_e5738c ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Gain Value"/>
+      <details key="value" value="null"/>
+      <details key="self" value="Object_Gain_Prop_Gain_Value_e5738c"/>
+      <details key="parent" value="Object_Gain"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Gain Value"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Gain_Point_Input_9367d5" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Gain_Point_Input_9367d5" eOpposite="//Point__Object_Gain_Point_Input_9367d5/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Gain_Point_Input_9367d5" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Gain_Point_Input_9367d5" containment="true" eOpposite="//Tag__Property__Object_Gain_Point_Input_9367d5/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Gain__Object_Gain_Point_Input_9367d5" eSuperTypes="//Tag__UndirectedPoint__Object_Gain //Point__Object_Gain_Point_Input_9367d5">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Gain"/>
+      <details key="self" value="Object_Gain_Point_Input_9367d5"/>
+      <details key="metaInfo" value="Input [ Object_Gain_Point_Input_9367d5 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Gain_Point_Output_b222b6" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Gain_Point_Output_b222b6" eOpposite="//Point__Object_Gain_Point_Output_b222b6/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Gain_Point_Output_b222b6" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Gain_Point_Output_b222b6" containment="true" eOpposite="//Tag__Property__Object_Gain_Point_Output_b222b6/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Gain__Object_Gain_Point_Output_b222b6" eSuperTypes="//Tag__UndirectedPoint__Object_Gain //Point__Object_Gain_Point_Output_b222b6">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Gain"/>
+      <details key="self" value="Object_Gain_Point_Output_b222b6"/>
+      <details key="metaInfo" value="Output [ Object_Gain_Point_Output_b222b6 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__Object_Product" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Product"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Product" containment="true" eOpposite="//Tag__Property__Object_Product/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__Object_Product" containment="true" eOpposite="//Tag__InputPoint__Object_Product/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__Object_Product" containment="true" eOpposite="//Tag__OutputPoint__Object_Product/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__Object_Product" containment="true" eOpposite="//Tag__UndirectedPoint__Object_Product/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Product" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Product" eOpposite="//Object__Object_Product/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__Object_Product" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Product" eOpposite="//Object__Object_Product/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__Object_Product" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Product" eOpposite="//Object__Object_Product/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__Object_Product" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Product" eOpposite="//Object__Object_Product/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Product_Point_Input_586c8a" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Product_Point_Input_586c8a" eOpposite="//Point__Object_Product_Point_Input_586c8a/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Product_Point_Input_586c8a" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Product_Point_Input_586c8a" containment="true" eOpposite="//Tag__Property__Object_Product_Point_Input_586c8a/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Product__Object_Product_Point_Input_586c8a" eSuperTypes="//Tag__UndirectedPoint__Object_Product //Point__Object_Product_Point_Input_586c8a">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Product"/>
+      <details key="self" value="Object_Product_Point_Input_586c8a"/>
+      <details key="metaInfo" value="Input [ Object_Product_Point_Input_586c8a ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Product_Point_Output_e94650" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Product_Point_Output_e94650" eOpposite="//Point__Object_Product_Point_Output_e94650/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Product_Point_Output_e94650" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Product_Point_Output_e94650" containment="true" eOpposite="//Tag__Property__Object_Product_Point_Output_e94650/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Product__Object_Product_Point_Output_e94650" eSuperTypes="//Tag__UndirectedPoint__Object_Product //Point__Object_Product_Point_Output_e94650">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Product"/>
+      <details key="self" value="Object_Product_Point_Output_e94650"/>
+      <details key="metaInfo" value="Output [ Object_Product_Point_Output_e94650 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__Object_Scope" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Scope"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Scope" containment="true" eOpposite="//Tag__Property__Object_Scope/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__Object_Scope" containment="true" eOpposite="//Tag__InputPoint__Object_Scope/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__Object_Scope" containment="true" eOpposite="//Tag__OutputPoint__Object_Scope/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__Object_Scope" containment="true" eOpposite="//Tag__UndirectedPoint__Object_Scope/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Scope" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Scope" eOpposite="//Object__Object_Scope/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__Object_Scope" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Scope" eOpposite="//Object__Object_Scope/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__Object_Scope" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Scope" eOpposite="//Object__Object_Scope/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__Object_Scope" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Scope" eOpposite="//Object__Object_Scope/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Scope_Point_Input_9ff9f1" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Scope_Point_Input_9ff9f1" eOpposite="//Point__Object_Scope_Point_Input_9ff9f1/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Scope_Point_Input_9ff9f1" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Scope_Point_Input_9ff9f1" containment="true" eOpposite="//Tag__Property__Object_Scope_Point_Input_9ff9f1/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Scope__Object_Scope_Point_Input_9ff9f1" eSuperTypes="//Tag__UndirectedPoint__Object_Scope //Point__Object_Scope_Point_Input_9ff9f1">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Scope"/>
+      <details key="self" value="Object_Scope_Point_Input_9ff9f1"/>
+      <details key="metaInfo" value="Input [ Object_Scope_Point_Input_9ff9f1 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Scope_Point_Output_5a5a16" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Scope_Point_Output_5a5a16" eOpposite="//Point__Object_Scope_Point_Output_5a5a16/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Scope_Point_Output_5a5a16" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Scope_Point_Output_5a5a16" containment="true" eOpposite="//Tag__Property__Object_Scope_Point_Output_5a5a16/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Scope__Object_Scope_Point_Output_5a5a16" eSuperTypes="//Tag__UndirectedPoint__Object_Scope //Point__Object_Scope_Point_Output_5a5a16">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Scope"/>
+      <details key="self" value="Object_Scope_Point_Output_5a5a16"/>
+      <details key="metaInfo" value="Output [ Object_Scope_Point_Output_5a5a16 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__Object_Sum" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Sum"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Sum" containment="true" eOpposite="//Tag__Property__Object_Sum/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__Object_Sum" containment="true" eOpposite="//Tag__InputPoint__Object_Sum/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__Object_Sum" containment="true" eOpposite="//Tag__OutputPoint__Object_Sum/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__Object_Sum" containment="true" eOpposite="//Tag__UndirectedPoint__Object_Sum/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Sum" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Sum" eOpposite="//Object__Object_Sum/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__Object_Sum" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Sum" eOpposite="//Object__Object_Sum/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__Object_Sum" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Sum" eOpposite="//Object__Object_Sum/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__Object_Sum" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_Sum" eOpposite="//Object__Object_Sum/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Sum_Point_Input_179fb5" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Sum_Point_Input_179fb5" eOpposite="//Point__Object_Sum_Point_Input_179fb5/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Sum_Point_Input_179fb5" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Sum_Point_Input_179fb5" containment="true" eOpposite="//Tag__Property__Object_Sum_Point_Input_179fb5/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Sum__Object_Sum_Point_Input_179fb5" eSuperTypes="//Tag__UndirectedPoint__Object_Sum //Point__Object_Sum_Point_Input_179fb5">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Sum"/>
+      <details key="self" value="Object_Sum_Point_Input_179fb5"/>
+      <details key="metaInfo" value="Input [ Object_Sum_Point_Input_179fb5 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_Sum_Point_Output_d62931" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_Sum_Point_Output_d62931" eOpposite="//Point__Object_Sum_Point_Output_d62931/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_Sum_Point_Output_d62931" eSuperTypes="//UndirectedPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_Sum_Point_Output_d62931" containment="true" eOpposite="//Tag__Property__Object_Sum_Point_Output_d62931/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_Sum__Object_Sum_Point_Output_d62931" eSuperTypes="//Tag__UndirectedPoint__Object_Sum //Point__Object_Sum_Point_Output_d62931">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_Sum"/>
+      <details key="self" value="Object_Sum_Point_Output_d62931"/>
+      <details key="metaInfo" value="Output [ Object_Sum_Point_Output_d62931 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__Object_devide" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Divide"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_devide" containment="true" eOpposite="//Tag__Property__Object_devide/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__Object_devide" containment="true" eOpposite="//Tag__InputPoint__Object_devide/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__Object_devide" containment="true" eOpposite="//Tag__OutputPoint__Object_devide/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__Object_devide" containment="true" eOpposite="//Tag__UndirectedPoint__Object_devide/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_devide" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_devide" eOpposite="//Object__Object_devide/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__Object_devide" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_devide" eOpposite="//Object__Object_devide/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__Object_devide" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_devide" eOpposite="//Object__Object_devide/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__Object_devide" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__Object_devide" eOpposite="//Object__Object_devide/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_devide_Point_Input_6f659e" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_devide_Point_Input_6f659e" eOpposite="//Point__Object_devide_Point_Input_6f659e/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_devide_Point_Input_6f659e" eSuperTypes="//InputPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_devide_Point_Input_6f659e" containment="true" eOpposite="//Tag__Property__Object_devide_Point_Input_6f659e/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_devide__Object_devide_Point_Input_6f659e" eSuperTypes="//Tag__InputPoint__Object_devide //Point__Object_devide_Point_Input_6f659e">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_devide"/>
+      <details key="self" value="Object_devide_Point_Input_6f659e"/>
+      <details key="metaInfo" value="Input [ Object_devide_Point_Input_6f659e ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Input"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Object_devide_Point_Output_439b18" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false" lowerBound="1" eType="//Point__Object_devide_Point_Output_439b18" eOpposite="//Point__Object_devide_Point_Output_439b18/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__Object_devide_Point_Output_439b18" eSuperTypes="//OutputPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Object_devide_Point_Output_439b18" containment="true" eOpposite="//Tag__Property__Object_devide_Point_Output_439b18/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Object_devide__Object_devide_Point_Output_439b18" eSuperTypes="//Tag__OutputPoint__Object_devide //Point__Object_devide_Point_Output_439b18">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="rectangle"/>
+      <details key="parent" value="Object_devide"/>
+      <details key="self" value="Object_devide_Point_Output_439b18"/>
+      <details key="metaInfo" value="Output [ Object_devide_Point_Output_439b18 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Output"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Clock" eSuperTypes="//Tag__Object__Graph_Simulink //Object__Object_Clock">
+    <eAnnotations source="annotation">
+      <details key="self" value="Object_Clock"/>
+      <details key="parent" value="Graph_Simulink"/>
+      <details key="mode" value="blankPropertyMode"/>
+      <details key="shape" value="customImage"/>
+      <details key="LocalLabel" value="Clock"/>
+      <details key="metaInfo" value="Clock[Object_Clock]"/>
+      <details key="properties" value=""/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value="Def__Object_Clock__Object_Clock_Point_Input_689fda,Object_Clock_Point_Input_689fda,Input;Def__Object_Clock__Object_Clock_Point_Output_d57733,Object_Clock_Point_Output_d57733,Output"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Clock"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__Graph_Simulink__Object_Clock__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__Graph_Simulink__Object_Clock__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Clock__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Clock__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Constant" eSuperTypes="//Tag__Object__Graph_Simulink //Object__Object_Constant">
+    <eAnnotations source="annotation">
+      <details key="self" value="Object_Constant"/>
+      <details key="parent" value="Graph_Simulink"/>
+      <details key="mode" value="blankPropertyMode"/>
+      <details key="shape" value="customImage"/>
+      <details key="LocalLabel" value="Constant"/>
+      <details key="metaInfo" value="Constant[Object_Constant]"/>
+      <details key="properties" value="Def__Object_Constant__Object_Constant_Prop_Constant_Value_ec4e54,Object_Constant_Prop_Constant_Value_ec4e54,Constant Value,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value="Def__Object_Constant__Object_Constant_Point_Input_7dab6e,Object_Constant_Point_Input_7dab6e,Input;Def__Object_Constant__Object_Constant_Point_Output_580b85,Object_Constant_Point_Output_580b85,Output"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Constant"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__Graph_Simulink__Object_Constant__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__Graph_Simulink__Object_Constant__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Constant__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Constant__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Display" eSuperTypes="//Tag__Object__Graph_Simulink //Object__Object_Display">
+    <eAnnotations source="annotation">
+      <details key="self" value="Object_Display"/>
+      <details key="parent" value="Graph_Simulink"/>
+      <details key="mode" value="blankPropertyMode"/>
+      <details key="shape" value="customImage"/>
+      <details key="LocalLabel" value="Display"/>
+      <details key="metaInfo" value="Display[Object_Display]"/>
+      <details key="properties" value=""/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value="Def__Object_Display__Object_Display_Point_Input_8657f6,Object_Display_Point_Input_8657f6,Input;Def__Object_Display__Object_Display_Point_Output_e8dce2,Object_Display_Point_Output_e8dce2,Output"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Display"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__Graph_Simulink__Object_Display__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__Graph_Simulink__Object_Display__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Display__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Display__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Gain" eSuperTypes="//Tag__Object__Graph_Simulink //Object__Object_Gain">
+    <eAnnotations source="annotation">
+      <details key="self" value="Object_Gain"/>
+      <details key="parent" value="Graph_Simulink"/>
+      <details key="mode" value="blankPropertyMode"/>
+      <details key="shape" value="customImage"/>
+      <details key="LocalLabel" value="Gain"/>
+      <details key="metaInfo" value="Gain[Object_Gain]"/>
+      <details key="properties" value="Def__Object_Gain__Object_Gain_Prop_Gain_Value_e5738c,Object_Gain_Prop_Gain_Value_e5738c,Gain Value,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value="Def__Object_Gain__Object_Gain_Point_Input_9367d5,Object_Gain_Point_Input_9367d5,Input;Def__Object_Gain__Object_Gain_Point_Output_b222b6,Object_Gain_Point_Output_b222b6,Output"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Gain"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__Graph_Simulink__Object_Gain__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__Graph_Simulink__Object_Gain__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Gain__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Gain__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Product" eSuperTypes="//Tag__Object__Graph_Simulink //Object__Object_Product">
+    <eAnnotations source="annotation">
+      <details key="self" value="Object_Product"/>
+      <details key="parent" value="Graph_Simulink"/>
+      <details key="mode" value="blankPropertyMode"/>
+      <details key="shape" value="customImage"/>
+      <details key="LocalLabel" value="Product"/>
+      <details key="metaInfo" value="Product[Object_Product]"/>
+      <details key="properties" value=""/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value="Def__Object_Product__Object_Product_Point_Input_586c8a,Object_Product_Point_Input_586c8a,Input;Def__Object_Product__Object_Product_Point_Output_e94650,Object_Product_Point_Output_e94650,Output"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Product"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__Graph_Simulink__Object_Product__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__Graph_Simulink__Object_Product__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Product__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Product__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Scope" eSuperTypes="//Tag__Object__Graph_Simulink //Object__Object_Scope">
+    <eAnnotations source="annotation">
+      <details key="self" value="Object_Scope"/>
+      <details key="parent" value="Graph_Simulink"/>
+      <details key="mode" value="blankPropertyMode"/>
+      <details key="shape" value="customImage"/>
+      <details key="LocalLabel" value="Scope"/>
+      <details key="metaInfo" value="Scope[Object_Scope]"/>
+      <details key="properties" value=""/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value="Def__Object_Scope__Object_Scope_Point_Input_9ff9f1,Object_Scope_Point_Input_9ff9f1,Input;Def__Object_Scope__Object_Scope_Point_Output_5a5a16,Object_Scope_Point_Output_5a5a16,Output"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Scope"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__Graph_Simulink__Object_Scope__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__Graph_Simulink__Object_Scope__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Scope__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Scope__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Sum" eSuperTypes="//Tag__Object__Graph_Simulink //Object__Object_Sum">
+    <eAnnotations source="annotation">
+      <details key="self" value="Object_Sum"/>
+      <details key="parent" value="Graph_Simulink"/>
+      <details key="mode" value="blankPropertyMode"/>
+      <details key="shape" value="customImage"/>
+      <details key="LocalLabel" value="Sum"/>
+      <details key="metaInfo" value="Sum[Object_Sum]"/>
+      <details key="properties" value=""/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value="Def__Object_Sum__Object_Sum_Point_Input_179fb5,Object_Sum_Point_Input_179fb5,Input;Def__Object_Sum__Object_Sum_Point_Output_d62931,Object_Sum_Point_Output_d62931,Output"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Sum"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__Graph_Simulink__Object_Sum__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__Graph_Simulink__Object_Sum__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Sum__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_Sum__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_devide" eSuperTypes="//Tag__Object__Graph_Simulink //Object__Object_devide">
+    <eAnnotations source="annotation">
+      <details key="self" value="Object_devide"/>
+      <details key="parent" value="Graph_Simulink"/>
+      <details key="mode" value="blankPropertyMode"/>
+      <details key="shape" value="customImage"/>
+      <details key="LocalLabel" value="Divide"/>
+      <details key="metaInfo" value="Divide[Object_devide]"/>
+      <details key="properties" value=""/>
+      <details key="input" value="Def__Object_devide__Object_devide_Point_Input_6f659e,Object_devide_Point_Input_6f659e,Input"/>
+      <details key="output" value="Def__Object_devide__Object_devide_Point_Output_439b18,Object_devide_Point_Output_439b18,Output"/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Divide"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__Graph_Simulink__Object_devide__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__Graph_Simulink__Object_devide__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_devide__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Object_devide__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Relationship_Association" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRelationship" ordered="false" lowerBound="1" eType="//Relationship__Relationship_Association" eOpposite="//Relationship__Relationship_Association/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Relationship__Relationship_Association" eSuperTypes="//RelationshipGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Association"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Relationship_Association" containment="true" eOpposite="//Tag__Property__Relationship_Association/enclosingRelationship"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fromRole" eType="//Tag__Role__Import__Relationship_Association" containment="true" eOpposite="//Tag__Role__Import__Relationship_Association/enclosingRelationship"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="toRole" eType="//Tag__Role__Export__Relationship_Association" containment="true" eOpposite="//Tag__Role__Export__Relationship_Association/enclosingRelationship"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Role__Import__Relationship_Association" abstract="true" eSuperTypes="//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRelationship" ordered="false" lowerBound="1" eType="//Relationship__Relationship_Association" eOpposite="//Relationship__Relationship_Association/fromRole"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Role__Export__Relationship_Association" abstract="true" eSuperTypes="//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRelationship" ordered="false" lowerBound="1" eType="//Relationship__Relationship_Association" eOpposite="//Relationship__Relationship_Association/toRole"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Role_Association_Source" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRole" ordered="false" lowerBound="1" eType="//Role__Role_Association_Source"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Relationship_Association__Role_Association_Source" eSuperTypes="//Tag__Role__Import__Relationship_Association //Role__Role_Association_Source">
+    <eAnnotations source="annotation">
+      <details key="shape" value="no"/>
+      <details key="properties" value=""/>
+      <details key="metaInfo" value="Association_Source [ Role_Association_Source ] "/>
+      <details key="LocalLabel" value="Association_Source"/>
+      <details key="parent" value="Relationship_Association"/>
+      <details key="self" value="Role_Association_Source"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Role__Role_Association_Source" eSuperTypes="//ImportRoleGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Association_Source"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Role_Association_Source" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__Role_Association_Target" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRole" ordered="false" lowerBound="1" eType="//Role__Role_Association_Target"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Relationship_Association__Role_Association_Target" eSuperTypes="//Tag__Role__Export__Relationship_Association //Role__Role_Association_Target">
+    <eAnnotations source="annotation">
+      <details key="shape" value="no"/>
+      <details key="properties" value=""/>
+      <details key="metaInfo" value="Association_Target [ Role_Association_Target ] "/>
+      <details key="LocalLabel" value="Association_Target"/>
+      <details key="parent" value="Relationship_Association"/>
+      <details key="self" value="Role_Association_Target"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Role__Role_Association_Target" eSuperTypes="//ExportRoleGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Association_Target"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__Role_Association_Target" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__Graph_Simulink__Relationship_Association" eSuperTypes="//Tag__Relationship__Graph_Simulink //Relationship__Relationship_Association">
+    <eAnnotations source="annotation">
+      <details key="parent" value="Graph_Simulink"/>
+      <details key="self" value="Relationship_Association"/>
+      <details key="roles" value="Role_Association_Source,Role_Association_Target"/>
+      <details key="metaInfo" value="Association [ Relationship_Association ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+  </eClassifiers>
+</ecore:EPackage>

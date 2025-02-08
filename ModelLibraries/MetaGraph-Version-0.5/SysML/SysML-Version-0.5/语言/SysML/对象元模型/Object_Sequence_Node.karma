@@ -1,0 +1,20 @@
+   Object Object_Sequence_Node
+      initial Property  Object_Sequence_Node_Property_Name_6de193 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Sequence_Node_Property_To_Do_dd3116 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Sequence_Node_Property_In_Activity_3389a1 = "null" extends Property_In_Activity annotation(localLabel ="处于活动");
+      initial Property  Object_Sequence_Node_Property_Is_Locally_Reentrant_3a0543 = false extends Property_Is_Locally_Reentrant annotation(localLabel ="是否本地可重入");
+      initial Property  Object_Sequence_Node_Property_Redefined_Node_e5e5fd = "null" extends Property_Redefined_Node annotation(localLabel ="重定义节点");
+      Output Point Object_Sequence_Node_Point_Output_Pin_1719c9 extends Point_Output_Pin annotation (localLabel ="输出引脚");
+      Output Point Object_Sequence_Node_Point_Value_Pin_6d407f extends Point_Value_Pin annotation (localLabel ="值引脚");
+      Undirected Point Object_Sequence_Node_Point_Input_Pin_8f74f4 extends Point_Input_Pin annotation (localLabel ="输入引脚");
+      Undirected Point Object_Sequence_Node_Point_Action_Input_Pin_e07395 extends Point_Action_Input_Pin annotation (localLabel ="动作输入引脚");
+   annotation(
+      localLabel="顺序节点",
+      description="",
+      icon="顺序节点.png",
+      shape="roundedRectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      );
+   end Object_Sequence_Node;
+ 

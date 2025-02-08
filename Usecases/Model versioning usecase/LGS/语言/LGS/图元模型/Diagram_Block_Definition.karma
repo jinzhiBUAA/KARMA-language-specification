@@ -1,0 +1,44 @@
+   partial Graph Diagram_Block_Definition
+    Object Object_Block;
+    Object Object_Constraint_Block;
+    Object Object_Interface_Block;
+    Relationship Relationship_Aggregation;
+    Relationship Relationship_Composition;
+    Constraint (
+    bind connector(Object_Block,Relationship_Aggregation.Role_Aggregation_Source),
+    bind connector(Object_Block.Object_Block_Point_Mechanical_Port_ae19e1,Relationship_Aggregation.Role_Aggregation_Source),
+    bind connector(Object_Block.Object_Block_Point_Power_Port_a1b6d0,Relationship_Aggregation.Role_Aggregation_Source),
+    bind connector(Object_Constraint_Block,Relationship_Aggregation.Role_Aggregation_Source),
+    bind connector(Object_Block.Object_Block_Point_Signal_Port_9d01e4,Relationship_Aggregation.Role_Aggregation_Source),
+    bind connector(Object_Block.Object_Block_Point_Control_Port_322192,Relationship_Aggregation.Role_Aggregation_Source),
+    bind connector(Object_Interface_Block,Relationship_Aggregation.Role_Aggregation_Source),
+    bind connector(Object_Block,Relationship_Aggregation.Role_Aggregation_Target),
+    bind connector(Object_Block.Object_Block_Point_Mechanical_Port_ae19e1,Relationship_Aggregation.Role_Aggregation_Target),
+    bind connector(Object_Block.Object_Block_Point_Power_Port_a1b6d0,Relationship_Aggregation.Role_Aggregation_Target),
+    bind connector(Object_Constraint_Block,Relationship_Aggregation.Role_Aggregation_Target),
+    bind connector(Object_Block.Object_Block_Point_Signal_Port_9d01e4,Relationship_Aggregation.Role_Aggregation_Target),
+    bind connector(Object_Block.Object_Block_Point_Control_Port_322192,Relationship_Aggregation.Role_Aggregation_Target),
+    bind connector(Object_Interface_Block,Relationship_Aggregation.Role_Aggregation_Target),
+    bind connector(Object_Block,Relationship_Composition.Role_Composition_Source),
+    bind connector(Object_Block.Object_Block_Point_Mechanical_Port_ae19e1,Relationship_Composition.Role_Composition_Source),
+    bind connector(Object_Block.Object_Block_Point_Power_Port_a1b6d0,Relationship_Composition.Role_Composition_Source),
+    bind connector(Object_Constraint_Block,Relationship_Composition.Role_Composition_Source),
+    bind connector(Object_Block.Object_Block_Point_Signal_Port_9d01e4,Relationship_Composition.Role_Composition_Source),
+    bind connector(Object_Block.Object_Block_Point_Control_Port_322192,Relationship_Composition.Role_Composition_Source),
+    bind connector(Object_Interface_Block,Relationship_Composition.Role_Composition_Source),
+    bind connector(Object_Block,Relationship_Composition.Role_Composition_Target),
+    bind connector(Object_Block.Object_Block_Point_Mechanical_Port_ae19e1,Relationship_Composition.Role_Composition_Target),
+    bind connector(Object_Block.Object_Block_Point_Power_Port_a1b6d0,Relationship_Composition.Role_Composition_Target),
+    bind connector(Object_Constraint_Block,Relationship_Composition.Role_Composition_Target),
+    bind connector(Object_Block.Object_Block_Point_Signal_Port_9d01e4,Relationship_Composition.Role_Composition_Target),
+    bind connector(Object_Block.Object_Block_Point_Control_Port_322192,Relationship_Composition.Role_Composition_Target),
+    bind connector(Object_Interface_Block,Relationship_Composition.Role_Composition_Target),
+    Object_Block.explode(Diagram_Internal_Block),
+    Object_Constraint_Block.explode(Diagram_Parameter),
+    );
+    annotation(
+        localLabel="Block Definition Diagram",
+        type = diagram,
+        description="",
+       );
+        end Diagram_Block_Definition;

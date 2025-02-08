@@ -1,0 +1,25 @@
+   Object Object_Part_Property
+      initial Property  Object_Part_Property_Property_Name_5fa8d0 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Part_Property_Property_Type_cf3398 = "null" extends Property_Type annotation(localLabel ="类型");
+      initial Property  Object_Part_Property_Property_Default_Value_d71821 = "null" extends Property_Default_Value annotation(localLabel ="默认值");
+      initial Property  Object_Part_Property_Property_Multiplicity_21ac92 = "null" extends Property_Multiplicity annotation(localLabel ="多重度");
+      initial Property  Object_Part_Property_Property_Is_Read_Only_24a661 = false extends Property_Is_Read_Only annotation(localLabel ="是否只读");
+      initial Property  Object_Part_Property_Property_Is_Static_d8bed8 = false extends Property_Is_Static annotation(localLabel ="是否静态");
+      initial Property  Object_Part_Property_Property_Aggregation_9be22a = "null" extends Property_Aggregation annotation(localLabel ="聚合");
+      initial Property  Object_Part_Property_Property_Is_Derived_717914 = false extends Property_Is_Derived annotation(localLabel ="是否派生");
+      initial Property  Object_Part_Property_Property_To_Do_0bb1df = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      Undirected Point Object_Part_Property_Point_Constraint_Parameter_119082 extends Point_Constraint_Parameter annotation (localLabel ="约束参数");
+      Undirected Point Object_Part_Property_Point_Proxy_Port_1fa7cf extends Point_Proxy_Port annotation (localLabel ="代理端口");
+      Undirected Point Object_Part_Property_Point_Full_Port_496e46 extends Point_Full_Port annotation (localLabel ="完整端口");
+      Undirected Point Object_Part_Property_Point_Port_4c77e5 extends Point_Port annotation (localLabel ="端口");
+      Undirected Point Object_Part_Property_Point_Flow_Port_9597d1 extends Point_Flow_Port annotation (localLabel ="流端口");
+   annotation(
+      localLabel="组成属性",
+      description="",
+      icon="组成属性.png",
+      shape="rectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      );
+   end Object_Part_Property;
+ 

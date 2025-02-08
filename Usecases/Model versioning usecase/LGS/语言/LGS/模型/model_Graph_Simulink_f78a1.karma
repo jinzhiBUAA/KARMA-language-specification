@@ -1,0 +1,1796 @@
+    partial Model model_Graph_Simulink_f78a1 instanceof Graph_Simulink
+    
+      Object model_Graph_Simulink_ddd24_object_3a18_a70e refer Object_Clock
+      Point model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f refer Object_Clock_Point_Input_689fda
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(98,35,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f;
+ 
+      
+        annotation(
+          initialLocation=(63,168,106,85),
+          localLabel="Braking load（F_main_load）",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Clock.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_3a18_a70e;
+
+      Object model_Graph_Simulink_ddd24_object_348e_2b10 refer Object_Constant
+        Property model_Graph_Simulink_ddd24_object_348e_property_cea5_6b25 = "null" refer Object_Constant_Prop_Constant_Value_ec4e54 annotation(localLabel = "Constant Value",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Graph_Simulink_ddd24_object_348e_undirected_4867_b927 refer Object_Constant_Point_Output_580b85
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(112,35,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_348e_undirected_4867_b927;
+ 
+      
+        annotation(
+          initialLocation=(56,343,120,92),
+          localLabel="Gravitation（g）",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Constant.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_348e_2b10;
+
+      Object model_Graph_Simulink_ddd24_object_b008_1426 refer Object_Gain
+        Property model_Graph_Simulink_ddd24_object_b008_property_fb3e_9670 = "2" refer Object_Gain_Prop_Gain_Value_e5738c annotation(localLabel = "Gain Value",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Graph_Simulink_ddd24_object_b008_undirected_afa4_1fc4 refer Object_Gain_Point_Input_9367d5
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,42,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_b008_undirected_afa4_1fc4;
+ 
+      Point model_Graph_Simulink_ddd24_object_b008_undirected_0667_b90e refer Object_Gain_Point_Output_b222b6
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(132,42,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_b008_undirected_0667_b90e;
+ 
+      
+        annotation(
+          initialLocation=(1029,450,140,103),
+          localLabel="Gain",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="gain.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_b008_1426;
+
+      Object model_Graph_Simulink_ddd24_object_4b12_3ea2_d39d refer Object_Scope
+      Point model_Graph_Simulink_ddd24_object_4b12_undirected_9107_85f2_fc85 refer Object_Scope_Point_Input_9ff9f1
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,51,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_4b12_undirected_9107_85f2_fc85;
+ 
+      
+        annotation(
+          initialLocation=(1820,1071,140,124),
+          localLabel="Braking kinetic energy (E)",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Scope.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_4b12_3ea2_d39d;
+
+      Object model_Graph_Simulink_f78a1_object_913f refer Object_devide
+      Point model_Graph_Simulink_f78a1_object_913f_input_f176 refer Object_devide_Point_Input_6f659e
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,92,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_input_f176;
+ 
+      Point model_Graph_Simulink_f78a1_object_913f_input_19e1 refer Object_devide_Point_Input_6f659e
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,36,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_input_19e1;
+ 
+      Point model_Graph_Simulink_f78a1_object_913f_output_1d75 refer Object_devide_Point_Output_439b18
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(168,70,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_output_1d75;
+ 
+      Point model_Graph_Simulink_f78a1_object_913f_output_0d99 refer Object_devide_Point_Output_439b18
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(98,136,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_output_0d99;
+ 
+      Point model_Graph_Simulink_f78a1_object_913f_output_a9aa refer Object_devide_Point_Output_439b18
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(44,136,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_output_a9aa;
+ 
+      
+        annotation(
+          initialLocation=(280,231,176,163),
+          localLabel="Divide",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="divide.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_f78a1_object_913f;
+
+      Object model_Graph_Simulink_ddd24_object_3a19_d6a6_1723 refer Object_Product
+      Point model_Graph_Simulink_ddd24_object_3a19_undirected_0890_305e_6395 refer Object_Product_Point_Input_586c8a
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,14,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a19_undirected_0890_305e_6395;
+ 
+      Point model_Graph_Simulink_ddd24_object_3a19_undirected_b659_30fe_9dd9 refer Object_Product_Point_Input_586c8a
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,63,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a19_undirected_b659_30fe_9dd9;
+ 
+      Point model_Graph_Simulink_ddd24_object_3a19_undirected_828c_abb1_11fc refer Object_Product_Point_Output_e94650
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(132,40,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a19_undirected_828c_abb1_11fc;
+ 
+      
+        annotation(
+          initialLocation=(623,513,140,105),
+          localLabel="Product",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Product.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_3a19_d6a6_1723;
+
+      Object model_Graph_Simulink_ddd24_object_3a18_a70e_28af refer Object_Clock
+      Point model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f_fad0 refer Object_Clock_Point_Input_689fda
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(98,35,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f_fad0;
+ 
+      
+        annotation(
+          initialLocation=(371,543,106,85),
+          localLabel="Wheel radius（R_gd）",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Clock.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_3a18_a70e_28af;
+
+      Object model_Graph_Simulink_f78a1_object_913f_94b8 refer Object_devide
+      Point model_Graph_Simulink_f78a1_object_913f_input_f176_0569 refer Object_devide_Point_Input_6f659e
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,105,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_input_f176_0569;
+ 
+      Point model_Graph_Simulink_f78a1_object_913f_input_19e1_1a53 refer Object_devide_Point_Input_6f659e
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(168,79,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_input_19e1_1a53;
+ 
+      Point model_Graph_Simulink_f78a1_object_913f_output_1d75_d7ed refer Object_devide_Point_Output_439b18
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,42,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_output_1d75_d7ed;
+ 
+      Point model_Graph_Simulink_f78a1_object_913f_output_0d99_c9f7 refer Object_devide_Point_Output_439b18
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(77,155,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_output_0d99_c9f7;
+ 
+      
+        annotation(
+          initialLocation=(1295,450,176,163),
+          localLabel="Divide",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="divide.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_f78a1_object_913f_94b8;
+
+      Object model_Graph_Simulink_ddd24_object_3a18_a70e_d0e9 refer Object_Clock
+      Point model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f_c3d1 refer Object_Clock_Point_Input_689fda
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(98,31,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f_c3d1;
+ 
+      
+        annotation(
+          initialLocation=(798,459,106,85),
+          localLabel="Braking torque（M_brake）",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Clock.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_3a18_a70e_d0e9;
+
+      Object model_Graph_Simulink_ddd24_object_4b12_3ea2_d39d_191c refer Object_Scope
+      Point model_Graph_Simulink_ddd24_object_4b12_undirected_9107_85f2_fc85_61a2 refer Object_Scope_Point_Input_9ff9f1
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,51,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_4b12_undirected_9107_85f2_fc85_61a2;
+ 
+      
+        annotation(
+          initialLocation=(805,252,140,124),
+          localLabel="Load torque (M_load)",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Scope.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_4b12_3ea2_d39d_191c;
+
+      Object model_Graph_Simulink_ddd24_object_4b12_3ea2_d39d_5303 refer Object_Scope
+      Point model_Graph_Simulink_ddd24_object_4b12_undirected_9107_85f2_fc85_43e3 refer Object_Scope_Point_Input_9ff9f1
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,51,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_4b12_undirected_9107_85f2_fc85_43e3;
+ 
+      
+        annotation(
+          initialLocation=(1645,476,140,124),
+          localLabel="Braking acceleration (a)",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Scope.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_4b12_3ea2_d39d_5303;
+
+      Object model_Graph_Simulink_ddd24_object_3a18_a70e_28af_8f5d refer Object_Clock
+      Point model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f_fad0_cd3e refer Object_Clock_Point_Input_689fda
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(98,35,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f_fad0_cd3e;
+ 
+      
+        annotation(
+          initialLocation=(518,672,106,85),
+          localLabel="Linear velocity of wheel（V）",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Clock.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_3a18_a70e_28af_8f5d;
+
+      Object model_Graph_Simulink_ddd24_object_3a18_a70e_28af_8f5d_a808 refer Object_Clock
+      Point model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f_fad0_cd3e_3a7b refer Object_Clock_Point_Input_689fda
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(98,35,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f_fad0_cd3e_3a7b;
+ 
+      
+        annotation(
+          initialLocation=(525,853,106,85),
+          localLabel="Linear velocity of wheel（V）",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Clock.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_3a18_a70e_28af_8f5d_a808;
+
+      Object model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24 refer Object_Product
+      Point model_Graph_Simulink_ddd24_object_3a19_undirected_0890_305e_6395_f452 refer Object_Product_Point_Input_586c8a
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,14,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a19_undirected_0890_305e_6395_f452;
+ 
+      Point model_Graph_Simulink_ddd24_object_3a19_undirected_b659_30fe_9dd9_a72e refer Object_Product_Point_Input_586c8a
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,63,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a19_undirected_b659_30fe_9dd9_a72e;
+ 
+      Point model_Graph_Simulink_ddd24_object_3a19_undirected_828c_abb1_11fc_6f87 refer Object_Product_Point_Output_e94650
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(132,47,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a19_undirected_828c_abb1_11fc_6f87;
+ 
+      Point model_Graph_Simulink_ddd24_object_3a19_undirected_7f83_114b_6c59_f748 refer Object_Product_Point_Output_e94650
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(59,97,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a19_undirected_7f83_114b_6c59_f748;
+ 
+      
+        annotation(
+          initialLocation=(742,763,140,105),
+          localLabel="Product",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Product.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24;
+
+      Object model_Graph_Simulink_ddd24_object_b008_1426_9bea refer Object_Gain
+        Property model_Graph_Simulink_ddd24_object_b008_property_fb3e_9670_1a78 = "2" refer Object_Gain_Prop_Gain_Value_e5738c annotation(localLabel = "Gain Value",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Graph_Simulink_ddd24_object_b008_undirected_afa4_1fc4_0a6e refer Object_Gain_Point_Input_9367d5
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,42,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_b008_undirected_afa4_1fc4_0a6e;
+ 
+      Point model_Graph_Simulink_ddd24_object_b008_undirected_0667_b90e_d177 refer Object_Gain_Point_Output_b222b6
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(132,42,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_b008_undirected_0667_b90e_d177;
+ 
+      
+        annotation(
+          initialLocation=(1506,842,140,103),
+          localLabel="Gain",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="gain.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_b008_1426_9bea;
+
+      Object model_Graph_Simulink_f78a1_object_913f_94b8_38e5 refer Object_devide
+      Point model_Graph_Simulink_f78a1_object_913f_input_f176_0569_ebb2 refer Object_devide_Point_Input_6f659e
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,105,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_input_f176_0569_ebb2;
+ 
+      Point model_Graph_Simulink_f78a1_object_913f_input_19e1_1a53_e13c refer Object_devide_Point_Input_6f659e
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(168,70,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_input_19e1_1a53_e13c;
+ 
+      Point model_Graph_Simulink_f78a1_object_913f_output_1d75_d7ed_bf82 refer Object_devide_Point_Output_439b18
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,42,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_output_1d75_d7ed_bf82;
+ 
+      
+        annotation(
+          initialLocation=(1764,778,176,163),
+          localLabel="Divide",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="divide.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_f78a1_object_913f_94b8_38e5;
+
+      Object model_Graph_Simulink_ddd24_object_4b12_3ea2_d39d_5303_0b60 refer Object_Scope
+      Point model_Graph_Simulink_ddd24_object_4b12_undirected_9107_85f2_fc85_43e3_6da7 refer Object_Scope_Point_Input_9ff9f1
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,51,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_4b12_undirected_9107_85f2_fc85_43e3_6da7;
+ 
+      
+        annotation(
+          initialLocation=(2016,798,140,124),
+          localLabel="Braking distance (L)",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Scope.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_4b12_3ea2_d39d_5303_0b60;
+
+      Object model_Graph_Simulink_ddd24_object_348e_2b10_ff70 refer Object_Constant
+        Property model_Graph_Simulink_ddd24_object_348e_property_cea5_6b25_eb6b = "null" refer Object_Constant_Prop_Constant_Value_ec4e54 annotation(localLabel = "Constant Value",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Graph_Simulink_ddd24_object_348e_undirected_4867_b927_d818 refer Object_Constant_Point_Output_580b85
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(112,35,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_348e_undirected_4867_b927_d818;
+ 
+      
+        annotation(
+          initialLocation=(49,1099,120,92),
+          localLabel="Damping coeffcient（C）",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Constant.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_348e_2b10_ff70;
+
+      Object model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24_fa4b refer Object_Product
+      Point model_Graph_Simulink_ddd24_object_3a19_undirected_0890_305e_6395_f452_7697 refer Object_Product_Point_Input_586c8a
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,14,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a19_undirected_0890_305e_6395_f452_7697;
+ 
+      Point model_Graph_Simulink_ddd24_object_3a19_undirected_b659_30fe_9dd9_a72e_f088 refer Object_Product_Point_Input_586c8a
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,63,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a19_undirected_b659_30fe_9dd9_a72e_f088;
+ 
+      Point model_Graph_Simulink_ddd24_object_3a19_undirected_828c_abb1_11fc_6f87_4d03 refer Object_Product_Point_Output_e94650
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(132,47,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a19_undirected_828c_abb1_11fc_6f87_4d03;
+ 
+      
+        annotation(
+          initialLocation=(448,1071,140,105),
+          localLabel="Product",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Product.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24_fa4b;
+
+      Object model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24_a4ee refer Object_Product
+      Point model_Graph_Simulink_ddd24_object_3a19_undirected_0890_305e_6395_f452_8c80 refer Object_Product_Point_Input_586c8a
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,14,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a19_undirected_0890_305e_6395_f452_8c80;
+ 
+      Point model_Graph_Simulink_ddd24_object_3a19_undirected_b659_30fe_9dd9_a72e_f334 refer Object_Product_Point_Input_586c8a
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,63,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a19_undirected_b659_30fe_9dd9_a72e_f334;
+ 
+      Point model_Graph_Simulink_ddd24_object_3a19_undirected_828c_abb1_11fc_6f87_3a11 refer Object_Product_Point_Output_e94650
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(132,47,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_3a19_undirected_828c_abb1_11fc_6f87_3a11;
+ 
+      
+        annotation(
+          initialLocation=(882,1057,140,105),
+          localLabel="Product",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Product.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24_a4ee;
+
+      Object model_Graph_Simulink_ddd24_object_348e_2b10_7fd5 refer Object_Constant
+        Property model_Graph_Simulink_ddd24_object_348e_property_cea5_6b25_29a6 = "null" refer Object_Constant_Prop_Constant_Value_ec4e54 annotation(localLabel = "Constant Value",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Graph_Simulink_ddd24_object_348e_undirected_4867_b927_9114 refer Object_Constant_Point_Output_580b85
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(112,35,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_ddd24_object_348e_undirected_4867_b927_9114;
+ 
+      
+        annotation(
+          initialLocation=(1078,1127,120,92),
+          localLabel="Gravitation（g）",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="Constant.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_ddd24_object_348e_2b10_7fd5;
+
+      Object model_Graph_Simulink_f78a1_object_913f_94b8_38e5_c9f3 refer Object_devide
+      Point model_Graph_Simulink_f78a1_object_913f_input_f176_0569_ebb2_a5d0 refer Object_devide_Point_Input_6f659e
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,105,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_input_f176_0569_ebb2_a5d0;
+ 
+      Point model_Graph_Simulink_f78a1_object_913f_input_19e1_1a53_e13c_d7f0 refer Object_devide_Point_Input_6f659e
+      annotation(
+         localLabel="O",
+         labelLocation=(-1,-1),
+		 initialLocation=(168,70,22,22),
+         shape="rectangle",
+         color="166,193,152;166,193,152;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_input_19e1_1a53_e13c_d7f0;
+ 
+      Point model_Graph_Simulink_f78a1_object_913f_output_1d75_d7ed_bf82_23e3 refer Object_devide_Point_Output_439b18
+      annotation(
+         localLabel="I",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,56,22,22),
+         shape="rectangle",
+         color="227,164,156;227,164,156;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end model_Graph_Simulink_f78a1_object_913f_output_1d75_d7ed_bf82_23e3;
+ 
+      
+        annotation(
+          initialLocation=(1470,1057,176,163),
+          localLabel="Divide",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="divide.png",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Graph_Simulink_f78a1_object_913f_94b8_38e5_c9f3;
+
+      Relationship model_Graph_Simulink_f78a1_relationship_f42c refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_587d refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_587d;
+         Role model_Graph_Simulink_f78a1_torole_0376 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_0376;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-37,10),
+          shape="solidLine",
+          endLocation=(116,210;455,380),
+          polylineLocation="[0,0,-99,-58]$[50,0,-49,-58]$[50,68,-49,10]$[87,68,-12,10];(1.0,0.3);(0.6,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_f42c;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_1ef9 refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_de1a refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_de1a;
+         Role model_Graph_Simulink_f78a1_torole_e3fc refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_e3fc;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-210,-10),
+          shape="solidLine",
+          endLocation=(693,569;1891,535),
+          polylineLocation="[0,4,-508,-3]$[508,4,0,-3];(1.0,0.25);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_1ef9;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_3c64 refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_0d10 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_0d10;
+         Role model_Graph_Simulink_f78a1_torole_b2e9 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_b2e9;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(368,312;1200,314),
+          polylineLocation="[0,0,-325,0]$[325,0,0,0];(1.0,0.6);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_3c64;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_3dfd refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_b4b6 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_b4b6;
+         Role model_Graph_Simulink_f78a1_torole_060e refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_060e;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,10),
+          shape="solidLine",
+          endLocation=(1715,538;1233,531),
+          polylineLocation="[0,0,150,0]$[-150,0,0,0];(0.0,0.6);(1.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_3dfd;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_748c refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_5143 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_5143;
+         Role model_Graph_Simulink_f78a1_torole_0dc0 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_0dc0;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-32,-10),
+          shape="solidLine",
+          endLocation=(851,503;1200,503),
+          polylineLocation="[0,2,-101,0]$[101,2,0,0];(1.0,0.5);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_748c;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_476d refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_e4c7 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_e4c7;
+         Role model_Graph_Simulink_f78a1_torole_6076 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_6076;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(50,10),
+          shape="solidLine",
+          endLocation=(1383,532;997,502),
+          polylineLocation="[0,1,102,1]$[-102,1,0,1];(0.0,0.5);(1.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_476d;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_9055 refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_757c refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_757c;
+         Role model_Graph_Simulink_f78a1_torole_1285 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_1285;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(9,-7),
+          shape="solidLine",
+          endLocation=(571,714;906,878),
+          polylineLocation="[0,0,-94,-63]$[29,0,-65,-63]$[29,63,-65,0]$[94,63,0,0];(1.0,0.7);(0.0,0.35)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_9055;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_c68d refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_e358 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_e358;
+         Role model_Graph_Simulink_f78a1_torole_7922 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_7922;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(21,5),
+          shape="solidLine",
+          endLocation=(578,897;899,752),
+          polylineLocation="[0,2,-87,65]$[22,2,-65,65]$[22,-63,-65,0]$[87,-63,0,0];(1.0,0.4);(0.0,0.35)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_c68d;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_1f62 refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_f3ea refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_f3ea;
+         Role model_Graph_Simulink_f78a1_torole_dc10 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_dc10;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-10,0),
+          shape="solidLine",
+          endLocation=(1383,531;1684,1161),
+          polylineLocation="[0,0,-108,-269]$[0,268,-108,-1]$[108,268,0,-1];(0.7,1.0);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_1f62;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_e2cd refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_bc2c refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_bc2c;
+         Role model_Graph_Simulink_f78a1_torole_0d1b refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_0d1b;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(147,-10),
+          shape="solidLine",
+          endLocation=(1852,859;-46,815),
+          polylineLocation="[0,0,858,1]$[-858,0,0,1];(0.0,0.05);(1.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_e2cd;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_56b7 refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_3834 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_3834;
+         Role model_Graph_Simulink_f78a1_torole_8867 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_8867;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-7,9),
+          shape="solidLine",
+          endLocation=(1576,886;1946,852),
+          polylineLocation="[0,-7,-94,0]$[94,-7,0,0];(1.0,0.95);(0.0,0.65)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_56b7;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_ff52 refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_b484 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_b484;
+         Role model_Graph_Simulink_f78a1_torole_3602 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_3602;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(11,-10),
+          shape="solidLine",
+          endLocation=(2086,851;1800,850),
+          polylineLocation="[0,-9,52,1]$[-52,-9,0,1];(0.0,0.95);(1.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_ff52;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_f3a8 refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_9160 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_9160;
+         Role model_Graph_Simulink_f78a1_torole_e6a4 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_e6a4;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(14,-2),
+          shape="solidLine",
+          endLocation=(109,1145;773,1123),
+          polylineLocation="[0,0,-255,-7]$[255,0,0,-7];(1.0,0.55);(0.0,0.9)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_f3a8;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_888b refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_aeeb refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_aeeb;
+         Role model_Graph_Simulink_f78a1_torole_1dc7 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_1dc7;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-61,27),
+          shape="solidLine",
+          endLocation=(368,312;623,1828),
+          polylineLocation="[0,0,-110,-698]$[0,705,-110,7]$[105,705,-5,7];(0.35,1.0);(0.25,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_888b;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_f830 refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_96b7 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_96b7;
+         Role model_Graph_Simulink_f78a1_torole_7cc2 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_7cc2;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(7,2),
+          shape="solidLine",
+          endLocation=(952,1105;248,1119),
+          polylineLocation="[0,-4,270,3]$[-270,-4,0,3];(0.0,0.7);(1.0,0.45)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_f830;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_f837 refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_b291 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_b291;
+         Role model_Graph_Simulink_f78a1_torole_aa4d refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_aa4d;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-45,0),
+          shape="solidLine",
+          endLocation=(812,815;1010,1307),
+          polylineLocation="[0,0,-63,-191]$[0,198,-63,7]$[58,198,-5,7];(0.55,1.0);(0.25,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_f837;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_499e refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_de36 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_de36;
+         Role model_Graph_Simulink_f78a1_torole_449b refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_449b;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(20,-10),
+          shape="solidLine",
+          endLocation=(1138,1173;1806,1138),
+          polylineLocation="[0,0,-251,-9]$[248,0,-3,-9];(1.0,0.55);(0.15,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_499e;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_13f0 refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_6e85 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_6e85;
+         Role model_Graph_Simulink_f78a1_torole_db12 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_db12;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-10,6),
+          shape="solidLine",
+          endLocation=(1558,1125;528,1096),
+          polylineLocation="[0,-13,424,0]$[-424,-13,0,0];(0.0,1.0);(1.0,0.8)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_13f0;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_6147 refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_9d16 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_9d16;
+         Role model_Graph_Simulink_f78a1_torole_f30e refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_f30e;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(1890,1133;1408,1138),
+          polylineLocation="[0,0,150,0]$[-150,0,0,0];(0.0,0.75);(1.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_6147;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_9961 refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_6ab7 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_6ab7;
+         Role model_Graph_Simulink_f78a1_torole_5933 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_5933;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-32,-10),
+          shape="solidLine",
+          endLocation=(424,585;815,565),
+          polylineLocation="[0,0,-122,0]$[122,0,0,0];(1.0,0.4);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_9961;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_5e54 refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_2269 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_2269;
+         Role model_Graph_Simulink_f78a1_torole_5c06 refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_5c06;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-38,-69),
+          shape="solidLine",
+          endLocation=(361,312;912,715),
+          polylineLocation="[-7,0,-238,-140]$[-7,150,-238,10]$[219,150,-12,10];(0.7,1.0);(0.6,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_5e54;
+ 
+      Relationship model_Graph_Simulink_f78a1_relationship_32cb refer Relationship_Association
+        Role model_Graph_Simulink_f78a1_fromrole_fc31 refer Role_Association_Source
+          annotation(
+            localLabel="Association_Source",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_fromrole_fc31;
+         Role model_Graph_Simulink_f78a1_torole_b46c refer Role_Association_Target
+          annotation(
+            localLabel="Association_Target",
+            shape="no"
+          );
+        end model_Graph_Simulink_f78a1_torole_b46c;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(7,-10),
+          shape="solidLine",
+          endLocation=(116,389;448,256),
+          polylineLocation="[0,0,-80,56]$[47,0,-33,56]$[47,-56,-33,0]$[80,-56,0,0];(1.0,0.35);(0.0,0.3)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Graph_Simulink_f78a1_relationship_32cb;
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_3a18_a70e.model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f,model_Graph_Simulink_f78a1_relationship_f42c.model_Graph_Simulink_f78a1_fromrole_587d),connector(model_Graph_Simulink_f78a1_object_913f.model_Graph_Simulink_f78a1_object_913f_input_19e1,model_Graph_Simulink_f78a1_relationship_f42c.model_Graph_Simulink_f78a1_torole_0376));
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_3a19_d6a6_1723.model_Graph_Simulink_ddd24_object_3a19_undirected_828c_abb1_11fc,model_Graph_Simulink_f78a1_relationship_1ef9.model_Graph_Simulink_f78a1_fromrole_de1a),connector(model_Graph_Simulink_f78a1_object_913f_94b8.model_Graph_Simulink_f78a1_object_913f_input_f176_0569,model_Graph_Simulink_f78a1_relationship_1ef9.model_Graph_Simulink_f78a1_torole_e3fc));
+ 
+    Connect(connector(model_Graph_Simulink_f78a1_object_913f.model_Graph_Simulink_f78a1_object_913f_output_1d75,model_Graph_Simulink_f78a1_relationship_3c64.model_Graph_Simulink_f78a1_fromrole_0d10),connector(model_Graph_Simulink_ddd24_object_4b12_3ea2_d39d_191c.model_Graph_Simulink_ddd24_object_4b12_undirected_9107_85f2_fc85_61a2,model_Graph_Simulink_f78a1_relationship_3c64.model_Graph_Simulink_f78a1_torole_b2e9));
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_4b12_3ea2_d39d_5303.model_Graph_Simulink_ddd24_object_4b12_undirected_9107_85f2_fc85_43e3,model_Graph_Simulink_f78a1_relationship_3dfd.model_Graph_Simulink_f78a1_fromrole_b4b6),connector(model_Graph_Simulink_f78a1_object_913f_94b8.model_Graph_Simulink_f78a1_object_913f_input_19e1_1a53,model_Graph_Simulink_f78a1_relationship_3dfd.model_Graph_Simulink_f78a1_torole_060e));
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_3a18_a70e_d0e9.model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f_c3d1,model_Graph_Simulink_f78a1_relationship_748c.model_Graph_Simulink_f78a1_fromrole_5143),connector(model_Graph_Simulink_ddd24_object_b008_1426.model_Graph_Simulink_ddd24_object_b008_undirected_afa4_1fc4,model_Graph_Simulink_f78a1_relationship_748c.model_Graph_Simulink_f78a1_torole_0dc0));
+ 
+    Connect(connector(model_Graph_Simulink_f78a1_object_913f_94b8.model_Graph_Simulink_f78a1_object_913f_output_1d75_d7ed,model_Graph_Simulink_f78a1_relationship_476d.model_Graph_Simulink_f78a1_fromrole_e4c7),connector(model_Graph_Simulink_ddd24_object_b008_1426.model_Graph_Simulink_ddd24_object_b008_undirected_0667_b90e,model_Graph_Simulink_f78a1_relationship_476d.model_Graph_Simulink_f78a1_torole_6076));
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_3a18_a70e_28af_8f5d.model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f_fad0_cd3e,model_Graph_Simulink_f78a1_relationship_9055.model_Graph_Simulink_f78a1_fromrole_757c),connector(model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24.model_Graph_Simulink_ddd24_object_3a19_undirected_0890_305e_6395_f452,model_Graph_Simulink_f78a1_relationship_9055.model_Graph_Simulink_f78a1_torole_1285));
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_3a18_a70e_28af_8f5d_a808.model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f_fad0_cd3e_3a7b,model_Graph_Simulink_f78a1_relationship_c68d.model_Graph_Simulink_f78a1_fromrole_e358),connector(model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24.model_Graph_Simulink_ddd24_object_3a19_undirected_b659_30fe_9dd9_a72e,model_Graph_Simulink_f78a1_relationship_c68d.model_Graph_Simulink_f78a1_torole_7922));
+ 
+    Connect(connector(model_Graph_Simulink_f78a1_object_913f_94b8.model_Graph_Simulink_f78a1_object_913f_output_0d99_c9f7,model_Graph_Simulink_f78a1_relationship_1f62.model_Graph_Simulink_f78a1_fromrole_f3ea),connector(model_Graph_Simulink_ddd24_object_b008_1426_9bea.model_Graph_Simulink_ddd24_object_b008_undirected_afa4_1fc4_0a6e,model_Graph_Simulink_f78a1_relationship_1f62.model_Graph_Simulink_f78a1_torole_dc10));
+ 
+    Connect(connector(model_Graph_Simulink_f78a1_object_913f_94b8_38e5.model_Graph_Simulink_f78a1_object_913f_output_1d75_d7ed_bf82,model_Graph_Simulink_f78a1_relationship_e2cd.model_Graph_Simulink_f78a1_fromrole_bc2c),connector(model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24.model_Graph_Simulink_ddd24_object_3a19_undirected_828c_abb1_11fc_6f87,model_Graph_Simulink_f78a1_relationship_e2cd.model_Graph_Simulink_f78a1_torole_0d1b));
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_b008_1426_9bea.model_Graph_Simulink_ddd24_object_b008_undirected_0667_b90e_d177,model_Graph_Simulink_f78a1_relationship_56b7.model_Graph_Simulink_f78a1_fromrole_3834),connector(model_Graph_Simulink_f78a1_object_913f_94b8_38e5.model_Graph_Simulink_f78a1_object_913f_input_f176_0569_ebb2,model_Graph_Simulink_f78a1_relationship_56b7.model_Graph_Simulink_f78a1_torole_8867));
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_4b12_3ea2_d39d_5303_0b60.model_Graph_Simulink_ddd24_object_4b12_undirected_9107_85f2_fc85_43e3_6da7,model_Graph_Simulink_f78a1_relationship_ff52.model_Graph_Simulink_f78a1_fromrole_b484),connector(model_Graph_Simulink_f78a1_object_913f_94b8_38e5.model_Graph_Simulink_f78a1_object_913f_input_19e1_1a53_e13c,model_Graph_Simulink_f78a1_relationship_ff52.model_Graph_Simulink_f78a1_torole_3602));
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_348e_2b10_ff70.model_Graph_Simulink_ddd24_object_348e_undirected_4867_b927_d818,model_Graph_Simulink_f78a1_relationship_f3a8.model_Graph_Simulink_f78a1_fromrole_9160),connector(model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24_fa4b.model_Graph_Simulink_ddd24_object_3a19_undirected_b659_30fe_9dd9_a72e_f088,model_Graph_Simulink_f78a1_relationship_f3a8.model_Graph_Simulink_f78a1_torole_e6a4));
+ 
+    Connect(connector(model_Graph_Simulink_f78a1_object_913f.model_Graph_Simulink_f78a1_object_913f_output_a9aa,model_Graph_Simulink_f78a1_relationship_888b.model_Graph_Simulink_f78a1_fromrole_aeeb),connector(model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24_fa4b.model_Graph_Simulink_ddd24_object_3a19_undirected_0890_305e_6395_f452_7697,model_Graph_Simulink_f78a1_relationship_888b.model_Graph_Simulink_f78a1_torole_1dc7));
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24_a4ee.model_Graph_Simulink_ddd24_object_3a19_undirected_b659_30fe_9dd9_a72e_f334,model_Graph_Simulink_f78a1_relationship_f830.model_Graph_Simulink_f78a1_fromrole_96b7),connector(model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24_fa4b.model_Graph_Simulink_ddd24_object_3a19_undirected_828c_abb1_11fc_6f87_4d03,model_Graph_Simulink_f78a1_relationship_f830.model_Graph_Simulink_f78a1_torole_7cc2));
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24.model_Graph_Simulink_ddd24_object_3a19_undirected_7f83_114b_6c59_f748,model_Graph_Simulink_f78a1_relationship_f837.model_Graph_Simulink_f78a1_fromrole_b291),connector(model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24_a4ee.model_Graph_Simulink_ddd24_object_3a19_undirected_0890_305e_6395_f452_8c80,model_Graph_Simulink_f78a1_relationship_f837.model_Graph_Simulink_f78a1_torole_aa4d));
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_348e_2b10_7fd5.model_Graph_Simulink_ddd24_object_348e_undirected_4867_b927_9114,model_Graph_Simulink_f78a1_relationship_499e.model_Graph_Simulink_f78a1_fromrole_de36),connector(model_Graph_Simulink_f78a1_object_913f_94b8_38e5_c9f3.model_Graph_Simulink_f78a1_object_913f_input_f176_0569_ebb2_a5d0,model_Graph_Simulink_f78a1_relationship_499e.model_Graph_Simulink_f78a1_torole_449b));
+ 
+    Connect(connector(model_Graph_Simulink_f78a1_object_913f_94b8_38e5_c9f3.model_Graph_Simulink_f78a1_object_913f_output_1d75_d7ed_bf82_23e3,model_Graph_Simulink_f78a1_relationship_13f0.model_Graph_Simulink_f78a1_fromrole_6e85),connector(model_Graph_Simulink_ddd24_object_3a19_d6a6_1723_dd24_a4ee.model_Graph_Simulink_ddd24_object_3a19_undirected_828c_abb1_11fc_6f87_3a11,model_Graph_Simulink_f78a1_relationship_13f0.model_Graph_Simulink_f78a1_torole_db12));
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_4b12_3ea2_d39d.model_Graph_Simulink_ddd24_object_4b12_undirected_9107_85f2_fc85,model_Graph_Simulink_f78a1_relationship_6147.model_Graph_Simulink_f78a1_fromrole_9d16),connector(model_Graph_Simulink_f78a1_object_913f_94b8_38e5_c9f3.model_Graph_Simulink_f78a1_object_913f_input_19e1_1a53_e13c_d7f0,model_Graph_Simulink_f78a1_relationship_6147.model_Graph_Simulink_f78a1_torole_f30e));
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_3a18_a70e_28af.model_Graph_Simulink_ddd24_object_3a18_undirected_a41d_459f_fad0,model_Graph_Simulink_f78a1_relationship_9961.model_Graph_Simulink_f78a1_fromrole_6ab7),connector(model_Graph_Simulink_ddd24_object_3a19_d6a6_1723.model_Graph_Simulink_ddd24_object_3a19_undirected_b659_30fe_9dd9,model_Graph_Simulink_f78a1_relationship_9961.model_Graph_Simulink_f78a1_torole_5933));
+ 
+    Connect(connector(model_Graph_Simulink_f78a1_object_913f.model_Graph_Simulink_f78a1_object_913f_output_0d99,model_Graph_Simulink_f78a1_relationship_5e54.model_Graph_Simulink_f78a1_fromrole_2269),connector(model_Graph_Simulink_ddd24_object_3a19_d6a6_1723.model_Graph_Simulink_ddd24_object_3a19_undirected_0890_305e_6395,model_Graph_Simulink_f78a1_relationship_5e54.model_Graph_Simulink_f78a1_torole_5c06));
+ 
+    Connect(connector(model_Graph_Simulink_ddd24_object_348e_2b10.model_Graph_Simulink_ddd24_object_348e_undirected_4867_b927,model_Graph_Simulink_f78a1_relationship_32cb.model_Graph_Simulink_f78a1_fromrole_fc31),connector(model_Graph_Simulink_f78a1_object_913f.model_Graph_Simulink_f78a1_object_913f_input_f176,model_Graph_Simulink_f78a1_relationship_32cb.model_Graph_Simulink_f78a1_torole_b46c));
+ 
+
+      annotation(
+        localLabel="Simulink- in Braking Analysis",
+        SDIdentification="",
+    );
+    
+   end model_Graph_Simulink_f78a1;

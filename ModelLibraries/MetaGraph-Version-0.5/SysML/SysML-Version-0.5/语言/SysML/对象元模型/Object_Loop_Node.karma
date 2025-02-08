@@ -1,0 +1,21 @@
+   Object Object_Loop_Node
+      initial Property  Object_Loop_Node_Property_Name_a8fba2 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Loop_Node_Property_Is_Tested_First_d787f3 = false extends Property_Is_Tested_First annotation(localLabel ="是否测试首次");
+      initial Property  Object_Loop_Node_Property_To_Do_5a7837 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Loop_Node_Property_In_Activity_2f1416 = "null" extends Property_In_Activity annotation(localLabel ="处于活动");
+      initial Property  Object_Loop_Node_Property_Is_Locally_Reentrant_5d52fe = false extends Property_Is_Locally_Reentrant annotation(localLabel ="是否本地可重入");
+      initial Property  Object_Loop_Node_Property_Redefined_Node_5b577b = "null" extends Property_Redefined_Node annotation(localLabel ="重定义节点");
+      Output Point Object_Loop_Node_Point_Output_Pin_8bdd1c extends Point_Output_Pin annotation (localLabel ="输出引脚");
+      Output Point Object_Loop_Node_Point_Value_Pin_c2d5a2 extends Point_Value_Pin annotation (localLabel ="值引脚");
+      Undirected Point Object_Loop_Node_Point_Input_Pin_00deab extends Point_Input_Pin annotation (localLabel ="输入引脚");
+      Undirected Point Object_Loop_Node_Point_Action_Input_Pin_01bb02 extends Point_Action_Input_Pin annotation (localLabel ="动作输入引脚");
+   annotation(
+      localLabel="循环节点",
+      description="",
+      icon="循环节点.png",
+      shape="roundedRectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      );
+   end Object_Loop_Node;
+ 

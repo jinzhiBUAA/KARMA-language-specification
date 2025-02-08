@@ -1,0 +1,33 @@
+   partial Graph Diagram_UseCase
+    Object Object_Actor;
+    Object Object_Block;
+    Object Object_System_Block;
+    Object Object_UseCase;
+    Relationship Relationship_Association;
+    Constraint (
+    bind connector(Object_Block,Relationship_Association.Role_Association_Source),
+    bind connector(Object_System_Block,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Actor,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Block.Object_Block_Point_Mechanical_Port_ae19e1,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Block.Object_Block_Point_Power_Port_a1b6d0,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Block.Object_Block_Point_Signal_Port_9d01e4,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Block.Object_Block_Point_Control_Port_322192,Relationship_Association.Role_Association_Source),
+    bind connector(Object_UseCase,Relationship_Association.Role_Association_Source),
+    bind connector(Object_Block,Relationship_Association.Role_Association_Target),
+    bind connector(Object_System_Block,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Actor,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Block.Object_Block_Point_Mechanical_Port_ae19e1,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Block.Object_Block_Point_Power_Port_a1b6d0,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Block.Object_Block_Point_Signal_Port_9d01e4,Relationship_Association.Role_Association_Target),
+    bind connector(Object_Block.Object_Block_Point_Control_Port_322192,Relationship_Association.Role_Association_Target),
+    bind connector(Object_UseCase,Relationship_Association.Role_Association_Target),
+    Object_UseCase.explode(Diagram_Activity),
+    Object_System_Block.explode(Diagram_UseCase),
+    Object_Block.explode(Diagram_UseCase),
+    );
+    annotation(
+        localLabel="UseCase Diagram",
+        type = diagram,
+        description="",
+       );
+        end Diagram_UseCase;
