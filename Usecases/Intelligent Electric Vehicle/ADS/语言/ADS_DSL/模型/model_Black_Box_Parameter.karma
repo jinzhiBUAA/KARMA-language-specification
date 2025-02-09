@@ -1,0 +1,40 @@
+    partial Model model_Black_Box_Parameter instanceof metaGraph_Parameter_Diagram
+      Object model_Black_Box_Parameter_object_6988 refer metaObject_Moe
+        Property model_Black_Box_Parameter_object_6988_property_eff7 = "GB" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "数据存储容量",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(24,32,140,56),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Black_Box_Parameter_object_6988;
+
+      Object model_Black_Box_Parameter_object_740a refer metaObject_Moe
+        Property model_Black_Box_Parameter_object_740a_property_b5a2 = "元" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(25,92,139,55),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Black_Box_Parameter_object_740a;
+
+
+      annotation(
+        localLabel="黑匣子参数模型",
+    );
+   end model_Black_Box_Parameter;

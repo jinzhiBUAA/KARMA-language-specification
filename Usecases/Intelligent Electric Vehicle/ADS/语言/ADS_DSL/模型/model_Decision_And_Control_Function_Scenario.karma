@@ -1,0 +1,558 @@
+    partial Model model_Decision_And_Control_Function_Scenario instanceof metaGraph_Process_Diagram
+    
+      Object model_Decision_And_Control_Function_Scenario_object_1669 refer metaObject_Start_Event
+        Property model_Decision_And_Control_Function_Scenario_object_1669_property_3acd = "null" refer metaObject_Start_Event_metaProperty_Name_95f336 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Decision_And_Control_Function_Scenario_object_1669_property_2a39 = "null" refer metaObject_Start_Event_metaProperty_Description_e61e1b annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(301,0,61,61),
+          localLabel="开始事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Decision_And_Control_Function_Scenario_object_1669;
+
+      Object model_Decision_And_Control_Function_Scenario_object_ec7e refer metaObject_End_Event
+        Property model_Decision_And_Control_Function_Scenario_object_ec7e_property_1ebf = "null" refer metaObject_End_Event_metaProperty_Name_684d02 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Decision_And_Control_Function_Scenario_object_ec7e_property_63b2 = "null" refer metaObject_End_Event_metaProperty_Description_4e00c4 annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(698,492,61,61),
+          localLabel="结束事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Decision_And_Control_Function_Scenario_object_ec7e;
+
+      Object model_Decision_And_Control_Function_Scenario_object_9b4d refer metaObject_Task
+        Property model_Decision_And_Control_Function_Scenario_object_9b4d_property_1f6c = "环境感知" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(270,108,127,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Decision_And_Control_Function_Scenario_object_9b4d;
+
+      Object model_Decision_And_Control_Function_Scenario_object_dcaa refer metaObject_Task
+        Property model_Decision_And_Control_Function_Scenario_object_dcaa_property_f896 = "输入路径规划和目标" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(474,109,129,72),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Decision_And_Control_Function_Scenario_object_dcaa;
+
+      Object model_Decision_And_Control_Function_Scenario_object_6a2c refer metaObject_Task
+        Property model_Decision_And_Control_Function_Scenario_object_6a2c_property_9118 = "车辆状态监控" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(672,109,115,72),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Decision_And_Control_Function_Scenario_object_6a2c;
+
+      Object model_Decision_And_Control_Function_Scenario_object_1409 refer metaObject_Task
+        Property model_Decision_And_Control_Function_Scenario_object_1409_property_f3e8 = "控制执行" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(270,234,125,81),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Decision_And_Control_Function_Scenario_object_1409;
+
+      Object model_Decision_And_Control_Function_Scenario_object_ae03 refer metaObject_Task
+        Property model_Decision_And_Control_Function_Scenario_object_ae03_property_49ea = "决策制定" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(474,234,127,81),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Decision_And_Control_Function_Scenario_object_ae03;
+
+      Object model_Decision_And_Control_Function_Scenario_object_3a8f refer metaObject_Task
+        Property model_Decision_And_Control_Function_Scenario_object_3a8f_property_82c5 = "障碍物检测与分析" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(672,234,113,81),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Decision_And_Control_Function_Scenario_object_3a8f;
+
+      Object model_Decision_And_Control_Function_Scenario_object_69d8 refer metaObject_Task
+        Property model_Decision_And_Control_Function_Scenario_object_69d8_property_0e83 = "车辆稳定性控制" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(270,378,125,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Decision_And_Control_Function_Scenario_object_69d8;
+
+      Object model_Decision_And_Control_Function_Scenario_object_9f65 refer metaObject_Task
+        Property model_Decision_And_Control_Function_Scenario_object_9f65_property_e9da = "实时调整和更新" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(474,378,127,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Decision_And_Control_Function_Scenario_object_9f65;
+
+      Object model_Decision_And_Control_Function_Scenario_object_9b16 refer metaObject_Task
+        Property model_Decision_And_Control_Function_Scenario_object_9b16_property_76a9 = "通信与协同行驶" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(666,372,119,79),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Decision_And_Control_Function_Scenario_object_9b16;
+
+      Relationship model_Decision_And_Control_Function_Scenario_relationship_63ff refer metaRelationship_Sequence_Flow
+        Role model_Decision_And_Control_Function_Scenario_fromrole_3bab refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Decision_And_Control_Function_Scenario_fromrole_3bab;
+         Role model_Decision_And_Control_Function_Scenario_torole_f4ae refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Decision_And_Control_Function_Scenario_torole_f4ae;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(331,30;333,191),
+          polylineLocation="[0,0,0,-47]$[0,47,0,0];(0.5081967213114754,1.0);(0.496,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Decision_And_Control_Function_Scenario_relationship_63ff;
+ 
+      Relationship model_Decision_And_Control_Function_Scenario_relationship_57b4 refer metaRelationship_Sequence_Flow
+        Role model_Decision_And_Control_Function_Scenario_fromrole_68dc refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Decision_And_Control_Function_Scenario_fromrole_68dc;
+         Role model_Decision_And_Control_Function_Scenario_torole_fed1 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Decision_And_Control_Function_Scenario_torole_fed1;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(333,144;617,145),
+          polylineLocation="[0,0,-79,0]$[79,0,0,0];(1.0,0.4225352112676056);(0.0,0.4142857142857143)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Decision_And_Control_Function_Scenario_relationship_57b4;
+ 
+      Relationship model_Decision_And_Control_Function_Scenario_relationship_4f02 refer metaRelationship_Sequence_Flow
+        Role model_Decision_And_Control_Function_Scenario_fromrole_db4a refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Decision_And_Control_Function_Scenario_fromrole_db4a;
+         Role model_Decision_And_Control_Function_Scenario_torole_50a5 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Decision_And_Control_Function_Scenario_torole_50a5;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(538,145;800,145),
+          polylineLocation="[0,0,-71,0]$[71,0,0,0];(1.0,0.32857142857142857);(0.0,0.32857142857142857)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Decision_And_Control_Function_Scenario_relationship_4f02;
+ 
+      Relationship model_Decision_And_Control_Function_Scenario_relationship_ce99 refer metaRelationship_Sequence_Flow
+        Role model_Decision_And_Control_Function_Scenario_fromrole_55ab refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Decision_And_Control_Function_Scenario_fromrole_55ab;
+         Role model_Decision_And_Control_Function_Scenario_torole_36b1 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Decision_And_Control_Function_Scenario_torole_36b1;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(729,145;728,329),
+          polylineLocation="[0,0,0,-55]$[0,55,0,0];(0.48672566371681414,1.0);(0.4954954954954955,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Decision_And_Control_Function_Scenario_relationship_ce99;
+ 
+      Relationship model_Decision_And_Control_Function_Scenario_relationship_77ec refer metaRelationship_Sequence_Flow
+        Role model_Decision_And_Control_Function_Scenario_fromrole_872d refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Decision_And_Control_Function_Scenario_fromrole_872d;
+         Role model_Decision_And_Control_Function_Scenario_torole_69dc refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Decision_And_Control_Function_Scenario_torole_69dc;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(728,274;464,274),
+          polylineLocation="[0,0,73,0]$[-73,0,0,0];(0.0,0.4936708860759494);(1.0,0.4936708860759494)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Decision_And_Control_Function_Scenario_relationship_77ec;
+ 
+      Relationship model_Decision_And_Control_Function_Scenario_relationship_a7e7 refer metaRelationship_Sequence_Flow
+        Role model_Decision_And_Control_Function_Scenario_fromrole_bd6b refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Decision_And_Control_Function_Scenario_fromrole_bd6b;
+         Role model_Decision_And_Control_Function_Scenario_torole_698f refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Decision_And_Control_Function_Scenario_torole_698f;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(537,274;251,274),
+          polylineLocation="[0,0,81,0]$[-81,0,0,0];(0.0,0.3037974683544304);(1.0,0.3037974683544304)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Decision_And_Control_Function_Scenario_relationship_a7e7;
+ 
+      Relationship model_Decision_And_Control_Function_Scenario_relationship_2760 refer metaRelationship_Sequence_Flow
+        Role model_Decision_And_Control_Function_Scenario_fromrole_1982 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Decision_And_Control_Function_Scenario_fromrole_1982;
+         Role model_Decision_And_Control_Function_Scenario_torole_1468 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Decision_And_Control_Function_Scenario_torole_1468;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(332,274;332,479),
+          polylineLocation="[0,0,0,-65]$[0,65,0,0];(0.4959349593495935,1.0);(0.4959349593495935,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Decision_And_Control_Function_Scenario_relationship_2760;
+ 
+      Relationship model_Decision_And_Control_Function_Scenario_relationship_2925 refer metaRelationship_Sequence_Flow
+        Role model_Decision_And_Control_Function_Scenario_fromrole_b632 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Decision_And_Control_Function_Scenario_fromrole_b632;
+         Role model_Decision_And_Control_Function_Scenario_torole_6693 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Decision_And_Control_Function_Scenario_torole_6693;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(332,414;618,414),
+          polylineLocation="[0,0,-81,0]$[81,0,0,0];(1.0,0.49295774647887325);(0.0,0.49295774647887325)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Decision_And_Control_Function_Scenario_relationship_2925;
+ 
+      Relationship model_Decision_And_Control_Function_Scenario_relationship_9859 refer metaRelationship_Sequence_Flow
+        Role model_Decision_And_Control_Function_Scenario_fromrole_0c4b refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Decision_And_Control_Function_Scenario_fromrole_0c4b;
+         Role model_Decision_And_Control_Function_Scenario_torole_6669 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Decision_And_Control_Function_Scenario_torole_6669;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(537,414;792,411),
+          polylineLocation="[0,0,-67,0]$[67,0,0,0];(1.0,0.4507042253521127);(0.0,0.4935064935064935)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Decision_And_Control_Function_Scenario_relationship_9859;
+ 
+      Relationship model_Decision_And_Control_Function_Scenario_relationship_444f refer metaRelationship_Sequence_Flow
+        Role model_Decision_And_Control_Function_Scenario_fromrole_a0af refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Decision_And_Control_Function_Scenario_fromrole_a0af;
+         Role model_Decision_And_Control_Function_Scenario_torole_d4b0 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Decision_And_Control_Function_Scenario_torole_d4b0;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(725,411;728,565),
+          polylineLocation="[0,0,0,-43]$[0,43,0,0];(0.5299145299145299,1.0);(0.4918032786885246,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Decision_And_Control_Function_Scenario_relationship_444f;
+ 
+    Connect(connector(model_Decision_And_Control_Function_Scenario_object_1669,model_Decision_And_Control_Function_Scenario_relationship_63ff.model_Decision_And_Control_Function_Scenario_fromrole_3bab),connector(model_Decision_And_Control_Function_Scenario_object_9b4d,model_Decision_And_Control_Function_Scenario_relationship_63ff.model_Decision_And_Control_Function_Scenario_torole_f4ae));
+ 
+    Connect(connector(model_Decision_And_Control_Function_Scenario_object_9b4d,model_Decision_And_Control_Function_Scenario_relationship_57b4.model_Decision_And_Control_Function_Scenario_fromrole_68dc),connector(model_Decision_And_Control_Function_Scenario_object_dcaa,model_Decision_And_Control_Function_Scenario_relationship_57b4.model_Decision_And_Control_Function_Scenario_torole_fed1));
+ 
+    Connect(connector(model_Decision_And_Control_Function_Scenario_object_dcaa,model_Decision_And_Control_Function_Scenario_relationship_4f02.model_Decision_And_Control_Function_Scenario_fromrole_db4a),connector(model_Decision_And_Control_Function_Scenario_object_6a2c,model_Decision_And_Control_Function_Scenario_relationship_4f02.model_Decision_And_Control_Function_Scenario_torole_50a5));
+ 
+    Connect(connector(model_Decision_And_Control_Function_Scenario_object_6a2c,model_Decision_And_Control_Function_Scenario_relationship_ce99.model_Decision_And_Control_Function_Scenario_fromrole_55ab),connector(model_Decision_And_Control_Function_Scenario_object_3a8f,model_Decision_And_Control_Function_Scenario_relationship_ce99.model_Decision_And_Control_Function_Scenario_torole_36b1));
+ 
+    Connect(connector(model_Decision_And_Control_Function_Scenario_object_3a8f,model_Decision_And_Control_Function_Scenario_relationship_77ec.model_Decision_And_Control_Function_Scenario_fromrole_872d),connector(model_Decision_And_Control_Function_Scenario_object_ae03,model_Decision_And_Control_Function_Scenario_relationship_77ec.model_Decision_And_Control_Function_Scenario_torole_69dc));
+ 
+    Connect(connector(model_Decision_And_Control_Function_Scenario_object_ae03,model_Decision_And_Control_Function_Scenario_relationship_a7e7.model_Decision_And_Control_Function_Scenario_fromrole_bd6b),connector(model_Decision_And_Control_Function_Scenario_object_1409,model_Decision_And_Control_Function_Scenario_relationship_a7e7.model_Decision_And_Control_Function_Scenario_torole_698f));
+ 
+    Connect(connector(model_Decision_And_Control_Function_Scenario_object_1409,model_Decision_And_Control_Function_Scenario_relationship_2760.model_Decision_And_Control_Function_Scenario_fromrole_1982),connector(model_Decision_And_Control_Function_Scenario_object_69d8,model_Decision_And_Control_Function_Scenario_relationship_2760.model_Decision_And_Control_Function_Scenario_torole_1468));
+ 
+    Connect(connector(model_Decision_And_Control_Function_Scenario_object_69d8,model_Decision_And_Control_Function_Scenario_relationship_2925.model_Decision_And_Control_Function_Scenario_fromrole_b632),connector(model_Decision_And_Control_Function_Scenario_object_9f65,model_Decision_And_Control_Function_Scenario_relationship_2925.model_Decision_And_Control_Function_Scenario_torole_6693));
+ 
+    Connect(connector(model_Decision_And_Control_Function_Scenario_object_9f65,model_Decision_And_Control_Function_Scenario_relationship_9859.model_Decision_And_Control_Function_Scenario_fromrole_0c4b),connector(model_Decision_And_Control_Function_Scenario_object_9b16,model_Decision_And_Control_Function_Scenario_relationship_9859.model_Decision_And_Control_Function_Scenario_torole_6669));
+ 
+    Connect(connector(model_Decision_And_Control_Function_Scenario_object_9b16,model_Decision_And_Control_Function_Scenario_relationship_444f.model_Decision_And_Control_Function_Scenario_fromrole_a0af),connector(model_Decision_And_Control_Function_Scenario_object_ec7e,model_Decision_And_Control_Function_Scenario_relationship_444f.model_Decision_And_Control_Function_Scenario_torole_d4b0));
+ 
+
+      annotation(
+        localLabel="决策和控制特征的功能场景",
+    );
+    
+   end model_Decision_And_Control_Function_Scenario;

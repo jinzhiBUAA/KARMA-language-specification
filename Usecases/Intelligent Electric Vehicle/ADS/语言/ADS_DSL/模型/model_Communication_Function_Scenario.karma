@@ -1,0 +1,505 @@
+    partial Model model_Communication_Function_Scenario instanceof metaGraph_Process_Diagram
+    
+      Object model_Communication_Function_Scenario_object_42ac refer metaObject_Start_Event
+        Property model_Communication_Function_Scenario_object_42ac_property_d545 = "null" refer metaObject_Start_Event_metaProperty_Name_95f336 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Communication_Function_Scenario_object_42ac_property_8330 = "null" refer metaObject_Start_Event_metaProperty_Description_e61e1b annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(144,192,67,67),
+          localLabel="开始事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_Function_Scenario_object_42ac;
+
+      Object model_Communication_Function_Scenario_object_2f44 refer metaObject_End_Event
+        Property model_Communication_Function_Scenario_object_2f44_property_755c = "null" refer metaObject_End_Event_metaProperty_Name_684d02 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Communication_Function_Scenario_object_2f44_property_a229 = "null" refer metaObject_End_Event_metaProperty_Description_4e00c4 annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(689,426,67,67),
+          localLabel="结束事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_Function_Scenario_object_2f44;
+
+      Object model_Communication_Function_Scenario_object_92e7 refer metaObject_Task
+        Property model_Communication_Function_Scenario_object_92e7_property_17b8 = "通信建立和维护" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(288,180,121,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_Function_Scenario_object_92e7;
+
+      Object model_Communication_Function_Scenario_object_4d45 refer metaObject_Task
+        Property model_Communication_Function_Scenario_object_4d45_property_8dfa = "实时位置和状态共享" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(474,180,127,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_Function_Scenario_object_4d45;
+
+      Object model_Communication_Function_Scenario_object_786f refer metaObject_Task
+        Property model_Communication_Function_Scenario_object_786f_property_c82a = "交通信息获取" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(660,180,127,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_Function_Scenario_object_786f;
+
+      Object model_Communication_Function_Scenario_object_515e refer metaObject_Task
+        Property model_Communication_Function_Scenario_object_515e_property_b8d6 = "车队协同行驶" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(288,300,119,77),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_Function_Scenario_object_515e;
+
+      Object model_Communication_Function_Scenario_object_a2ce refer metaObject_Task
+        Property model_Communication_Function_Scenario_object_a2ce_property_d5cb = "交通信号互动" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(474,300,125,75),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_Function_Scenario_object_a2ce;
+
+      Object model_Communication_Function_Scenario_object_4c2b refer metaObject_Task
+        Property model_Communication_Function_Scenario_object_4c2b_property_e8f4 = "远程监控和支持" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(660,294,125,75),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_Function_Scenario_object_4c2b;
+
+      Object model_Communication_Function_Scenario_object_57ac refer metaObject_Task
+        Property model_Communication_Function_Scenario_object_57ac_property_70fe = "实时导航和地图更新" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(288,414,117,83),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_Function_Scenario_object_57ac;
+
+      Object model_Communication_Function_Scenario_object_18d2 refer metaObject_Task
+        Property model_Communication_Function_Scenario_object_18d2_property_bf28 = "数据隐私和安全" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(474,414,125,81),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_Function_Scenario_object_18d2;
+
+      Relationship model_Communication_Function_Scenario_relationship_bcca refer metaRelationship_Sequence_Flow
+        Role model_Communication_Function_Scenario_fromrole_2f48 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Communication_Function_Scenario_fromrole_2f48;
+         Role model_Communication_Function_Scenario_torole_98d5 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Communication_Function_Scenario_torole_98d5;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(177,225;425,216),
+          polylineLocation="[0,0,-77,24]$[77,0,0,24];(1.0,0.5373134328358209);(0.0,0.3380281690140845)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Communication_Function_Scenario_relationship_bcca;
+ 
+      Relationship model_Communication_Function_Scenario_relationship_1490 refer metaRelationship_Sequence_Flow
+        Role model_Communication_Function_Scenario_fromrole_493b refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Communication_Function_Scenario_fromrole_493b;
+         Role model_Communication_Function_Scenario_torole_4ca9 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Communication_Function_Scenario_torole_4ca9;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(348,216;604,216),
+          polylineLocation="[0,0,-67,0]$[67,0,0,0];(1.0,0.49295774647887325);(0.0,0.49295774647887325)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Communication_Function_Scenario_relationship_1490;
+ 
+      Relationship model_Communication_Function_Scenario_relationship_6b5d refer metaRelationship_Sequence_Flow
+        Role model_Communication_Function_Scenario_fromrole_0ad6 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Communication_Function_Scenario_fromrole_0ad6;
+         Role model_Communication_Function_Scenario_torole_3040 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Communication_Function_Scenario_torole_3040;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(537,216;784,216),
+          polylineLocation="[0,0,-61,0]$[61,0,0,0];(1.0,0.4225352112676056);(0.0,0.4225352112676056)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Communication_Function_Scenario_relationship_6b5d;
+ 
+      Relationship model_Communication_Function_Scenario_relationship_5b20 refer metaRelationship_Sequence_Flow
+        Role model_Communication_Function_Scenario_fromrole_6fff refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Communication_Function_Scenario_fromrole_6fff;
+         Role model_Communication_Function_Scenario_torole_14a1 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Communication_Function_Scenario_torole_14a1;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(723,216;722,374),
+          polylineLocation="[0,0,0,-43]$[0,43,0,0];(0.496,1.0);(0.5040650406504065,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Communication_Function_Scenario_relationship_5b20;
+ 
+      Relationship model_Communication_Function_Scenario_relationship_c4e6 refer metaRelationship_Sequence_Flow
+        Role model_Communication_Function_Scenario_fromrole_7ac1 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Communication_Function_Scenario_fromrole_7ac1;
+         Role model_Communication_Function_Scenario_torole_5e21 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Communication_Function_Scenario_torole_5e21;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(722,344;473,350),
+          polylineLocation="[0,13,63,0]$[-63,13,0,0];(0.0,0.3287671232876712);(1.0,0.4246575342465753)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Communication_Function_Scenario_relationship_c4e6;
+ 
+      Relationship model_Communication_Function_Scenario_relationship_3d6c refer metaRelationship_Sequence_Flow
+        Role model_Communication_Function_Scenario_fromrole_2118 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Communication_Function_Scenario_fromrole_2118;
+         Role model_Communication_Function_Scenario_torole_ab34 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Communication_Function_Scenario_torole_ab34;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(536,337;278,338),
+          polylineLocation="[0,0,69,0]$[-69,0,0,0];(0.0,0.2876712328767123);(1.0,0.28)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Communication_Function_Scenario_relationship_3d6c;
+ 
+      Relationship model_Communication_Function_Scenario_relationship_9e24 refer metaRelationship_Sequence_Flow
+        Role model_Communication_Function_Scenario_fromrole_4956 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Communication_Function_Scenario_fromrole_4956;
+         Role model_Communication_Function_Scenario_torole_4efe refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Communication_Function_Scenario_torole_4efe;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(347,338;346,494),
+          polylineLocation="[0,0,0,-39]$[0,39,0,0];(0.4188034188034188,1.0);(0.4260869565217391,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Communication_Function_Scenario_relationship_9e24;
+ 
+      Relationship model_Communication_Function_Scenario_relationship_097a refer metaRelationship_Sequence_Flow
+        Role model_Communication_Function_Scenario_fromrole_8165 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Communication_Function_Scenario_fromrole_8165;
+         Role model_Communication_Function_Scenario_torole_4477 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Communication_Function_Scenario_torole_4477;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(346,455;607,454),
+          polylineLocation="[0,0,-71,0]$[71,0,0,0];(1.0,0.4444444444444444);(0.0,0.45569620253164556)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Communication_Function_Scenario_relationship_097a;
+ 
+      Relationship model_Communication_Function_Scenario_relationship_935b refer metaRelationship_Sequence_Flow
+        Role model_Communication_Function_Scenario_fromrole_915d refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Communication_Function_Scenario_fromrole_915d;
+         Role model_Communication_Function_Scenario_torole_47e8 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Communication_Function_Scenario_torole_47e8;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(536,454;814,459),
+          polylineLocation="[0,0,-92,0]$[92,0,0,0];(1.0,0.569620253164557);(0.0,0.4925373134328358)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Communication_Function_Scenario_relationship_935b;
+ 
+    Connect(connector(model_Communication_Function_Scenario_object_42ac,model_Communication_Function_Scenario_relationship_bcca.model_Communication_Function_Scenario_fromrole_2f48),connector(model_Communication_Function_Scenario_object_92e7,model_Communication_Function_Scenario_relationship_bcca.model_Communication_Function_Scenario_torole_98d5));
+ 
+    Connect(connector(model_Communication_Function_Scenario_object_92e7,model_Communication_Function_Scenario_relationship_1490.model_Communication_Function_Scenario_fromrole_493b),connector(model_Communication_Function_Scenario_object_4d45,model_Communication_Function_Scenario_relationship_1490.model_Communication_Function_Scenario_torole_4ca9));
+ 
+    Connect(connector(model_Communication_Function_Scenario_object_4d45,model_Communication_Function_Scenario_relationship_6b5d.model_Communication_Function_Scenario_fromrole_0ad6),connector(model_Communication_Function_Scenario_object_786f,model_Communication_Function_Scenario_relationship_6b5d.model_Communication_Function_Scenario_torole_3040));
+ 
+    Connect(connector(model_Communication_Function_Scenario_object_786f,model_Communication_Function_Scenario_relationship_5b20.model_Communication_Function_Scenario_fromrole_6fff),connector(model_Communication_Function_Scenario_object_4c2b,model_Communication_Function_Scenario_relationship_5b20.model_Communication_Function_Scenario_torole_14a1));
+ 
+    Connect(connector(model_Communication_Function_Scenario_object_4c2b,model_Communication_Function_Scenario_relationship_c4e6.model_Communication_Function_Scenario_fromrole_7ac1),connector(model_Communication_Function_Scenario_object_a2ce,model_Communication_Function_Scenario_relationship_c4e6.model_Communication_Function_Scenario_torole_5e21));
+ 
+    Connect(connector(model_Communication_Function_Scenario_object_a2ce,model_Communication_Function_Scenario_relationship_3d6c.model_Communication_Function_Scenario_fromrole_2118),connector(model_Communication_Function_Scenario_object_515e,model_Communication_Function_Scenario_relationship_3d6c.model_Communication_Function_Scenario_torole_ab34));
+ 
+    Connect(connector(model_Communication_Function_Scenario_object_515e,model_Communication_Function_Scenario_relationship_9e24.model_Communication_Function_Scenario_fromrole_4956),connector(model_Communication_Function_Scenario_object_57ac,model_Communication_Function_Scenario_relationship_9e24.model_Communication_Function_Scenario_torole_4efe));
+ 
+    Connect(connector(model_Communication_Function_Scenario_object_57ac,model_Communication_Function_Scenario_relationship_097a.model_Communication_Function_Scenario_fromrole_8165),connector(model_Communication_Function_Scenario_object_18d2,model_Communication_Function_Scenario_relationship_097a.model_Communication_Function_Scenario_torole_4477));
+ 
+    Connect(connector(model_Communication_Function_Scenario_object_18d2,model_Communication_Function_Scenario_relationship_935b.model_Communication_Function_Scenario_fromrole_915d),connector(model_Communication_Function_Scenario_object_2f44,model_Communication_Function_Scenario_relationship_935b.model_Communication_Function_Scenario_torole_47e8));
+ 
+
+      annotation(
+        localLabel="通信特征的功能场景",
+    );
+    
+   end model_Communication_Function_Scenario;

@@ -1,0 +1,19 @@
+   Object metaObject_Expansion_Region
+      initial Property unique metaObject_Expansion_Region_metaProperty_Name_ccbaa1 = "null" extends metaProperty_Name annotation(localLabel ="名称");
+      initial Property unique metaObject_Expansion_Region_metaProperty_Context_8b2f23 = "null" extends metaProperty_Context annotation(localLabel ="上下文");
+      Undirected Point metaObject_Expansion_Region_metaPoint_Action_Input_Pin_7ecbc5 extends metaPoint_Action_Input_Pin annotation (localLabel ="动作输入引脚");
+      Undirected Point metaObject_Expansion_Region_metaPoint_Input_Pin_08de50 extends metaPoint_Input_Pin annotation (localLabel ="输入引脚");
+      Output Point metaObject_Expansion_Region_metaPoint_Output_Pin_90b043 extends metaPoint_Output_Pin annotation (localLabel ="输出引脚");
+      Undirected Point metaObject_Expansion_Region_metaPoint_Value_Pin_37c111 extends metaPoint_Value_Pin annotation (localLabel ="值引脚");
+      Undirected Point metaObject_Expansion_Region_metaPoint_Expansion_Node_719603 extends metaPoint_Expansion_Node annotation (localLabel ="扩展节点");
+   annotation(
+      localLabel="扩展区域",
+      description="",
+      icon="ExpansionRegionIcon.png",
+      shape="roundedRectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end metaObject_Expansion_Region;
+ 

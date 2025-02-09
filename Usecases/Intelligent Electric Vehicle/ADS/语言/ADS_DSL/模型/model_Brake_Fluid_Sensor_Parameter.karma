@@ -1,0 +1,40 @@
+    partial Model model_Brake_Fluid_Sensor_Parameter instanceof metaGraph_Parameter_Diagram
+      Object model_Brake_Fluid_Sensor_Parameter_object_76c3 refer metaObject_Moe
+        Property model_Brake_Fluid_Sensor_Parameter_object_76c3_property_30ac = "mm" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "液位检测范围",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(36,39,151,55),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Brake_Fluid_Sensor_Parameter_object_76c3;
+
+      Object model_Brake_Fluid_Sensor_Parameter_object_f47f refer metaObject_Moe
+        Property model_Brake_Fluid_Sensor_Parameter_object_f47f_property_2bd5 = "元" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(36,111,149,57),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Brake_Fluid_Sensor_Parameter_object_f47f;
+
+
+      annotation(
+        localLabel="制动液传感器参数模型",
+    );
+   end model_Brake_Fluid_Sensor_Parameter;

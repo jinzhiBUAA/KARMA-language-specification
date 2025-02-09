@@ -1,0 +1,1842 @@
+    partial Model Driving_Control_Breakdown_Structure_Model instanceof Package_Diagram
+    
+      Object TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde refer Model_Object
+        Property Model_Object_Name_3906af_a8c9 = "null" refer Model_Object_Name_3906af annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Model_Object_Description_9a0b0e_23bc = "null" refer Model_Object_Description_9a0b0e annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Model_Object_Name_3906af_3250 = "75000" refer Model_Object_Name_3906af annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1185,10,261,156),
+          localLabel="驾驶控制",
+          shape="packageDiagram",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde;
+
+      Object Driving_Control_Physical_Architecture_Model_object_Package_b98a refer Object_Package
+      
+        annotation(
+          initialLocation=(26,140,112,93),
+          localLabel="踏板",
+          shape="packageDiagram",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Physical_Architecture_Model_object_Package_b98a;
+
+      Object Driving_Control_Physical_Architecture_Model_object_Package_f1e6 refer Object_Package
+      
+        annotation(
+          initialLocation=(248,140,121,104),
+          localLabel="编码器",
+          shape="packageDiagram",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Physical_Architecture_Model_object_Package_f1e6;
+
+      Object Driving_Control_Physical_Architecture_Model_object_Package_2187 refer Object_Package
+      
+        annotation(
+          initialLocation=(560,211,171,93),
+          localLabel="悬挂",
+          shape="packageDiagram",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Physical_Architecture_Model_object_Package_2187;
+
+      Object Driving_Control_Physical_Architecture_Model_object_Package_7dcc refer Object_Package
+      
+        annotation(
+          initialLocation=(940,244,156,80),
+          localLabel="车轮",
+          shape="packageDiagram",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Physical_Architecture_Model_object_Package_7dcc;
+
+      Object Driving_Control_Physical_Architecture_Model_object_Package_99cf refer Object_Package
+      
+        annotation(
+          initialLocation=(1308,243,138,96),
+          localLabel="制动盘",
+          shape="packageDiagram",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Physical_Architecture_Model_object_Package_99cf;
+
+      Object Driving_Control_Physical_Architecture_Model_object_Package_4d88 refer Object_Package
+      
+        annotation(
+          initialLocation=(1685,243,141,96),
+          localLabel="传感器",
+          shape="packageDiagram",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Physical_Architecture_Model_object_Package_4d88;
+
+      Object Component_umc refer Block
+        Property Block_Cost_d016c2_b5a6 = 300 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(217,435,230,107),
+          localLabel="右前轮编码器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_umc;
+
+      Object Component_ceg refer Block
+        Property Block_Cost_d016c2_5713 = 500 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(0,435,164,96),
+          localLabel="加速踏板",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_ceg;
+
+      Object Component_mia refer Block
+        Property Block_Cost_d016c2_a152 = 300 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(216,672,230,107),
+          localLabel="右后轮编码器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_mia;
+
+      Object Component_qmb refer Block
+        Property Block_Cost_d016c2_794c = 300 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(222,315,230,107),
+          localLabel="左后轮编码器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_qmb;
+
+      Object Component_gzz refer Block
+        Property Block_Cost_d016c2_5e82 = 300 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(216,557,230,107),
+          localLabel="左前轮编码器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_gzz;
+
+      Object Component_wtf refer Block
+        Property Block_Cost_d016c2_f72a = 200 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(505,375,188,111),
+          localLabel="左前轮悬挂",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_wtf;
+
+      Object Component_kuz refer Block
+        Property Block_Cost_d016c2_cdb6 = 500 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(0,315,164,96),
+          localLabel="制动踏板",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_kuz;
+
+      Object Component_yxe refer Block
+        Property Block_Cost_d016c2_c0cf = 200 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(505,490,206,111),
+          localLabel="左后轮悬挂",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_yxe;
+
+      Object Component_yho refer Block
+        Property Block_Cost_d016c2_ee09 = 200 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(711,380,216,100),
+          localLabel="右前轮悬挂",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_yho;
+
+      Object Component_qyv refer Block
+        Property Block_Cost_d016c2_184d = 200 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(715,489,207,102),
+          localLabel="右后轮悬挂",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_qyv;
+
+      Object Component_zme refer Block
+        Property Block_Cost_d016c2_e124 = 400 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(940,383,140,96),
+          localLabel="左前轮",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_zme;
+
+      Object Component_jlt refer Block
+        Property Block_Cost_d016c2_3efd = 400 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(942,503,135,96),
+          localLabel="右后轮",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_jlt;
+
+      Object Component_tou refer Block
+        Property Block_Cost_d016c2_c5ac = 400 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1085,380,148,94),
+          localLabel="右前轮",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_tou;
+
+      Object Component_fxd refer Block
+        Property Block_Cost_d016c2_62d8 = 400 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1085,490,166,108),
+          localLabel="左后轮",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_fxd;
+
+      Object Component_yjj refer Block
+        Property Block_Cost_d016c2_787b = 150 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1290,396,243,110),
+          localLabel="右后轮制动盘",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_yjj;
+
+      Object Component_buq refer Block
+        Property Block_Cost_d016c2_58c9 = 150 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1290,511,243,110),
+          localLabel="左后轮制动盘",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_buq;
+
+      Object Component_fsf refer Block
+        Property Block_Cost_d016c2_a772 = 150 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1542,395,224,112),
+          localLabel="右前轮制动盘",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_fsf;
+
+      Object Component_jcm refer Block
+        Property Block_Cost_d016c2_430d = 150 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1542,521,224,112),
+          localLabel="左前轮制动盘",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_jcm;
+
+      Object Component_nlc refer Block
+        Property Block_Cost_d016c2_c0a9 = 12000 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(790,165,140,90),
+          localLabel="车架",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_nlc;
+
+      Object Component_mho refer Block
+        Property Block_Cost_d016c2_ff75 = 600 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(449,70,160,98),
+          localLabel="方向盘",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_mho;
+
+      Object Component_yvs refer Block
+        Property Block_Cost_d016c2_75ce = 400 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(498,612,248,111),
+          localLabel="方向盘编码器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_yvs;
+
+      Object Component_pwa refer Block
+        Property Block_Cost_d016c2_ff8c = 800 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1938,185,140,106),
+          localLabel="转向舵",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_pwa;
+
+      Object Component_xuq refer Block
+        Property Block_Cost_d016c2_0a9e = 8000 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(2058,521,140,124),
+          localLabel="电机",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_xuq;
+
+      Object Component_ldz refer Block
+        Property Block_Cost_d016c2_f605 = 600 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(2214,509,188,112),
+          localLabel="再生制动",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_ldz;
+
+      Object Component_upr refer Block
+        Property Block_Cost_d016c2_54ac = 2000 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(2160,303,140,108),
+          localLabel="控制器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_upr;
+
+      Object Component_owj refer Block
+        Property Block_Cost_d016c2_b411 = 300 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1776,408,260,106),
+          localLabel="制动踏板传感器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_owj;
+
+      Object Component_nny refer Block
+        Property Block_Cost_d016c2_de93 = 300 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1776,521,272,112),
+          localLabel="加速踏板传感器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_nny;
+
+      Object Component_nil refer Block
+        Property Block_Cost_d016c2_94ea = 4000 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1944,303,140,96),
+          localLabel="齿轮箱",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_nil;
+
+      Object Component_mdz refer Block
+        Property Block_Cost_d016c2_4483 = 40000 refer Block_Cost_d016c2 annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(2160,185,140,100),
+          localLabel="电池",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Component_mdz;
+
+      Relationship Contain_f118 refer Contain
+        Role Contain_Incoming_45c8 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_45c8;
+         Role Contain_Outgoing_ffd8 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_ffd8;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(75,141;2346,-114),
+          polylineLocation="[-7,-45,-1240,53]$[-7,-170,-1240,-72]$[1105,-170,-128,-72]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_f118;
+ 
+      Relationship Contain_a3bb refer Contain
+        Role Contain_Incoming_8208 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_8208;
+         Role Contain_Outgoing_3df8 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_3df8;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(78,329;104,70),
+          polylineLocation="[-4,-34,-17,129]$[-4,-118,-17,45]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_a3bb;
+ 
+      Relationship Contain_868f refer Contain
+        Role Contain_Incoming_88ef refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_88ef;
+         Role Contain_Outgoing_4459 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_4459;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(13,467;66,-96),
+          polylineLocation="[-69,-16,-82,266]$[-76,-16,-89,266]$[-76,-284,-89,-2]$[-42,-284,-55,-2]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_868f;
+ 
+      Relationship Contain_5707 refer Contain
+        Role Contain_Incoming_798c refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_798c;
+         Role Contain_Outgoing_e679 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_e679;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(293,142;2124,-95),
+          polylineLocation="[-15,-50,-1022,54]$[-15,-157,-1022,-53]$[879,-157,-128,-53]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_5707;
+ 
+      Relationship Contain_a908 refer Contain
+        Role Contain_Incoming_910e refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_910e;
+         Role Contain_Outgoing_a47b refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_a47b;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(336,334;362,85),
+          polylineLocation="[-1,-34,0,123]$[-1,-108,0,49]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_a908;
+ 
+      Relationship Contain_85d6 refer Contain
+        Role Contain_Incoming_31e1 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_31e1;
+         Role Contain_Outgoing_c36d refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_c36d;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(245,465;308,-66),
+          polylineLocation="[-87,-23,-91,254]$[-100,-23,-104,254]$[-100,-259,-104,18]$[-55,-259,-59,18]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_85d6;
+ 
+      Relationship Contain_15f0 refer Contain
+        Role Contain_Incoming_9a23 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_9a23;
+         Role Contain_Outgoing_e872 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_e872;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(473,630;426,-178),
+          polylineLocation="[142,20,136,418]$[162,20,156,418]$[162,-371,156,27]$[63,-371,57,27]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_15f0;
+ 
+      Relationship Contain_69e7 refer Contain
+        Role Contain_Incoming_d3f0 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_d3f0;
+         Role Contain_Outgoing_7073 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_7073;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(245,702;310,-339),
+          polylineLocation="[-86,-23,-92,490]$[-123,-23,-129,490]$[-123,-532,-129,-19]$[-53,-532,-59,-19]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_69e7;
+ 
+      Relationship Contain_ed35 refer Contain
+        Role Contain_Incoming_6a28 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_6a28;
+         Role Contain_Outgoing_1144 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_1144;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(650,224;1812,-116),
+          polylineLocation="[5,-33,-665,136]$[5,-172,-665,-3]$[542,-172,-128,-3]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_ed35;
+ 
+      Relationship Contain_de45 refer Contain
+        Role Contain_Incoming_5133 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_5133;
+         Role Contain_Outgoing_d2ec refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_d2ec;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(627,396;682,157),
+          polylineLocation="[28,-34,-14,118]$[28,-109,-14,43]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_de45;
+ 
+      Relationship Contain_86f1 refer Contain
+        Role Contain_Incoming_521f refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_521f;
+         Role Contain_Outgoing_9202 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_9202;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(539,548;650,-14),
+          polylineLocation="[-69,3,-140,270]$[-100,3,-171,270]$[-100,-280,-171,-13]$[-13,-280,-84,-13]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_86f1;
+ 
+      Relationship Contain_0937 refer Contain
+        Role Contain_Incoming_acdb refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_acdb;
+         Role Contain_Outgoing_e418 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_e418;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(793,397;602,148),
+          polylineLocation="[-26,-33,76,123]$[-26,-76,76,80]$[-66,-76,36,80]$[-66,-113,36,43]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_0937;
+ 
+      Relationship Contain_c6c9 refer Contain
+        Role Contain_Incoming_324e refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_324e;
+         Role Contain_Outgoing_2420 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_2420;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(880,506;639,4),
+          polylineLocation="[62,-34,169,232]$[62,-258,169,8]$[-24,-258,83,8]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_c6c9;
+ 
+      Relationship Contain_3813 refer Contain
+        Role Contain_Incoming_2890 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_2890;
+         Role Contain_Outgoing_690c refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_690c;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(998,245;1515,-69),
+          polylineLocation="[-20,-39,-318,157]$[-20,-64,-318,132]$[252,-64,-46,132]$[252,-119,-46,77]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_3813;
+ 
+      Relationship Contain_1ada refer Contain
+        Role Contain_Incoming_5b10 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_5b10;
+         Role Contain_Outgoing_f576 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_f576;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1021,398;1021,197),
+          polylineLocation="[11,-33,2,99]$[11,-95,2,37]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_1ada;
+ 
+      Relationship Contain_9f55 refer Contain
+        Role Contain_Incoming_0f5e refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_0f5e;
+         Role Contain_Outgoing_523b refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_523b;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1158,392;953,171),
+          polylineLocation="[-1,-35,135,111]$[-1,-120,135,26]$[-61,-120,75,26]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_9f55;
+ 
+      Relationship Contain_ec73 refer Contain
+        Role Contain_Incoming_30cb refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_30cb;
+         Role Contain_Outgoing_5a0f refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_5a0f;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(941,551;938,27),
+          polylineLocation="[-68,0,-76,252]$[-74,0,-82,252]$[-74,-265,-82,-13]$[-69,-265,-77,-13]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_ec73;
+ 
+      Relationship Contain_2366 refer Contain
+        Role Contain_Incoming_3898 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_3898;
+         Role Contain_Outgoing_5eb6 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_5eb6;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1264,565;963,47),
+          polylineLocation="[96,21,231,260]$[107,21,242,260]$[107,-251,242,-12]$[-60,-251,75,-12]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_2366;
+ 
+      Relationship Contain_6809 refer Contain
+        Role Contain_Incoming_9e5e refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_9e5e;
+         Role Contain_Outgoing_d7f9 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_d7f9;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1338,244;1215,-71),
+          polylineLocation="[-39,-47,23,156]$[-39,-129,23,74]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_6809;
+ 
+      Relationship Contain_c638 refer Contain
+        Role Contain_Incoming_dae1 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_dae1;
+         Role Contain_Outgoing_5848 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_5848;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1402,417;1420,204),
+          polylineLocation="[-9,-34,-27,105]$[-9,-94,-27,45]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_c638;
+ 
+      Relationship Contain_3301 refer Contain
+        Role Contain_Incoming_4952 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_4952;
+         Role Contain_Outgoing_cf74 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_cf74;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1650,418;1252,183),
+          polylineLocation="[-4,-33,229,104]$[-4,-116,229,21]$[-168,-116,65,21]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_3301;
+ 
+      Relationship Contain_9fcb refer Contain
+        Role Contain_Incoming_c785 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_c785;
+         Role Contain_Outgoing_3b0e refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_3b0e;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1342,549;1379,48),
+          polylineLocation="[-69,-17,-87,237]$[-80,-17,-98,237]$[-80,-250,-98,4]$[-50,-250,-68,4]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_9fcb;
+ 
+      Relationship Contain_f5b0 refer Contain
+        Role Contain_Incoming_65b7 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_65b7;
+         Role Contain_Outgoing_9f19 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_9f19;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1693,543;1251,24),
+          polylineLocation="[39,-34,273,230]$[39,-275,273,-11]$[-169,-275,65,-11]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_f5b0;
+ 
+      Relationship Contain_1c76 refer Contain
+        Role Contain_Incoming_c0f6 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_c0f6;
+         Role Contain_Outgoing_b2f8 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_b2f8;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(520,58;1914,-13),
+          polylineLocation="[-9,-61,-786,-18]$[-9,-72,-786,-29]$[649,-72,-128,-29]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_1c76;
+ 
+      Relationship Contain_9219 refer Contain
+        Role Contain_Incoming_2c60 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_2c60;
+         Role Contain_Outgoing_b260 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_b260;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(861,176;1583,-24),
+          polylineLocation="[1,-34,-455,77]$[1,-79,-455,32]$[328,-79,-128,32]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_9219;
+ 
+      Relationship Contain_18e0 refer Contain
+        Role Contain_Incoming_c762 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_c762;
+         Role Contain_Outgoing_b4e8 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_b4e8;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(2008,204;689,-11),
+          polylineLocation="[0,-34,692,97]$[0,-74,692,57]$[-566,-74,126,57]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_18e0;
+ 
+      Relationship Contain_885d refer Contain
+        Role Contain_Incoming_5250 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_5250;
+         Role Contain_Outgoing_feef refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_feef;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1945,351;637,-117),
+          polylineLocation="[-69,0,629,249]$[-108,0,590,249]$[-108,-158,590,91]$[-618,-158,80,91]$[-618,-175,80,74]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_885d;
+ 
+      Relationship Contain_7e0a refer Contain
+        Role Contain_Incoming_2217 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_2217;
+         Role Contain_Outgoing_c5aa refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_c5aa;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(2234,201;467,-60),
+          polylineLocation="[4,-34,918,97]$[4,-120,918,11]$[-788,-120,126,11]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_7e0a;
+ 
+      Relationship Contain_b5f9 refer Contain
+        Role Contain_Incoming_6771 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_6771;
+         Role Contain_Outgoing_625b refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_625b;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(2111,550;569,-363),
+          polylineLocation="[-17,-33,795,433]$[-17,-435,795,31]$[-686,-435,126,31]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_b5f9;
+ 
+      Relationship Contain_f904 refer Contain
+        Role Contain_Incoming_b9a4 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_b9a4;
+         Role Contain_Outgoing_7247 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_7247;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1775,256;860,-71),
+          polylineLocation="[20,-35,460,168]$[20,-81,460,122]$[-395,-81,45,122]$[-395,-129,45,74]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_f904;
+ 
+      Relationship Contain_767a refer Contain
+        Role Contain_Incoming_6e91 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_6e91;
+         Role Contain_Outgoing_5f8d refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_5f8d;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1905,427;1814,190),
+          polylineLocation="[-1,-34,89,117]$[-1,-106,89,45]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_767a;
+ 
+      Relationship Contain_72e6 refer Contain
+        Role Contain_Incoming_2b2c refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_2b2c;
+         Role Contain_Outgoing_5a07 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_5a07;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1928,543;1798,54),
+          polylineLocation="[16,-34,106,230]$[16,-245,106,19]$[-23,-245,67,19]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_72e6;
+ 
+      Relationship Contain_6d12 refer Contain
+        Role Contain_Incoming_4c67 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_4c67;
+         Role Contain_Outgoing_6af5 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_6af5;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(2299,356;467,-204),
+          polylineLocation="[69,-1,983,248]$[90,-1,1004,248]$[90,-268,1004,-19]$[-788,-268,126,-19]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_6d12;
+ 
+      Relationship Contain_21c6 refer Contain
+        Role Contain_Incoming_ad9d refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_ad9d;
+         Role Contain_Outgoing_8bf2 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_8bf2;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(2377,565;437,-433),
+          polylineLocation="[69,0,1037,454]$[82,0,1050,454]$[82,-499,1050,-45]$[-842,-499,126,-45]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_21c6;
+ 
+      Relationship Contain_21ba refer Contain
+        Role Contain_Incoming_3966 refer Contain_Incoming
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end Contain_Incoming_3966;
+         Role Contain_Outgoing_2e66 refer Contain_Outgoing
+          annotation(
+            localLabel="包含终端",
+            shape="ring"
+          );
+        end Contain_Outgoing_2e66;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(561,633;170,-272),
+          polylineLocation="[-61,-34,198,420]$[-61,-467,198,-13]$[-202,-467,57,-13]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Contain_21ba;
+ 
+    Connect(connector(Driving_Control_Physical_Architecture_Model_object_Package_b98a,Contain_f118.Contain_Incoming_45c8),connector(TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde,Contain_f118.Contain_Outgoing_ffd8));
+ 
+    Connect(connector(Component_kuz,Contain_a3bb.Contain_Incoming_8208),connector(Driving_Control_Physical_Architecture_Model_object_Package_b98a,Contain_a3bb.Contain_Outgoing_3df8));
+ 
+    Connect(connector(Component_ceg,Contain_868f.Contain_Incoming_88ef),connector(Driving_Control_Physical_Architecture_Model_object_Package_b98a,Contain_868f.Contain_Outgoing_4459));
+ 
+    Connect(connector(Driving_Control_Physical_Architecture_Model_object_Package_f1e6,Contain_5707.Contain_Incoming_798c),connector(TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde,Contain_5707.Contain_Outgoing_e679));
+ 
+    Connect(connector(Component_qmb,Contain_a908.Contain_Incoming_910e),connector(Driving_Control_Physical_Architecture_Model_object_Package_f1e6,Contain_a908.Contain_Outgoing_a47b));
+ 
+    Connect(connector(Component_umc,Contain_85d6.Contain_Incoming_31e1),connector(Driving_Control_Physical_Architecture_Model_object_Package_f1e6,Contain_85d6.Contain_Outgoing_c36d));
+ 
+    Connect(connector(Component_gzz,Contain_15f0.Contain_Incoming_9a23),connector(Driving_Control_Physical_Architecture_Model_object_Package_f1e6,Contain_15f0.Contain_Outgoing_e872));
+ 
+    Connect(connector(Component_mia,Contain_69e7.Contain_Incoming_d3f0),connector(Driving_Control_Physical_Architecture_Model_object_Package_f1e6,Contain_69e7.Contain_Outgoing_7073));
+ 
+    Connect(connector(Driving_Control_Physical_Architecture_Model_object_Package_2187,Contain_ed35.Contain_Incoming_6a28),connector(TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde,Contain_ed35.Contain_Outgoing_1144));
+ 
+    Connect(connector(Component_wtf,Contain_de45.Contain_Incoming_5133),connector(Driving_Control_Physical_Architecture_Model_object_Package_2187,Contain_de45.Contain_Outgoing_d2ec));
+ 
+    Connect(connector(Component_yxe,Contain_86f1.Contain_Incoming_521f),connector(Driving_Control_Physical_Architecture_Model_object_Package_2187,Contain_86f1.Contain_Outgoing_9202));
+ 
+    Connect(connector(Component_yho,Contain_0937.Contain_Incoming_acdb),connector(Driving_Control_Physical_Architecture_Model_object_Package_2187,Contain_0937.Contain_Outgoing_e418));
+ 
+    Connect(connector(Component_qyv,Contain_c6c9.Contain_Incoming_324e),connector(Driving_Control_Physical_Architecture_Model_object_Package_2187,Contain_c6c9.Contain_Outgoing_2420));
+ 
+    Connect(connector(Driving_Control_Physical_Architecture_Model_object_Package_7dcc,Contain_3813.Contain_Incoming_2890),connector(TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde,Contain_3813.Contain_Outgoing_690c));
+ 
+    Connect(connector(Component_zme,Contain_1ada.Contain_Incoming_5b10),connector(Driving_Control_Physical_Architecture_Model_object_Package_7dcc,Contain_1ada.Contain_Outgoing_f576));
+ 
+    Connect(connector(Component_tou,Contain_9f55.Contain_Incoming_0f5e),connector(Driving_Control_Physical_Architecture_Model_object_Package_7dcc,Contain_9f55.Contain_Outgoing_523b));
+ 
+    Connect(connector(Component_jlt,Contain_ec73.Contain_Incoming_30cb),connector(Driving_Control_Physical_Architecture_Model_object_Package_7dcc,Contain_ec73.Contain_Outgoing_5a0f));
+ 
+    Connect(connector(Component_fxd,Contain_2366.Contain_Incoming_3898),connector(Driving_Control_Physical_Architecture_Model_object_Package_7dcc,Contain_2366.Contain_Outgoing_5eb6));
+ 
+    Connect(connector(Driving_Control_Physical_Architecture_Model_object_Package_99cf,Contain_6809.Contain_Incoming_9e5e),connector(TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde,Contain_6809.Contain_Outgoing_d7f9));
+ 
+    Connect(connector(Component_yjj,Contain_c638.Contain_Incoming_dae1),connector(Driving_Control_Physical_Architecture_Model_object_Package_99cf,Contain_c638.Contain_Outgoing_5848));
+ 
+    Connect(connector(Component_fsf,Contain_3301.Contain_Incoming_4952),connector(Driving_Control_Physical_Architecture_Model_object_Package_99cf,Contain_3301.Contain_Outgoing_cf74));
+ 
+    Connect(connector(Component_buq,Contain_9fcb.Contain_Incoming_c785),connector(Driving_Control_Physical_Architecture_Model_object_Package_99cf,Contain_9fcb.Contain_Outgoing_3b0e));
+ 
+    Connect(connector(Component_jcm,Contain_f5b0.Contain_Incoming_65b7),connector(Driving_Control_Physical_Architecture_Model_object_Package_99cf,Contain_f5b0.Contain_Outgoing_9f19));
+ 
+    Connect(connector(Component_mho,Contain_1c76.Contain_Incoming_c0f6),connector(TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde,Contain_1c76.Contain_Outgoing_b2f8));
+ 
+    Connect(connector(Component_nlc,Contain_9219.Contain_Incoming_2c60),connector(TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde,Contain_9219.Contain_Outgoing_b260));
+ 
+    Connect(connector(Component_pwa,Contain_18e0.Contain_Incoming_c762),connector(TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde,Contain_18e0.Contain_Outgoing_b4e8));
+ 
+    Connect(connector(Component_nil,Contain_885d.Contain_Incoming_5250),connector(TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde,Contain_885d.Contain_Outgoing_feef));
+ 
+    Connect(connector(Component_mdz,Contain_7e0a.Contain_Incoming_2217),connector(TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde,Contain_7e0a.Contain_Outgoing_c5aa));
+ 
+    Connect(connector(Component_xuq,Contain_b5f9.Contain_Incoming_6771),connector(TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde,Contain_b5f9.Contain_Outgoing_625b));
+ 
+    Connect(connector(Driving_Control_Physical_Architecture_Model_object_Package_4d88,Contain_f904.Contain_Incoming_b9a4),connector(TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde,Contain_f904.Contain_Outgoing_7247));
+ 
+    Connect(connector(Component_owj,Contain_767a.Contain_Incoming_6e91),connector(Driving_Control_Physical_Architecture_Model_object_Package_4d88,Contain_767a.Contain_Outgoing_5f8d));
+ 
+    Connect(connector(Component_nny,Contain_72e6.Contain_Incoming_2b2c),connector(Driving_Control_Physical_Architecture_Model_object_Package_4d88,Contain_72e6.Contain_Outgoing_5a07));
+ 
+    Connect(connector(Component_upr,Contain_6d12.Contain_Incoming_4c67),connector(TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde,Contain_6d12.Contain_Outgoing_6af5));
+ 
+    Connect(connector(Component_ldz,Contain_21c6.Contain_Incoming_ad9d),connector(TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde,Contain_21c6.Contain_Outgoing_8bf2));
+ 
+    Connect(connector(Component_yvs,Contain_21ba.Contain_Incoming_3966),connector(Driving_Control_Physical_Architecture_Model_object_Package_f1e6,Contain_21ba.Contain_Outgoing_2e66));
+ 
+
+      annotation(
+        localLabel="驾驶控制分解结构模型",
+    );
+    
+   end Driving_Control_Breakdown_Structure_Model;

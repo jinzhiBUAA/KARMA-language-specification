@@ -1,0 +1,13 @@
+   partial Graph High_Level_Operational_Concept
+    Object Actuator;
+    Relationship Dependency;
+    Constraint (
+    bind connector(Actuator,Dependency.Dependency_Incoming),
+    bind connector(Actuator,Dependency.Dependency_Outgoing),
+    );
+    annotation(
+        localLabel="顶层作战概念图",
+        type = diagram,
+        description="",
+       );
+        end High_Level_Operational_Concept;

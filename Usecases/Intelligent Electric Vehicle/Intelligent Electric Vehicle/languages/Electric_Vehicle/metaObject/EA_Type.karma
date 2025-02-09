@@ -1,0 +1,14 @@
+   Object EA_Type
+      initial Property  EA_Type_Name_8ff4a6 = "null" extends Name annotation(localLabel ="名称");
+      initial Property  EA_Type_Modes_80fa4f = "null" extends Modes annotation(localLabel ="模型");
+      Output Point EA_Type_Failure_Out_Port_297cea extends Failure_Out_Port annotation (localLabel ="故障端输出端口");
+      Input Point EA_Type_Fault_ln_Port_1beae0 extends Fault_ln_Port annotation (localLabel ="故障端输入端口");
+   annotation(
+      localLabel="EA类型",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end EA_Type;
+ 

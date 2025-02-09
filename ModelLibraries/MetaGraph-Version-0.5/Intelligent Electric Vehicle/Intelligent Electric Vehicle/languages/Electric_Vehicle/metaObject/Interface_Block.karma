@@ -1,0 +1,16 @@
+   Object Interface_Block
+      initial Property  Interface_Block_Port_20205a = "null" extends Port annotation(localLabel ="端口");
+      initial Property  Interface_Block_Variables_ebaaff = "null" extends Variables annotation(localLabel ="变量");
+      initial Property  Interface_Block_Name_3d3e5f = "null" extends Name annotation(localLabel ="名称");
+      initial Property  Interface_Block_Part_fb5153 = "null" extends Part annotation(localLabel ="组成部分");
+      initial Property  Interface_Block_Quote_1a5924 = "null" extends Quote annotation(localLabel ="引用");
+      Undirected Point Interface_Block_In_Out_Flow_Port_2b6ee6 extends In_Out_Flow_Port annotation (localLabel ="流入流出口");
+   annotation(
+      localLabel="接口模块",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Interface_Block;
+ 

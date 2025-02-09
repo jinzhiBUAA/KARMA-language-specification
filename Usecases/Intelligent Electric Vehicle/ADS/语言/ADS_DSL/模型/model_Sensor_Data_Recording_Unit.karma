@@ -1,0 +1,74 @@
+    partial Model model_Sensor_Data_Recording_Unit instanceof metaGraph_Parameter_Diagram
+      Object model_Sensor_Data_Recording_Unit_object_729b refer metaObject_Moe
+        Property model_Sensor_Data_Recording_Unit_object_729b_property_a4eb = "XXX" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "支持的传感器类型",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(9,101,157,79),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Sensor_Data_Recording_Unit_object_729b;
+
+      Object model_Sensor_Data_Recording_Unit_object_a42c refer metaObject_Moe
+        Property model_Sensor_Data_Recording_Unit_object_a42c_property_1ffe = "ms" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "数据记录频率",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(9,197,155,73),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Sensor_Data_Recording_Unit_object_a42c;
+
+      Object model_Sensor_Data_Recording_Unit_object_ca4c refer metaObject_Moe
+        Property model_Sensor_Data_Recording_Unit_object_ca4c_property_47c0 = "GB" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "数据存储容量",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(12,275,149,55),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Sensor_Data_Recording_Unit_object_ca4c;
+
+      Object model_Sensor_Data_Recording_Unit_object_7dfd refer metaObject_Moe
+        Property model_Sensor_Data_Recording_Unit_object_7dfd_property_6422 = "null" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(12,35,151,61),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Sensor_Data_Recording_Unit_object_7dfd;
+
+
+      annotation(
+        localLabel="传感器数据记录单元参数模型",
+    );
+   end model_Sensor_Data_Recording_Unit;

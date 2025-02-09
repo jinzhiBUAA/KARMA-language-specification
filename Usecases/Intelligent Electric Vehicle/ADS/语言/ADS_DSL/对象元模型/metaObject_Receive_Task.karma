@@ -1,0 +1,14 @@
+   Object metaObject_Receive_Task
+      initial Property unique metaObject_Receive_Task_metaProperty_Name_dc1eed = "null" extends metaProperty_Name annotation(localLabel ="名称");
+      initial Property unique metaObject_Receive_Task_metaProperty_Description_fe503c = "null" extends metaProperty_Description annotation(localLabel ="描述");
+   annotation(
+      localLabel="接收任务",
+      description="",
+      icon="ReceiveTaskIcon.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end metaObject_Receive_Task;
+ 

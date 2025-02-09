@@ -1,0 +1,452 @@
+    partial Model model_Safety_and_Emergency_Handling_Function_Scenario instanceof metaGraph_Process_Diagram
+    
+      Object model_Safety_and_Emergency_Handling_Function_Scenario_object_7db1 refer metaObject_Start_Event
+        Property model_Safety_and_Emergency_Handling_Function_Scenario_object_7db1_property_fdd2 = "null" refer metaObject_Start_Event_metaProperty_Name_95f336 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Safety_and_Emergency_Handling_Function_Scenario_object_7db1_property_f0e9 = "null" refer metaObject_Start_Event_metaProperty_Description_e61e1b annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(108,113,61,61),
+          localLabel="开始事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_object_7db1;
+
+      Object model_Safety_and_Emergency_Handling_Function_Scenario_object_18d9 refer metaObject_End_Event
+        Property model_Safety_and_Emergency_Handling_Function_Scenario_object_18d9_property_833b = "null" refer metaObject_End_Event_metaProperty_Name_684d02 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Safety_and_Emergency_Handling_Function_Scenario_object_18d9_property_7d21 = "null" refer metaObject_End_Event_metaProperty_Description_4e00c4 annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(456,372,67,61),
+          localLabel="结束事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_object_18d9;
+
+      Object model_Safety_and_Emergency_Handling_Function_Scenario_object_e645 refer metaObject_Task
+        Property model_Safety_and_Emergency_Handling_Function_Scenario_object_e645_property_e4b6 = "紧急情况检测" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(252,106,133,75),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_object_e645;
+
+      Object model_Safety_and_Emergency_Handling_Function_Scenario_object_eab9 refer metaObject_Task
+        Property model_Safety_and_Emergency_Handling_Function_Scenario_object_eab9_property_caea = "碰撞威胁评估" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(444,108,129,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_object_eab9;
+
+      Object model_Safety_and_Emergency_Handling_Function_Scenario_object_53a5 refer metaObject_Task
+        Property model_Safety_and_Emergency_Handling_Function_Scenario_object_53a5_property_8dac = "制定和执行避险措施" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(642,106,133,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_object_53a5;
+
+      Object model_Safety_and_Emergency_Handling_Function_Scenario_object_11e8 refer metaObject_Task
+        Property model_Safety_and_Emergency_Handling_Function_Scenario_object_11e8_property_0817 = "决策优化" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(252,222,131,75),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_object_11e8;
+
+      Object model_Safety_and_Emergency_Handling_Function_Scenario_object_e094 refer metaObject_Task
+        Property model_Safety_and_Emergency_Handling_Function_Scenario_object_e094_property_6d54 = "故障管理" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(444,222,127,75),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_object_e094;
+
+      Object model_Safety_and_Emergency_Handling_Function_Scenario_object_f6ab refer metaObject_Task
+        Property model_Safety_and_Emergency_Handling_Function_Scenario_object_f6ab_property_5007 = "乘客安全通知" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(642,222,131,75),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_object_f6ab;
+
+      Object model_Safety_and_Emergency_Handling_Function_Scenario_object_d733 refer metaObject_Task
+        Property model_Safety_and_Emergency_Handling_Function_Scenario_object_d733_property_2bb6 = "紧急事件记录" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(252,360,129,75),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_object_d733;
+
+      Relationship model_Safety_and_Emergency_Handling_Function_Scenario_relationship_dc40 refer metaRelationship_Sequence_Flow
+        Role model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_56be refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_56be;
+         Role model_Safety_and_Emergency_Handling_Function_Scenario_torole_6708 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_torole_6708;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(138,143;401,143),
+          polylineLocation="[0,0,-83,0]$[83,0,0,0];(1.0,0.4426229508196721);(0.0,0.4657534246575342)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_relationship_dc40;
+ 
+      Relationship model_Safety_and_Emergency_Handling_Function_Scenario_relationship_51d5 refer metaRelationship_Sequence_Flow
+        Role model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_ae7e refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_ae7e;
+         Role model_Safety_and_Emergency_Handling_Function_Scenario_torole_bc87 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_torole_bc87;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(318,143;569,144),
+          polylineLocation="[0,0,-61,0]$[61,0,0,0];(1.0,0.4246575342465753);(0.0,0.4084507042253521)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_relationship_51d5;
+ 
+      Relationship model_Safety_and_Emergency_Handling_Function_Scenario_relationship_beef refer metaRelationship_Sequence_Flow
+        Role model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_19d4 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_19d4;
+         Role model_Safety_and_Emergency_Handling_Function_Scenario_torole_0e6e refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_torole_0e6e;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(508,154;779,152),
+          polylineLocation="[0,10,-71,16]$[71,10,0,16];(1.0,0.3380281690140845);(0.0,0.28169014084507044)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_relationship_beef;
+ 
+      Relationship model_Safety_and_Emergency_Handling_Function_Scenario_relationship_32e5 refer metaRelationship_Sequence_Flow
+        Role model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_b8d3 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_b8d3;
+         Role model_Safety_and_Emergency_Handling_Function_Scenario_torole_db18 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_torole_db18;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(708,142;707,304),
+          polylineLocation="[0,0,0,-45]$[0,45,0,0];(0.48854961832061067,1.0);(0.49612403100775193,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_relationship_32e5;
+ 
+      Relationship model_Safety_and_Emergency_Handling_Function_Scenario_relationship_ebe4 refer metaRelationship_Sequence_Flow
+        Role model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_4763 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_4763;
+         Role model_Safety_and_Emergency_Handling_Function_Scenario_torole_a730 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_torole_a730;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(707,295;434,295),
+          polylineLocation="[0,36,73,18]$[-73,36,0,18];(0.0,0.0);(1.0,0.2465753424657534)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_relationship_ebe4;
+ 
+      Relationship model_Safety_and_Emergency_Handling_Function_Scenario_relationship_e42f refer metaRelationship_Sequence_Flow
+        Role model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_f80c refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_f80c;
+         Role model_Safety_and_Emergency_Handling_Function_Scenario_torole_a2bb refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_torole_a2bb;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(507,283;254,283),
+          polylineLocation="[0,24,63,24]$[-63,24,0,24];(0.0,0.1643835616438356);(1.0,0.1643835616438356)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_relationship_e42f;
+ 
+      Relationship model_Safety_and_Emergency_Handling_Function_Scenario_relationship_f567 refer metaRelationship_Sequence_Flow
+        Role model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_e552 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_e552;
+         Role model_Safety_and_Emergency_Handling_Function_Scenario_torole_4973 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_torole_4973;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(345,259;344,462),
+          polylineLocation="[28,0,0,-65]$[28,65,0,0];(0.27906976744186046,1.0);(0.5039370078740157,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_relationship_f567;
+ 
+      Relationship model_Safety_and_Emergency_Handling_Function_Scenario_relationship_511e refer metaRelationship_Sequence_Flow
+        Role model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_6429 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_6429;
+         Role model_Safety_and_Emergency_Handling_Function_Scenario_torole_4e43 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Safety_and_Emergency_Handling_Function_Scenario_torole_4e43;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(316,397;566,402),
+          polylineLocation="[0,0,-77,0]$[77,0,0,0];(1.0,0.5753424657534246);(0.0,0.4918032786885246)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Safety_and_Emergency_Handling_Function_Scenario_relationship_511e;
+ 
+    Connect(connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_7db1,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_dc40.model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_56be),connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_e645,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_dc40.model_Safety_and_Emergency_Handling_Function_Scenario_torole_6708));
+ 
+    Connect(connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_e645,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_51d5.model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_ae7e),connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_eab9,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_51d5.model_Safety_and_Emergency_Handling_Function_Scenario_torole_bc87));
+ 
+    Connect(connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_eab9,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_beef.model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_19d4),connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_53a5,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_beef.model_Safety_and_Emergency_Handling_Function_Scenario_torole_0e6e));
+ 
+    Connect(connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_53a5,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_32e5.model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_b8d3),connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_f6ab,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_32e5.model_Safety_and_Emergency_Handling_Function_Scenario_torole_db18));
+ 
+    Connect(connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_f6ab,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_ebe4.model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_4763),connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_e094,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_ebe4.model_Safety_and_Emergency_Handling_Function_Scenario_torole_a730));
+ 
+    Connect(connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_e094,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_e42f.model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_f80c),connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_11e8,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_e42f.model_Safety_and_Emergency_Handling_Function_Scenario_torole_a2bb));
+ 
+    Connect(connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_11e8,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_f567.model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_e552),connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_d733,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_f567.model_Safety_and_Emergency_Handling_Function_Scenario_torole_4973));
+ 
+    Connect(connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_d733,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_511e.model_Safety_and_Emergency_Handling_Function_Scenario_fromrole_6429),connector(model_Safety_and_Emergency_Handling_Function_Scenario_object_18d9,model_Safety_and_Emergency_Handling_Function_Scenario_relationship_511e.model_Safety_and_Emergency_Handling_Function_Scenario_torole_4e43));
+ 
+
+      annotation(
+        localLabel="安全性和紧急情况处理特征的功能场景",
+    );
+    
+   end model_Safety_and_Emergency_Handling_Function_Scenario;

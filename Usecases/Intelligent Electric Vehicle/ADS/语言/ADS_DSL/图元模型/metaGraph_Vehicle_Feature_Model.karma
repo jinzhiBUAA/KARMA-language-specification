@@ -1,0 +1,69 @@
+   partial Graph metaGraph_Vehicle_Feature_Model
+    Object metaObject_Feature;
+    Object metaObject_Vehicle_Feature;
+    Object metaObject_Analysis_Function_Prototype;
+    Object metaObject_Design_Function_Prototype;
+    Object metaObject_Hardware_Component_Prototype;
+    Object metaObject_EA_Type;
+    Object metaObject_Requiement;
+    Object metaObject_Quality_Requirement;
+    Object metaObject_User_Attributed_Element;
+    Object metaObject_Generic_Constraint;
+    Object metaObject_Comment;
+    Relationship metaRelationship_Feature_Composition;
+    Relationship metaRelationship_Feature_Link;
+    Relationship metaRelationship_Realization;
+    Relationship metaRelationship_Satisfy;
+    Relationship metaRelationship_Comment;
+    Constraint (
+    bind connector(metaObject_Vehicle_Feature,metaRelationship_Feature_Composition.metaRole_Feature_Composition_End),
+    bind connector(metaObject_Feature,metaRelationship_Feature_Composition.metaRole_Feature_Composition_End),
+    bind connector(metaObject_Vehicle_Feature,metaRelationship_Feature_Composition.metaRole_Feature_Composition_Start),
+    bind connector(metaObject_Feature,metaRelationship_Feature_Composition.metaRole_Feature_Composition_Start),
+    bind connector(metaObject_Vehicle_Feature,metaRelationship_Feature_Link.metaRole_Feature_Link_End),
+    bind connector(metaObject_Feature,metaRelationship_Feature_Link.metaRole_Feature_Link_End),
+    bind connector(metaObject_Vehicle_Feature,metaRelationship_Feature_Link.metaRole_Feature_Link_Start),
+    bind connector(metaObject_Feature,metaRelationship_Feature_Link.metaRole_Feature_Link_Start),
+    bind connector(metaObject_Vehicle_Feature,metaRelationship_Realization.metaRole_Realization_Start),
+    bind connector(metaObject_Feature,metaRelationship_Realization.metaRole_Realization_Start),
+    bind connector(metaObject_Vehicle_Feature,metaRelationship_Realization.metaRole_Realization_End),
+    bind connector(metaObject_EA_Type,metaRelationship_Realization.metaRole_Realization_End),
+    bind connector(metaObject_Design_Function_Prototype,metaRelationship_Realization.metaRole_Realization_End),
+    bind connector(metaObject_Hardware_Component_Prototype,metaRelationship_Realization.metaRole_Realization_End),
+    bind connector(metaObject_Analysis_Function_Prototype,metaRelationship_Realization.metaRole_Realization_End),
+    bind connector(metaObject_Feature,metaRelationship_Realization.metaRole_Realization_End),
+    bind connector(metaObject_Vehicle_Feature,metaRelationship_Satisfy.metaRole_Satisfy_Start),
+    bind connector(metaObject_Feature,metaRelationship_Satisfy.metaRole_Satisfy_Start),
+    bind connector(metaObject_Requiement,metaRelationship_Satisfy.metaRole_Satisfy_End),
+    bind connector(metaObject_Quality_Requirement,metaRelationship_Satisfy.metaRole_Satisfy_End),
+    bind connector(metaObject_Requiement,metaRelationship_Comment.metaRole_Comment_End),
+    bind connector(metaObject_Quality_Requirement,metaRelationship_Comment.metaRole_Comment_End),
+    bind connector(metaObject_User_Attributed_Element,metaRelationship_Comment.metaRole_Comment_End),
+    bind connector(metaObject_Comment,metaRelationship_Comment.metaRole_Comment_End),
+    bind connector(metaObject_Vehicle_Feature,metaRelationship_Comment.metaRole_Comment_End),
+    bind connector(metaObject_EA_Type,metaRelationship_Comment.metaRole_Comment_End),
+    bind connector(metaObject_Generic_Constraint,metaRelationship_Comment.metaRole_Comment_End),
+    bind connector(metaObject_Design_Function_Prototype,metaRelationship_Comment.metaRole_Comment_End),
+    bind connector(metaObject_Hardware_Component_Prototype,metaRelationship_Comment.metaRole_Comment_End),
+    bind connector(metaObject_Analysis_Function_Prototype,metaRelationship_Comment.metaRole_Comment_End),
+    bind connector(metaObject_Feature,metaRelationship_Comment.metaRole_Comment_End),
+    bind connector(metaObject_Requiement,metaRelationship_Comment.metaRole_Comment_Start),
+    bind connector(metaObject_Quality_Requirement,metaRelationship_Comment.metaRole_Comment_Start),
+    bind connector(metaObject_User_Attributed_Element,metaRelationship_Comment.metaRole_Comment_Start),
+    bind connector(metaObject_Comment,metaRelationship_Comment.metaRole_Comment_Start),
+    bind connector(metaObject_Vehicle_Feature,metaRelationship_Comment.metaRole_Comment_Start),
+    bind connector(metaObject_EA_Type,metaRelationship_Comment.metaRole_Comment_Start),
+    bind connector(metaObject_Generic_Constraint,metaRelationship_Comment.metaRole_Comment_Start),
+    bind connector(metaObject_Design_Function_Prototype,metaRelationship_Comment.metaRole_Comment_Start),
+    bind connector(metaObject_Hardware_Component_Prototype,metaRelationship_Comment.metaRole_Comment_Start),
+    bind connector(metaObject_Analysis_Function_Prototype,metaRelationship_Comment.metaRole_Comment_Start),
+    bind connector(metaObject_Feature,metaRelationship_Comment.metaRole_Comment_Start),
+    metaObject_Feature.explode(metaGraph_Vehicle_Feature_Model),
+    metaObject_Vehicle_Feature.explode(metaGraph_Vehicle_Feature_Model),
+    );
+    annotation(
+        localLabel="车辆特征模型",
+        type = diagram,
+        description="",
+       );
+        end metaGraph_Vehicle_Feature_Model;

@@ -1,0 +1,75 @@
+    partial Model model_Event_Data_Recording_System_Activity instanceof metaGraph_Activity_Diagram
+      Object model_Event_Data_Recording_System_Activity_object_79c5 refer metaObject_Call_Behavior_Action
+        Property model_Event_Data_Recording_System_Activity_object_79c5_property_602b = "紧急事件记录" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Event_Data_Recording_System_Activity_object_79c5_property_921f = "紧急事件记录" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(54,1876,151,75),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Event_Data_Recording_System_Activity_object_79c5;
+
+      Object model_Event_Data_Recording_System_Activity_object_fa70 refer metaObject_Activity_Final
+        annotation(
+          initialLocation=(102,1996,49,49),
+          localLabel="活动终端",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Event_Data_Recording_System_Activity_object_fa70;
+
+      Relationship model_Event_Data_Recording_System_Activity_relationship_81c0 refer metaRelationship_Control_Flow
+        Role model_Event_Data_Recording_System_Activity_fromrole_b98d refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Event_Data_Recording_System_Activity_fromrole_b98d;
+         Role model_Event_Data_Recording_System_Activity_torole_413d refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Event_Data_Recording_System_Activity_torole_413d;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(129,1913;126,2067),
+          polylineLocation="[0,0,0,-47]$[0,47,0,0];(0.4429530201342282,1.0);(0.3673469387755102,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Event_Data_Recording_System_Activity_relationship_81c0;
+ 
+    Connect(connector(model_Event_Data_Recording_System_Activity_object_79c5,model_Event_Data_Recording_System_Activity_relationship_81c0.model_Event_Data_Recording_System_Activity_fromrole_b98d),connector(model_Event_Data_Recording_System_Activity_object_fa70,model_Event_Data_Recording_System_Activity_relationship_81c0.model_Event_Data_Recording_System_Activity_torole_413d));
+ 
+
+      annotation(
+        localLabel="事件数据记录系统活动",
+    );
+   end model_Event_Data_Recording_System_Activity;

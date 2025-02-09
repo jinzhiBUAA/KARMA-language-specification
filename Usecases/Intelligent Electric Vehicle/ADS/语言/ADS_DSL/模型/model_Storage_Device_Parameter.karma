@@ -1,0 +1,57 @@
+    partial Model model_Storage_Device_Parameter instanceof metaGraph_Parameter_Diagram
+      Object model_Storage_Device_Parameter_object_530d refer metaObject_Moe
+        Property model_Storage_Device_Parameter_object_530d_property_e897 = "GB" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "数据存储容量",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(12,29,139,61),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Storage_Device_Parameter_object_530d;
+
+      Object model_Storage_Device_Parameter_object_46c2 refer metaObject_Moe
+        Property model_Storage_Device_Parameter_object_46c2_property_6df3 = "Gbps" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "数据传输速率",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(13,108,137,81),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Storage_Device_Parameter_object_46c2;
+
+      Object model_Storage_Device_Parameter_object_14fe refer metaObject_Moe
+        Property model_Storage_Device_Parameter_object_14fe_property_324d = "元" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(13,198,137,61),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Storage_Device_Parameter_object_14fe;
+
+
+      annotation(
+        localLabel="存储设备参数模型",
+    );
+   end model_Storage_Device_Parameter;

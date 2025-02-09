@@ -1,0 +1,505 @@
+    partial Model model_Perception_And_Sensor_Fusion_Function_Scenario instanceof metaGraph_Process_Diagram
+    
+      Object model_Perception_And_Sensor_Fusion_Function_Scenario_object_d080 refer metaObject_Start_Event
+        Property model_Perception_And_Sensor_Fusion_Function_Scenario_object_d080_property_7fed = "null" refer metaObject_Start_Event_metaProperty_Name_95f336 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_And_Sensor_Fusion_Function_Scenario_object_d080_property_da77 = "null" refer metaObject_Start_Event_metaProperty_Description_e61e1b annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(60,155,61,61),
+          localLabel="开始事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_object_d080;
+
+      Object model_Perception_And_Sensor_Fusion_Function_Scenario_object_1682 refer metaObject_End_Event
+        Property model_Perception_And_Sensor_Fusion_Function_Scenario_object_1682_property_f971 = "null" refer metaObject_End_Event_metaProperty_Name_684d02 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_And_Sensor_Fusion_Function_Scenario_object_1682_property_0813 = "null" refer metaObject_End_Event_metaProperty_Description_4e00c4 annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(618,426,61,61),
+          localLabel="结束事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_object_1682;
+
+      Object model_Perception_And_Sensor_Fusion_Function_Scenario_object_d1a7 refer metaObject_Task
+        Property model_Perception_And_Sensor_Fusion_Function_Scenario_object_d1a7_property_6eab = "传感器数据采集" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(216,144,123,85),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_object_d1a7;
+
+      Object model_Perception_And_Sensor_Fusion_Function_Scenario_object_002a refer metaObject_Task
+        Property model_Perception_And_Sensor_Fusion_Function_Scenario_object_002a_property_58d3 = "数据预处理" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(396,144,127,83),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_object_002a;
+
+      Object model_Perception_And_Sensor_Fusion_Function_Scenario_object_8481 refer metaObject_Task
+        Property model_Perception_And_Sensor_Fusion_Function_Scenario_object_8481_property_70e4 = "障碍物检测与识别" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(576,144,115,81),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_object_8481;
+
+      Object model_Perception_And_Sensor_Fusion_Function_Scenario_object_25c3 refer metaObject_Task
+        Property model_Perception_And_Sensor_Fusion_Function_Scenario_object_25c3_property_9cea = "数据融合" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(133,288,121,71),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_object_25c3;
+
+      Object model_Perception_And_Sensor_Fusion_Function_Scenario_object_0663 refer metaObject_Task
+        Property model_Perception_And_Sensor_Fusion_Function_Scenario_object_0663_property_c1e6 = "高精度定位" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(324,288,141,71),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_object_0663;
+
+      Object model_Perception_And_Sensor_Fusion_Function_Scenario_object_0532 refer metaObject_Task
+        Property model_Perception_And_Sensor_Fusion_Function_Scenario_object_0532_property_e5b7 = "道路感知与标志检测" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(529,287,153,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_object_0532;
+
+      Object model_Perception_And_Sensor_Fusion_Function_Scenario_object_ea9b refer metaObject_Task
+        Property model_Perception_And_Sensor_Fusion_Function_Scenario_object_ea9b_property_60d4 = "环境地图生成" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(82,426,171,69),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_object_ea9b;
+
+      Object model_Perception_And_Sensor_Fusion_Function_Scenario_object_6773 refer metaObject_Task
+        Property model_Perception_And_Sensor_Fusion_Function_Scenario_object_6773_property_a599 = "更新和传输数据" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(330,426,175,69),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_object_6773;
+
+      Relationship model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_5eb7 refer metaRelationship_Sequence_Flow
+        Role model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_6ac2 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_6ac2;
+         Role model_Perception_And_Sensor_Fusion_Function_Scenario_torole_da06 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_torole_da06;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(90,185;372,186),
+          polylineLocation="[0,0,-95,11]$[95,0,0,11];(1.0,0.39344262295081966);(0.0,0.2891566265060241)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_5eb7;
+ 
+      Relationship model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_e93d refer metaRelationship_Sequence_Flow
+        Role model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_918b refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_918b;
+         Role model_Perception_And_Sensor_Fusion_Function_Scenario_torole_2e36 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_torole_2e36;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(277,207;518,206),
+          polylineLocation="[0,21,-59,21]$[59,21,0,21];(1.0,0.21686746987951808);(0.0,0.2222222222222222)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_e93d;
+ 
+      Relationship model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_d345 refer metaRelationship_Sequence_Flow
+        Role model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_fd97 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_fd97;
+         Role model_Perception_And_Sensor_Fusion_Function_Scenario_torole_d2fa refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_torole_d2fa;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(459,206;688,205),
+          polylineLocation="[0,21,-55,15]$[55,21,0,15];(1.0,0.2222222222222222);(0.0,0.3037974683544304)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_d345;
+ 
+      Relationship model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_7007 refer metaRelationship_Sequence_Flow
+        Role model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_d87c refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_d87c;
+         Role model_Perception_And_Sensor_Fusion_Function_Scenario_torole_8dd6 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_torole_8dd6;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(635,184;607,387),
+          polylineLocation="[2,0,-4,-64]$[2,64,-4,0];(0.4778761061946903,1.0);(0.7086092715231788,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_7007;
+ 
+      Relationship model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_4e3d refer metaRelationship_Sequence_Flow
+        Role model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_8c31 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_8c31;
+         Role model_Perception_And_Sensor_Fusion_Function_Scenario_torole_9c51 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_torole_9c51;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(605,335;328,335),
+          polylineLocation="[0,12,66,0]$[-66,12,0,0];(0.0,0.18309859154929578);(1.0,0.34782608695652173)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_4e3d;
+ 
+      Relationship model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_2563 refer metaRelationship_Sequence_Flow
+        Role model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_f22f refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_f22f;
+         Role model_Perception_And_Sensor_Fusion_Function_Scenario_torole_e4cf refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_torole_e4cf;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(394,347;121,347),
+          polylineLocation="[0,24,72,12]$[-72,24,0,12];(0.0,0.08695652173913043);(1.0,0.2608695652173913)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_2563;
+ 
+      Relationship model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_9d7e refer metaRelationship_Sequence_Flow
+        Role model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_39b3 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_39b3;
+         Role model_Perception_And_Sensor_Fusion_Function_Scenario_torole_bf61 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_torole_bf61;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(193,323;167,529),
+          polylineLocation="[0,0,-13,-69]$[0,69,-13,0];(0.3949579831932773,1.0);(0.6568047337278107,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_9d7e;
+ 
+      Relationship model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_60e3 refer metaRelationship_Sequence_Flow
+        Role model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_fa20 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_fa20;
+         Role model_Perception_And_Sensor_Fusion_Function_Scenario_torole_6f4f refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_torole_6f4f;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(167,460;496,460),
+          polylineLocation="[0,0,-79,0]$[79,0,0,0];(1.0,0.4626865671641791);(0.0,0.4626865671641791)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_60e3;
+ 
+      Relationship model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_1a1c refer metaRelationship_Sequence_Flow
+        Role model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_4cd3 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_4cd3;
+         Role model_Perception_And_Sensor_Fusion_Function_Scenario_torole_6868 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Perception_And_Sensor_Fusion_Function_Scenario_torole_6868;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(417,460;763,456),
+          polylineLocation="[0,0,-115,0]$[115,0,0,0];(1.0,0.44776119402985076);(0.0,0.4918032786885246)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_1a1c;
+ 
+    Connect(connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_d080,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_5eb7.model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_6ac2),connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_d1a7,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_5eb7.model_Perception_And_Sensor_Fusion_Function_Scenario_torole_da06));
+ 
+    Connect(connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_d1a7,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_e93d.model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_918b),connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_002a,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_e93d.model_Perception_And_Sensor_Fusion_Function_Scenario_torole_2e36));
+ 
+    Connect(connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_002a,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_d345.model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_fd97),connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_8481,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_d345.model_Perception_And_Sensor_Fusion_Function_Scenario_torole_d2fa));
+ 
+    Connect(connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_8481,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_7007.model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_d87c),connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_0532,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_7007.model_Perception_And_Sensor_Fusion_Function_Scenario_torole_8dd6));
+ 
+    Connect(connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_0532,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_4e3d.model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_8c31),connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_0663,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_4e3d.model_Perception_And_Sensor_Fusion_Function_Scenario_torole_9c51));
+ 
+    Connect(connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_0663,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_2563.model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_f22f),connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_25c3,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_2563.model_Perception_And_Sensor_Fusion_Function_Scenario_torole_e4cf));
+ 
+    Connect(connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_25c3,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_9d7e.model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_39b3),connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_ea9b,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_9d7e.model_Perception_And_Sensor_Fusion_Function_Scenario_torole_bf61));
+ 
+    Connect(connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_ea9b,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_60e3.model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_fa20),connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_6773,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_60e3.model_Perception_And_Sensor_Fusion_Function_Scenario_torole_6f4f));
+ 
+    Connect(connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_6773,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_1a1c.model_Perception_And_Sensor_Fusion_Function_Scenario_fromrole_4cd3),connector(model_Perception_And_Sensor_Fusion_Function_Scenario_object_1682,model_Perception_And_Sensor_Fusion_Function_Scenario_relationship_1a1c.model_Perception_And_Sensor_Fusion_Function_Scenario_torole_6868));
+ 
+
+      annotation(
+        localLabel="感知与感知融合特征的功能场景模型",
+    );
+    
+   end model_Perception_And_Sensor_Fusion_Function_Scenario;

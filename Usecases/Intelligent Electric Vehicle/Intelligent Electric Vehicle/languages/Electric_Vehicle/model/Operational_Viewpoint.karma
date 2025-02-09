@@ -1,0 +1,416 @@
+    partial Model Operational_Viewpoint instanceof Viewpoint_Model
+    
+      Object Operational_Viewpoint_object_State_Event_b6f1 refer State_Event
+      
+        annotation(
+          initialLocation=(10,15,96,86),
+          localLabel="开始运行分析",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Operational_Viewpoint_object_State_Event_b6f1;
+
+      Object Operational_Viewpoint_object_End_Event_bb4e refer End_Event
+      
+        annotation(
+          initialLocation=(950,410,96,86),
+          localLabel="结束运行分析",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Operational_Viewpoint_object_End_Event_bb4e;
+
+      Object Operational_Viewpoint_object_View_cd28 refer View
+      
+        annotation(
+          initialLocation=(160,90,131,61),
+          localLabel="运行分析",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_Viewpoint_object_View_cd28;
+
+      Object Operational_Viewpoint_object_View_2d43 refer View
+      
+        annotation(
+          initialLocation=(405,205,131,61),
+          localLabel="运行概念",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_Viewpoint_object_View_2d43;
+
+      Object Operational_Viewpoint_object_View_ad9f refer View
+      
+        annotation(
+          initialLocation=(720,305,131,61),
+          localLabel="相关方需求",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_Viewpoint_object_View_ad9f;
+
+      Object Operational_Viewpoint_object_View_1124 refer View
+      
+        annotation(
+          initialLocation=(925,305,131,61),
+          localLabel="运行任务实现",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_Viewpoint_object_View_1124;
+
+      Object Operational_Viewpoint_object_View_f2ea refer View
+      
+        annotation(
+          initialLocation=(635,205,131,61),
+          localLabel="运行阶段分析",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_Viewpoint_object_View_f2ea;
+
+      Object Operational_Viewpoint_object_View_0be7 refer View
+      
+        annotation(
+          initialLocation=(405,90,131,61),
+          localLabel="目标系统生命周期",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_Viewpoint_object_View_0be7;
+
+      Relationship relationship_Controlflow_f583 refer relationship_Controlflow
+        Role role_ControlflowFrom_f214 refer role_ControlflowFrom
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end role_ControlflowFrom_f214;
+         Role role_ControlflowTo_a260 refer role_ControlflowTo
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end role_ControlflowTo_a260;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(106,45;375,165),
+          polylineLocation="[48,-13,-119,-75]$[167,-13,0,-75]$[167,32,0,-30]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Controlflow_f583;
+ 
+      Relationship relationship_Controlflow_93c6 refer relationship_Controlflow
+        Role role_ControlflowFrom_aab2 refer role_ControlflowFrom
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end role_ControlflowFrom_aab2;
+         Role role_ControlflowTo_2355 refer role_ControlflowTo
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end role_ControlflowTo_2355;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(225,120;584,120),
+          polylineLocation="[0,0,-114,0]$[114,0,0,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Controlflow_93c6;
+ 
+      Relationship relationship_Controlflow_4954 refer relationship_Controlflow
+        Role role_ControlflowFrom_a432 refer role_ControlflowFrom
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end role_ControlflowFrom_a432;
+         Role role_ControlflowTo_742f refer role_ControlflowTo
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end role_ControlflowTo_742f;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(475,151;475,320),
+          polylineLocation="[5,31,5,-84]$[5,85,5,-30]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Controlflow_4954;
+ 
+      Relationship relationship_Controlflow_4f1b refer relationship_Controlflow
+        Role role_ControlflowFrom_4e35 refer role_ControlflowFrom
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end role_ControlflowFrom_4e35;
+         Role role_ControlflowTo_7209 refer role_ControlflowTo
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end role_ControlflowTo_7209;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(536,230;865,230),
+          polylineLocation="[66,-5,-164,-5]$[165,-5,-65,-5]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Controlflow_4f1b;
+ 
+      Relationship relationship_Controlflow_d22f refer relationship_Controlflow
+        Role role_ControlflowFrom_f99c refer role_ControlflowFrom
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end role_ControlflowFrom_f99c;
+         Role role_ControlflowTo_1e0e refer role_ControlflowTo
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end role_ControlflowTo_1e0e;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(807,366;1180,555),
+          polylineLocation="[22,31,-191,-87]$[22,115,-191,-3]$[165,115,-48,-3]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Controlflow_d22f;
+ 
+      Relationship relationship_Controlflow_d247 refer relationship_Controlflow
+        Role role_ControlflowFrom_953e refer role_ControlflowFrom
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end role_ControlflowFrom_953e;
+         Role role_ControlflowTo_bdff refer role_ControlflowTo
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end role_ControlflowTo_bdff;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(766,225;1295,405),
+          polylineLocation="[66,-10,-224,-110]$[305,-10,15,-110]$[305,70,15,-30]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Controlflow_d247;
+ 
+      Relationship relationship_Controlflow_d4dc refer relationship_Controlflow
+        Role role_ControlflowFrom_9d36 refer role_ControlflowFrom
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end role_ControlflowFrom_9d36;
+         Role role_ControlflowTo_064c refer role_ControlflowTo
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end role_ControlflowTo_064c;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(766,250;900,405),
+          polylineLocation="[66,15,-19,-85]$[115,15,30,-85]$[115,70,30,-30]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Controlflow_d4dc;
+ 
+      Relationship relationship_Controlflow_248e refer relationship_Controlflow
+        Role role_ControlflowFrom_97d9 refer role_ControlflowFrom
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end role_ControlflowFrom_97d9;
+         Role role_ControlflowTo_5428 refer role_ControlflowTo
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end role_ControlflowTo_5428;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(1000,366;1025,515),
+          polylineLocation="[10,31,2,-87]$[10,75,2,-43]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Controlflow_248e;
+ 
+    Connect(connector(Operational_Viewpoint_object_State_Event_b6f1,relationship_Controlflow_f583.role_ControlflowFrom_f214),connector(Operational_Viewpoint_object_View_cd28,relationship_Controlflow_f583.role_ControlflowTo_a260));
+ 
+    Connect(connector(Operational_Viewpoint_object_View_cd28,relationship_Controlflow_93c6.role_ControlflowFrom_aab2),connector(Operational_Viewpoint_object_View_0be7,relationship_Controlflow_93c6.role_ControlflowTo_2355));
+ 
+    Connect(connector(Operational_Viewpoint_object_View_0be7,relationship_Controlflow_4954.role_ControlflowFrom_a432),connector(Operational_Viewpoint_object_View_2d43,relationship_Controlflow_4954.role_ControlflowTo_742f));
+ 
+    Connect(connector(Operational_Viewpoint_object_View_2d43,relationship_Controlflow_4f1b.role_ControlflowFrom_4e35),connector(Operational_Viewpoint_object_View_f2ea,relationship_Controlflow_4f1b.role_ControlflowTo_7209));
+ 
+    Connect(connector(Operational_Viewpoint_object_View_ad9f,relationship_Controlflow_d22f.role_ControlflowFrom_f99c),connector(Operational_Viewpoint_object_End_Event_bb4e,relationship_Controlflow_d22f.role_ControlflowTo_1e0e));
+ 
+    Connect(connector(Operational_Viewpoint_object_View_f2ea,relationship_Controlflow_d247.role_ControlflowFrom_953e),connector(Operational_Viewpoint_object_View_1124,relationship_Controlflow_d247.role_ControlflowTo_bdff));
+ 
+    Connect(connector(Operational_Viewpoint_object_View_f2ea,relationship_Controlflow_d4dc.role_ControlflowFrom_9d36),connector(Operational_Viewpoint_object_View_ad9f,relationship_Controlflow_d4dc.role_ControlflowTo_064c));
+ 
+    Connect(connector(Operational_Viewpoint_object_View_1124,relationship_Controlflow_248e.role_ControlflowFrom_97d9),connector(Operational_Viewpoint_object_End_Event_bb4e,relationship_Controlflow_248e.role_ControlflowTo_5428));
+ 
+
+      annotation(
+        localLabel="运行视点",
+    );
+    
+   end Operational_Viewpoint;

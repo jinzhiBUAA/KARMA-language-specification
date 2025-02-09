@@ -1,0 +1,443 @@
+    partial Model model_Vehicle_Feature_Model instanceof Vehicle_Feature_Diagram
+    
+      Object Vehicle_Feature_Model_object_Vehicle_Feature_7f05 refer Vehicle_Feature
+        Property Vehicle_Feature_Name_db42ba_f2a5 = "智能电动汽车" refer Vehicle_Feature_Name_db42ba annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(505,20,153,78),
+          localLabel="车辆特征",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Vehicle_Feature_Model_object_Vehicle_Feature_7f05;
+
+      Object Vehicle_Feature_Model_object_Vehicle_Feature_7f27 refer Vehicle_Feature
+        Property Vehicle_Feature_Name_db42ba_1869 = "V2X" refer Vehicle_Feature_Name_db42ba annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1205,285,132,73),
+          localLabel="车辆特征",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Vehicle_Feature_Model_object_Vehicle_Feature_7f27;
+
+      Object Vehicle_Feature_Model_object_Vehicle_Feature_cfcd refer Vehicle_Feature
+        Property Vehicle_Feature_Name_db42ba_c331 = "自动驾驶" refer Vehicle_Feature_Name_db42ba annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(585,285,132,73),
+          localLabel="车辆特征",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Vehicle_Feature_Model_object_Vehicle_Feature_cfcd;
+
+      Object Vehicle_Feature_Model_object_Vehicle_Feature_eec9 refer Vehicle_Feature
+        Property Vehicle_Feature_Name_db42ba_a77d = "垂直控制" refer Vehicle_Feature_Name_db42ba annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(160,125,132,73),
+          localLabel="车辆特征",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Vehicle_Feature_Model_object_Vehicle_Feature_eec9;
+
+      Object Vehicle_Feature_Model_object_Vehicle_Feature_4af5 refer Vehicle_Feature
+        Property Vehicle_Feature_Name_db42ba_13d0 = "纵向控制" refer Vehicle_Feature_Name_db42ba annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+    this.decompose(Longitudinal_Control_Feature_Model);
+      
+        annotation(
+          initialLocation=(790,285,132,73),
+          localLabel="车辆特征",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Vehicle_Feature_Model_object_Vehicle_Feature_4af5;
+
+      Object Vehicle_Feature_Model_object_Vehicle_Feature_41e1 refer Vehicle_Feature
+        Property Vehicle_Feature_Name_db42ba_b433 = "动力控制" refer Vehicle_Feature_Name_db42ba annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(170,295,132,73),
+          localLabel="车辆特征",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Vehicle_Feature_Model_object_Vehicle_Feature_41e1;
+
+      Object Vehicle_Feature_Model_object_Vehicle_Feature_f03f refer Vehicle_Feature
+        Property Vehicle_Feature_Name_db42ba_3a57 = "横向控制" refer Vehicle_Feature_Name_db42ba annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1210,160,132,73),
+          localLabel="车辆特征",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Vehicle_Feature_Model_object_Vehicle_Feature_f03f;
+
+      Object Vehicle_Feature_Model_object_Vehicle_Feature_aed9 refer Vehicle_Feature
+        Property Vehicle_Feature_Name_db42ba_856f = "预测" refer Vehicle_Feature_Name_db42ba annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(950,285,132,73),
+          localLabel="车辆特征",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Vehicle_Feature_Model_object_Vehicle_Feature_aed9;
+
+      Object Vehicle_Feature_Model_object_Vehicle_Feature_712d refer Vehicle_Feature
+        Property Vehicle_Feature_Name_db42ba_886f = "感知" refer Vehicle_Feature_Name_db42ba annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(385,285,132,73),
+          localLabel="车辆特征",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Vehicle_Feature_Model_object_Vehicle_Feature_712d;
+
+      Relationship Feature_Composition_bd3b refer Feature_Composition
+        Role Feature_Composition_Incoming_034d refer Feature_Composition_Incoming
+          annotation(
+            localLabel="特征组合始端",
+            shape="no"
+          );
+        end Feature_Composition_Incoming_034d;
+         Role Feature_Composition_Outgoing_a89c refer Feature_Composition_Outgoing
+          annotation(
+            localLabel="特征组合终端",
+            shape="dottedDiamond"
+          );
+        end Feature_Composition_Outgoing_a89c;
+       
+        annotation(
+          localLabel="特征组合",
+          shape="solidLine",
+          endLocation=(242,126;851,-69),
+          polylineLocation="[16,-35,-339,67]$[16,-125,-339,-23]$[280,-125,-75,-23]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Composition_bd3b;
+ 
+      Relationship Feature_Composition_a1bf refer Feature_Composition
+        Role Feature_Composition_Incoming_1cd0 refer Feature_Composition_Incoming
+          annotation(
+            localLabel="特征组合始端",
+            shape="no"
+          );
+        end Feature_Composition_Incoming_1cd0;
+         Role Feature_Composition_Outgoing_c127 refer Feature_Composition_Outgoing
+          annotation(
+            localLabel="特征组合终端",
+            shape="dottedDiamond"
+          );
+        end Feature_Composition_Outgoing_c127;
+       
+        annotation(
+          localLabel="特征组合",
+          shape="solidLine",
+          endLocation=(301,332;841,-217),
+          polylineLocation="[65,1,-280,273]$[114,1,-231,273]$[114,-273,-231,-1]$[270,-273,-75,-1]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Composition_a1bf;
+ 
+      Relationship Feature_Composition_5fd0 refer Feature_Composition
+        Role Feature_Composition_Incoming_6cc8 refer Feature_Composition_Incoming
+          annotation(
+            localLabel="特征组合始端",
+            shape="no"
+          );
+        end Feature_Composition_Incoming_6cc8;
+         Role Feature_Composition_Outgoing_8a17 refer Feature_Composition_Outgoing
+          annotation(
+            localLabel="特征组合终端",
+            shape="dottedDiamond"
+          );
+        end Feature_Composition_Outgoing_8a17;
+       
+        annotation(
+          localLabel="特征组合",
+          shape="solidLine",
+          endLocation=(421,286;661,-168),
+          polylineLocation="[-30,-35,-160,227]$[-30,-129,-160,133]$[90,-129,-40,133]$[90,-224,-40,38]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Composition_5fd0;
+ 
+      Relationship Feature_Composition_80ea refer Feature_Composition
+        Role Feature_Composition_Incoming_d119 refer Feature_Composition_Incoming
+          annotation(
+            localLabel="特征组合始端",
+            shape="no"
+          );
+        end Feature_Composition_Incoming_d119;
+         Role Feature_Composition_Outgoing_f34c refer Feature_Composition_Outgoing
+          annotation(
+            localLabel="特征组合终端",
+            shape="dottedDiamond"
+          );
+        end Feature_Composition_Outgoing_f34c;
+       
+        annotation(
+          localLabel="特征组合",
+          shape="solidLine",
+          endLocation=(611,286;511,-168),
+          polylineLocation="[-40,-35,30,227]$[-40,-180,30,82]$[-60,-180,10,82]$[-60,-224,10,38]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Composition_80ea;
+ 
+      Relationship Feature_Composition_1f82 refer Feature_Composition
+        Role Feature_Composition_Incoming_413d refer Feature_Composition_Incoming
+          annotation(
+            localLabel="特征组合始端",
+            shape="no"
+          );
+        end Feature_Composition_Incoming_413d;
+         Role Feature_Composition_Outgoing_8313 refer Feature_Composition_Outgoing
+          annotation(
+            localLabel="特征组合终端",
+            shape="dottedDiamond"
+          );
+        end Feature_Composition_Outgoing_8313;
+       
+        annotation(
+          localLabel="特征组合",
+          shape="solidLine",
+          endLocation=(839,286;346,-168),
+          polylineLocation="[-17,-35,258,227]$[-17,-205,258,57]$[-225,-205,50,57]$[-225,-224,50,38]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Composition_1f82;
+ 
+      Relationship Feature_Composition_dcb6 refer Feature_Composition
+        Role Feature_Composition_Incoming_c063 refer Feature_Composition_Incoming
+          annotation(
+            localLabel="特征组合始端",
+            shape="no"
+          );
+        end Feature_Composition_Incoming_c063;
+         Role Feature_Composition_Outgoing_153f refer Feature_Composition_Outgoing
+          annotation(
+            localLabel="特征组合终端",
+            shape="dottedDiamond"
+          );
+        end Feature_Composition_Outgoing_153f;
+       
+        annotation(
+          localLabel="特征组合",
+          shape="solidLine",
+          endLocation=(1015,286;212,-184),
+          polylineLocation="[-1,-35,434,227]$[-1,-240,434,22]$[-359,-240,76,22]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Composition_dcb6;
+ 
+      Relationship Feature_Composition_fbc7 refer Feature_Composition
+        Role Feature_Composition_Incoming_d2b2 refer Feature_Composition_Incoming
+          annotation(
+            localLabel="特征组合始端",
+            shape="no"
+          );
+        end Feature_Composition_Incoming_d2b2;
+         Role Feature_Composition_Outgoing_2937 refer Feature_Composition_Outgoing
+          annotation(
+            localLabel="特征组合终端",
+            shape="dottedDiamond"
+          );
+        end Feature_Composition_Outgoing_2937;
+       
+        annotation(
+          localLabel="特征组合",
+          shape="solidLine",
+          endLocation=(1206,322;-43,-207),
+          polylineLocation="[-65,1,625,263]$[-105,1,585,263]$[-105,-263,585,-1]$[-614,-263,76,-1]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Composition_fbc7;
+ 
+      Relationship Feature_Composition_8aaa refer Feature_Composition
+        Role Feature_Composition_Incoming_c466 refer Feature_Composition_Incoming
+          annotation(
+            localLabel="特征组合始端",
+            shape="no"
+          );
+        end Feature_Composition_Incoming_c466;
+         Role Feature_Composition_Outgoing_d9bc refer Feature_Composition_Outgoing
+          annotation(
+            localLabel="特征组合终端",
+            shape="dottedDiamond"
+          );
+        end Feature_Composition_Outgoing_d9bc;
+       
+        annotation(
+          localLabel="特征组合",
+          shape="solidLine",
+          endLocation=(1277,161;-48,-109),
+          polylineLocation="[1,-35,696,102]$[1,-165,696,-28]$[-619,-165,76,-28]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Composition_8aaa;
+ 
+    Connect(connector(Vehicle_Feature_Model_object_Vehicle_Feature_eec9,Feature_Composition_bd3b.Feature_Composition_Incoming_034d),connector(Vehicle_Feature_Model_object_Vehicle_Feature_7f05,Feature_Composition_bd3b.Feature_Composition_Outgoing_a89c));
+ 
+    Connect(connector(Vehicle_Feature_Model_object_Vehicle_Feature_41e1,Feature_Composition_a1bf.Feature_Composition_Incoming_1cd0),connector(Vehicle_Feature_Model_object_Vehicle_Feature_7f05,Feature_Composition_a1bf.Feature_Composition_Outgoing_c127));
+ 
+    Connect(connector(Vehicle_Feature_Model_object_Vehicle_Feature_712d,Feature_Composition_5fd0.Feature_Composition_Incoming_6cc8),connector(Vehicle_Feature_Model_object_Vehicle_Feature_7f05,Feature_Composition_5fd0.Feature_Composition_Outgoing_8a17));
+ 
+    Connect(connector(Vehicle_Feature_Model_object_Vehicle_Feature_cfcd,Feature_Composition_80ea.Feature_Composition_Incoming_d119),connector(Vehicle_Feature_Model_object_Vehicle_Feature_7f05,Feature_Composition_80ea.Feature_Composition_Outgoing_f34c));
+ 
+    Connect(connector(Vehicle_Feature_Model_object_Vehicle_Feature_4af5,Feature_Composition_1f82.Feature_Composition_Incoming_413d),connector(Vehicle_Feature_Model_object_Vehicle_Feature_7f05,Feature_Composition_1f82.Feature_Composition_Outgoing_8313));
+ 
+    Connect(connector(Vehicle_Feature_Model_object_Vehicle_Feature_aed9,Feature_Composition_dcb6.Feature_Composition_Incoming_c063),connector(Vehicle_Feature_Model_object_Vehicle_Feature_7f05,Feature_Composition_dcb6.Feature_Composition_Outgoing_153f));
+ 
+    Connect(connector(Vehicle_Feature_Model_object_Vehicle_Feature_7f27,Feature_Composition_fbc7.Feature_Composition_Incoming_d2b2),connector(Vehicle_Feature_Model_object_Vehicle_Feature_7f05,Feature_Composition_fbc7.Feature_Composition_Outgoing_2937));
+ 
+    Connect(connector(Vehicle_Feature_Model_object_Vehicle_Feature_f03f,Feature_Composition_8aaa.Feature_Composition_Incoming_c466),connector(Vehicle_Feature_Model_object_Vehicle_Feature_7f05,Feature_Composition_8aaa.Feature_Composition_Outgoing_d9bc));
+ 
+
+      annotation(
+        localLabel="智能电动汽车特征模型",
+    );
+    
+   end model_Vehicle_Feature_Model;

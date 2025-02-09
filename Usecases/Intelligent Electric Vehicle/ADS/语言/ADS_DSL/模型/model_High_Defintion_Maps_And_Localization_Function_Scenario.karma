@@ -1,0 +1,452 @@
+    partial Model model_High_Defintion_Maps_And_Localization_Function_Scenario instanceof metaGraph_Process_Diagram
+    
+      Object model_High_Defintion_Maps_And_Localization_Function_Scenario_object_8be7 refer metaObject_Start_Event
+        Property model_High_Defintion_Maps_And_Localization_Function_Scenario_object_8be7_property_1de7 = "null" refer metaObject_Start_Event_metaProperty_Name_95f336 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_High_Defintion_Maps_And_Localization_Function_Scenario_object_8be7_property_4ad2 = "null" refer metaObject_Start_Event_metaProperty_Description_e61e1b annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(90,215,61,55),
+          localLabel="开始事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_object_8be7;
+
+      Object model_High_Defintion_Maps_And_Localization_Function_Scenario_object_deed refer metaObject_Task
+        Property model_High_Defintion_Maps_And_Localization_Function_Scenario_object_deed_property_8b75 = "高精度地图数据获取" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(234,204,115,79),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_object_deed;
+
+      Object model_High_Defintion_Maps_And_Localization_Function_Scenario_object_0b72 refer metaObject_Task
+        Property model_High_Defintion_Maps_And_Localization_Function_Scenario_object_0b72_property_1768 = "实时地图更新" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(432,204,127,77),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_object_0b72;
+
+      Object model_High_Defintion_Maps_And_Localization_Function_Scenario_object_3976 refer metaObject_Task
+        Property model_High_Defintion_Maps_And_Localization_Function_Scenario_object_3976_property_d0a4 = "地图匹配" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(642,204,121,75),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_object_3976;
+
+      Object model_High_Defintion_Maps_And_Localization_Function_Scenario_object_2489 refer metaObject_Task
+        Property model_High_Defintion_Maps_And_Localization_Function_Scenario_object_2489_property_1496 = "决策和路径规划支持" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(234,348,113,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_object_2489;
+
+      Object model_High_Defintion_Maps_And_Localization_Function_Scenario_object_4aff refer metaObject_Task
+        Property model_High_Defintion_Maps_And_Localization_Function_Scenario_object_4aff_property_56c3 = "地图数据更新传输" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(432,342,125,77),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_object_4aff;
+
+      Object model_High_Defintion_Maps_And_Localization_Function_Scenario_object_913e refer metaObject_Task
+        Property model_High_Defintion_Maps_And_Localization_Function_Scenario_object_913e_property_3998 = "车辆自我定位" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(642,342,119,77),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_object_913e;
+
+      Object model_High_Defintion_Maps_And_Localization_Function_Scenario_object_18c4 refer metaObject_Task
+        Property model_High_Defintion_Maps_And_Localization_Function_Scenario_object_18c4_property_2305 = "自车在地图上的更新" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(234,480,111,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_object_18c4;
+
+      Object model_High_Defintion_Maps_And_Localization_Function_Scenario_object_821f refer metaObject_End_Event
+        Property model_High_Defintion_Maps_And_Localization_Function_Scenario_object_821f_property_a89e = "null" refer metaObject_End_Event_metaProperty_Name_684d02 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_High_Defintion_Maps_And_Localization_Function_Scenario_object_821f_property_510d = "null" refer metaObject_End_Event_metaProperty_Description_4e00c4 annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(432,490,61,61),
+          localLabel="结束事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_object_821f;
+
+      Relationship model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_a4f5 refer metaRelationship_Sequence_Flow
+        Role model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_5861 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_5861;
+         Role model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_7530 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_7530;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(120,242;374,243),
+          polylineLocation="[0,0,-83,0]$[83,0,0,0];(1.0,0.34545454545454546);(0.0,0.38961038961038963)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_a4f5;
+ 
+      Relationship model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_f74a refer metaRelationship_Sequence_Flow
+        Role model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_860d refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_860d;
+         Role model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_e576 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_e576;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(291,261;580,260),
+          polylineLocation="[0,18,-85,18]$[85,18,0,18];(1.0,0.23376623376623376);(0.0,0.24)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_f74a;
+ 
+      Relationship model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_d06b refer metaRelationship_Sequence_Flow
+        Role model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_be20 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_be20;
+         Role model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_d276 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_d276;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(495,266;787,265),
+          polylineLocation="[0,24,-85,24]$[85,24,0,24];(1.0,0.24);(0.0,0.2465753424657534)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_d06b;
+ 
+      Relationship model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_19a1 refer metaRelationship_Sequence_Flow
+        Role model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_292b refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_292b;
+         Role model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_9fd5 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_9fd5;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(702,241;701,445),
+          polylineLocation="[0,0,0,-65]$[0,65,0,0];(0.48739495798319327,1.0);(0.49572649572649574,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_19a1;
+ 
+      Relationship model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_64da refer metaRelationship_Sequence_Flow
+        Role model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_b3fb refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_b3fb;
+         Role model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_8040 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_8040;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(701,405;407,405),
+          polylineLocation="[0,25,87,25]$[-87,25,0,25];(0.0,0.16);(1.0,0.16)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_64da;
+ 
+      Relationship model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_02ca refer metaRelationship_Sequence_Flow
+        Role model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_1a6f refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_1a6f;
+         Role model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_50bc refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_50bc;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(494,391;203,395),
+          polylineLocation="[0,11,87,17]$[-87,11,0,17];(0.0,0.4);(1.0,0.2535211267605634)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_02ca;
+ 
+      Relationship model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_5215 refer metaRelationship_Sequence_Flow
+        Role model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_aa65 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_aa65;
+         Role model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_fc53 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_fc53;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(290,384;289,577),
+          polylineLocation="[0,0,0,-61]$[0,61,0,0];(0.5135135135135135,1.0);(0.5229357798165137,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_5215;
+ 
+      Relationship model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_6e43 refer metaRelationship_Sequence_Flow
+        Role model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_fb57 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_fb57;
+         Role model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_b3d2 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_b3d2;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(289,516;551,520),
+          polylineLocation="[0,0,-89,0]$[89,0,0,0];(1.0,0.4507042253521127);(0.0,0.36065573770491804)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_6e43;
+ 
+    Connect(connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_8be7,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_a4f5.model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_5861),connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_deed,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_a4f5.model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_7530));
+ 
+    Connect(connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_deed,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_f74a.model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_860d),connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_0b72,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_f74a.model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_e576));
+ 
+    Connect(connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_0b72,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_d06b.model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_be20),connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_3976,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_d06b.model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_d276));
+ 
+    Connect(connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_3976,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_19a1.model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_292b),connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_913e,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_19a1.model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_9fd5));
+ 
+    Connect(connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_913e,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_64da.model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_b3fb),connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_4aff,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_64da.model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_8040));
+ 
+    Connect(connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_4aff,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_02ca.model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_1a6f),connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_2489,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_02ca.model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_50bc));
+ 
+    Connect(connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_2489,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_5215.model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_aa65),connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_18c4,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_5215.model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_fc53));
+ 
+    Connect(connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_18c4,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_6e43.model_High_Defintion_Maps_And_Localization_Function_Scenario_fromrole_fb57),connector(model_High_Defintion_Maps_And_Localization_Function_Scenario_object_821f,model_High_Defintion_Maps_And_Localization_Function_Scenario_relationship_6e43.model_High_Defintion_Maps_And_Localization_Function_Scenario_torole_b3d2));
+ 
+
+      annotation(
+        localLabel="高清地图和定位特征的功能场景",
+    );
+    
+   end model_High_Defintion_Maps_And_Localization_Function_Scenario;

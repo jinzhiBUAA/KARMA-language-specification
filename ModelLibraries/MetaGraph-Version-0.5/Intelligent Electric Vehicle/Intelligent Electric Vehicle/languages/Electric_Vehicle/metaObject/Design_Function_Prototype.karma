@@ -1,0 +1,20 @@
+   Object Design_Function_Prototype
+      initial Property  Design_Function_Prototype_Name_ea08a9 = "null" extends Name annotation(localLabel ="名称");
+      initial Property  Design_Function_Prototype_Short_Name_7b625b = "null" extends Short_Name annotation(localLabel ="简称");
+      initial Property  Design_Function_Prototype_Description_e72679 = "null" extends Description annotation(localLabel ="描述");
+      initial Property  Design_Function_Prototype_Cost_0a51a4 = 0 extends Cost annotation(localLabel ="花费");
+      Undirected Point Design_Function_Prototype_Power_Port_b53f7a extends Power_Port annotation (localLabel ="电源端口");
+      Input Point Design_Function_Prototype_Server_Port_9dbb46 extends Server_Port annotation (localLabel ="服务器端口");
+      Output Point Design_Function_Prototype_Client_Port_228230 extends Client_Port annotation (localLabel ="客户端端口");
+      Output Point Design_Function_Prototype_Out_Flow_Port_897926 extends Out_Flow_Port annotation (localLabel ="流出口");
+      Input Point Design_Function_Prototype_In_Flow_Port_51e027 extends In_Flow_Port annotation (localLabel ="流入口");
+      Undirected Point Design_Function_Prototype_In_Out_Flow_Port_94a114 extends In_Out_Flow_Port annotation (localLabel ="流入流出口");
+   annotation(
+      localLabel="设计功能原型",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Design_Function_Prototype;
+ 

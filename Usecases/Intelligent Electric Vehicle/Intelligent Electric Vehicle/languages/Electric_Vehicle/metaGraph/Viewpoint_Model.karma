@@ -1,0 +1,17 @@
+   partial Graph Viewpoint_Model
+    Object State_Event;
+    Object End_Event;
+    Object View;
+    Relationship relationship_Controlflow;
+    Constraint (
+    bind connector(State_Event,relationship_Controlflow.role_ControlflowFrom),
+    bind connector(View,relationship_Controlflow.role_ControlflowFrom),
+    bind connector(End_Event,relationship_Controlflow.role_ControlflowTo),
+    bind connector(View,relationship_Controlflow.role_ControlflowTo),
+    );
+    annotation(
+        localLabel="视点模型",
+        type = diagram,
+        description="",
+       );
+        end Viewpoint_Model;

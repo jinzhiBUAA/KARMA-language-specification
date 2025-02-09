@@ -1,0 +1,26 @@
+   partial Graph metaGraph_Parameter_Diagram
+    Object metaObject_Constraint_Property;
+    Object metaObject_Objective_Function;
+    Object metaObject_Moe;
+    Relationship metaRelationship_Binding_Connector;
+    Constraint (
+    bind connector(metaObject_Objective_Function,metaRelationship_Binding_Connector.metaRole_Binding_Connector_End),
+    bind connector(metaObject_Constraint_Property.metaObject_Constraint_Property_metaPoint_Constraint_Parameter_9c6036,metaRelationship_Binding_Connector.metaRole_Binding_Connector_End),
+    bind connector(metaObject_Constraint_Property,metaRelationship_Binding_Connector.metaRole_Binding_Connector_End),
+    bind connector(metaObject_Constraint_Property.metaObject_Constraint_Property_metaPoint_Constraint_Parameter_8c2b68,metaRelationship_Binding_Connector.metaRole_Binding_Connector_End),
+    bind connector(metaObject_Objective_Function.metaObject_Objective_Function_metaPoint_Constraint_Parameter_584030,metaRelationship_Binding_Connector.metaRole_Binding_Connector_End),
+    bind connector(metaObject_Moe,metaRelationship_Binding_Connector.metaRole_Binding_Connector_End),
+    bind connector(metaObject_Objective_Function,metaRelationship_Binding_Connector.metaRole_Binding_Connector_Start),
+    bind connector(metaObject_Constraint_Property.metaObject_Constraint_Property_metaPoint_Constraint_Parameter_9c6036,metaRelationship_Binding_Connector.metaRole_Binding_Connector_Start),
+    bind connector(metaObject_Constraint_Property,metaRelationship_Binding_Connector.metaRole_Binding_Connector_Start),
+    bind connector(metaObject_Constraint_Property.metaObject_Constraint_Property_metaPoint_Constraint_Parameter_8c2b68,metaRelationship_Binding_Connector.metaRole_Binding_Connector_Start),
+    bind connector(metaObject_Objective_Function.metaObject_Objective_Function_metaPoint_Constraint_Parameter_584030,metaRelationship_Binding_Connector.metaRole_Binding_Connector_Start),
+    bind connector(metaObject_Moe,metaRelationship_Binding_Connector.metaRole_Binding_Connector_Start),
+    metaObject_Moe.explode(metaGraph_Parameter_Diagram),
+    );
+    annotation(
+        localLabel="参数图",
+        type = diagram,
+        description="",
+       );
+        end metaGraph_Parameter_Diagram;

@@ -1,0 +1,17 @@
+   Object metaObject_Subsytem
+      initial Property unique metaObject_Subsytem_metaProperty_Name_87ffdc = "null" extends metaProperty_Name annotation(localLabel ="名称");
+      Undirected Point metaObject_Subsytem_metaPoint_Flow_Port_ae983b extends metaPoint_Flow_Port annotation (localLabel ="流端口");
+      Undirected Point metaObject_Subsytem_metaPoint_Full_Port_f0f17b extends metaPoint_Full_Port annotation (localLabel ="全端口");
+      Undirected Point metaObject_Subsytem_metaPoint_Port_44c07e extends metaPoint_Port annotation (localLabel ="端口");
+      Undirected Point metaObject_Subsytem_metaPoint_Proxy_Port_e87a1f extends metaPoint_Proxy_Port annotation (localLabel ="代理端口");
+   annotation(
+      localLabel="子系统",
+      description="",
+      icon="SubsystemIcon.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end metaObject_Subsytem;
+ 

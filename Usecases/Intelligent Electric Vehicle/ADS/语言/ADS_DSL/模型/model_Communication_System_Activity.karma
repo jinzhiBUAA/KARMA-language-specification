@@ -1,0 +1,198 @@
+    partial Model model_Communication_System_Activity instanceof metaGraph_Activity_Diagram
+      Object model_Communication_System_Activity_object_4dbc refer metaObject_Initial_Node
+        annotation(
+          initialLocation=(72,52,55,55),
+          localLabel="初始节点",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_System_Activity_object_4dbc;
+
+      Object model_Communication_System_Activity_object_eae8 refer metaObject_Call_Behavior_Action
+        Property model_Communication_System_Activity_object_eae8_property_9313 = "通信建立和维护" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Communication_System_Activity_object_eae8_property_f832 = "通信建立和维护" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(30,142,159,79),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_System_Activity_object_eae8;
+
+      Object model_Communication_System_Activity_object_fd66 refer metaObject_Call_Behavior_Action
+        Property model_Communication_System_Activity_object_fd66_property_7d83 = "状态共享" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Communication_System_Activity_object_fd66_property_dc13 = "状态共享" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(86,1403,129,81),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_System_Activity_object_fd66;
+
+      Object model_Communication_System_Activity_object_fa0e refer metaObject_Call_Behavior_Action
+        Property model_Communication_System_Activity_object_fa0e_property_fe4a = "交通信号互动" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Communication_System_Activity_object_fa0e_property_3f84 = "交通信号互动" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(86,1576,148,85),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_System_Activity_object_fa0e;
+
+      Object model_Communication_System_Activity_object_c909 refer metaObject_Call_Behavior_Action
+        Property model_Communication_System_Activity_object_c909_property_3dd3 = "数据隐私和安全" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Communication_System_Activity_object_c909_property_3cdc = "数据隐私和安全" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(86,1834,176,87),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_System_Activity_object_c909;
+
+      Object model_Communication_System_Activity_object_b288 refer metaObject_Activity_Final
+        annotation(
+          initialLocation=(332,1852,60,60),
+          localLabel="活动终端",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_System_Activity_object_b288;
+
+      Object model_Communication_System_Activity_object_0fa4 refer metaObject_Call_Behavior_Action
+        Property model_Communication_System_Activity_object_0fa4_property_084a = "乘客安全通知" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Communication_System_Activity_object_0fa4_property_1589 = "乘客安全通知" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(98,1948,159,79),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Communication_System_Activity_object_0fa4;
+
+      Relationship model_Communication_System_Activity_relationship_db34 refer metaRelationship_Control_Flow
+        Role model_Communication_System_Activity_fromrole_169e refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Communication_System_Activity_fromrole_169e;
+         Role model_Communication_System_Activity_torole_1614 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Communication_System_Activity_torole_1614;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(99,79;109,216),
+          polylineLocation="[0,0,0,-35]$[0,35,0,0];(0.32727272727272727,1.0);(0.3821656050955414,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Communication_System_Activity_relationship_db34;
+ 
+      Relationship model_Communication_System_Activity_relationship_3e4f refer metaRelationship_Control_Flow
+        Role model_Communication_System_Activity_fromrole_e274 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Communication_System_Activity_fromrole_e274;
+         Role model_Communication_System_Activity_torole_0562 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Communication_System_Activity_torole_0562;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(174,1877;434,1882),
+          polylineLocation="[0,0,-72,0]$[72,0,0,0];(1.0,0.5529411764705883);(0.0,0.48333333333333334)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Communication_System_Activity_relationship_3e4f;
+ 
+    Connect(connector(model_Communication_System_Activity_object_4dbc,model_Communication_System_Activity_relationship_db34.model_Communication_System_Activity_fromrole_169e),connector(model_Communication_System_Activity_object_eae8,model_Communication_System_Activity_relationship_db34.model_Communication_System_Activity_torole_1614));
+ 
+    Connect(connector(model_Communication_System_Activity_object_c909,model_Communication_System_Activity_relationship_3e4f.model_Communication_System_Activity_fromrole_e274),connector(model_Communication_System_Activity_object_b288,model_Communication_System_Activity_relationship_3e4f.model_Communication_System_Activity_torole_0562));
+ 
+
+      annotation(
+        localLabel="通信系统活动",
+    );
+   end model_Communication_System_Activity;

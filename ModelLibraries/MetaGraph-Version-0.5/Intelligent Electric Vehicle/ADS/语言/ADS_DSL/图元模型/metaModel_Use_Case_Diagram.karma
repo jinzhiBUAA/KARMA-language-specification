@@ -1,0 +1,73 @@
+   partial Graph metaModel_Use_Case_Diagram
+    Object metaObject_Actor;
+    Object metaObject_Actuator;
+    Object metaObject_Boundary_System;
+    Object metaObject_Environmental_Effect;
+    Object metaObject_External_System;
+    Object metaObject_Sensor;
+    Object metaObject_User_System;
+    Object metaObject_Package;
+    Object metaObject_System_Boundary;
+    Object metaObject_Use_Case;
+    Object metaObject_Block;
+    Object metaObject_System_Context;
+    Relationship metaRelationship_Association;
+    Relationship metaRelationship_Extend;
+    Relationship metaRelationship_Generalization;
+    Relationship metaRelationship_Include;
+    Constraint (
+    bind connector(metaObject_Block,metaRelationship_Association.metaRole_Association_Start),
+    bind connector(metaObject_Sensor,metaRelationship_Association.metaRole_Association_Start),
+    bind connector(metaObject_Actor,metaRelationship_Association.metaRole_Association_Start),
+    bind connector(metaObject_Environmental_Effect,metaRelationship_Association.metaRole_Association_Start),
+    bind connector(metaObject_External_System,metaRelationship_Association.metaRole_Association_Start),
+    bind connector(metaObject_System_Context,metaRelationship_Association.metaRole_Association_Start),
+    bind connector(metaObject_Boundary_System,metaRelationship_Association.metaRole_Association_Start),
+    bind connector(metaObject_Actuator,metaRelationship_Association.metaRole_Association_Start),
+    bind connector(metaObject_User_System,metaRelationship_Association.metaRole_Association_Start),
+    bind connector(metaObject_Use_Case,metaRelationship_Association.metaRole_Association_Start),
+    bind connector(metaObject_Block,metaRelationship_Association.metaRole_Association_End),
+    bind connector(metaObject_Sensor,metaRelationship_Association.metaRole_Association_End),
+    bind connector(metaObject_Actor,metaRelationship_Association.metaRole_Association_End),
+    bind connector(metaObject_Environmental_Effect,metaRelationship_Association.metaRole_Association_End),
+    bind connector(metaObject_External_System,metaRelationship_Association.metaRole_Association_End),
+    bind connector(metaObject_System_Context,metaRelationship_Association.metaRole_Association_End),
+    bind connector(metaObject_Boundary_System,metaRelationship_Association.metaRole_Association_End),
+    bind connector(metaObject_Actuator,metaRelationship_Association.metaRole_Association_End),
+    bind connector(metaObject_User_System,metaRelationship_Association.metaRole_Association_End),
+    bind connector(metaObject_Use_Case,metaRelationship_Association.metaRole_Association_End),
+    bind connector(metaObject_Use_Case,metaRelationship_Extend.metaRole_Extend_End),
+    bind connector(metaObject_Use_Case,metaRelationship_Extend.metaRole_Extend_Start),
+    bind connector(metaObject_Block,metaRelationship_Generalization.metaRole_Generalization_End),
+    bind connector(metaObject_Sensor,metaRelationship_Generalization.metaRole_Generalization_End),
+    bind connector(metaObject_Actor,metaRelationship_Generalization.metaRole_Generalization_End),
+    bind connector(metaObject_Environmental_Effect,metaRelationship_Generalization.metaRole_Generalization_End),
+    bind connector(metaObject_External_System,metaRelationship_Generalization.metaRole_Generalization_End),
+    bind connector(metaObject_System_Context,metaRelationship_Generalization.metaRole_Generalization_End),
+    bind connector(metaObject_Boundary_System,metaRelationship_Generalization.metaRole_Generalization_End),
+    bind connector(metaObject_Actuator,metaRelationship_Generalization.metaRole_Generalization_End),
+    bind connector(metaObject_User_System,metaRelationship_Generalization.metaRole_Generalization_End),
+    bind connector(metaObject_Use_Case,metaRelationship_Generalization.metaRole_Generalization_End),
+    bind connector(metaObject_Block,metaRelationship_Generalization.metaRole_Generalization_Start),
+    bind connector(metaObject_Sensor,metaRelationship_Generalization.metaRole_Generalization_Start),
+    bind connector(metaObject_Actor,metaRelationship_Generalization.metaRole_Generalization_Start),
+    bind connector(metaObject_Environmental_Effect,metaRelationship_Generalization.metaRole_Generalization_Start),
+    bind connector(metaObject_External_System,metaRelationship_Generalization.metaRole_Generalization_Start),
+    bind connector(metaObject_System_Context,metaRelationship_Generalization.metaRole_Generalization_Start),
+    bind connector(metaObject_Boundary_System,metaRelationship_Generalization.metaRole_Generalization_Start),
+    bind connector(metaObject_Actuator,metaRelationship_Generalization.metaRole_Generalization_Start),
+    bind connector(metaObject_User_System,metaRelationship_Generalization.metaRole_Generalization_Start),
+    bind connector(metaObject_Use_Case,metaRelationship_Generalization.metaRole_Generalization_Start),
+    bind connector(metaObject_Use_Case,metaRelationship_Include.metaRole_Include_End),
+    bind connector(metaObject_Use_Case,metaRelationship_Include.metaRole_Include_Start),
+    metaObject_Block.explode(metaGraph_Internal_Block_Diagram),
+    metaObject_System_Context.explode(metaGraph_Internal_Block_Diagram),
+    metaObject_System_Boundary.explode(metaModel_Use_Case_Diagram),
+    metaObject_Package.decompose(metaModel_Use_Case_Diagram),
+    );
+    annotation(
+        localLabel="用例图",
+        type = diagram,
+        description="",
+       );
+        end metaModel_Use_Case_Diagram;

@@ -1,0 +1,57 @@
+    partial Model model_Steering_Motor_Parameter instanceof metaGraph_Parameter_Diagram
+      Object model_Steering_Motor_Parameter_object_57ed refer metaObject_Moe
+        Property model_Steering_Motor_Parameter_object_57ed_property_af8c = "rad/s" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "精度",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(7,99,121,61),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Steering_Motor_Parameter_object_57ed;
+
+      Object model_Steering_Motor_Parameter_object_5836 refer metaObject_Moe
+        Property model_Steering_Motor_Parameter_object_5836_property_befa = "ms" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "响应时间",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(7,171,121,55),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Steering_Motor_Parameter_object_5836;
+
+      Object model_Steering_Motor_Parameter_object_3f04 refer metaObject_Moe
+        Property model_Steering_Motor_Parameter_object_3f04_property_0379 = "元" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(7,27,121,58),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Steering_Motor_Parameter_object_3f04;
+
+
+      annotation(
+        localLabel="转向电机参数模型",
+    );
+   end model_Steering_Motor_Parameter;

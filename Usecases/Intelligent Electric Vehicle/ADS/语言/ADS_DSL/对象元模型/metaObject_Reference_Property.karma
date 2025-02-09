@@ -1,0 +1,19 @@
+   Object metaObject_Reference_Property
+      initial Property unique metaObject_Reference_Property_metaProperty_Name_70885c = "null" extends metaProperty_Name annotation(localLabel ="名称");
+      initial Property unique metaObject_Reference_Property_metaProperty_Text_8e96d4 = "null" extends metaProperty_Text annotation(localLabel ="内容");
+      Undirected Point metaObject_Reference_Property_metaPoint_Constraint_Parameter_034bb3 extends metaPoint_Constraint_Parameter annotation (localLabel ="约束参数");
+      Undirected Point metaObject_Reference_Property_metaPoint_Proxy_Port_2421f6 extends metaPoint_Proxy_Port annotation (localLabel ="代理端口");
+      Undirected Point metaObject_Reference_Property_metaPoint_Full_Port_5658d2 extends metaPoint_Full_Port annotation (localLabel ="全端口");
+      Undirected Point metaObject_Reference_Property_metaPoint_Port_3cee75 extends metaPoint_Port annotation (localLabel ="端口");
+      Undirected Point metaObject_Reference_Property_metaPoint_Flow_Port_5594c9 extends metaPoint_Flow_Port annotation (localLabel ="流端口");
+   annotation(
+      localLabel="引用属性",
+      description="",
+      icon="ReferencePropertyIcon.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end metaObject_Reference_Property;
+ 

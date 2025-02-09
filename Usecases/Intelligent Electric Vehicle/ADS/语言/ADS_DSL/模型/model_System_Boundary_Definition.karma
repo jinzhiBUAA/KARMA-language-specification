@@ -1,0 +1,289 @@
+    partial Model model_System_Boundary_Definition instanceof metaModel_Use_Case_Diagram
+    
+      Object model_System_Boundary_Definition_object_8421 refer metaObject_Actor
+        Property model_System_Boundary_Definition_object_8421_property_3f67 = "null" refer metaObject_Actor_metaProperty_Name_310e0e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(48,228,91,127),
+          localLabel="外部环境",
+          shape="humanForm",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_System_Boundary_Definition_object_8421;
+
+      Object model_System_Boundary_Definition_object_37a6 refer metaObject_System_Boundary
+    this.explode(model_Use_Case_Definition);
+      
+        annotation(
+          initialLocation=(288,54,347,539),
+          localLabel="自动驾驶系统",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="model_Use_Case_Definition:(0,0,347,539)",
+        );
+      end model_System_Boundary_Definition_object_37a6;
+
+      Relationship model_System_Boundary_Definition_relationship_cd3f refer metaRelationship_Association
+        Role model_System_Boundary_Definition_fromrole_4a1a refer metaRole_Association_Start
+          annotation(
+            localLabel="关联始端角色",
+            shape="no"
+          );
+        end model_System_Boundary_Definition_fromrole_4a1a;
+         Role model_System_Boundary_Definition_torole_5503 refer metaRole_Association_End
+          annotation(
+            localLabel="关联终端角色",
+            shape="no"
+          );
+        end model_System_Boundary_Definition_torole_5503;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(93,291;370,-38),
+          polylineLocation="[0,0,-232,107]$[232,-107,0,0];(1.0,0.28346456692913385);(0.0,0.43636363636363634)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_System_Boundary_Definition_relationship_cd3f;
+ 
+      Relationship model_System_Boundary_Definition_relationship_a206 refer metaRelationship_Association
+        Role model_System_Boundary_Definition_fromrole_3c5d refer metaRole_Association_Start
+          annotation(
+            localLabel="关联始端角色",
+            shape="no"
+          );
+        end model_System_Boundary_Definition_fromrole_3c5d;
+         Role model_System_Boundary_Definition_torole_fb6f refer metaRole_Association_End
+          annotation(
+            localLabel="关联终端角色",
+            shape="no"
+          );
+        end model_System_Boundary_Definition_torole_fb6f;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(93,291;370,90),
+          polylineLocation="[0,0,-232,46]$[232,-46,0,0];(1.0,0.33070866141732286);(0.0,0.43636363636363634)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_System_Boundary_Definition_relationship_a206;
+ 
+      Relationship model_System_Boundary_Definition_relationship_2edf refer metaRelationship_Association
+        Role model_System_Boundary_Definition_fromrole_6102 refer metaRole_Association_Start
+          annotation(
+            localLabel="关联始端角色",
+            shape="no"
+          );
+        end model_System_Boundary_Definition_fromrole_6102;
+         Role model_System_Boundary_Definition_torole_c47c refer metaRole_Association_End
+          annotation(
+            localLabel="关联终端角色",
+            shape="no"
+          );
+        end model_System_Boundary_Definition_torole_c47c;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(110,293;387,239),
+          polylineLocation="[17,2,-232,-32]$[249,34,0,0];(0.8131868131868132,0.31496062992125984);(0.0,0.5901639344262295)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_System_Boundary_Definition_relationship_2edf;
+ 
+      Relationship model_System_Boundary_Definition_relationship_b65a refer metaRelationship_Association
+        Role model_System_Boundary_Definition_fromrole_1839 refer metaRole_Association_Start
+          annotation(
+            localLabel="关联始端角色",
+            shape="no"
+          );
+        end model_System_Boundary_Definition_fromrole_1839;
+         Role model_System_Boundary_Definition_torole_ff29 refer metaRole_Association_End
+          annotation(
+            localLabel="关联终端角色",
+            shape="no"
+          );
+        end model_System_Boundary_Definition_torole_ff29;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(93,291;370,366),
+          polylineLocation="[0,0,-232,-92]$[232,92,0,0];(1.0,0.33070866141732286);(0.0,0.43636363636363634)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_System_Boundary_Definition_relationship_b65a;
+ 
+      Relationship model_System_Boundary_Definition_relationship_5123 refer metaRelationship_Association
+        Role model_System_Boundary_Definition_fromrole_9d5f refer metaRole_Association_Start
+          annotation(
+            localLabel="关联始端角色",
+            shape="no"
+          );
+        end model_System_Boundary_Definition_fromrole_9d5f;
+         Role model_System_Boundary_Definition_torole_af19 refer metaRole_Association_End
+          annotation(
+            localLabel="关联终端角色",
+            shape="no"
+          );
+        end model_System_Boundary_Definition_torole_af19;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(105,298;388,502),
+          polylineLocation="[12,7,-235,-146]$[247,153,0,0];(0.8681318681318682,0.4645669291338583);(0.0,0.4918032786885246)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =true,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_System_Boundary_Definition_relationship_5123;
+ 
+      Relationship model_System_Boundary_Definition_relationship_25ed refer metaRelationship_Association
+        Role model_System_Boundary_Definition_fromrole_5e90 refer metaRole_Association_Start
+          annotation(
+            localLabel="关联始端角色",
+            shape="no"
+          );
+        end model_System_Boundary_Definition_fromrole_5e90;
+         Role model_System_Boundary_Definition_torole_0fc3 refer metaRole_Association_End
+          annotation(
+            localLabel="关联终端角色",
+            shape="no"
+          );
+        end model_System_Boundary_Definition_torole_0fc3;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(105,300;388,606),
+          polylineLocation="[12,9,-235,-185]$[247,194,0,0];(0.8681318681318682,0.5669291338582677);(0.0,0.32727272727272727)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_System_Boundary_Definition_relationship_25ed;
+ 
+      Relationship model_System_Boundary_Definition_relationship_324d refer metaRelationship_Association
+        Role model_System_Boundary_Definition_fromrole_5cf9 refer metaRole_Association_Start
+          annotation(
+            localLabel="关联始端角色",
+            shape="no"
+          );
+        end model_System_Boundary_Definition_fromrole_5cf9;
+         Role model_System_Boundary_Definition_torole_1ef3 refer metaRole_Association_End
+          annotation(
+            localLabel="关联终端角色",
+            shape="no"
+          );
+        end model_System_Boundary_Definition_torole_1ef3;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(139,338;419,777),
+          polylineLocation="[46,47,-232,-240]$[278,287,0,0](0.0,0.43636363636363634)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =true,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_System_Boundary_Definition_relationship_324d;
+ 
+    Connect(connector(model_System_Boundary_Definition_object_8421,model_System_Boundary_Definition_relationship_cd3f.model_System_Boundary_Definition_fromrole_4a1a),connector(model_Use_Case_Definition_object_d1d6,model_System_Boundary_Definition_relationship_cd3f.model_System_Boundary_Definition_torole_5503));
+ 
+    Connect(connector(model_System_Boundary_Definition_object_8421,model_System_Boundary_Definition_relationship_a206.model_System_Boundary_Definition_fromrole_3c5d),connector(model_Use_Case_Definition_object_f4ae,model_System_Boundary_Definition_relationship_a206.model_System_Boundary_Definition_torole_fb6f));
+ 
+    Connect(connector(model_System_Boundary_Definition_object_8421,model_System_Boundary_Definition_relationship_2edf.model_System_Boundary_Definition_fromrole_6102),connector(model_Use_Case_Definition_object_43e1,model_System_Boundary_Definition_relationship_2edf.model_System_Boundary_Definition_torole_c47c));
+ 
+    Connect(connector(model_System_Boundary_Definition_object_8421,model_System_Boundary_Definition_relationship_b65a.model_System_Boundary_Definition_fromrole_1839),connector(model_Use_Case_Definition_object_24db,model_System_Boundary_Definition_relationship_b65a.model_System_Boundary_Definition_torole_ff29));
+ 
+    Connect(connector(model_System_Boundary_Definition_object_8421,model_System_Boundary_Definition_relationship_5123.model_System_Boundary_Definition_fromrole_9d5f),connector(model_Use_Case_Definition_object_99cd,model_System_Boundary_Definition_relationship_5123.model_System_Boundary_Definition_torole_af19));
+ 
+    Connect(connector(model_System_Boundary_Definition_object_8421,model_System_Boundary_Definition_relationship_25ed.model_System_Boundary_Definition_fromrole_5e90),connector(model_Use_Case_Definition_object_0c7c,model_System_Boundary_Definition_relationship_25ed.model_System_Boundary_Definition_torole_0fc3));
+ 
+    Connect(connector(model_System_Boundary_Definition_object_8421,model_System_Boundary_Definition_relationship_324d.model_System_Boundary_Definition_fromrole_5cf9),connector(model_Use_Case_Definition_object_619a,model_System_Boundary_Definition_relationship_324d.model_System_Boundary_Definition_torole_1ef3));
+ 
+
+      annotation(
+        localLabel="系统边界定义模型",
+    );
+    
+   end model_System_Boundary_Definition;

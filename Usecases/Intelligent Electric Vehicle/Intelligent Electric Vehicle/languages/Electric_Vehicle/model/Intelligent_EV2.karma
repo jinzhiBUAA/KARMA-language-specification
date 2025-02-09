@@ -1,0 +1,283 @@
+    partial Model Intelligent_EV2 instanceof Operational_State_Transition_Description
+    global continuous Real car2_speed  = 30;
+    global continuous  Real car2_x  = 250;
+    constant Real car2_y  = 0;
+    constant Real car2_radar  = 200;
+    discrete Real car2_brake  = 0;
+    global discrete Boolean brake  = false;
+    global discrete Boolean car2_damage  = false;
+      State      Object Intelligent_EV2_object_Final_State_ccdd refer Final_State
+      equation car2_speed' = 0;
+      equation car2_x' = 0;
+        annotation(
+          initialLocation=(860,230,86,81),
+          localLabel="静止状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Intelligent_EV2_object_Final_State_ccdd;
+
+      State      Object Intelligent_EV2_object_Final_State_bfa5 refer Final_State
+      equation car2_speed' = 0;
+      equation car2_x' = 0;
+        annotation(
+          initialLocation=(860,330,86,81),
+          localLabel="撞车状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Intelligent_EV2_object_Final_State_bfa5;
+
+      State      Object Intelligent_EV2_object_Initial_State_4b21 refer Initial_State
+      initial;
+      equation car2_speed' = 0;
+      equation car2_x' = 0;
+        annotation(
+          initialLocation=(300,20,86,81),
+          localLabel="初始状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Intelligent_EV2_object_Initial_State_4b21;
+
+      State      Object Intelligent_EV2_object_Operational_State_93fc refer Operational_State
+        Property Operational_State_Name_2415cd_e1ba = "匀速状态" refer Operational_State_Name_2415cd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Description_9cfe4c_cc10 = "车辆保持一定速度进行匀速行驶" refer Operational_State_Description_9cfe4c annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      equation car2_speed' = 0;
+      equation car2_x' = car2_speed;
+        annotation(
+          initialLocation=(540,13,148,98),
+          localLabel="作战状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Intelligent_EV2_object_Operational_State_93fc;
+
+      Object Intelligent_EV2_object_Operational_State_e457 refer Operational_State
+        Property Operational_State_Name_2415cd_4678 = "智能电动汽车2" refer Operational_State_Name_2415cd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Name_2415cd_7a2c = "250" refer Operational_State_Name_2415cd annotation(localLabel = "初始X坐标",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Name_2415cd_5c2e = "0" refer Operational_State_Name_2415cd annotation(localLabel = "初始Y坐标",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Description_9cfe4c_ed4d = "30" refer Operational_State_Description_9cfe4c annotation(localLabel = "初始速度（m/s）",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Name_2415cd_0f1b = "200" refer Operational_State_Name_2415cd annotation(localLabel = "雷达探测距离（米）",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(75,170,188,133),
+          localLabel="作战状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Intelligent_EV2_object_Operational_State_e457;
+
+      State      Object Intelligent_EV2_object_Operational_State_7ace refer Operational_State
+        Property Operational_State_Name_2415cd_4596 = "制动状态" refer Operational_State_Name_2415cd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Name_2415cd_e43b = "-8" refer Operational_State_Name_2415cd annotation(localLabel = "制动加速度（m/s2）",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Description_9cfe4c_2a39 = "车辆发现前方障碍物进行制动行驶状态" refer Operational_State_Description_9cfe4c annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      equation car2_speed' = car2_brake;
+      equation car2_x' = car2_speed;
+        annotation(
+          initialLocation=(540,210,148,123),
+          localLabel="作战状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Intelligent_EV2_object_Operational_State_7ace;
+
+      Relationship Transition_6bb8 refer Transition
+        Role Transition_Incoming_2f5b refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_2f5b;
+         Role Transition_Outgoing_296d refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_296d;
+       transition{
+         when (time>0);
+         goto Intelligent_EV2_object_Operational_State_93fc;
+      };
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(386,61;780,54),
+          polylineLocation="[43,1,-228,0]$[197,1,-74,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_6bb8;
+ 
+      Relationship Transition_28f1 refer Transition
+        Role Transition_Incoming_b2c3 refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_b2c3;
+         Role Transition_Outgoing_d454 refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_d454;
+       transition{
+         when (car2_x+car2_radar>1380);
+         do car2_brake=-8,brake=true;
+         goto Intelligent_EV2_object_Operational_State_7ace;
+      };
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(614,111;614,409),
+          polylineLocation="[0,49,0,-162]$[0,150,0,-61]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_28f1;
+ 
+      Relationship Transition_2e11 refer Transition
+        Role Transition_Incoming_ac71 refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_ac71;
+         Role Transition_Outgoing_b677 refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_b677;
+       transition{
+          when (car2_speed<0);
+          do car2_brake=0;
+          goto Intelligent_EV2_object_Final_State_ccdd;
+      };
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(688,270;1182,290),
+          polylineLocation="[74,-1,-217,-1]$[248,-1,-43,-1]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_2e11;
+ 
+      Relationship Transition_7d3f refer Transition
+        Role Transition_Incoming_5ba2 refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_5ba2;
+         Role Transition_Outgoing_2178 refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_2178;
+       transition{
+          when (car2_x>1380);
+          do car2_brake=0,car2_damage=true;
+          goto Intelligent_EV2_object_Final_State_bfa5;
+      };
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(613,332;1181,503),
+          polylineLocation="[-1,61,-291,-39]$[-1,112,-291,12]$[247,112,-43,12]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_7d3f;
+ 
+    Connect(connector(Intelligent_EV2_object_Initial_State_4b21,Transition_6bb8.Transition_Incoming_2f5b),connector(Intelligent_EV2_object_Operational_State_93fc,Transition_6bb8.Transition_Outgoing_296d));
+ 
+    Connect(connector(Intelligent_EV2_object_Operational_State_93fc,Transition_28f1.Transition_Incoming_b2c3),connector(Intelligent_EV2_object_Operational_State_7ace,Transition_28f1.Transition_Outgoing_d454));
+ 
+    Connect(connector(Intelligent_EV2_object_Operational_State_7ace,Transition_2e11.Transition_Incoming_ac71),connector(Intelligent_EV2_object_Final_State_ccdd,Transition_2e11.Transition_Outgoing_b677));
+ 
+    Connect(connector(Intelligent_EV2_object_Operational_State_7ace,Transition_7d3f.Transition_Incoming_5ba2),connector(Intelligent_EV2_object_Final_State_bfa5,Transition_7d3f.Transition_Outgoing_2178));
+ 
+
+      annotation(
+        localLabel="智能电动汽车2",
+    );
+    
+   end Intelligent_EV2;

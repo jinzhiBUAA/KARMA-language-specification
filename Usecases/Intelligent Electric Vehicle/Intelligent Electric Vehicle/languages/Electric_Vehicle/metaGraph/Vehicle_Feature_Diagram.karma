@@ -1,0 +1,57 @@
+   partial Graph Vehicle_Feature_Diagram
+    Object Generic_Constraint;
+    Object Requirement;
+    Object Comment_Object;
+    Object Quality_Requirement;
+    Object EA_Type;
+    Object Vehicle_Feature;
+    Object Design_Function_Prototype;
+    Object User_Attributed_Element;
+    Object Analysis_Function_Prototype;
+    Object Feature;
+    Object Hardware_Component_Prototype;
+    Relationship Comment;
+    Relationship Realization;
+    Relationship Satisfy;
+    Relationship Feature_Composition;
+    Relationship Feature_Link;
+    Constraint (
+    bind connector(EA_Type,Realization.Realization_Incoming),
+    bind connector(Vehicle_Feature,Realization.Realization_Incoming),
+    bind connector(Design_Function_Prototype,Realization.Realization_Incoming),
+    bind connector(Analysis_Function_Prototype,Realization.Realization_Incoming),
+    bind connector(Feature,Realization.Realization_Incoming),
+    bind connector(Hardware_Component_Prototype,Realization.Realization_Incoming),
+    bind connector(Vehicle_Feature,Realization.Realization_Outgoing),
+    bind connector(Feature,Realization.Realization_Outgoing),
+    bind connector(Vehicle_Feature,Feature_Composition.Feature_Composition_Outgoing),
+    bind connector(Feature,Feature_Composition.Feature_Composition_Outgoing),
+    bind connector(Requirement,Comment.Comment_Incoming),
+    bind connector(Quality_Requirement,Comment.Comment_Incoming),
+    bind connector(EA_Type,Comment.Comment_Incoming),
+    bind connector(Vehicle_Feature,Comment.Comment_Incoming),
+    bind connector(Design_Function_Prototype,Comment.Comment_Incoming),
+    bind connector(Analysis_Function_Prototype,Comment.Comment_Incoming),
+    bind connector(Feature,Comment.Comment_Incoming),
+    bind connector(Hardware_Component_Prototype,Comment.Comment_Incoming),
+    bind connector(Generic_Constraint,Comment.Comment_Outgoing),
+    bind connector(Comment_Object,Comment.Comment_Outgoing),
+    bind connector(User_Attributed_Element,Comment.Comment_Outgoing),
+    bind connector(Vehicle_Feature,Satisfy.Satisfy_Incoming),
+    bind connector(Feature,Satisfy.Satisfy_Incoming),
+    bind connector(Vehicle_Feature,Feature_Composition.Feature_Composition_Incoming),
+    bind connector(Feature,Feature_Composition.Feature_Composition_Incoming),
+    bind connector(Vehicle_Feature,Feature_Link.Feature_Link_Incoming),
+    bind connector(Feature,Feature_Link.Feature_Link_Incoming),
+    bind connector(Vehicle_Feature,Feature_Link.Feature_Link_Outgoing),
+    bind connector(Feature,Feature_Link.Feature_Link_Outgoing),
+    bind connector(Requirement,Satisfy.Satisfy_Outgoing),
+    bind connector(Quality_Requirement,Satisfy.Satisfy_Outgoing),
+    Vehicle_Feature.decompose(Vehicle_Feature_Diagram),
+    );
+    annotation(
+        localLabel="车辆特征模型",
+        type = diagram,
+        description="",
+       );
+        end Vehicle_Feature_Diagram;

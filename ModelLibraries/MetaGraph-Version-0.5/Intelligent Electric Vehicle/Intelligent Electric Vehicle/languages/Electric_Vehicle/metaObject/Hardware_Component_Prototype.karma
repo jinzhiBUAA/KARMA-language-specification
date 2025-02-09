@@ -1,0 +1,22 @@
+   Object Hardware_Component_Prototype
+      initial Property  Hardware_Component_Prototype_Name_054763 = "null" extends Name annotation(localLabel ="名称");
+      initial Property  Hardware_Component_Prototype_Short_Name_09e02e = "null" extends Short_Name annotation(localLabel ="简称");
+      initial Property  Hardware_Component_Prototype_Description_de240a = "null" extends Description annotation(localLabel ="描述");
+      Output Point Hardware_Component_Prototype_IO_Hardware_Pin_Out_01589b extends IO_Hardware_Pin_Out annotation (localLabel ="IO硬件引脚输出");
+      Input Point Hardware_Component_Prototype_IO_Hardware_Pin_ln_ee8116 extends IO_Hardware_Pin_ln annotation (localLabel ="IO硬件引脚输入");
+      Undirected Point Hardware_Component_Prototype_IO_Hardware_Pin_ln_Out_7b9446 extends IO_Hardware_Pin_ln_Out annotation (localLabel ="IO硬件引脚输入输出");
+      Output Point Hardware_Component_Prototype_Power_Hardware_Pin_Out_740fe6 extends Power_Hardware_Pin_Out annotation (localLabel ="电源硬件引脚输出");
+      Input Point Hardware_Component_Prototype_Power_Hardware_Pin_In_38e0ea extends Power_Hardware_Pin_In annotation (localLabel ="电源硬件引脚输入");
+      Undirected Point Hardware_Component_Prototype_Power_Hardware_Pin_ln_Out_1c5ee0 extends Power_Hardware_Pin_ln_Out annotation (localLabel ="电源硬件引脚输入输出");
+      Output Point Hardware_Component_Prototype_Communication_Hardware_Pin_Out_de07ee extends Communication_Hardware_Pin_Out annotation (localLabel ="通信硬件引脚输出");
+      Input Point Hardware_Component_Prototype_Communication_Hardware_Pin_ln_0fbb89 extends Communication_Hardware_Pin_ln annotation (localLabel ="通信硬件引脚输入");
+      Undirected Point Hardware_Component_Prototype_Communication_Hardware_Pin_ln_Out_60b64c extends Communication_Hardware_Pin_ln_Out annotation (localLabel ="通信硬件引脚输入输出");
+   annotation(
+      localLabel="硬件组件原型",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Hardware_Component_Prototype;
+ 

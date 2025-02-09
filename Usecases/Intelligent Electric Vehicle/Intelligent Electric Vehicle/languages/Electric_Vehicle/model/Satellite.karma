@@ -1,0 +1,149 @@
+    partial Model Satellite instanceof Operational_State_Transition_Description
+    continuous Real satellite_longx= 39.923194896;
+    continuous Real satellite_laty= 116.589959869;
+    discrete Boolean car1_line=true;
+    continuous Real satellite_height = 1000000;
+    continuous Real  infarmarion_car2_longx  = 39.91810899288734;
+    continuous Real  infarmarion_car2_laty  = 116.48996829986574;
+    discrete Boolean receive_car2_information = false;
+      State      Object Satellite_object_Initial_State_cf50 refer Initial_State
+      initial;
+      equation infarmarion_car2_longx' = 0;
+      equation infarmarion_car2_laty' = 0;
+      equation satellite_longx' = 0.0000001;
+      equation satellite_laty' = 0.0000001;
+      equation satellite_height' = 0.0000001;
+        annotation(
+          initialLocation=(402,384,140,140),
+          localLabel="初始状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Satellite_object_Initial_State_cf50;
+
+      State      Object Satellite_object_Operational_State_1e9f refer Operational_State
+        Property Operational_State_Name_2415cd_e190 = "收集信息" refer Operational_State_Name_2415cd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Description_9cfe4c_dfff = "从EV1收集信息" refer Operational_State_Description_9cfe4c annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      equation infarmarion_car2_longx' = 0;
+      equation infarmarion_car2_laty' = 0;
+      equation satellite_longx' = 0.0000001;
+      equation satellite_laty' = 0.0000001;
+      equation satellite_height' = 0.0000001;
+        annotation(
+          initialLocation=(396,228,165,94),
+          localLabel="作战状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Satellite_object_Operational_State_1e9f;
+
+      Object Satellite_object_Operational_State_66fa refer Operational_State
+        Property Operational_State_Name_2415cd_f36b = "发送信息" refer Operational_State_Name_2415cd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Description_9cfe4c_cd83 = "发送信息给EV2" refer Operational_State_Description_9cfe4c annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(396,90,165,106),
+          localLabel="作战状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Satellite_object_Operational_State_66fa;
+
+      Relationship Transition_8e56 refer Transition
+        Role Transition_Incoming_e4d5 refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_e4d5;
+         Role Transition_Outgoing_92e4 refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_92e4;
+       
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(464,288;464,90),
+          polylineLocation="[-14,13,-14,78]$[-14,-47,-14,18]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_8e56;
+ 
+      Relationship Transition_aa23 refer Transition
+        Role Transition_Incoming_20f6 refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_20f6;
+         Role Transition_Outgoing_af1b refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_af1b;
+       transition{
+         when (time>0.5);
+         do infarmarion_car2_longx = Intelligent_EV2.car2_longx,infarmarion_car2_laty = Intelligent_EV2.car2_laty,receive_car2_information = true ;goto Satellite_object_Operational_State_1e9f;
+      };
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(472,384;466,168),
+          polylineLocation="[0,-70,-13,107]$[0,-130,-13,47]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_aa23;
+ 
+    Connect(connector(Satellite_object_Operational_State_1e9f,Transition_8e56.Transition_Incoming_e4d5),connector(Satellite_object_Operational_State_66fa,Transition_8e56.Transition_Outgoing_92e4));
+ 
+    Connect(connector(Satellite_object_Initial_State_cf50,Transition_aa23.Transition_Incoming_20f6),connector(Satellite_object_Operational_State_1e9f,Transition_aa23.Transition_Outgoing_af1b));
+ 
+
+      annotation(
+        localLabel="作战状态转换模型",
+    );
+    
+   end Satellite;

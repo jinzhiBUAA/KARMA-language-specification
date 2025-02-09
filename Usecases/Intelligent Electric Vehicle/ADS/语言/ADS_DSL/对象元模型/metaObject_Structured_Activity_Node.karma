@@ -1,0 +1,18 @@
+   Object metaObject_Structured_Activity_Node
+      initial Property unique metaObject_Structured_Activity_Node_metaProperty_Name_2282c0 = "null" extends metaProperty_Name annotation(localLabel ="名称");
+      initial Property unique metaObject_Structured_Activity_Node_metaProperty_Context_380e0c = "null" extends metaProperty_Context annotation(localLabel ="上下文");
+      Undirected Point metaObject_Structured_Activity_Node_metaPoint_Action_Input_Pin_c52eba extends metaPoint_Action_Input_Pin annotation (localLabel ="动作输入引脚");
+      Undirected Point metaObject_Structured_Activity_Node_metaPoint_Input_Pin_1c9507 extends metaPoint_Input_Pin annotation (localLabel ="输入引脚");
+      Output Point metaObject_Structured_Activity_Node_metaPoint_Output_Pin_4b84a6 extends metaPoint_Output_Pin annotation (localLabel ="输出引脚");
+      Undirected Point metaObject_Structured_Activity_Node_metaPoint_Value_Pin_51bbb9 extends metaPoint_Value_Pin annotation (localLabel ="值引脚");
+   annotation(
+      localLabel="结构化活动节点",
+      description="",
+      icon="StructuredActivityNodeIcon.png",
+      shape="roundedRectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end metaObject_Structured_Activity_Node;
+ 

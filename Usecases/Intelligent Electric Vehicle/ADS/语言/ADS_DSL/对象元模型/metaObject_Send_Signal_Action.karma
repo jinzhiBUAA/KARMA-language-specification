@@ -1,0 +1,17 @@
+   Object metaObject_Send_Signal_Action
+      initial Property unique metaObject_Send_Signal_Action_metaProperty_Name_245a87 = "null" extends metaProperty_Name annotation(localLabel ="名称");
+      initial Property unique metaObject_Send_Signal_Action_metaProperty_Context_3f45e7 = "null" extends metaProperty_Context annotation(localLabel ="上下文");
+      Input Point metaObject_Send_Signal_Action_metaPoint_Action_Input_Pin_a1dd29 extends metaPoint_Action_Input_Pin annotation (localLabel ="动作输入引脚");
+      Input Point metaObject_Send_Signal_Action_metaPoint_Input_Pin_62a884 extends metaPoint_Input_Pin annotation (localLabel ="输入引脚");
+      Undirected Point metaObject_Send_Signal_Action_metaPoint_Value_Pin_a77079 extends metaPoint_Value_Pin annotation (localLabel ="值引脚");
+   annotation(
+      localLabel="发送信号动作",
+      description="",
+      icon="SendSignalActionIcon.png",
+      shape="customImage",
+      visualizedMode=propertyMode,
+      imageAddress="SendSignalActionPicture.png",
+      UnfoldDirection=Y,
+      );
+   end metaObject_Send_Signal_Action;
+ 

@@ -1,0 +1,184 @@
+    partial Model model_Perception_System_Interface instanceof metaGraph_Internal_Block_Diagram
+    
+      Object model_Perception_System_Interface_object_60a4 refer metaObject_Part_Propety
+        Property model_Perception_System_Interface_object_60a4_property_55d8 = "数据传输模块" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Perception_System_Interface_object_60a4_input_6e5a refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="融合数据",
+		 initialLocation=(78,99,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Perception_System_Interface_object_60a4_input_6e5a;
+ 
+      
+        annotation(
+          initialLocation=(552,120,177,109),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Interface_object_60a4;
+
+      Object model_Perception_System_Interface_object_396d refer metaObject_Part_Propety
+        Property model_Perception_System_Interface_object_396d_property_f0c1 = "传感器" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Perception_System_Interface_object_396d_output_28a1 refer metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190
+      annotation(
+         localLabel="传感器数据",
+		 initialLocation=(177,60,22,22),
+         shape="rectangle",
+         color="204,242,166;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Perception_System_Interface_object_396d_output_28a1;
+ 
+      
+        annotation(
+          initialLocation=(246,342,187,127),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Interface_object_396d;
+
+      Object model_Perception_System_Interface_object_22ce refer metaObject_Part_Propety
+        Property model_Perception_System_Interface_object_22ce_property_c1fd = "数据融合模块" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Perception_System_Interface_object_22ce_input_f1e9 refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="传感器数据",
+		 initialLocation=(-12,65,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Perception_System_Interface_object_22ce_input_f1e9;
+ 
+      Point model_Perception_System_Interface_object_22ce_output_f26a refer metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190
+      annotation(
+         localLabel="融合数据",
+		 initialLocation=(78,-12,22,22),
+         shape="rectangle",
+         color="204,242,166;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Perception_System_Interface_object_22ce_output_f26a;
+ 
+      
+        annotation(
+          initialLocation=(552,343,181,125),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Interface_object_22ce;
+
+      Relationship model_Perception_System_Interface_relationship_875d refer metaRelationship_Binding_Connector
+        Role model_Perception_System_Interface_fromrole_94a2 refer metaRole_Binding_Connector_Start
+          annotation(
+            localLabel="绑定连接器始端角色",
+            shape="no"
+          );
+        end model_Perception_System_Interface_fromrole_94a2;
+         Role model_Perception_System_Interface_torole_45d1 refer metaRole_Binding_Connector_End
+          annotation(
+            localLabel="绑定连接器终端角色",
+            shape="no"
+          );
+        end model_Perception_System_Interface_torole_45d1;
+       
+        annotation(
+          localLabel="绑定连接器",
+          shape="solidLine",
+          endLocation=(642,405;640,82),
+          polylineLocation="[0,0,0,92]$[0,-92,0,0];(0.5,0.0);(0.5,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_System_Interface_relationship_875d;
+ 
+      Relationship model_Perception_System_Interface_relationship_f409 refer metaRelationship_Binding_Connector
+        Role model_Perception_System_Interface_fromrole_7da4 refer metaRole_Binding_Connector_Start
+          annotation(
+            localLabel="绑定连接器始端角色",
+            shape="no"
+          );
+        end model_Perception_System_Interface_fromrole_7da4;
+         Role model_Perception_System_Interface_torole_b7a8 refer metaRole_Binding_Connector_End
+          annotation(
+            localLabel="绑定连接器终端角色",
+            shape="no"
+          );
+        end model_Perception_System_Interface_torole_b7a8;
+       
+        annotation(
+          localLabel="绑定连接器",
+          shape="solidLine",
+          endLocation=(339,405;739,405),
+          polylineLocation="[0,0,-97,0]$[97,0,0,0];(1.0,0.6);(0.0,0.3)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_System_Interface_relationship_f409;
+ 
+    Connect(connector(model_Perception_System_Interface_object_22ce.model_Perception_System_Interface_object_22ce_output_f26a,model_Perception_System_Interface_relationship_875d.model_Perception_System_Interface_fromrole_94a2),connector(model_Perception_System_Interface_object_60a4.model_Perception_System_Interface_object_60a4_input_6e5a,model_Perception_System_Interface_relationship_875d.model_Perception_System_Interface_torole_45d1));
+ 
+    Connect(connector(model_Perception_System_Interface_object_396d.model_Perception_System_Interface_object_396d_output_28a1,model_Perception_System_Interface_relationship_f409.model_Perception_System_Interface_fromrole_7da4),connector(model_Perception_System_Interface_object_22ce.model_Perception_System_Interface_object_22ce_input_f1e9,model_Perception_System_Interface_relationship_f409.model_Perception_System_Interface_torole_b7a8));
+ 
+
+      annotation(
+        localLabel="感知系统接口模型",
+    );
+    
+   end model_Perception_System_Interface;

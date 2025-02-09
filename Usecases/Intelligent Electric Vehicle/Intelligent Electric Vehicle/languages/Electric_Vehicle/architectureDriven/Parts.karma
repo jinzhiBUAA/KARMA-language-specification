@@ -1,0 +1,11 @@
+architectureDriver Part
+    create Graph[Package_Diagram] Part from Graph.Driving_Control_Logic_Analysis_Model;
+    rule Physical{
+        from
+			Object[Part_Property] Obj1;
+		to
+			Object[Block] Part(
+				Component <- Obj1;
+			)
+	}
+end Part

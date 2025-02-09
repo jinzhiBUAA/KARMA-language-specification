@@ -1,0 +1,64 @@
+automaton Intelligent_EV2:
+cont  car2_speed  = 30;
+cont  car2_x  = 250;
+const real car2_y = 0;
+const real car2_radar = 200;
+disc real car2_brake = 0;
+disc bool brake = false;
+disc bool car2_damage = false;
+disc bool line_car2_to_satellite = true;
+disc bool line_car2_to_center = true;
+cont  car2_real_speed  = 0.00027027027;
+cont  car2_longx  = 39.918108992887;
+cont  car2_laty = 116.48996;
+cont  car2_height = 0;
+const real car2_real_radar = 0.0018018018;
+disc real car2_real_brake = 0;
+disc bool car2_real_damage = false;
+
+location Intelligent_EV2_object_Initial_State_4b21:
+initial;
+equation car2_speed' = 0;
+equation car2_x' = 0;
+equation car2_real_speed' = 0;
+equation car2_longx' = 0;
+equation car2_laty' = 0.0000000000001;
+equation car2_height' = 0.0000000000001;
+edge  when time>0 do line_car2_to_center := true,line_car2_to_satellite := true goto Intelligent_EV2_object_Operational_State_93fc;
+
+location Intelligent_EV2_object_Final_State_ccdd:
+equation car2_speed' = 0;
+equation car2_x' = 0;
+equation car2_real_speed' = 0;
+equation car2_longx' = 0;
+equation car2_laty' = -0.0000000000001;
+equation car2_height' = -0.0000000000001;
+
+location Intelligent_EV2_object_Operational_State_7ace:
+equation car2_speed' = car2_brake;
+equation car2_x' = car2_speed;
+equation car2_real_speed' = car2_real_brake;
+equation car2_longx' = car2_real_speed;
+equation car2_laty' = 0.0000000000001;
+equation car2_height' = 0.0000000000001;
+edge  when car2_x>1380 do line_car2_to_center := true,line_car2_to_satellite := true,car2_brake := 0,car2_damage := true,car2_real_brake := 0,car2_real_damage := true goto Intelligent_EV2_object_Final_State_bfa5;
+edge  when car2_speed<0 do line_car2_to_center := true,line_car2_to_satellite := true,car2_brake := 0,car2_real_brake := 0 goto Intelligent_EV2_object_Final_State_ccdd;
+
+location Intelligent_EV2_object_Final_State_bfa5:
+equation car2_speed' = 0;
+equation car2_x' = 0;
+equation car2_real_speed' = 0;
+equation car2_longx' = 0;
+equation car2_laty' = -0.0000000000001;
+equation car2_height' = -0.0000000000001;
+
+location Intelligent_EV2_object_Operational_State_93fc:
+equation car2_speed' = 0;
+equation car2_x' = car2_speed;
+equation car2_real_speed' = 0;
+equation car2_longx' = car2_real_speed;
+equation car2_laty' = 0.0000000000001;
+equation car2_height' = 0.0000000000001;
+edge  when car2_x+car2_radar>1380 do line_car2_to_center := true,line_car2_to_satellite := true,car2_brake := -8,brake := true,car2_real_brake := -0.000072072072 goto Intelligent_EV2_object_Operational_State_7ace;
+
+end

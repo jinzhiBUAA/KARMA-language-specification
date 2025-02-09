@@ -1,0 +1,263 @@
+    partial Model model_Vehicle_Control_System_Interface instanceof metaGraph_Internal_Block_Diagram
+    
+      Object model_Vehicle_Control_System_Interface_object_f77f refer metaObject_Part_Propety
+        Property model_Vehicle_Control_System_Interface_object_f77f_property_4fc0 = "加速系统" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Vehicle_Control_System_Interface_object_f77f_input_3e5f refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="加速命令",
+		 initialLocation=(-12,66,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Vehicle_Control_System_Interface_object_f77f_input_3e5f;
+ 
+      
+        annotation(
+          initialLocation=(545,90,169,97),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Interface_object_f77f;
+
+      Object model_Vehicle_Control_System_Interface_object_b4c2 refer metaObject_Part_Propety
+        Property model_Vehicle_Control_System_Interface_object_b4c2_property_5c69 = "制动系统" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Vehicle_Control_System_Interface_object_b4c2_input_24ca refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="减速命令",
+		 initialLocation=(-12,49,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Vehicle_Control_System_Interface_object_b4c2_input_24ca;
+ 
+      
+        annotation(
+          initialLocation=(546,228,167,91),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Interface_object_b4c2;
+
+      Object model_Vehicle_Control_System_Interface_object_a47c refer metaObject_Part_Propety
+        Property model_Vehicle_Control_System_Interface_object_a47c_property_f25b = "决策控制系统" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Vehicle_Control_System_Interface_object_a47c_output_22f0 refer metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190
+      annotation(
+         localLabel="转向命令",
+		 initialLocation=(159,63,22,22),
+         shape="rectangle",
+         color="204,242,166;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Vehicle_Control_System_Interface_object_a47c_output_22f0;
+ 
+      Point model_Vehicle_Control_System_Interface_object_a47c_output_98a0 refer metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190
+      annotation(
+         localLabel="加速命令",
+		 initialLocation=(159,6,22,22),
+         shape="rectangle",
+         color="204,242,166;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Vehicle_Control_System_Interface_object_a47c_output_98a0;
+ 
+      Point model_Vehicle_Control_System_Interface_object_a47c_output_87ce refer metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190
+      annotation(
+         localLabel="减速命令",
+		 initialLocation=(159,36,22,22),
+         shape="rectangle",
+         color="204,242,166;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Vehicle_Control_System_Interface_object_a47c_output_87ce;
+ 
+      
+        annotation(
+          initialLocation=(228,234,169,93),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Interface_object_a47c;
+
+      Object model_Vehicle_Control_System_Interface_object_6ac9 refer metaObject_Part_Propety
+        Property model_Vehicle_Control_System_Interface_object_6ac9_property_fa7b = "转向系统" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Vehicle_Control_System_Interface_object_6ac9_input_7293 refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="转向命令",
+		 initialLocation=(-12,49,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Vehicle_Control_System_Interface_object_6ac9_input_7293;
+ 
+      
+        annotation(
+          initialLocation=(546,354,167,85),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Interface_object_6ac9;
+
+      Relationship model_Vehicle_Control_System_Interface_relationship_eefa refer metaRelationship_Binding_Connector
+        Role model_Vehicle_Control_System_Interface_fromrole_0a1d refer metaRole_Binding_Connector_Start
+          annotation(
+            localLabel="绑定连接器始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Interface_fromrole_0a1d;
+         Role model_Vehicle_Control_System_Interface_torole_fb29 refer metaRole_Binding_Connector_End
+          annotation(
+            localLabel="绑定连接器终端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Interface_torole_fb29;
+       
+        annotation(
+          localLabel="",
+          shape="solidLine",
+          endLocation=(312,280;755,54),
+          polylineLocation="[0,0,-126,84]$[63,0,-63,84]$[63,-84,-63,0]$[126,-84,0,0];(1.0,0.6);(0.0,0.6)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Interface_relationship_eefa;
+ 
+      Relationship model_Vehicle_Control_System_Interface_relationship_2c1c refer metaRelationship_Binding_Connector
+        Role model_Vehicle_Control_System_Interface_fromrole_a11c refer metaRole_Binding_Connector_Start
+          annotation(
+            localLabel="绑定连接器始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Interface_fromrole_a11c;
+         Role model_Vehicle_Control_System_Interface_torole_8a02 refer metaRole_Binding_Connector_End
+          annotation(
+            localLabel="绑定连接器终端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Interface_torole_8a02;
+       
+        annotation(
+          localLabel="",
+          shape="solidLine",
+          endLocation=(312,293;756,286),
+          polylineLocation="[0,13,-127,3]$[127,13,0,3];(1.0,0.15);(0.0,0.3)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Interface_relationship_2c1c;
+ 
+      Relationship model_Vehicle_Control_System_Interface_relationship_dc41 refer metaRelationship_Binding_Connector
+        Role model_Vehicle_Control_System_Interface_fromrole_d54b refer metaRole_Binding_Connector_Start
+          annotation(
+            localLabel="绑定连接器始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Interface_fromrole_d54b;
+         Role model_Vehicle_Control_System_Interface_torole_0cce refer metaRole_Binding_Connector_End
+          annotation(
+            localLabel="绑定连接器终端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Interface_torole_0cce;
+       
+        annotation(
+          localLabel="",
+          shape="solidLine",
+          endLocation=(312,296;756,510),
+          polylineLocation="[0,16,-127,-98]$[63,16,-64,-98]$[63,114,-64,0]$[127,114,0,0];(1.0,0.15);(0.0,0.55)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Interface_relationship_dc41;
+ 
+    Connect(connector(model_Vehicle_Control_System_Interface_object_a47c.model_Vehicle_Control_System_Interface_object_a47c_output_98a0,model_Vehicle_Control_System_Interface_relationship_eefa.model_Vehicle_Control_System_Interface_fromrole_0a1d),connector(model_Vehicle_Control_System_Interface_object_f77f.model_Vehicle_Control_System_Interface_object_f77f_input_3e5f,model_Vehicle_Control_System_Interface_relationship_eefa.model_Vehicle_Control_System_Interface_torole_fb29));
+ 
+    Connect(connector(model_Vehicle_Control_System_Interface_object_a47c.model_Vehicle_Control_System_Interface_object_a47c_output_87ce,model_Vehicle_Control_System_Interface_relationship_2c1c.model_Vehicle_Control_System_Interface_fromrole_a11c),connector(model_Vehicle_Control_System_Interface_object_b4c2.model_Vehicle_Control_System_Interface_object_b4c2_input_24ca,model_Vehicle_Control_System_Interface_relationship_2c1c.model_Vehicle_Control_System_Interface_torole_8a02));
+ 
+    Connect(connector(model_Vehicle_Control_System_Interface_object_a47c.model_Vehicle_Control_System_Interface_object_a47c_output_22f0,model_Vehicle_Control_System_Interface_relationship_dc41.model_Vehicle_Control_System_Interface_fromrole_d54b),connector(model_Vehicle_Control_System_Interface_object_6ac9.model_Vehicle_Control_System_Interface_object_6ac9_input_7293,model_Vehicle_Control_System_Interface_relationship_dc41.model_Vehicle_Control_System_Interface_torole_0cce));
+ 
+
+      annotation(
+        localLabel="车辆控制系统接口模型",
+    );
+    
+   end model_Vehicle_Control_System_Interface;

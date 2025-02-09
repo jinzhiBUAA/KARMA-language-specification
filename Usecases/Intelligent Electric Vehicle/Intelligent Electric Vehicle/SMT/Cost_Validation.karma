@@ -1,0 +1,56 @@
+SMTAnalysis Cost_Validation
+ Solve SolverA
+       
+ Real Brake_Pedal_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_kuz.Property [Block_Cost_d016c2_cdb6];
+ Real Acceleration_Pedal_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_ceg.Property [Block_Cost_d016c2_5713];
+ 
+ Real RL_Wheel_Encoder_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_qmb.Property [Block_Cost_d016c2_794c];
+ Real FR_Wheel_Encoder_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_umc.Property [Block_Cost_d016c2_b5a6];
+ Real FL_Wheel_Encoder_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_gzz.Property [Block_Cost_d016c2_5e82];
+ Real RR_Wheel_Encoder_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_mia.Property [Block_Cost_d016c2_a152];
+ 
+ Real Steering_Wheel_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_mho.Property [Block_Cost_d016c2_ff75]; 
+  
+ Real FL_Wheel_Suspension_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_wtf.Property [Block_Cost_d016c2_f72a];
+ Real FR_Wheel_Suspension_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_yho.Property [Block_Cost_d016c2_ee09]; 
+ Real RL_Wheel_Suspension_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_yxe.Property [Block_Cost_d016c2_c0cf]; 
+ Real RR_Wheel_Suspension_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_qyv.Property [Block_Cost_d016c2_184d]; 
+    
+ Real Steering_Wheel_Encoder_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_yvs.Property [Block_Cost_d016c2_75ce];
+ 
+ Real Car_Frame_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_nlc.Property [Block_Cost_d016c2_c0a9];
+ 
+ Real FL_Wheel_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_zme.Property [Block_Cost_d016c2_e124];
+ Real FR_Wheel_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_tou.Property [Block_Cost_d016c2_c5ac];
+ Real RR_Wheel_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_jlt.Property [Block_Cost_d016c2_3efd];
+ Real RL_Wheel_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_fxd.Property [Block_Cost_d016c2_62d8];  
+        
+ Real RR_Wheel_Brake_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_yjj.Property [Block_Cost_d016c2_787b];
+ Real FR_Wheel_Brake_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_fsf.Property [Block_Cost_d016c2_a772];
+ Real RL_Wheel_Brake_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_buq.Property [Block_Cost_d016c2_58c9];
+ Real FL_Wheel_Brake_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_jcm.Property [Block_Cost_d016c2_430d]; 
+ 
+ Real Brake_Pedal_Sensor_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_owj.Property [Block_Cost_d016c2_b411];
+ Real Acceleration_Pedal_Sensor_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_nny.Property [Block_Cost_d016c2_de93]; 
+ 
+ Real Steering_Gear_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_pwa.Property [Block_Cost_d016c2_ff8c]; 
+ 
+ Real Gear_Box_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_nil.Property [Block_Cost_d016c2_94ea];
+ 
+ Real Motor_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_xuq.Property [Block_Cost_d016c2_0a9e];
+ 
+ Real Battery_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_mdz.Property [Block_Cost_d016c2_4483]; 
+    
+ Real Controller_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_upr.Property [Block_Cost_d016c2_54ac];
+
+ Real Regenerative_Braking_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.Component_ldz.Property [Block_Cost_d016c2_f605];
+
+ Real Target_Cost =Electric_Vehicle.Driving_Control_Breakdown_Structure_Model.TarModel_Package_Diagram_instanqerhv_object_Model_Object_bbde.Property [Model_Object_Name_3906af_3250];
+
+ Real Cost =Brake_Pedal_Cost+Acceleration_Pedal_Cost+RL_Wheel_Encoder_Cost+FR_Wheel_Encoder_Cost+FL_Wheel_Encoder_Cost+RR_Wheel_Encoder_Cost+Steering_Wheel_Cost+FL_Wheel_Suspension_Cost+FR_Wheel_Suspension_Cost+RL_Wheel_Suspension_Cost+RR_Wheel_Suspension_Cost+Steering_Wheel_Encoder_Cost+Car_Frame_Cost+FL_Wheel_Cost+FR_Wheel_Cost+RR_Wheel_Cost+RL_Wheel_Cost+RR_Wheel_Brake_Cost+FR_Wheel_Brake_Cost+RL_Wheel_Brake_Cost+FL_Wheel_Brake_Cost+Brake_Pedal_Sensor_Cost+Acceleration_Pedal_Sensor_Cost+Steering_Gear_Cost+Gear_Box_Cost+Motor_Cost+Battery_Cost+Controller_Cost+Regenerative_Braking_Cost;
+
+ SolverA.add(Target_Cost>=Cost);
+ SolverA.check; 
+ 
+end SolverA
+end Cost_Validation

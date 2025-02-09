@@ -1,0 +1,68 @@
+   partial Graph Analysis_Function_Type
+    Object Out_Flow_Port_Object;
+    Object In_Flow_Port_Object;
+    Object Generic_Constraint;
+    Object Requirement;
+    Object Comment_Object;
+    Object Client_Port_Object;
+    Object Power_Port_Object;
+    Object Server_Port_Object;
+    Object Quality_Requirement;
+    Object User_Attributed_Element;
+    Object In_Out_Flow_Port_Object;
+    Object Analysis_Function_Prototype;
+    Relationship Client_Server_Interface;
+    Relationship Comment;
+    Relationship Allocation;
+    Relationship Realization;
+    Relationship Derive_Requirement;
+    Relationship Satisfy;
+    Relationship Power;
+    Relationship Flow;
+    Constraint (
+    bind connector(Client_Port_Object,Client_Server_Interface.Client_Server_Interface_Incoming),
+    bind connector(Analysis_Function_Prototype.Analysis_Function_Prototype_Client_Port_40b5b2,Client_Server_Interface.Client_Server_Interface_Incoming),
+    bind connector(Client_Port_Object,Client_Server_Interface.Client_Server_Interface_Outgoing),
+    bind connector(Analysis_Function_Prototype.Analysis_Function_Prototype_Server_Port_e1b245,Client_Server_Interface.Client_Server_Interface_Outgoing),
+    bind connector(Analysis_Function_Prototype,Realization.Realization_Incoming),
+    bind connector(Analysis_Function_Prototype,Realization.Realization_Outgoing),
+    bind connector(Out_Flow_Port_Object,Flow.Flow_Incoming),
+    bind connector(In_Flow_Port_Object,Flow.Flow_Incoming),
+    bind connector(Analysis_Function_Prototype.Analysis_Function_Prototype_In_Out_Flow_Port_e56310,Flow.Flow_Incoming),
+    bind connector(Analysis_Function_Prototype.Analysis_Function_Prototype_Out_Flow_Port_04b18f,Flow.Flow_Incoming),
+    bind connector(Out_Flow_Port_Object,Comment.Comment_Incoming),
+    bind connector(In_Flow_Port_Object,Comment.Comment_Incoming),
+    bind connector(Requirement,Comment.Comment_Incoming),
+    bind connector(Client_Port_Object,Comment.Comment_Incoming),
+    bind connector(Power_Port_Object,Comment.Comment_Incoming),
+    bind connector(Server_Port_Object,Comment.Comment_Incoming),
+    bind connector(Quality_Requirement,Comment.Comment_Incoming),
+    bind connector(In_Out_Flow_Port_Object,Comment.Comment_Incoming),
+    bind connector(Analysis_Function_Prototype,Comment.Comment_Incoming),
+    bind connector(Analysis_Function_Prototype,Satisfy.Satisfy_Incoming),
+    bind connector(Analysis_Function_Prototype,Allocation.Allocation_Incoming),
+    bind connector(Requirement,Derive_Requirement.Derive_Requirement_Incoming),
+    bind connector(Quality_Requirement,Derive_Requirement.Derive_Requirement_Incoming),
+    bind connector(Analysis_Function_Prototype,Allocation.Allocation_Outgoing),
+    bind connector(Power_Port_Object,Power.Power_Outgoing),
+    bind connector(Analysis_Function_Prototype.Analysis_Function_Prototype_Power_Port_dc8a0a,Power.Power_Outgoing),
+    bind connector(Out_Flow_Port_Object,Flow.Flow_Outgoing),
+    bind connector(Analysis_Function_Prototype.Analysis_Function_Prototype_In_Flow_Port_aa09ff,Flow.Flow_Outgoing),
+    bind connector(Analysis_Function_Prototype.Analysis_Function_Prototype_In_Out_Flow_Port_e56310,Flow.Flow_Outgoing),
+    bind connector(In_Out_Flow_Port_Object,Flow.Flow_Outgoing),
+    bind connector(Generic_Constraint,Comment.Comment_Outgoing),
+    bind connector(Comment_Object,Comment.Comment_Outgoing),
+    bind connector(User_Attributed_Element,Comment.Comment_Outgoing),
+    bind connector(Power_Port_Object,Power.Power_Incoming),
+    bind connector(Analysis_Function_Prototype.Analysis_Function_Prototype_Power_Port_dc8a0a,Power.Power_Incoming),
+    bind connector(Requirement,Derive_Requirement.Derive_Requirement_Outgoing),
+    bind connector(Quality_Requirement,Derive_Requirement.Derive_Requirement_Outgoing),
+    bind connector(Requirement,Satisfy.Satisfy_Outgoing),
+    bind connector(Quality_Requirement,Satisfy.Satisfy_Outgoing),
+    );
+    annotation(
+        localLabel="分析功能类型",
+        type = diagram,
+        description="",
+       );
+        end Analysis_Function_Type;

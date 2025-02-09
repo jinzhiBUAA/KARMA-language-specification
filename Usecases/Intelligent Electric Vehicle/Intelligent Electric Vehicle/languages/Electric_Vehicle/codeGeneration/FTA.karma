@@ -1,0 +1,66 @@
+codeGenerator FTA
+    File file1 = File("D:/demo.jl");
+		entrypoint rule forheadline( ){
+		to
+			String e(
+				e <- "using BayesNets;bn=DiscreteBayesNet();";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	rule forObject1{
+		from
+			Object[Fault_Bottom_Event] obj1;		
+		in	Model[Brake_Insensitivity_FTA] FTA;
+		using{
+				Template forObject1(an1,an2) =<% 
+				push!(bn,DiscreteCPD(:<an1>,<an2>))
+				%>;	
+				}
+		to
+			String e(
+				e<-forObject1(obj1.Property["故障代号"],obj1.Property["概率"]);
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	rule forObject2{
+		from
+			Object[Fault_Intermediate_Event] obj2;		
+		in	Model[Brake_Insensitivity_FTA] FTA;
+		using{
+				Template forObject2(bn1,bn2) =<% 
+				push!(bn,DiscreteCPD(:<bn1>,<bn2>))
+				%>;	
+				}
+		to
+			String e(
+				e<-forObject2(obj2.Property["故障代号"],obj2.Property["概率"]);
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+		rule forObject3{
+		from
+			Object[Fault_Top_Event] obj3;		
+		in	Model[Brake_Insensitivity_FTA] FTA;
+		using{
+				Template forObject3(cn1,cn2) =<% 
+				push!(bn,DiscreteCPD(:<cn1>,<cn2>))
+				<cn1>=convert(DataFrame,infer(bn,:<cn1>))
+				println(<cn1>)
+				%>;	
+				}
+		to
+			String e(
+				e<-forObject3(obj3.Property["故障代号"],obj3.Property["概率"]);
+			)
+			do{
+			file1.append(e);
+		}		
+	}
+	
+end FTA

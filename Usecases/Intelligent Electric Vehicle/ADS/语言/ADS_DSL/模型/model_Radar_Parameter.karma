@@ -1,0 +1,74 @@
+    partial Model model_Radar_Parameter instanceof metaGraph_Parameter_Diagram
+      Object model_Radar_Parameter_object_6337 refer metaObject_Moe
+        Property model_Radar_Parameter_object_6337_property_eca8 = "mm" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "分辨率",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(18,107,121,57),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Radar_Parameter_object_6337;
+
+      Object model_Radar_Parameter_object_6f14 refer metaObject_Moe
+        Property model_Radar_Parameter_object_6f14_property_b5fc = "m" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "检测范围",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(16,173,125,57),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Radar_Parameter_object_6f14;
+
+      Object model_Radar_Parameter_object_c461 refer metaObject_Moe
+        Property model_Radar_Parameter_object_c461_property_8006 = "mm" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "检测精度",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(16,239,125,63),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Radar_Parameter_object_c461;
+
+      Object model_Radar_Parameter_object_bfb8 refer metaObject_Moe
+        Property model_Radar_Parameter_object_bfb8_property_5457 = "元" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(39,209,140,57),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Radar_Parameter_object_bfb8;
+
+
+      annotation(
+        localLabel="雷达参数模型",
+    );
+   end model_Radar_Parameter;

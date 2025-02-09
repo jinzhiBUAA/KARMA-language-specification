@@ -1,0 +1,23 @@
+   Object metaObject_Vehicle_Feature
+      initial Property unique metaObject_Vehicle_Feature_metaProperty_Short_Name_9fb514 = "null" extends metaProperty_Short_Name annotation(localLabel ="简称");
+      initial Property unique metaObject_Vehicle_Feature_metaProperty_Name_1db69f = "null" extends metaProperty_Name annotation(localLabel ="名称");
+      initial Property unique metaObject_Vehicle_Feature_metaProperty_Cardinality_c3e5ff = "null" extends metaProperty_Cardinality annotation(localLabel ="基数");
+      initial Property unique metaObject_Vehicle_Feature_metaProperty_Actual_Binding_Time_e4f6bb = "null" extends metaProperty_Actual_Binding_Time annotation(localLabel ="实际绑定时间");
+      initial Property unique metaObject_Vehicle_Feature_metaProperty_Require_Binding_Time_9ebde2 = "null" extends metaProperty_Require_Binding_Time annotation(localLabel ="要求绑定时间");
+      initial Property unique metaObject_Vehicle_Feature_metaProperty_Feature_Parameter_8d0922 = "null" extends metaProperty_Feature_Parameter annotation(localLabel ="特征参数");
+      initial Property unique metaObject_Vehicle_Feature_metaProperty_Description_8bbff0 = "null" extends metaProperty_Description annotation(localLabel ="描述");
+      initial Property unique metaObject_Vehicle_Feature_metaProperty_Is_Customer_Visible_adf8c6 = false extends metaProperty_Is_Customer_Visible annotation(localLabel ="客户是否可见");
+      initial Property unique metaObject_Vehicle_Feature_metaProperty_Is_Design_Variability_Rationale_828942 = false extends metaProperty_Is_Design_Variability_Rationale annotation(localLabel ="设计可变性是否合理");
+      initial Property unique metaObject_Vehicle_Feature_metaProperty_Is_Removed_162e7d = false extends metaProperty_Is_Removed annotation(localLabel ="是否被移除");
+      initial Property unique metaObject_Vehicle_Feature_metaProperty_Deviation_Attribute_Set_35996f = "null" extends metaProperty_Deviation_Attribute_Set annotation(localLabel ="偏差属性集");
+   annotation(
+      localLabel="车辆特征",
+      description="",
+      icon="VehicleFeatureIcon.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end metaObject_Vehicle_Feature;
+ 

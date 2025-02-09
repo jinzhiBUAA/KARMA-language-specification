@@ -1,0 +1,1286 @@
+    partial Model Lateral_Controller_Analysis_Function_Model instanceof Analysis_Function_Type
+    
+      Object Lateral_Controller_Analysis_Function_Model_object_Out_Flow_Port_Object_4bda refer Out_Flow_Port_Object
+        Property Out_Flow_Port_Object_Name_bd1383_116a = "转向扭矩请求" refer Out_Flow_Port_Object_Name_bd1383 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1000,15,123,68),
+          localLabel="流出口",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Lateral_Controller_Analysis_Function_Model_object_Out_Flow_Port_Object_4bda;
+
+      Object Lateral_Controller_Analysis_Function_Model_object_Out_Flow_Port_Object_d765 refer Out_Flow_Port_Object
+        Property Out_Flow_Port_Object_Name_bd1383_ef0e = "转向轮扭矩请求" refer Out_Flow_Port_Object_Name_bd1383 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1180,470,123,68),
+          localLabel="流出口",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Lateral_Controller_Analysis_Function_Model_object_Out_Flow_Port_Object_d765;
+
+      Object Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_8bcc refer In_Flow_Port_Object
+        Property In_Flow_Port_Object_Name_5fcc59_d95b = "道路标志" refer In_Flow_Port_Object_Name_5fcc59 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(60,88,123,68),
+          localLabel="流入口",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_8bcc;
+
+      Object Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_844d refer In_Flow_Port_Object
+        Property In_Flow_Port_Object_Name_5fcc59_3b75 = "车辆速度" refer In_Flow_Port_Object_Name_5fcc59 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(60,345,123,68),
+          localLabel="流入口",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_844d;
+
+      Object Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_c8d4 refer In_Flow_Port_Object
+        Property In_Flow_Port_Object_Name_5fcc59_332d = "转向轮角度" refer In_Flow_Port_Object_Name_5fcc59 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(60,5,123,68),
+          localLabel="流入口",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_c8d4;
+
+      Object Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_ac25 refer In_Flow_Port_Object
+        Property In_Flow_Port_Object_Name_5fcc59_fb71 = "车辆横向速度" refer In_Flow_Port_Object_Name_5fcc59 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(60,260,123,68),
+          localLabel="流入口",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_ac25;
+
+      Object Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_53b7 refer In_Flow_Port_Object
+        Property In_Flow_Port_Object_Name_5fcc59_c71e = "自动驾驶模式" refer In_Flow_Port_Object_Name_5fcc59 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(60,430,123,68),
+          localLabel="流入口",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_53b7;
+
+      Object Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_37b4 refer In_Flow_Port_Object
+        Property In_Flow_Port_Object_Name_5fcc59_4ecc = "自动驾驶参考转向角度" refer In_Flow_Port_Object_Name_5fcc59 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(965,475,123,68),
+          localLabel="流入口",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_37b4;
+
+      Object Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_6447 refer In_Flow_Port_Object
+        Property In_Flow_Port_Object_Name_5fcc59_d1f0 = "转向角度" refer In_Flow_Port_Object_Name_5fcc59 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(820,15,123,68),
+          localLabel="流入口",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_6447;
+
+      Object Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_dcc3 refer In_Flow_Port_Object
+        Property In_Flow_Port_Object_Name_5fcc59_050e = "偏航率" refer In_Flow_Port_Object_Name_5fcc59 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(60,170,123,68),
+          localLabel="流入口",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_dcc3;
+
+      Object Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_deed refer Analysis_Function_Prototype
+        Property Analysis_Function_Prototype_Name_431b9e_00ec = "手动转向控制" refer Analysis_Function_Prototype_Name_431b9e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_17ed refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="自动驾驶模式",
+		 initialLocation=(-12,215,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_17ed;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_4a65 refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="转向轮角度",
+		 initialLocation=(-12,50,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_4a65;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_c8d3 refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="转向角度",
+		 initialLocation=(251,26,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_c8d3;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_cd20 refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="车辆速度",
+		 initialLocation=(-12,185,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_cd20;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_00bd refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="车辆横向速度",
+		 initialLocation=(-12,155,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_00bd;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_62ce refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="偏航率",
+		 initialLocation=(-12,124,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_62ce;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_e11e refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="道路标志",
+		 initialLocation=(-12,85,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_e11e;
+ 
+      Point Analysis_Function_Prototype_Out_Flow_Port_04b18f_8d77 refer Analysis_Function_Prototype_Out_Flow_Port_04b18f
+      annotation(
+         localLabel="转动角度请求",
+		 initialLocation=(251,205,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_Out_Flow_Port_04b18f_8d77;
+ 
+      Point Analysis_Function_Prototype_Out_Flow_Port_04b18f_3b0b refer Analysis_Function_Prototype_Out_Flow_Port_04b18f
+      annotation(
+         localLabel="转动轮扭矩请求",
+		 initialLocation=(251,95,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_Out_Flow_Port_04b18f_3b0b;
+ 
+      
+        annotation(
+          initialLocation=(432,0,261,273),
+          localLabel="分析功能原型",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_deed;
+
+      Object Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_73a7 refer Analysis_Function_Prototype
+        Property Analysis_Function_Prototype_Name_431b9e_cb74 = "车道居中辅助" refer Analysis_Function_Prototype_Name_431b9e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_d22b refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="自动驾驶模式",
+		 initialLocation=(-12,170,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_d22b;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_4224 refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="转向角度",
+		 initialLocation=(251,60,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_4224;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_16e2 refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="车辆速度",
+		 initialLocation=(-12,140,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_16e2;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_4701 refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="车辆横向速度",
+		 initialLocation=(-12,110,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_4701;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_043d refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="偏航率",
+		 initialLocation=(-12,80,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_043d;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_8c01 refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="道路标志",
+		 initialLocation=(-12,50,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_8c01;
+ 
+      Point Analysis_Function_Prototype_Out_Flow_Port_04b18f_7ccf refer Analysis_Function_Prototype_Out_Flow_Port_04b18f
+      annotation(
+         localLabel="转向角度请求",
+		 initialLocation=(251,135,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_Out_Flow_Port_04b18f_7ccf;
+ 
+      
+        annotation(
+          initialLocation=(432,355,261,218),
+          localLabel="分析功能原型",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_73a7;
+
+      Object Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_0805 refer Analysis_Function_Prototype
+        Property Analysis_Function_Prototype_Name_431b9e_4636 = "驾驶角度组合" refer Analysis_Function_Prototype_Name_431b9e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_92b5 refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="自动驾驶模式",
+		 initialLocation=(25,182,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_92b5;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_edc1 refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="手动转向角度请求",
+		 initialLocation=(-12,59,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_edc1;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_2ed2 refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="变道转向角度请求",
+		 initialLocation=(-12,145,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_2ed2;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_ecb2 refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="自动驾驶参考转向角度",
+		 initialLocation=(115,182,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_ecb2;
+ 
+      Point Analysis_Function_Prototype_Out_Flow_Port_04b18f_012e refer Analysis_Function_Prototype_Out_Flow_Port_04b18f
+      annotation(
+         localLabel="转向角度请求",
+		 initialLocation=(183,90,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_Out_Flow_Port_04b18f_012e;
+ 
+      
+        annotation(
+          initialLocation=(895,145,193,192),
+          localLabel="分析功能原型",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_0805;
+
+      Object Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_b8ff refer Analysis_Function_Prototype
+        Property Analysis_Function_Prototype_Name_431b9e_8da1 = "参考转向角度控制" refer Analysis_Function_Prototype_Name_431b9e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_4099 refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="转向角度请求",
+		 initialLocation=(-12,115,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_4099;
+ 
+      Point Analysis_Function_Prototype_In_Flow_Port_aa09ff_5e05 refer Analysis_Function_Prototype_In_Flow_Port_aa09ff
+      annotation(
+         localLabel="转向角度",
+		 initialLocation=(16,-12,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_In_Flow_Port_aa09ff_5e05;
+ 
+      Point Analysis_Function_Prototype_Out_Flow_Port_04b18f_88aa refer Analysis_Function_Prototype_Out_Flow_Port_04b18f
+      annotation(
+         localLabel="转向扭矩请求",
+		 initialLocation=(55,172,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Analysis_Function_Prototype_Out_Flow_Port_04b18f_88aa;
+ 
+      
+        annotation(
+          initialLocation=(1180,120,193,182),
+          localLabel="分析功能原型",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_b8ff;
+
+      Relationship Flow_2ba4 refer Flow
+        Role Flow_Incoming_4c52 refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_4c52;
+         Role Flow_Outgoing_e1dd refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_e1dd;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[61,21,-249,-1]$[300,21,-10,-1]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_2ba4;
+ 
+      Relationship Flow_b9b2 refer Flow
+        Role Flow_Incoming_ae89 refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_ae89;
+         Role Flow_Outgoing_5cb0 refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_5cb0;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[62,-26,-249,0]$[301,-26,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_b9b2;
+ 
+      Relationship Flow_9837 refer Flow
+        Role Flow_Incoming_9396 refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_9396;
+         Role Flow_Outgoing_a63a refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_a63a;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[62,-19,-249,51]$[91,-19,-220,51]$[91,-68,-220,2]$[301,-68,-10,2]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_9837;
+ 
+      Relationship Flow_be6b refer Flow
+        Role Flow_Incoming_162b refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_162b;
+         Role Flow_Outgoing_d3e6 refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_d3e6;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[62,-24,-249,105]$[111,-24,-200,105]$[111,-129,-200,0]$[301,-129,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_be6b;
+ 
+      Relationship Flow_dcf5 refer Flow
+        Role Flow_Incoming_61ab refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_61ab;
+         Role Flow_Outgoing_63d3 refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_63d3;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[62,-20,-249,163]$[136,-20,-175,163]$[136,-183,-175,0]$[301,-183,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_dcf5;
+ 
+      Relationship Flow_708e refer Flow
+        Role Flow_Incoming_1ea2 refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_1ea2;
+         Role Flow_Outgoing_5157 refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_5157;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[61,-24,-249,215]$[155,-24,-155,215]$[155,-239,-155,0]$[300,-239,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_708e;
+ 
+      Relationship Flow_b40f refer Flow
+        Role Flow_Incoming_ec7c refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_ec7c;
+         Role Flow_Outgoing_8aad refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_8aad;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[-61,-11,127,1]$[-179,-11,9,1]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_b40f;
+ 
+      Relationship Flow_394c refer Flow
+        Role Flow_Incoming_bc04 refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_bc04;
+         Role Flow_Outgoing_84b7 refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_84b7;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[62,-1,-249,-295]$[271,-1,-40,-295]$[271,294,-40,0]$[301,294,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_394c;
+ 
+      Relationship Flow_1214 refer Flow
+        Role Flow_Incoming_f4d7 refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_f4d7;
+         Role Flow_Outgoing_f309 refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_f309;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[62,8,-249,-235]$[251,8,-60,-235]$[251,243,-60,0]$[301,243,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_1214;
+ 
+      Relationship Flow_d1d9 refer Flow
+        Role Flow_Incoming_885b refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_885b;
+         Role Flow_Outgoing_dafb refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_dafb;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[62,18,-249,-165]$[221,18,-90,-165]$[221,183,-90,0]$[301,183,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_d1d9;
+ 
+      Relationship Flow_785a refer Flow
+        Role Flow_Incoming_261c refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_261c;
+         Role Flow_Outgoing_ba37 refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_ba37;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[62,18,-249,-110]$[196,18,-115,-110]$[196,121,-115,-7]$[301,121,-10,-7]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_785a;
+ 
+      Relationship Flow_6eb2 refer Flow
+        Role Flow_Incoming_8da0 refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_8da0;
+         Role Flow_Outgoing_122c refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_122c;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[35,34,-275,-39]$[35,73,-275,0]$[300,73,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_6eb2;
+ 
+      Relationship Flow_3a54 refer Flow
+        Role Flow_Incoming_7e18 refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_7e18;
+         Role Flow_Outgoing_4d57 refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_4d57;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[-46,34,142,-344]$[-46,378,142,0]$[-179,378,9,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_3a54;
+ 
+      Relationship Flow_8aa4 refer Flow
+        Role Flow_Incoming_d40a refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_d40a;
+         Role Flow_Outgoing_b8bd refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_b8bd;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(572,135;1215,280),
+          polylineLocation="[10,-1,-190,0]$[190,-1,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_8aa4;
+ 
+      Relationship Flow_38d0 refer Flow
+        Role Flow_Incoming_5ddc refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_5ddc;
+         Role Flow_Outgoing_a15e refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_a15e;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(571,462;1215,54),
+          polylineLocation="[9,-2,-191,198]$[167,-2,-33,198]$[167,-200,-33,0]$[190,-200,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_38d0;
+ 
+      Relationship Flow_2bb5 refer Flow
+        Role Flow_Incoming_ce77 refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_ce77;
+         Role Flow_Outgoing_8e4d refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_8e4d;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[2,34,-809,159]$[2,133,-809,258]$[811,133,0,258]$[811,-116,0,9]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_2bb5;
+ 
+      Relationship Flow_47d7 refer Flow
+        Role Flow_Incoming_d12a refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_d12a;
+         Role Flow_Outgoing_ddb4 refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_ddb4;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[-5,-34,0,138]$[-5,-163,0,9]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_47d7;
+ 
+      Relationship Flow_0883 refer Flow
+        Role Flow_Incoming_4583 refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_4583;
+         Role Flow_Outgoing_74c5 refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_74c5;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(571,136;1498,127),
+          polylineLocation="[9,0,-359,57]$[368,0,0,57]$[368,-24,0,33]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_0883;
+ 
+      Relationship Flow_5430 refer Flow
+        Role Flow_Incoming_3a94 refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_3a94;
+         Role Flow_Outgoing_de68 refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_de68;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(1000,236;1356,211),
+          polylineLocation="[9,-5,-81,-5]$[80,-5,-10,-5]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_5430;
+ 
+      Relationship Flow_e88b refer Flow
+        Role Flow_Incoming_7670 refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_7670;
+         Role Flow_Outgoing_b266 refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_b266;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(1272,221;1272,729),
+          polylineLocation="[-4,10,0,-192]$[-4,168,0,-34]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_e88b;
+ 
+      Relationship Flow_982f refer Flow
+        Role Flow_Incoming_5ab6 refer Flow_Incoming
+          annotation(
+            localLabel="流始端",
+            shape="no"
+          );
+        end Flow_Incoming_5ab6;
+         Role Flow_Outgoing_f455 refer Flow_Outgoing
+          annotation(
+            localLabel="流终端",
+            shape="no"
+          );
+        end Flow_Outgoing_f455;
+       
+        annotation(
+          localLabel="流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[2,-33,-325,-103]$[2,-63,-325,-133]$[327,-63,0,-133]$[327,60,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Flow_982f;
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_c8d4,Flow_2ba4.Flow_Incoming_4c52),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_deed.Analysis_Function_Prototype_In_Flow_Port_aa09ff_4a65,Flow_2ba4.Flow_Outgoing_e1dd));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_8bcc,Flow_b9b2.Flow_Incoming_ae89),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_deed.Analysis_Function_Prototype_In_Flow_Port_aa09ff_e11e,Flow_b9b2.Flow_Outgoing_5cb0));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_dcc3,Flow_9837.Flow_Incoming_9396),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_deed.Analysis_Function_Prototype_In_Flow_Port_aa09ff_62ce,Flow_9837.Flow_Outgoing_a63a));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_ac25,Flow_be6b.Flow_Incoming_162b),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_deed.Analysis_Function_Prototype_In_Flow_Port_aa09ff_00bd,Flow_be6b.Flow_Outgoing_d3e6));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_844d,Flow_dcf5.Flow_Incoming_61ab),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_deed.Analysis_Function_Prototype_In_Flow_Port_aa09ff_cd20,Flow_dcf5.Flow_Outgoing_63d3));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_53b7,Flow_708e.Flow_Incoming_1ea2),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_deed.Analysis_Function_Prototype_In_Flow_Port_aa09ff_17ed,Flow_708e.Flow_Outgoing_5157));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_6447,Flow_b40f.Flow_Incoming_ec7c),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_deed.Analysis_Function_Prototype_In_Flow_Port_aa09ff_c8d3,Flow_b40f.Flow_Outgoing_8aad));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_8bcc,Flow_394c.Flow_Incoming_bc04),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_73a7.Analysis_Function_Prototype_In_Flow_Port_aa09ff_8c01,Flow_394c.Flow_Outgoing_84b7));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_dcc3,Flow_1214.Flow_Incoming_f4d7),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_73a7.Analysis_Function_Prototype_In_Flow_Port_aa09ff_043d,Flow_1214.Flow_Outgoing_f309));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_ac25,Flow_d1d9.Flow_Incoming_885b),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_73a7.Analysis_Function_Prototype_In_Flow_Port_aa09ff_4701,Flow_d1d9.Flow_Outgoing_dafb));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_844d,Flow_785a.Flow_Incoming_261c),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_73a7.Analysis_Function_Prototype_In_Flow_Port_aa09ff_16e2,Flow_785a.Flow_Outgoing_ba37));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_53b7,Flow_6eb2.Flow_Incoming_8da0),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_73a7.Analysis_Function_Prototype_In_Flow_Port_aa09ff_d22b,Flow_6eb2.Flow_Outgoing_122c));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_6447,Flow_3a54.Flow_Incoming_7e18),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_73a7.Analysis_Function_Prototype_In_Flow_Port_aa09ff_4224,Flow_3a54.Flow_Outgoing_4d57));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_deed.Analysis_Function_Prototype_Out_Flow_Port_04b18f_8d77,Flow_8aa4.Flow_Incoming_d40a),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_0805.Analysis_Function_Prototype_In_Flow_Port_aa09ff_edc1,Flow_8aa4.Flow_Outgoing_b8bd));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_73a7.Analysis_Function_Prototype_Out_Flow_Port_04b18f_7ccf,Flow_38d0.Flow_Incoming_5ddc),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_0805.Analysis_Function_Prototype_In_Flow_Port_aa09ff_2ed2,Flow_38d0.Flow_Outgoing_a15e));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_53b7,Flow_2bb5.Flow_Incoming_ce77),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_0805.Analysis_Function_Prototype_In_Flow_Port_aa09ff_92b5,Flow_2bb5.Flow_Outgoing_8e4d));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_37b4,Flow_47d7.Flow_Incoming_d12a),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_0805.Analysis_Function_Prototype_In_Flow_Port_aa09ff_ecb2,Flow_47d7.Flow_Outgoing_ddb4));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_deed.Analysis_Function_Prototype_Out_Flow_Port_04b18f_3b0b,Flow_0883.Flow_Incoming_4583),connector(Lateral_Controller_Analysis_Function_Model_object_Out_Flow_Port_Object_4bda,Flow_0883.Flow_Outgoing_74c5));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_0805.Analysis_Function_Prototype_Out_Flow_Port_04b18f_012e,Flow_5430.Flow_Incoming_3a94),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_b8ff.Analysis_Function_Prototype_In_Flow_Port_aa09ff_4099,Flow_5430.Flow_Outgoing_de68));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_b8ff.Analysis_Function_Prototype_Out_Flow_Port_04b18f_88aa,Flow_e88b.Flow_Incoming_7670),connector(Lateral_Controller_Analysis_Function_Model_object_Out_Flow_Port_Object_d765,Flow_e88b.Flow_Outgoing_b266));
+ 
+    Connect(connector(Lateral_Controller_Analysis_Function_Model_object_In_Flow_Port_Object_6447,Flow_982f.Flow_Incoming_5ab6),connector(Lateral_Controller_Analysis_Function_Model_object_Analysis_Function_Prototype_b8ff.Analysis_Function_Prototype_In_Flow_Port_aa09ff_5e05,Flow_982f.Flow_Outgoing_f455));
+ 
+
+      annotation(
+        localLabel="横向控制功能分析模型",
+    );
+    
+   end Lateral_Controller_Analysis_Function_Model;

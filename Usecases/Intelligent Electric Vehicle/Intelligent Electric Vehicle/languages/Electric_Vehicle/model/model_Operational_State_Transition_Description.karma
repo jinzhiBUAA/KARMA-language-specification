@@ -1,0 +1,689 @@
+    partial Model model_Operational_State_Transition_Description instanceof Operational_State_Transition_Description
+    
+      Object Operational_State_Transition_Description_object_Divide_Node_776f refer Divide_Node
+      
+        annotation(
+          initialLocation=(525,90,8,203),
+          localLabel="分支节点",
+          shape="narrowSolidRectangle",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_State_Transition_Description_object_Divide_Node_776f;
+
+      Object Operational_State_Transition_Description_object_Final_State_cb81 refer Final_State
+      
+        annotation(
+          initialLocation=(800,345,86,83),
+          localLabel="最终状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Operational_State_Transition_Description_object_Final_State_cb81;
+
+      Object Operational_State_Transition_Description_object_Join_Horizontal_d4bd refer Join_Horizontal
+      
+        annotation(
+          initialLocation=(1105,90,8,203),
+          localLabel="集合节点",
+          shape="narrowSolidRectangle",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_State_Transition_Description_object_Join_Horizontal_d4bd;
+
+      Object Operational_State_Transition_Description_object_Initial_State_631c refer Initial_State
+      
+        annotation(
+          initialLocation=(30,15,86,81),
+          localLabel="初始状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Operational_State_Transition_Description_object_Initial_State_631c;
+
+      Object Operational_State_Transition_Description_object_Operational_State_5eb2 refer Operational_State
+        Property Operational_State_Name_2415cd_a72e = "雷达扫描" refer Operational_State_Name_2415cd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Description_9cfe4c_f897 = "电动汽车B雷达扫描障碍物" refer Operational_State_Description_9cfe4c annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(135,105,148,83),
+          localLabel="作战状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_State_Transition_Description_object_Operational_State_5eb2;
+
+      Object Operational_State_Transition_Description_object_Operational_State_e70b refer Operational_State
+        Property Operational_State_Name_2415cd_489c = "接收雷达信号" refer Operational_State_Name_2415cd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Description_9cfe4c_97b6 = "电动汽车B接收雷达反射的障碍物" refer Operational_State_Description_9cfe4c annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(140,225,148,83),
+          localLabel="作战状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_State_Transition_Description_object_Operational_State_e70b;
+
+      Object Operational_State_Transition_Description_object_Operational_State_b257 refer Operational_State
+        Property Operational_State_Name_2415cd_e9da = "请求GPS信号" refer Operational_State_Name_2415cd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Description_9cfe4c_8a83 = "电动汽车B请求GPS信号" refer Operational_State_Description_9cfe4c annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(140,340,148,83),
+          localLabel="作战状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_State_Transition_Description_object_Operational_State_b257;
+
+      Object Operational_State_Transition_Description_object_Operational_State_fe9a refer Operational_State
+        Property Operational_State_Name_2415cd_860a = "接收GPS信号" refer Operational_State_Name_2415cd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Description_9cfe4c_35e7 = "电动汽车B接收GPS信号" refer Operational_State_Description_9cfe4c annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(380,340,148,83),
+          localLabel="作战状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_State_Transition_Description_object_Operational_State_fe9a;
+
+      Object Operational_State_Transition_Description_object_Operational_State_30fe refer Operational_State
+        Property Operational_State_Name_2415cd_1335 = "发送信息" refer Operational_State_Name_2415cd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Description_9cfe4c_1bac = "电动汽车B发送雷达和GPS信息给电动汽车A" refer Operational_State_Description_9cfe4c annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(670,80,148,83),
+          localLabel="作战状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_State_Transition_Description_object_Operational_State_30fe;
+
+      Object Operational_State_Transition_Description_object_Operational_State_1661 refer Operational_State
+        Property Operational_State_Name_2415cd_3ab4 = "接收信息" refer Operational_State_Name_2415cd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Description_9cfe4c_a7e2 = "电动汽车B确认电动汽车A接收信息" refer Operational_State_Description_9cfe4c annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(890,80,148,83),
+          localLabel="作战状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_State_Transition_Description_object_Operational_State_1661;
+
+      Object Operational_State_Transition_Description_object_Operational_State_3af0 refer Operational_State
+        Property Operational_State_Name_2415cd_2aab = "发送信息" refer Operational_State_Name_2415cd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Description_9cfe4c_aa9e = "电动汽车B发送信号给控制中心" refer Operational_State_Description_9cfe4c annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(670,210,148,83),
+          localLabel="作战状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_State_Transition_Description_object_Operational_State_3af0;
+
+      Object Operational_State_Transition_Description_object_Operational_State_36c6 refer Operational_State
+        Property Operational_State_Name_2415cd_0196 = "接受信息" refer Operational_State_Name_2415cd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Description_9cfe4c_a803 = "电动汽车B接收控制中心信息" refer Operational_State_Description_9cfe4c annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(890,210,148,83),
+          localLabel="作战状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_State_Transition_Description_object_Operational_State_36c6;
+
+      Object Operational_State_Transition_Description_object_Operational_State_0bc3 refer Operational_State
+        Property Operational_State_Name_2415cd_a470 = "制动" refer Operational_State_Name_2415cd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operational_State_Description_9cfe4c_bb0a = "车辆B进行制动" refer Operational_State_Description_9cfe4c annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(980,340,148,83),
+          localLabel="作战状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Operational_State_Transition_Description_object_Operational_State_0bc3;
+
+      Relationship Transition_57de refer Transition
+        Role Transition_Incoming_63fd refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_63fd;
+         Role Transition_Outgoing_dfbb refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_dfbb;
+       
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(116,60;320,195),
+          polylineLocation="[43,5,-92,-85]$[142,5,7,-85]$[142,50,7,-40]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_57de;
+ 
+      Relationship Transition_b0be refer Transition
+        Role Transition_Incoming_c3c9 refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_c3c9;
+         Role Transition_Outgoing_d75b refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_d75b;
+       
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(213,187;218,346),
+          polylineLocation="[4,41,-1,-79]$[4,80,-1,-40]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_b0be;
+ 
+      Relationship Transition_7048 refer Transition
+        Role Transition_Incoming_8082 refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_8082;
+         Role Transition_Outgoing_8ed5 refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_8ed5;
+       
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(213,307;213,456),
+          polylineLocation="[-1,41,-1,-74]$[-1,75,-1,-40]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_7048;
+ 
+      Relationship Transition_2757 refer Transition
+        Role Transition_Incoming_8b2c refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_8b2c;
+         Role Transition_Outgoing_9512 refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_9512;
+       
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(214,381;548,381),
+          polylineLocation="[0,0,-94,0]$[94,0,0,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_2757;
+ 
+      Relationship Transition_7ca4 refer Transition
+        Role Transition_Incoming_2bb6 refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_2bb6;
+         Role Transition_Outgoing_df05 refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_df05;
+       
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(453,341;671,-54),
+          polylineLocation="[-1,-40,-30,150]$[-1,-185,-30,5]$[72,-185,43,5]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_7ca4;
+ 
+      Relationship Transition_beec refer Transition
+        Role Transition_Incoming_769d refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_769d;
+         Role Transition_Outgoing_6bda refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_6bda;
+       
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(534,144;814,134),
+          polylineLocation="[5,-47,-208,24]$[140,-47,-73,24]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_beec;
+ 
+      Relationship Transition_9282 refer Transition
+        Role Transition_Incoming_6459 refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_6459;
+         Role Transition_Outgoing_67fa refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_67fa;
+       
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(534,230;814,350),
+          polylineLocation="[5,39,-208,-20]$[140,39,-73,-20]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_9282;
+ 
+      Relationship Transition_7395 refer Transition
+        Role Transition_Incoming_b86d refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_b86d;
+         Role Transition_Outgoing_6954 refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_6954;
+       
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(744,121;1038,121),
+          polylineLocation="[0,0,-74,0]$[74,0,0,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_7395;
+ 
+      Relationship Transition_dd84 refer Transition
+        Role Transition_Incoming_9f1b refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_9f1b;
+         Role Transition_Outgoing_c6e9 refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_c6e9;
+       
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(744,251;1038,251),
+          polylineLocation="[0,0,-74,0]$[74,0,0,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_dd84;
+ 
+      Relationship Transition_a177 refer Transition
+        Role Transition_Incoming_03d0 refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_03d0;
+         Role Transition_Outgoing_c029 refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_c029;
+       
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(1037,131;1321,141),
+          polylineLocation="[73,10,-74,-61]$[142,10,-5,-61]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_a177;
+ 
+      Relationship Transition_fe29 refer Transition
+        Role Transition_Incoming_d0ba refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_d0ba;
+         Role Transition_Outgoing_96bd refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_96bd;
+       
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(1037,221;1321,101),
+          polylineLocation="[73,-30,-74,29]$[142,-30,-5,29]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_fe29;
+ 
+      Relationship Transition_d417 refer Transition
+        Role Transition_Incoming_2a5c refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_2a5c;
+         Role Transition_Outgoing_2410 refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_2410;
+       
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(1114,170;1000,630),
+          polylineLocation="[5,-21,62,-210]$[99,-21,156,-210]$[99,189,156,0]$[16,189,73,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_d417;
+ 
+      Relationship Transition_6de7 refer Transition
+        Role Transition_Incoming_a795 refer Transition_Incoming
+          annotation(
+            localLabel="转换始端",
+            shape="no"
+          );
+        end Transition_Incoming_a795;
+         Role Transition_Outgoing_ee48 refer Transition_Outgoing
+          annotation(
+            localLabel="转换终端",
+            shape="arrowShape"
+          );
+        end Transition_Outgoing_ee48;
+       
+        annotation(
+          localLabel="转换",
+          shape="solidLine",
+          endLocation=(980,386;706,391),
+          polylineLocation="[-74,5,137,-1]$[-168,5,43,-1]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Transition_6de7;
+ 
+    Connect(connector(Operational_State_Transition_Description_object_Initial_State_631c,Transition_57de.Transition_Incoming_63fd),connector(Operational_State_Transition_Description_object_Operational_State_5eb2,Transition_57de.Transition_Outgoing_dfbb));
+ 
+    Connect(connector(Operational_State_Transition_Description_object_Operational_State_5eb2,Transition_b0be.Transition_Incoming_c3c9),connector(Operational_State_Transition_Description_object_Operational_State_e70b,Transition_b0be.Transition_Outgoing_d75b));
+ 
+    Connect(connector(Operational_State_Transition_Description_object_Operational_State_e70b,Transition_7048.Transition_Incoming_8082),connector(Operational_State_Transition_Description_object_Operational_State_b257,Transition_7048.Transition_Outgoing_8ed5));
+ 
+    Connect(connector(Operational_State_Transition_Description_object_Operational_State_b257,Transition_2757.Transition_Incoming_8b2c),connector(Operational_State_Transition_Description_object_Operational_State_fe9a,Transition_2757.Transition_Outgoing_9512));
+ 
+    Connect(connector(Operational_State_Transition_Description_object_Operational_State_fe9a,Transition_7ca4.Transition_Incoming_2bb6),connector(Operational_State_Transition_Description_object_Divide_Node_776f,Transition_7ca4.Transition_Outgoing_df05));
+ 
+    Connect(connector(Operational_State_Transition_Description_object_Divide_Node_776f,Transition_beec.Transition_Incoming_769d),connector(Operational_State_Transition_Description_object_Operational_State_30fe,Transition_beec.Transition_Outgoing_6bda));
+ 
+    Connect(connector(Operational_State_Transition_Description_object_Divide_Node_776f,Transition_9282.Transition_Incoming_6459),connector(Operational_State_Transition_Description_object_Operational_State_3af0,Transition_9282.Transition_Outgoing_67fa));
+ 
+    Connect(connector(Operational_State_Transition_Description_object_Operational_State_30fe,Transition_7395.Transition_Incoming_b86d),connector(Operational_State_Transition_Description_object_Operational_State_1661,Transition_7395.Transition_Outgoing_6954));
+ 
+    Connect(connector(Operational_State_Transition_Description_object_Operational_State_3af0,Transition_dd84.Transition_Incoming_9f1b),connector(Operational_State_Transition_Description_object_Operational_State_36c6,Transition_dd84.Transition_Outgoing_c6e9));
+ 
+    Connect(connector(Operational_State_Transition_Description_object_Operational_State_1661,Transition_a177.Transition_Incoming_03d0),connector(Operational_State_Transition_Description_object_Join_Horizontal_d4bd,Transition_a177.Transition_Outgoing_c029));
+ 
+    Connect(connector(Operational_State_Transition_Description_object_Operational_State_36c6,Transition_fe29.Transition_Incoming_d0ba),connector(Operational_State_Transition_Description_object_Join_Horizontal_d4bd,Transition_fe29.Transition_Outgoing_96bd));
+ 
+    Connect(connector(Operational_State_Transition_Description_object_Join_Horizontal_d4bd,Transition_d417.Transition_Incoming_2a5c),connector(Operational_State_Transition_Description_object_Operational_State_0bc3,Transition_d417.Transition_Outgoing_2410));
+ 
+    Connect(connector(Operational_State_Transition_Description_object_Operational_State_0bc3,Transition_6de7.Transition_Incoming_a795),connector(Operational_State_Transition_Description_object_Final_State_cb81,Transition_6de7.Transition_Outgoing_ee48));
+ 
+
+      annotation(
+        localLabel="运行概念模型",
+    );
+    
+   end model_Operational_State_Transition_Description;

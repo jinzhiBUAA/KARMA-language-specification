@@ -1,0 +1,27 @@
+automaton Information_center:
+cont  control_center_longx  = 39.92403395758031;
+cont  control_center_laty = 116.48685923474883;
+cont  control_center_height = 0;
+cont  get_infarmarion_car2_longx  = 39.91810899288734;
+cont  get_infarmarion_car2_laty  = 116.48996829986574;
+disc bool control_center_receive_car2_information = false;
+disc bool line3 = true;
+disc bool line4 = true;
+
+location Information_center_object_Initial_State_7dd6:
+initial;
+equation get_infarmarion_car2_longx' = 0;
+equation get_infarmarion_car2_laty' = 0;
+equation control_center_longx' = 0.0000001;
+equation control_center_laty' = 0.0000001;
+equation control_center_height' = 0.0000001;
+edge  when time>0.7 do line4 := true,line3 := true,get_infarmarion_car2_longx := Intelligent_EV2.car2_longx,get_infarmarion_car2_laty := Intelligent_EV2.car2_laty,control_center_receive_car2_information := true goto Information_center_object_Operational_State_6d28;
+
+location Information_center_object_Operational_State_6d28:
+equation get_infarmarion_car2_longx' = 0;
+equation get_infarmarion_car2_laty' = 0;
+equation control_center_longx' = 0.0000001;
+equation control_center_laty' = 0.0000001;
+equation control_center_height' = 0.0000001;
+
+end

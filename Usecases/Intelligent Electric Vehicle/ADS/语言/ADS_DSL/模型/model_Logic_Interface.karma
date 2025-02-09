@@ -1,0 +1,324 @@
+    partial Model model_Logic_Interface instanceof metaGraph_Internal_Block_Diagram
+    
+      Object model_Logic_Interface_object_a064 refer metaObject_Part_Propety
+        Property model_Logic_Interface_object_a064_property_1590 = "车辆控制系统" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Logic_Interface_object_a064_input_009d refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="更新后的高精度地图数据",
+		 initialLocation=(-12,6,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Logic_Interface_object_a064_input_009d;
+ 
+      Point metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3_2507 refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="环境感知信息",
+		 initialLocation=(-12,30,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3_2507;
+ 
+      Point metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3_c4b8 refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="位置感知信息",
+		 initialLocation=(-12,84,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3_c4b8;
+ 
+      Point model_Logic_Interface_object_a064_output_d6dd refer metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190
+      annotation(
+         localLabel="故障信息",
+		 initialLocation=(-12,54,22,22),
+         shape="rectangle",
+         color="204,242,166;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Logic_Interface_object_a064_output_d6dd;
+ 
+      Point metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190_e16f refer metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190
+      annotation(
+         localLabel="安全通知信息",
+		 initialLocation=(-12,114,22,22),
+         shape="rectangle",
+         color="204,242,166;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190_e16f;
+ 
+      
+        annotation(
+          initialLocation=(246,126,165,147),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Logic_Interface_object_a064;
+
+      Object model_Logic_Interface_object_1a2a refer metaObject_Part_Propety
+        Property model_Logic_Interface_object_1a2a_property_03b0 = "通信系统" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Logic_Interface_object_1a2a_input_a4ed refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="位置感知信息",
+		 initialLocation=(147,72,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Logic_Interface_object_1a2a_input_a4ed;
+ 
+      Point metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3_8f1d refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="安全通知信息",
+		 initialLocation=(147,12,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3_8f1d;
+ 
+      Point metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3_74be refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="环境感知信息",
+		 initialLocation=(147,42,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3_74be;
+ 
+      
+        annotation(
+          initialLocation=(492,126,157,147),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Logic_Interface_object_1a2a;
+
+      Object model_Logic_Interface_object_2517 refer metaObject_Part_Propety
+        Property model_Logic_Interface_object_2517_property_d3f5 = "感知系统" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Logic_Interface_object_2517_input_3ef1 refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="更新后的高精度地图数据",
+		 initialLocation=(-12,0,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Logic_Interface_object_2517_input_3ef1;
+ 
+      Point model_Logic_Interface_object_2517_output_c8fa refer metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190
+      annotation(
+         localLabel="更新后的高精度地图数据",
+		 initialLocation=(-12,24,22,22),
+         shape="rectangle",
+         color="204,242,166;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Logic_Interface_object_2517_output_c8fa;
+ 
+      Point metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190_155d refer metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190
+      annotation(
+         localLabel="环境感知信息",
+		 initialLocation=(-12,54,22,22),
+         shape="rectangle",
+         color="204,242,166;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190_155d;
+ 
+      Point metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190_6246 refer metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190
+      annotation(
+         localLabel="安全通知信息",
+		 initialLocation=(-12,84,22,22),
+         shape="rectangle",
+         color="204,242,166;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190_6246;
+ 
+      
+        annotation(
+          initialLocation=(246,312,163,113),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Logic_Interface_object_2517;
+
+      Object model_Logic_Interface_object_a85a refer metaObject_Part_Propety
+        Property model_Logic_Interface_object_a85a_property_b38c = "故障管理系统" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Logic_Interface_object_a85a_input_f2ab refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="故障信息",
+		 initialLocation=(145,49,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Logic_Interface_object_a85a_input_f2ab;
+ 
+      
+        annotation(
+          initialLocation=(492,312,155,111),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Logic_Interface_object_a85a;
+
+      Object model_Logic_Interface_object_1659 refer metaObject_Part_Propety
+        Property model_Logic_Interface_object_1659_property_bc68 = "高精度地图" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Logic_Interface_object_1659_output_2c65 refer metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190
+      annotation(
+         localLabel="更新后的高精度地图数据",
+		 initialLocation=(-12,54,22,22),
+         shape="rectangle",
+         color="204,242,166;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Logic_Interface_object_1659_output_2c65;
+ 
+      
+        annotation(
+          initialLocation=(247,462,161,103),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Logic_Interface_object_1659;
+
+      Object model_Logic_Interface_object_9f81 refer metaObject_Part_Propety
+        Property model_Logic_Interface_object_9f81_property_47dc = "事件数据记录系统" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Logic_Interface_object_9f81_input_2f25 refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="位置感知信息",
+		 initialLocation=(145,60,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Logic_Interface_object_9f81_input_2f25;
+ 
+      Point metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3_450b refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="环境感知信息",
+		 initialLocation=(145,18,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3_450b;
+ 
+      
+        annotation(
+          initialLocation=(493,462,155,101),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Logic_Interface_object_9f81;
+
+
+      annotation(
+        localLabel="逻辑接口模型",
+    );
+    
+   end model_Logic_Interface;

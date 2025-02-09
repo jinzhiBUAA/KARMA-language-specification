@@ -1,0 +1,52 @@
+codeGenerator EV_For_Matlab
+ File file1 = File("D:/EV_Model.m");
+		entrypoint rule forheadline( ){
+		to
+			String e(
+				e <- "new_system('vr_octavia_2cars_20141009');"+"\n"+"open_system('vr_octavia_2cars_20141009');"+"\n"+"load('demo');";
+			)
+		do{		
+			file1.append(e);
+			}
+	}
+	rule add_block{
+		from
+			Object[Part_Property] obj;		
+		in	Model[EV_Example] Md;
+		using{
+				Template add_block(ann,bnn) =<%
+				add_block('EV/<ann>','vr_octavia_2cars_20141009/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block(obj.Property["类型"],obj.Property["类型"]);
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	rule add_line{
+		from
+			Object[Part_Property] obj1,obj2;
+			Point[Out_Flow_Port] OP;
+			Point[In_Flow_Port] IP;
+			Relationship[Item_Flow] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[EV_Example] Md;
+		using{
+				Template add_line(cnn,dnn,enn,fnn) =<%
+				add_line('vr_octavia_2cars_20141009','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line(obj1.Property["类型"],OP.localName,obj2.Property["类型"],IP.localName);
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+end EV_For_Matlab

@@ -1,0 +1,26 @@
+automaton Satellite:
+cont  satellite_longx= 39.923194896;
+cont  satellite_laty= 116.589959869;
+disc bool car1_line = true;
+cont  satellite_height = 1000000;
+cont  infarmarion_car2_longx  = 39.91810899288734;
+cont  infarmarion_car2_laty  = 116.48996829986574;
+disc bool receive_car2_information = false;
+
+location Satellite_object_Operational_State_1e9f:
+equation infarmarion_car2_longx' = 0;
+equation infarmarion_car2_laty' = 0;
+equation satellite_longx' = 0.0000001;
+equation satellite_laty' = 0.0000001;
+equation satellite_height' = 0.0000001;
+
+location Satellite_object_Initial_State_cf50:
+initial;
+equation infarmarion_car2_longx' = 0;
+equation infarmarion_car2_laty' = 0;
+equation satellite_longx' = 0.0000001;
+equation satellite_laty' = 0.0000001;
+equation satellite_height' = 0.0000001;
+edge  when time>0.5 do infarmarion_car2_longx := Intelligent_EV2.car2_longx,infarmarion_car2_laty := Intelligent_EV2.car2_laty,receive_car2_information := true goto Satellite_object_Operational_State_1e9f;
+
+end

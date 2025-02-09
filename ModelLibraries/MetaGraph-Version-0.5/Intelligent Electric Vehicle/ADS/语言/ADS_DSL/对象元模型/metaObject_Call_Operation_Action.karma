@@ -1,0 +1,19 @@
+   Object metaObject_Call_Operation_Action
+      initial Property unique metaObject_Call_Operation_Action_metaProperty_Name_872922 = "null" extends metaProperty_Name annotation(localLabel ="名称");
+      initial Property unique metaObject_Call_Operation_Action_metaProperty_Behavior_1cfe15 = "null" extends metaProperty_Behavior annotation(localLabel ="行为");
+      initial Property unique metaObject_Call_Operation_Action_metaProperty_Context_c9d4fb = "null" extends metaProperty_Context annotation(localLabel ="上下文");
+      Input Point metaObject_Call_Operation_Action_metaPoint_Action_Input_Pin_4ba5e7 extends metaPoint_Action_Input_Pin annotation (localLabel ="动作输入引脚");
+      Input Point metaObject_Call_Operation_Action_metaPoint_Input_Pin_faa86f extends metaPoint_Input_Pin annotation (localLabel ="输入引脚");
+      Output Point metaObject_Call_Operation_Action_metaPoint_Output_Pin_b503dd extends metaPoint_Output_Pin annotation (localLabel ="输出引脚");
+      Undirected Point metaObject_Call_Operation_Action_metaPoint_Value_Pin_6cfd89 extends metaPoint_Value_Pin annotation (localLabel ="值引脚");
+   annotation(
+      localLabel="调用运行动作",
+      description="",
+      icon="CallOperationActionIcon.png",
+      shape="roundedRectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end metaObject_Call_Operation_Action;
+ 

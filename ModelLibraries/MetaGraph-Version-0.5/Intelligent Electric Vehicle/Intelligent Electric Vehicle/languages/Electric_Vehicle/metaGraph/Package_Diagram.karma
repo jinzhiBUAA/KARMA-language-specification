@@ -1,0 +1,19 @@
+   partial Graph Package_Diagram
+    Object Model_Object;
+    Object Block;
+    Object Object_Package;
+    Relationship Contain;
+    Constraint (
+    bind connector(Block,Contain.Contain_Incoming),
+    bind connector(Object_Package,Contain.Contain_Incoming),
+    bind connector(Block,Contain.Contain_Outgoing),
+    bind connector(Model_Object,Contain.Contain_Outgoing),
+    bind connector(Object_Package,Contain.Contain_Outgoing),
+    Block.explode(Viewpoint_Model),
+    );
+    annotation(
+        localLabel="包图",
+        type = diagram,
+        description="",
+       );
+        end Package_Diagram;

@@ -1,0 +1,17 @@
+   Object metaObject_External
+      initial Property unique metaObject_External_metaProperty_Name_beee09 = "null" extends metaProperty_Name annotation(localLabel ="名称");
+      Undirected Point metaObject_External_metaPoint_Flow_Port_9dd0e4 extends metaPoint_Flow_Port annotation (localLabel ="流端口");
+      Undirected Point metaObject_External_metaPoint_Full_Port_d515e8 extends metaPoint_Full_Port annotation (localLabel ="全端口");
+      Undirected Point metaObject_External_metaPoint_Port_4484be extends metaPoint_Port annotation (localLabel ="端口");
+      Undirected Point metaObject_External_metaPoint_Proxy_Port_59baff extends metaPoint_Proxy_Port annotation (localLabel ="代理端口");
+   annotation(
+      localLabel="外部",
+      description="",
+      icon="ExternalIcon.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end metaObject_External;
+ 

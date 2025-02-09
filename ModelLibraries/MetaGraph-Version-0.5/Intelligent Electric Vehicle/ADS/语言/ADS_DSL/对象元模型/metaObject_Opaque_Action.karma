@@ -1,0 +1,19 @@
+   Object metaObject_Opaque_Action
+      initial Property unique metaObject_Opaque_Action_metaProperty_Name_aeec85 = "null" extends metaProperty_Name annotation(localLabel ="名称");
+      initial Property unique metaObject_Opaque_Action_metaProperty_Behavior_0048e2 = "null" extends metaProperty_Behavior annotation(localLabel ="行为");
+      initial Property unique metaObject_Opaque_Action_metaProperty_Context_8ff0e0 = "null" extends metaProperty_Context annotation(localLabel ="上下文");
+      Input Point metaObject_Opaque_Action_metaPoint_Action_Input_Pin_a8529c extends metaPoint_Action_Input_Pin annotation (localLabel ="动作输入引脚");
+      Input Point metaObject_Opaque_Action_metaPoint_Input_Pin_ef7ade extends metaPoint_Input_Pin annotation (localLabel ="输入引脚");
+      Output Point metaObject_Opaque_Action_metaPoint_Output_Pin_a20f48 extends metaPoint_Output_Pin annotation (localLabel ="输出引脚");
+      Undirected Point metaObject_Opaque_Action_metaPoint_Value_Pin_32aede extends metaPoint_Value_Pin annotation (localLabel ="值引脚");
+   annotation(
+      localLabel="不透明动作",
+      description="",
+      icon="OpaqueActionIcon.png",
+      shape="roundedRectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end metaObject_Opaque_Action;
+ 

@@ -1,0 +1,15 @@
+   Object Part_Property
+      initial Property  Part_Property_Name_485d0c = "null" extends Name annotation(localLabel ="名称");
+      initial Property  Part_Property_Type_d9b440 = "null" extends Type annotation(localLabel ="类型");
+      Undirected Point Part_Property_In_Out_Flow_Port_0bc777 extends In_Out_Flow_Port annotation (localLabel ="流入流出口");
+      Input Point Part_Property_In_Flow_Port_ebb891 extends In_Flow_Port annotation (localLabel ="流入口");
+      Output Point Part_Property_Out_Flow_Port_888cfe extends Out_Flow_Port annotation (localLabel ="流出口");
+   annotation(
+      localLabel="组成部分属性",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Part_Property;
+ 

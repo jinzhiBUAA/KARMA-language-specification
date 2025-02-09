@@ -1,0 +1,242 @@
+automaton Intelligent_EV1:
+cont  car1_speed = 20;
+cont  car1_x  = 0;
+const real car1_y = 0;
+const real car1_radar = 200;
+disc real car1_brake = 0;
+disc real car1_acc = 0;
+disc bool car1_damage = false;
+
+cont  car1_longx  = 39.9158567406351;
+cont car1_laty  = 116.48996;
+cont  car1_real_speed = 0.00018018018;
+const real car1_real_radar = 0.0018018018;
+disc real car1_real_brake = 0;
+disc real car1_real_acc = 0;
+disc bool car1_real_damage = false;
+cont car1_height = 0;
+disc bool car1_line = true;
+disc bool line_satellite_to_car1 = true;
+disc bool line_center_to_car1 = true;
+
+location Intelligent_EV1_object_Final_State_34ea:
+equation car1_speed' = 0;
+equation car1_x' = car1_speed;
+equation car1_real_speed' = 0;
+equation car1_longx' = car1_real_speed;
+equation car1_laty' = 0.0000000000001;
+equation car1_height' = 0.0000000000001;
+
+location Intelligent_EV1_object_Initial_State_980a:
+initial;
+equation car1_speed' = 0;
+equation car1_x' = 0;
+equation car1_real_speed' = 0;
+equation car1_longx' = 0;
+equation car1_laty' = -0.0000000000001;
+equation car1_height' = -0.0000000000001;
+edge  when time>0 do line_center_to_car1 :=  true,line_satellite_to_car1 :=  true,car1_acc := 6,car1_real_acc:= 0.000054054054,car1_line := true goto Intelligent_EV1_object_Operational_State_ee95;
+
+location Intelligent_EV1_object_Operational_State_ee95:
+equation car1_speed' = car1_acc;
+equation car1_x' = car1_speed;
+equation car1_real_speed' = car1_real_acc;
+equation car1_longx' = car1_real_speed;
+equation car1_laty' = 0.0000000000001;
+equation car1_height' = 0.0000000000001;
+edge  when car1_speed>35 do line_center_to_car1 :=  true,line_satellite_to_car1 :=  true,car1_acc := 0,car1_real_acc := 0,car1_line := true goto Intelligent_EV1_object_Operational_State_e76d;
+
+location Intelligent_EV1_object_Final_State_52ea:
+equation car1_speed' = 0;
+equation car1_x' = car1_speed;
+equation car1_real_speed' = 0;
+equation car1_longx' = car1_real_speed;
+equation car1_laty' = -0.0000000000001;
+equation car1_height' = -0.0000000000001;
+
+location Intelligent_EV1_object_Operational_State_0968:
+equation car1_speed' = car1_brake;
+equation car1_x' = car1_speed;
+equation car1_real_speed' = car1_real_brake;
+equation car1_longx' = car1_real_speed;
+equation car1_laty' = 0.0000000000001;
+equation car1_height' = 0.0000000000001;
+edge  when car1_speed<=0 do line_center_to_car1 :=  true,line_satellite_to_car1 :=  true,car1_speed := 0,car1_brake := 0,car1_real_speed := 0,car1_real_brake := 0 goto Intelligent_EV1_object_Final_State_34ea;
+edge  when Intelligent_EV2.car2_x-car1_x<70 do line_center_to_car1 :=  true,line_satellite_to_car1 :=  true,car1_speed := 0,car1_brake := 0,car1_damage := true,car1_real_speed := 0,car1_real_brake := 0,car1_real_damage := true,car1_line := true goto Intelligent_EV1_object_Final_State_52ea;
+
+location Intelligent_EV1_object_Operational_State_e76d:
+equation car1_speed' = car1_acc;
+equation car1_x' = car1_speed;
+equation car1_real_speed' = car1_real_acc;
+equation car1_longx' = car1_real_speed;
+equation car1_laty' = -0.0000000000001;
+equation car1_height' = -0.0000000000001;
+edge  when Intelligent_EV2.car2_x-car1_x<180 do line_center_to_car1 :=  true,line_satellite_to_car1 :=  true,car1_acc := -2,car1_real_acc := -0.000018018018018,car1_line := true goto Intelligent_EV1_object_Operational_State_b9c4;
+
+location Intelligent_EV1_object_Operational_State_a5d9:
+equation car1_speed' = car1_acc;
+equation car1_x' = car1_speed;
+equation car1_real_speed' = car1_real_acc;
+equation car1_longx' = car1_real_speed;
+equation car1_laty' = 0.0000000000001;
+equation car1_height' = 0.0000000000001;
+edge  when Intelligent_EV2.brake=true do line_center_to_car1 :=  true,line_satellite_to_car1 :=  true,car1_brake := -8,car1_real_brake := -0.000072072072072,car1_line := true goto Intelligent_EV1_object_Operational_State_0968;
+
+location Intelligent_EV1_object_Operational_State_b9c4:
+equation car1_speed' = car1_acc;
+equation car1_x' = car1_speed;
+equation car1_real_speed' = car1_real_acc;
+equation car1_longx' = car1_real_speed;
+equation car1_laty' = -0.0000000000001;
+equation car1_height' = -0.0000000000001;
+edge  when car1_speed<=Intelligent_EV2.car2_speed do line_center_to_car1 :=  true,line_satellite_to_car1 :=  true,car1_acc := 0,car1_real_acc := 0,car1_line := true goto Intelligent_EV1_object_Operational_State_a5d9;
+
+svgfile "brake.svg";
+    svgout id "damage1" attr "visibility" value if Intelligent_EV1.car1_damage: "visible" else "hidden" end;
+    svgout id "damage2" attr "visibility" value if Intelligent_EV1.car1_damage: "visible" else "hidden" end;
+    svgout id "damage3" attr "visibility" value if Intelligent_EV2.car2_damage: "visible" else "hidden" end;
+    svgout id "car1" attr "transform"
+        value fmt("translate(%s,%s)", Intelligent_EV1.car1_x,Intelligent_EV1.car1_y);
+    svgout id "car2" attr "transform"
+        value fmt("translate(%s,%s)", Intelligent_EV2.car2_x,Intelligent_EV2.car2_y);
+    svgout id "green1" attr "transform"
+        value fmt("translate(%s,%s)", Intelligent_EV1.car1_x+70,Intelligent_EV1.car1_y);
+    svgout id "green2" attr "transform"
+        value fmt("translate(%s,%s)", Intelligent_EV2.car2_x+70,Intelligent_EV2.car2_y);
+    svgout id "damage1" attr "transform"
+        value fmt("translate(%s,%s)", Intelligent_EV1.car1_x,Intelligent_EV1.car1_y);
+    svgout id "damage2" attr "transform"
+        value fmt("translate(%s,%s)", Intelligent_EV2.car2_x,Intelligent_EV2.car2_y);
+    svgout id "damage3" attr "transform"
+        value fmt("translate(%s,%s)", Intelligent_EV2.car2_x,Intelligent_EV2.car2_y);
+end
+automaton Intelligent_EV2:
+cont  car2_speed  = 30;
+cont  car2_x  = 250;
+const real car2_y = 0;
+const real car2_radar = 200;
+disc real car2_brake = 0;
+disc bool brake = false;
+disc bool car2_damage = false;
+disc bool line_car2_to_satellite = true;
+disc bool line_car2_to_center = true;
+
+
+cont  car2_real_speed  = 0.00027027027;
+cont  car2_longx  = 39.918108992887;
+cont  car2_laty = 116.48996;
+const real car2_real_radar = 0.0018018018;
+disc real car2_real_brake = 0;
+disc bool real_brake = false;
+disc bool car2_real_damage = false;
+cont car2_height = 0;
+
+location Intelligent_EV2_object_Initial_State_4b21:
+initial;
+equation car2_speed' = 0;
+equation car2_x' = 0;
+equation car2_real_speed' = 0;
+equation car2_longx' = 0;
+equation car2_laty' = 0.0000000000001;
+equation car2_height' = 0.0000000000001;
+edge  when time>0  do line_car2_to_center := true,line_car2_to_satellite := true goto Intelligent_EV2_object_Operational_State_93fc;
+
+location Intelligent_EV2_object_Final_State_ccdd:
+equation car2_speed' = 0;
+equation car2_x' = 0;
+equation car2_real_speed' = 0;
+equation car2_longx' = 0;
+equation car2_laty' = -0.0000000000001;
+equation car2_height' = -0.0000000000001;
+
+location Intelligent_EV2_object_Operational_State_7ace:
+equation car2_speed' = car2_brake;
+equation car2_x' = car2_speed;
+equation car2_real_speed' = car2_real_brake;
+equation car2_longx' = car2_real_speed;
+equation car2_laty' = 0.0000000000001;
+equation car2_height' = 0.0000000000001;
+edge  when car2_x>1380 do line_car2_to_center := true,line_car2_to_satellite := true,car2_brake := 0,car2_damage := true,car2_real_brake := 0,car2_real_damage := true goto Intelligent_EV2_object_Final_State_bfa5;
+edge  when car2_speed<0 do line_car2_to_center := true,line_car2_to_satellite := true,car2_brake := 0,car2_real_brake := 0 goto Intelligent_EV2_object_Final_State_ccdd;
+
+location Intelligent_EV2_object_Final_State_bfa5:
+equation car2_speed' = 0;
+equation car2_x' = 0;
+equation car2_real_speed' = 0;
+equation car2_longx' = 0;
+equation car2_laty' = -0.0000000000001;
+equation car2_height' = -0.0000000000001;
+
+location Intelligent_EV2_object_Operational_State_93fc:
+equation car2_speed' = 0;
+equation car2_x' = car2_speed;
+equation car2_real_speed' = 0;
+equation car2_longx' = car2_real_speed;
+equation car2_laty' = 0.0000000000001;
+equation car2_height' = 0.0000000000001;
+edge  when car2_x+car2_radar>1380 do line_car2_to_center := true,line_car2_to_satellite := true,car2_brake := -8,brake := true,car2_real_brake := -0.000072072072,real_brake := true goto Intelligent_EV2_object_Operational_State_7ace;
+
+end
+
+
+
+automaton Satellite:
+
+cont  satellite_longx  = 39.9231948906;
+cont  satellite_laty = 116.589959869;
+cont satellite_height = 1000000;
+cont  infarmarion_car2_longx  = 39.91810899288734;
+cont  infarmarion_car2_laty  = 116.48996829986574;
+disc bool receive_car2_information = false;
+
+
+
+location receive_information:
+initial;
+equation infarmarion_car2_longx' = 0;
+equation infarmarion_car2_laty' = 0;
+equation satellite_longx' = 0.0000001;
+equation satellite_laty' = 0.0000001;
+equation satellite_height' = 0.0000001;
+edge  when time>0.5 do infarmarion_car2_longx := Intelligent_EV2.car2_longx,infarmarion_car2_laty := Intelligent_EV2.car2_laty,receive_car2_information := true goto send_information;
+
+location send_information:
+equation infarmarion_car2_longx' = 0;
+equation infarmarion_car2_laty' = 0;
+equation satellite_longx' = 0.0000001;
+equation satellite_laty' = 0.0000001;
+equation satellite_height' = 0.0000001;
+end
+
+
+automaton Information_center:
+
+cont  control_center_longx  = 39.92403395758031;
+cont  control_center_laty = 116.48685923474883;
+cont control_center_height = 0;
+cont  get_infarmarion_car2_longx  = 39.91810899288734;
+cont  get_infarmarion_car2_laty  = 116.48996829986574;
+disc bool control_center_receive_car2_information = false;
+disc bool line3 = true;
+disc bool line4 = true;
+
+location control_center_receive_information:
+initial;
+equation get_infarmarion_car2_longx' = 0;
+equation get_infarmarion_car2_laty' = 0;
+equation control_center_longx' = 0.0000001;
+equation control_center_laty' = 0.0000001;
+equation control_center_height' = 0.0000001;
+edge  when time>0.7 do line4 := true,line3 := true,get_infarmarion_car2_longx := Intelligent_EV2.car2_longx,get_infarmarion_car2_laty := Intelligent_EV2.car2_laty,control_center_receive_car2_information := true goto control_center_send_information;
+
+location control_center_send_information:
+equation get_infarmarion_car2_longx' = 0;
+equation get_infarmarion_car2_laty' = 0;
+equation control_center_longx' = 0.0000001;
+equation control_center_laty' = 0.0000001;
+equation control_center_height' = 0.0000001;
+
+end
+
+
+

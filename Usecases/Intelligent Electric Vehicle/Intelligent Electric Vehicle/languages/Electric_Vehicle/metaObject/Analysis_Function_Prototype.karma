@@ -1,0 +1,19 @@
+   Object Analysis_Function_Prototype
+      initial Property  Analysis_Function_Prototype_Name_431b9e = "null" extends Name annotation(localLabel ="名称");
+      initial Property  Analysis_Function_Prototype_Short_Name_acb1fc = "null" extends Short_Name annotation(localLabel ="简称");
+      initial Property  Analysis_Function_Prototype_Description_9f5d12 = "null" extends Description annotation(localLabel ="描述");
+      Undirected Point Analysis_Function_Prototype_Power_Port_dc8a0a extends Power_Port annotation (localLabel ="电源端口");
+      Output Point Analysis_Function_Prototype_Client_Port_40b5b2 extends Client_Port annotation (localLabel ="客户端端口");
+      Output Point Analysis_Function_Prototype_Out_Flow_Port_04b18f extends Out_Flow_Port annotation (localLabel ="流出口");
+      Input Point Analysis_Function_Prototype_In_Flow_Port_aa09ff extends In_Flow_Port annotation (localLabel ="流入口");
+      Undirected Point Analysis_Function_Prototype_In_Out_Flow_Port_e56310 extends In_Out_Flow_Port annotation (localLabel ="流入流出口");
+      Input Point Analysis_Function_Prototype_Server_Port_e1b245 extends Server_Port annotation (localLabel ="服务器端口");
+   annotation(
+      localLabel="分析功能原型",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Analysis_Function_Prototype;
+ 

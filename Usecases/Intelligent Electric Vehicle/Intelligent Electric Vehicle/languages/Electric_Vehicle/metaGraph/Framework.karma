@@ -1,0 +1,15 @@
+   partial Graph Framework
+    Object Viewpoint;
+    Object View;
+    Relationship Containment;
+    Constraint (
+    bind connector(View,Containment.Containment_Incoming),
+    bind connector(Viewpoint,Containment.Containment_outgoing),
+    Viewpoint.explode(Viewpoint_Model),
+    );
+    annotation(
+        localLabel="框架",
+        type = diagram,
+        description="",
+       );
+        end Framework;

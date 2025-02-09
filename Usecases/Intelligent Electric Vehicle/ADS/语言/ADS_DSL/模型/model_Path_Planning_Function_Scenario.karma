@@ -1,0 +1,558 @@
+    partial Model model_Path_Planning_Function_Scenario instanceof metaGraph_Process_Diagram
+    
+      Object model_Path_Planning_Function_Scenario_object_2887 refer metaObject_Start_Event
+        Property model_Path_Planning_Function_Scenario_object_2887_property_2bcb = "null" refer metaObject_Start_Event_metaProperty_Name_95f336 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Path_Planning_Function_Scenario_object_2887_property_f11b = "null" refer metaObject_Start_Event_metaProperty_Description_e61e1b annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(54,216,61,61),
+          localLabel="开始事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Path_Planning_Function_Scenario_object_2887;
+
+      Object model_Path_Planning_Function_Scenario_object_893d refer metaObject_End_Event
+        Property model_Path_Planning_Function_Scenario_object_893d_property_1008 = "null" refer metaObject_End_Event_metaProperty_Name_684d02 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Path_Planning_Function_Scenario_object_893d_property_e66d = "null" refer metaObject_End_Event_metaProperty_Description_4e00c4 annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(468,532,61,61),
+          localLabel="结束事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Path_Planning_Function_Scenario_object_893d;
+
+      Object model_Path_Planning_Function_Scenario_object_2d76 refer metaObject_Task
+        Property model_Path_Planning_Function_Scenario_object_2d76_property_dff5 = "目标设定" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(228,210,127,85),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Path_Planning_Function_Scenario_object_2d76;
+
+      Object model_Path_Planning_Function_Scenario_object_ad7e refer metaObject_Task
+        Property model_Path_Planning_Function_Scenario_object_ad7e_property_7871 = "环境感知" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(414,210,121,83),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Path_Planning_Function_Scenario_object_ad7e;
+
+      Object model_Path_Planning_Function_Scenario_object_93cf refer metaObject_Task
+        Property model_Path_Planning_Function_Scenario_object_93cf_property_1ce9 = "路线规划" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(582,210,133,83),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Path_Planning_Function_Scenario_object_93cf;
+
+      Object model_Path_Planning_Function_Scenario_object_f55d refer metaObject_Task
+        Property model_Path_Planning_Function_Scenario_object_f55d_property_976b = "路径优化" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(54,366,133,85),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Path_Planning_Function_Scenario_object_f55d;
+
+      Object model_Path_Planning_Function_Scenario_object_4737 refer metaObject_Task
+        Property model_Path_Planning_Function_Scenario_object_4737_property_1684 = "速度控制" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(240,366,127,83),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Path_Planning_Function_Scenario_object_4737;
+
+      Object model_Path_Planning_Function_Scenario_object_9eb1 refer metaObject_Task
+        Property model_Path_Planning_Function_Scenario_object_9eb1_property_7fd7 = "车道保持" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(416,366,115,83),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Path_Planning_Function_Scenario_object_9eb1;
+
+      Object model_Path_Planning_Function_Scenario_object_75e3 refer metaObject_Task
+        Property model_Path_Planning_Function_Scenario_object_75e3_property_2188 = "避障和障碍物检测" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(582,366,131,83),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Path_Planning_Function_Scenario_object_75e3;
+
+      Object model_Path_Planning_Function_Scenario_object_d9ca refer metaObject_Task
+        Property model_Path_Planning_Function_Scenario_object_d9ca_property_00f2 = "路径更新" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(55,524,131,79),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Path_Planning_Function_Scenario_object_d9ca;
+
+      Object model_Path_Planning_Function_Scenario_object_0669 refer metaObject_Task
+        Property model_Path_Planning_Function_Scenario_object_0669_property_e33e = "路径下发" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(240,524,133,77),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Path_Planning_Function_Scenario_object_0669;
+
+      Relationship model_Path_Planning_Function_Scenario_relationship_8dbd refer metaRelationship_Sequence_Flow
+        Role model_Path_Planning_Function_Scenario_fromrole_0d67 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Path_Planning_Function_Scenario_fromrole_0d67;
+         Role model_Path_Planning_Function_Scenario_torole_78ad refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Path_Planning_Function_Scenario_torole_78ad;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(84,246;404,252),
+          polylineLocation="[0,0,-113,0]$[113,0,0,0];(1.0,0.39344262295081966);(0.0,0.3614457831325301)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Path_Planning_Function_Scenario_relationship_8dbd;
+ 
+      Relationship model_Path_Planning_Function_Scenario_relationship_641c refer metaRelationship_Sequence_Flow
+        Role model_Path_Planning_Function_Scenario_fromrole_c622 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Path_Planning_Function_Scenario_fromrole_c622;
+         Role model_Path_Planning_Function_Scenario_torole_0600 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Path_Planning_Function_Scenario_torole_0600;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(291,266;535,265),
+          polylineLocation="[0,14,-61,14]$[61,14,0,14];(1.0,0.26506024096385544);(0.0,0.2716049382716049)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Path_Planning_Function_Scenario_relationship_641c;
+ 
+      Relationship model_Path_Planning_Function_Scenario_relationship_b7c5 refer metaRelationship_Sequence_Flow
+        Role model_Path_Planning_Function_Scenario_fromrole_1dbe refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Path_Planning_Function_Scenario_fromrole_1dbe;
+         Role model_Path_Planning_Function_Scenario_torole_616a refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Path_Planning_Function_Scenario_torole_616a;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(474,233;697,233),
+          polylineLocation="[0,-18,-49,-18]$[49,-18,0,-18];(1.0,0.6666666666666666);(0.0,0.6666666666666666)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Path_Planning_Function_Scenario_relationship_b7c5;
+ 
+      Relationship model_Path_Planning_Function_Scenario_relationship_68c1 refer metaRelationship_Sequence_Flow
+        Role model_Path_Planning_Function_Scenario_fromrole_f096 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Path_Planning_Function_Scenario_fromrole_f096;
+         Role model_Path_Planning_Function_Scenario_torole_498e refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Path_Planning_Function_Scenario_torole_498e;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(648,251;647,482),
+          polylineLocation="[0,0,0,-75]$[0,75,0,0];(0.6259541984732825,1.0);(0.6356589147286822,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Path_Planning_Function_Scenario_relationship_68c1;
+ 
+      Relationship model_Path_Planning_Function_Scenario_relationship_964b refer metaRelationship_Sequence_Flow
+        Role model_Path_Planning_Function_Scenario_fromrole_1e6a refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Path_Planning_Function_Scenario_fromrole_1e6a;
+         Role model_Path_Planning_Function_Scenario_torole_a82d refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Path_Planning_Function_Scenario_torole_a82d;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(647,423;420,423),
+          polylineLocation="[0,16,41,16]$[-53,16,-12,16];(0.0,0.2962962962962963);(1.1061946902654867,0.2962962962962963)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Path_Planning_Function_Scenario_relationship_964b;
+ 
+      Relationship model_Path_Planning_Function_Scenario_relationship_cdcf refer metaRelationship_Sequence_Flow
+        Role model_Path_Planning_Function_Scenario_fromrole_80d7 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Path_Planning_Function_Scenario_fromrole_80d7;
+         Role model_Path_Planning_Function_Scenario_torole_1862 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Path_Planning_Function_Scenario_torole_1862;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(473,430;252,430),
+          polylineLocation="[0,23,51,23]$[-51,23,0,23];(0.0,0.2222222222222222);(1.0,0.2222222222222222)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Path_Planning_Function_Scenario_relationship_cdcf;
+ 
+      Relationship model_Path_Planning_Function_Scenario_relationship_f742 refer metaRelationship_Sequence_Flow
+        Role model_Path_Planning_Function_Scenario_fromrole_bd79 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Path_Planning_Function_Scenario_fromrole_bd79;
+         Role model_Path_Planning_Function_Scenario_torole_b5f2 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Path_Planning_Function_Scenario_torole_b5f2;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(303,430;65,431),
+          polylineLocation="[0,23,55,17]$[-55,23,0,17];(0.0,0.2222222222222222);(1.0,0.2891566265060241)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Path_Planning_Function_Scenario_relationship_f742;
+ 
+      Relationship model_Path_Planning_Function_Scenario_relationship_7d1f refer metaRelationship_Sequence_Flow
+        Role model_Path_Planning_Function_Scenario_fromrole_276e refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Path_Planning_Function_Scenario_fromrole_276e;
+         Role model_Path_Planning_Function_Scenario_torole_05c8 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Path_Planning_Function_Scenario_torole_05c8;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(120,408;120,638),
+          polylineLocation="[0,0,0,-75]$[0,75,0,0];(0.5038167938931297,1.0);(0.5038759689922481,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Path_Planning_Function_Scenario_relationship_7d1f;
+ 
+      Relationship model_Path_Planning_Function_Scenario_relationship_aeb2 refer metaRelationship_Sequence_Flow
+        Role model_Path_Planning_Function_Scenario_fromrole_a8f0 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Path_Planning_Function_Scenario_fromrole_a8f0;
+         Role model_Path_Planning_Function_Scenario_torole_e8e4 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Path_Planning_Function_Scenario_torole_e8e4;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(120,583;362,582),
+          polylineLocation="[0,20,-56,0]$[56,20,0,0];(1.0,0.1038961038961039);(0.0,0.37333333333333335)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Path_Planning_Function_Scenario_relationship_aeb2;
+ 
+      Relationship model_Path_Planning_Function_Scenario_relationship_4a09 refer metaRelationship_Sequence_Flow
+        Role model_Path_Planning_Function_Scenario_fromrole_8636 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Path_Planning_Function_Scenario_fromrole_8636;
+         Role model_Path_Planning_Function_Scenario_torole_3462 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Path_Planning_Function_Scenario_torole_3462;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(306,562;595,562),
+          polylineLocation="[0,0,-97,0]$[97,0,0,0];(1.0,0.5066666666666667);(0.0,0.4918032786885246)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Path_Planning_Function_Scenario_relationship_4a09;
+ 
+    Connect(connector(model_Path_Planning_Function_Scenario_object_2887,model_Path_Planning_Function_Scenario_relationship_8dbd.model_Path_Planning_Function_Scenario_fromrole_0d67),connector(model_Path_Planning_Function_Scenario_object_2d76,model_Path_Planning_Function_Scenario_relationship_8dbd.model_Path_Planning_Function_Scenario_torole_78ad));
+ 
+    Connect(connector(model_Path_Planning_Function_Scenario_object_2d76,model_Path_Planning_Function_Scenario_relationship_641c.model_Path_Planning_Function_Scenario_fromrole_c622),connector(model_Path_Planning_Function_Scenario_object_ad7e,model_Path_Planning_Function_Scenario_relationship_641c.model_Path_Planning_Function_Scenario_torole_0600));
+ 
+    Connect(connector(model_Path_Planning_Function_Scenario_object_ad7e,model_Path_Planning_Function_Scenario_relationship_b7c5.model_Path_Planning_Function_Scenario_fromrole_1dbe),connector(model_Path_Planning_Function_Scenario_object_93cf,model_Path_Planning_Function_Scenario_relationship_b7c5.model_Path_Planning_Function_Scenario_torole_616a));
+ 
+    Connect(connector(model_Path_Planning_Function_Scenario_object_93cf,model_Path_Planning_Function_Scenario_relationship_68c1.model_Path_Planning_Function_Scenario_fromrole_f096),connector(model_Path_Planning_Function_Scenario_object_75e3,model_Path_Planning_Function_Scenario_relationship_68c1.model_Path_Planning_Function_Scenario_torole_498e));
+ 
+    Connect(connector(model_Path_Planning_Function_Scenario_object_75e3,model_Path_Planning_Function_Scenario_relationship_964b.model_Path_Planning_Function_Scenario_fromrole_1e6a),connector(model_Path_Planning_Function_Scenario_object_9eb1,model_Path_Planning_Function_Scenario_relationship_964b.model_Path_Planning_Function_Scenario_torole_a82d));
+ 
+    Connect(connector(model_Path_Planning_Function_Scenario_object_9eb1,model_Path_Planning_Function_Scenario_relationship_cdcf.model_Path_Planning_Function_Scenario_fromrole_80d7),connector(model_Path_Planning_Function_Scenario_object_4737,model_Path_Planning_Function_Scenario_relationship_cdcf.model_Path_Planning_Function_Scenario_torole_1862));
+ 
+    Connect(connector(model_Path_Planning_Function_Scenario_object_4737,model_Path_Planning_Function_Scenario_relationship_f742.model_Path_Planning_Function_Scenario_fromrole_bd79),connector(model_Path_Planning_Function_Scenario_object_f55d,model_Path_Planning_Function_Scenario_relationship_f742.model_Path_Planning_Function_Scenario_torole_b5f2));
+ 
+    Connect(connector(model_Path_Planning_Function_Scenario_object_f55d,model_Path_Planning_Function_Scenario_relationship_7d1f.model_Path_Planning_Function_Scenario_fromrole_276e),connector(model_Path_Planning_Function_Scenario_object_d9ca,model_Path_Planning_Function_Scenario_relationship_7d1f.model_Path_Planning_Function_Scenario_torole_05c8));
+ 
+    Connect(connector(model_Path_Planning_Function_Scenario_object_d9ca,model_Path_Planning_Function_Scenario_relationship_aeb2.model_Path_Planning_Function_Scenario_fromrole_a8f0),connector(model_Path_Planning_Function_Scenario_object_0669,model_Path_Planning_Function_Scenario_relationship_aeb2.model_Path_Planning_Function_Scenario_torole_e8e4));
+ 
+    Connect(connector(model_Path_Planning_Function_Scenario_object_0669,model_Path_Planning_Function_Scenario_relationship_4a09.model_Path_Planning_Function_Scenario_fromrole_8636),connector(model_Path_Planning_Function_Scenario_object_893d,model_Path_Planning_Function_Scenario_relationship_4a09.model_Path_Planning_Function_Scenario_torole_3462));
+ 
+
+      annotation(
+        localLabel="路径规划特征的功能场景",
+    );
+    
+   end model_Path_Planning_Function_Scenario;

@@ -1,0 +1,2059 @@
+    partial Model model_Vehicle_Control_System_Activity instanceof metaGraph_Activity_Diagram
+      Object model_Vehicle_Control_System_Activity_object_a9f8 refer metaObject_Initial_Node
+        annotation(
+          initialLocation=(87,10,49,49),
+          localLabel="初始节点",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_a9f8;
+
+      Object model_Vehicle_Control_System_Activity_object_4b16 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_4b16_property_230e = "启动车辆控制" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_4b16_property_3a5b = "启动车辆控制" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(45,108,151,73),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_4b16;
+
+      Object model_Vehicle_Control_System_Activity_object_378b refer metaObject_Fork
+        annotation(
+          initialLocation=(45,228,133,7),
+          localLabel="分支",
+          shape="narrowSolidRectangle",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_378b;
+
+      Object model_Vehicle_Control_System_Activity_object_65c5 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_65c5_property_27a2 = "输入系统指令" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_65c5_property_490a = "输入系统指令" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(51,282,153,73),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_65c5;
+
+      Object model_Vehicle_Control_System_Activity_object_2388 refer metaObject_Fork
+        annotation(
+          initialLocation=(51,396,133,7),
+          localLabel="分支",
+          shape="narrowSolidRectangle",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_2388;
+
+      Object model_Vehicle_Control_System_Activity_object_d336 refer metaObject_Decision
+        annotation(
+          initialLocation=(69,436,67,55),
+          localLabel="决策",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_d336;
+
+      Object model_Vehicle_Control_System_Activity_object_4bf3 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_4bf3_property_0f86 = "控制加速" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_4bf3_property_85d6 = "控制加速" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(37,544,104,113),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_4bf3;
+
+      Object model_Vehicle_Control_System_Activity_object_af80 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_af80_property_38c0 = "控制减速或制动" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_af80_property_fa25 = "控制减速或制动" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(168,544,105,113),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_af80;
+
+      Object model_Vehicle_Control_System_Activity_object_60af refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_60af_property_4094 = "控制紧急制动" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_60af_property_c774 = "控制紧急制动" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(288,546,109,110),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_60af;
+
+      Object model_Vehicle_Control_System_Activity_object_d943 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_d943_property_d51f = "调整车辆转向装置" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_d943_property_23fc = "调整车辆转向装置" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(415,546,117,111),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_d943;
+
+      Object model_Vehicle_Control_System_Activity_object_e08f refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_e08f_property_8084 = "检测合适的停车位或泊车空间" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_e08f_property_4ec3 = "检测合适的停车位或泊车空间" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(546,546,147,116),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_e08f;
+
+      Object model_Vehicle_Control_System_Activity_object_e834 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_e834_property_01c8 = "加速" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_e834_property_9e60 = "加速" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(38,700,101,116),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_e834;
+
+      Object model_Vehicle_Control_System_Activity_object_2f49 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_2f49_property_8317 = "减速或制动" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_2f49_property_12f9 = "减速或制动" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(172,700,101,116),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_2f49;
+
+      Object model_Vehicle_Control_System_Activity_object_63fa refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_63fa_property_ab3e = "紧急制动" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_63fa_property_8700 = "紧急制动" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(293,700,104,110),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_63fa;
+
+      Object model_Vehicle_Control_System_Activity_object_9447 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_9447_property_f28f = "执行转向" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_9447_property_d5e5 = "执行转向" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(415,700,117,110),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_9447;
+
+      Object model_Vehicle_Control_System_Activity_object_898a refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_898a_property_a90c = "计算路径" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_898a_property_74b3 = "计算路径" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(546,700,147,76),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_898a;
+
+      Object model_Vehicle_Control_System_Activity_object_c46f refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_c46f_property_15e6 = "控制转向" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_c46f_property_51f5 = "控制转向" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(552,813,141,79),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_c46f;
+
+      Object model_Vehicle_Control_System_Activity_object_0c52 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_0c52_property_bb3c = "执行转向" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_0c52_property_d615 = "执行转向" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(342,905,169,81),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_0c52;
+
+      Object model_Vehicle_Control_System_Activity_object_0569 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_0569_property_5bc6 = "控制减速或制动" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_0569_property_b829 = "控制减速或制动" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(342,1025,167,77),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_0569;
+
+      Object model_Vehicle_Control_System_Activity_object_23b0 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_23b0_property_acc3 = "减速和制动" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_23b0_property_d0d8 = "减速和制动" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(342,1133,167,79),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_23b0;
+
+      Object model_Vehicle_Control_System_Activity_object_5b81 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_5b81_property_7605 = "完成停车或泊车" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_5b81_property_affc = "完成停车或泊车" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(346,1242,159,79),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_5b81;
+
+      Object model_Vehicle_Control_System_Activity_object_a3cc refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_a3cc_property_043c = "结束车辆控制" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_a3cc_property_9f02 = "结束车辆控制" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(144,1244,158,77),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_a3cc;
+
+      Object model_Vehicle_Control_System_Activity_object_e442 refer metaObject_Activity_Final
+        annotation(
+          initialLocation=(15,1254,55,53),
+          localLabel="活动终端",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_e442;
+
+      Object model_Vehicle_Control_System_Activity_object_84d1 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_84d1_property_cf9b = "决策和路径规划支持" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_84d1_property_aa24 = "决策和路径规划支持" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(570,1135,189,75),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_84d1;
+
+      Object model_Vehicle_Control_System_Activity_object_fa20 refer metaObject_Initial_Node
+        annotation(
+          initialLocation=(529,1326,49,49),
+          localLabel="初始节点",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_fa20;
+
+      Object model_Vehicle_Control_System_Activity_object_3847 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_3847_property_a371 = "目标设定" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_3847_property_9a7d = "目标设定" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(642,1312,127,79),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_3847;
+
+      Object model_Vehicle_Control_System_Activity_object_4770 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_4770_property_06fe = "路线规划" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_4770_property_8960 = "路线规划" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(630,1444,136,77),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_4770;
+
+      Object model_Vehicle_Control_System_Activity_object_4ed0 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_4ed0_property_111e = "车道保持" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_4ed0_property_dee7 = "车道保持" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(436,1439,137,89),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_4ed0;
+
+      Object model_Vehicle_Control_System_Activity_object_7b9e refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_7b9e_property_a728 = "速度控制" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_7b9e_property_a81b = "速度控制" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(240,1441,128,84),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_7b9e;
+
+      Object model_Vehicle_Control_System_Activity_object_4b5b refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_4b5b_property_0daa = "路径优化" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_4b5b_property_b1e1 = "路径优化" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(56,1441,124,85),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_4b5b;
+
+      Object model_Vehicle_Control_System_Activity_object_783e refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_783e_property_b892 = "路径更新" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_783e_property_a7ab = "路径更新" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(50,1576,140,87),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_783e;
+
+      Object model_Vehicle_Control_System_Activity_object_6e65 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_6e65_property_d564 = "路径下发" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_6e65_property_6270 = "路径下发" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(240,1576,124,84),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_6e65;
+
+      Object model_Vehicle_Control_System_Activity_object_a015 refer metaObject_Activity_Final
+        annotation(
+          initialLocation=(420,1595,48,48),
+          localLabel="活动终端",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_a015;
+
+      Object model_Vehicle_Control_System_Activity_object_ed9e refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_ed9e_property_f868 = "输入路径规划和目标" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_ed9e_property_4fd2 = "输入路径规划和目标" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(678,1570,187,84),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_ed9e;
+
+      Object model_Vehicle_Control_System_Activity_object_38d8 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_38d8_property_c101 = "决策制定" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_38d8_property_ed40 = "决策制定" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(774,1708,129,73),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_38d8;
+
+      Object model_Vehicle_Control_System_Activity_object_d056 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_d056_property_e8d9 = "控制执行" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_d056_property_61d9 = "控制执行" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(588,1709,140,80),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_d056;
+
+      Object model_Vehicle_Control_System_Activity_object_41f7 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_41f7_property_ce2b = "车辆稳定性控制" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_41f7_property_8a1b = "车辆稳定性控制" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(372,1708,165,79),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_41f7;
+
+      Object model_Vehicle_Control_System_Activity_object_d222 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_d222_property_7c83 = "实时调整和更新" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_d222_property_56eb = "实时调整和更新" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(156,1703,169,78),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_d222;
+
+      Object model_Vehicle_Control_System_Activity_object_a864 refer metaObject_Activity_Final
+        annotation(
+          initialLocation=(37,1720,51,49),
+          localLabel="活动终端",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_a864;
+
+      Object model_Vehicle_Control_System_Activity_object_44d4 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_44d4_property_779e = "车队协同行驶" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_44d4_property_9784 = "车队协同行驶" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(738,1798,173,81),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_44d4;
+
+      Object model_Vehicle_Control_System_Activity_object_429d refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_429d_property_261d = "碰撞威胁评估" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_429d_property_6dc3 = "碰撞威胁评估" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(748,1888,154,79),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_429d;
+
+      Object model_Vehicle_Control_System_Activity_object_2552 refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_2552_property_c437 = "制定和执行避险措施" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_2552_property_1531 = "制定和执行避险措施" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(493,1888,199,85),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_2552;
+
+      Object model_Vehicle_Control_System_Activity_object_369f refer metaObject_Call_Behavior_Action
+        Property model_Vehicle_Control_System_Activity_object_369f_property_d7bb = "决策优化" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_System_Activity_object_369f_property_15ca = "决策优化" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(232,1894,140,79),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_System_Activity_object_369f;
+
+      Relationship model_Vehicle_Control_System_Activity_relationship_7319 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_e412 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_e412;
+         Role model_Vehicle_Control_System_Activity_torole_387d refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_387d;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(106,34;115,193),
+          polylineLocation="[-5,0,-5,-49]$[-5,49,-5,0];(0.6530612244897959,1.0);(0.4966442953020134,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_7319;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_2027 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_8a68 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_8a68;
+         Role model_Vehicle_Control_System_Activity_torole_41a4 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_41a4;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(120,144;111,280),
+          polylineLocation="[0,0,0,-49]$[0,49,0,0];(0.4899328859060403,1.0);(0.5488721804511278,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_2027;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_be2f refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_00b6 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_00b6;
+         Role model_Vehicle_Control_System_Activity_torole_8bf7 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_8bf7;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(81,231;97,362),
+          polylineLocation="[-30,0,-7,-44]$[-30,44,-7,0];(0.7894736842105263,1.0);(0.5033112582781457,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_be2f;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_8e28 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_bddc refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_bddc;
+         Role model_Vehicle_Control_System_Activity_torole_81b0 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_81b0;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(127,318;117,442),
+          polylineLocation="[0,0,0,-43]$[0,43,0,0];(0.4370860927152318,1.0);(0.49624060150375937,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_8e28;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_0fb3 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_2ae8 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_2ae8;
+         Role model_Vehicle_Control_System_Activity_torole_52ad refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_52ad;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(105,399;90,493),
+          polylineLocation="[-12,0,0,-30]$[-12,30,0,0];(0.47368421052631576,1.0);(0.4925373134328358,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_0fb3;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_9644 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_4ef9 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_4ef9;
+         Role model_Vehicle_Control_System_Activity_torole_457e refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_457e;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(106,463;93,653),
+          polylineLocation="[4,0,6,-53]$[4,53,6,0];(0.43283582089552236,1.0);(0.5784313725490197,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_9644;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_0eda refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_984a refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_984a;
+         Role model_Vehicle_Control_System_Activity_torole_9633 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_9633;
+       
+        annotation(
+          localLabel="",
+          shape="dashLine",
+          endLocation=(68,496;311,686),
+          polylineLocation="[-34,33,-125,-53]$[-34,57,-125,-29]$[91,57,0,-29]$[91,86,0,0];(1.0,0.4);(0.5728155339805825,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_0eda;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_5ada refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_eab4 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_eab4;
+         Role model_Vehicle_Control_System_Activity_torole_3a05 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_3a05;
+       
+        annotation(
+          localLabel="",
+          shape="dashLine",
+          endLocation=(68,502;558,695),
+          polylineLocation="[-34,39,-250,-55]$[-34,63,-250,-31]$[216,63,0,-31]$[216,94,0,0];(1.0,0.2909090909090909);(0.5981308411214952,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_5ada;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_2489 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_7a01 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_7a01;
+         Role model_Vehicle_Control_System_Activity_torole_a351 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_a351;
+       
+        annotation(
+          localLabel="",
+          shape="dashLine",
+          endLocation=(68,496;1086,692),
+          polylineLocation="[-34,33,-444,-71]$[-34,57,-444,-47]$[467,57,57,-47]$[467,88,57,-16];(1.0,0.4);(0.0,0.14035087719298245)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_2489;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_2444 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_a305 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_a305;
+         Role model_Vehicle_Control_System_Activity_torole_fbaa refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_fbaa;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(89,600;88,803),
+          polylineLocation="[0,0,0,-45]$[0,45,0,0];(0.45098039215686275,1.0);(0.45454545454545453,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_2444;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_26f6 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_b058 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_b058;
+         Role model_Vehicle_Control_System_Activity_torole_8383 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_8383;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(220,600;222,803),
+          polylineLocation="[0,0,0,-45]$[0,45,0,0];(0.4077669902912621,1.0);(0.3838383838383838,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_26f6;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_9a10 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_f14c refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_f14c;
+         Role model_Vehicle_Control_System_Activity_torole_73a9 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_73a9;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(342,601;345,801),
+          polylineLocation="[0,0,0,-46]$[0,46,0,0];(0.5514018691588785,1.0);(0.5294117647058824,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_9a10;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_100c refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_844a refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_844a;
+         Role model_Vehicle_Control_System_Activity_torole_a3a0 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_a3a0;
+       
+        annotation(
+          localLabel="",
+          shape="dashLine",
+          endLocation=(68,493;805,686),
+          polylineLocation="[-34,30,-313,-78]$[-34,54,-313,-54]$[332,54,53,-54]$[332,85,53,-23];(1.0,0.45454545454545453);(0.0,0.21100917431192662)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_100c;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_53a0 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_28c7 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_28c7;
+         Role model_Vehicle_Control_System_Activity_torole_74db refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_74db;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(473,601;473,800),
+          polylineLocation="[0,0,0,-45]$[0,45,0,0];(0.4608695652173913,1.0);(0.4608695652173913,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_53a0;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_34eb refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_c23e refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_c23e;
+         Role model_Vehicle_Control_System_Activity_torole_9b49 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_9b49;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(619,604;619,778),
+          polylineLocation="[0,0,0,-40]$[0,40,0,0];(0.496551724137931,1.0);(0.496551724137931,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_34eb;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_5c02 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_172e refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_172e;
+         Role model_Vehicle_Control_System_Activity_torole_ae5f refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_ae5f;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(619,738;622,891),
+          polylineLocation="[0,0,0,-39]$[0,39,0,0];(0.5172413793103449,1.0);(0.49640287769784175,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_5c02;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_f752 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_1d17 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_1d17;
+         Role model_Vehicle_Control_System_Activity_torole_bcb2 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_bcb2;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(622,900;290,1017),
+          polylineLocation="[0,48,136,-24]$[-136,48,0,-24]$[-136,72,0,0];(0.0,0.2597402597402597);(0.4431137724550898,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_f752;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_7567 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_0f8d refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_0f8d;
+         Role model_Vehicle_Control_System_Activity_torole_8657 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_8657;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(426,945;425,1096),
+          polylineLocation="[0,0,0,-33]$[0,33,0,0];(0.49101796407185627,0.9746835443037974);(0.49696969696969695,-0.13333333333333333)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_7567;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_ea2f refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_172b refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_172b;
+         Role model_Vehicle_Control_System_Activity_torole_891b refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_891b;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(425,1063;425,1205),
+          polylineLocation="[0,0,0,-33]$[0,33,0,0];(0.49696969696969695,1.0);(0.49696969696969695,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_ea2f;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_d7b7 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_9e38 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_9e38;
+         Role model_Vehicle_Control_System_Activity_torole_6025 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_6025;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(425,1172;425,1313),
+          polylineLocation="[0,0,0,-32]$[0,32,0,0];(0.49696969696969695,1.0);(0.4968152866242038,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_d7b7;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_705f refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_fe8d refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_fe8d;
+         Role model_Vehicle_Control_System_Activity_torole_c3af refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_c3af;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(425,1307;177,1308),
+          polylineLocation="[0,26,46,26]$[-46,26,0,26];(0.0,0.15584415584415584);(1.0,0.13333333333333333)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_705f;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_af19 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_07ae refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_07ae;
+         Role model_Vehicle_Control_System_Activity_torole_ed02 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_ed02;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(223,1282;-32,1280),
+          polylineLocation="[0,0,74,0]$[-74,0,0,0];(0.0,0.37333333333333335);(1.0,0.33962264150943394)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_af19;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_9bd8 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_6935 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_6935;
+         Role model_Vehicle_Control_System_Activity_torole_1076 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_1076;
+       
+        annotation(
+          localLabel="",
+          shape="dashLine",
+          endLocation=(88,758;375,1712),
+          polylineLocation="[0,0,-132,-430]$[0,49,-132,-381]$[152,49,20,-381]$[152,430,20,0];(0.31313131313131315,1.0);(0.36538461538461536,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_9bd8;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_cfdb refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_3c41 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_3c41;
+         Role model_Vehicle_Control_System_Activity_torole_b42e refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_b42e;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(222,758;223,1712),
+          polylineLocation="[0,0,0,-430]$[0,430,0,0];(0.5050505050505051,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_cfdb;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_c6bf refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_6d08 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_6d08;
+         Role model_Vehicle_Control_System_Activity_torole_a169 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_a169;
+       
+        annotation(
+          localLabel="",
+          shape="dashLine",
+          endLocation=(345,755;84,1718),
+          polylineLocation="[0,0,108,-436]$[0,55,108,-381]$[-139,55,-31,-381]$[-139,436,-31,0];(0.6568627450980392,1.0);(0.6923076923076923,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_c6bf;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_2091 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_4a53 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_4a53;
+         Role model_Vehicle_Control_System_Activity_torole_317a refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_317a;
+       
+        annotation(
+          localLabel="",
+          shape="dashLine",
+          endLocation=(473,755;-34,1718),
+          polylineLocation="[0,0,246,-436]$[0,55,246,-381]$[-257,55,-11,-381]$[-257,436,-11,0];(0.5478260869565217,1.0);(0.5641025641025641,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_2091;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_1cb5 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_8742 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_8742;
+         Role model_Vehicle_Control_System_Activity_torole_6bd1 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_6bd1;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(553,1350;769,1351),
+          polylineLocation="[0,0,-64,0]$[64,0,0,0];(1.0,0.30612244897959184);(0.0,0.37662337662337664)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_1cb5;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_21e5 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_0f8e refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_0f8e;
+         Role model_Vehicle_Control_System_Activity_torole_512d refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_512d;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(504,1507;234,1507),
+          polylineLocation="[0,24,70,24]$[-70,24,0,24];(0.0,0.19540229885057472);(1.0,0.18292682926829268)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_21e5;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_05bb refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_35a4 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_35a4;
+         Role model_Vehicle_Control_System_Activity_torole_8410 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_8410;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(304,1483;56,1483),
+          polylineLocation="[0,0,62,0]$[-62,0,0,0];(0.0,0.35365853658536583);(1.0,0.3493975903614458)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_05bb;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_12a6 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_4b52 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_4b52;
+         Role model_Vehicle_Control_System_Activity_torole_f55f refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_f55f;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(118,1483;120,1671),
+          polylineLocation="[0,0,0,-52]$[0,52,0,0];(0.4344262295081967,1.0);(0.427536231884058,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_12a6;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_743e refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_4bfb refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_4bfb;
+         Role model_Vehicle_Control_System_Activity_torole_95d6 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_95d6;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(120,1619;354,1618),
+          polylineLocation="[0,0,-52,0]$[52,0,0,0];(1.0,0.47058823529411764);(0.0,0.4878048780487805)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_743e;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_2dc0 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_7809 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_7809;
+         Role model_Vehicle_Control_System_Activity_torole_08b6 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_08b6;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(302,1635;502,1636),
+          polylineLocation="[0,17,-58,0]$[58,17,0,0];(1.0,0.23170731707317074);(0.0,0.3541666666666667)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_2dc0;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_97c5 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_b577 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_b577;
+         Role model_Vehicle_Control_System_Activity_torole_b8cd refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_b8cd;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(838,1744;610,1749),
+          polylineLocation="[0,0,48,0]$[-48,0,0,0];(0.0,0.3380281690140845);(1.0,0.2948717948717949)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_97c5;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_aaea refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_c16a refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_c16a;
+         Role model_Vehicle_Control_System_Activity_torole_e887 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_e887;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(658,1749;401,1747),
+          polylineLocation="[0,0,53,0]$[-53,0,0,0];(0.0,0.47435897435897434);(1.0,0.4935064935064935)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_aaea;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_09c9 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_43a7 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_43a7;
+         Role model_Vehicle_Control_System_Activity_torole_0a1a refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_0a1a;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(454,1773;191,1768),
+          polylineLocation="[0,26,49,32]$[-49,26,0,32];(0.0,0.15584415584415584);(1.0,0.14473684210526316)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_09c9;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_1ecf refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_5f2d refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_5f2d;
+         Role model_Vehicle_Control_System_Activity_torole_399c refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_399c;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(240,1762;-6,1764),
+          polylineLocation="[0,20,68,20]$[-68,20,0,20];(0.0,0.3157894736842105);(1.0,0.14285714285714285)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_1ecf;
+ 
+      Relationship model_Vehicle_Control_System_Activity_relationship_8740 refer metaRelationship_Control_Flow
+        Role model_Vehicle_Control_System_Activity_fromrole_1634 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_System_Activity_fromrole_1634;
+         Role model_Vehicle_Control_System_Activity_torole_03d3 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Vehicle_Control_System_Activity_torole_03d3;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(825,1927;534,1930),
+          polylineLocation="[0,0,58,0]$[-58,0,0,0];(0.0,0.4025974025974026);(1.0,0.37349397590361444)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_System_Activity_relationship_8740;
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_a9f8,model_Vehicle_Control_System_Activity_relationship_7319.model_Vehicle_Control_System_Activity_fromrole_e412),connector(model_Vehicle_Control_System_Activity_object_4b16,model_Vehicle_Control_System_Activity_relationship_7319.model_Vehicle_Control_System_Activity_torole_387d));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_4b16,model_Vehicle_Control_System_Activity_relationship_2027.model_Vehicle_Control_System_Activity_fromrole_8a68),connector(model_Vehicle_Control_System_Activity_object_378b,model_Vehicle_Control_System_Activity_relationship_2027.model_Vehicle_Control_System_Activity_torole_41a4));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_378b,model_Vehicle_Control_System_Activity_relationship_be2f.model_Vehicle_Control_System_Activity_fromrole_00b6),connector(model_Vehicle_Control_System_Activity_object_65c5,model_Vehicle_Control_System_Activity_relationship_be2f.model_Vehicle_Control_System_Activity_torole_8bf7));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_65c5,model_Vehicle_Control_System_Activity_relationship_8e28.model_Vehicle_Control_System_Activity_fromrole_bddc),connector(model_Vehicle_Control_System_Activity_object_2388,model_Vehicle_Control_System_Activity_relationship_8e28.model_Vehicle_Control_System_Activity_torole_81b0));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_2388,model_Vehicle_Control_System_Activity_relationship_0fb3.model_Vehicle_Control_System_Activity_fromrole_2ae8),connector(model_Vehicle_Control_System_Activity_object_d336,model_Vehicle_Control_System_Activity_relationship_0fb3.model_Vehicle_Control_System_Activity_torole_52ad));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_d336,model_Vehicle_Control_System_Activity_relationship_9644.model_Vehicle_Control_System_Activity_fromrole_4ef9),connector(model_Vehicle_Control_System_Activity_object_4bf3,model_Vehicle_Control_System_Activity_relationship_9644.model_Vehicle_Control_System_Activity_torole_457e));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_d336,model_Vehicle_Control_System_Activity_relationship_0eda.model_Vehicle_Control_System_Activity_fromrole_984a),connector(model_Vehicle_Control_System_Activity_object_af80,model_Vehicle_Control_System_Activity_relationship_0eda.model_Vehicle_Control_System_Activity_torole_9633));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_d336,model_Vehicle_Control_System_Activity_relationship_5ada.model_Vehicle_Control_System_Activity_fromrole_eab4),connector(model_Vehicle_Control_System_Activity_object_60af,model_Vehicle_Control_System_Activity_relationship_5ada.model_Vehicle_Control_System_Activity_torole_3a05));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_d336,model_Vehicle_Control_System_Activity_relationship_2489.model_Vehicle_Control_System_Activity_fromrole_7a01),connector(model_Vehicle_Control_System_Activity_object_e08f,model_Vehicle_Control_System_Activity_relationship_2489.model_Vehicle_Control_System_Activity_torole_a351));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_4bf3,model_Vehicle_Control_System_Activity_relationship_2444.model_Vehicle_Control_System_Activity_fromrole_a305),connector(model_Vehicle_Control_System_Activity_object_e834,model_Vehicle_Control_System_Activity_relationship_2444.model_Vehicle_Control_System_Activity_torole_fbaa));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_af80,model_Vehicle_Control_System_Activity_relationship_26f6.model_Vehicle_Control_System_Activity_fromrole_b058),connector(model_Vehicle_Control_System_Activity_object_2f49,model_Vehicle_Control_System_Activity_relationship_26f6.model_Vehicle_Control_System_Activity_torole_8383));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_60af,model_Vehicle_Control_System_Activity_relationship_9a10.model_Vehicle_Control_System_Activity_fromrole_f14c),connector(model_Vehicle_Control_System_Activity_object_63fa,model_Vehicle_Control_System_Activity_relationship_9a10.model_Vehicle_Control_System_Activity_torole_73a9));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_d336,model_Vehicle_Control_System_Activity_relationship_100c.model_Vehicle_Control_System_Activity_fromrole_844a),connector(model_Vehicle_Control_System_Activity_object_d943,model_Vehicle_Control_System_Activity_relationship_100c.model_Vehicle_Control_System_Activity_torole_a3a0));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_d943,model_Vehicle_Control_System_Activity_relationship_53a0.model_Vehicle_Control_System_Activity_fromrole_28c7),connector(model_Vehicle_Control_System_Activity_object_9447,model_Vehicle_Control_System_Activity_relationship_53a0.model_Vehicle_Control_System_Activity_torole_74db));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_e08f,model_Vehicle_Control_System_Activity_relationship_34eb.model_Vehicle_Control_System_Activity_fromrole_c23e),connector(model_Vehicle_Control_System_Activity_object_898a,model_Vehicle_Control_System_Activity_relationship_34eb.model_Vehicle_Control_System_Activity_torole_9b49));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_898a,model_Vehicle_Control_System_Activity_relationship_5c02.model_Vehicle_Control_System_Activity_fromrole_172e),connector(model_Vehicle_Control_System_Activity_object_c46f,model_Vehicle_Control_System_Activity_relationship_5c02.model_Vehicle_Control_System_Activity_torole_ae5f));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_c46f,model_Vehicle_Control_System_Activity_relationship_f752.model_Vehicle_Control_System_Activity_fromrole_1d17),connector(model_Vehicle_Control_System_Activity_object_0c52,model_Vehicle_Control_System_Activity_relationship_f752.model_Vehicle_Control_System_Activity_torole_bcb2));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_0c52,model_Vehicle_Control_System_Activity_relationship_7567.model_Vehicle_Control_System_Activity_fromrole_0f8d),connector(model_Vehicle_Control_System_Activity_object_0569,model_Vehicle_Control_System_Activity_relationship_7567.model_Vehicle_Control_System_Activity_torole_8657));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_0569,model_Vehicle_Control_System_Activity_relationship_ea2f.model_Vehicle_Control_System_Activity_fromrole_172b),connector(model_Vehicle_Control_System_Activity_object_23b0,model_Vehicle_Control_System_Activity_relationship_ea2f.model_Vehicle_Control_System_Activity_torole_891b));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_23b0,model_Vehicle_Control_System_Activity_relationship_d7b7.model_Vehicle_Control_System_Activity_fromrole_9e38),connector(model_Vehicle_Control_System_Activity_object_5b81,model_Vehicle_Control_System_Activity_relationship_d7b7.model_Vehicle_Control_System_Activity_torole_6025));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_5b81,model_Vehicle_Control_System_Activity_relationship_705f.model_Vehicle_Control_System_Activity_fromrole_fe8d),connector(model_Vehicle_Control_System_Activity_object_a3cc,model_Vehicle_Control_System_Activity_relationship_705f.model_Vehicle_Control_System_Activity_torole_c3af));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_a3cc,model_Vehicle_Control_System_Activity_relationship_af19.model_Vehicle_Control_System_Activity_fromrole_07ae),connector(model_Vehicle_Control_System_Activity_object_e442,model_Vehicle_Control_System_Activity_relationship_af19.model_Vehicle_Control_System_Activity_torole_ed02));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_e834,model_Vehicle_Control_System_Activity_relationship_9bd8.model_Vehicle_Control_System_Activity_fromrole_6935),connector(model_Vehicle_Control_System_Activity_object_a3cc,model_Vehicle_Control_System_Activity_relationship_9bd8.model_Vehicle_Control_System_Activity_torole_1076));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_2f49,model_Vehicle_Control_System_Activity_relationship_cfdb.model_Vehicle_Control_System_Activity_fromrole_3c41),connector(model_Vehicle_Control_System_Activity_object_a3cc,model_Vehicle_Control_System_Activity_relationship_cfdb.model_Vehicle_Control_System_Activity_torole_b42e));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_63fa,model_Vehicle_Control_System_Activity_relationship_c6bf.model_Vehicle_Control_System_Activity_fromrole_6d08),connector(model_Vehicle_Control_System_Activity_object_a3cc,model_Vehicle_Control_System_Activity_relationship_c6bf.model_Vehicle_Control_System_Activity_torole_a169));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_9447,model_Vehicle_Control_System_Activity_relationship_2091.model_Vehicle_Control_System_Activity_fromrole_4a53),connector(model_Vehicle_Control_System_Activity_object_a3cc,model_Vehicle_Control_System_Activity_relationship_2091.model_Vehicle_Control_System_Activity_torole_317a));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_fa20,model_Vehicle_Control_System_Activity_relationship_1cb5.model_Vehicle_Control_System_Activity_fromrole_8742),connector(model_Vehicle_Control_System_Activity_object_3847,model_Vehicle_Control_System_Activity_relationship_1cb5.model_Vehicle_Control_System_Activity_torole_6bd1));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_4ed0,model_Vehicle_Control_System_Activity_relationship_21e5.model_Vehicle_Control_System_Activity_fromrole_0f8e),connector(model_Vehicle_Control_System_Activity_object_7b9e,model_Vehicle_Control_System_Activity_relationship_21e5.model_Vehicle_Control_System_Activity_torole_512d));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_7b9e,model_Vehicle_Control_System_Activity_relationship_05bb.model_Vehicle_Control_System_Activity_fromrole_35a4),connector(model_Vehicle_Control_System_Activity_object_4b5b,model_Vehicle_Control_System_Activity_relationship_05bb.model_Vehicle_Control_System_Activity_torole_8410));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_4b5b,model_Vehicle_Control_System_Activity_relationship_12a6.model_Vehicle_Control_System_Activity_fromrole_4b52),connector(model_Vehicle_Control_System_Activity_object_783e,model_Vehicle_Control_System_Activity_relationship_12a6.model_Vehicle_Control_System_Activity_torole_f55f));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_783e,model_Vehicle_Control_System_Activity_relationship_743e.model_Vehicle_Control_System_Activity_fromrole_4bfb),connector(model_Vehicle_Control_System_Activity_object_6e65,model_Vehicle_Control_System_Activity_relationship_743e.model_Vehicle_Control_System_Activity_torole_95d6));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_6e65,model_Vehicle_Control_System_Activity_relationship_2dc0.model_Vehicle_Control_System_Activity_fromrole_7809),connector(model_Vehicle_Control_System_Activity_object_a015,model_Vehicle_Control_System_Activity_relationship_2dc0.model_Vehicle_Control_System_Activity_torole_08b6));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_38d8,model_Vehicle_Control_System_Activity_relationship_97c5.model_Vehicle_Control_System_Activity_fromrole_b577),connector(model_Vehicle_Control_System_Activity_object_d056,model_Vehicle_Control_System_Activity_relationship_97c5.model_Vehicle_Control_System_Activity_torole_b8cd));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_d056,model_Vehicle_Control_System_Activity_relationship_aaea.model_Vehicle_Control_System_Activity_fromrole_c16a),connector(model_Vehicle_Control_System_Activity_object_41f7,model_Vehicle_Control_System_Activity_relationship_aaea.model_Vehicle_Control_System_Activity_torole_e887));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_41f7,model_Vehicle_Control_System_Activity_relationship_09c9.model_Vehicle_Control_System_Activity_fromrole_43a7),connector(model_Vehicle_Control_System_Activity_object_d222,model_Vehicle_Control_System_Activity_relationship_09c9.model_Vehicle_Control_System_Activity_torole_0a1a));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_d222,model_Vehicle_Control_System_Activity_relationship_1ecf.model_Vehicle_Control_System_Activity_fromrole_5f2d),connector(model_Vehicle_Control_System_Activity_object_a864,model_Vehicle_Control_System_Activity_relationship_1ecf.model_Vehicle_Control_System_Activity_torole_399c));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_429d,model_Vehicle_Control_System_Activity_relationship_8740.model_Vehicle_Control_System_Activity_fromrole_1634),connector(model_Vehicle_Control_System_Activity_object_2552,model_Vehicle_Control_System_Activity_relationship_8740.model_Vehicle_Control_System_Activity_torole_03d3));
+ 
+
+      annotation(
+        localLabel="车辆控制系统活动模型",
+    );
+   end model_Vehicle_Control_System_Activity;

@@ -1,0 +1,22 @@
+   Object Vehicle_Feature
+      initial Property  Vehicle_Feature_Actual_Binding_Time_063faf = "null" extends Actual_Binding_Time annotation(localLabel ="实际绑定时间");
+      initial Property  Vehicle_Feature_Short_Name_eac8e7 = "null" extends Short_Name annotation(localLabel ="简称");
+      initial Property  Vehicle_Feature_Cardinality_7dd752 = "null" extends Cardinality annotation(localLabel ="基数");
+      initial Property  Vehicle_Feature_Is_Customer_Visible_aebc42 = false extends Is_Customer_Visible annotation(localLabel ="是否客户可见");
+      initial Property  Vehicle_Feature_Description_7a922e = "null" extends Description annotation(localLabel ="描述");
+      initial Property  Vehicle_Feature_Name_db42ba = "null" extends Name annotation(localLabel ="名称");
+      initial Property  Vehicle_Feature_Deviation_Attribute_Set_c2ea54 = "null" extends Deviation_Attribute_Set annotation(localLabel ="偏差属性集");
+      initial Property  Vehicle_Feature_Feature_Parameter_4437ac = "null" extends Feature_Parameter annotation(localLabel ="特征参数");
+      initial Property  Vehicle_Feature_Is_Design_Variability_Rationale_3aa259 = false extends Is_Design_Variability_Rationale annotation(localLabel ="是否设计可变性原理");
+      initial Property  Vehicle_Feature_Required_Binding_Time_8b5522 = "null" extends Required_Binding_Time annotation(localLabel ="要求绑定时间");
+      initial Property  Vehicle_Feature_Is_Removed_91dae9 = false extends Is_Removed annotation(localLabel ="是否移除");
+   annotation(
+      localLabel="车辆特征",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      );
+   end Vehicle_Feature;
+ 

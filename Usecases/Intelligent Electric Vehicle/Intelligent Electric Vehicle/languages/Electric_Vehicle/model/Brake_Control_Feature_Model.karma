@@ -1,0 +1,336 @@
+    partial Model Brake_Control_Feature_Model instanceof Vehicle_Feature_Diagram
+    
+      Object Brake_Control_Feature_Model_object_Vehicle_Feature_baab refer Vehicle_Feature
+        Property Vehicle_Feature_Name_db42ba_4254 = "制动控制" refer Vehicle_Feature_Name_db42ba annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(425,15,183,118),
+          localLabel="车辆特征",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Brake_Control_Feature_Model_object_Vehicle_Feature_baab;
+
+      Object Brake_Control_Feature_Model_object_Vehicle_Feature_20aa refer Vehicle_Feature
+        Property Vehicle_Feature_Name_db42ba_cbd2 = "手动制动" refer Vehicle_Feature_Name_db42ba annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(35,290,138,93),
+          localLabel="车辆特征",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Brake_Control_Feature_Model_object_Vehicle_Feature_20aa;
+
+      Object Brake_Control_Feature_Model_object_Vehicle_Feature_4e09 refer Vehicle_Feature
+        Property Vehicle_Feature_Name_db42ba_af52 = "自动驾驶制动" refer Vehicle_Feature_Name_db42ba annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(300,290,139,93),
+          localLabel="车辆特征",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Brake_Control_Feature_Model_object_Vehicle_Feature_4e09;
+
+      Object Brake_Control_Feature_Model_object_Vehicle_Feature_bddd refer Vehicle_Feature
+        Property Vehicle_Feature_Name_db42ba_7a6b = "再生制动" refer Vehicle_Feature_Name_db42ba annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(585,290,139,93),
+          localLabel="车辆特征",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Brake_Control_Feature_Model_object_Vehicle_Feature_bddd;
+
+      Object Brake_Control_Feature_Model_object_Vehicle_Feature_a161 refer Vehicle_Feature
+        Property Vehicle_Feature_Name_db42ba_1442 = "自动紧急刹车" refer Vehicle_Feature_Name_db42ba annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(880,290,139,93),
+          localLabel="车辆特征",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Brake_Control_Feature_Model_object_Vehicle_Feature_a161;
+
+      Relationship Feature_Composition_01e7 refer Feature_Composition
+        Role Feature_Composition_Incoming_297f refer Feature_Composition_Incoming
+          annotation(
+            localLabel="特征组合始端",
+            shape="no"
+          );
+        end Feature_Composition_Incoming_297f;
+         Role Feature_Composition_Outgoing_3fc9 refer Feature_Composition_Outgoing
+          annotation(
+            localLabel="特征组合终端",
+            shape="dottedDiamond"
+          );
+        end Feature_Composition_Outgoing_3fc9;
+       
+        annotation(
+          localLabel="特征组合",
+          shape="solidLine",
+          endLocation=(95,291;816,-220),
+          polylineLocation="[-9,-45,-421,217]$[-9,-281,-421,-19]$[322,-281,-90,-19]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Composition_01e7;
+ 
+      Relationship Feature_Composition_4405 refer Feature_Composition
+        Role Feature_Composition_Incoming_76b1 refer Feature_Composition_Incoming
+          annotation(
+            localLabel="特征组合始端",
+            shape="no"
+          );
+        end Feature_Composition_Incoming_76b1;
+         Role Feature_Composition_Outgoing_bab7 refer Feature_Composition_Outgoing
+          annotation(
+            localLabel="特征组合终端",
+            shape="dottedDiamond"
+          );
+        end Feature_Composition_Outgoing_bab7;
+       
+        annotation(
+          localLabel="特征组合",
+          shape="solidLine",
+          endLocation=(375,290;550,-180),
+          polylineLocation="[6,-46,-141,218]$[6,-241,-141,23]$[56,-241,-91,23]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Composition_4405;
+ 
+      Relationship Feature_Composition_91e9 refer Feature_Composition
+        Role Feature_Composition_Incoming_e121 refer Feature_Composition_Incoming
+          annotation(
+            localLabel="特征组合始端",
+            shape="no"
+          );
+        end Feature_Composition_Incoming_e121;
+         Role Feature_Composition_Outgoing_1289 refer Feature_Composition_Outgoing
+          annotation(
+            localLabel="特征组合终端",
+            shape="dottedDiamond"
+          );
+        end Feature_Composition_Outgoing_1289;
+       
+        annotation(
+          localLabel="特征组合",
+          shape="solidLine",
+          endLocation=(585,320;355,-144),
+          polylineLocation="[-69,-16,70,248]$[-139,-16,0,248]$[-139,-205,0,59]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Composition_91e9;
+ 
+      Relationship Feature_Composition_309a refer Feature_Composition
+        Role Feature_Composition_Incoming_ab46 refer Feature_Composition_Incoming
+          annotation(
+            localLabel="特征组合始端",
+            shape="no"
+          );
+        end Feature_Composition_Incoming_ab46;
+         Role Feature_Composition_Outgoing_91a8 refer Feature_Composition_Outgoing
+          annotation(
+            localLabel="特征组合终端",
+            shape="dottedDiamond"
+          );
+        end Feature_Composition_Outgoing_91a8;
+       
+        annotation(
+          localLabel="特征组合",
+          shape="solidLine",
+          endLocation=(941,290;152,-202),
+          polylineLocation="[-8,-46,426,217]$[-8,-263,426,0]$[-342,-263,92,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Composition_309a;
+ 
+      Relationship Feature_Link_f3e7 refer Feature_Link
+        Role Feature_Link_Incoming_4bef refer Feature_Link_Incoming
+          annotation(
+            localLabel="特征链接始端",
+            shape="no"
+          );
+        end Feature_Link_Incoming_4bef;
+         Role Feature_Link_Outgoing_5d9d refer Feature_Link_Outgoing
+          annotation(
+            localLabel="特征链接终端",
+            shape="solidArrow"
+          );
+        end Feature_Link_Outgoing_5d9d;
+       
+        annotation(
+          localLabel="特征链接",
+          shape="solidLine",
+          endLocation=(172,336;566,336),
+          polylineLocation="[68,0,-197,0]$[197,0,-68,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Link_f3e7;
+ 
+      Relationship Feature_Link_3360 refer Feature_Link
+        Role Feature_Link_Incoming_0873 refer Feature_Link_Incoming
+          annotation(
+            localLabel="特征链接始端",
+            shape="no"
+          );
+        end Feature_Link_Incoming_0873;
+         Role Feature_Link_Outgoing_ae4d refer Feature_Link_Outgoing
+          annotation(
+            localLabel="特征链接终端",
+            shape="solidArrow"
+          );
+        end Feature_Link_Outgoing_ae4d;
+       
+        annotation(
+          localLabel="特征链接",
+          shape="solidLine",
+          endLocation=(439,352;872,352),
+          polylineLocation="[70,16,-217,16]$[218,16,-69,16]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Link_3360;
+ 
+      Relationship Feature_Link_cd99 refer Feature_Link
+        Role Feature_Link_Incoming_195f refer Feature_Link_Incoming
+          annotation(
+            localLabel="特征链接始端",
+            shape="no"
+          );
+        end Feature_Link_Incoming_195f;
+         Role Feature_Link_Outgoing_f992 refer Feature_Link_Outgoing
+          annotation(
+            localLabel="特征链接终端",
+            shape="solidArrow"
+          );
+        end Feature_Link_Outgoing_f992;
+       
+        annotation(
+          localLabel="特征链接",
+          shape="solidLine",
+          endLocation=(724,351;1177,351),
+          polylineLocation="[70,15,-227,15]$[228,15,-69,15]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Feature_Link_cd99;
+ 
+    Connect(connector(Brake_Control_Feature_Model_object_Vehicle_Feature_20aa,Feature_Composition_01e7.Feature_Composition_Incoming_297f),connector(Brake_Control_Feature_Model_object_Vehicle_Feature_baab,Feature_Composition_01e7.Feature_Composition_Outgoing_3fc9));
+ 
+    Connect(connector(Brake_Control_Feature_Model_object_Vehicle_Feature_4e09,Feature_Composition_4405.Feature_Composition_Incoming_76b1),connector(Brake_Control_Feature_Model_object_Vehicle_Feature_baab,Feature_Composition_4405.Feature_Composition_Outgoing_bab7));
+ 
+    Connect(connector(Brake_Control_Feature_Model_object_Vehicle_Feature_bddd,Feature_Composition_91e9.Feature_Composition_Incoming_e121),connector(Brake_Control_Feature_Model_object_Vehicle_Feature_baab,Feature_Composition_91e9.Feature_Composition_Outgoing_1289));
+ 
+    Connect(connector(Brake_Control_Feature_Model_object_Vehicle_Feature_a161,Feature_Composition_309a.Feature_Composition_Incoming_ab46),connector(Brake_Control_Feature_Model_object_Vehicle_Feature_baab,Feature_Composition_309a.Feature_Composition_Outgoing_91a8));
+ 
+    Connect(connector(Brake_Control_Feature_Model_object_Vehicle_Feature_20aa,Feature_Link_f3e7.Feature_Link_Incoming_4bef),connector(Brake_Control_Feature_Model_object_Vehicle_Feature_4e09,Feature_Link_f3e7.Feature_Link_Outgoing_5d9d));
+ 
+    Connect(connector(Brake_Control_Feature_Model_object_Vehicle_Feature_4e09,Feature_Link_3360.Feature_Link_Incoming_0873),connector(Brake_Control_Feature_Model_object_Vehicle_Feature_bddd,Feature_Link_3360.Feature_Link_Outgoing_ae4d));
+ 
+    Connect(connector(Brake_Control_Feature_Model_object_Vehicle_Feature_bddd,Feature_Link_cd99.Feature_Link_Incoming_195f),connector(Brake_Control_Feature_Model_object_Vehicle_Feature_a161,Feature_Link_cd99.Feature_Link_Outgoing_f992));
+ 
+
+      annotation(
+        localLabel="制动控制特征模型",
+    );
+    
+   end Brake_Control_Feature_Model;

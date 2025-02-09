@@ -1,0 +1,1150 @@
+    partial Model Design_Operation_Analysis instanceof Use_Case_Diagram
+    
+      Object Design_Operation_Analysis_object_Actor_a540 refer Actor
+        Property Actor_Name_5ff9ef_9a55 = "null" refer Actor_Name_5ff9ef annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(115,65,76,111),
+          localLabel="软件工程师",
+          shape="humanForm",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Actor_a540;
+
+      Object Design_Operation_Analysis_object_Actor_3ce1 refer Actor
+        Property Actor_Name_5ff9ef_b9f3 = "null" refer Actor_Name_5ff9ef annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(114,392,76,111),
+          localLabel="硬件工程师",
+          shape="humanForm",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Actor_3ce1;
+
+      Object Design_Operation_Analysis_object_Actor_b053 refer Actor
+        Property Actor_Name_5ff9ef_df73 = "null" refer Actor_Name_5ff9ef annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(125,718,76,111),
+          localLabel="会计",
+          shape="humanForm",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Actor_b053;
+
+      Object Design_Operation_Analysis_object_Block_f3ff refer Block
+        Property Block_Name_e2d894_6948 = "雷达" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(955,575,163,58),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_f3ff;
+
+      Object Design_Operation_Analysis_object_Block_633a refer Block
+        Property Block_Name_e2d894_c74d = "转向角度检测" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(955,90,163,58),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_633a;
+
+      Object Design_Operation_Analysis_object_Block_69a7 refer Block
+        Property Block_Name_e2d894_42ae = "GPS模块" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(955,660,163,58),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_69a7;
+
+      Object Design_Operation_Analysis_object_Block_d597 refer Block
+        Property Block_Name_e2d894_2d81 = "GPS信号传输" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(955,335,163,58),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_d597;
+
+      Object Design_Operation_Analysis_object_Block_b9c1 refer Block
+        Property Block_Name_e2d894_4e7b = "V2V通信" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(955,175,163,58),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_b9c1;
+
+      Object Design_Operation_Analysis_object_Block_382e refer Block
+        Property Block_Name_e2d894_8e8f = "减少干涉" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(955,825,163,58),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_382e;
+
+      Object Design_Operation_Analysis_object_Block_18fe refer Block
+        Property Block_Name_e2d894_0eb3 = "GPS信号转换" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(955,420,163,58),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_18fe;
+
+      Object Design_Operation_Analysis_object_Block_48c9 refer Block
+        Property Block_Name_e2d894_b6b9 = "感知算法" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(955,495,163,58),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_48c9;
+
+      Object Design_Operation_Analysis_object_Block_2e82 refer Block
+        Property Block_Name_e2d894_f55f = "踏板检测" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(955,5,163,58),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_2e82;
+
+      Object Design_Operation_Analysis_object_Block_e193 refer Block
+        Property Block_Name_e2d894_bc1b = "连接" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(955,746,163,58),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_e193;
+
+      Object Design_Operation_Analysis_object_Block_8c9d refer Block
+        Property Block_Name_e2d894_824b = "V2I通信" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(955,255,163,58),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_8c9d;
+
+      Object Design_Operation_Analysis_object_Block_7424 refer Block
+        Property Block_Name_e2d894_0799 = "驱动指令分析" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(555,55,158,63),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_7424;
+
+      Object Design_Operation_Analysis_object_Block_4b67 refer Block
+        Property Block_Name_e2d894_27dc = "通讯协议" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(555,252,158,63),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_4b67;
+
+      Object Design_Operation_Analysis_object_Block_9057 refer Block
+        Property Block_Name_e2d894_7da3 = "定位与导航算法" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(555,415,158,63),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_9057;
+
+      Object Design_Operation_Analysis_object_Block_8b20 refer Block
+        Property Block_Name_e2d894_6aeb = "硬件安装" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(555,695,158,63),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_8b20;
+
+      Object Design_Operation_Analysis_object_Block_320f refer Block
+        Property Block_Name_e2d894_4125 = "预算评估" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(555,801,158,60),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_320f;
+
+      Object Design_Operation_Analysis_object_Block_3b82 refer Block
+        Property Block_Name_e2d894_93f3 = "硬件选择" refer Block_Name_e2d894 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(555,525,158,63),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Design_Operation_Analysis_object_Block_3b82;
+
+      Relationship Association_44fa refer Association
+        Role Association_Incoming_d72d refer Association_Incoming
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end Association_Incoming_d72d;
+         Role Association_Outgoing_aab6 refer Association_Outgoing
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end Association_Outgoing_aab6;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(142,798;947,910),
+          polylineLocation="[-21,25,-375,0]$[-21,54,-375,29]$[354,54,0,29]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Association_44fa;
+ 
+      Relationship Association_2ed8 refer Association
+        Role Association_Incoming_bf4b refer Association_Incoming
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end Association_Incoming_bf4b;
+         Role Association_Outgoing_8217 refer Association_Outgoing
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end Association_Outgoing_8217;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(168,80;995,70),
+          polylineLocation="[15,-40,-465,-5]$[402,-40,-78,-5]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Association_2ed8;
+ 
+      Relationship Association_180f refer Association
+        Role Association_Incoming_cc0b refer Association_Incoming
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end Association_Incoming_cc0b;
+         Role Association_Outgoing_a303 refer Association_Outgoing
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end Association_Outgoing_a303;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(137,109;957,472),
+          polylineLocation="[-16,-11,-380,-176]$[313,-11,-51,-176]$[313,165,-51,0]$[364,165,0,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Association_180f;
+ 
+      Relationship Association_64ef refer Association
+        Role Association_Incoming_f9c9 refer Association_Incoming
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end Association_Incoming_f9c9;
+         Role Association_Outgoing_f511 refer Association_Outgoing
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end Association_Outgoing_f511;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(556,448;-291,-219),
+          polylineLocation="[-78,2,402,327]$[-118,2,362,327]$[-118,-315,362,10]$[-485,-315,-5,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Association_64ef;
+ 
+      Relationship Association_3c70 refer Association
+        Role Association_Incoming_68f9 refer Association_Incoming
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end Association_Incoming_68f9;
+         Role Association_Outgoing_c75f refer Association_Outgoing
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end Association_Outgoing_c75f;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(556,810;-288,-585),
+          polylineLocation="[-78,-21,402,689]$[-143,-21,337,689]$[-143,-680,337,30]$[-482,-680,-2,30]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Association_3c70;
+ 
+      Relationship Association_99b1 refer Association
+        Role Association_Incoming_1730 refer Association_Incoming
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end Association_Incoming_1730;
+         Role Association_Outgoing_dced refer Association_Outgoing
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end Association_Outgoing_dced;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(556,556;-264,283),
+          polylineLocation="[-78,0,403,108]$[-289,0,192,108]$[-289,-140,192,-32]$[-457,-140,24,-32]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Association_99b1;
+ 
+      Relationship Association_ef51 refer Association
+        Role Association_Incoming_1742 refer Association_Incoming
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end Association_Incoming_1742;
+         Role Association_Outgoing_251a refer Association_Outgoing
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end Association_Outgoing_251a;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(556,726;-287,143),
+          polylineLocation="[-78,0,403,278]$[-319,0,162,278]$[-319,-280,162,-2]$[-480,-280,1,-2]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Association_ef51;
+ 
+      Relationship Association_3f5c refer Association
+        Role Association_Incoming_a0a5 refer Association_Incoming
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end Association_Incoming_a0a5;
+         Role Association_Outgoing_ac25 refer Association_Outgoing
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end Association_Outgoing_ac25;
+       
+        annotation(
+          localLabel="关联",
+          shape="solidLine",
+          endLocation=(556,825;-287,53),
+          polylineLocation="[-78,-6,403,377]$[-343,-6,138,377]$[-343,-369,138,14]$[-480,-369,1,14]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Association_3f5c;
+ 
+      Relationship Generalization_231f refer Generalization
+        Role Generalization_Incoming_f569 refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_f569;
+         Role Generalization_Outgoing_3c57 refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_3c57;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,21;312,117),
+          polylineLocation="[-80,-13,322,-65]$[-215,-13,187,-65]$[-215,33,187,-19]$[-324,33,78,-19]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_231f;
+ 
+      Relationship Generalization_8f9a refer Generalization
+        Role Generalization_Incoming_ee07 refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_ee07;
+         Role Generalization_Outgoing_77d2 refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_77d2;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,101;312,66),
+          polylineLocation="[-80,-18,322,15]$[-324,-18,78,15]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_8f9a;
+ 
+      Relationship Generalization_4bdf refer Generalization
+        Role Generalization_Incoming_a9ac refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_a9ac;
+         Role Generalization_Outgoing_da39 refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_da39;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,203;312,333),
+          polylineLocation="[-80,-1,322,-80]$[-290,-1,112,-80]$[-290,52,112,-27]$[-324,52,78,-27]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_4bdf;
+ 
+      Relationship Generalization_3756 refer Generalization
+        Role Generalization_Incoming_119b refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_119b;
+         Role Generalization_Outgoing_c776 refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_c776;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,276;312,273),
+          polylineLocation="[-80,-8,322,-7]$[-324,-8,78,-7]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_3756;
+ 
+      Relationship Generalization_c9e1 refer Generalization
+        Role Generalization_Incoming_bc9a refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_bc9a;
+         Role Generalization_Outgoing_90d4 refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_90d4;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,348;312,218),
+          polylineLocation="[-80,-16,322,65]$[-285,-16,117,65]$[-285,-63,117,18]$[-324,-63,78,18]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_c9e1;
+ 
+      Relationship Generalization_9ee9 refer Generalization
+        Role Generalization_Incoming_5af1 refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_5af1;
+         Role Generalization_Outgoing_a037 refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_a037;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,868;312,616),
+          polylineLocation="[-80,14,322,142]$[-214,14,188,142]$[-214,-108,188,20]$[-324,-108,78,20]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_9ee9;
+ 
+      Relationship Generalization_a00e refer Generalization
+        Role Generalization_Incoming_b79f refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_b79f;
+         Role Generalization_Outgoing_85a2 refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_85a2;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,774;312,672),
+          polylineLocation="[-80,-1,322,48]$[-176,-1,226,48]$[-176,-52,226,-3]$[-324,-52,78,-3]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_a00e;
+ 
+      Relationship Generalization_fe64 refer Generalization
+        Role Generalization_Incoming_eef0 refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_eef0;
+         Role Generalization_Outgoing_af52 refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_af52;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,436;312,431),
+          polylineLocation="[-80,-13,322,-10]$[-324,-13,78,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_fe64;
+ 
+      Relationship Generalization_a63b refer Generalization
+        Role Generalization_Incoming_d662 refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_d662;
+         Role Generalization_Outgoing_5a46 refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_5a46;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,526;312,386),
+          polylineLocation="[-80,2,322,80]$[-90,2,312,80]$[-90,-58,312,20]$[-324,-58,78,20]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_a63b;
+ 
+      Relationship Generalization_f7ea refer Generalization
+        Role Generalization_Incoming_a058 refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_a058;
+         Role Generalization_Outgoing_dd5b refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_dd5b;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,46;263,1046),
+          polylineLocation="[-80,12,322,-510]$[-180,12,222,-510]$[-180,477,222,-45]$[-373,477,29,-45]$[-373,492,29,-30]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_f7ea;
+ 
+      Relationship Generalization_ba6c refer Generalization
+        Role Generalization_Incoming_c361 refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_c361;
+         Role Generalization_Outgoing_9aeb refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_9aeb;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,126;312,971),
+          polylineLocation="[-80,7,322,-430]$[-160,7,242,-430]$[-160,417,242,-20]$[-324,417,78,-20]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_ba6c;
+ 
+      Relationship Generalization_30fe refer Generalization
+        Role Generalization_Incoming_5dbe refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_5dbe;
+         Role Generalization_Outgoing_ba1b refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_ba1b;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,221;312,911),
+          polylineLocation="[-80,17,322,-335]$[-140,17,262,-335]$[-140,357,262,5]$[-324,357,78,5]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_30fe;
+ 
+      Relationship Generalization_6ac5 refer Generalization
+        Role Generalization_Incoming_391c refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_391c;
+         Role Generalization_Outgoing_e1fc refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_e1fc;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,296;312,846),
+          polylineLocation="[-80,12,322,-260]$[-120,12,282,-260]$[-120,292,282,20]$[-324,292,78,20]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_6ac5;
+ 
+      Relationship Generalization_4b67 refer Generalization
+        Role Generalization_Incoming_63be refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_63be;
+         Role Generalization_Outgoing_9214 refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_9214;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,611;260,537),
+          polylineLocation="[-80,7,322,55]$[-376,7,26,55]$[-376,-17,26,31]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_4b67;
+ 
+      Relationship Generalization_fb4e refer Generalization
+        Role Generalization_Incoming_4ca2 refer Generalization_Incoming
+          annotation(
+            localLabel="泛化始端",
+            shape="no"
+          );
+        end Generalization_Incoming_4ca2;
+         Role Generalization_Outgoing_da38 refer Generalization_Outgoing
+          annotation(
+            localLabel="泛化终端",
+            shape="dottedArraow"
+          );
+        end Generalization_Outgoing_da38;
+       
+        annotation(
+          localLabel="泛化",
+          shape="solidLine",
+          endLocation=(956,666;206,452),
+          polylineLocation="[-80,-23,322,110]$[-430,-23,-28,110]$[-430,-102,-28,31]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Generalization_fb4e;
+ 
+    Connect(connector(Design_Operation_Analysis_object_Actor_b053,Association_44fa.Association_Incoming_d72d),connector(Design_Operation_Analysis_object_Block_320f,Association_44fa.Association_Outgoing_aab6));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Actor_a540,Association_2ed8.Association_Incoming_bf4b),connector(Design_Operation_Analysis_object_Block_7424,Association_2ed8.Association_Outgoing_8217));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Actor_a540,Association_180f.Association_Incoming_cc0b),connector(Design_Operation_Analysis_object_Block_4b67,Association_180f.Association_Outgoing_a303));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_9057,Association_64ef.Association_Incoming_f9c9),connector(Design_Operation_Analysis_object_Actor_a540,Association_64ef.Association_Outgoing_f511));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_320f,Association_3c70.Association_Incoming_68f9),connector(Design_Operation_Analysis_object_Actor_a540,Association_3c70.Association_Outgoing_c75f));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_3b82,Association_99b1.Association_Incoming_1730),connector(Design_Operation_Analysis_object_Actor_3ce1,Association_99b1.Association_Outgoing_dced));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_8b20,Association_ef51.Association_Incoming_1742),connector(Design_Operation_Analysis_object_Actor_3ce1,Association_ef51.Association_Outgoing_251a));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_320f,Association_3f5c.Association_Incoming_a0a5),connector(Design_Operation_Analysis_object_Actor_3ce1,Association_3f5c.Association_Outgoing_ac25));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_2e82,Generalization_231f.Generalization_Incoming_f569),connector(Design_Operation_Analysis_object_Block_7424,Generalization_231f.Generalization_Outgoing_3c57));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_633a,Generalization_8f9a.Generalization_Incoming_ee07),connector(Design_Operation_Analysis_object_Block_7424,Generalization_8f9a.Generalization_Outgoing_77d2));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_b9c1,Generalization_4bdf.Generalization_Incoming_a9ac),connector(Design_Operation_Analysis_object_Block_4b67,Generalization_4bdf.Generalization_Outgoing_da39));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_8c9d,Generalization_3756.Generalization_Incoming_119b),connector(Design_Operation_Analysis_object_Block_4b67,Generalization_3756.Generalization_Outgoing_c776));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_d597,Generalization_c9e1.Generalization_Incoming_bc9a),connector(Design_Operation_Analysis_object_Block_4b67,Generalization_c9e1.Generalization_Outgoing_90d4));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_382e,Generalization_9ee9.Generalization_Incoming_5af1),connector(Design_Operation_Analysis_object_Block_8b20,Generalization_9ee9.Generalization_Outgoing_a037));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_e193,Generalization_a00e.Generalization_Incoming_b79f),connector(Design_Operation_Analysis_object_Block_8b20,Generalization_a00e.Generalization_Outgoing_85a2));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_18fe,Generalization_fe64.Generalization_Incoming_eef0),connector(Design_Operation_Analysis_object_Block_9057,Generalization_fe64.Generalization_Outgoing_af52));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_48c9,Generalization_a63b.Generalization_Incoming_d662),connector(Design_Operation_Analysis_object_Block_9057,Generalization_a63b.Generalization_Outgoing_5a46));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_2e82,Generalization_f7ea.Generalization_Incoming_a058),connector(Design_Operation_Analysis_object_Block_3b82,Generalization_f7ea.Generalization_Outgoing_dd5b));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_633a,Generalization_ba6c.Generalization_Incoming_c361),connector(Design_Operation_Analysis_object_Block_3b82,Generalization_ba6c.Generalization_Outgoing_9aeb));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_b9c1,Generalization_30fe.Generalization_Incoming_5dbe),connector(Design_Operation_Analysis_object_Block_3b82,Generalization_30fe.Generalization_Outgoing_ba1b));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_8c9d,Generalization_6ac5.Generalization_Incoming_391c),connector(Design_Operation_Analysis_object_Block_3b82,Generalization_6ac5.Generalization_Outgoing_e1fc));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_f3ff,Generalization_4b67.Generalization_Incoming_63be),connector(Design_Operation_Analysis_object_Block_3b82,Generalization_4b67.Generalization_Outgoing_9214));
+ 
+    Connect(connector(Design_Operation_Analysis_object_Block_69a7,Generalization_fb4e.Generalization_Incoming_4ca2),connector(Design_Operation_Analysis_object_Block_3b82,Generalization_fb4e.Generalization_Outgoing_da38));
+ 
+
+      annotation(
+        localLabel="设计运行分析",
+    );
+    
+   end Design_Operation_Analysis;

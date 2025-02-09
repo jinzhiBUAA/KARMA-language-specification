@@ -1,0 +1,74 @@
+    partial Model model_Camera_Parameter instanceof metaGraph_Parameter_Diagram
+      Object model_Camera_Parameter_object_2c95 refer metaObject_Moe
+        Property model_Camera_Parameter_object_2c95_property_ff60 = "mm" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "分辨率",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(18,95,132,55),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Camera_Parameter_object_2c95;
+
+      Object model_Camera_Parameter_object_8bfb refer metaObject_Moe
+        Property model_Camera_Parameter_object_8bfb_property_3475 = "m" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "检测范围",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(19,161,131,61),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Camera_Parameter_object_8bfb;
+
+      Object model_Camera_Parameter_object_f881 refer metaObject_Moe
+        Property model_Camera_Parameter_object_f881_property_5f76 = "mm" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "检测精度",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(18,233,132,57),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Camera_Parameter_object_f881;
+
+      Object model_Camera_Parameter_object_c40e refer metaObject_Moe
+        Property model_Camera_Parameter_object_c40e_property_bbe4 = "元" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(18,23,132,67),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Camera_Parameter_object_c40e;
+
+
+      annotation(
+        localLabel="摄像头参数模型",
+    );
+   end model_Camera_Parameter;

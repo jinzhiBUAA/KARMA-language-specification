@@ -1,0 +1,20 @@
+   Object metaObject_Constraint_Property
+      initial Property unique metaObject_Constraint_Property_metaProperty_Name_387fa6 = "null" extends metaProperty_Name annotation(localLabel ="名称");
+      initial Property unique metaObject_Constraint_Property_metaProperty_Text_a8828e = "null" extends metaProperty_Text annotation(localLabel ="内容");
+      Undirected Point metaObject_Constraint_Property_metaPoint_Constraint_Parameter_8c2b68 extends metaPoint_Constraint_Parameter annotation (localLabel ="约束参数");
+      Undirected Point metaObject_Constraint_Property_metaPoint_Proxy_Port_fc6f6a extends metaPoint_Proxy_Port annotation (localLabel ="代理端口");
+      Undirected Point metaObject_Constraint_Property_metaPoint_Full_Port_ae5f8d extends metaPoint_Full_Port annotation (localLabel ="全端口");
+      Undirected Point metaObject_Constraint_Property_metaPoint_Port_21fbd5 extends metaPoint_Port annotation (localLabel ="端口");
+      Undirected Point metaObject_Constraint_Property_metaPoint_Flow_Port_3743d0 extends metaPoint_Flow_Port annotation (localLabel ="流端口");
+      Undirected Point metaObject_Constraint_Property_metaPoint_Constraint_Parameter_9c6036 extends metaPoint_Constraint_Parameter annotation (localLabel ="约束参数");
+   annotation(
+      localLabel="约束属性",
+      description="",
+      icon="ConstraintPropertyIcon.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end metaObject_Constraint_Property;
+ 

@@ -1,0 +1,105 @@
+    partial Model model_Highprecision_Map_Interface instanceof metaGraph_Internal_Block_Diagram
+    
+      Object model_Highprecision_Map_Interface_object_3318 refer metaObject_Part_Propety
+        Property model_Highprecision_Map_Interface_object_3318_property_b8d9 = "地图数据获取子系统" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Highprecision_Map_Interface_object_3318_output_366c refer metaObject_Part_Propety_metaPoint_Proxy_Port_cc9190
+      annotation(
+         localLabel="高精度地图数据",
+		 initialLocation=(62,105,22,22),
+         shape="rectangle",
+         color="204,242,166;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Highprecision_Map_Interface_object_3318_output_366c;
+ 
+      
+        annotation(
+          initialLocation=(402,96,151,115),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Highprecision_Map_Interface_object_3318;
+
+      Object model_Highprecision_Map_Interface_object_afcc refer metaObject_Part_Propety
+        Property model_Highprecision_Map_Interface_object_afcc_property_092a = "定位和地图更新子系统" refer metaObject_Part_Propety_metaProperty_Name_06d746 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Highprecision_Map_Interface_object_afcc_input_01ea refer metaObject_Part_Propety_metaPoint_Proxy_Port_55d1d3
+      annotation(
+         localLabel="高精度地图数据",
+		 initialLocation=(64,-12,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Highprecision_Map_Interface_object_afcc_input_01ea;
+ 
+      
+        annotation(
+          initialLocation=(403,354,149,103),
+          localLabel="部件属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Highprecision_Map_Interface_object_afcc;
+
+      Relationship model_Highprecision_Map_Interface_relationship_3d48 refer metaRelationship_Binding_Connector
+        Role model_Highprecision_Map_Interface_fromrole_bc02 refer metaRole_Binding_Connector_Start
+          annotation(
+            localLabel="绑定连接器始端角色",
+            shape="no"
+          );
+        end model_Highprecision_Map_Interface_fromrole_bc02;
+         Role model_Highprecision_Map_Interface_torole_ebed refer metaRole_Binding_Connector_End
+          annotation(
+            localLabel="绑定连接器终端角色",
+            shape="no"
+          );
+        end model_Highprecision_Map_Interface_torole_ebed;
+       
+        annotation(
+          localLabel="绑定连接器",
+          shape="solidLine",
+          endLocation=(475,153;475,526),
+          polylineLocation="[-2,0,-1,-121]$[-2,121,-1,0];(0.7,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Highprecision_Map_Interface_relationship_3d48;
+ 
+    Connect(connector(model_Highprecision_Map_Interface_object_3318.model_Highprecision_Map_Interface_object_3318_output_366c,model_Highprecision_Map_Interface_relationship_3d48.model_Highprecision_Map_Interface_fromrole_bc02),connector(model_Highprecision_Map_Interface_object_afcc.model_Highprecision_Map_Interface_object_afcc_input_01ea,model_Highprecision_Map_Interface_relationship_3d48.model_Highprecision_Map_Interface_torole_ebed));
+ 
+
+      annotation(
+        localLabel="高精度地图接口模型",
+    );
+    
+   end model_Highprecision_Map_Interface;

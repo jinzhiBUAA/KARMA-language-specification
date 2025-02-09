@@ -1,0 +1,1043 @@
+    partial Model model_Functional_Flow instanceof metaGraph_Activity_Diagram
+    
+      Object model_Functional_Flow_object_cf4c refer metaObject_Swimlanes
+    this.explode(model_Vehicle_Control_System_Activity);
+      
+        annotation(
+          initialLocation=(312,31,945,2098),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="model_Vehicle_Control_System_Activity:(0,0,945,2098)",
+        );
+      end model_Functional_Flow_object_cf4c;
+
+      Object model_Functional_Flow_object_d97c refer metaObject_Swimlanes
+    this.explode(model_Perception_System_Activity);
+      
+        annotation(
+          initialLocation=(1254,31,629,2098),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="model_Perception_System_Activity:(0,0,629,2098)",
+        );
+      end model_Functional_Flow_object_d97c;
+
+      Object model_Functional_Flow_object_72f6 refer metaObject_Swimlanes
+      
+        annotation(
+          initialLocation=(0,1399,140,70),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Functional_Flow_object_72f6;
+
+      Object model_Functional_Flow_object_411d refer metaObject_Swimlanes
+    this.explode(model_High_Precision_Map_Activity);
+      
+        annotation(
+          initialLocation=(1884,31,453,2098),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="model_High_Precision_Map_Activity:(0,0,453,2098)",
+        );
+      end model_Functional_Flow_object_411d;
+
+      Object model_Functional_Flow_object_5ebc refer metaObject_Swimlanes
+    this.explode(model_Communication_System_Activity);
+      
+        annotation(
+          initialLocation=(2338,31,467,2098),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="model_Communication_System_Activity:(0,0,467,2098)",
+        );
+      end model_Functional_Flow_object_5ebc;
+
+      Object model_Functional_Flow_object_862b refer metaObject_Swimlanes
+    this.explode(model_Fault_Management_System_Activity);
+      
+        annotation(
+          initialLocation=(2802,31,261,2098),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="model_Fault_Management_System_Activity:(0,0,261,2098)",
+        );
+      end model_Functional_Flow_object_862b;
+
+      Object model_Functional_Flow_object_1eff refer metaObject_Swimlanes
+    this.explode(model_Event_Data_Recording_System_Activity);
+      
+        annotation(
+          initialLocation=(3060,31,231,2098),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="model_Event_Data_Recording_System_Activity:(0,0,231,2098)",
+        );
+      end model_Functional_Flow_object_1eff;
+
+      Relationship model_Functional_Flow_relationship_49e9 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_6a42 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_6a42;
+         Role model_Functional_Flow_torole_fe0c refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_fe0c;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(61,237;930,365),
+          polylineLocation="[-50,6,-820,-52]$[-50,17,-820,-41]$[851,17,81,-41]$[851,46,81,-12];(1.0,0.4);(0.0,0.15584415584415584)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_49e9;
+ 
+      Relationship model_Functional_Flow_relationship_f46d refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_0bd1 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_0bd1;
+         Role model_Functional_Flow_torole_5404 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_5404;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(155,378;-691,499),
+          polylineLocation="[76,59,840,-45]$[76,78,840,-26]$[-220,78,544,-26]$[-220,73,544,-31]$[-808,73,-44,-31]$[-808,100,-44,-4];(0.0,0.23376623376623376);(1.0,0.4)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_f46d;
+ 
+      Relationship model_Functional_Flow_relationship_a358 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_5720 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_5720;
+         Role model_Functional_Flow_torole_919f refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_919f;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(280,628;357,630),
+          polylineLocation="[0,-1,-273,0]$[273,-1,0,0];(1.0,0.26582278481012656);(0.0,0.23376623376623376)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_a358;
+ 
+      Relationship model_Functional_Flow_relationship_4d7c refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_0c83 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_0c83;
+         Role model_Functional_Flow_torole_6a44 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_6a44;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(150,690;-75,861),
+          polylineLocation="[66,59,416,-47]$[66,77,416,-29]$[-354,77,-4,-29]$[-354,106,-4,0];(0.0,0.23376623376623376);(0.6031746031746031,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_4d7c;
+ 
+      Relationship model_Functional_Flow_relationship_098b refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_6607 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_6607;
+         Role model_Functional_Flow_torole_e490 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_e490;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(233,615;-302,1670),
+          polylineLocation="[-46,0,565,-478]$[-46,501,565,23]$[-579,501,32,23];(0.7150537634408602,1.0);(0.8279569892473119,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_098b;
+ 
+      Relationship model_Functional_Flow_relationship_b714 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_713d refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_713d;
+         Role model_Functional_Flow_torole_95cf refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_95cf;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(277,1171;296,1174),
+          polylineLocation="[0,2,368,0]$[-368,2,0,0];(0.0,0.1643835616438356);(1.0,0.1232876712328767)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_b714;
+ 
+      Relationship model_Functional_Flow_relationship_a4a2 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_f10c refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_f10c;
+         Role model_Functional_Flow_torole_93a7 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_93a7;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(549,1230;1255,1356),
+          polylineLocation="[-115,58,-1104,-7]$[-115,113,-1104,48]$[989,113,0,48];(1.0,0.2054794520547945);(0.0,0.15584415584415584)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_a4a2;
+ 
+      Relationship model_Functional_Flow_relationship_4014 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_ed39 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_ed39;
+         Role model_Functional_Flow_torole_f837 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_f837;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(705,1349;287,1348),
+          polylineLocation="[0,-2,-197,0]$[197,-2,0,0];(1.0,0.4805194805194805);(0.0,0.49333333333333335)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_4014;
+ 
+      Relationship model_Functional_Flow_relationship_9018 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_a8eb refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_a8eb;
+         Role model_Functional_Flow_torole_d3a1 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_d3a1;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(170,1413;418,1604),
+          polylineLocation="[80,63,318,-59]$[80,96,318,-26]$[-280,96,-42,-26]$[-280,122,-42,0];(0.0,0.16);(0.7164179104477612,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_9018;
+ 
+      Relationship model_Functional_Flow_relationship_53ed refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_eb19 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_eb19;
+         Role model_Functional_Flow_torole_1a9b refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_1a9b;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(698,1480;309,1482),
+          polylineLocation="[0,-2,-199,0]$[199,-2,0,0];(1.0,0.16);(0.0,0.2)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_53ed;
+ 
+      Relationship model_Functional_Flow_relationship_70f8 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_9e8d refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_9e8d;
+         Role model_Functional_Flow_torole_5d15 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_5d15;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(208,1556;112,1515),
+          polylineLocation="[98,72,490,63]$[98,96,490,87]$[-358,96,34,87]$[-358,32,34,23]$[-392,32,0,23];(0.0,0.2);(1.0,0.27586206896551724)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_70f8;
+ 
+      Relationship model_Functional_Flow_relationship_8bc9 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_63fb refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_63fb;
+         Role model_Functional_Flow_torole_4de5 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_4de5;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(407,1516;412,1757),
+          polylineLocation="[63,60,422,-102]$[63,145,422,-17]$[-359,145,0,-17];(0.0,0.1780821917808219);(1.0,0.2682926829268293)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_8bc9;
+ 
+      Relationship model_Functional_Flow_relationship_aa9a refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_c6b8 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_c6b8;
+         Role model_Functional_Flow_torole_e5bb refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_e5bb;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(771,1612;701,1649),
+          polylineLocation="[0,0,-352,-21]$[180,0,-172,-21]$[180,21,-172,0]$[352,21,0,0];(1.0,0.3048780487804878);(0.0,0.379746835443038)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_aa9a;
+ 
+      Relationship model_Functional_Flow_relationship_39f9 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_2fba refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_2fba;
+         Role model_Functional_Flow_torole_371e refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_371e;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(361,1753;527,1752),
+          polylineLocation="[0,8,311,0]$[-311,8,0,0];(0.0,0.1643835616438356);(1.0,0.2535211267605634)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_39f9;
+ 
+      Relationship model_Functional_Flow_relationship_7148 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_3041 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_3041;
+         Role model_Functional_Flow_torole_0c94 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_0c94;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(108,181;-68,2544),
+          polylineLocation="[-1,0,627,-1132]$[-1,1154,627,22]$[-603,1154,25,22];(0.535031847133758,1.0);(0.7933884297520661,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_7148;
+ 
+      Relationship model_Functional_Flow_relationship_6746 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_061c refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_061c;
+         Role model_Functional_Flow_torole_f2e8 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_f2e8;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(535,1437;728,1490),
+          polylineLocation="[0,47,-578,0]$[578,47,0,0];(1.0,0.22784810126582278);(0.0,0.1518987341772152)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_6746;
+ 
+      Relationship model_Functional_Flow_relationship_91f2 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_6baf refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_6baf;
+         Role model_Functional_Flow_torole_d0f5 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_d0f5;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(214,1500;-22,1582),
+          polylineLocation="[64,57,621,-10]$[64,68,621,1]$[-557,68,0,1];(0.0,0.27848101265822783);(1.0,0.21518987341772153)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_91f2;
+ 
+      Relationship model_Functional_Flow_relationship_5eef refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_89e3 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_89e3;
+         Role model_Functional_Flow_torole_2b02 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_2b02;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(531,1643;718,1621),
+          polylineLocation="[0,3,-558,39]$[558,3,0,39];(1.0,0.3037974683544304);(0.0,0.14457831325301204)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_5eef;
+ 
+      Relationship model_Functional_Flow_relationship_f51e refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_29f4 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_29f4;
+         Role model_Functional_Flow_torole_e09b refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_e09b;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(234,1689;-378,2060),
+          polylineLocation="[74,71,1276,-169]$[74,222,1276,-18]$[-1202,222,0,-18];(0.0,0.14457831325301204);(1.0,0.379746835443038)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_f51e;
+ 
+      Relationship model_Functional_Flow_relationship_86be refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_8d1f refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_8d1f;
+         Role model_Functional_Flow_torole_1131 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_1131;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(824,1886;1130,1924),
+          polylineLocation="[0,48,-846,0]$[846,48,0,0];(1.0,0.22784810126582278);(0.0,0.3614457831325301)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_86be;
+ 
+      Relationship model_Functional_Flow_relationship_bf88 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_4ca7 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_4ca7;
+         Role model_Functional_Flow_torole_32b9 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_32b9;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(284,1876;331,1877),
+          polylineLocation="[0,0,-157,0]$[157,0,0,0];(1.0,0.21686746987951808);(0.0,0.21176470588235294)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_bf88;
+ 
+      Relationship model_Functional_Flow_relationship_c35f refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_9c4d refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_9c4d;
+         Role model_Functional_Flow_torole_d1e6 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_d1e6;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(130,1928;735,1933),
+          polylineLocation="[0,6,90,0]$[-90,6,0,0];(0.0,0.379746835443038);(1.0,0.38961038961038963)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_c35f;
+ 
+      Relationship model_Functional_Flow_relationship_689b refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_d28e refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_d28e;
+         Role model_Functional_Flow_torole_bdd5 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_bdd5;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(514,2001;1611,2077),
+          polylineLocation="[-78,71,-1512,11]$[-78,90,-1512,30]$[1434,90,0,30];(1.0,0.14457831325301204);(0.0,0.15584415584415584)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_689b;
+ 
+      Relationship model_Functional_Flow_relationship_0811 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_4311 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_4311;
+         Role model_Functional_Flow_torole_63d0 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_63d0;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(177,1987;366,1950),
+          polylineLocation="[0,0,-245,36]$[245,0,0,36];(1.0,0.3116883116883117);(0.0,0.32432432432432434)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_0811;
+ 
+      Relationship model_Functional_Flow_relationship_cae2 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_312e refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_312e;
+         Role model_Functional_Flow_torole_74a1 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_74a1;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(206,2010;-1854,1940),
+          polylineLocation="[85,60,2241,54]$[85,82,2241,76]$[-2100,82,56,76]$[-2100,7,56,1]$[-2156,7,0,1];(0.0,0.1891891891891892);(1.0,0.4935064935064935)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_cae2;
+ 
+      Relationship model_Functional_Flow_relationship_2bc3 refer metaRelationship_Control_Flow
+        Role model_Functional_Flow_fromrole_b810 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Functional_Flow_fromrole_b810;
+         Role model_Functional_Flow_torole_ebe7 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Functional_Flow_torole_ebe7;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(196,1992;2561,1914),
+          polylineLocation="[-106,59,-2538,77]$[-106,120,-2538,138]$[2396,120,-36,138]$[2396,1,-36,19]$[2432,1,0,19];(1.0,0.23376623376623376);(0.0,0.2465753424657534)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Functional_Flow_relationship_2bc3;
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_378b,model_Functional_Flow_relationship_49e9.model_Functional_Flow_fromrole_6a42),connector(model_Perception_System_Activity_object_a0f1,model_Functional_Flow_relationship_49e9.model_Functional_Flow_torole_fe0c));
+ 
+    Connect(connector(model_Perception_System_Activity_object_a0f1,model_Functional_Flow_relationship_f46d.model_Functional_Flow_fromrole_0bd1),connector(model_Vehicle_Control_System_Activity_object_2388,model_Functional_Flow_relationship_f46d.model_Functional_Flow_torole_5404));
+ 
+    Connect(connector(model_Perception_System_Activity_object_6f58,model_Functional_Flow_relationship_a358.model_Functional_Flow_fromrole_5720),connector(model_High_Precision_Map_Activity_object_fbb9,model_Functional_Flow_relationship_a358.model_Functional_Flow_torole_919f));
+ 
+    Connect(connector(model_High_Precision_Map_Activity_object_fbb9,model_Functional_Flow_relationship_4d7c.model_Functional_Flow_fromrole_0c83),connector(model_Perception_System_Activity_object_98e6,model_Functional_Flow_relationship_4d7c.model_Functional_Flow_torole_6a44));
+ 
+    Connect(connector(model_High_Precision_Map_Activity_object_c7e9,model_Functional_Flow_relationship_098b.model_Functional_Flow_fromrole_6607),connector(model_Perception_System_Activity_object_b6c5,model_Functional_Flow_relationship_098b.model_Functional_Flow_torole_e490));
+ 
+    Connect(connector(model_Perception_System_Activity_object_b6c5,model_Functional_Flow_relationship_b714.model_Functional_Flow_fromrole_713d),connector(model_Vehicle_Control_System_Activity_object_84d1,model_Functional_Flow_relationship_b714.model_Functional_Flow_torole_95cf));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_84d1,model_Functional_Flow_relationship_a4a2.model_Functional_Flow_fromrole_f10c),connector(model_High_Precision_Map_Activity_object_1150,model_Functional_Flow_relationship_a4a2.model_Functional_Flow_torole_93a7));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_3847,model_Functional_Flow_relationship_4014.model_Functional_Flow_fromrole_ed39),connector(model_Perception_System_Activity_object_e9d0,model_Functional_Flow_relationship_4014.model_Functional_Flow_torole_f837));
+ 
+    Connect(connector(model_Perception_System_Activity_object_e9d0,model_Functional_Flow_relationship_9018.model_Functional_Flow_fromrole_a8eb),connector(model_Vehicle_Control_System_Activity_object_4770,model_Functional_Flow_relationship_9018.model_Functional_Flow_torole_d3a1));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_4770,model_Functional_Flow_relationship_53ed.model_Functional_Flow_fromrole_eb19),connector(model_Perception_System_Activity_object_2393,model_Functional_Flow_relationship_53ed.model_Functional_Flow_torole_1a9b));
+ 
+    Connect(connector(model_Perception_System_Activity_object_2393,model_Functional_Flow_relationship_70f8.model_Functional_Flow_fromrole_9e8d),connector(model_Vehicle_Control_System_Activity_object_4ed0,model_Functional_Flow_relationship_70f8.model_Functional_Flow_torole_5d15));
+ 
+    Connect(connector(model_Perception_System_Activity_object_2054,model_Functional_Flow_relationship_8bc9.model_Functional_Flow_fromrole_63fb),connector(model_Vehicle_Control_System_Activity_object_ed9e,model_Functional_Flow_relationship_8bc9.model_Functional_Flow_torole_4de5));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_ed9e,model_Functional_Flow_relationship_aa9a.model_Functional_Flow_fromrole_c6b8),connector(model_Perception_System_Activity_object_da2c,model_Functional_Flow_relationship_aa9a.model_Functional_Flow_torole_e5bb));
+ 
+    Connect(connector(model_Perception_System_Activity_object_8c32,model_Functional_Flow_relationship_39f9.model_Functional_Flow_fromrole_2fba),connector(model_Vehicle_Control_System_Activity_object_38d8,model_Functional_Flow_relationship_39f9.model_Functional_Flow_torole_371e));
+ 
+    Connect(connector(model_Communication_System_Activity_object_eae8,model_Functional_Flow_relationship_7148.model_Functional_Flow_fromrole_3041),connector(model_Perception_System_Activity_object_a308,model_Functional_Flow_relationship_7148.model_Functional_Flow_torole_0c94));
+ 
+    Connect(connector(model_Perception_System_Activity_object_a308,model_Functional_Flow_relationship_6746.model_Functional_Flow_fromrole_061c),connector(model_Communication_System_Activity_object_fd66,model_Functional_Flow_relationship_6746.model_Functional_Flow_torole_f2e8));
+ 
+    Connect(connector(model_Communication_System_Activity_object_fd66,model_Functional_Flow_relationship_91f2.model_Functional_Flow_fromrole_6baf),connector(model_Perception_System_Activity_object_1875,model_Functional_Flow_relationship_91f2.model_Functional_Flow_torole_d0f5));
+ 
+    Connect(connector(model_Perception_System_Activity_object_2bcd,model_Functional_Flow_relationship_5eef.model_Functional_Flow_fromrole_89e3),connector(model_Communication_System_Activity_object_fa0e,model_Functional_Flow_relationship_5eef.model_Functional_Flow_torole_2b02));
+ 
+    Connect(connector(model_Communication_System_Activity_object_fa0e,model_Functional_Flow_relationship_f51e.model_Functional_Flow_fromrole_29f4),connector(model_Vehicle_Control_System_Activity_object_44d4,model_Functional_Flow_relationship_f51e.model_Functional_Flow_torole_e09b));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_44d4,model_Functional_Flow_relationship_86be.model_Functional_Flow_fromrole_8d1f),connector(model_High_Precision_Map_Activity_object_e1ed,model_Functional_Flow_relationship_86be.model_Functional_Flow_torole_1131));
+ 
+    Connect(connector(model_High_Precision_Map_Activity_object_e1ed,model_Functional_Flow_relationship_bf88.model_Functional_Flow_fromrole_4ca7),connector(model_Communication_System_Activity_object_c909,model_Functional_Flow_relationship_bf88.model_Functional_Flow_torole_32b9));
+ 
+    Connect(connector(model_Perception_System_Activity_object_43fa,model_Functional_Flow_relationship_c35f.model_Functional_Flow_fromrole_9c4d),connector(model_Vehicle_Control_System_Activity_object_429d,model_Functional_Flow_relationship_c35f.model_Functional_Flow_torole_d1e6));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_2552,model_Functional_Flow_relationship_689b.model_Functional_Flow_fromrole_d28e),connector(model_Communication_System_Activity_object_0fa4,model_Functional_Flow_relationship_689b.model_Functional_Flow_torole_bdd5));
+ 
+    Connect(connector(model_Communication_System_Activity_object_0fa4,model_Functional_Flow_relationship_0811.model_Functional_Flow_fromrole_4311),connector(model_Fault_Management_System_Activity_object_38c9,model_Functional_Flow_relationship_0811.model_Functional_Flow_torole_63d0));
+ 
+    Connect(connector(model_Fault_Management_System_Activity_object_38c9,model_Functional_Flow_relationship_cae2.model_Functional_Flow_fromrole_312e),connector(model_Vehicle_Control_System_Activity_object_369f,model_Functional_Flow_relationship_cae2.model_Functional_Flow_torole_74a1));
+ 
+    Connect(connector(model_Vehicle_Control_System_Activity_object_369f,model_Functional_Flow_relationship_2bc3.model_Functional_Flow_fromrole_b810),connector(model_Event_Data_Recording_System_Activity_object_79c5,model_Functional_Flow_relationship_2bc3.model_Functional_Flow_torole_ebe7));
+ 
+
+      annotation(
+        localLabel="功能流模型",
+    );
+    
+   end model_Functional_Flow;

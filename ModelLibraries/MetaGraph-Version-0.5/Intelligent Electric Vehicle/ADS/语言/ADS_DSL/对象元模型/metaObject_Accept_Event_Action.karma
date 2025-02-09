@@ -1,0 +1,15 @@
+   Object metaObject_Accept_Event_Action
+      initial Property unique metaObject_Accept_Event_Action_metaProperty_Name_82f51a = "null" extends metaProperty_Name annotation(localLabel ="名称");
+      initial Property unique metaObject_Accept_Event_Action_metaProperty_Context_a04a8b = "null" extends metaProperty_Context annotation(localLabel ="上下文");
+      Output Point metaObject_Accept_Event_Action_metaPoint_Output_Pin_a870c6 extends metaPoint_Output_Pin annotation (localLabel ="输出引脚");
+   annotation(
+      localLabel="接受事件动作",
+      description="",
+      icon="AcceptEventActionIcon.png",
+      shape="customImage",
+      visualizedMode=propertyMode,
+      imageAddress="AcceptEventActionPicture.png",
+      UnfoldDirection=Y,
+      );
+   end metaObject_Accept_Event_Action;
+ 

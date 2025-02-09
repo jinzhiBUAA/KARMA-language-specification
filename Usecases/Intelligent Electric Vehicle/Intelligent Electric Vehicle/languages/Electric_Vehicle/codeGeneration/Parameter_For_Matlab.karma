@@ -1,0 +1,29 @@
+codeGenerator Parameter_For_Matlab
+ File file1 = File("D:/Parameter.m");
+	entrypoint rule forheadline( ){
+		to
+			String e(
+				e <- "vr_octavia_2cars_20141009";
+			)
+		do{		
+			file1.append(e);
+			}
+	}
+	rule parameter{
+		from
+			Object[Block] obj;		
+		in	Model[EV_Parameter_Setting] Md;
+		using{
+				Template parameter(ann,bnn) =<%
+				set_param('vr_octavia_2cars_20141009/parametersetting/<ann>','Value','<bnn>');%>;
+		}
+		to
+			String e(
+				e <- parameter(obj.Property["类型"],obj.Property["参数值"]);
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+end Parameter_For_Matlab

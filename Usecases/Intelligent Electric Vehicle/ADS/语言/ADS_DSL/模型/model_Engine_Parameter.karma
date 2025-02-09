@@ -1,0 +1,57 @@
+    partial Model model_Engine_Parameter instanceof metaGraph_Parameter_Diagram
+      Object model_Engine_Parameter_object_bf50 refer metaObject_Moe
+        Property model_Engine_Parameter_object_bf50_property_4a92 = "kW" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "功率",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(45,21,145,57),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Engine_Parameter_object_bf50;
+
+      Object model_Engine_Parameter_object_1dd9 refer metaObject_Moe
+        Property model_Engine_Parameter_object_1dd9_property_d0dd = "N·m" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "扭矩",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(0,81,105,63),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Engine_Parameter_object_1dd9;
+
+      Object model_Engine_Parameter_object_7008 refer metaObject_Moe
+        Property model_Engine_Parameter_object_7008_property_8a5d = "元" refer metaObject_Moe_metaProperty_Parameter_365a8b annotation(localLabel = "成本",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(120,85,87,55),
+          localLabel="Moe",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Engine_Parameter_object_7008;
+
+
+      annotation(
+        localLabel="发动机参数模型",
+    );
+   end model_Engine_Parameter;

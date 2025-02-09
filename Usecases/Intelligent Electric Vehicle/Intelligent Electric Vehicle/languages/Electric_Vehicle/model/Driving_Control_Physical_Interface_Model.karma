@@ -1,0 +1,4299 @@
+    partial Model Driving_Control_Physical_Interface_Model instanceof Block_Definition_Diagram
+    
+      Object Driving_Control_Physical_Interface_Model_object_Interface_Block_8e76 refer Interface_Block
+        Property Interface_Block_Name_3d3e5f_006f = "传动轴" refer Interface_Block_Name_3d3e5f annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Interface_Block_In_Out_Flow_Port_2b6ee6_0d1d refer Interface_Block_In_Out_Flow_Port_2b6ee6
+      annotation(
+         localLabel="端口",
+		 initialLocation=(50,213,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Interface_Block_In_Out_Flow_Port_2b6ee6_0d1d;
+ 
+      Point Interface_Block_In_Out_Flow_Port_2b6ee6_810d refer Interface_Block_In_Out_Flow_Port_2b6ee6
+      annotation(
+         localLabel="端口",
+		 initialLocation=(185,213,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Interface_Block_In_Out_Flow_Port_2b6ee6_810d;
+ 
+      Point Interface_Block_In_Out_Flow_Port_2b6ee6_6118 refer Interface_Block_In_Out_Flow_Port_2b6ee6
+      annotation(
+         localLabel="端口",
+		 initialLocation=(189,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Interface_Block_In_Out_Flow_Port_2b6ee6_6118;
+ 
+      Point Interface_Block_In_Out_Flow_Port_2b6ee6_854b refer Interface_Block_In_Out_Flow_Port_2b6ee6
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,105,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Interface_Block_In_Out_Flow_Port_2b6ee6_854b;
+ 
+      
+        annotation(
+          initialLocation=(3367,1925,302,223),
+          localLabel="接口模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Physical_Interface_Model_object_Interface_Block_8e76;
+
+      Object Part_gtw refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_7c98 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(113,27,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_7c98;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_3573 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,2,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_3573;
+ 
+      
+        annotation(
+          initialLocation=(17,532,121,93),
+          localLabel="制动踏板",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/踏板.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_gtw;
+
+      Object Part_icb refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_4351 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(113,49,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_4351;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_aef0 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(30,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_aef0;
+ 
+      
+        annotation(
+          initialLocation=(7,315,121,99),
+          localLabel="加速踏板",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/踏板.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_icb;
+
+      Object Part_jjm refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_0455 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(33,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_0455;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_5d51 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(108,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_5d51;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_7fad refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(63,69,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_7fad;
+ 
+      
+        annotation(
+          initialLocation=(1639,1606,136,77),
+          localLabel="左前轮编码器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/编码器.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_jjm;
+
+      Object Part_ryp refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_334a refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(35,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_334a;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_14f6 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(132,20,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_14f6;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_842c refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(65,62,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_842c;
+ 
+      
+        annotation(
+          initialLocation=(2052,1616,140,70),
+          localLabel="右前轮编码器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/编码器.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_ryp;
+
+      Object Part_brn refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_4108 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(30,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_4108;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_6819 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(90,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_6819;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_ec7b refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(65,62,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_ec7b;
+ 
+      
+        annotation(
+          initialLocation=(1237,1605,140,70),
+          localLabel="右后轮编码器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/编码器.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_brn;
+
+      Object Part_suo refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_fb2e refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,20,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_fb2e;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_a4bd refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(59,62,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_a4bd;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_8b01 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(102,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_8b01;
+ 
+      
+        annotation(
+          initialLocation=(823,1605,140,70),
+          localLabel="左后轮编码器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/编码器.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_suo;
+
+      Object Part_yvp refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_40e4 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(128,35,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_40e4;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_03a2 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,35,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_03a2;
+ 
+      
+        annotation(
+          initialLocation=(0,719,136,90),
+          localLabel="方向盘",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/方向盘.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_yvp;
+
+      Object Part_aue refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_a665 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(60,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_a665;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_64db refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(59,62,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_64db;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_80e0 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,20,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_80e0;
+ 
+      
+        annotation(
+          initialLocation=(1647,2090,140,70),
+          localLabel="左前轮悬挂",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/悬挂.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_aue;
+
+      Object Part_ene refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_bb29 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(60,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_bb29;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_3c39 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(132,35,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_3c39;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_9d42 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,0,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_9d42;
+ 
+      
+        annotation(
+          initialLocation=(2052,2100,140,70),
+          localLabel="右前轮悬挂",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/悬挂.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_ene;
+
+      Object Part_cmi refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_a819 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(69,62,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_a819;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_a820 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(60,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_a820;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_4a32 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(132,20,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_4a32;
+ 
+      
+        annotation(
+          initialLocation=(823,2100,140,70),
+          localLabel="左后轮悬挂",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/悬挂.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_cmi;
+
+      Object Part_dgs refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_76c5 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(50,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_76c5;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_3386 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(50,62,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_3386;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_103a refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,15,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_103a;
+ 
+      
+        annotation(
+          initialLocation=(1252,2100,140,70),
+          localLabel="右后轮悬挂",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/悬挂.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_dgs;
+
+      Object Part_mug refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_605d refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,21,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_605d;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_39f4 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(74,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_39f4;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_82c0 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(94,62,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_82c0;
+ 
+      
+        annotation(
+          initialLocation=(283,728,140,70),
+          localLabel="方向盘编码器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/编码器.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_mug;
+
+      Object Part_ijk refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_ce3a refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(110,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_ce3a;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_d798 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(55,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_d798;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_72c7 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(240,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_72c7;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_4906 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(170,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_4906;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_fb1b refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,15,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_fb1b;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_522a refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(400,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_522a;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_cd07 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(315,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_cd07;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_be66 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,65,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_be66;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_9050 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(520,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_9050;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_f664 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(642,270,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_f664;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_041e refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(642,60,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_041e;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_c40a refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(300,552,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_c40a;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_3928 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,125,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_3928;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_a14c refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(220,552,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_a14c;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_e83f refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(140,552,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_e83f;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_1628 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(50,552,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_1628;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_78e0 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,180,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_78e0;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_c373 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,235,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_c373;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_dddd refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,420,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_dddd;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_f062 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(390,552,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_f062;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_830d refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(642,515,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_830d;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_2b62 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(525,552,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_2b62;
+ 
+      
+        annotation(
+          initialLocation=(2722,645,650,560),
+          localLabel="车架",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/车架.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_ijk;
+
+      Object Part_dfe refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_1007 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(70,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_1007;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_a70e refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(65,62,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_a70e;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_c542 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,0,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_c542;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_0e41 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(132,25,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_0e41;
+ 
+      
+        annotation(
+          initialLocation=(1637,1765,140,70),
+          localLabel="左前轮",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/车轮.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_dfe;
+
+      Object Part_jtl refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_33dd refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(50,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_33dd;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_f5de refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(55,62,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_f5de;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_a8c2 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,25,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_a8c2;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_d88d refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(132,30,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_d88d;
+ 
+      
+        annotation(
+          initialLocation=(1252,1755,140,70),
+          localLabel="右后轮",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/车轮.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_jtl;
+
+      Object Part_gzh refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_63a9 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(68,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_63a9;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_279d refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(60,62,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_279d;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_003c refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,20,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_003c;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_fdea refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(132,40,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_fdea;
+ 
+      
+        annotation(
+          initialLocation=(2052,1765,140,70),
+          localLabel="右前轮",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/车轮.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_gzh;
+
+      Object Part_tzy refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_bbb0 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(51,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_bbb0;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_bde9 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(53,62,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_bde9;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_9743 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,15,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_9743;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_5f5e refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(132,20,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_5f5e;
+ 
+      
+        annotation(
+          initialLocation=(832,1760,140,70),
+          localLabel="左后轮",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/车轮.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_tzy;
+
+      Object Part_vjt refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_65f1 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(164,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_65f1;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_fafc refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,69,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_fafc;
+ 
+      
+        annotation(
+          initialLocation=(428,1363,184,154),
+          localLabel="右后轮制动盘",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/制动盘.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_vjt;
+
+      Object Part_tpq refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_5660 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(92,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_5660;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_f59a refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,25,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_f59a;
+ 
+      
+        annotation(
+          initialLocation=(77,1363,184,155),
+          localLabel="右前轮制动盘",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/制动盘.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_tpq;
+
+      Object Part_miw refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_542c refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(176,70,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_542c;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_2d14 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(95,157,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_2d14;
+ 
+      
+        annotation(
+          initialLocation=(446,1557,184,165),
+          localLabel="左后轮制动盘",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/制动盘.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_miw;
+
+      Object Part_fyo refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_8ca7 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(176,74,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_8ca7;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_8392 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(68,146,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_8392;
+ 
+      
+        annotation(
+          initialLocation=(87,1582,184,154),
+          localLabel="左前轮制动盘",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/制动盘.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_fyo;
+
+      Object Part_phr refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_85f9 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,30,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_85f9;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_3419 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(123,25,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_3419;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_e157 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(60,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_e157;
+ 
+      
+        annotation(
+          initialLocation=(287,529,131,96),
+          localLabel="加速踏板传感器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/传感器.png",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_phr;
+
+      Object Part_zja refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_b76f refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(123,57,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_b76f;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_037d refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,47,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_037d;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_4b8f refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(65,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_4b8f;
+ 
+      
+        annotation(
+          initialLocation=(287,317,131,96),
+          localLabel="制动踏板传感器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/传感器.png",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_zja;
+
+      Object Part_jhr refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_080e refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(130,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_080e;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_40e8 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(55,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_40e8;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_ed9f refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(230,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_ed9f;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_afc7 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,50,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_afc7;
+ 
+      
+        annotation(
+          initialLocation=(2322,1685,421,316),
+          localLabel="转向舵",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/转向舵.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_jhr;
+
+      Object Part_lhh refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_89dc refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(332,115,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_89dc;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_0a24 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(75,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_0a24;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_e8ed refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(120,272,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_e8ed;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_d304 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,142,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_d304;
+ 
+      
+        annotation(
+          initialLocation=(3427,1363,340,280),
+          localLabel="齿轮箱",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/齿轮箱.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_lhh;
+
+      Object Part_rka refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_6d5d refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,65,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_6d5d;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_338e refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(295,282,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_338e;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_c139 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(25,282,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_c139;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_4eca refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(55,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_4eca;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_b327 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(155,282,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_b327;
+ 
+      
+        annotation(
+          initialLocation=(3607,305,364,290),
+          localLabel="电机",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/电机.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_rka;
+
+      Object Part_bpp refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_f0ff refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(274,170,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_f0ff;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_3f95 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,60,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_3f95;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_d339 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(166,217,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_d339;
+ 
+      
+        annotation(
+          initialLocation=(3286,0,282,225),
+          localLabel="电池",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/电池.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_bpp;
+
+      Object Part_djy refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_031b refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,75,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_031b;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_bfa0 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,250,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_bfa0;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_ec9a refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(673,348,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_ec9a;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_f14b refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(515,650,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_f14b;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_36bf refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(275,650,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_36bf;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_d7eb refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,340,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_d7eb;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_34ff refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,590,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_34ff;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_1d15 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,638,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_1d15;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_b18b refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,400,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_b18b;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_5a21 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,450,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_5a21;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_2a59 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,500,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_2a59;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_9ad8 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,550,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_9ad8;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_c96e refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(673,630,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_c96e;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_f200 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(610,650,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_f200;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_9e55 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(673,65,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_9e55;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_9787 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(415,650,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_9787;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_c7af refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(125,650,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_c7af;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_8237 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(55,650,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_8237;
+ 
+      
+        annotation(
+          initialLocation=(1007,305,681,658),
+          localLabel="控制器",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/控制器.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_djy;
+
+      Object Part_onh refer Block
+      Point Block_In_Out_Flow_Port_b3fb55_5601 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(265,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_5601;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_7534 refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(70,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_7534;
+ 
+      Point Block_In_Out_Flow_Port_b3fb55_63ad refer Block_In_Out_Flow_Port_b3fb55
+      annotation(
+         localLabel="端口",
+		 initialLocation=(-12,75,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Block_In_Out_Flow_Port_b3fb55_63ad;
+ 
+      
+        annotation(
+          initialLocation=(3497,840,300,236),
+          localLabel="RHS_模块_6",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;0,0,0;0,0,0",
+          screenMode=propertyMode,
+          imageAddress="Electric_Vehicle/images/再生制动.jpg",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,""),
+          visualizationList="",
+        );
+      end Part_onh;
+
+      Relationship relationship_Connector_7fda refer relationship_Connector
+        Role Connector_Incoming_54bf refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_54bf;
+         Role Connector_Outgoing_00a3 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_00a3;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(362,370;1647,358),
+          polylineLocation="[10,5,-575,-1]$[575,5,-10,-1]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_7fda;
+ 
+      Relationship relationship_Connector_011b refer relationship_Connector
+        Role Connector_Incoming_98d1 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_98d1;
+         Role Connector_Outgoing_fac7 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_fac7;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(77,362;492,364),
+          polylineLocation="[10,-2,-145,-2]$[145,-2,-10,-2]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_011b;
+ 
+      Relationship relationship_Connector_7636 refer relationship_Connector
+        Role Connector_Incoming_bdee refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_bdee;
+         Role Connector_Outgoing_d94a refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_d94a;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(87,578;482,575),
+          polylineLocation="[10,0,-135,0]$[135,0,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_7636;
+ 
+      Relationship relationship_Connector_eb2d refer relationship_Connector
+        Role Connector_Incoming_3422 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_3422;
+         Role Connector_Outgoing_67ba refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_67ba;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(67,354;5577,1014),
+          polylineLocation="[0,-10,-2795,-340]$[0,-124,-2795,-454]$[2795,-124,0,-454]$[2795,320,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_eb2d;
+ 
+      Relationship relationship_Connector_d2a2 refer relationship_Connector
+        Role Connector_Incoming_24f4 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_24f4;
+         Role Connector_Outgoing_90a2 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_90a2;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(362,576;1647,352),
+          polylineLocation="[10,-1,-575,-2]$[575,-1,-10,-2]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_d2a2;
+ 
+      Relationship relationship_Connector_2af1 refer relationship_Connector
+        Role Connector_Incoming_51e1 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_51e1;
+         Role Connector_Outgoing_4c98 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_4c98;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(352,355;5212,1011),
+          polylineLocation="[0,-10,-2425,-338]$[0,-66,-2425,-394]$[2425,-66,0,-394]$[2425,318,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_2af1;
+ 
+      Relationship relationship_Connector_bd16 refer relationship_Connector
+        Role Connector_Incoming_fa1b refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_fa1b;
+         Role Connector_Outgoing_bd9f refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_bd9f;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(67,578;5739,780),
+          polylineLocation="[-10,0,-2967,-99]$[-143,0,-3100,-99]$[-143,-455,-3100,-554]$[2957,-455,0,-554]$[2957,89,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_bd16;
+ 
+      Relationship relationship_Connector_7301 refer relationship_Connector
+        Role Connector_Incoming_c8b6 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_c8b6;
+         Role Connector_Outgoing_ed15 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_ed15;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(352,567;5332,799),
+          polylineLocation="[0,-10,-2545,-126]$[0,-68,-2545,-184]$[-415,-68,-2960,-184]$[-415,-388,-2960,-504]$[2545,-388,0,-504]$[2545,106,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_7301;
+ 
+      Relationship relationship_Connector_e8f4 refer relationship_Connector
+        Role Connector_Incoming_e360 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_e360;
+         Role Connector_Outgoing_9eb3 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_9eb3;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1357,641;4082,981),
+          polylineLocation="[10,7,-1020,0]$[1020,7,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_e8f4;
+ 
+      Relationship relationship_Connector_ffdd refer relationship_Connector
+        Role Connector_Incoming_19dc refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_19dc;
+         Role Connector_Outgoing_47e9 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_47e9;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(353,753;1705,268),
+          polylineLocation="[0,-10,-638,61]$[0,-72,-638,-1]$[628,-72,-10,-1]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_ffdd;
+ 
+      Relationship relationship_Connector_507a refer relationship_Connector
+        Role Connector_Incoming_a27a refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_a27a;
+         Role Connector_Outgoing_d087 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_d087;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(78,764;484,773),
+          polylineLocation="[10,0,-133,5]$[133,0,-10,5]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_507a;
+ 
+      Relationship relationship_Connector_fe8e refer relationship_Connector
+        Role Connector_Incoming_e056 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_e056;
+         Role Connector_Outgoing_eb12 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_eb12;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(353,773;5537,513),
+          polylineLocation="[0,10,-2745,167]$[0,149,-2745,306]$[-655,149,-3400,306]$[-655,-805,-3400,-648]$[2745,-805,0,-648]$[2745,-167,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_fe8e;
+ 
+      Relationship relationship_Connector_1136 refer relationship_Connector
+        Role Connector_Incoming_c25f refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_c25f;
+         Role Connector_Outgoing_f076 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_f076;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(58,763;5839,559),
+          polylineLocation="[-10,-1,-3059,120]$[-196,-1,-3245,120]$[-196,-729,-3245,-608]$[3049,-729,0,-608]$[3049,-131,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_1136;
+ 
+      Relationship relationship_Connector_08dc refer relationship_Connector
+        Role Connector_Incoming_b3e5 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_b3e5;
+         Role Connector_Outgoing_d35d refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_d35d;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(883,1639;1251,-390),
+          polylineLocation="[-10,-1,-194,729]$[-48,-1,-232,729]$[-48,-730,-232,0]$[174,-730,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_08dc;
+ 
+      Relationship relationship_Connector_fea5 refer relationship_Connector
+        Role Connector_Incoming_0210 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_0210;
+         Role Connector_Outgoing_0133 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_0133;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1296,1630;795,-310),
+          polylineLocation="[-11,-10,261,640]$[-11,-79,261,571]$[-438,-79,-166,571]$[-438,-650,-166,0]$[-282,-650,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_fea5;
+ 
+      Relationship relationship_Connector_8954 refer relationship_Connector
+        Role Connector_Incoming_6759 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_6759;
+         Role Connector_Outgoing_6967 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_6967;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1705,1634;685,-286),
+          polylineLocation="[-2,-10,388,629]$[-2,-116,388,523]$[-390,-116,0,523]$[-390,-629,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_8954;
+ 
+      Relationship relationship_Connector_7906 refer relationship_Connector
+        Role Connector_Incoming_1f80 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_1f80;
+         Role Connector_Outgoing_561c refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_561c;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(2116,1641;512,-299),
+          polylineLocation="[-6,-10,559,639]$[-6,-189,559,460]$[-565,-189,0,460]$[-565,-639,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_7906;
+ 
+      Relationship relationship_Connector_7679 refer relationship_Connector
+        Role Connector_Incoming_e253 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_e253;
+         Role Connector_Outgoing_9971 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_9971;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(901,1785;892,1569),
+          polylineLocation="[-1,-10,0,71]$[-1,-71,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_7679;
+ 
+      Relationship relationship_Connector_b400 refer relationship_Connector
+        Role Connector_Incoming_2875 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_2875;
+         Role Connector_Outgoing_2b98 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_2b98;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(2119,1790;2119,1586),
+          polylineLocation="[-3,-10,0,65]$[-3,-65,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_b400;
+ 
+      Relationship relationship_Connector_afea refer relationship_Connector
+        Role Connector_Incoming_4463 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_4463;
+         Role Connector_Outgoing_d7c9 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_d7c9;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1702,1790;1704,1573),
+          polylineLocation="[-5,-10,0,68]$[-5,-68,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_afea;
+ 
+      Relationship relationship_Connector_d25c refer relationship_Connector
+        Role Connector_Incoming_c28e refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_c28e;
+         Role Connector_Outgoing_3b80 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_3b80;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1322,1780;1307,1574),
+          polylineLocation="[0,-10,0,66]$[0,-66,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_d25c;
+ 
+      Relationship relationship_Connector_1b9b refer relationship_Connector
+        Role Connector_Incoming_c323 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_c323;
+         Role Connector_Outgoing_66ac refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_66ac;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(2132,1651;3308,-76),
+          polylineLocation="[10,0,-516,756]$[108,0,-418,756]$[108,-756,-418,0]$[516,-756,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_1b9b;
+ 
+      Relationship relationship_Connector_fc93 refer relationship_Connector
+        Role Connector_Incoming_8067 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_8067;
+         Role Connector_Outgoing_cc03 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_cc03;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1707,1634;3743,-86),
+          polylineLocation="[0,-10,-963,759]$[0,-241,-963,528]$[459,-241,-504,528]$[459,-769,-504,0]$[953,-769,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_fc93;
+ 
+      Relationship relationship_Connector_ad67 refer relationship_Connector
+        Role Connector_Incoming_994c refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_994c;
+         Role Connector_Outgoing_2c19 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_2c19;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(893,1630;4567,-203),
+          polylineLocation="[0,-10,-1785,873]$[0,-364,-1785,519]$[1141,-364,-644,519]$[1141,-883,-644,0]$[1775,-883,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_ad67;
+ 
+      Relationship relationship_Connector_0f2e refer relationship_Connector
+        Role Connector_Incoming_ee00 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_ee00;
+         Role Connector_Outgoing_9ad7 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_9ad7;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1307,1630;4165,-138),
+          polylineLocation="[0,-10,-1383,813]$[0,-294,-1383,529]$[805,-294,-578,529]$[805,-818,-578,5]$[1373,-818,-10,5]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_0f2e;
+ 
+      Relationship relationship_Connector_3000 refer relationship_Connector
+        Role Connector_Incoming_dd56 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_dd56;
+         Role Connector_Outgoing_d26b refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_d26b;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1326,2125;1326,1529),
+          polylineLocation="[4,-10,-1,261]$[4,-261,-1,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_3000;
+ 
+      Relationship relationship_Connector_60f7 refer relationship_Connector
+        Role Connector_Incoming_a34d refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_a34d;
+         Role Connector_Outgoing_702f refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_702f;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1716,2115;1706,1559),
+          polylineLocation="[-1,-10,4,241]$[-1,-241,4,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_60f7;
+ 
+      Relationship relationship_Connector_7f65 refer relationship_Connector
+        Role Connector_Incoming_bb61 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_bb61;
+         Role Connector_Outgoing_84dc refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_84dc;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(2120,2125;2120,1549),
+          polylineLocation="[-2,-10,-2,251]$[-2,-251,-2,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_7f65;
+ 
+      Relationship relationship_Connector_5e66 refer relationship_Connector
+        Role Connector_Incoming_e70d refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_e70d;
+         Role Connector_Outgoing_1e4d refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_1e4d;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(515,1430;1492,-164),
+          polylineLocation="[-5,-10,-408,536]$[-5,-546,-408,0]$[393,-546,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_5e66;
+ 
+      Relationship relationship_Connector_f086 refer relationship_Connector
+        Role Connector_Incoming_009d refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_009d;
+         Role Connector_Outgoing_1085 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_1085;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(548,1639;1462,-385),
+          polylineLocation="[10,0,-363,772]$[44,0,-329,772]$[44,-772,-329,0]$[363,-772,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_f086;
+ 
+      Relationship relationship_Connector_f3d1 refer relationship_Connector
+        Role Connector_Incoming_28a3 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_28a3;
+         Role Connector_Outgoing_ebbd refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_ebbd;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(189,1659;1821,-519),
+          polylineLocation="[10,0,-722,901]$[49,0,-683,901]$[49,-430,-683,471]$[263,-430,-469,471]$[263,-901,-469,0]$[722,-901,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_f3d1;
+ 
+      Relationship relationship_Connector_ea6a refer relationship_Connector
+        Role Connector_Incoming_e29e refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_e29e;
+         Role Connector_Outgoing_4b5e refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_4b5e;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(169,1430;1915,-264),
+          polylineLocation="[0,-10,-826,636]$[0,-176,-826,470]$[303,-176,-523,470]$[303,-646,-523,0]$[816,-646,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_ea6a;
+ 
+      Relationship relationship_Connector_ebf4 refer relationship_Connector
+        Role Connector_Incoming_a951 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_a951;
+         Role Connector_Outgoing_1e6d refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_1e6d;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(892,1800;238,1541),
+          polylineLocation="[-10,5,269,66]$[-278,5,1,66]$[-278,-51,1,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_ebf4;
+ 
+      Relationship relationship_Connector_fcb0 refer relationship_Connector
+        Role Connector_Incoming_24fb refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_24fb;
+         Role Connector_Outgoing_1c35 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_1c35;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1312,1790;-336,1049),
+          polylineLocation="[-10,0,814,348]$[-34,0,790,348]$[-34,85,790,433]$[-868,85,-44,433]$[-868,-349,-44,-1]$[-834,-349,-10,-1]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_fcb0;
+ 
+      Relationship relationship_Connector_1ff1 refer relationship_Connector
+        Role Connector_Incoming_69a0 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_69a0;
+         Role Connector_Outgoing_6dae refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_6dae;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1697,1800;-1313,1590),
+          polylineLocation="[-10,0,1460,37]$[-49,0,1421,37]$[-49,134,1421,171]$[-1470,134,0,171]$[-1470,-27,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_1ff1;
+ 
+      Relationship relationship_Connector_7d4e refer relationship_Connector
+        Role Connector_Incoming_7273 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_7273;
+         Role Connector_Outgoing_8c55 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_8c55;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(2112,1800;-1838,999),
+          polylineLocation="[-10,0,1965,397]$[-44,0,1931,397]$[-44,154,1931,551]$[-2038,154,-63,551]$[-2038,-399,-63,-2]$[-1985,-399,-10,-2]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_7d4e;
+ 
+      Relationship relationship_Connector_9778 refer relationship_Connector
+        Role Connector_Incoming_9f94 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_9f94;
+         Role Connector_Outgoing_5b6d refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_5b6d;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(2132,2135;3384,-248),
+          polylineLocation="[10,0,-578,938]$[592,0,4,938]$[592,-928,4,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_9778;
+ 
+      Relationship relationship_Connector_6a08 refer relationship_Connector
+        Role Connector_Incoming_f485 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_f485;
+         Role Connector_Outgoing_cdbe refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_cdbe;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1717,2135;3948,-265),
+          polylineLocation="[0,10,-1156,965]$[0,53,-1156,1008]$[1156,53,0,1008]$[1156,-945,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_6a08;
+ 
+      Relationship relationship_Connector_0369 refer relationship_Connector
+        Role Connector_Incoming_9840 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_9840;
+         Role Connector_Outgoing_21a7 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_21a7;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1322,2145;4432,-275),
+          polylineLocation="[0,10,-1640,975]$[0,103,-1640,1068]$[1640,103,0,1068]$[1640,-955,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_0369;
+ 
+      Relationship relationship_Connector_32fa refer relationship_Connector
+        Role Connector_Incoming_49f8 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_49f8;
+         Role Connector_Outgoing_6f5b refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_6f5b;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(893,2145;4922,-275),
+          polylineLocation="[0,10,-2130,975]$[0,167,-2130,1132]$[2130,167,0,1132]$[2130,-955,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_32fa;
+ 
+      Relationship relationship_Connector_ed86 refer relationship_Connector
+        Role Connector_Incoming_85b9 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_85b9;
+         Role Connector_Outgoing_5bda refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_5bda;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(2522,1841;2146,1988),
+          polylineLocation="[-10,-2,116,-72]$[-63,-2,63,-72]$[-63,65,63,-5]$[-116,65,10,-5]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_ed86;
+ 
+      Relationship relationship_Connector_c532 refer relationship_Connector
+        Role Connector_Incoming_8657 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_8657;
+         Role Connector_Outgoing_baac refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_baac;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(2532,1833;1249,2040),
+          polylineLocation="[0,-10,608,-127]$[0,-178,608,-295]$[-561,-178,47,-295]$[-561,117,47,0]$[-598,117,10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_c532;
+ 
+      Relationship relationship_Connector_d16b refer relationship_Connector
+        Role Connector_Incoming_5f87 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_5f87;
+         Role Connector_Outgoing_e155 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_e155;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1357,634;3433,2742),
+          polylineLocation="[10,0,-762,-738]$[771,0,-1,-738]$[771,728,-1,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_d16b;
+ 
+      Relationship relationship_Connector_f856 refer relationship_Connector
+        Role Connector_Incoming_c504 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_c504;
+         Role Connector_Outgoing_1b22 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_1b22;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(2532,1833;3080,195),
+          polylineLocation="[0,-10,-158,598]$[0,-608,-158,0]$[148,-608,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_f856;
+ 
+      Relationship relationship_Connector_2f70 refer relationship_Connector
+        Role Connector_Incoming_c729 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_c729;
+         Role Connector_Outgoing_d08a refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_d08a;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(903,2135;1184,-815),
+          polylineLocation="[10,0,-97,1165]$[107,0,0,1165]$[107,-1155,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_2f70;
+ 
+      Relationship relationship_Connector_691a refer relationship_Connector
+        Role Connector_Incoming_7de3 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_7de3;
+         Role Connector_Outgoing_725d refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_725d;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1312,2135;963,-810),
+          polylineLocation="[-10,0,98,1160]$[-114,0,-6,1160]$[-114,-1150,-6,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_691a;
+ 
+      Relationship relationship_Connector_3b46 refer relationship_Connector
+        Role Connector_Incoming_af09 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_af09;
+         Role Connector_Outgoing_904c refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_904c;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1707,2125;874,-815),
+          polylineLocation="[-10,0,203,1155]$[-173,0,40,1155]$[-173,-1155,40,0]$[-203,-1155,10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_3b46;
+ 
+      Relationship relationship_Connector_cbe2 refer relationship_Connector
+        Role Connector_Incoming_3ee9 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_3ee9;
+         Role Connector_Outgoing_6b1b refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_6b1b;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(2112,2135;654,-795),
+          polylineLocation="[-10,0,413,1145]$[-134,0,289,1145]$[-134,-935,289,210]$[-423,-935,0,210]$[-423,-1135,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_cbe2;
+ 
+      Relationship relationship_Connector_43ed refer relationship_Connector
+        Role Connector_Incoming_b4e1 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_b4e1;
+         Role Connector_Outgoing_e674 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_e674;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1357,633;5852,633),
+          polylineLocation="[10,-1,-1905,-1]$[1905,-1,-10,-1]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_43ed;
+ 
+      Relationship relationship_Connector_d893 refer relationship_Connector
+        Role Connector_Incoming_f7f1 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_f7f1;
+         Role Connector_Outgoing_ba24 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_ba24;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(3057,925;4198,477),
+          polylineLocation="[10,0,-258,118]$[266,0,-2,118]$[266,-108,-2,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_d893;
+ 
+      Relationship relationship_Connector_2651 refer relationship_Connector
+        Role Connector_Incoming_d84e refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_d84e;
+         Role Connector_Outgoing_6de2 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_6de2;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(3437,112;3850,530),
+          polylineLocation="[10,0,-92,-123]$[102,0,0,-123]$[102,113,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_2651;
+ 
+      Relationship relationship_Connector_7682 refer relationship_Connector
+        Role Connector_Incoming_1a59 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_1a59;
+         Role Connector_Outgoing_e3b7 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_e3b7;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(3047,915;3633,-293),
+          polylineLocation="[0,-10,-32,563]$[0,-573,-32,0]$[22,-573,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_7682;
+ 
+      Relationship relationship_Connector_32ee refer relationship_Connector
+        Role Connector_Incoming_7de8 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_7de8;
+         Role Connector_Outgoing_17c7 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_17c7;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(3789,460;3476,2399),
+          polylineLocation="[0,10,143,-881]$[0,891,143,0]$[-133,891,10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_32ee;
+ 
+      Relationship relationship_Connector_0df5 refer relationship_Connector
+        Role Connector_Incoming_6bb7 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_6bb7;
+         Role Connector_Outgoing_8348 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_8348;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(3789,460;3679,1216),
+          polylineLocation="[0,10,0,-231]$[0,231,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_0df5;
+ 
+      Relationship relationship_Connector_160c refer relationship_Connector
+        Role Connector_Incoming_a4b2 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_a4b2;
+         Role Connector_Outgoing_abf3 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_abf3;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(3637,957;2761,762),
+          polylineLocation="[-10,-1,111,-1]$[-111,-1,10,-1]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_160c;
+ 
+      Relationship relationship_Connector_0901 refer relationship_Connector
+        Role Connector_Incoming_2e24 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_2e24;
+         Role Connector_Outgoing_8f7a refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_8f7a;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(3646,948;3320,-483),
+          polylineLocation="[-1,-10,114,601]$[-1,-306,114,305]$[-116,-306,-1,305]$[-116,-601,-1,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_0901;
+ 
+      Relationship relationship_Connector_c533 refer relationship_Connector
+        Role Connector_Incoming_5a6f refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_5a6f;
+         Role Connector_Outgoing_4327 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_4327;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(3057,925;3888,1824),
+          polylineLocation="[10,0,-128,-191]$[136,0,-2,-191]$[136,181,-2,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_c533;
+ 
+      Relationship relationship_Connector_05cc refer relationship_Connector
+        Role Connector_Incoming_3012 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_3012;
+         Role Connector_Outgoing_63d8 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_63d8;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(3602,1513;3542,2333),
+          polylineLocation="[5,10,-4,-268]$[5,268,-4,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_05cc;
+ 
+      Relationship relationship_Connector_5dc7 refer relationship_Connector
+        Role Connector_Incoming_d14e refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_d14e;
+         Role Connector_Outgoing_a97d refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_a97d;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(3508,2031;2630,-67),
+          polylineLocation="[-10,-5,233,828]$[-243,-5,0,828]$[-243,-823,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_5dc7;
+ 
+      Relationship relationship_Connector_cd2e refer relationship_Connector
+        Role Connector_Incoming_5b46 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_5b46;
+         Role Connector_Outgoing_7032 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_7032;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(3052,935;3910,1952),
+          polylineLocation="[5,10,-163,-298]$[5,309,-163,1]$[158,309,-10,1]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_cd2e;
+ 
+      Relationship relationship_Connector_8bd5 refer relationship_Connector
+        Role Connector_Incoming_a411 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_a411;
+         Role Connector_Outgoing_591c refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_591c;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(1318,1800;5470,2323),
+          polylineLocation="[-4,10,-2037,-343]$[-4,584,-2037,231]$[2033,584,0,231]$[2033,363,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_8bd5;
+ 
+      Relationship relationship_Connector_85d8 refer relationship_Connector
+        Role Connector_Incoming_5ccf refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_5ccf;
+         Role Connector_Outgoing_4766 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_4766;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(3518,2046;-1595,1513),
+          polylineLocation="[0,10,2588,368]$[0,297,2588,655]$[-2526,297,62,655]$[-2526,-358,62,0]$[-2578,-358,10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_85d8;
+ 
+      Relationship relationship_Connector_9b1b refer relationship_Connector
+        Role Connector_Incoming_2184 refer Connector_Incoming
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end Connector_Incoming_2184;
+         Role Connector_Outgoing_dbf0 refer Connector_Outgoing
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end Connector_Outgoing_dbf0;
+       
+        annotation(
+          localLabel="连接器",
+          shape="solidLine",
+          endLocation=(899,1805;890,2391),
+          polylineLocation="[-3,10,-1,-256]$[-3,256,-1,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end relationship_Connector_9b1b;
+ 
+    Connect(connector(Part_zja.Block_In_Out_Flow_Port_b3fb55_b76f,relationship_Connector_7fda.Connector_Incoming_54bf),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_031b,relationship_Connector_7fda.Connector_Outgoing_00a3));
+ 
+    Connect(connector(Part_icb.Block_In_Out_Flow_Port_b3fb55_4351,relationship_Connector_011b.Connector_Incoming_98d1),connector(Part_zja.Block_In_Out_Flow_Port_b3fb55_037d,relationship_Connector_011b.Connector_Outgoing_fac7));
+ 
+    Connect(connector(Part_gtw.Block_In_Out_Flow_Port_b3fb55_7c98,relationship_Connector_7636.Connector_Incoming_bdee),connector(Part_phr.Block_In_Out_Flow_Port_b3fb55_85f9,relationship_Connector_7636.Connector_Outgoing_d94a));
+ 
+    Connect(connector(Part_icb.Block_In_Out_Flow_Port_b3fb55_aef0,relationship_Connector_eb2d.Connector_Incoming_3422),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_ce3a,relationship_Connector_eb2d.Connector_Outgoing_67ba));
+ 
+    Connect(connector(Part_phr.Block_In_Out_Flow_Port_b3fb55_3419,relationship_Connector_d2a2.Connector_Incoming_24f4),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_bfa0,relationship_Connector_d2a2.Connector_Outgoing_90a2));
+ 
+    Connect(connector(Part_zja.Block_In_Out_Flow_Port_b3fb55_4b8f,relationship_Connector_2af1.Connector_Incoming_51e1),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_d798,relationship_Connector_2af1.Connector_Outgoing_4c98));
+ 
+    Connect(connector(Part_gtw.Block_In_Out_Flow_Port_b3fb55_3573,relationship_Connector_bd16.Connector_Incoming_fa1b),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_72c7,relationship_Connector_bd16.Connector_Outgoing_bd9f));
+ 
+    Connect(connector(Part_phr.Block_In_Out_Flow_Port_b3fb55_e157,relationship_Connector_7301.Connector_Incoming_c8b6),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_4906,relationship_Connector_7301.Connector_Outgoing_ed15));
+ 
+    Connect(connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_ec9a,relationship_Connector_e8f4.Connector_Incoming_e360),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_fb1b,relationship_Connector_e8f4.Connector_Outgoing_9eb3));
+ 
+    Connect(connector(Part_mug.Block_In_Out_Flow_Port_b3fb55_39f4,relationship_Connector_ffdd.Connector_Incoming_19dc),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_d7eb,relationship_Connector_ffdd.Connector_Outgoing_47e9));
+ 
+    Connect(connector(Part_yvp.Block_In_Out_Flow_Port_b3fb55_40e4,relationship_Connector_507a.Connector_Incoming_a27a),connector(Part_mug.Block_In_Out_Flow_Port_b3fb55_605d,relationship_Connector_507a.Connector_Outgoing_d087));
+ 
+    Connect(connector(Part_mug.Block_In_Out_Flow_Port_b3fb55_82c0,relationship_Connector_fe8e.Connector_Incoming_e056),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_522a,relationship_Connector_fe8e.Connector_Outgoing_eb12));
+ 
+    Connect(connector(Part_yvp.Block_In_Out_Flow_Port_b3fb55_03a2,relationship_Connector_1136.Connector_Incoming_c25f),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_cd07,relationship_Connector_1136.Connector_Outgoing_f076));
+ 
+    Connect(connector(Part_suo.Block_In_Out_Flow_Port_b3fb55_fb2e,relationship_Connector_08dc.Connector_Incoming_b3e5),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_34ff,relationship_Connector_08dc.Connector_Outgoing_d35d));
+ 
+    Connect(connector(Part_brn.Block_In_Out_Flow_Port_b3fb55_4108,relationship_Connector_fea5.Connector_Incoming_0210),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_1d15,relationship_Connector_fea5.Connector_Outgoing_0133));
+ 
+    Connect(connector(Part_jjm.Block_In_Out_Flow_Port_b3fb55_0455,relationship_Connector_8954.Connector_Incoming_6759),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_36bf,relationship_Connector_8954.Connector_Outgoing_6967));
+ 
+    Connect(connector(Part_ryp.Block_In_Out_Flow_Port_b3fb55_334a,relationship_Connector_7906.Connector_Incoming_1f80),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_f14b,relationship_Connector_7906.Connector_Outgoing_561c));
+ 
+    Connect(connector(Part_tzy.Block_In_Out_Flow_Port_b3fb55_bbb0,relationship_Connector_7679.Connector_Incoming_e253),connector(Part_suo.Block_In_Out_Flow_Port_b3fb55_a4bd,relationship_Connector_7679.Connector_Outgoing_9971));
+ 
+    Connect(connector(Part_gzh.Block_In_Out_Flow_Port_b3fb55_63a9,relationship_Connector_b400.Connector_Incoming_2875),connector(Part_ryp.Block_In_Out_Flow_Port_b3fb55_842c,relationship_Connector_b400.Connector_Outgoing_2b98));
+ 
+    Connect(connector(Part_dfe.Block_In_Out_Flow_Port_b3fb55_1007,relationship_Connector_afea.Connector_Incoming_4463),connector(Part_jjm.Block_In_Out_Flow_Port_b3fb55_7fad,relationship_Connector_afea.Connector_Outgoing_d7c9));
+ 
+    Connect(connector(Part_jtl.Block_In_Out_Flow_Port_b3fb55_33dd,relationship_Connector_d25c.Connector_Incoming_c28e),connector(Part_brn.Block_In_Out_Flow_Port_b3fb55_ec7b,relationship_Connector_d25c.Connector_Outgoing_3b80));
+ 
+    Connect(connector(Part_ryp.Block_In_Out_Flow_Port_b3fb55_14f6,relationship_Connector_1b9b.Connector_Incoming_c323),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_c373,relationship_Connector_1b9b.Connector_Outgoing_66ac));
+ 
+    Connect(connector(Part_jjm.Block_In_Out_Flow_Port_b3fb55_5d51,relationship_Connector_fc93.Connector_Incoming_8067),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_78e0,relationship_Connector_fc93.Connector_Outgoing_cc03));
+ 
+    Connect(connector(Part_suo.Block_In_Out_Flow_Port_b3fb55_8b01,relationship_Connector_ad67.Connector_Incoming_994c),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_be66,relationship_Connector_ad67.Connector_Outgoing_2c19));
+ 
+    Connect(connector(Part_brn.Block_In_Out_Flow_Port_b3fb55_6819,relationship_Connector_0f2e.Connector_Incoming_ee00),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_3928,relationship_Connector_0f2e.Connector_Outgoing_9ad7));
+ 
+    Connect(connector(Part_dgs.Block_In_Out_Flow_Port_b3fb55_76c5,relationship_Connector_3000.Connector_Incoming_dd56),connector(Part_jtl.Block_In_Out_Flow_Port_b3fb55_f5de,relationship_Connector_3000.Connector_Outgoing_d26b));
+ 
+    Connect(connector(Part_aue.Block_In_Out_Flow_Port_b3fb55_a665,relationship_Connector_60f7.Connector_Incoming_a34d),connector(Part_dfe.Block_In_Out_Flow_Port_b3fb55_a70e,relationship_Connector_60f7.Connector_Outgoing_702f));
+ 
+    Connect(connector(Part_ene.Block_In_Out_Flow_Port_b3fb55_bb29,relationship_Connector_7f65.Connector_Incoming_bb61),connector(Part_gzh.Block_In_Out_Flow_Port_b3fb55_279d,relationship_Connector_7f65.Connector_Outgoing_84dc));
+ 
+    Connect(connector(Part_vjt.Block_In_Out_Flow_Port_b3fb55_65f1,relationship_Connector_5e66.Connector_Incoming_e70d),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_2a59,relationship_Connector_5e66.Connector_Outgoing_1e4d));
+ 
+    Connect(connector(Part_miw.Block_In_Out_Flow_Port_b3fb55_542c,relationship_Connector_f086.Connector_Incoming_009d),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_9ad8,relationship_Connector_f086.Connector_Outgoing_1085));
+ 
+    Connect(connector(Part_fyo.Block_In_Out_Flow_Port_b3fb55_8ca7,relationship_Connector_f3d1.Connector_Incoming_28a3),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_5a21,relationship_Connector_f3d1.Connector_Outgoing_ebbd));
+ 
+    Connect(connector(Part_tpq.Block_In_Out_Flow_Port_b3fb55_5660,relationship_Connector_ea6a.Connector_Incoming_e29e),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_b18b,relationship_Connector_ea6a.Connector_Outgoing_4b5e));
+ 
+    Connect(connector(Part_tzy.Block_In_Out_Flow_Port_b3fb55_9743,relationship_Connector_ebf4.Connector_Incoming_a951),connector(Part_miw.Block_In_Out_Flow_Port_b3fb55_2d14,relationship_Connector_ebf4.Connector_Outgoing_1e6d));
+ 
+    Connect(connector(Part_jtl.Block_In_Out_Flow_Port_b3fb55_a8c2,relationship_Connector_fcb0.Connector_Incoming_24fb),connector(Part_vjt.Block_In_Out_Flow_Port_b3fb55_fafc,relationship_Connector_fcb0.Connector_Outgoing_1c35));
+ 
+    Connect(connector(Part_dfe.Block_In_Out_Flow_Port_b3fb55_c542,relationship_Connector_1ff1.Connector_Incoming_69a0),connector(Part_fyo.Block_In_Out_Flow_Port_b3fb55_8392,relationship_Connector_1ff1.Connector_Outgoing_6dae));
+ 
+    Connect(connector(Part_gzh.Block_In_Out_Flow_Port_b3fb55_003c,relationship_Connector_7d4e.Connector_Incoming_7273),connector(Part_tpq.Block_In_Out_Flow_Port_b3fb55_f59a,relationship_Connector_7d4e.Connector_Outgoing_8c55));
+ 
+    Connect(connector(Part_ene.Block_In_Out_Flow_Port_b3fb55_3c39,relationship_Connector_9778.Connector_Incoming_9f94),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_1628,relationship_Connector_9778.Connector_Outgoing_5b6d));
+ 
+    Connect(connector(Part_aue.Block_In_Out_Flow_Port_b3fb55_64db,relationship_Connector_6a08.Connector_Incoming_f485),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_e83f,relationship_Connector_6a08.Connector_Outgoing_cdbe));
+ 
+    Connect(connector(Part_dgs.Block_In_Out_Flow_Port_b3fb55_3386,relationship_Connector_0369.Connector_Incoming_9840),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_a14c,relationship_Connector_0369.Connector_Outgoing_21a7));
+ 
+    Connect(connector(Part_cmi.Block_In_Out_Flow_Port_b3fb55_a819,relationship_Connector_32fa.Connector_Incoming_49f8),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_c40a,relationship_Connector_32fa.Connector_Outgoing_6f5b));
+ 
+    Connect(connector(Part_jhr.Block_In_Out_Flow_Port_b3fb55_afc7,relationship_Connector_ed86.Connector_Incoming_85b9),connector(Part_gzh.Block_In_Out_Flow_Port_b3fb55_fdea,relationship_Connector_ed86.Connector_Outgoing_5bda));
+ 
+    Connect(connector(Part_jhr.Block_In_Out_Flow_Port_b3fb55_40e8,relationship_Connector_c532.Connector_Incoming_8657),connector(Part_dfe.Block_In_Out_Flow_Port_b3fb55_0e41,relationship_Connector_c532.Connector_Outgoing_baac));
+ 
+    Connect(connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_c96e,relationship_Connector_d16b.Connector_Incoming_5f87),connector(Part_jhr.Block_In_Out_Flow_Port_b3fb55_080e,relationship_Connector_d16b.Connector_Outgoing_e155));
+ 
+    Connect(connector(Part_jhr.Block_In_Out_Flow_Port_b3fb55_ed9f,relationship_Connector_f856.Connector_Incoming_c504),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_dddd,relationship_Connector_f856.Connector_Outgoing_1b22));
+ 
+    Connect(connector(Part_cmi.Block_In_Out_Flow_Port_b3fb55_4a32,relationship_Connector_2f70.Connector_Incoming_c729),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_8237,relationship_Connector_2f70.Connector_Outgoing_d08a));
+ 
+    Connect(connector(Part_dgs.Block_In_Out_Flow_Port_b3fb55_103a,relationship_Connector_691a.Connector_Incoming_7de3),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_c7af,relationship_Connector_691a.Connector_Outgoing_725d));
+ 
+    Connect(connector(Part_aue.Block_In_Out_Flow_Port_b3fb55_80e0,relationship_Connector_3b46.Connector_Incoming_af09),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_9787,relationship_Connector_3b46.Connector_Outgoing_904c));
+ 
+    Connect(connector(Part_ene.Block_In_Out_Flow_Port_b3fb55_9d42,relationship_Connector_cbe2.Connector_Incoming_3ee9),connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_f200,relationship_Connector_cbe2.Connector_Outgoing_6b1b));
+ 
+    Connect(connector(Part_djy.Block_In_Out_Flow_Port_b3fb55_9e55,relationship_Connector_43ed.Connector_Incoming_b4e1),connector(Part_rka.Block_In_Out_Flow_Port_b3fb55_6d5d,relationship_Connector_43ed.Connector_Outgoing_e674));
+ 
+    Connect(connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_041e,relationship_Connector_d893.Connector_Incoming_f7f1),connector(Part_rka.Block_In_Out_Flow_Port_b3fb55_c139,relationship_Connector_d893.Connector_Outgoing_ba24));
+ 
+    Connect(connector(Part_bpp.Block_In_Out_Flow_Port_b3fb55_f0ff,relationship_Connector_2651.Connector_Incoming_d84e),connector(Part_rka.Block_In_Out_Flow_Port_b3fb55_4eca,relationship_Connector_2651.Connector_Outgoing_6de2));
+ 
+    Connect(connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_9050,relationship_Connector_7682.Connector_Incoming_1a59),connector(Part_bpp.Block_In_Out_Flow_Port_b3fb55_3f95,relationship_Connector_7682.Connector_Outgoing_e3b7));
+ 
+    Connect(connector(Part_rka.Block_In_Out_Flow_Port_b3fb55_338e,relationship_Connector_32ee.Connector_Incoming_7de8),connector(Part_lhh.Block_In_Out_Flow_Port_b3fb55_89dc,relationship_Connector_32ee.Connector_Outgoing_17c7));
+ 
+    Connect(connector(Part_rka.Block_In_Out_Flow_Port_b3fb55_b327,relationship_Connector_0df5.Connector_Incoming_6bb7),connector(Part_onh.Block_In_Out_Flow_Port_b3fb55_5601,relationship_Connector_0df5.Connector_Outgoing_8348));
+ 
+    Connect(connector(Part_onh.Block_In_Out_Flow_Port_b3fb55_63ad,relationship_Connector_160c.Connector_Incoming_a4b2),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_f664,relationship_Connector_160c.Connector_Outgoing_abf3));
+ 
+    Connect(connector(Part_onh.Block_In_Out_Flow_Port_b3fb55_7534,relationship_Connector_0901.Connector_Incoming_2e24),connector(Part_bpp.Block_In_Out_Flow_Port_b3fb55_d339,relationship_Connector_0901.Connector_Outgoing_8f7a));
+ 
+    Connect(connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_830d,relationship_Connector_c533.Connector_Incoming_5a6f),connector(Part_lhh.Block_In_Out_Flow_Port_b3fb55_0a24,relationship_Connector_c533.Connector_Outgoing_4327));
+ 
+    Connect(connector(Part_lhh.Block_In_Out_Flow_Port_b3fb55_e8ed,relationship_Connector_05cc.Connector_Incoming_3012),connector(Driving_Control_Physical_Interface_Model_object_Interface_Block_8e76.Interface_Block_In_Out_Flow_Port_2b6ee6_6118,relationship_Connector_05cc.Connector_Outgoing_63d8));
+ 
+    Connect(connector(Driving_Control_Physical_Interface_Model_object_Interface_Block_8e76.Interface_Block_In_Out_Flow_Port_2b6ee6_854b,relationship_Connector_5dc7.Connector_Incoming_d14e),connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_f062,relationship_Connector_5dc7.Connector_Outgoing_a97d));
+ 
+    Connect(connector(Part_ijk.Block_In_Out_Flow_Port_b3fb55_2b62,relationship_Connector_cd2e.Connector_Incoming_5b46),connector(Part_lhh.Block_In_Out_Flow_Port_b3fb55_d304,relationship_Connector_cd2e.Connector_Outgoing_7032));
+ 
+    Connect(connector(Part_jtl.Block_In_Out_Flow_Port_b3fb55_d88d,relationship_Connector_8bd5.Connector_Incoming_a411),connector(Driving_Control_Physical_Interface_Model_object_Interface_Block_8e76.Interface_Block_In_Out_Flow_Port_2b6ee6_0d1d,relationship_Connector_8bd5.Connector_Outgoing_591c));
+ 
+    Connect(connector(Driving_Control_Physical_Interface_Model_object_Interface_Block_8e76.Interface_Block_In_Out_Flow_Port_2b6ee6_810d,relationship_Connector_85d8.Connector_Incoming_5ccf),connector(Part_tzy.Block_In_Out_Flow_Port_b3fb55_5f5e,relationship_Connector_85d8.Connector_Outgoing_4766));
+ 
+    Connect(connector(Part_tzy.Block_In_Out_Flow_Port_b3fb55_bde9,relationship_Connector_9b1b.Connector_Incoming_2184),connector(Part_cmi.Block_In_Out_Flow_Port_b3fb55_a820,relationship_Connector_9b1b.Connector_Outgoing_dbf0));
+ 
+
+      annotation(
+        localLabel="驾驶控制物理接口模型",
+    );
+    
+   end Driving_Control_Physical_Interface_Model;

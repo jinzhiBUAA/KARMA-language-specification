@@ -1,0 +1,18 @@
+   Object metaObject_System_Context
+      initial Property unique metaObject_System_Context_metaProperty_Name_1ad95c = "null" extends metaProperty_Name annotation(localLabel ="名称");
+      initial Property unique metaObject_System_Context_metaProperty_Context_1708e4 = "null" extends metaProperty_Context annotation(localLabel ="上下文");
+      Undirected Point metaObject_System_Context_metaPoint_Flow_Port_f7dba0 extends metaPoint_Flow_Port annotation (localLabel ="流端口");
+      Undirected Point metaObject_System_Context_metaPoint_Full_Port_3fb9a1 extends metaPoint_Full_Port annotation (localLabel ="全端口");
+      Undirected Point metaObject_System_Context_metaPoint_Port_d0ae5c extends metaPoint_Port annotation (localLabel ="端口");
+      Undirected Point metaObject_System_Context_metaPoint_Proxy_Port_0effbc extends metaPoint_Proxy_Port annotation (localLabel ="代理端口");
+   annotation(
+      localLabel="系统上下文",
+      description="",
+      icon="SystemContextIcon.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end metaObject_System_Context;
+ 

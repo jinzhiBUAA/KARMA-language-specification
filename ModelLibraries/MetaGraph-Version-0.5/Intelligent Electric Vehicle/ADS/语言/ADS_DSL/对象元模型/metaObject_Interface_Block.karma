@@ -1,0 +1,17 @@
+   Object metaObject_Interface_Block
+      initial Property unique metaObject_Interface_Block_metaProperty_Name_e45140 = "null" extends metaProperty_Name annotation(localLabel ="名称");
+      Undirected Point metaObject_Interface_Block_metaPoint_Flow_Port_acc795 extends metaPoint_Flow_Port annotation (localLabel ="流端口");
+      Undirected Point metaObject_Interface_Block_metaPoint_Full_Port_5ceaee extends metaPoint_Full_Port annotation (localLabel ="全端口");
+      Undirected Point metaObject_Interface_Block_metaPoint_Port_b5f9f3 extends metaPoint_Port annotation (localLabel ="端口");
+      Undirected Point metaObject_Interface_Block_metaPoint_Proxy_Port_a7013c extends metaPoint_Proxy_Port annotation (localLabel ="代理端口");
+   annotation(
+      localLabel="接口模块",
+      description="",
+      icon="InterfaceBlockIcon.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end metaObject_Interface_Block;
+ 

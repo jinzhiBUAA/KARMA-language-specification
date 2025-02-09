@@ -1,0 +1,14 @@
+   Object Composite_State
+      initial Property  Composite_State_Name_af2fc8 = "null" extends Name annotation(localLabel ="名称");
+      initial Property  Composite_State_Deferrable_Trigger_88b64d = "null" extends Deferrable_Trigger annotation(localLabel ="延期触发器");
+      initial Property  Composite_State_State_Invariant_6242a4 = "null" extends State_Invariant annotation(localLabel ="状态方程式");
+      initial Property  Composite_State_Submachine_59aaa5 = "null" extends Submachine annotation(localLabel ="子状态");
+   annotation(
+      localLabel="复合状态",
+      description="",
+      icon="",
+      shape="roundedRectangle",
+      visualizedMode=propertyMode,
+      );
+   end Composite_State;
+ 

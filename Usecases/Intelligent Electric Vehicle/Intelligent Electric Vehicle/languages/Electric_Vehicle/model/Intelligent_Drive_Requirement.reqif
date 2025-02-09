@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
+  <THE-HEADER>
+    <REQ-IF-HEADER IDENTIFIER="rmf-5e64e6a4-8e8f-430c-908b-d201b96027d2">
+      <COMMENT>Created by: YANYan</COMMENT>
+      <CREATION-TIME>2021-12-01T14:01:14.828+08:00</CREATION-TIME>
+      <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
+      <REQ-IF-VERSION>1.0</REQ-IF-VERSION>
+      <SOURCE-TOOL-ID>ProR (http://pror.org)</SOURCE-TOOL-ID>
+    </REQ-IF-HEADER>
+  </THE-HEADER>
+  <CORE-CONTENT>
+    <REQ-IF-CONTENT>
+      <DATATYPES>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_F6Uv01JsEey79Oes4tfxsQ" LAST-CHANGE="2021-12-01T14:01:14.828+08:00" LONG-NAME="T_String32k" MAX-LENGTH="32000"/>
+      </DATATYPES>
+      <SPEC-TYPES>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_F6Uv1FJsEey79Oes4tfxsQ" LAST-CHANGE="2021-12-01T14:01:14.828+08:00" LONG-NAME="Requirement Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_OLy2wFJsEey79Oes4tfxsQ" LAST-CHANGE="2021-12-01T14:02:03.493+08:00" LONG-NAME="名称">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_F6Uv01JsEey79Oes4tfxsQ</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_Ohy78FJsEey79Oes4tfxsQ" LAST-CHANGE="2021-12-01T14:02:11.131+08:00" LONG-NAME="描述">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_F6Uv01JsEey79Oes4tfxsQ</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_vXF1oFJ6EeydI87_M755iw" LAST-CHANGE="2021-12-01T15:46:02.226+08:00" LONG-NAME="ID" IS-EDITABLE="false">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_F6Uv01JsEey79Oes4tfxsQ</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+              <DEFAULT-VALUE>
+                <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-">
+                  <DEFINITION>
+                    <ATTRIBUTE-DEFINITION-STRING-REF>_vXF1oFJ6EeydI87_M755iw</ATTRIBUTE-DEFINITION-STRING-REF>
+                  </DEFINITION>
+                </ATTRIBUTE-VALUE-STRING>
+              </DEFAULT-VALUE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPECIFICATION-TYPE IDENTIFIER="_F6Uv1lJsEey79Oes4tfxsQ" LAST-CHANGE="2021-12-01T14:01:14.828+08:00" LONG-NAME="Specification Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_F6Uv11JsEey79Oes4tfxsQ" LAST-CHANGE="2021-12-01T14:01:14.828+08:00" LONG-NAME="名称">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_F6Uv01JsEey79Oes4tfxsQ</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPECIFICATION-TYPE>
+        <SPEC-RELATION-TYPE IDENTIFIER="_GQ4wgFJ-EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:10:05.942+08:00" LONG-NAME="Relation">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_InKEUFJ-EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:10:22.368+08:00" LONG-NAME="名称">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_F6Uv01JsEey79Oes4tfxsQ</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-RELATION-TYPE>
+      </SPEC-TYPES>
+      <SPEC-OBJECTS>
+        <SPEC-OBJECT IDENTIFIER="_Z097gFJ7EeydI87_M755iw" LAST-CHANGE="2021-12-01T16:09:05.429+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_vXF1oFJ6EeydI87_M755iw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="感知层">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_OLy2wFJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="数据采集层，主要由影响驾驶的各要素信息构成，即人、车、路的信息采集及三者信息的相互联系与交叉影响">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Ohy78FJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_F6Uv1FJsEey79Oes4tfxsQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_LVr8kFJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:05:05.678+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="网络层">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_OLy2wFJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="数据的传输调度层，路况信息在经过导航系统进行数据采集后通过报文通信的方式进行数据传输，车辆信息有CAN总线进行数据采集后以GPRS通信模块的方式进行数据传输，数据传输至本层后，由本层进行汇总整合后传输至分析层中。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Ohy78FJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_vXF1oFJ6EeydI87_M755iw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_F6Uv1FJsEey79Oes4tfxsQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_LrHaAFJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:08:22.303+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="分析层">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_OLy2wFJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="数据的分析处理层，由于大数据采集与处理的无序性，在已定义的函数模型下，对影响驾驶的数据进行计算处理。处理结果将传送至应用层中，同时将返回至网络层中进行存储与调用，并在网络层中建立行驶数据库。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Ohy78FJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_vXF1oFJ6EeydI87_M755iw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_F6Uv1FJsEey79Oes4tfxsQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_azS6EFJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:08:27.663+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="应用层">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_OLy2wFJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="应用服务层，依据数据采集与处理的结果，通过数据接口的方式可进行跨应用，跨系统之间的信息共享与信息协调。在互联网的大数据应用思维及互联互通的理念下，智能驾驶系统的应用主要为分为三大模块：用户服务系统、交通管理系统、汽车营销系统。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Ohy78FJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-4">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_vXF1oFJ6EeydI87_M755iw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_F6Uv1FJsEey79Oes4tfxsQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_gBv78FJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:05:50.159+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="路况信息的采集">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_OLy2wFJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="如道路几何构造，路面状况，道路灾害，路网条件及交通状况等，一般可通过GPS或北斗系统等高精度导航系统进行采集">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Ohy78FJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-1.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_vXF1oFJ6EeydI87_M755iw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_F6Uv1FJsEey79Oes4tfxsQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_iEmkgFJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:06:01.574+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="车辆信息">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_OLy2wFJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="车辆信息主要包括车辆原始数据，如（车辆型号，车辆理论参数等）以及车辆行驶动态数据，如（行车速度，行车时间、行车轨迹等），一般可通过CAN总线的方式进行数据采集。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Ohy78FJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-1.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_vXF1oFJ6EeydI87_M755iw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_F6Uv1FJsEey79Oes4tfxsQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_ltU-sFJ9EeyhcuB1lqP01g" LAST-CHANGE="2022-06-25T03:13:35.073+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="用户服务系统">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_OLy2wFJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="基于互联网思维的智能驾驶系统以驾驶员的行车安全性、舒适度等为约束，通过互联网的云处理与计算平台，得出建议的车辆安全行驶评定值、预警意见、适宜车速等驾驶控制数据流，由车体通过CAN总线接收数据，自动进行数据信号转换，进行行驶控制与调节，同时提出行驶对策的辅助指导可视化界面，人机交互协调车辆关系，保障行车安全，提高人的驾驶愉悦性。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Ohy78FJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-4.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_vXF1oFJ6EeydI87_M755iw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_F6Uv1FJsEey79Oes4tfxsQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_nsfaEFJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:06:41.873+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="交通管理系统">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_OLy2wFJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="通过对行驶数据库的调用，交通管理部门可准确、实时地掌握的行驶状况，更好地组织、规划、协调、指挥运输活动，提高道路行驶效率，降低交通损耗率。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Ohy78FJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-4.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_vXF1oFJ6EeydI87_M755iw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_F6Uv1FJsEey79Oes4tfxsQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_qEPUkFJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:06:56.462+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="汽车营销系统">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_OLy2wFJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="行驶数据库可为汽车企业提供企业数据服务，提高车体质量，促进企业方向性的发展。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Ohy78FJsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-4.3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_vXF1oFJ6EeydI87_M755iw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_F6Uv1FJsEey79Oes4tfxsQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+      </SPEC-OBJECTS>
+      <SPEC-RELATIONS>
+        <SPEC-RELATION IDENTIFIER="_OPsaIFJ-EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:10:59.521+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="泛化">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_InKEUFJ-EeyhcuB1lqP01g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TARGET>
+            <SPEC-OBJECT-REF>_Z097gFJ7EeydI87_M755iw</SPEC-OBJECT-REF>
+          </TARGET>
+          <SOURCE>
+            <SPEC-OBJECT-REF>_gBv78FJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+          </SOURCE>
+          <TYPE>
+            <SPEC-RELATION-TYPE-REF>_GQ4wgFJ-EeyhcuB1lqP01g</SPEC-RELATION-TYPE-REF>
+          </TYPE>
+        </SPEC-RELATION>
+        <SPEC-RELATION IDENTIFIER="_OwAR4FJ-EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:11:03.576+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="泛化">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_InKEUFJ-EeyhcuB1lqP01g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TARGET>
+            <SPEC-OBJECT-REF>_Z097gFJ7EeydI87_M755iw</SPEC-OBJECT-REF>
+          </TARGET>
+          <SOURCE>
+            <SPEC-OBJECT-REF>_iEmkgFJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+          </SOURCE>
+          <TYPE>
+            <SPEC-RELATION-TYPE-REF>_GQ4wgFJ-EeyhcuB1lqP01g</SPEC-RELATION-TYPE-REF>
+          </TYPE>
+        </SPEC-RELATION>
+        <SPEC-RELATION IDENTIFIER="_SOz7EFJ-EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:11:59.693+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="泛化">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_InKEUFJ-EeyhcuB1lqP01g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TARGET>
+            <SPEC-OBJECT-REF>_azS6EFJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+          </TARGET>
+          <SOURCE>
+            <SPEC-OBJECT-REF>_ltU-sFJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+          </SOURCE>
+          <TYPE>
+            <SPEC-RELATION-TYPE-REF>_GQ4wgFJ-EeyhcuB1lqP01g</SPEC-RELATION-TYPE-REF>
+          </TYPE>
+        </SPEC-RELATION>
+        <SPEC-RELATION IDENTIFIER="_SjHXIFJ-EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:11:29.137+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="泛化">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_InKEUFJ-EeyhcuB1lqP01g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TARGET>
+            <SPEC-OBJECT-REF>_azS6EFJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+          </TARGET>
+          <SOURCE>
+            <SPEC-OBJECT-REF>_nsfaEFJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+          </SOURCE>
+          <TYPE>
+            <SPEC-RELATION-TYPE-REF>_GQ4wgFJ-EeyhcuB1lqP01g</SPEC-RELATION-TYPE-REF>
+          </TYPE>
+        </SPEC-RELATION>
+        <SPEC-RELATION IDENTIFIER="_S_RHoFJ-EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:11:31.592+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="泛化">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_InKEUFJ-EeyhcuB1lqP01g</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TARGET>
+            <SPEC-OBJECT-REF>_azS6EFJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+          </TARGET>
+          <SOURCE>
+            <SPEC-OBJECT-REF>_qEPUkFJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+          </SOURCE>
+          <TYPE>
+            <SPEC-RELATION-TYPE-REF>_GQ4wgFJ-EeyhcuB1lqP01g</SPEC-RELATION-TYPE-REF>
+          </TYPE>
+        </SPEC-RELATION>
+      </SPEC-RELATIONS>
+      <SPECIFICATIONS>
+        <SPECIFICATION IDENTIFIER="_TdZ8gFJ7EeydI87_M755iw" LAST-CHANGE="2021-12-01T15:50:06.502+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="智能驾驶系统">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_F6Uv11JsEey79Oes4tfxsQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>_F6Uv1lJsEey79Oes4tfxsQ</SPECIFICATION-TYPE-REF>
+          </TYPE>
+          <CHILDREN>
+            <SPEC-HIERARCHY IDENTIFIER="_Z1FQQFJ7EeydI87_M755iw" LAST-CHANGE="2021-12-01T15:50:49.287+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_Z097gFJ7EeydI87_M755iw</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_gB00cFJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:05:50.159+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_gBv78FJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_iEqO4FJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:06:01.574+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_iEmkgFJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_LVxcIFJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:03:29.162+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_LVr8kFJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_LrLrcFJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:03:33.705+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_LrHaAFJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_azYZoFJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:05:14.823+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_azS6EFJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_ltZ3MFJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:06:28.456+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_ltU-sFJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_nskSkFJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:06:41.873+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_nsfaEFJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+                  </OBJECT>
+                  <CHILDREN/>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_qETmAFJ9EeyhcuB1lqP01g" LAST-CHANGE="2021-12-01T16:06:56.462+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_qEPUkFJ9EeyhcuB1lqP01g</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+        </SPECIFICATION>
+      </SPECIFICATIONS>
+    </REQ-IF-CONTENT>
+  </CORE-CONTENT>
+  <TOOL-EXTENSIONS>
+    <REQ-IF-TOOL-EXTENSION>
+      <configuration:ProrToolExtension>
+        <configuration:specViewConfigurations>
+          <configuration:ProrSpecViewConfiguration>
+            <configuration:columns>
+              <configuration:Column label="ID" width="118"/>
+              <configuration:Column label="名称" width="104"/>
+              <configuration:Column label="描述" width="519"/>
+            </configuration:columns>
+            <configuration:leftHeaderColumn>
+              <configuration:Column label="Lead Header Column" width="30"/>
+            </configuration:leftHeaderColumn>
+          </configuration:ProrSpecViewConfiguration>
+          <configuration:ProrSpecViewConfiguration specification="_TdZ8gFJ7EeydI87_M755iw">
+            <configuration:columns>
+              <configuration:Column label="ID" width="94"/>
+              <configuration:Column label="名称" width="117"/>
+              <configuration:Column label="描述" width="729"/>
+            </configuration:columns>
+            <configuration:leftHeaderColumn>
+              <configuration:Column label="Lead Header Column" width="30"/>
+            </configuration:leftHeaderColumn>
+          </configuration:ProrSpecViewConfiguration>
+        </configuration:specViewConfigurations>
+        <configuration:generalConfiguration>
+          <configuration:ProrGeneralConfiguration>
+            <configuration:labelConfiguration>
+              <configuration:LabelConfiguration>
+                <defaultLabel>名称</defaultLabel>
+              </configuration:LabelConfiguration>
+            </configuration:labelConfiguration>
+          </configuration:ProrGeneralConfiguration>
+        </configuration:generalConfiguration>
+      </configuration:ProrToolExtension>
+    </REQ-IF-TOOL-EXTENSION>
+  </TOOL-EXTENSIONS>
+</REQ-IF>

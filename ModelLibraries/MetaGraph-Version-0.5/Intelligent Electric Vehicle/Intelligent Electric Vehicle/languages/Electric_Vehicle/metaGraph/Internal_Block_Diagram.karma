@@ -1,0 +1,31 @@
+   partial Graph Internal_Block_Diagram
+    Object Reference_Property;
+    Object Part_Property;
+    Relationship relationship_Connector;
+    Relationship Item_Flow;
+    Constraint (
+    bind connector(Part_Property.Part_Property_In_Out_Flow_Port_0bc777,Item_Flow.Item_Flow_Outgoing),
+    bind connector(Part_Property.Part_Property_In_Flow_Port_ebb891,Item_Flow.Item_Flow_Outgoing),
+    bind connector(Reference_Property,Item_Flow.Item_Flow_Outgoing),
+    bind connector(Reference_Property.Reference_Property_In_Out_Flow_Port_45234b,Item_Flow.Item_Flow_Outgoing),
+    bind connector(Part_Property,Item_Flow.Item_Flow_Outgoing),
+    bind connector(Part_Property.Part_Property_In_Out_Flow_Port_0bc777,relationship_Connector.Connector_Incoming),
+    bind connector(Reference_Property,relationship_Connector.Connector_Incoming),
+    bind connector(Reference_Property.Reference_Property_In_Out_Flow_Port_45234b,relationship_Connector.Connector_Incoming),
+    bind connector(Part_Property,relationship_Connector.Connector_Incoming),
+    bind connector(Part_Property.Part_Property_In_Out_Flow_Port_0bc777,relationship_Connector.Connector_Outgoing),
+    bind connector(Reference_Property,relationship_Connector.Connector_Outgoing),
+    bind connector(Reference_Property.Reference_Property_In_Out_Flow_Port_45234b,relationship_Connector.Connector_Outgoing),
+    bind connector(Part_Property,relationship_Connector.Connector_Outgoing),
+    bind connector(Part_Property.Part_Property_In_Out_Flow_Port_0bc777,Item_Flow.Item_Flow_Incoming),
+    bind connector(Reference_Property,Item_Flow.Item_Flow_Incoming),
+    bind connector(Reference_Property.Reference_Property_In_Out_Flow_Port_45234b,Item_Flow.Item_Flow_Incoming),
+    bind connector(Part_Property.Part_Property_Out_Flow_Port_888cfe,Item_Flow.Item_Flow_Incoming),
+    bind connector(Part_Property,Item_Flow.Item_Flow_Incoming),
+    );
+    annotation(
+        localLabel="内部模块图",
+        type = diagram,
+        description="",
+       );
+        end Internal_Block_Diagram;

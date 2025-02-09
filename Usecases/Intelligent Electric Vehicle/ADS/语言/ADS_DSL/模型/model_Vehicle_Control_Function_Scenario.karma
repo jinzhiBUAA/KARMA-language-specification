@@ -1,0 +1,1367 @@
+    partial Model model_Vehicle_Control_Function_Scenario instanceof metaGraph_Process_Diagram
+    
+      Object model_Vehicle_Control_Function_Scenario_object_a6aa refer metaObject_Start_Event
+        Property model_Vehicle_Control_Function_Scenario_object_a6aa_property_5faa = "null" refer metaObject_Start_Event_metaProperty_Name_95f336 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_Function_Scenario_object_a6aa_property_8514 = "null" refer metaObject_Start_Event_metaProperty_Description_e61e1b annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(48,192,61,61),
+          localLabel="开始事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_a6aa;
+
+      Object model_Vehicle_Control_Function_Scenario_object_2f48 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_2f48_property_1754 = "启动车辆控制" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(150,186,115,75),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_2f48;
+
+      Object model_Vehicle_Control_Function_Scenario_object_6392 refer metaObject_Inclusive_Gateway
+      
+        annotation(
+          initialLocation=(312,186,97,73),
+          localLabel="包含网关",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_6392;
+
+      Object model_Vehicle_Control_Function_Scenario_object_da10 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_da10_property_ef5a = "实时环境感知" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(444,96,105,79),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_da10;
+
+      Object model_Vehicle_Control_Function_Scenario_object_af74 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_af74_property_ab11 = "输入系统指令" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(444,316,105,79),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_af74;
+
+      Object model_Vehicle_Control_Function_Scenario_object_896f refer metaObject_Exclusive_Gateway
+      
+        annotation(
+          initialLocation=(600,204,97,73),
+          localLabel="排它网关",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_896f;
+
+      Object model_Vehicle_Control_Function_Scenario_object_96a0 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_96a0_property_6634 = "控制加速" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(756,0,105,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_96a0;
+
+      Object model_Vehicle_Control_Function_Scenario_object_0ffa refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_0ffa_property_5a31 = "控制减速或制动" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(756,108,103,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_0ffa;
+
+      Object model_Vehicle_Control_Function_Scenario_object_ff34 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_ff34_property_ca2d = "控制紧急制动" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(756,210,103,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_ff34;
+
+      Object model_Vehicle_Control_Function_Scenario_object_15d8 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_15d8_property_82e2 = "调整车辆转向装置" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(756,306,111,83),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_15d8;
+
+      Object model_Vehicle_Control_Function_Scenario_object_d626 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_d626_property_5b8c = "检测合适的停车位或泊车空间" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(757,432,122,93),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_d626;
+
+      Object model_Vehicle_Control_Function_Scenario_object_b0b4 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_b0b4_property_ec9d = "加速" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(918,1,97,71),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_b0b4;
+
+      Object model_Vehicle_Control_Function_Scenario_object_04b5 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_04b5_property_ebdf = "减速或制动" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(918,108,101,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_04b5;
+
+      Object model_Vehicle_Control_Function_Scenario_object_f148 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_f148_property_4443 = "紧急制动" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(918,210,101,73),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_f148;
+
+      Object model_Vehicle_Control_Function_Scenario_object_9cd9 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_9cd9_property_3a98 = "执行转向" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(918,306,95,81),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_9cd9;
+
+      Object model_Vehicle_Control_Function_Scenario_object_3e72 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_3e72_property_4d5f = "控制转向" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1057,433,95,77),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_3e72;
+
+      Object model_Vehicle_Control_Function_Scenario_object_cb19 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_cb19_property_8804 = "控制减速或制动" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(915,540,101,81),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_cb19;
+
+      Object model_Vehicle_Control_Function_Scenario_object_3e51 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_3e51_property_e631 = "计算路径" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(918,433,97,77),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_3e51;
+
+      Object model_Vehicle_Control_Function_Scenario_object_a71b refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_a71b_property_73f1 = "执行转向" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1053,540,95,81),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_a71b;
+
+      Object model_Vehicle_Control_Function_Scenario_object_c1e5 refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_c1e5_property_db3f = "减速和制动" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(914,647,101,77),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_c1e5;
+
+      Object model_Vehicle_Control_Function_Scenario_object_ea7c refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_ea7c_property_42f1 = "完成停车或泊车" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1052,648,97,75),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_ea7c;
+
+      Object model_Vehicle_Control_Function_Scenario_object_018a refer metaObject_Task
+        Property model_Vehicle_Control_Function_Scenario_object_018a_property_de21 = "结束车辆控制" refer metaObject_Task_metaProperty_Name_287eb9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1134,216,111,75),
+          localLabel="任务",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_018a;
+
+      Object model_Vehicle_Control_Function_Scenario_object_d111 refer metaObject_End_Event
+        Property model_Vehicle_Control_Function_Scenario_object_d111_property_1d66 = "null" refer metaObject_End_Event_metaProperty_Name_684d02 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Vehicle_Control_Function_Scenario_object_d111_property_731d = "null" refer metaObject_End_Event_metaProperty_Description_4e00c4 annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1290,222,61,61),
+          localLabel="结束事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Bold,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Vehicle_Control_Function_Scenario_object_d111;
+
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_8113 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_961c refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_961c;
+         Role model_Vehicle_Control_Function_Scenario_torole_a4d7 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_a4d7;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(78,222;248,223),
+          polylineLocation="[0,0,-41,6]$[41,0,0,6];(1.0,0.5081967213114754);(0.0,0.4246575342465753)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_8113;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_c4d6 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_61bc refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_61bc;
+         Role model_Vehicle_Control_Function_Scenario_torole_6451 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_6451;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(207,253;409,252),
+          polylineLocation="[0,30,-49,0]$[49,30,0,0];(1.0,0.1643835616438356);(0.0,0.5753424657534246)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_c4d6;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_5f38 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_845c refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_845c;
+         Role model_Vehicle_Control_Function_Scenario_torole_c1c6 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_c1c6;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(360,222;531,33),
+          polylineLocation="[0,0,-35,102]$[17,0,-18,102]$[17,-102,-18,0]$[35,-102,0,0];(1.0,0.5753424657534246);(0.0,0.38961038961038963)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_5f38;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_5b5c refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_9c0d refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_9c0d;
+         Role model_Vehicle_Control_Function_Scenario_torole_7601 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_7601;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(360,234;531,481),
+          polylineLocation="[0,12,-35,-114]$[17,12,-18,-114]$[17,126,-18,0]$[35,126,0,0];(1.0,0.410958904109589);(0.0,0.33766233766233766)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_5b5c;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_e45d refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_077f refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_077f;
+         Role model_Vehicle_Control_Function_Scenario_torole_fad6 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_fad6;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(496,135;701,366),
+          polylineLocation="[0,0,-53,-126]$[29,0,-24,-126]$[29,126,-24,0]$[53,126,0,0];(1.0,0.23376623376623376);(0.0,0.4931506849315068)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_e45d;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_7ed6 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_c5c5 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_c5c5;
+         Role model_Vehicle_Control_Function_Scenario_torole_f8cd refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_f8cd;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(496,355;701,144),
+          polylineLocation="[0,0,-89,59]$[29,0,-60,59]$[29,-96,-60,-37]$[53,-96,-36,-37];(1.0,0.2597402597402597);(0.3711340206185567,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_7ed6;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_e6d3 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_562b refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_562b;
+         Role model_Vehicle_Control_Function_Scenario_torole_ad47 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_ad47;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(697,276;916,-144),
+          polylineLocation="[49,36,-59,216]$[60,36,-48,216]$[60,-180,-48,0]$[108,-180,0,0];(0.4948453608247423,0.0);(0.0,0.3380281690140845)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_e6d3;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_ac54 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_e1f3 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_e1f3;
+         Role model_Vehicle_Control_Function_Scenario_torole_3267 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_3267;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(691,276;909,84),
+          polylineLocation="[43,36,-59,120]$[54,36,-48,120]$[54,-60,-48,24]$[102,-60,0,24];(0.5567010309278351,0.0);(0.0,0.16901408450704225)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_ac54;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_6e60 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_afd6 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_afd6;
+         Role model_Vehicle_Control_Function_Scenario_torole_70c3 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_70c3;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(648,245;866,251),
+          polylineLocation="[0,5,-59,5]$[59,5,0,5];(1.0,0.4246575342465753);(0.0,0.352112676056338)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_6e60;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_b13e refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_0efc refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_0efc;
+         Role model_Vehicle_Control_Function_Scenario_torole_668a refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_668a;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(648,258;870,461),
+          polylineLocation="[0,18,-59,-96]$[11,18,-48,-96]$[11,114,-48,0]$[59,114,0,0];(1.0,0.2465753424657534);(0.0,0.37037037037037035)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_b13e;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_7ab9 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_7729 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_7729;
+         Role model_Vehicle_Control_Function_Scenario_torole_e6ba refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_e6ba;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(648,240;878,709),
+          polylineLocation="[0,0,-77,-192]$[11,0,-66,-192]$[11,231,-66,39]$[60,231,-17,39];(1.0,0.4931506849315068);(0.14166666666666666,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_7ab9;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_b15d refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_2caf refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_2caf;
+         Role model_Vehicle_Control_Function_Scenario_torole_c35c refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_c35c;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(808,36;1025,36),
+          polylineLocation="[0,0,-59,0]$[59,0,0,0];(1.0,0.3380281690140845);(0.0,0.3333333333333333)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_b15d;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_0414 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_16db refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_16db;
+         Role model_Vehicle_Control_Function_Scenario_torole_6f3b refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_6f3b;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(807,144;1029,144),
+          polylineLocation="[0,0,-61,0]$[61,0,0,0];(1.0,0.49295774647887325);(0.0,0.49295774647887325)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_0414;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_31d6 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_3487 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_3487;
+         Role model_Vehicle_Control_Function_Scenario_torole_55ee refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_55ee;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(807,258;1029,258),
+          polylineLocation="[0,12,-61,12]$[61,12,0,12];(1.0,0.2535211267605634);(0.0,0.2535211267605634)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_31d6;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_ab1a refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_1b12 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_1b12;
+         Role model_Vehicle_Control_Function_Scenario_torole_2a3d refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_2a3d;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(811,369;1018,368),
+          polylineLocation="[0,22,-53,22]$[53,22,0,22];(1.0,0.2222222222222222);(0.0,0.22784810126582278)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_ab1a;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_698b refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_c927 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_c927;
+         Role model_Vehicle_Control_Function_Scenario_torole_b4d0 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_b4d0;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(818,504;1007,497),
+          polylineLocation="[0,26,-41,14]$[41,26,0,14];(1.0,0.13186813186813187);(0.0,0.30666666666666664)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_698b;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_446f refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_981b refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_981b;
+         Role model_Vehicle_Control_Function_Scenario_torole_1b9a refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_1b9a;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(966,471;1148,471),
+          polylineLocation="[0,0,-44,0]$[44,0,0,0];(1.0,0.3466666666666667);(0.0,0.3466666666666667)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_446f;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_8197 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_90ff refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_90ff;
+         Role model_Vehicle_Control_Function_Scenario_torole_9654 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_9654;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(1101,471;1097,612),
+          polylineLocation="[-3,0,0,-32]$[-3,32,0,0];(0.4838709677419355,1.0);(0.4946236559139785,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_8197;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_42ef refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_e411 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_e411;
+         Role model_Vehicle_Control_Function_Scenario_torole_359e refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_359e;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(1100,611;926,611),
+          polylineLocation="[0,31,39,31]$[-39,31,0,31];(0.0,0.10126582278481013);(1.0,0.10126582278481013)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_42ef;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_e20f refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_e997 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_e997;
+         Role model_Vehicle_Control_Function_Scenario_torole_28a1 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_28a1;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(964,580;963,713),
+          polylineLocation="[-1,0,0,-28]$[-1,28,0,0];(0.494949494949495,1.0);(0.494949494949495,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_e20f;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_8346 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_d7bb refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_d7bb;
+         Role model_Vehicle_Control_Function_Scenario_torole_ece3 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_ece3;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(964,685;1139,685),
+          polylineLocation="[0,0,-39,0]$[39,0,0,0];(1.0,0.5866666666666667);(0.0,0.589041095890411)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_8346;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_4129 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_5ccc refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_5ccc;
+         Role model_Vehicle_Control_Function_Scenario_torole_8b86 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_8b86;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(1141,729;1277,-106),
+          polylineLocation="[41,44,-47,403]$[88,44,0,403]$[88,-359,0,0];(0.5684210526315789,0.0);(0.5504587155963303,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_4129;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_514a refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_f039 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_f039;
+         Role model_Vehicle_Control_Function_Scenario_torole_e170 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_e170;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(965,346;1312,169),
+          polylineLocation="[0,0,-123,96]$[91,0,-32,96]$[91,-84,-32,12]$[123,-84,0,12];(1.0,0.379746835443038);(0.0,0.3287671232876712)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_514a;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_d92c refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_10f4 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_10f4;
+         Role model_Vehicle_Control_Function_Scenario_torole_fb16 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_fb16;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(968,275;1306,282),
+          polylineLocation="[0,29,-117,17]$[117,29,0,17];(1.0,0.18309859154929578);(0.0,0.2602739726027397)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_d92c;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_3876 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_c830 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_c830;
+         Role model_Vehicle_Control_Function_Scenario_torole_c9ee refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_c9ee;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(968,160;1306,379),
+          polylineLocation="[0,16,-117,-93]$[85,16,-32,-93]$[85,126,-32,17]$[117,126,0,17];(1.0,0.2535211267605634);(0.0,0.2602739726027397)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_3876;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_64a2 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_7327 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_7327;
+         Role model_Vehicle_Control_Function_Scenario_torole_f603 refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_f603;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(966,58;1310,493),
+          polylineLocation="[0,22,-121,-194]$[89,22,-32,-194]$[89,240,-32,24]$[121,240,0,24];(1.0,0.15942028985507245);(0.0,0.1643835616438356)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_64a2;
+ 
+      Relationship model_Vehicle_Control_Function_Scenario_relationship_f613 refer metaRelationship_Sequence_Flow
+        Role model_Vehicle_Control_Function_Scenario_fromrole_f3b5 refer metaRole_Sequence_Flow_Start
+          annotation(
+            localLabel="序列流始端角色",
+            shape="no"
+          );
+        end model_Vehicle_Control_Function_Scenario_fromrole_f3b5;
+         Role model_Vehicle_Control_Function_Scenario_torole_adec refer metaRole_Sequence_Flow_End
+          annotation(
+            localLabel="序列流终端角色",
+            shape="solidArrow"
+          );
+        end model_Vehicle_Control_Function_Scenario_torole_adec;
+       
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(1189,247;1367,246),
+          polylineLocation="[0,-6,-47,-6]$[47,-6,0,-6];(1.0,0.4794520547945205);(0.0,0.47540983606557374)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Vehicle_Control_Function_Scenario_relationship_f613;
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_a6aa,model_Vehicle_Control_Function_Scenario_relationship_8113.model_Vehicle_Control_Function_Scenario_fromrole_961c),connector(model_Vehicle_Control_Function_Scenario_object_2f48,model_Vehicle_Control_Function_Scenario_relationship_8113.model_Vehicle_Control_Function_Scenario_torole_a4d7));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_2f48,model_Vehicle_Control_Function_Scenario_relationship_c4d6.model_Vehicle_Control_Function_Scenario_fromrole_61bc),connector(model_Vehicle_Control_Function_Scenario_object_6392,model_Vehicle_Control_Function_Scenario_relationship_c4d6.model_Vehicle_Control_Function_Scenario_torole_6451));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_6392,model_Vehicle_Control_Function_Scenario_relationship_5f38.model_Vehicle_Control_Function_Scenario_fromrole_845c),connector(model_Vehicle_Control_Function_Scenario_object_da10,model_Vehicle_Control_Function_Scenario_relationship_5f38.model_Vehicle_Control_Function_Scenario_torole_c1c6));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_6392,model_Vehicle_Control_Function_Scenario_relationship_5b5c.model_Vehicle_Control_Function_Scenario_fromrole_9c0d),connector(model_Vehicle_Control_Function_Scenario_object_af74,model_Vehicle_Control_Function_Scenario_relationship_5b5c.model_Vehicle_Control_Function_Scenario_torole_7601));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_da10,model_Vehicle_Control_Function_Scenario_relationship_e45d.model_Vehicle_Control_Function_Scenario_fromrole_077f),connector(model_Vehicle_Control_Function_Scenario_object_896f,model_Vehicle_Control_Function_Scenario_relationship_e45d.model_Vehicle_Control_Function_Scenario_torole_fad6));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_af74,model_Vehicle_Control_Function_Scenario_relationship_7ed6.model_Vehicle_Control_Function_Scenario_fromrole_c5c5),connector(model_Vehicle_Control_Function_Scenario_object_896f,model_Vehicle_Control_Function_Scenario_relationship_7ed6.model_Vehicle_Control_Function_Scenario_torole_f8cd));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_896f,model_Vehicle_Control_Function_Scenario_relationship_e6d3.model_Vehicle_Control_Function_Scenario_fromrole_562b),connector(model_Vehicle_Control_Function_Scenario_object_96a0,model_Vehicle_Control_Function_Scenario_relationship_e6d3.model_Vehicle_Control_Function_Scenario_torole_ad47));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_896f,model_Vehicle_Control_Function_Scenario_relationship_ac54.model_Vehicle_Control_Function_Scenario_fromrole_e1f3),connector(model_Vehicle_Control_Function_Scenario_object_0ffa,model_Vehicle_Control_Function_Scenario_relationship_ac54.model_Vehicle_Control_Function_Scenario_torole_3267));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_896f,model_Vehicle_Control_Function_Scenario_relationship_6e60.model_Vehicle_Control_Function_Scenario_fromrole_afd6),connector(model_Vehicle_Control_Function_Scenario_object_ff34,model_Vehicle_Control_Function_Scenario_relationship_6e60.model_Vehicle_Control_Function_Scenario_torole_70c3));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_896f,model_Vehicle_Control_Function_Scenario_relationship_b13e.model_Vehicle_Control_Function_Scenario_fromrole_0efc),connector(model_Vehicle_Control_Function_Scenario_object_15d8,model_Vehicle_Control_Function_Scenario_relationship_b13e.model_Vehicle_Control_Function_Scenario_torole_668a));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_896f,model_Vehicle_Control_Function_Scenario_relationship_7ab9.model_Vehicle_Control_Function_Scenario_fromrole_7729),connector(model_Vehicle_Control_Function_Scenario_object_d626,model_Vehicle_Control_Function_Scenario_relationship_7ab9.model_Vehicle_Control_Function_Scenario_torole_e6ba));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_96a0,model_Vehicle_Control_Function_Scenario_relationship_b15d.model_Vehicle_Control_Function_Scenario_fromrole_2caf),connector(model_Vehicle_Control_Function_Scenario_object_b0b4,model_Vehicle_Control_Function_Scenario_relationship_b15d.model_Vehicle_Control_Function_Scenario_torole_c35c));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_0ffa,model_Vehicle_Control_Function_Scenario_relationship_0414.model_Vehicle_Control_Function_Scenario_fromrole_16db),connector(model_Vehicle_Control_Function_Scenario_object_04b5,model_Vehicle_Control_Function_Scenario_relationship_0414.model_Vehicle_Control_Function_Scenario_torole_6f3b));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_ff34,model_Vehicle_Control_Function_Scenario_relationship_31d6.model_Vehicle_Control_Function_Scenario_fromrole_3487),connector(model_Vehicle_Control_Function_Scenario_object_f148,model_Vehicle_Control_Function_Scenario_relationship_31d6.model_Vehicle_Control_Function_Scenario_torole_55ee));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_15d8,model_Vehicle_Control_Function_Scenario_relationship_ab1a.model_Vehicle_Control_Function_Scenario_fromrole_1b12),connector(model_Vehicle_Control_Function_Scenario_object_9cd9,model_Vehicle_Control_Function_Scenario_relationship_ab1a.model_Vehicle_Control_Function_Scenario_torole_2a3d));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_d626,model_Vehicle_Control_Function_Scenario_relationship_698b.model_Vehicle_Control_Function_Scenario_fromrole_c927),connector(model_Vehicle_Control_Function_Scenario_object_3e51,model_Vehicle_Control_Function_Scenario_relationship_698b.model_Vehicle_Control_Function_Scenario_torole_b4d0));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_3e51,model_Vehicle_Control_Function_Scenario_relationship_446f.model_Vehicle_Control_Function_Scenario_fromrole_981b),connector(model_Vehicle_Control_Function_Scenario_object_3e72,model_Vehicle_Control_Function_Scenario_relationship_446f.model_Vehicle_Control_Function_Scenario_torole_1b9a));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_3e72,model_Vehicle_Control_Function_Scenario_relationship_8197.model_Vehicle_Control_Function_Scenario_fromrole_90ff),connector(model_Vehicle_Control_Function_Scenario_object_a71b,model_Vehicle_Control_Function_Scenario_relationship_8197.model_Vehicle_Control_Function_Scenario_torole_9654));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_a71b,model_Vehicle_Control_Function_Scenario_relationship_42ef.model_Vehicle_Control_Function_Scenario_fromrole_e411),connector(model_Vehicle_Control_Function_Scenario_object_cb19,model_Vehicle_Control_Function_Scenario_relationship_42ef.model_Vehicle_Control_Function_Scenario_torole_359e));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_cb19,model_Vehicle_Control_Function_Scenario_relationship_e20f.model_Vehicle_Control_Function_Scenario_fromrole_e997),connector(model_Vehicle_Control_Function_Scenario_object_c1e5,model_Vehicle_Control_Function_Scenario_relationship_e20f.model_Vehicle_Control_Function_Scenario_torole_28a1));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_c1e5,model_Vehicle_Control_Function_Scenario_relationship_8346.model_Vehicle_Control_Function_Scenario_fromrole_d7bb),connector(model_Vehicle_Control_Function_Scenario_object_ea7c,model_Vehicle_Control_Function_Scenario_relationship_8346.model_Vehicle_Control_Function_Scenario_torole_ece3));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_ea7c,model_Vehicle_Control_Function_Scenario_relationship_4129.model_Vehicle_Control_Function_Scenario_fromrole_5ccc),connector(model_Vehicle_Control_Function_Scenario_object_018a,model_Vehicle_Control_Function_Scenario_relationship_4129.model_Vehicle_Control_Function_Scenario_torole_8b86));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_9cd9,model_Vehicle_Control_Function_Scenario_relationship_514a.model_Vehicle_Control_Function_Scenario_fromrole_f039),connector(model_Vehicle_Control_Function_Scenario_object_018a,model_Vehicle_Control_Function_Scenario_relationship_514a.model_Vehicle_Control_Function_Scenario_torole_e170));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_f148,model_Vehicle_Control_Function_Scenario_relationship_d92c.model_Vehicle_Control_Function_Scenario_fromrole_10f4),connector(model_Vehicle_Control_Function_Scenario_object_018a,model_Vehicle_Control_Function_Scenario_relationship_d92c.model_Vehicle_Control_Function_Scenario_torole_fb16));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_04b5,model_Vehicle_Control_Function_Scenario_relationship_3876.model_Vehicle_Control_Function_Scenario_fromrole_c830),connector(model_Vehicle_Control_Function_Scenario_object_018a,model_Vehicle_Control_Function_Scenario_relationship_3876.model_Vehicle_Control_Function_Scenario_torole_c9ee));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_b0b4,model_Vehicle_Control_Function_Scenario_relationship_64a2.model_Vehicle_Control_Function_Scenario_fromrole_7327),connector(model_Vehicle_Control_Function_Scenario_object_018a,model_Vehicle_Control_Function_Scenario_relationship_64a2.model_Vehicle_Control_Function_Scenario_torole_f603));
+ 
+    Connect(connector(model_Vehicle_Control_Function_Scenario_object_018a,model_Vehicle_Control_Function_Scenario_relationship_f613.model_Vehicle_Control_Function_Scenario_fromrole_f3b5),connector(model_Vehicle_Control_Function_Scenario_object_d111,model_Vehicle_Control_Function_Scenario_relationship_f613.model_Vehicle_Control_Function_Scenario_torole_adec));
+ 
+
+      annotation(
+        localLabel="车辆控制特征的功能场景模型",
+    );
+    
+   end model_Vehicle_Control_Function_Scenario;

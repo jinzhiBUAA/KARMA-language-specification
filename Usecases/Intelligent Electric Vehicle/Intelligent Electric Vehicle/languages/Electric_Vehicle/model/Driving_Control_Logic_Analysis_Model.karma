@@ -1,0 +1,3290 @@
+    partial Model Driving_Control_Logic_Analysis_Model instanceof Internal_Block_Diagram
+    
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84 refer Part_Property
+        Property Part_Property_Name_485d0c_5216 = "底层的控制器" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_6675 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="制动踏板百分比",
+		 initialLocation=(10,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_6675;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_4407 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="加速踏板百分比",
+		 initialLocation=(-12,55,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_4407;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_837c refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="流入口",
+		 initialLocation=(-12,120,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_837c;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_05f8 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮速度",
+		 initialLocation=(-12,155,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_05f8;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_dbd3 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮速度",
+		 initialLocation=(-12,190,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_dbd3;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_0919 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮速度",
+		 initialLocation=(-12,225,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_0919;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_68df refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮速度",
+		 initialLocation=(-12,270,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_68df;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_b5b7 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮减震请求",
+		 initialLocation=(118,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_b5b7;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_0d1e refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮悬挂高度请求",
+		 initialLocation=(210,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_0d1e;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_181f refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮减震请求",
+		 initialLocation=(308,15,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_181f;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_9e2e refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮悬挂高度请求",
+		 initialLocation=(308,51,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_9e2e;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_93a5 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮减震请求",
+		 initialLocation=(308,115,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_93a5;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_32e0 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮悬挂高度请求",
+		 initialLocation=(308,150,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_32e0;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_7159 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮减震请求",
+		 initialLocation=(308,190,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_7159;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_fd60 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮悬挂高度请求",
+		 initialLocation=(308,235,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_fd60;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_6456 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="电机速度",
+		 initialLocation=(-12,305,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_6456;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_b84f refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="转向角度",
+		 initialLocation=(308,295,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_b84f;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_8558 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮制动扭矩",
+		 initialLocation=(185,328,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_8558;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_faad refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮制动扭矩",
+		 initialLocation=(0,328,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_faad;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_cbad refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮制动扭矩",
+		 initialLocation=(276,328,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_cbad;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_7a64 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮制动扭矩",
+		 initialLocation=(90,328,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_7a64;
+ 
+      
+        annotation(
+          initialLocation=(680,250,318,338),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_1f3a refer Part_Property
+        Property Part_Property_Name_485d0c_bd3f = "制动踏板" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_75bb refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="制动踏板感应",
+		 initialLocation=(133,50,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_75bb;
+ 
+      
+        annotation(
+          initialLocation=(40,165,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_1f3a;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_0b5d refer Part_Property
+        Property Part_Property_Name_485d0c_e6b8 = "左后轮制动" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_5caf refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮制动扭矩",
+		 initialLocation=(-12,50,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_5caf;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_8ef8 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮制动扭矩",
+		 initialLocation=(54,78,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_8ef8;
+ 
+      
+        annotation(
+          initialLocation=(695,810,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_0b5d;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_e7e3 refer Part_Property
+        Property Part_Property_Name_485d0c_4534 = "方向盘" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_9637 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="方向盘角度",
+		 initialLocation=(133,55,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_9637;
+ 
+      
+        annotation(
+          initialLocation=(40,420,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_e7e3;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_86ac refer Part_Property
+        Property Part_Property_Name_485d0c_fbfb = "加速踏板" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_ccd8 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="加速踏板感应",
+		 initialLocation=(133,55,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_ccd8;
+ 
+      
+        annotation(
+          initialLocation=(40,285,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_86ac;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_b896 refer Part_Property
+        Property Part_Property_Name_485d0c_fd56 = "制动踏板传感器" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_56b1 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="制动踏板感应",
+		 initialLocation=(-12,50,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_56b1;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_c458 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="制动踏板百分比",
+		 initialLocation=(133,50,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_c458;
+ 
+      
+        annotation(
+          initialLocation=(300,160,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_b896;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_f699 refer Part_Property
+        Property Part_Property_Name_485d0c_34e3 = "加速踏板传感器" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_195a refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="加速踏板感应",
+		 initialLocation=(-12,55,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_195a;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_8304 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="加速踏板百分比",
+		 initialLocation=(133,28,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_8304;
+ 
+      
+        annotation(
+          initialLocation=(300,285,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_f699;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_c212 refer Part_Property
+        Property Part_Property_Name_485d0c_0e03 = "右后轮制动" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_e095 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮制动扭矩",
+		 initialLocation=(75,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_e095;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_7092 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮制动扭矩",
+		 initialLocation=(35,78,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_7092;
+ 
+      
+        annotation(
+          initialLocation=(695,670,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_c212;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_f90b refer Part_Property
+        Property Part_Property_Name_485d0c_1deb = "方向盘编码器" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_4599 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="方向盘角度",
+		 initialLocation=(-12,55,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_4599;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_5e7f refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="流出口",
+		 initialLocation=(115,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_5e7f;
+ 
+      
+        annotation(
+          initialLocation=(300,420,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_f90b;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_bee2 refer Part_Property
+        Property Part_Property_Name_485d0c_ce9a = "左前轮编码器" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_0129 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮速度",
+		 initialLocation=(133,50,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_0129;
+ 
+      
+        annotation(
+          initialLocation=(300,560,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_bee2;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_557c refer Part_Property
+        Property Part_Property_Name_485d0c_f761 = "左后轮编码器" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_3879 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮速度",
+		 initialLocation=(70,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_3879;
+ 
+      
+        annotation(
+          initialLocation=(40,565,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_557c;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_b9b2 refer Part_Property
+        Property Part_Property_Name_485d0c_b22c = "右前轮编码器" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_4521 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮速度",
+		 initialLocation=(115,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_4521;
+ 
+      
+        annotation(
+          initialLocation=(40,710,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_b9b2;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_1007 refer Part_Property
+        Property Part_Property_Name_485d0c_e1f2 = "右后轮编码器" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_b67a refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮速度",
+		 initialLocation=(133,55,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_b67a;
+ 
+      
+        annotation(
+          initialLocation=(300,710,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_1007;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_c805 refer Part_Property
+        Property Part_Property_Name_485d0c_fd2c = "右前轮悬挂系统" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_f505 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮减震请求",
+		 initialLocation=(-12,60,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_f505;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_162d refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮悬挂高度请求",
+		 initialLocation=(-12,95,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_162d;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_e859 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮减震执行器",
+		 initialLocation=(133,45,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_e859;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_4e9f refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮悬挂高度执行器",
+		 initialLocation=(133,90,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_4e9f;
+ 
+      
+        annotation(
+          initialLocation=(1170,305,143,123),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_c805;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_a0e4 refer Part_Property
+        Property Part_Property_Name_485d0c_ed0d = "右后轮悬挂系统" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_a1b1 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮减震请求",
+		 initialLocation=(-12,55,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_a1b1;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_7d1d refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮悬挂高度请求",
+		 initialLocation=(-12,95,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_7d1d;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_50c3 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮减震执行器",
+		 initialLocation=(133,50,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_50c3;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_db54 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮悬挂高度执行器",
+		 initialLocation=(133,95,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_db54;
+ 
+      
+        annotation(
+          initialLocation=(1170,455,143,123),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_a0e4;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_908b refer Part_Property
+        Property Part_Property_Name_485d0c_bc55 = "左前轮悬挂系统" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_1441 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮减震请求",
+		 initialLocation=(-12,60,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_1441;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_cb34 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮悬挂高度请求",
+		 initialLocation=(-12,95,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_cb34;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_5383 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮减震执行器",
+		 initialLocation=(133,45,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_5383;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_8d82 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮悬挂高度执行器",
+		 initialLocation=(133,90,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_8d82;
+ 
+      
+        annotation(
+          initialLocation=(1170,0,143,123),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_908b;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_4b43 refer Part_Property
+        Property Part_Property_Name_485d0c_c3d6 = "左后轮悬挂系统" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_e6c0 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮减震请求",
+		 initialLocation=(-12,65,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_e6c0;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_1a99 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮悬挂高度请求",
+		 initialLocation=(-12,95,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_1a99;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_205d refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮减震执行器",
+		 initialLocation=(133,43,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_205d;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_7a3d refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮悬挂高度执行器",
+		 initialLocation=(133,90,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_7a3d;
+ 
+      
+        annotation(
+          initialLocation=(1170,155,143,123),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_4b43;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_cd25 refer Part_Property
+        Property Part_Property_Name_485d0c_799f = "车架" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_05b1 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮减震执行器",
+		 initialLocation=(-12,55,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_05b1;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_17c4 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮减震执行器",
+		 initialLocation=(190,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_17c4;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_be6a refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮悬挂高度执行器",
+		 initialLocation=(10,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_be6a;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_567e refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮悬挂高度执行器",
+		 initialLocation=(-12,95,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_567e;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_77a9 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮减震执行器",
+		 initialLocation=(-12,155,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_77a9;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_09b0 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮悬挂高度执行器",
+		 initialLocation=(-12,205,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_09b0;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_4462 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮悬挂高度执行器",
+		 initialLocation=(160,238,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_4462;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_3e4c refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮减震执行器",
+		 initialLocation=(45,238,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_3e4c;
+ 
+      
+        annotation(
+          initialLocation=(1515,190,253,248),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_cd25;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_359f refer Part_Property
+        Property Part_Property_Name_485d0c_924b = "电池" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_f1e6 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="再生能源",
+		 initialLocation=(105,78,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_f1e6;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_6098 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="能源输出",
+		 initialLocation=(-12,43,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_6098;
+ 
+      
+        annotation(
+          initialLocation=(300,902,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_359f;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_61fa refer Part_Property
+        Property Part_Property_Name_485d0c_9f53 = "电机" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_0991 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="电机速度",
+		 initialLocation=(0,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_0991;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_c92b refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="能源输入",
+		 initialLocation=(133,26,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_c92b;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_d39a refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="扭矩",
+		 initialLocation=(105,78,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_d39a;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_c0cc refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="电机",
+		 initialLocation=(35,78,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_c0cc;
+ 
+      
+        annotation(
+          initialLocation=(0,957,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_61fa;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_bc44 refer Part_Property
+        Property Part_Property_Name_485d0c_ddff = "再生制动" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_93cf refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="扭矩",
+		 initialLocation=(-12,50,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_93cf;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_377d refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="再生能源",
+		 initialLocation=(110,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_377d;
+ 
+      
+        annotation(
+          initialLocation=(295,1057,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_bc44;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_84cf refer Part_Property
+        Property Part_Property_Name_485d0c_380f = "齿轮箱" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_3f7e refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="电机",
+		 initialLocation=(20,148,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_3f7e;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_7bc1 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮扭矩",
+		 initialLocation=(168,55,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_7bc1;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_1479 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮扭矩",
+		 initialLocation=(168,110,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_1479;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_5687 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮扭矩",
+		 initialLocation=(156,148,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_5687;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_d730 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮扭矩",
+		 initialLocation=(75,148,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_d730;
+ 
+      
+        annotation(
+          initialLocation=(495,980,178,158),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_84cf;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_7204 refer Part_Property
+        Property Part_Property_Name_485d0c_8209 = "转向舵" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_ce1e refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="转向角度",
+		 initialLocation=(-12,50,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_ce1e;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_dfed refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮转向扭矩",
+		 initialLocation=(133,65,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_dfed;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_2d5d refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮转向扭矩",
+		 initialLocation=(25,103,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_2d5d;
+ 
+      
+        annotation(
+          initialLocation=(1480,600,143,113),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_7204;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_ec9a refer Part_Property
+        Property Part_Property_Name_485d0c_a068 = "左前轮" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_a140 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮转向扭矩",
+		 initialLocation=(133,38,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_a140;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_813f refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮制动扭矩",
+		 initialLocation=(-12,78,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_813f;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_0f3a refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮扭矩",
+		 initialLocation=(30,113,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_0f3a;
+ 
+      
+        annotation(
+          initialLocation=(1420,902,143,123),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_ec9a;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_8be6 refer Part_Property
+        Property Part_Property_Name_485d0c_93fe = "左后轮" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_a6f6 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮制动扭矩",
+		 initialLocation=(111,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_a6f6;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_b2a6 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左后轮扭矩",
+		 initialLocation=(-12,50,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_b2a6;
+ 
+      
+        annotation(
+          initialLocation=(870,987,143,123),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_8be6;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_a881 refer Part_Property
+        Property Part_Property_Name_485d0c_c10a = "右前轮" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_bf5f refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮转向扭矩",
+		 initialLocation=(85,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_bf5f;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_d79b refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮制动扭矩",
+		 initialLocation=(-12,48,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_d79b;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_cda2 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮扭矩",
+		 initialLocation=(133,75,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_cda2;
+ 
+      
+        annotation(
+          initialLocation=(1420,765,143,103),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_a881;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_4f35 refer Part_Property
+        Property Part_Property_Name_485d0c_ffa5 = "右后轮" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_3fbf refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮制动扭矩",
+		 initialLocation=(30,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_3fbf;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_8798 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右后轮扭矩",
+		 initialLocation=(15,113,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_8798;
+ 
+      
+        annotation(
+          initialLocation=(1170,987,143,123),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_4f35;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_390f refer Part_Property
+        Property Part_Property_Name_485d0c_7143 = "左前轮制动" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_9b8c refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮制动扭矩",
+		 initialLocation=(-12,50,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_9b8c;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_8c40 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="左前轮制动扭矩",
+		 initialLocation=(133,60,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_8c40;
+ 
+      
+        annotation(
+          initialLocation=(940,810,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_390f;
+
+      Object Driving_Control_Logic_Analysis_Model_object_Part_Property_81f5 refer Part_Property
+        Property Part_Property_Name_485d0c_c0e4 = "右前轮制动" refer Part_Property_Name_485d0c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Point Part_Property_In_Out_Flow_Port_0bc777_dbe5 refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮制动扭矩",
+		 initialLocation=(15,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_dbe5;
+ 
+      Point Part_Property_In_Out_Flow_Port_0bc777_482f refer Part_Property_In_Out_Flow_Port_0bc777
+      annotation(
+         localLabel="右前轮制动扭矩",
+		 initialLocation=(133,43,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("微软雅黑",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end Part_Property_In_Out_Flow_Port_0bc777_482f;
+ 
+      
+        annotation(
+          initialLocation=(940,670,143,88),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Driving_Control_Logic_Analysis_Model_object_Part_Property_81f5;
+
+      Relationship Item_Flow_c703 refer Item_Flow
+        Role Item_Flow_Incoming_9317 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_9317;
+         Role Item_Flow_Outgoing_4865 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_4865;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(121,204;476,199),
+          polylineLocation="[10,-5,-105,0]$[105,-5,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_c703;
+ 
+      Relationship Item_Flow_9ac1 refer Item_Flow
+        Role Item_Flow_Incoming_7102 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_7102;
+         Role Item_Flow_Outgoing_7ab4 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_7ab4;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(121,329;476,329),
+          polylineLocation="[10,0,-105,0]$[105,0,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_9ac1;
+ 
+      Relationship Item_Flow_3cb8 refer Item_Flow
+        Role Item_Flow_Incoming_1b60 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_1b60;
+         Role Item_Flow_Outgoing_42c3 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_42c3;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(121,464;476,464),
+          polylineLocation="[10,0,-105,0]$[105,0,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_3cb8;
+ 
+      Relationship Item_Flow_a7eb refer Item_Flow
+        Role Item_Flow_Incoming_2a1a refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_2a1a;
+         Role Item_Flow_Outgoing_ecc4 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_ecc4;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(381,200;1008,312),
+          polylineLocation="[10,-4,-247,-32]$[257,-4,0,-32]$[257,18,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_a7eb;
+ 
+      Relationship Item_Flow_c080 refer Item_Flow
+        Role Item_Flow_Incoming_7652 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_7652;
+         Role Item_Flow_Outgoing_8382 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_8382;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(381,321;976,286),
+          polylineLocation="[10,-8,-225,0]$[225,-8,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_c080;
+ 
+      Relationship Item_Flow_2589 refer Item_Flow
+        Role Item_Flow_Incoming_a1d2 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_a1d2;
+         Role Item_Flow_Outgoing_6106 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_6106;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(371,454;994,256),
+          polylineLocation="[0,-10,-253,28]$[0,-38,-253,0]$[243,-38,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_2589;
+ 
+      Relationship Item_Flow_0d09 refer Item_Flow
+        Role Item_Flow_Incoming_d4fe refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_d4fe;
+         Role Item_Flow_Outgoing_08b7 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_08b7;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(111,599;1299,141),
+          polylineLocation="[0,-10,-558,138]$[0,-38,-558,110]$[350,-38,-208,110]$[350,-153,-208,-5]$[548,-153,-10,-5]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_0d09;
+ 
+      Relationship Item_Flow_4bb8 refer Item_Flow
+        Role Item_Flow_Incoming_cacf refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_cacf;
+         Role Item_Flow_Outgoing_1896 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_1896;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(381,604;976,119),
+          polylineLocation="[10,0,-225,170]$[52,0,-183,170]$[52,-175,-183,-5]$[225,-175,-10,-5]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_4bb8;
+ 
+      Relationship Item_Flow_c50f refer Item_Flow
+        Role Item_Flow_Incoming_73ea refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_73ea;
+         Role Item_Flow_Outgoing_3646 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_3646;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(121,746;1254,71),
+          polylineLocation="[10,-8,-503,215]$[360,-8,-153,215]$[360,-223,-153,0]$[503,-223,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_c50f;
+ 
+      Relationship Item_Flow_c063 refer Item_Flow
+        Role Item_Flow_Incoming_5e9d refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_5e9d;
+         Role Item_Flow_Outgoing_aa60 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_aa60;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(381,754;976,49),
+          polylineLocation="[10,0,-225,245]$[107,0,-128,245]$[107,-245,-128,0]$[225,-245,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_c063;
+ 
+      Relationship Item_Flow_ed1d refer Item_Flow
+        Role Item_Flow_Incoming_6ea4 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_6ea4;
+         Role Item_Flow_Outgoing_a8de refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_a8de;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(829,419;-509,1506),
+          polylineLocation="[-10,0,658,-390]$[-96,0,572,-390]$[-96,250,572,-140]$[-668,250,0,-140]$[-668,380,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_ed1d;
+ 
+      Relationship Item_Flow_c3f4 refer Item_Flow
+        Role Item_Flow_Incoming_a0d1 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_a0d1;
+         Role Item_Flow_Outgoing_0e9d refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_0e9d;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(829,419;847,1261),
+          polylineLocation="[-10,0,-13,-282]$[-50,0,-53,-282]$[-50,282,-53,0]$[-7,282,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_c3f4;
+ 
+      Relationship Item_Flow_8f58 refer Item_Flow
+        Role Item_Flow_Incoming_0c31 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_0c31;
+         Role Item_Flow_Outgoing_a9c7 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_a9c7;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(839,429;854,909),
+          polylineLocation="[0,10,0,-70]$[0,70,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_8f58;
+ 
+      Relationship Item_Flow_7f9c refer Item_Flow
+        Role Item_Flow_Incoming_382b refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_382b;
+         Role Item_Flow_Outgoing_5224 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_5224;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(849,419;1152,1261),
+          polylineLocation="[10,0,-53,-282]$[20,0,-43,-282]$[20,282,-43,0]$[53,282,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_7f9c;
+ 
+      Relationship Item_Flow_9783 refer Item_Flow
+        Role Item_Flow_Incoming_ec01 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_ec01;
+         Role Item_Flow_Outgoing_e275 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_e275;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(838,429;1098,909),
+          polylineLocation="[-1,10,0,-70]$[-1,70,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_9783;
+ 
+      Relationship Item_Flow_6a7f refer Item_Flow
+        Role Item_Flow_Incoming_0df5 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_0df5;
+         Role Item_Flow_Outgoing_89e9 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_89e9;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(849,424;2109,874),
+          polylineLocation="[10,5,-470,-100]$[97,5,-383,-100]$[97,105,-383,0]$[470,105,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_6a7f;
+ 
+      Relationship Item_Flow_d702 refer Item_Flow
+        Role Item_Flow_Incoming_702e refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_702e;
+         Role Item_Flow_Outgoing_1544 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_1544;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(849,414;1489,689),
+          polylineLocation="[10,-5,-160,-70]$[112,-5,-58,-70]$[112,65,-58,0]$[160,65,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_d702;
+ 
+      Relationship Item_Flow_050a refer Item_Flow
+        Role Item_Flow_Incoming_8094 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_8094;
+         Role Item_Flow_Outgoing_cbc0 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_cbc0;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(849,424;1489,694),
+          polylineLocation="[10,5,-160,-65]$[132,5,-38,-65]$[132,70,-38,0]$[160,70,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_050a;
+ 
+      Relationship Item_Flow_710c refer Item_Flow
+        Role Item_Flow_Incoming_c8f0 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_c8f0;
+         Role Item_Flow_Outgoing_6d59 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_6d59;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(849,419;1489,474),
+          polylineLocation="[10,0,-160,0]$[160,0,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_710c;
+ 
+      Relationship Item_Flow_8455 refer Item_Flow
+        Role Item_Flow_Incoming_d846 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_d846;
+         Role Item_Flow_Outgoing_88b7 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_88b7;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(849,419;1489,474),
+          polylineLocation="[10,0,-160,0]$[160,0,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_8455;
+ 
+      Relationship Item_Flow_5cba refer Item_Flow
+        Role Item_Flow_Incoming_1a86 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_1a86;
+         Role Item_Flow_Outgoing_6202 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_6202;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(849,420;1489,278),
+          polylineLocation="[10,1,-160,52]$[127,1,-43,52]$[127,-46,-43,5]$[160,-46,-10,5]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_5cba;
+ 
+      Relationship Item_Flow_42fe refer Item_Flow
+        Role Item_Flow_Incoming_ebd8 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_ebd8;
+         Role Item_Flow_Outgoing_0308 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_0308;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(849,419;1489,284),
+          polylineLocation="[10,0,-160,45]$[85,0,-85,45]$[85,-40,-85,5]$[160,-40,-10,5]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_42fe;
+ 
+      Relationship Item_Flow_0f67 refer Item_Flow
+        Role Item_Flow_Incoming_e49a refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_e49a;
+         Role Item_Flow_Outgoing_b7cc refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_b7cc;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(839,409;1587,26),
+          polylineLocation="[0,-10,-268,133]$[0,-143,-268,0]$[258,-143,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_0f67;
+ 
+      Relationship Item_Flow_ebdd refer Item_Flow
+        Role Item_Flow_Incoming_ab98 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_ab98;
+         Role Item_Flow_Outgoing_44da refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_44da;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(841,409;1679,-9),
+          polylineLocation="[2,-10,-358,168]$[2,-178,-358,0]$[350,-178,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_ebdd;
+ 
+      Relationship Item_Flow_4608 refer Item_Flow
+        Role Item_Flow_Incoming_8732 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_8732;
+         Role Item_Flow_Outgoing_5fbf refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_5fbf;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(1251,61;1808,329),
+          polylineLocation="[10,0,-212,-88]$[222,0,0,-88]$[222,78,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_4608;
+ 
+      Relationship Item_Flow_3871 refer Item_Flow
+        Role Item_Flow_Incoming_6b30 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_6b30;
+         Role Item_Flow_Outgoing_f1fb refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_f1fb;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(1251,67;1988,374),
+          polylineLocation="[10,6,-392,-127]$[402,6,0,-127]$[402,123,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_3871;
+ 
+      Relationship Item_Flow_36b0 refer Item_Flow
+        Role Item_Flow_Incoming_7552 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_7552;
+         Role Item_Flow_Outgoing_5df2 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_5df2;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(1251,211;1776,293),
+          polylineLocation="[10,-5,-190,-52]$[152,-5,-48,-52]$[152,42,-48,-5]$[190,42,-10,-5]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_36b0;
+ 
+      Relationship Item_Flow_0f71 refer Item_Flow
+        Role Item_Flow_Incoming_d463 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_d463;
+         Role Item_Flow_Outgoing_f517 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_f517;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(1251,211;1776,291),
+          polylineLocation="[10,-5,-190,-45]$[132,-5,-68,-45]$[132,40,-68,0]$[190,40,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_0f71;
+ 
+      Relationship Item_Flow_5e71 refer Item_Flow
+        Role Item_Flow_Incoming_d0ac refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_d0ac;
+         Role Item_Flow_Outgoing_8295 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_8295;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(1251,361;1776,246),
+          polylineLocation="[10,-5,-190,0]$[190,-5,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_5e71;
+ 
+      Relationship Item_Flow_905d refer Item_Flow
+        Role Item_Flow_Incoming_e8aa refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_e8aa;
+         Role Item_Flow_Outgoing_eaed refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_eaed;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(1251,366;1776,251),
+          polylineLocation="[10,0,-190,0]$[190,0,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_905d;
+ 
+      Relationship Item_Flow_56d9 refer Item_Flow
+        Role Item_Flow_Incoming_03a3 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_03a3;
+         Role Item_Flow_Outgoing_5cad refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_5cad;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(1251,511;1843,184),
+          polylineLocation="[10,-5,-247,72]$[257,-5,0,72]$[257,-67,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_56d9;
+ 
+      Relationship Item_Flow_9a35 refer Item_Flow
+        Role Item_Flow_Incoming_f5aa refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_f5aa;
+         Role Item_Flow_Outgoing_59fe refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_59fe;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(1251,516;1958,139),
+          polylineLocation="[10,0,-362,122]$[372,0,0,122]$[372,-112,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_9a35;
+ 
+      Relationship Item_Flow_ac4c refer Item_Flow
+        Role Item_Flow_Incoming_3610 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_3610;
+         Role Item_Flow_Outgoing_76f7 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_76f7;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(1551,666;1491,861),
+          polylineLocation="[0,10,0,-40]$[0,40,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_ac4c;
+ 
+      Relationship Item_Flow_367e refer Item_Flow
+        Role Item_Flow_Incoming_be65 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_be65;
+         Role Item_Flow_Outgoing_9ba7 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_9ba7;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(1561,656;1441,1233),
+          polylineLocation="[10,0,70,-275]$[72,0,132,-275]$[72,275,132,0]$[-50,275,10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_367e;
+ 
+      Relationship Item_Flow_f093 refer Item_Flow
+        Role Item_Flow_Incoming_ae0d refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_ae0d;
+         Role Item_Flow_Outgoing_3ee8 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_3ee8;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(1021,704;1816,909),
+          polylineLocation="[10,-10,-325,-110]$[282,-10,-53,-110]$[282,100,-53,0]$[325,100,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_f093;
+ 
+      Relationship Item_Flow_4b9e refer Item_Flow
+        Role Item_Flow_Incoming_16c0 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_16c0;
+         Role Item_Flow_Outgoing_b96c refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_b96c;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(1021,849;1816,1053),
+          polylineLocation="[10,-5,-325,-115]$[282,-5,-53,-115]$[282,107,-53,-3]$[325,107,-10,-3]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_4b9e;
+ 
+      Relationship Item_Flow_bac5 refer Item_Flow
+        Role Item_Flow_Incoming_f6b6 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_f6b6;
+         Role Item_Flow_Outgoing_ba21 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_ba21;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(766,724;1711,1248),
+          polylineLocation="[0,10,-470,-217]$[0,27,-470,-200]$[120,27,-350,-200]$[120,162,-350,-65]$[470,162,0,-65]$[470,217,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_bac5;
+ 
+      Relationship Item_Flow_6cfc refer Item_Flow
+        Role Item_Flow_Incoming_862e refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_862e;
+         Role Item_Flow_Outgoing_5ff5 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_5ff5;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(766,864;1173,1108),
+          polylineLocation="[0,10,-232,-77]$[0,46,-232,-41]$[232,46,0,-41]$[232,77,0,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_6cfc;
+ 
+      Relationship Item_Flow_d8f9 refer Item_Flow
+        Role Item_Flow_Incoming_fe49 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_fe49;
+         Role Item_Flow_Outgoing_6042 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_6042;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(584,1069;2502,546),
+          polylineLocation="[0,10,-983,298]$[0,97,-983,385]$[1065,97,82,385]$[1065,-298,82,-10]$[993,-298,10,-10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_d8f9;
+ 
+      Relationship Item_Flow_1efd refer Item_Flow
+        Role Item_Flow_Incoming_6c8a refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_6c8a;
+         Role Item_Flow_Outgoing_a68f refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_a68f;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(584,1069;2308,878),
+          polylineLocation="[0,10,-799,123]$[0,62,-799,175]$[799,62,0,175]$[799,-103,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_1efd;
+ 
+      Relationship Item_Flow_b8b2 refer Item_Flow
+        Role Item_Flow_Incoming_f751 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_f751;
+         Role Item_Flow_Outgoing_ec43 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_ec43;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(594,1054;1781,1086),
+          polylineLocation="[10,-5,-512,-15]$[87,-5,-435,-15]$[87,60,-435,50]$[522,60,0,50]$[522,20,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_b8b2;
+ 
+      Relationship Item_Flow_60b0 refer Item_Flow
+        Role Item_Flow_Incoming_6f41 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_6f41;
+         Role Item_Flow_Outgoing_be0c refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_be0c;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(594,1061;1144,1068),
+          polylineLocation="[10,2,-185,0]$[185,2,-10,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_60b0;
+ 
+      Relationship Item_Flow_6dc3 refer Item_Flow
+        Role Item_Flow_Incoming_0035 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_0035;
+         Role Item_Flow_Outgoing_35a5 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_35a5;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(71,1011;1046,1127),
+          polylineLocation="[0,10,-480,-83]$[0,190,-480,97]$[480,190,0,97]$[480,103,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_6dc3;
+ 
+      Relationship Item_Flow_274b refer Item_Flow
+        Role Item_Flow_Incoming_7f77 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_7f77;
+         Role Item_Flow_Outgoing_8f6b refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_8f6b;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(71,1011;534,1171),
+          polylineLocation="[0,10,-178,-62]$[0,70,-178,-2]$[168,70,-10,-2]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_274b;
+ 
+      Relationship Item_Flow_b7ed refer Item_Flow
+        Role Item_Flow_Incoming_43e2 refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_43e2;
+         Role Item_Flow_Outgoing_1a33 refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_1a33;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(361,948;-74,1046),
+          polylineLocation="[-10,2,145,-36]$[-78,2,77,-36]$[-78,45,77,7]$[-145,45,10,7]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_b7ed;
+ 
+      Relationship Item_Flow_ce30 refer Item_Flow
+        Role Item_Flow_Incoming_4bad refer Item_Flow_Incoming
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end Item_Flow_Incoming_4bad;
+         Role Item_Flow_Outgoing_d8ea refer Item_Flow_Outgoing
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end Item_Flow_Outgoing_d8ea;
+       
+        annotation(
+          localLabel="项目流",
+          shape="solidLine",
+          endLocation=(366,1091;371,891),
+          polylineLocation="[0,-10,0,55]$[0,-55,0,10]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Item_Flow_ce30;
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_1f3a.Part_Property_In_Out_Flow_Port_0bc777_75bb,Item_Flow_c703.Item_Flow_Incoming_9317),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_b896.Part_Property_In_Out_Flow_Port_0bc777_56b1,Item_Flow_c703.Item_Flow_Outgoing_4865));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_86ac.Part_Property_In_Out_Flow_Port_0bc777_ccd8,Item_Flow_9ac1.Item_Flow_Incoming_7102),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_f699.Part_Property_In_Out_Flow_Port_0bc777_195a,Item_Flow_9ac1.Item_Flow_Outgoing_7ab4));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_e7e3.Part_Property_In_Out_Flow_Port_0bc777_9637,Item_Flow_3cb8.Item_Flow_Incoming_1b60),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_f90b.Part_Property_In_Out_Flow_Port_0bc777_4599,Item_Flow_3cb8.Item_Flow_Outgoing_42c3));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_b896.Part_Property_In_Out_Flow_Port_0bc777_c458,Item_Flow_a7eb.Item_Flow_Incoming_2a1a),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_6675,Item_Flow_a7eb.Item_Flow_Outgoing_ecc4));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_f699.Part_Property_In_Out_Flow_Port_0bc777_8304,Item_Flow_c080.Item_Flow_Incoming_7652),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_4407,Item_Flow_c080.Item_Flow_Outgoing_8382));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_f90b.Part_Property_In_Out_Flow_Port_0bc777_5e7f,Item_Flow_2589.Item_Flow_Incoming_a1d2),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_837c,Item_Flow_2589.Item_Flow_Outgoing_6106));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_557c.Part_Property_In_Out_Flow_Port_0bc777_3879,Item_Flow_0d09.Item_Flow_Incoming_d4fe),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_05f8,Item_Flow_0d09.Item_Flow_Outgoing_08b7));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_bee2.Part_Property_In_Out_Flow_Port_0bc777_0129,Item_Flow_4bb8.Item_Flow_Incoming_cacf),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_dbd3,Item_Flow_4bb8.Item_Flow_Outgoing_1896));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_b9b2.Part_Property_In_Out_Flow_Port_0bc777_4521,Item_Flow_c50f.Item_Flow_Incoming_73ea),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_0919,Item_Flow_c50f.Item_Flow_Outgoing_3646));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_1007.Part_Property_In_Out_Flow_Port_0bc777_b67a,Item_Flow_c063.Item_Flow_Incoming_5e9d),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_68df,Item_Flow_c063.Item_Flow_Outgoing_aa60));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_6456,Item_Flow_ed1d.Item_Flow_Incoming_6ea4),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_61fa.Part_Property_In_Out_Flow_Port_0bc777_0991,Item_Flow_ed1d.Item_Flow_Outgoing_a8de));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_faad,Item_Flow_c3f4.Item_Flow_Incoming_a0d1),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_0b5d.Part_Property_In_Out_Flow_Port_0bc777_5caf,Item_Flow_c3f4.Item_Flow_Outgoing_0e9d));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_7a64,Item_Flow_8f58.Item_Flow_Incoming_0c31),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_c212.Part_Property_In_Out_Flow_Port_0bc777_e095,Item_Flow_8f58.Item_Flow_Outgoing_a9c7));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_8558,Item_Flow_7f9c.Item_Flow_Incoming_382b),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_390f.Part_Property_In_Out_Flow_Port_0bc777_9b8c,Item_Flow_7f9c.Item_Flow_Outgoing_5224));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_cbad,Item_Flow_9783.Item_Flow_Incoming_ec01),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_81f5.Part_Property_In_Out_Flow_Port_0bc777_dbe5,Item_Flow_9783.Item_Flow_Outgoing_e275));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_b84f,Item_Flow_6a7f.Item_Flow_Incoming_0df5),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_7204.Part_Property_In_Out_Flow_Port_0bc777_ce1e,Item_Flow_6a7f.Item_Flow_Outgoing_89e9));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_fd60,Item_Flow_d702.Item_Flow_Incoming_702e),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_a0e4.Part_Property_In_Out_Flow_Port_0bc777_7d1d,Item_Flow_d702.Item_Flow_Outgoing_1544));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_7159,Item_Flow_050a.Item_Flow_Incoming_8094),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_a0e4.Part_Property_In_Out_Flow_Port_0bc777_a1b1,Item_Flow_050a.Item_Flow_Outgoing_cbc0));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_32e0,Item_Flow_710c.Item_Flow_Incoming_c8f0),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_c805.Part_Property_In_Out_Flow_Port_0bc777_162d,Item_Flow_710c.Item_Flow_Outgoing_6d59));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_93a5,Item_Flow_8455.Item_Flow_Incoming_d846),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_c805.Part_Property_In_Out_Flow_Port_0bc777_f505,Item_Flow_8455.Item_Flow_Outgoing_88b7));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_9e2e,Item_Flow_5cba.Item_Flow_Incoming_1a86),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_4b43.Part_Property_In_Out_Flow_Port_0bc777_1a99,Item_Flow_5cba.Item_Flow_Outgoing_6202));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_181f,Item_Flow_42fe.Item_Flow_Incoming_ebd8),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_4b43.Part_Property_In_Out_Flow_Port_0bc777_e6c0,Item_Flow_42fe.Item_Flow_Outgoing_0308));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_0d1e,Item_Flow_0f67.Item_Flow_Incoming_e49a),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_908b.Part_Property_In_Out_Flow_Port_0bc777_cb34,Item_Flow_0f67.Item_Flow_Outgoing_b7cc));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_2f84.Part_Property_In_Out_Flow_Port_0bc777_b5b7,Item_Flow_ebdd.Item_Flow_Incoming_ab98),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_908b.Part_Property_In_Out_Flow_Port_0bc777_1441,Item_Flow_ebdd.Item_Flow_Outgoing_44da));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_908b.Part_Property_In_Out_Flow_Port_0bc777_8d82,Item_Flow_4608.Item_Flow_Incoming_8732),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_cd25.Part_Property_In_Out_Flow_Port_0bc777_be6a,Item_Flow_4608.Item_Flow_Outgoing_5fbf));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_908b.Part_Property_In_Out_Flow_Port_0bc777_5383,Item_Flow_3871.Item_Flow_Incoming_6b30),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_cd25.Part_Property_In_Out_Flow_Port_0bc777_17c4,Item_Flow_3871.Item_Flow_Outgoing_f1fb));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_4b43.Part_Property_In_Out_Flow_Port_0bc777_205d,Item_Flow_36b0.Item_Flow_Incoming_7552),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_cd25.Part_Property_In_Out_Flow_Port_0bc777_05b1,Item_Flow_36b0.Item_Flow_Outgoing_5df2));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_4b43.Part_Property_In_Out_Flow_Port_0bc777_7a3d,Item_Flow_0f71.Item_Flow_Incoming_d463),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_cd25.Part_Property_In_Out_Flow_Port_0bc777_567e,Item_Flow_0f71.Item_Flow_Outgoing_f517));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_c805.Part_Property_In_Out_Flow_Port_0bc777_e859,Item_Flow_5e71.Item_Flow_Incoming_d0ac),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_cd25.Part_Property_In_Out_Flow_Port_0bc777_77a9,Item_Flow_5e71.Item_Flow_Outgoing_8295));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_c805.Part_Property_In_Out_Flow_Port_0bc777_4e9f,Item_Flow_905d.Item_Flow_Incoming_e8aa),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_cd25.Part_Property_In_Out_Flow_Port_0bc777_09b0,Item_Flow_905d.Item_Flow_Outgoing_eaed));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_a0e4.Part_Property_In_Out_Flow_Port_0bc777_50c3,Item_Flow_56d9.Item_Flow_Incoming_03a3),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_cd25.Part_Property_In_Out_Flow_Port_0bc777_3e4c,Item_Flow_56d9.Item_Flow_Outgoing_5cad));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_a0e4.Part_Property_In_Out_Flow_Port_0bc777_db54,Item_Flow_9a35.Item_Flow_Incoming_f5aa),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_cd25.Part_Property_In_Out_Flow_Port_0bc777_4462,Item_Flow_9a35.Item_Flow_Outgoing_59fe));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_7204.Part_Property_In_Out_Flow_Port_0bc777_2d5d,Item_Flow_ac4c.Item_Flow_Incoming_3610),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_a881.Part_Property_In_Out_Flow_Port_0bc777_bf5f,Item_Flow_ac4c.Item_Flow_Outgoing_76f7));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_7204.Part_Property_In_Out_Flow_Port_0bc777_dfed,Item_Flow_367e.Item_Flow_Incoming_be65),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_ec9a.Part_Property_In_Out_Flow_Port_0bc777_a140,Item_Flow_367e.Item_Flow_Outgoing_9ba7));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_81f5.Part_Property_In_Out_Flow_Port_0bc777_482f,Item_Flow_f093.Item_Flow_Incoming_ae0d),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_a881.Part_Property_In_Out_Flow_Port_0bc777_d79b,Item_Flow_f093.Item_Flow_Outgoing_3ee8));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_390f.Part_Property_In_Out_Flow_Port_0bc777_8c40,Item_Flow_4b9e.Item_Flow_Incoming_16c0),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_ec9a.Part_Property_In_Out_Flow_Port_0bc777_813f,Item_Flow_4b9e.Item_Flow_Outgoing_b96c));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_c212.Part_Property_In_Out_Flow_Port_0bc777_7092,Item_Flow_bac5.Item_Flow_Incoming_f6b6),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_4f35.Part_Property_In_Out_Flow_Port_0bc777_3fbf,Item_Flow_bac5.Item_Flow_Outgoing_ba21));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_0b5d.Part_Property_In_Out_Flow_Port_0bc777_8ef8,Item_Flow_6cfc.Item_Flow_Incoming_862e),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_8be6.Part_Property_In_Out_Flow_Port_0bc777_a6f6,Item_Flow_6cfc.Item_Flow_Outgoing_5ff5));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_84cf.Part_Property_In_Out_Flow_Port_0bc777_d730,Item_Flow_d8f9.Item_Flow_Incoming_fe49),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_a881.Part_Property_In_Out_Flow_Port_0bc777_cda2,Item_Flow_d8f9.Item_Flow_Outgoing_6042));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_84cf.Part_Property_In_Out_Flow_Port_0bc777_5687,Item_Flow_1efd.Item_Flow_Incoming_6c8a),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_ec9a.Part_Property_In_Out_Flow_Port_0bc777_0f3a,Item_Flow_1efd.Item_Flow_Outgoing_a68f));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_84cf.Part_Property_In_Out_Flow_Port_0bc777_1479,Item_Flow_b8b2.Item_Flow_Incoming_f751),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_4f35.Part_Property_In_Out_Flow_Port_0bc777_8798,Item_Flow_b8b2.Item_Flow_Outgoing_ec43));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_84cf.Part_Property_In_Out_Flow_Port_0bc777_7bc1,Item_Flow_60b0.Item_Flow_Incoming_6f41),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_8be6.Part_Property_In_Out_Flow_Port_0bc777_b2a6,Item_Flow_60b0.Item_Flow_Outgoing_be0c));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_61fa.Part_Property_In_Out_Flow_Port_0bc777_c0cc,Item_Flow_6dc3.Item_Flow_Incoming_0035),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_84cf.Part_Property_In_Out_Flow_Port_0bc777_3f7e,Item_Flow_6dc3.Item_Flow_Outgoing_35a5));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_61fa.Part_Property_In_Out_Flow_Port_0bc777_d39a,Item_Flow_274b.Item_Flow_Incoming_7f77),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_bc44.Part_Property_In_Out_Flow_Port_0bc777_93cf,Item_Flow_274b.Item_Flow_Outgoing_8f6b));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_359f.Part_Property_In_Out_Flow_Port_0bc777_6098,Item_Flow_b7ed.Item_Flow_Incoming_43e2),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_61fa.Part_Property_In_Out_Flow_Port_0bc777_c92b,Item_Flow_b7ed.Item_Flow_Outgoing_1a33));
+ 
+    Connect(connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_bc44.Part_Property_In_Out_Flow_Port_0bc777_377d,Item_Flow_ce30.Item_Flow_Incoming_4bad),connector(Driving_Control_Logic_Analysis_Model_object_Part_Property_359f.Part_Property_In_Out_Flow_Port_0bc777_f1e6,Item_Flow_ce30.Item_Flow_Outgoing_d8ea));
+ 
+
+      annotation(
+        localLabel="驾驶控制逻辑分析模型",
+    );
+    
+   end Driving_Control_Logic_Analysis_Model;

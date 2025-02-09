@@ -1,0 +1,779 @@
+    partial Model model_Perception_System_Activity instanceof metaGraph_Activity_Diagram
+      Object model_Perception_System_Activity_object_a0f1 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_a0f1_property_ea9f = "实时环境感知" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_a0f1_property_f800 = "实时环境感知" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(6,280,147,79),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_a0f1;
+
+      Object model_Perception_System_Activity_object_9928 refer metaObject_Initial_Node
+        annotation(
+          initialLocation=(270,85,55,49),
+          localLabel="初始节点",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_9928;
+
+      Object model_Perception_System_Activity_object_a6d7 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_a6d7_property_e09c = "传感器数据采集" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_a6d7_property_d389 = "传感器数据采集" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(202,199,181,75),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_a6d7;
+
+      Object model_Perception_System_Activity_object_fa84 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_fa84_property_2ed1 = "数据预处理" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_fa84_property_2095 = "数据预处理" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(202,331,179,79),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_fa84;
+
+      Object model_Perception_System_Activity_object_9b65 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_9b65_property_f5a0 = "障碍物检测与识别" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_9b65_property_b5e8 = "障碍物检测与识别" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(202,451,177,75),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_9b65;
+
+      Object model_Perception_System_Activity_object_6f58 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_6f58_property_2a24 = "道路感知与标志检测" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_6f58_property_d411 = "道路感知与标志检测" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(184,589,193,81),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_6f58;
+
+      Object model_Perception_System_Activity_object_98e6 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_98e6_property_45e1 = "数据融合" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_98e6_property_ea4e = "数据融合" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(184,715,191,81),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_98e6;
+
+      Object model_Perception_System_Activity_object_25b7 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_25b7_property_e9fb = "环境地图生成" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_25b7_property_8475 = "环境地图生成" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(184,853,191,79),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_25b7;
+
+      Object model_Perception_System_Activity_object_2379 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_2379_property_72b8 = "更新和传输数据" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_2379_property_9966 = "更新和传输数据" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(184,985,189,79),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_2379;
+
+      Object model_Perception_System_Activity_object_06ee refer metaObject_Activity_Final
+        annotation(
+          initialLocation=(34,1003,49,49),
+          localLabel="活动终端",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_06ee;
+
+      Object model_Perception_System_Activity_object_b6c5 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_b6c5_property_9a0d = "地图数据更新传输" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_b6c5_property_6f8f = "地图数据更新传输" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(183,1132,188,75),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_b6c5;
+
+      Object model_Perception_System_Activity_object_e9d0 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_e9d0_property_5a4e = "环境感知" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_e9d0_property_a1d1 = "环境感知" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(22,1312,137,77),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_e9d0;
+
+      Object model_Perception_System_Activity_object_2393 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_2393_property_d4f4 = "避障和障碍物检测" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_2393_property_0ab4 = "避障和障碍物检测" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(21,1438,178,92),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_2393;
+
+      Object model_Perception_System_Activity_object_20f0 refer metaObject_Initial_Node
+        annotation(
+          initialLocation=(324,1300,49,51),
+          localLabel="初始节点",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_20f0;
+
+      Object model_Perception_System_Activity_object_2054 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_2054_property_5001 = "环境感知" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_2054_property_4098 = "环境感知" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(280,1419,128,75),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_2054;
+
+      Object model_Perception_System_Activity_object_da2c refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_da2c_property_a503 = "车辆状态监控" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_da2c_property_ec48 = "车辆状态监控" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(273,1588,153,81),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_da2c;
+
+      Object model_Perception_System_Activity_object_8c32 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_8c32_property_c97a = "障碍物检测与分析" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_8c32_property_40c0 = "障碍物检测与分析" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(270,1708,183,75),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_8c32;
+
+      Object model_Perception_System_Activity_object_a308 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_a308_property_d9a6 = "实时位置" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_a308_property_41c1 = "实时位置" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(474,1350,123,81),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_a308;
+
+      Object model_Perception_System_Activity_object_1875 refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_1875_property_9e53 = "交通信息获取" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_1875_property_bd6e = "交通信息获取" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(456,1474,159,81),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_1875;
+
+      Object model_Perception_System_Activity_object_2bcd refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_2bcd_property_fb4d = "远程监控和支持" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_2bcd_property_d9a5 = "远程监控和支持" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(450,1600,163,81),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_2bcd;
+
+      Object model_Perception_System_Activity_object_8a12 refer metaObject_Initial_Node
+        annotation(
+          initialLocation=(262,1894,55,55),
+          localLabel="初始节点",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_8a12;
+
+      Object model_Perception_System_Activity_object_43fa refer metaObject_Call_Behavior_Action
+        Property model_Perception_System_Activity_object_43fa_property_5cf3 = "紧急情况检测" refer metaObject_Call_Behavior_Action_metaProperty_Name_107499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Perception_System_Activity_object_43fa_property_e16f = "紧急情况检测" refer metaObject_Call_Behavior_Action_metaProperty_Behavior_a1d58f annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(51,1882,159,81),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Perception_System_Activity_object_43fa;
+
+      Relationship model_Perception_System_Activity_relationship_297a refer metaRelationship_Control_Flow
+        Role model_Perception_System_Activity_fromrole_3360 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Perception_System_Activity_fromrole_3360;
+         Role model_Perception_System_Activity_torole_d50b refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Perception_System_Activity_torole_d50b;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(297,109;292,301),
+          polylineLocation="[0,0,0,-65]$[0,65,0,0];(0.509090909090909,1.0);(0.5363128491620112,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_System_Activity_relationship_297a;
+ 
+      Relationship model_Perception_System_Activity_relationship_c480 refer metaRelationship_Control_Flow
+        Role model_Perception_System_Activity_fromrole_6494 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Perception_System_Activity_fromrole_6494;
+         Role model_Perception_System_Activity_torole_3dcd refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Perception_System_Activity_torole_3dcd;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(292,236;291,429),
+          polylineLocation="[0,0,0,-59]$[0,59,0,0];(0.49162011173184356,1.0);(0.4971751412429379,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_System_Activity_relationship_c480;
+ 
+      Relationship model_Perception_System_Activity_relationship_6d69 refer metaRelationship_Control_Flow
+        Role model_Perception_System_Activity_fromrole_2bcd refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Perception_System_Activity_fromrole_2bcd;
+         Role model_Perception_System_Activity_torole_7f87 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Perception_System_Activity_torole_7f87;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(291,370;290,531),
+          polylineLocation="[0,0,0,-43]$[0,43,0,0];(0.5084745762711864,1.0);(0.5142857142857142,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_System_Activity_relationship_6d69;
+ 
+      Relationship model_Perception_System_Activity_relationship_8c15 refer metaRelationship_Control_Flow
+        Role model_Perception_System_Activity_fromrole_944a refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Perception_System_Activity_fromrole_944a;
+         Role model_Perception_System_Activity_torole_6a0a refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Perception_System_Activity_torole_6a0a;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(290,488;280,694),
+          polylineLocation="[0,0,0,-65]$[0,65,0,0];(0.44571428571428573,1.0);(0.5026178010471204,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_System_Activity_relationship_8c15;
+ 
+      Relationship model_Perception_System_Activity_relationship_ca19 refer metaRelationship_Control_Flow
+        Role model_Perception_System_Activity_fromrole_b1b4 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Perception_System_Activity_fromrole_b1b4;
+         Role model_Perception_System_Activity_torole_b373 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Perception_System_Activity_torole_b373;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(279,755;279,951),
+          polylineLocation="[0,0,0,-59]$[0,59,0,0];(0.4973544973544973,1.0);(0.4973544973544973,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_System_Activity_relationship_ca19;
+ 
+      Relationship model_Perception_System_Activity_relationship_7456 refer metaRelationship_Control_Flow
+        Role model_Perception_System_Activity_fromrole_30aa refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Perception_System_Activity_fromrole_30aa;
+         Role model_Perception_System_Activity_torole_bbaf refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Perception_System_Activity_torole_bbaf;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(279,892;278,1079),
+          polylineLocation="[0,0,0,-55]$[0,55,0,0];(0.5291005291005291,1.0);(0.5347593582887701,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_System_Activity_relationship_7456;
+ 
+      Relationship model_Perception_System_Activity_relationship_b9a0 refer metaRelationship_Control_Flow
+        Role model_Perception_System_Activity_fromrole_4d23 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Perception_System_Activity_fromrole_4d23;
+         Role model_Perception_System_Activity_torole_f6e4 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Perception_System_Activity_torole_f6e4;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(278,1044;-43,1051),
+          polylineLocation="[0,20,101,-4]$[-51,20,50,-4]$[-51,24,50,0]$[-101,24,0,0];(0.0,0.23376623376623376);(1.0,0.4897959183673469)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_System_Activity_relationship_b9a0;
+ 
+      Relationship model_Perception_System_Activity_relationship_ce2c refer metaRelationship_Control_Flow
+        Role model_Perception_System_Activity_fromrole_d941 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Perception_System_Activity_fromrole_d941;
+         Role model_Perception_System_Activity_torole_46ca refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Perception_System_Activity_torole_46ca;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(333,1325;329,1524),
+          polylineLocation="[-15,0,4,-68]$[-15,68,4,0];(0.7755102040816326,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_System_Activity_relationship_ce2c;
+ 
+      Relationship model_Perception_System_Activity_relationship_4ccd refer metaRelationship_Control_Flow
+        Role model_Perception_System_Activity_fromrole_a727 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Perception_System_Activity_fromrole_a727;
+         Role model_Perception_System_Activity_torole_c9eb refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Perception_System_Activity_torole_c9eb;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(349,1628;361,1786),
+          polylineLocation="[0,0,0,-41]$[0,41,0,0];(0.5364238410596026,1.0);(0.46408839779005523,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_System_Activity_relationship_4ccd;
+ 
+      Relationship model_Perception_System_Activity_relationship_c3fc refer metaRelationship_Control_Flow
+        Role model_Perception_System_Activity_fromrole_7928 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Perception_System_Activity_fromrole_7928;
+         Role model_Perception_System_Activity_torole_f08a refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Perception_System_Activity_torole_f08a;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(535,1514;531,1687),
+          polylineLocation="[0,0,0,-47]$[0,47,0,0];(0.47770700636942676,1.0);(0.5031055900621118,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_System_Activity_relationship_c3fc;
+ 
+      Relationship model_Perception_System_Activity_relationship_ead8 refer metaRelationship_Control_Flow
+        Role model_Perception_System_Activity_fromrole_1ae8 refer metaRole_Control_Flow_Start
+          annotation(
+            localLabel="控制流始端角色",
+            shape="no"
+          );
+        end model_Perception_System_Activity_fromrole_1ae8;
+         Role model_Perception_System_Activity_torole_54d8 refer metaRole_Control_Flow_End
+          annotation(
+            localLabel="控制流终端角色",
+            shape="arrowShape"
+          );
+        end model_Perception_System_Activity_torole_54d8;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(289,1921;76,1922),
+          polylineLocation="[0,0,54,0]$[-54,0,0,0];(0.0,0.4909090909090909);(1.0,0.4936708860759494)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Perception_System_Activity_relationship_ead8;
+ 
+    Connect(connector(model_Perception_System_Activity_object_9928,model_Perception_System_Activity_relationship_297a.model_Perception_System_Activity_fromrole_3360),connector(model_Perception_System_Activity_object_a6d7,model_Perception_System_Activity_relationship_297a.model_Perception_System_Activity_torole_d50b));
+ 
+    Connect(connector(model_Perception_System_Activity_object_a6d7,model_Perception_System_Activity_relationship_c480.model_Perception_System_Activity_fromrole_6494),connector(model_Perception_System_Activity_object_fa84,model_Perception_System_Activity_relationship_c480.model_Perception_System_Activity_torole_3dcd));
+ 
+    Connect(connector(model_Perception_System_Activity_object_fa84,model_Perception_System_Activity_relationship_6d69.model_Perception_System_Activity_fromrole_2bcd),connector(model_Perception_System_Activity_object_9b65,model_Perception_System_Activity_relationship_6d69.model_Perception_System_Activity_torole_7f87));
+ 
+    Connect(connector(model_Perception_System_Activity_object_9b65,model_Perception_System_Activity_relationship_8c15.model_Perception_System_Activity_fromrole_944a),connector(model_Perception_System_Activity_object_6f58,model_Perception_System_Activity_relationship_8c15.model_Perception_System_Activity_torole_6a0a));
+ 
+    Connect(connector(model_Perception_System_Activity_object_98e6,model_Perception_System_Activity_relationship_ca19.model_Perception_System_Activity_fromrole_b1b4),connector(model_Perception_System_Activity_object_25b7,model_Perception_System_Activity_relationship_ca19.model_Perception_System_Activity_torole_b373));
+ 
+    Connect(connector(model_Perception_System_Activity_object_25b7,model_Perception_System_Activity_relationship_7456.model_Perception_System_Activity_fromrole_30aa),connector(model_Perception_System_Activity_object_2379,model_Perception_System_Activity_relationship_7456.model_Perception_System_Activity_torole_bbaf));
+ 
+    Connect(connector(model_Perception_System_Activity_object_2379,model_Perception_System_Activity_relationship_b9a0.model_Perception_System_Activity_fromrole_4d23),connector(model_Perception_System_Activity_object_06ee,model_Perception_System_Activity_relationship_b9a0.model_Perception_System_Activity_torole_f6e4));
+ 
+    Connect(connector(model_Perception_System_Activity_object_20f0,model_Perception_System_Activity_relationship_ce2c.model_Perception_System_Activity_fromrole_d941),connector(model_Perception_System_Activity_object_2054,model_Perception_System_Activity_relationship_ce2c.model_Perception_System_Activity_torole_46ca));
+ 
+    Connect(connector(model_Perception_System_Activity_object_da2c,model_Perception_System_Activity_relationship_4ccd.model_Perception_System_Activity_fromrole_a727),connector(model_Perception_System_Activity_object_8c32,model_Perception_System_Activity_relationship_4ccd.model_Perception_System_Activity_torole_c9eb));
+ 
+    Connect(connector(model_Perception_System_Activity_object_1875,model_Perception_System_Activity_relationship_c3fc.model_Perception_System_Activity_fromrole_7928),connector(model_Perception_System_Activity_object_2bcd,model_Perception_System_Activity_relationship_c3fc.model_Perception_System_Activity_torole_f08a));
+ 
+    Connect(connector(model_Perception_System_Activity_object_8a12,model_Perception_System_Activity_relationship_ead8.model_Perception_System_Activity_fromrole_1ae8),connector(model_Perception_System_Activity_object_43fa,model_Perception_System_Activity_relationship_ead8.model_Perception_System_Activity_torole_54d8));
+ 
+
+      annotation(
+        localLabel="感知系统活动模型",
+    );
+   end model_Perception_System_Activity;

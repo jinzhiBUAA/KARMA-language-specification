@@ -1,0 +1,20 @@
+   partial Graph Block_Definition_Diagram
+    Object Interface_Block;
+    Object Block;
+    Relationship relationship_Connector;
+    Constraint (
+    bind connector(Interface_Block,relationship_Connector.Connector_Incoming),
+    bind connector(Interface_Block.Interface_Block_In_Out_Flow_Port_2b6ee6,relationship_Connector.Connector_Incoming),
+    bind connector(Block.Block_In_Out_Flow_Port_b3fb55,relationship_Connector.Connector_Incoming),
+    bind connector(Block,relationship_Connector.Connector_Incoming),
+    bind connector(Interface_Block,relationship_Connector.Connector_Outgoing),
+    bind connector(Interface_Block.Interface_Block_In_Out_Flow_Port_2b6ee6,relationship_Connector.Connector_Outgoing),
+    bind connector(Block.Block_In_Out_Flow_Port_b3fb55,relationship_Connector.Connector_Outgoing),
+    bind connector(Block,relationship_Connector.Connector_Outgoing),
+    );
+    annotation(
+        localLabel="模块定义图",
+        type = diagram,
+        description="",
+       );
+        end Block_Definition_Diagram;

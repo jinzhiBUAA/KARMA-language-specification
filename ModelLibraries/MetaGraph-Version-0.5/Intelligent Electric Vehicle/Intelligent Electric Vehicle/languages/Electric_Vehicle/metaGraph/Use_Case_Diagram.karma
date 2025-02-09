@@ -1,0 +1,67 @@
+   partial Graph Use_Case_Diagram
+    Object Interface_Block;
+    Object Actor;
+    Object Block;
+    Object Usecase;
+    Object Object_Package;
+    Object System;
+    Relationship Association;
+    Relationship Extend;
+    Relationship Contain;
+    Relationship Generalization;
+    Constraint (
+    bind connector(Interface_Block,Extend.Extend_Incoming),
+    bind connector(Actor,Extend.Extend_Incoming),
+    bind connector(Block,Extend.Extend_Incoming),
+    bind connector(Usecase,Extend.Extend_Incoming),
+    bind connector(Object_Package,Extend.Extend_Incoming),
+    bind connector(System,Extend.Extend_Incoming),
+    bind connector(Interface_Block,Extend.Extend_Outgoing),
+    bind connector(Actor,Extend.Extend_Outgoing),
+    bind connector(Block,Extend.Extend_Outgoing),
+    bind connector(Usecase,Extend.Extend_Outgoing),
+    bind connector(Object_Package,Extend.Extend_Outgoing),
+    bind connector(System,Extend.Extend_Outgoing),
+    bind connector(Interface_Block,Association.Association_Outgoing),
+    bind connector(Actor,Association.Association_Outgoing),
+    bind connector(Block,Association.Association_Outgoing),
+    bind connector(Usecase,Association.Association_Outgoing),
+    bind connector(Object_Package,Association.Association_Outgoing),
+    bind connector(System,Association.Association_Outgoing),
+    bind connector(Interface_Block,Generalization.Generalization_Incoming),
+    bind connector(Actor,Generalization.Generalization_Incoming),
+    bind connector(Block,Generalization.Generalization_Incoming),
+    bind connector(Usecase,Generalization.Generalization_Incoming),
+    bind connector(Object_Package,Generalization.Generalization_Incoming),
+    bind connector(System,Generalization.Generalization_Incoming),
+    bind connector(Interface_Block,Generalization.Generalization_Outgoing),
+    bind connector(Actor,Generalization.Generalization_Outgoing),
+    bind connector(Block,Generalization.Generalization_Outgoing),
+    bind connector(Usecase,Generalization.Generalization_Outgoing),
+    bind connector(Object_Package,Generalization.Generalization_Outgoing),
+    bind connector(System,Generalization.Generalization_Outgoing),
+    bind connector(Interface_Block,Contain.Contain_Incoming),
+    bind connector(Actor,Contain.Contain_Incoming),
+    bind connector(Block,Contain.Contain_Incoming),
+    bind connector(Usecase,Contain.Contain_Incoming),
+    bind connector(Object_Package,Contain.Contain_Incoming),
+    bind connector(System,Contain.Contain_Incoming),
+    bind connector(Interface_Block,Association.Association_Incoming),
+    bind connector(Actor,Association.Association_Incoming),
+    bind connector(Block,Association.Association_Incoming),
+    bind connector(Usecase,Association.Association_Incoming),
+    bind connector(Object_Package,Association.Association_Incoming),
+    bind connector(System,Association.Association_Incoming),
+    bind connector(Interface_Block,Contain.Contain_Outgoing),
+    bind connector(Actor,Contain.Contain_Outgoing),
+    bind connector(Block,Contain.Contain_Outgoing),
+    bind connector(Usecase,Contain.Contain_Outgoing),
+    bind connector(Object_Package,Contain.Contain_Outgoing),
+    bind connector(System,Contain.Contain_Outgoing),
+    );
+    annotation(
+        localLabel="用例图",
+        type = diagram,
+        description="",
+       );
+        end Use_Case_Diagram;

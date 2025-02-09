@@ -1,0 +1,1883 @@
+    partial Model MOFLP_Framework instanceof Framework
+    
+      Object MOFLP_Framework_object_Viewpoint_91eb refer Viewpoint
+    this.explode(Mission_Viewpoint);
+      
+        annotation(
+          initialLocation=(20,20,131,76),
+          localLabel="使命任务视点",
+          shape="packageDiagram",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_Viewpoint_91eb;
+
+      Object MOFLP_Framework_object_Viewpoint_729f refer Viewpoint
+    this.explode(Operational_Viewpoint);
+      
+        annotation(
+          initialLocation=(336,20,131,76),
+          localLabel="运行视点",
+          shape="packageDiagram",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_Viewpoint_729f;
+
+      Object MOFLP_Framework_object_Viewpoint_c025 refer Viewpoint
+    this.explode(Logical_Architecture_Viewpoint);
+      
+        annotation(
+          initialLocation=(1215,30,131,76),
+          localLabel="逻辑架构视点",
+          shape="packageDiagram",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_Viewpoint_c025;
+
+      Object MOFLP_Framework_object_Viewpoint_f946 refer Viewpoint
+    this.explode(Physical_Architecture_Viewpoint);
+      
+        annotation(
+          initialLocation=(1710,40,131,76),
+          localLabel="物理架构视点",
+          shape="packageDiagram",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_Viewpoint_f946;
+
+      Object MOFLP_Framework_object_Viewpoint_502d refer Viewpoint
+    this.explode(Functional_Architecture_Viewpoint);
+      
+        annotation(
+          initialLocation=(775,40,131,76),
+          localLabel="功能视点",
+          shape="packageDiagram",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_Viewpoint_502d;
+
+      Object MOFLP_Framework_object_View_643a refer View
+      
+        annotation(
+          initialLocation=(195,115,108,40),
+          localLabel="使命任务分析",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_643a;
+
+      Object MOFLP_Framework_object_View_a250 refer View
+      
+        annotation(
+          initialLocation=(194,175,110,41),
+          localLabel="实体和相关方目标",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_a250;
+
+      Object MOFLP_Framework_object_View_b2fb refer View
+      
+        annotation(
+          initialLocation=(194,240,108,41),
+          localLabel="使命任务概念",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_b2fb;
+
+      Object MOFLP_Framework_object_View_dc43 refer View
+      
+        annotation(
+          initialLocation=(193,306,110,40),
+          localLabel="使命任务阶段",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_dc43;
+
+      Object MOFLP_Framework_object_View_61c6 refer View
+      
+        annotation(
+          initialLocation=(193,375,110,40),
+          localLabel="执行能力分析",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_61c6;
+
+      Object MOFLP_Framework_object_View_47d0 refer View
+      
+        annotation(
+          initialLocation=(495,115,117,40),
+          localLabel="运行分析",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_47d0;
+
+      Object MOFLP_Framework_object_View_dd71 refer View
+      
+        annotation(
+          initialLocation=(495,175,117,41),
+          localLabel="目标系统生命周期",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_dd71;
+
+      Object MOFLP_Framework_object_View_41fd refer View
+      
+        annotation(
+          initialLocation=(495,240,117,41),
+          localLabel="运行概念",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_41fd;
+
+      Object MOFLP_Framework_object_View_aa3d refer View
+      
+        annotation(
+          initialLocation=(495,306,117,40),
+          localLabel="运行阶段分析",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_aa3d;
+
+      Object MOFLP_Framework_object_View_5924 refer View
+      
+        annotation(
+          initialLocation=(495,375,117,40),
+          localLabel="相关方需求",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_5924;
+
+      Object MOFLP_Framework_object_View_96e5 refer View
+      
+        annotation(
+          initialLocation=(495,440,117,40),
+          localLabel="运行任务实现",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_96e5;
+
+      Object MOFLP_Framework_object_View_4395 refer View
+      
+        annotation(
+          initialLocation=(760,164,116,40),
+          localLabel="基本功能",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_4395;
+
+      Object MOFLP_Framework_object_View_ae9a refer View
+      
+        annotation(
+          initialLocation=(1670,370,116,40),
+          localLabel="逻辑组件映射到物理组件",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_ae9a;
+
+      Object MOFLP_Framework_object_View_4f85 refer View
+      
+        annotation(
+          initialLocation=(920,164,116,40),
+          localLabel="功能分解",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_4f85;
+
+      Object MOFLP_Framework_object_View_63d7 refer View
+      
+        annotation(
+          initialLocation=(920,370,116,40),
+          localLabel="功能架构派生的系统需求",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_63d7;
+
+      Object MOFLP_Framework_object_View_2348 refer View
+      
+        annotation(
+          initialLocation=(920,231,116,40),
+          localLabel="组件功能分析",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_2348;
+
+      Object MOFLP_Framework_object_View_afd9 refer View
+      
+        annotation(
+          initialLocation=(1670,300,116,40),
+          localLabel="物理组件使用",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_afd9;
+
+      Object MOFLP_Framework_object_View_8d75 refer View
+      
+        annotation(
+          initialLocation=(760,370,116,40),
+          localLabel="功能模式行为",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_8d75;
+
+      Object MOFLP_Framework_object_View_0992 refer View
+      
+        annotation(
+          initialLocation=(920,300,116,40),
+          localLabel="静态功能架构",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_0992;
+
+      Object MOFLP_Framework_object_View_3638 refer View
+      
+        annotation(
+          initialLocation=(760,231,116,40),
+          localLabel="功能分类",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_3638;
+
+      Object MOFLP_Framework_object_View_d28e refer View
+      
+        annotation(
+          initialLocation=(760,300,116,40),
+          localLabel="组件功能交互",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_d28e;
+
+      Object MOFLP_Framework_object_View_b04a refer View
+      
+        annotation(
+          initialLocation=(760,440,116,40),
+          localLabel="追溯相关方需求到系统需求",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_b04a;
+
+      Object MOFLP_Framework_object_View_8edf refer View
+      
+        annotation(
+          initialLocation=(1190,164,116,40),
+          localLabel="逻辑分解结构",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_8edf;
+
+      Object MOFLP_Framework_object_View_b955 refer View
+      
+        annotation(
+          initialLocation=(1365,359,116,40),
+          localLabel="追溯分配需求到系统需求",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_b955;
+
+      Object MOFLP_Framework_object_View_ad17 refer View
+      
+        annotation(
+          initialLocation=(1190,290,116,38),
+          localLabel="分配功能流到逻辑接口",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_ad17;
+
+      Object MOFLP_Framework_object_View_4278 refer View
+      
+        annotation(
+          initialLocation=(1190,360,116,38),
+          localLabel="逻辑架构派生的分派需求",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_4278;
+
+      Object MOFLP_Framework_object_View_36df refer View
+      
+        annotation(
+          initialLocation=(1365,164,116,40),
+          localLabel="接口类型架构",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_36df;
+
+      Object MOFLP_Framework_object_View_fde7 refer View
+      
+        annotation(
+          initialLocation=(1190,225,116,38),
+          localLabel="分配功能到逻辑组件",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_fde7;
+
+      Object MOFLP_Framework_object_View_fce3 refer View
+      
+        annotation(
+          initialLocation=(1365,225,116,38),
+          localLabel="逻辑组件的内部架构",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_fce3;
+
+      Object MOFLP_Framework_object_View_1ac2 refer View
+      
+        annotation(
+          initialLocation=(1365,289,116,40),
+          localLabel="逻辑组件的动态交互",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_1ac2;
+
+      Object MOFLP_Framework_object_View_b063 refer View
+      
+        annotation(
+          initialLocation=(1670,164,116,40),
+          localLabel="装配分解结构",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_b063;
+
+      Object MOFLP_Framework_object_View_b077 refer View
+      
+        annotation(
+          initialLocation=(1865,160,116,40),
+          localLabel="物理组件特性",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_b077;
+
+      Object MOFLP_Framework_object_View_3e8b refer View
+      
+        annotation(
+          initialLocation=(1670,231,116,40),
+          localLabel="物理接口",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_3e8b;
+
+      Object MOFLP_Framework_object_View_f6b3 refer View
+      
+        annotation(
+          initialLocation=(1865,232,116,38),
+          localLabel="特定学科的分解结构",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_f6b3;
+
+      Object MOFLP_Framework_object_View_62c8 refer View
+      
+        annotation(
+          initialLocation=(1865,301,116,38),
+          localLabel="参数评估",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("微软雅黑",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end MOFLP_Framework_object_View_62c8;
+
+      Relationship Containment_674d refer Containment
+        Role Containment_Incoming_260d refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_260d;
+         Role Containment_outgoing_ad60 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_ad60;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(195,146;-45,0),
+          polylineLocation="[-54,11,110,88]$[-119,11,45,88]$[-119,-40,45,37]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_674d;
+ 
+      Relationship Containment_dfb3 refer Containment
+        Role Containment_Incoming_eb1e refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_eb1e;
+         Role Containment_outgoing_0fb5 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_0fb5;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(194,191;-64,-60),
+          polylineLocation="[-55,-4,109,133]$[-139,-4,25,133]$[-139,-100,25,37]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_dfb3;
+ 
+      Relationship Containment_1468 refer Containment
+        Role Containment_Incoming_0d2a refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_0d2a;
+         Role Containment_outgoing_0687 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_0687;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(194,254;-89,-125),
+          polylineLocation="[-54,-6,109,196]$[-163,-6,0,196]$[-163,-165,0,37]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_1468;
+ 
+      Relationship Containment_5fb0 refer Containment
+        Role Containment_Incoming_39a9 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_39a9;
+         Role Containment_outgoing_0b81 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_0b81;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(193,317;-113,-191),
+          polylineLocation="[-55,-9,108,259]$[-188,-9,-25,259]$[-188,-231,-25,37]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_5fb0;
+ 
+      Relationship Containment_81ba refer Containment
+        Role Containment_Incoming_7b96 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_7b96;
+         Role Containment_outgoing_8bb0 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_8bb0;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(193,380;-138,-260),
+          polylineLocation="[-55,-15,108,322]$[-213,-15,-50,322]$[-213,-300,-50,37]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_81ba;
+ 
+      Relationship Containment_eb01 refer Containment
+        Role Containment_Incoming_29e6 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_29e6;
+         Role Containment_outgoing_8e74 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_8e74;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(495,460;196,-326),
+          polylineLocation="[-58,0,94,402]$[-198,0,-46,402]$[-198,-366,-46,36]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_eb01;
+ 
+      Relationship Containment_ec5d refer Containment
+        Role Containment_Incoming_2459 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_2459;
+         Role Containment_outgoing_88f3 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_88f3;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(495,400;212,-261),
+          polylineLocation="[-58,5,94,342]$[-182,5,-30,342]$[-182,-301,-30,36]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_ec5d;
+ 
+      Relationship Containment_10ed refer Containment
+        Role Containment_Incoming_a726 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_a726;
+         Role Containment_outgoing_2b01 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_2b01;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(495,325;232,-192),
+          polylineLocation="[-58,-1,94,267]$[-162,-1,-10,267]$[-162,-232,-10,36]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_10ed;
+ 
+      Relationship Containment_efc7 refer Containment
+        Role Containment_Incoming_6b84 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_6b84;
+         Role Containment_outgoing_48f2 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_48f2;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(495,270;252,-126),
+          polylineLocation="[-58,10,94,212]$[-142,10,10,212]$[-142,-166,10,36]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_efc7;
+ 
+      Relationship Containment_1840 refer Containment
+        Role Containment_Incoming_0a98 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_0a98;
+         Role Containment_outgoing_118f refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_118f;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(495,195;272,-61),
+          polylineLocation="[-58,0,94,137]$[-122,0,30,137]$[-122,-101,30,36]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_1840;
+ 
+      Relationship Containment_40b6 refer Containment
+        Role Containment_Incoming_cd84 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_cd84;
+         Role Containment_outgoing_e564 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_e564;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(495,140;292,-1),
+          polylineLocation="[-58,5,94,82]$[-102,5,50,82]$[-102,-41,50,36]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_40b6;
+ 
+      Relationship Containment_b018 refer Containment
+        Role Containment_Incoming_3937 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_3937;
+         Role Containment_outgoing_6bef refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_6bef;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(760,324;791,-180),
+          polylineLocation="[-58,4,-80,246]$[-104,4,-126,246]$[-104,-240,-126,2]$[-42,-240,-64,2]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_b018;
+ 
+      Relationship Containment_f114 refer Containment
+        Role Containment_Incoming_f1ce refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_f1ce;
+         Role Containment_outgoing_48be refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_48be;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(760,251;791,-97),
+          polylineLocation="[-58,0,-80,173]$[-73,0,-95,173]$[-73,-157,-95,16]$[-42,-157,-64,16]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_f114;
+ 
+      Relationship Containment_77dd refer Containment
+        Role Containment_Incoming_9fcb refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_9fcb;
+         Role Containment_outgoing_2040 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_2040;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(815,164;830,-10),
+          polylineLocation="[-3,-20,-25,86]$[-3,-70,-25,36]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_77dd;
+ 
+      Relationship Containment_a9e9 refer Containment
+        Role Containment_Incoming_9db2 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_9db2;
+         Role Containment_outgoing_ca60 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_ca60;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(972,164;701,-10),
+          polylineLocation="[-6,-20,132,86]$[-6,-49,132,57]$[-132,-49,6,57]$[-132,-70,6,36]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_a9e9;
+ 
+      Relationship Containment_1738 refer Containment
+        Role Containment_Incoming_cf8f refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_cf8f;
+         Role Containment_outgoing_32e3 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_32e3;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(760,390;791,-266),
+          polylineLocation="[-58,0,-80,312]$[-124,0,-146,312]$[-124,-326,-146,-14]$[-42,-326,-64,-14]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_1738;
+ 
+      Relationship Containment_f047 refer Containment
+        Role Containment_Incoming_2acd refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_2acd;
+         Role Containment_outgoing_fe72 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_fe72;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(760,460;791,-346),
+          polylineLocation="[-58,0,-80,382]$[-144,0,-166,382]$[-144,-406,-166,-24]$[-42,-406,-64,-24]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_f047;
+ 
+      Relationship Containment_d9de refer Containment
+        Role Containment_Incoming_4207 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_4207;
+         Role Containment_outgoing_1908 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_1908;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1036,251;759,-91),
+          polylineLocation="[58,0,196,173]$[67,0,205,173]$[67,-151,205,22]$[-74,-151,64,22]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_d9de;
+ 
+      Relationship Containment_282d refer Containment
+        Role Containment_Incoming_a657 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_a657;
+         Role Containment_outgoing_0287 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_0287;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1036,320;759,-180),
+          polylineLocation="[58,0,196,242]$[91,0,229,242]$[91,-240,229,2]$[-74,-240,64,2]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_282d;
+ 
+      Relationship Containment_8fcd refer Containment
+        Role Containment_Incoming_0b4b refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_0b4b;
+         Role Containment_outgoing_ea1d refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_ea1d;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1036,394;759,-270),
+          polylineLocation="[58,4,196,316]$[116,4,254,316]$[116,-330,254,-18]$[-74,-330,64,-18]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_8fcd;
+ 
+      Relationship Containment_8f21 refer Containment
+        Role Containment_Incoming_97df refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_97df;
+         Role Containment_outgoing_868c refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_868c;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1255,164;1280,-30),
+          polylineLocation="[7,-20,-25,96]$[7,-80,-25,36]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_8f21;
+ 
+      Relationship Containment_1de0 refer Containment
+        Role Containment_Incoming_42c0 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_42c0;
+         Role Containment_outgoing_7298 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_7298;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1190,244;1240,-111),
+          polylineLocation="[-58,0,-90,176]$[-69,0,-101,176]$[-69,-160,-101,16]$[-33,-160,-65,16]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_1de0;
+ 
+      Relationship Containment_3265 refer Containment
+        Role Containment_Incoming_5d56 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_5d56;
+         Role Containment_outgoing_5896 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_5896;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1190,309;1240,-200),
+          polylineLocation="[-58,0,-90,241]$[-94,0,-126,241]$[-94,-249,-126,-8]$[-33,-249,-65,-8]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_3265;
+ 
+      Relationship Containment_6e92 refer Containment
+        Role Containment_Incoming_2473 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_2473;
+         Role Containment_outgoing_0c13 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_0c13;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1190,378;1240,-290),
+          polylineLocation="[-58,-1,-90,310]$[-119,-1,-151,310]$[-119,-339,-151,-28]$[-33,-339,-65,-28]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_6e92;
+ 
+      Relationship Containment_e652 refer Containment
+        Role Containment_Incoming_0f5e refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_0f5e;
+         Role Containment_outgoing_b6ab refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_b6ab;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1425,164;1147,-30),
+          polylineLocation="[2,-20,145,96]$[2,-49,145,67]$[-126,-49,17,67]$[-126,-80,17,36]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_e652;
+ 
+      Relationship Containment_98f5 refer Containment
+        Role Containment_Incoming_96ca refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_96ca;
+         Role Containment_outgoing_cda7 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_cda7;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1481,244;1183,-106),
+          polylineLocation="[58,0,201,176]$[66,0,209,176]$[66,-155,209,21]$[-90,-155,53,21]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_98f5;
+ 
+      Relationship Containment_9345 refer Containment
+        Role Containment_Incoming_c738 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_c738;
+         Role Containment_outgoing_3430 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_3430;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1481,309;1183,-185),
+          polylineLocation="[58,0,201,241]$[91,0,234,241]$[91,-235,234,6]$[-90,-235,53,6]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_9345;
+ 
+      Relationship Containment_62b2 refer Containment
+        Role Containment_Incoming_97e2 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_97e2;
+         Role Containment_outgoing_6290 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_6290;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1481,379;1183,-275),
+          polylineLocation="[58,0,201,311]$[116,0,259,311]$[116,-325,259,-14]$[-90,-325,53,-14]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_62b2;
+ 
+      Relationship Containment_7dad refer Containment
+        Role Containment_Incoming_6a3c refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_6a3c;
+         Role Containment_outgoing_4ace refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_4ace;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1740,164;1780,-10),
+          polylineLocation="[12,-20,-35,86]$[12,-70,-35,36]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_7dad;
+ 
+      Relationship Containment_44ac refer Containment
+        Role Containment_Incoming_1bec refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_1bec;
+         Role Containment_outgoing_c77f refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_c77f;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1670,250;1750,-96),
+          polylineLocation="[-58,-1,-105,172]$[-78,-1,-125,172]$[-78,-156,-125,17]$[-18,-156,-65,17]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_44ac;
+ 
+      Relationship Containment_af0c refer Containment
+        Role Containment_Incoming_dcae refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_dcae;
+         Role Containment_outgoing_3edf refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_3edf;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1670,320;1750,-185),
+          polylineLocation="[-58,0,-105,242]$[-103,0,-150,242]$[-103,-245,-150,-3]$[-18,-245,-65,-3]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_af0c;
+ 
+      Relationship Containment_550c refer Containment
+        Role Containment_Incoming_12c9 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_12c9;
+         Role Containment_outgoing_f719 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_f719;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1670,390;1750,-275),
+          polylineLocation="[-58,0,-105,312]$[-138,0,-185,312]$[-138,-335,-185,-23]$[-18,-335,-65,-23]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_550c;
+ 
+      Relationship Containment_acc2 refer Containment
+        Role Containment_Incoming_4911 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_4911;
+         Role Containment_outgoing_668d refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_668d;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1910,160;1632,-6),
+          polylineLocation="[-13,-20,135,82]$[-13,-40,135,62]$[-136,-40,12,62]$[-136,-66,12,36]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_acc2;
+ 
+      Relationship Containment_6894 refer Containment
+        Role Containment_Incoming_0185 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_0185;
+         Role Containment_outgoing_0135 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_0135;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1981,251;1675,-97),
+          polylineLocation="[58,0,206,173]$[87,0,235,173]$[87,-156,235,17]$[-93,-156,55,17]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_6894;
+ 
+      Relationship Containment_daa4 refer Containment
+        Role Containment_Incoming_32a6 refer Containment_Incoming
+          annotation(
+            localLabel="",
+            shape="no"
+          );
+        end Containment_Incoming_32a6;
+         Role Containment_outgoing_4438 refer Containment_outgoing
+          annotation(
+            localLabel="",
+            shape="ring"
+          );
+        end Containment_outgoing_4438;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(1981,320;1675,-186),
+          polylineLocation="[58,0,206,242]$[117,0,265,242]$[117,-245,265,-3]$[-93,-245,55,-3]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",9,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+        );
+      end Containment_daa4;
+ 
+    Connect(connector(MOFLP_Framework_object_View_643a,Containment_674d.Containment_Incoming_260d),connector(MOFLP_Framework_object_Viewpoint_91eb,Containment_674d.Containment_outgoing_ad60));
+ 
+    Connect(connector(MOFLP_Framework_object_View_a250,Containment_dfb3.Containment_Incoming_eb1e),connector(MOFLP_Framework_object_Viewpoint_91eb,Containment_dfb3.Containment_outgoing_0fb5));
+ 
+    Connect(connector(MOFLP_Framework_object_View_b2fb,Containment_1468.Containment_Incoming_0d2a),connector(MOFLP_Framework_object_Viewpoint_91eb,Containment_1468.Containment_outgoing_0687));
+ 
+    Connect(connector(MOFLP_Framework_object_View_dc43,Containment_5fb0.Containment_Incoming_39a9),connector(MOFLP_Framework_object_Viewpoint_91eb,Containment_5fb0.Containment_outgoing_0b81));
+ 
+    Connect(connector(MOFLP_Framework_object_View_61c6,Containment_81ba.Containment_Incoming_7b96),connector(MOFLP_Framework_object_Viewpoint_91eb,Containment_81ba.Containment_outgoing_8bb0));
+ 
+    Connect(connector(MOFLP_Framework_object_View_96e5,Containment_eb01.Containment_Incoming_29e6),connector(MOFLP_Framework_object_Viewpoint_729f,Containment_eb01.Containment_outgoing_8e74));
+ 
+    Connect(connector(MOFLP_Framework_object_View_5924,Containment_ec5d.Containment_Incoming_2459),connector(MOFLP_Framework_object_Viewpoint_729f,Containment_ec5d.Containment_outgoing_88f3));
+ 
+    Connect(connector(MOFLP_Framework_object_View_aa3d,Containment_10ed.Containment_Incoming_a726),connector(MOFLP_Framework_object_Viewpoint_729f,Containment_10ed.Containment_outgoing_2b01));
+ 
+    Connect(connector(MOFLP_Framework_object_View_41fd,Containment_efc7.Containment_Incoming_6b84),connector(MOFLP_Framework_object_Viewpoint_729f,Containment_efc7.Containment_outgoing_48f2));
+ 
+    Connect(connector(MOFLP_Framework_object_View_dd71,Containment_1840.Containment_Incoming_0a98),connector(MOFLP_Framework_object_Viewpoint_729f,Containment_1840.Containment_outgoing_118f));
+ 
+    Connect(connector(MOFLP_Framework_object_View_47d0,Containment_40b6.Containment_Incoming_cd84),connector(MOFLP_Framework_object_Viewpoint_729f,Containment_40b6.Containment_outgoing_e564));
+ 
+    Connect(connector(MOFLP_Framework_object_View_d28e,Containment_b018.Containment_Incoming_3937),connector(MOFLP_Framework_object_Viewpoint_502d,Containment_b018.Containment_outgoing_6bef));
+ 
+    Connect(connector(MOFLP_Framework_object_View_3638,Containment_f114.Containment_Incoming_f1ce),connector(MOFLP_Framework_object_Viewpoint_502d,Containment_f114.Containment_outgoing_48be));
+ 
+    Connect(connector(MOFLP_Framework_object_View_4395,Containment_77dd.Containment_Incoming_9fcb),connector(MOFLP_Framework_object_Viewpoint_502d,Containment_77dd.Containment_outgoing_2040));
+ 
+    Connect(connector(MOFLP_Framework_object_View_4f85,Containment_a9e9.Containment_Incoming_9db2),connector(MOFLP_Framework_object_Viewpoint_502d,Containment_a9e9.Containment_outgoing_ca60));
+ 
+    Connect(connector(MOFLP_Framework_object_View_8d75,Containment_1738.Containment_Incoming_cf8f),connector(MOFLP_Framework_object_Viewpoint_502d,Containment_1738.Containment_outgoing_32e3));
+ 
+    Connect(connector(MOFLP_Framework_object_View_b04a,Containment_f047.Containment_Incoming_2acd),connector(MOFLP_Framework_object_Viewpoint_502d,Containment_f047.Containment_outgoing_fe72));
+ 
+    Connect(connector(MOFLP_Framework_object_View_2348,Containment_d9de.Containment_Incoming_4207),connector(MOFLP_Framework_object_Viewpoint_502d,Containment_d9de.Containment_outgoing_1908));
+ 
+    Connect(connector(MOFLP_Framework_object_View_0992,Containment_282d.Containment_Incoming_a657),connector(MOFLP_Framework_object_Viewpoint_502d,Containment_282d.Containment_outgoing_0287));
+ 
+    Connect(connector(MOFLP_Framework_object_View_63d7,Containment_8fcd.Containment_Incoming_0b4b),connector(MOFLP_Framework_object_Viewpoint_502d,Containment_8fcd.Containment_outgoing_ea1d));
+ 
+    Connect(connector(MOFLP_Framework_object_View_8edf,Containment_8f21.Containment_Incoming_97df),connector(MOFLP_Framework_object_Viewpoint_c025,Containment_8f21.Containment_outgoing_868c));
+ 
+    Connect(connector(MOFLP_Framework_object_View_fde7,Containment_1de0.Containment_Incoming_42c0),connector(MOFLP_Framework_object_Viewpoint_c025,Containment_1de0.Containment_outgoing_7298));
+ 
+    Connect(connector(MOFLP_Framework_object_View_ad17,Containment_3265.Containment_Incoming_5d56),connector(MOFLP_Framework_object_Viewpoint_c025,Containment_3265.Containment_outgoing_5896));
+ 
+    Connect(connector(MOFLP_Framework_object_View_4278,Containment_6e92.Containment_Incoming_2473),connector(MOFLP_Framework_object_Viewpoint_c025,Containment_6e92.Containment_outgoing_0c13));
+ 
+    Connect(connector(MOFLP_Framework_object_View_36df,Containment_e652.Containment_Incoming_0f5e),connector(MOFLP_Framework_object_Viewpoint_c025,Containment_e652.Containment_outgoing_b6ab));
+ 
+    Connect(connector(MOFLP_Framework_object_View_fce3,Containment_98f5.Containment_Incoming_96ca),connector(MOFLP_Framework_object_Viewpoint_c025,Containment_98f5.Containment_outgoing_cda7));
+ 
+    Connect(connector(MOFLP_Framework_object_View_1ac2,Containment_9345.Containment_Incoming_c738),connector(MOFLP_Framework_object_Viewpoint_c025,Containment_9345.Containment_outgoing_3430));
+ 
+    Connect(connector(MOFLP_Framework_object_View_b955,Containment_62b2.Containment_Incoming_97e2),connector(MOFLP_Framework_object_Viewpoint_c025,Containment_62b2.Containment_outgoing_6290));
+ 
+    Connect(connector(MOFLP_Framework_object_View_b063,Containment_7dad.Containment_Incoming_6a3c),connector(MOFLP_Framework_object_Viewpoint_f946,Containment_7dad.Containment_outgoing_4ace));
+ 
+    Connect(connector(MOFLP_Framework_object_View_3e8b,Containment_44ac.Containment_Incoming_1bec),connector(MOFLP_Framework_object_Viewpoint_f946,Containment_44ac.Containment_outgoing_c77f));
+ 
+    Connect(connector(MOFLP_Framework_object_View_afd9,Containment_af0c.Containment_Incoming_dcae),connector(MOFLP_Framework_object_Viewpoint_f946,Containment_af0c.Containment_outgoing_3edf));
+ 
+    Connect(connector(MOFLP_Framework_object_View_ae9a,Containment_550c.Containment_Incoming_12c9),connector(MOFLP_Framework_object_Viewpoint_f946,Containment_550c.Containment_outgoing_f719));
+ 
+    Connect(connector(MOFLP_Framework_object_View_b077,Containment_acc2.Containment_Incoming_4911),connector(MOFLP_Framework_object_Viewpoint_f946,Containment_acc2.Containment_outgoing_668d));
+ 
+    Connect(connector(MOFLP_Framework_object_View_f6b3,Containment_6894.Containment_Incoming_0185),connector(MOFLP_Framework_object_Viewpoint_f946,Containment_6894.Containment_outgoing_0135));
+ 
+    Connect(connector(MOFLP_Framework_object_View_62c8,Containment_daa4.Containment_Incoming_32a6),connector(MOFLP_Framework_object_Viewpoint_f946,Containment_daa4.Containment_outgoing_4438));
+ 
+
+      annotation(
+        localLabel="一体化模型框架",
+    );
+    
+   end MOFLP_Framework;

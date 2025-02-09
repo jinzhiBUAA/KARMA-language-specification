@@ -1,0 +1,50 @@
+   partial Graph Operational_State_Transition_Description
+    Object Divide_Node;
+    Object Entry_Point;
+    Object Exit_Point;
+    Object Composite_State;
+    Object Final_State;
+    Object Connection_Point_Reference;
+    Object Decision_Node;
+    Object Join_Horizontal;
+    Object Shallow_History;
+    Object Initial_State;
+    Object End;
+    Object Deep_History;
+    Object Operational_State;
+    Object Pseudo_State;
+    Object Submachine_State;
+    Relationship Transition;
+    Relationship Transtion_To_Self;
+    Constraint (
+    bind connector(Decision_Node,Transition.Transition_Outgoing),
+    bind connector(Divide_Node,Transition.Transition_Outgoing),
+    bind connector(Join_Horizontal,Transition.Transition_Outgoing),
+    bind connector(Exit_Point,Transition.Transition_Outgoing),
+    bind connector(Composite_State,Transition.Transition_Outgoing),
+    bind connector(Operational_State,Transition.Transition_Outgoing),
+    bind connector(Pseudo_State,Transition.Transition_Outgoing),
+    bind connector(Final_State,Transition.Transition_Outgoing),
+    bind connector(Submachine_State,Transition.Transition_Outgoing),
+    bind connector(Composite_State,Transtion_To_Self.Transtion_To_Self_Outgoing),
+    bind connector(Operational_State,Transtion_To_Self.Transtion_To_Self_Outgoing),
+    bind connector(Submachine_State,Transtion_To_Self.Transtion_To_Self_Outgoing),
+    bind connector(Composite_State,Transtion_To_Self.Transtion_To_Self_Incoming),
+    bind connector(Operational_State,Transtion_To_Self.Transtion_To_Self_Incoming),
+    bind connector(Submachine_State,Transtion_To_Self.Transtion_To_Self_Incoming),
+    bind connector(Decision_Node,Transition.Transition_Incoming),
+    bind connector(Divide_Node,Transition.Transition_Incoming),
+    bind connector(Join_Horizontal,Transition.Transition_Incoming),
+    bind connector(Entry_Point,Transition.Transition_Incoming),
+    bind connector(Initial_State,Transition.Transition_Incoming),
+    bind connector(Composite_State,Transition.Transition_Incoming),
+    bind connector(Operational_State,Transition.Transition_Incoming),
+    bind connector(Pseudo_State,Transition.Transition_Incoming),
+    bind connector(Submachine_State,Transition.Transition_Incoming),
+    );
+    annotation(
+        localLabel="作战状态转换模型",
+        type = diagram,
+        description="",
+       );
+        end Operational_State_Transition_Description;
