@@ -1,6 +1,6 @@
 # About
 
-This is a usecase for the models and ontology files used in the dissertation **"基于模型的复杂装备系统需求表达与评估技术"**
+This is a usecase for the models and ontology files used in the thesis **"基于模型的复杂装备系统需求表达与评估技术"**
 
 # Description
 
