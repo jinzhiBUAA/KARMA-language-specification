@@ -1,0 +1,98 @@
+    partial Model model_Activity_Vehicle instanceof Activity_Diagram
+    
+      Object model_Activity_Vehicle_object_5781 refer Object_Swimlanes
+    this.explode(Vehicle_stakeholderneed);
+      
+        annotation(
+          initialLocation=(364,63,321,903),
+          localLabel="利益相关方需要和需求定义过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="Vehicle_stakeholderneed:(0,0,321,903)",
+        );
+      end model_Activity_Vehicle_object_5781;
+
+      Object model_Activity_Vehicle_object_7e1a refer Object_Swimlanes
+    this.explode(Vehicle_mission);
+      
+        annotation(
+          initialLocation=(1001,63,272,905),
+          localLabel="业务或使命分析过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="Vehicle_mission:(0,0,272,905)",
+        );
+      end model_Activity_Vehicle_object_7e1a;
+
+      Object model_Activity_Vehicle_object_f62c refer Object_Swimlanes
+    this.explode(Vehicle_framework);
+      
+        annotation(
+          initialLocation=(77,63,265,904),
+          localLabel="架构设计过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="Vehicle_framework:(0,0,265,904)",
+        );
+      end model_Activity_Vehicle_object_f62c;
+
+      Object model_Activity_Vehicle_object_0647 refer Object_Swimlanes
+    this.explode(Vehicle_maintain);
+      
+        annotation(
+          initialLocation=(1309,63,301,906),
+          localLabel="维护过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="Vehicle_maintain:(0,0,301,906)",
+        );
+      end model_Activity_Vehicle_object_0647;
+
+      Object model_Activity_Vehicle_object_7aca refer Object_Swimlanes
+    this.explode(Vehicle_System);
+      
+        annotation(
+          initialLocation=(714,63,251,905),
+          localLabel="系统需求定义过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="Vehicle_System:(0,0,251,905)",
+        );
+      end model_Activity_Vehicle_object_7aca;
+
+
+      annotation(
+        localLabel="活动图",
+    );
+    
+   end model_Activity_Vehicle;

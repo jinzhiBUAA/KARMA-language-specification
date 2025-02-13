@@ -1,0 +1,22 @@
+   Object Block_KinematicPTP2
+      initial Property  Block_KinematicPTP2_Property_qdd_max_b1322c = "null" extends Property_qdd_max annotation(localLabel ="qdd_max");
+      initial Property  Block_KinematicPTP2_Property_qd_max_834046 = "null" extends Property_qd_max annotation(localLabel ="qd_max");
+      initial Property  Block_KinematicPTP2_Property_q_begin_4b94c8 = "null" extends Property_q_begin annotation(localLabel ="q_begin");
+      initial Property  Block_KinematicPTP2_Property_q_end_9549f9 = "null" extends Property_q_end annotation(localLabel ="q_end");
+      initial Property  Block_KinematicPTP2_Property_startTime_254ff5 = "null" extends Property_startTime annotation(localLabel ="startTime");
+      initial Property unique Block_KinematicPTP2_Property_class_16e77f = "null" extends Property_class annotation(localLabel ="class");
+      initial Property unique Block_KinematicPTP2_Property_name_16481c = "null" extends Property_name2 annotation(localLabel ="name");
+      Output Point Block_KinematicPTP2_Connector_RealOutput_abb933 extends Connector_RealOutput annotation (localLabel ="RealOutput");
+      Output Point Block_KinematicPTP2_Connector_RealOutput_fbbc6c extends Connector_RealOutput annotation (localLabel ="RealOutput");
+      Output Point Block_KinematicPTP2_Connector_RealOutput_7c2c4e extends Connector_RealOutput annotation (localLabel ="RealOutput");
+      Output Point Block_KinematicPTP2_Connector_BooleanOutput_a0c62a extends Connector_BooleanOutput annotation (localLabel ="BooleanOutput");
+   annotation(
+      localLabel="KinematicPTP2",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      );
+   end Block_KinematicPTP2;
+ 

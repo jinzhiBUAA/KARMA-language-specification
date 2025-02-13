@@ -1,0 +1,85 @@
+automaton Rover_Decline_STM:
+
+cont v = 5334.5;
+cont t = 407.0;
+cont h = 654130;
+
+disc bool small_thruster  = false;
+disc bool target_alignment  = false;
+disc bool SUFR  = false;
+disc bool parachute  = false;
+disc bool shield  = false;
+disc bool image  = false;
+disc bool backshell  = false;
+disc bool throttle  = false;
+disc bool wheel  = false;
+disc bool cut_cable  = false;
+
+location Rover_Decline_STM__object__5aa6:
+initial;
+equation v'= 0.39;
+equation t' = -1.0;
+equation h' = -v;
+edge  when  t<353.0 do small_thruster := true goto Rover_Decline_STM__object__15f4;
+
+location Rover_Decline_STM__object__15f4:
+equation v'= -50.29;
+equation t' = -1.0;
+equation h' = -v;
+edge  when  t<268.0 do target_alignment := true goto Rover_Decline_STM__object__f1ef;
+
+location Rover_Decline_STM__object__f1ef:
+equation v'= -7.07;
+equation t' = -1.0;
+equation h' = -v;
+edge  when  t<182 do SUFR := true goto Rover_Decline_STM__object__a943;
+
+location Rover_Decline_STM__object__a943:
+equation v'= -3.12;
+equation t' = -1.0;
+equation h' = -v;
+edge  when  t<165 do parachute := true goto Rover_Decline_STM__object__a45f;
+
+location Rover_Decline_STM__object__a45f:
+equation v'= -11.96;
+equation t' = -1.0;
+equation h' = -v;
+edge  when  t<143 do shield := true goto Rover_Decline_STM__object__344d;
+
+location Rover_Decline_STM__object__344d:
+equation v'= -1.07;
+equation t' = -1.0;
+equation h' = -v;
+edge  when  t<78 do image := true goto Rover_Decline_STM__object__fd62;
+
+location Rover_Decline_STM__object__fd62:
+equation v'= -0.37;
+equation t' = -1.0;
+equation h' = -v;
+edge  when  t<58 do backshell := true goto Rover_Decline_STM__object__89d7;
+
+location Rover_Decline_STM__object__89d7:
+equation v'= -2.01;
+equation t' = -1.0;
+equation h' = -v;
+edge  when  t<19 do throttle := true goto Rover_Decline_STM__object__c364;
+
+location Rover_Decline_STM__object__c364:
+equation v'= 0.63;
+equation t' = -1.0;
+equation h' = -v;
+edge  when  t<16 do wheel := true goto Rover_Decline_STM__object__d286;
+
+location Rover_Decline_STM__object__d286:
+equation v'= -0.34;
+equation t' = -1.0;
+equation h' = -v;
+edge  when  t<8 do cut_cable := true goto Rover_Decline_STM__object__ed99;
+
+location Rover_Decline_STM__object__ed99:
+equation v'= 0.0;
+equation t' = 0.0;
+equation h' = 0;
+
+end
+

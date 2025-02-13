@@ -1,0 +1,15 @@
+   Object process
+      initial Property  process_object_time_d75234 = 0 extends object_time annotation(localLabel ="时间");
+      initial Property  process_object_price_b49688 = 0 extends object_price annotation(localLabel ="成本");
+      initial Property  process_object_worker_9b2593 = 0 extends object_worker annotation(localLabel ="重要度");
+   annotation(
+      localLabel="步骤",
+      description="",
+      icon="",
+      shape="roundedRectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end process;
+ 

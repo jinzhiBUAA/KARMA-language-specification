@@ -1,0 +1,262 @@
+    partial Model model_Activity_Avionics instanceof Activity_Diagram
+    
+      Object model_Activity_Avionics_object_dfee refer Object_Swimlanes
+    this.explode(Avionics_System);
+      
+        annotation(
+          initialLocation=(2982,6,741,1327),
+          localLabel="系统需求定义过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="Avionics_System:(0,0,741,1327)",
+        );
+      end model_Activity_Avionics_object_dfee;
+
+      Object model_Activity_Avionics_object_d0db refer Object_Swimlanes
+    this.explode(Avionics_framework);
+      
+        annotation(
+          initialLocation=(105,7,986,1325),
+          localLabel="架构设计过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="Avionics_framework:(0,0,986,1325)",
+        );
+      end model_Activity_Avionics_object_d0db;
+
+      Object model_Activity_Avionics_object_3372 refer Object_Swimlanes
+    this.explode(Avionics_mission);
+      
+        annotation(
+          initialLocation=(1099,6,595,1328),
+          localLabel="业务或使命分析过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="Avionics_mission:(0,0,595,1328)",
+        );
+      end model_Activity_Avionics_object_3372;
+
+      Object model_Activity_Avionics_object_bed1 refer Object_Swimlanes
+    this.explode(Avionics_stakeholderneed);
+      
+        annotation(
+          initialLocation=(2093,6,881,1329),
+          localLabel="利益相关方需要和需求定义过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="Avionics_stakeholderneed:(0,0,881,1329)",
+        );
+      end model_Activity_Avionics_object_bed1;
+
+      Object model_Activity_Avionics_object_4855 refer Object_Swimlanes
+    this.explode(Avionics_maintain);
+      
+        annotation(
+          initialLocation=(1701,6,385,1327),
+          localLabel="维护过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="Avionics_maintain:(0,0,385,1327)",
+        );
+      end model_Activity_Avionics_object_4855;
+
+      Relationship model_Activity_Avionics_relationship_3b2f refer Relationship_Control_Flow
+        Property model_Activity_Avionics_relationship_3b2f_property_da52 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_3b2f_property_ccab = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_3b2f_property_a6c9 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_3b2f_property_81f8 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_3b2f_property_8064 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_3b2f_property_f342 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role model_Activity_Avionics_fromrole_53ec refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end model_Activity_Avionics_fromrole_53ec;
+         Role model_Activity_Avionics_torole_5b59 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end model_Activity_Avionics_torole_5b59;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(243,737;767,-486),
+          polylineLocation="[60,0,-542,540]$[296,0,-306,540]$[296,-540,-306,0]$[532,-540,-70,0];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Activity_Avionics_relationship_3b2f;
+ 
+      Relationship model_Activity_Avionics_relationship_c3ce refer Relationship_Control_Flow
+        Property model_Activity_Avionics_relationship_c3ce_property_1aa5 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_c3ce_property_2f29 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_c3ce_property_fa62 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_c3ce_property_9aa8 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_c3ce_property_dd4b = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_c3ce_property_6dc2 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role model_Activity_Avionics_fromrole_60d4 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end model_Activity_Avionics_fromrole_60d4;
+         Role model_Activity_Avionics_torole_77fb refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end model_Activity_Avionics_torole_77fb;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(455,680;923,-586),
+          polylineLocation="[0,0,-706,657]$[353,0,-353,657]$[353,-657,-353,0]$[706,-657,0,0];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Activity_Avionics_relationship_c3ce;
+ 
+      Relationship model_Activity_Avionics_relationship_520c refer Relationship_Control_Flow
+        Property model_Activity_Avionics_relationship_520c_property_2bd6 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_520c_property_8179 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_520c_property_90cc = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_520c_property_5fdd = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_520c_property_f6f3 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_520c_property_2a0d = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role model_Activity_Avionics_fromrole_539c refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end model_Activity_Avionics_fromrole_539c;
+         Role model_Activity_Avionics_torole_3c51 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end model_Activity_Avionics_torole_3c51;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(318,751;699,-212),
+          polylineLocation="[48,83,-467,482]$[48,103,-467,502]$[264,103,-251,502]$[264,-534,-251,-135]$[516,-534,1,-135]$[516,-457,1,-58];(0.5,0.2905982905982906);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Activity_Avionics_relationship_520c;
+ 
+      Relationship model_Activity_Avionics_relationship_fe3f refer Relationship_Control_Flow
+        Property model_Activity_Avionics_relationship_fe3f_property_b45f = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_fe3f_property_6a25 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_fe3f_property_3c93 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_fe3f_property_9ff7 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_fe3f_property_f1b8 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Avionics_relationship_fe3f_property_d621 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role model_Activity_Avionics_fromrole_18bf refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end model_Activity_Avionics_fromrole_18bf;
+         Role model_Activity_Avionics_torole_e011 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end model_Activity_Avionics_torole_e011;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dashLine",
+          endLocation=(654,1087;470,-919),
+          polylineLocation="[-68,43,-370,1016]$[-68,112,-370,1085]$[151,112,-151,1085]$[151,-973,-151,0]$[302,-973,0,0];(1.0,0.5943396226415094);(0.0,0.7641509433962265)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Activity_Avionics_relationship_fe3f;
+ 
+    Connect(connector(Avionics_maintain_object_be1c,model_Activity_Avionics_relationship_3b2f.model_Activity_Avionics_fromrole_53ec),connector(Avionics_stakeholderneed_object_e504,model_Activity_Avionics_relationship_3b2f.model_Activity_Avionics_torole_5b59));
+ 
+    Connect(connector(Avionics_stakeholderneed_object_92de,model_Activity_Avionics_relationship_c3ce.model_Activity_Avionics_fromrole_60d4),connector(Avionics_System_object_f1b4,model_Activity_Avionics_relationship_c3ce.model_Activity_Avionics_torole_77fb));
+ 
+    Connect(connector(Avionics_mission_object_ab87_e13b,model_Activity_Avionics_relationship_520c.model_Activity_Avionics_fromrole_539c),connector(Avionics_maintain_object_5b68,model_Activity_Avionics_relationship_520c.model_Activity_Avionics_torole_3c51));
+ 
+    Connect(connector(Avionics_framework_object_3af1,model_Activity_Avionics_relationship_fe3f.model_Activity_Avionics_fromrole_18bf),connector(Avionics_mission_object_0779,model_Activity_Avionics_relationship_fe3f.model_Activity_Avionics_torole_e011));
+ 
+
+      annotation(
+        localLabel="活动图",
+    );
+    
+   end model_Activity_Avionics;

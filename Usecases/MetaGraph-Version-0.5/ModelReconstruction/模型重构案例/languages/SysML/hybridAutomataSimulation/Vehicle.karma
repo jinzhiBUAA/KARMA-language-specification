@@ -1,0 +1,204 @@
+codeGenerator Vehicle
+    File file1 = File("E://VehicleDriveCycle.mo");
+ 	entrypoint rule forheadline( ){
+		to
+			String e(
+				e <- "model VehicleDriveCycle" + "\n"; 
+			)
+		do{		
+			file1.append(e);
+			}
+	}
+	
+    Template add_comName(a, b) = <% <a> <b> %>;
+    Template add_comProperty(a) = <% <a> %>;
+    Template add_connection(a, b, c, d) = <% connect(<a>.<b>, <c>.<d>) annotation(Line(points = {{0, 0}, {0, 0}}, color = {0, 127, 0})); %>;
+	
+	rule addCombiTimeTable{
+		from
+			Object[Object_CombiTimeTable] com1;
+		in	Model[model_Graph_ModelicaModel_af046] model1;
+		to
+			String e(
+				e<-add_comName(com1.Property["className"],com1.Property["name"]) + "(tableOnFile =";
+			),
+			String f(
+				f<-add_comProperty(com1.Property["tableOnFile"]) + ", tableName =";
+			),
+			String g(
+				g<-add_comProperty(com1.Property["tableName"]) + ", extrapolation =";
+			),
+			String h(
+				h<-add_comProperty(com1.Property["extrapolation"]) + ", fileName =";
+			),
+			String j(
+				j<-add_comProperty(com1.Property["fileName"]) + ")" + "\n";
+			),
+			String k(
+				k<- "annotation(Placement(transformation(extent = {{-100, -10}, {-80, 10}})));" + "\n";
+			)
+
+		do{
+			file1.append(e + f + g + h + j + k);
+		}
+	}
+	
+	rule addSpeed{
+		from
+			Object[Object_Speed] sp1;
+		in	Model[model_Graph_ModelicaModel_af046] model1;
+		to
+			String e(
+				e<-add_comName(sp1.Property["className"],sp1.Property["name"]) + "(exact =";
+			),
+			String f(
+				f<-add_comProperty(sp1.Property["exact"]) + ")" + "\n";
+			),
+			String g(
+				g<- "annotation(Placement(transformation(extent = {{-60, -10}, {-40, 10}})));" + "\n";
+			)
+
+		do{
+			file1.append(e + f +g);
+		}
+	}
+	
+	rule addPowerSensor{
+		from
+			Object[Object_PowerSensor] ps1;
+		in	Model[model_Graph_ModelicaModel_af046] model1;
+		to
+			String e(
+				e<-add_comName(ps1.Property["className"],ps1.Property["name"]) + "\n";
+			),
+			String f(
+				f<- "annotation(Placement(visible = true, transformation(extent = {{-20, 10}, {0, -10}})));" + "\n";
+			)
+		do{
+			file1.append(e + f);
+		}
+	}
+	
+	rule addIntegrator{
+		from
+            Object[Object_Integrator] inter1;
+		in	Model[model_Graph_ModelicaModel_af046] model1;
+		to
+			String e(
+				e<-add_comName(inter1.Property["className"],inter1.Property["name"]) + "(u(unit=\"";
+			),
+            String f(
+				f<-add_comProperty(inter1.Property["u"]) + "\"),y(unit=\"";
+			),
+            String g(
+				g<-add_comProperty(inter1.Property["y"]) + "\"))" + "\n";
+			),
+			String h(
+				h<- "annotation(Placement(visible = true, transformation(extent = {10, -10}, {-10, 10}})));" + "\n";
+			)
+		do{
+			file1.append(e + f + g +h);
+		}
+	}
+	
+	rule addForceSensor{
+		from
+            Object[Object_ForceSensor] fs1;
+		in	Model[model_Graph_ModelicaModel_af046] model1;
+		to
+			String e(
+				e<-add_comName(fs1.Property["className"],fs1.Property["name"]) + "\n";
+			),
+			String f(
+				f<- "annotation(Placement(visible = true, transformation(extent = {{20, -10}, {40, 10}})));" + "\n";
+			)
+		do{
+			file1.append(e + f);
+		}
+	}
+	
+    rule addVehicle{
+		from
+            Object[Object_Vehicle] ve1;
+		in	Model[model_Graph_ModelicaModel_af046] model1;
+		to
+			String e(
+				e<-add_comName(ve1.Property["className"],ve1.Property["name"]) + "(j=";
+			),
+            String f(
+				f<-add_comProperty(ve1.Property["j"]) + ")" + "\n";
+			),
+			String g(
+				g<- "annotation(Placement(visible = true, transformation(extent = {{60,-10},{80,10}})));" + "\n";
+			)
+		do{
+			file1.append(e + f +g);
+		}
+	}
+	
+	rule addEquation{
+		from
+            Object[Object_Vehicle] ve1;
+		in	Model[model_Graph_ModelicaModel_af046] model1;
+		to
+			String e(
+				e<- "equation" + "\n";
+			)
+		do{
+			file1.append(e);
+		}
+	}
+
+	rule addCS_connection{
+		from
+            Object[Object_CombiTimeTable] com1;
+			Object[Object_Speed] sp1;
+			Relationship[Connection] cnn;
+			Point[Point_y] y1;
+			Point[Ponit_v_ref] v1;
+			com1.include(y1);
+			sp1.include(v1);
+			cnn.source(y1);
+			cnn.target(v1);
+		in	Model[model_Graph_ModelicaModel_af046] model1;
+		to
+			String e(
+				e<- add_connection(com1.Property["name"],y1.localName,sp1.Property["name"],v1.localName) + "\n";
+			)
+		do{
+			file1.append(e);
+		}
+	}
+	
+	rule addSP_connection{
+		from
+			Object[Object_Speed] sp1;
+			Object[Object_PowerSensor] po1;
+			Relationship[Connection] cnn;
+			Point[Property_flange] f1;
+			Point[Ponit_flange_a] fa1;
+			po1.include(fa1);
+			sp1.include(f1);
+			cnn.source(f1);
+			cnn.target(fa1);
+		in	Model[model_Graph_ModelicaModel_af046] model1;
+		to
+			String e(
+				e<- add_connection(sp1.Property["name"],f1.localName,po1.Property["name"],fa1.localName) + "\n";
+			)
+		do{
+			file1.append(e);
+		}
+	}
+	
+	endpoint rule forfootline1( ){
+		to
+			String e(
+				e <- "\n"+ "end VehicleDriveCycle;" ;
+			)
+		do{		
+			file1.append(e);
+		}
+	}
+	
+end Vehicle
