@@ -1,0 +1,32 @@
+codeGenerator OPD4
+
+ File file1 = File("D:/DEMO5.opd");
+ 
+  entrypoint rule forheadline( ){
+		to 
+			String e(
+				e <-  "<aas:>" + "\n";
+			)
+			do{
+				file1.append(e);
+			}
+  }
+  rule Rule_OPD_PT{
+	 from
+	   Object[xAdHYpJf] OS;
+	   in Model[model_xmqKfUV9_7ae9d] MD;
+	      using{
+			  Template OPD_Assemble_Start(P1,P2) =<%
+					\\<Assemble Main=\"<P1>\" Source=\"<P2>\" Target=\"\">   
+			  \n%>;
+	        }  
+        to			
+			String d(
+				d <- OPD_Assemble_Start(OS.Property["IdShort"],OS.Property["Id"])+"\n";
+			)					
+			do{
+			file1.append(d);
+		}
+  }  
+
+end OPD4

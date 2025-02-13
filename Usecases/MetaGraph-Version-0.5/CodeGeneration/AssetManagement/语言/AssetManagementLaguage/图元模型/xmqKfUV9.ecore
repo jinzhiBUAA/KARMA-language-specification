@@ -1,0 +1,1897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="xmqKfUV9" nsURI="D:/runtime-EclipseApplication/AssetManagement/语言/AssetManagementLaguage/图元模型/xmqKfUV9.karma" nsPrefix="xmqKfUV9">
+  <eClassifiers xsi:type="ecore:EClass" name="DiagramGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//Diagram"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BuiltIn">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//Diagram"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LayoutGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KLayout"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MatrixGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KMatrix"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GanttGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KPlugin"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GraphGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ObjectGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PointGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KPoint"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="direction">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="position">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KProperty"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refValue">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RelationshipGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KRelationship"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KRole"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InputPointGen" eSuperTypes="//PointGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OutputPointGen" eSuperTypes="//PointGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UndirectedPointGen" eSuperTypes="//PointGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ExportRoleGen" eSuperTypes="//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ImportRoleGen" eSuperTypes="//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TableGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KTable"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TableRowGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KTableRow"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TableCellGen">
+    <eSuperTypes href="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KTableCell"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model__xmqKfUV9" eSuperTypes="//GraphGen //Def__xmqKfUV9__yXXMRsix__explodes //Def__xmqKfUV9__xAdHYpJf__explodes //Def__xmqKfUV9__tGQ5X7BP__explodes //Def__xmqKfUV9__qkOLKmxO__explodes //Def__xmqKfUV9__uZ04c0Fd__explodes">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="AAS [ xmqKfUV9 ] "/>
+      <details key="self" value="xmqKfUV9"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="AAS"/>
+    </eAnnotations>
+    <eAnnotations source="Binding"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="layouts" upperBound="-1" eType="//Tag__Layout__xmqKfUV9" containment="true" eOpposite="//Tag__Layout__xmqKfUV9/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tables" upperBound="-1" eType="//Tag__Table__xmqKfUV9" containment="true" eOpposite="//Tag__Table__xmqKfUV9/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="matrixs" upperBound="-1" eType="//Tag__Matrix__xmqKfUV9" containment="true" eOpposite="//Tag__Matrix__xmqKfUV9/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="gantts" upperBound="-1" eType="//Gantt" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__xmqKfUV9" containment="true" eOpposite="//Tag__Property__xmqKfUV9/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="objects" upperBound="-1" eType="//Tag__Object__xmqKfUV9" containment="true" eOpposite="//Tag__Object__xmqKfUV9/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="relationships" upperBound="-1" eType="//Tag__Relationship__xmqKfUV9" containment="true" eOpposite="//Tag__Relationship__xmqKfUV9/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Layout__xmqKfUV9" eSuperTypes="//LayoutGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="diagramKind" eType="//diagramKinds"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modelElementType" eType="//modelElementTypes"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modelElementName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__xmqKfUV9" eOpposite="//Model__xmqKfUV9/layouts"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="diagramKinds">
+    <eLiterals name="bdd"/>
+    <eLiterals name="idd" value="1"/>
+    <eLiterals name="uc" value="2"/>
+    <eLiterals name="act" value="3"/>
+    <eLiterals name="sd" value="4"/>
+    <eLiterals name="stm" value="5"/>
+    <eLiterals name="par" value="6"/>
+    <eLiterals name="req" value="7"/>
+    <eLiterals name="pkg" value="8"/>
+    <eLiterals name="annotation" value="9"/>
+    <eLiterals name="others" value="10"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="modelElementTypes">
+    <eLiterals name="package"/>
+    <eLiterals name="model" value="1"/>
+    <eLiterals name="modelLibrary" value="2"/>
+    <eLiterals name="view" value="3"/>
+    <eLiterals name="block" value="4"/>
+    <eLiterals name="constraintBlock" value="5"/>
+    <eLiterals name="activity" value="6"/>
+    <eLiterals name="interaction" value="7"/>
+    <eLiterals name="stateMachine" value="8"/>
+    <eLiterals name="profile" value="9"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__layout" eSuperTypes="//Tag__Layout__xmqKfUV9 //LayoutGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="布局插件"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Table__xmqKfUV9" eSuperTypes="//TableGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__xmqKfUV9" eOpposite="//Model__xmqKfUV9/tables"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__table" eSuperTypes="//Tag__Table__xmqKfUV9 //TableGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="表单"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Matrix__xmqKfUV9" eSuperTypes="//MatrixGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__xmqKfUV9" eOpposite="//Model__xmqKfUV9/matrixs"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__matrix" eSuperTypes="//Tag__Matrix__xmqKfUV9 //MatrixGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="表单"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Gantt" eSuperTypes="//GanttGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="time" eType="//times"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeUnit">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startTime">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endTime">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="color">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ganttTasks" upperBound="-1" eType="//GanttTask" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="times">
+    <eLiterals name="YEAR"/>
+    <eLiterals name="MONTH" value="1"/>
+    <eLiterals name="DAY" value="2"/>
+    <eLiterals name="HOUR" value="3"/>
+    <eLiterals name="MINUTE" value="4"/>
+    <eLiterals name="SECOND" value="5"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__gantt" eSuperTypes="//Gantt"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GanttTask" abstract="true" eSuperTypes="//GanttGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ganttTaskElements" upperBound="-1" eType="//GanttTaskElement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__ganttTask" eSuperTypes="//GanttTask"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GanttTaskElement" abstract="true" eSuperTypes="//GanttGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementOffset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementLength">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementColor">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__ganttTaskElement" eSuperTypes="//GanttTaskElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__xmqKfUV9" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__xmqKfUV9" eOpposite="//Model__xmqKfUV9/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Object__xmqKfUV9" abstract="true" eSuperTypes="//ObjectGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__xmqKfUV9" eOpposite="//Model__xmqKfUV9/objects"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Relationship__xmqKfUV9" abstract="true" eSuperTypes="//RelationshipGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false" lowerBound="1" eType="//Model__xmqKfUV9" eOpposite="//Model__xmqKfUV9/relationships"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__ejr6hxil" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="URIOfTheProduct"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__ejr6hxil" containment="true" eOpposite="//Tag__Property__ejr6hxil/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__ejr6hxil" containment="true" eOpposite="//Tag__InputPoint__ejr6hxil/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__ejr6hxil" containment="true" eOpposite="//Tag__OutputPoint__ejr6hxil/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__ejr6hxil" containment="true" eOpposite="//Tag__UndirectedPoint__ejr6hxil/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__ejr6hxil" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__ejr6hxil" eOpposite="//Object__ejr6hxil/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__ejr6hxil" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__ejr6hxil" eOpposite="//Object__ejr6hxil/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__ejr6hxil" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__ejr6hxil" eOpposite="//Object__ejr6hxil/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__ejr6hxil" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__ejr6hxil" eOpposite="//Object__ejr6hxil/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__u3jKS8fI" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SemanticId"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__ejr6hxil__ejr6hxil_u3jKS8fI_85b756" eSuperTypes="//Property__u3jKS8fI //Tag__Property__ejr6hxil">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="SemanticId [ ejr6hxil_u3jKS8fI_85b756 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="SemanticId"/>
+      <details key="value" value="null"/>
+      <details key="self" value="ejr6hxil_u3jKS8fI_85b756"/>
+      <details key="MetaPropertyId" value="u3jKS8fI"/>
+      <details key="parent" value="ejr6hxil"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SemanticId"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__z58qGhze" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="AssetInformation"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__z58qGhze" containment="true" eOpposite="//Tag__Property__z58qGhze/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__z58qGhze" containment="true" eOpposite="//Tag__InputPoint__z58qGhze/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__z58qGhze" containment="true" eOpposite="//Tag__OutputPoint__z58qGhze/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__z58qGhze" containment="true" eOpposite="//Tag__UndirectedPoint__z58qGhze/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__z58qGhze" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__z58qGhze" eOpposite="//Object__z58qGhze/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__z58qGhze" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__z58qGhze" eOpposite="//Object__z58qGhze/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__z58qGhze" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__z58qGhze" eOpposite="//Object__z58qGhze/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__z58qGhze" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__z58qGhze" eOpposite="//Object__z58qGhze/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__xFkw794q" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Kind"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__z58qGhze__z58qGhze_xFkw794q_d565b2" eSuperTypes="//Property__xFkw794q //Tag__Property__z58qGhze">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Kind [ z58qGhze_xFkw794q_d565b2 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Kind"/>
+      <details key="value" value="null"/>
+      <details key="self" value="z58qGhze_xFkw794q_d565b2"/>
+      <details key="MetaPropertyId" value="xFkw794q"/>
+      <details key="parent" value="z58qGhze"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Kind"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__mCxsKE8M" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="GlobalAssetId"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__z58qGhze__z58qGhze_mCxsKE8M_c8176f" eSuperTypes="//Property__mCxsKE8M //Tag__Property__z58qGhze">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="GlobalAssetId [ z58qGhze_mCxsKE8M_c8176f ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="GlobalAssetId"/>
+      <details key="value" value="null"/>
+      <details key="self" value="z58qGhze_mCxsKE8M_c8176f"/>
+      <details key="MetaPropertyId" value="mCxsKE8M"/>
+      <details key="parent" value="z58qGhze"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="GlobalAssetId"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__xBCQ7yBV" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="PropertyConcept"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__xBCQ7yBV" containment="true" eOpposite="//Tag__Property__xBCQ7yBV/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__xBCQ7yBV" containment="true" eOpposite="//Tag__InputPoint__xBCQ7yBV/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__xBCQ7yBV" containment="true" eOpposite="//Tag__OutputPoint__xBCQ7yBV/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__xBCQ7yBV" containment="true" eOpposite="//Tag__UndirectedPoint__xBCQ7yBV/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__xBCQ7yBV" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__xBCQ7yBV" eOpposite="//Object__xBCQ7yBV/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__xBCQ7yBV" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__xBCQ7yBV" eOpposite="//Object__xBCQ7yBV/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__xBCQ7yBV" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__xBCQ7yBV" eOpposite="//Object__xBCQ7yBV/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__xBCQ7yBV" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__xBCQ7yBV" eOpposite="//Object__xBCQ7yBV/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__xMFCGr6i" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="IdShort"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xBCQ7yBV__xBCQ7yBV_xMFCGr6i_47a799" eSuperTypes="//Property__xMFCGr6i //Tag__Property__xBCQ7yBV">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="IdShort [ xBCQ7yBV_xMFCGr6i_47a799 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="IdShort"/>
+      <details key="value" value="null"/>
+      <details key="self" value="xBCQ7yBV_xMFCGr6i_47a799"/>
+      <details key="MetaPropertyId" value="xMFCGr6i"/>
+      <details key="parent" value="xBCQ7yBV"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="IdShort"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xBCQ7yBV__xBCQ7yBV_u3jKS8fI_7c6dd8" eSuperTypes="//Property__u3jKS8fI //Tag__Property__xBCQ7yBV">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="SemanticId [ xBCQ7yBV_u3jKS8fI_7c6dd8 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="SemanticId"/>
+      <details key="value" value="null"/>
+      <details key="self" value="xBCQ7yBV_u3jKS8fI_7c6dd8"/>
+      <details key="MetaPropertyId" value="u3jKS8fI"/>
+      <details key="parent" value="xBCQ7yBV"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SemanticId"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__fU6Ypm3a" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="DEPreferedName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xBCQ7yBV__xBCQ7yBV_fU6Ypm3a_3a966b" eSuperTypes="//Property__fU6Ypm3a //Tag__Property__xBCQ7yBV">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="DEPreferedName [ xBCQ7yBV_fU6Ypm3a_3a966b ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="DEPreferedName"/>
+      <details key="value" value="null"/>
+      <details key="self" value="xBCQ7yBV_fU6Ypm3a_3a966b"/>
+      <details key="MetaPropertyId" value="fU6Ypm3a"/>
+      <details key="parent" value="xBCQ7yBV"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="DEPreferedName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__mdW0ZG8C" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="DEDefinition"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xBCQ7yBV__xBCQ7yBV_mdW0ZG8C_5accdd" eSuperTypes="//Property__mdW0ZG8C //Tag__Property__xBCQ7yBV">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="DEDefinition [ xBCQ7yBV_mdW0ZG8C_5accdd ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="DEDefinition"/>
+      <details key="value" value="null"/>
+      <details key="self" value="xBCQ7yBV_mdW0ZG8C_5accdd"/>
+      <details key="MetaPropertyId" value="mdW0ZG8C"/>
+      <details key="parent" value="xBCQ7yBV"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="DEDefinition"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__o0JuAd2c" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ENPreferedName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xBCQ7yBV__xBCQ7yBV_o0JuAd2c_75ec3b" eSuperTypes="//Property__o0JuAd2c //Tag__Property__xBCQ7yBV">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="ENPreferedName [ xBCQ7yBV_o0JuAd2c_75ec3b ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="ENPreferedName"/>
+      <details key="value" value="null"/>
+      <details key="self" value="xBCQ7yBV_o0JuAd2c_75ec3b"/>
+      <details key="MetaPropertyId" value="o0JuAd2c"/>
+      <details key="parent" value="xBCQ7yBV"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ENPreferedName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__rCQu0cHV" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ENDefinition"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xBCQ7yBV__xBCQ7yBV_rCQu0cHV_d43784" eSuperTypes="//Property__rCQu0cHV //Tag__Property__xBCQ7yBV">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="ENDefinition [ xBCQ7yBV_rCQu0cHV_d43784 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="ENDefinition"/>
+      <details key="value" value="null"/>
+      <details key="self" value="xBCQ7yBV_rCQu0cHV_d43784"/>
+      <details key="MetaPropertyId" value="rCQu0cHV"/>
+      <details key="parent" value="xBCQ7yBV"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ENDefinition"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__yXXMRsix" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Concept"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__yXXMRsix" containment="true" eOpposite="//Tag__Property__yXXMRsix/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__yXXMRsix" containment="true" eOpposite="//Tag__InputPoint__yXXMRsix/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__yXXMRsix" containment="true" eOpposite="//Tag__OutputPoint__yXXMRsix/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__yXXMRsix" containment="true" eOpposite="//Tag__UndirectedPoint__yXXMRsix/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__yXXMRsix" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__yXXMRsix" eOpposite="//Object__yXXMRsix/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__yXXMRsix" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__yXXMRsix" eOpposite="//Object__yXXMRsix/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__yXXMRsix" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__yXXMRsix" eOpposite="//Object__yXXMRsix/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__yXXMRsix" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__yXXMRsix" eOpposite="//Object__yXXMRsix/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__sqNTWHyS" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="File"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__sqNTWHyS" containment="true" eOpposite="//Tag__Property__sqNTWHyS/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__sqNTWHyS" containment="true" eOpposite="//Tag__InputPoint__sqNTWHyS/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__sqNTWHyS" containment="true" eOpposite="//Tag__OutputPoint__sqNTWHyS/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__sqNTWHyS" containment="true" eOpposite="//Tag__UndirectedPoint__sqNTWHyS/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__sqNTWHyS" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__sqNTWHyS" eOpposite="//Object__sqNTWHyS/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__sqNTWHyS" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__sqNTWHyS" eOpposite="//Object__sqNTWHyS/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__sqNTWHyS" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__sqNTWHyS" eOpposite="//Object__sqNTWHyS/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__sqNTWHyS" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__sqNTWHyS" eOpposite="//Object__sqNTWHyS/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__sqNTWHyS__sqNTWHyS_xMFCGr6i_036165" eSuperTypes="//Property__xMFCGr6i //Tag__Property__sqNTWHyS">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="IdShort [ sqNTWHyS_xMFCGr6i_036165 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="IdShort"/>
+      <details key="value" value="null"/>
+      <details key="self" value="sqNTWHyS_xMFCGr6i_036165"/>
+      <details key="MetaPropertyId" value="xMFCGr6i"/>
+      <details key="parent" value="sqNTWHyS"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="IdShort"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__gQ8rpEIJ" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Category"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__sqNTWHyS__sqNTWHyS_gQ8rpEIJ_c60eba" eSuperTypes="//Property__gQ8rpEIJ //Tag__Property__sqNTWHyS">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Category [ sqNTWHyS_gQ8rpEIJ_c60eba ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Category"/>
+      <details key="value" value="null"/>
+      <details key="self" value="sqNTWHyS_gQ8rpEIJ_c60eba"/>
+      <details key="MetaPropertyId" value="gQ8rpEIJ"/>
+      <details key="parent" value="sqNTWHyS"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Category"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__sqNTWHyS__sqNTWHyS_u3jKS8fI_c0d5af" eSuperTypes="//Property__u3jKS8fI //Tag__Property__sqNTWHyS">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="SemanticId [ sqNTWHyS_u3jKS8fI_c0d5af ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="SemanticId"/>
+      <details key="value" value="null"/>
+      <details key="self" value="sqNTWHyS_u3jKS8fI_c0d5af"/>
+      <details key="MetaPropertyId" value="u3jKS8fI"/>
+      <details key="parent" value="sqNTWHyS"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SemanticId"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__vJgXdStH" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Id"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__sqNTWHyS__sqNTWHyS_vJgXdStH_17b9cf" eSuperTypes="//Property__vJgXdStH //Tag__Property__sqNTWHyS">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Id [ sqNTWHyS_vJgXdStH_17b9cf ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Id"/>
+      <details key="value" value="null"/>
+      <details key="self" value="sqNTWHyS_vJgXdStH_17b9cf"/>
+      <details key="MetaPropertyId" value="vJgXdStH"/>
+      <details key="parent" value="sqNTWHyS"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Id"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__ahsaoDvq" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Value"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__sqNTWHyS__sqNTWHyS_ahsaoDvq_f5392f" eSuperTypes="//Property__ahsaoDvq //Tag__Property__sqNTWHyS">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Value [ sqNTWHyS_ahsaoDvq_f5392f ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Value"/>
+      <details key="value" value="null"/>
+      <details key="self" value="sqNTWHyS_ahsaoDvq_f5392f"/>
+      <details key="MetaPropertyId" value="ahsaoDvq"/>
+      <details key="parent" value="sqNTWHyS"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Value"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__ty3bARyd" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ContentType"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__sqNTWHyS__sqNTWHyS_ty3bARyd_045bf9" eSuperTypes="//Property__ty3bARyd //Tag__Property__sqNTWHyS">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="ContentType [ sqNTWHyS_ty3bARyd_045bf9 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="ContentType"/>
+      <details key="value" value="null"/>
+      <details key="self" value="sqNTWHyS_ty3bARyd_045bf9"/>
+      <details key="MetaPropertyId" value="ty3bARyd"/>
+      <details key="parent" value="sqNTWHyS"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ContentType"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__xAdHYpJf" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="AssetAdministrationShell"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__xAdHYpJf" containment="true" eOpposite="//Tag__Property__xAdHYpJf/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__xAdHYpJf" containment="true" eOpposite="//Tag__InputPoint__xAdHYpJf/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__xAdHYpJf" containment="true" eOpposite="//Tag__OutputPoint__xAdHYpJf/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__xAdHYpJf" containment="true" eOpposite="//Tag__UndirectedPoint__xAdHYpJf/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__xAdHYpJf" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__xAdHYpJf" eOpposite="//Object__xAdHYpJf/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__xAdHYpJf" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__xAdHYpJf" eOpposite="//Object__xAdHYpJf/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__xAdHYpJf" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__xAdHYpJf" eOpposite="//Object__xAdHYpJf/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__xAdHYpJf" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__xAdHYpJf" eOpposite="//Object__xAdHYpJf/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xAdHYpJf__xAdHYpJf_xMFCGr6i_3e443e" eSuperTypes="//Property__xMFCGr6i //Tag__Property__xAdHYpJf">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="IdShort [ xAdHYpJf_xMFCGr6i_3e443e ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="IdShort"/>
+      <details key="value" value="null"/>
+      <details key="self" value="xAdHYpJf_xMFCGr6i_3e443e"/>
+      <details key="MetaPropertyId" value="xMFCGr6i"/>
+      <details key="parent" value="xAdHYpJf"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="IdShort"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xAdHYpJf__xAdHYpJf_vJgXdStH_7e75b7" eSuperTypes="//Property__vJgXdStH //Tag__Property__xAdHYpJf">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Id [ xAdHYpJf_vJgXdStH_7e75b7 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Id"/>
+      <details key="value" value="null"/>
+      <details key="self" value="xAdHYpJf_vJgXdStH_7e75b7"/>
+      <details key="MetaPropertyId" value="vJgXdStH"/>
+      <details key="parent" value="xAdHYpJf"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Id"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xAdHYpJf__xAdHYpJf_xFkw794q_4e8ed4" eSuperTypes="//Property__xFkw794q //Tag__Property__xAdHYpJf">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Kind [ xAdHYpJf_xFkw794q_4e8ed4 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Kind"/>
+      <details key="value" value="null"/>
+      <details key="self" value="xAdHYpJf_xFkw794q_4e8ed4"/>
+      <details key="MetaPropertyId" value="xFkw794q"/>
+      <details key="parent" value="xAdHYpJf"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Kind"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xAdHYpJf__xAdHYpJf_mCxsKE8M_4ce2e9" eSuperTypes="//Property__mCxsKE8M //Tag__Property__xAdHYpJf">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="GlobalAssetId [ xAdHYpJf_mCxsKE8M_4ce2e9 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="GlobalAssetId"/>
+      <details key="value" value="null"/>
+      <details key="self" value="xAdHYpJf_mCxsKE8M_4ce2e9"/>
+      <details key="MetaPropertyId" value="mCxsKE8M"/>
+      <details key="parent" value="xAdHYpJf"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="GlobalAssetId"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__tGQ5X7BP" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Submodel"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__tGQ5X7BP" containment="true" eOpposite="//Tag__Property__tGQ5X7BP/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__tGQ5X7BP" containment="true" eOpposite="//Tag__InputPoint__tGQ5X7BP/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__tGQ5X7BP" containment="true" eOpposite="//Tag__OutputPoint__tGQ5X7BP/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__tGQ5X7BP" containment="true" eOpposite="//Tag__UndirectedPoint__tGQ5X7BP/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__tGQ5X7BP" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__tGQ5X7BP" eOpposite="//Object__tGQ5X7BP/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__tGQ5X7BP" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__tGQ5X7BP" eOpposite="//Object__tGQ5X7BP/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__tGQ5X7BP" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__tGQ5X7BP" eOpposite="//Object__tGQ5X7BP/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__tGQ5X7BP" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__tGQ5X7BP" eOpposite="//Object__tGQ5X7BP/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__fsfLzfKV" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SubmodelRef"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__tGQ5X7BP__tGQ5X7BP_fsfLzfKV_fa43fe" eSuperTypes="//Property__fsfLzfKV //Tag__Property__tGQ5X7BP">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="SubmodelRef [ tGQ5X7BP_fsfLzfKV_fa43fe ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="SubmodelRef"/>
+      <details key="value" value="null"/>
+      <details key="self" value="tGQ5X7BP_fsfLzfKV_fa43fe"/>
+      <details key="MetaPropertyId" value="fsfLzfKV"/>
+      <details key="parent" value="tGQ5X7BP"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SubmodelRef"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__tGQ5X7BP__tGQ5X7BP_xMFCGr6i_99fe61" eSuperTypes="//Property__xMFCGr6i //Tag__Property__tGQ5X7BP">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="IdShort [ tGQ5X7BP_xMFCGr6i_99fe61 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="IdShort"/>
+      <details key="value" value="null"/>
+      <details key="self" value="tGQ5X7BP_xMFCGr6i_99fe61"/>
+      <details key="MetaPropertyId" value="xMFCGr6i"/>
+      <details key="parent" value="tGQ5X7BP"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="IdShort"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__tGQ5X7BP__tGQ5X7BP_vJgXdStH_d217de" eSuperTypes="//Property__vJgXdStH //Tag__Property__tGQ5X7BP">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Id [ tGQ5X7BP_vJgXdStH_d217de ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Id"/>
+      <details key="value" value="null"/>
+      <details key="self" value="tGQ5X7BP_vJgXdStH_d217de"/>
+      <details key="MetaPropertyId" value="vJgXdStH"/>
+      <details key="parent" value="tGQ5X7BP"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Id"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__tGQ5X7BP__tGQ5X7BP_xFkw794q_bfa2b3" eSuperTypes="//Property__xFkw794q //Tag__Property__tGQ5X7BP">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Kind [ tGQ5X7BP_xFkw794q_bfa2b3 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Kind"/>
+      <details key="value" value="null"/>
+      <details key="self" value="tGQ5X7BP_xFkw794q_bfa2b3"/>
+      <details key="MetaPropertyId" value="xFkw794q"/>
+      <details key="parent" value="tGQ5X7BP"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Kind"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__tGQ5X7BP__tGQ5X7BP_u3jKS8fI_97b88a" eSuperTypes="//Property__u3jKS8fI //Tag__Property__tGQ5X7BP">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="SemanticId [ tGQ5X7BP_u3jKS8fI_97b88a ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="SemanticId"/>
+      <details key="value" value="null"/>
+      <details key="self" value="tGQ5X7BP_u3jKS8fI_97b88a"/>
+      <details key="MetaPropertyId" value="u3jKS8fI"/>
+      <details key="parent" value="tGQ5X7BP"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SemanticId"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__r5ZzO4H1" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Nameplate3.0"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__r5ZzO4H1" containment="true" eOpposite="//Tag__Property__r5ZzO4H1/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__r5ZzO4H1" containment="true" eOpposite="//Tag__InputPoint__r5ZzO4H1/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__r5ZzO4H1" containment="true" eOpposite="//Tag__OutputPoint__r5ZzO4H1/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__r5ZzO4H1" containment="true" eOpposite="//Tag__UndirectedPoint__r5ZzO4H1/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__r5ZzO4H1" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__r5ZzO4H1" eOpposite="//Object__r5ZzO4H1/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__r5ZzO4H1" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__r5ZzO4H1" eOpposite="//Object__r5ZzO4H1/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__r5ZzO4H1" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__r5ZzO4H1" eOpposite="//Object__r5ZzO4H1/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__r5ZzO4H1" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__r5ZzO4H1" eOpposite="//Object__r5ZzO4H1/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__iBG10dk2" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="URIOfTheProduct"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__r5ZzO4H1__r5ZzO4H1_iBG10dk2_2cc4f7" eSuperTypes="//Property__iBG10dk2 //Tag__Property__r5ZzO4H1">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="URIOfTheProduct [ r5ZzO4H1_iBG10dk2_2cc4f7 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="URIOfTheProduct"/>
+      <details key="value" value="null"/>
+      <details key="self" value="r5ZzO4H1_iBG10dk2_2cc4f7"/>
+      <details key="MetaPropertyId" value="iBG10dk2"/>
+      <details key="parent" value="r5ZzO4H1"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="URIOfTheProduct"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__qkOLKmxO" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SubmodelElementCollectionConcept"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__qkOLKmxO" containment="true" eOpposite="//Tag__Property__qkOLKmxO/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__qkOLKmxO" containment="true" eOpposite="//Tag__InputPoint__qkOLKmxO/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__qkOLKmxO" containment="true" eOpposite="//Tag__OutputPoint__qkOLKmxO/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__qkOLKmxO" containment="true" eOpposite="//Tag__UndirectedPoint__qkOLKmxO/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__qkOLKmxO" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__qkOLKmxO" eOpposite="//Object__qkOLKmxO/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__qkOLKmxO" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__qkOLKmxO" eOpposite="//Object__qkOLKmxO/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__qkOLKmxO" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__qkOLKmxO" eOpposite="//Object__qkOLKmxO/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__qkOLKmxO" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__qkOLKmxO" eOpposite="//Object__qkOLKmxO/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__csRUzqXo" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ConceptFile"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__csRUzqXo" containment="true" eOpposite="//Tag__Property__csRUzqXo/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__csRUzqXo" containment="true" eOpposite="//Tag__InputPoint__csRUzqXo/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__csRUzqXo" containment="true" eOpposite="//Tag__OutputPoint__csRUzqXo/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__csRUzqXo" containment="true" eOpposite="//Tag__UndirectedPoint__csRUzqXo/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__csRUzqXo" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__csRUzqXo" eOpposite="//Object__csRUzqXo/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__csRUzqXo" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__csRUzqXo" eOpposite="//Object__csRUzqXo/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__csRUzqXo" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__csRUzqXo" eOpposite="//Object__csRUzqXo/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__csRUzqXo" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__csRUzqXo" eOpposite="//Object__csRUzqXo/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__csRUzqXo__csRUzqXo_xMFCGr6i_3ccf22" eSuperTypes="//Property__xMFCGr6i //Tag__Property__csRUzqXo">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="IdShort [ csRUzqXo_xMFCGr6i_3ccf22 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="IdShort"/>
+      <details key="value" value="null"/>
+      <details key="self" value="csRUzqXo_xMFCGr6i_3ccf22"/>
+      <details key="MetaPropertyId" value="xMFCGr6i"/>
+      <details key="parent" value="csRUzqXo"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="IdShort"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__csRUzqXo__csRUzqXo_u3jKS8fI_b4ed15" eSuperTypes="//Property__u3jKS8fI //Tag__Property__csRUzqXo">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="SemanticId [ csRUzqXo_u3jKS8fI_b4ed15 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="SemanticId"/>
+      <details key="value" value="null"/>
+      <details key="self" value="csRUzqXo_u3jKS8fI_b4ed15"/>
+      <details key="MetaPropertyId" value="u3jKS8fI"/>
+      <details key="parent" value="csRUzqXo"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SemanticId"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__csRUzqXo__csRUzqXo_fU6Ypm3a_0374cf" eSuperTypes="//Property__fU6Ypm3a //Tag__Property__csRUzqXo">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="DEPreferedName [ csRUzqXo_fU6Ypm3a_0374cf ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="DEPreferedName"/>
+      <details key="value" value="null"/>
+      <details key="self" value="csRUzqXo_fU6Ypm3a_0374cf"/>
+      <details key="MetaPropertyId" value="fU6Ypm3a"/>
+      <details key="parent" value="csRUzqXo"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="DEPreferedName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__csRUzqXo__csRUzqXo_o0JuAd2c_75d921" eSuperTypes="//Property__o0JuAd2c //Tag__Property__csRUzqXo">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="ENPreferedName [ csRUzqXo_o0JuAd2c_75d921 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="ENPreferedName"/>
+      <details key="value" value="null"/>
+      <details key="self" value="csRUzqXo_o0JuAd2c_75d921"/>
+      <details key="MetaPropertyId" value="o0JuAd2c"/>
+      <details key="parent" value="csRUzqXo"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ENPreferedName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__csRUzqXo__csRUzqXo_mdW0ZG8C_a1c7ac" eSuperTypes="//Property__mdW0ZG8C //Tag__Property__csRUzqXo">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="DEDefinition [ csRUzqXo_mdW0ZG8C_a1c7ac ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="DEDefinition"/>
+      <details key="value" value="null"/>
+      <details key="self" value="csRUzqXo_mdW0ZG8C_a1c7ac"/>
+      <details key="MetaPropertyId" value="mdW0ZG8C"/>
+      <details key="parent" value="csRUzqXo"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="DEDefinition"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__csRUzqXo__csRUzqXo_rCQu0cHV_f77c0d" eSuperTypes="//Property__rCQu0cHV //Tag__Property__csRUzqXo">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="ENDefinition [ csRUzqXo_rCQu0cHV_f77c0d ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="ENDefinition"/>
+      <details key="value" value="null"/>
+      <details key="self" value="csRUzqXo_rCQu0cHV_f77c0d"/>
+      <details key="MetaPropertyId" value="rCQu0cHV"/>
+      <details key="parent" value="csRUzqXo"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ENDefinition"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__irWZ9srI" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="shortName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__csRUzqXo__csRUzqXo_irWZ9srI_2bc48d" eSuperTypes="//Property__irWZ9srI //Tag__Property__csRUzqXo">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="shortName [ csRUzqXo_irWZ9srI_2bc48d ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="shortName"/>
+      <details key="value" value="null"/>
+      <details key="self" value="csRUzqXo_irWZ9srI_2bc48d"/>
+      <details key="MetaPropertyId" value="irWZ9srI"/>
+      <details key="parent" value="csRUzqXo"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="shortName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__uWRxmbaZ" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Property"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__uWRxmbaZ" containment="true" eOpposite="//Tag__Property__uWRxmbaZ/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__uWRxmbaZ" containment="true" eOpposite="//Tag__InputPoint__uWRxmbaZ/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__uWRxmbaZ" containment="true" eOpposite="//Tag__OutputPoint__uWRxmbaZ/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__uWRxmbaZ" containment="true" eOpposite="//Tag__UndirectedPoint__uWRxmbaZ/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__uWRxmbaZ" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__uWRxmbaZ" eOpposite="//Object__uWRxmbaZ/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__uWRxmbaZ" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__uWRxmbaZ" eOpposite="//Object__uWRxmbaZ/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__uWRxmbaZ" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__uWRxmbaZ" eOpposite="//Object__uWRxmbaZ/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__uWRxmbaZ" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__uWRxmbaZ" eOpposite="//Object__uWRxmbaZ/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uWRxmbaZ__uWRxmbaZ_xMFCGr6i_7be66f" eSuperTypes="//Property__xMFCGr6i //Tag__Property__uWRxmbaZ">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="IdShort [ uWRxmbaZ_xMFCGr6i_7be66f ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="IdShort"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uWRxmbaZ_xMFCGr6i_7be66f"/>
+      <details key="MetaPropertyId" value="xMFCGr6i"/>
+      <details key="parent" value="uWRxmbaZ"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="IdShort"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uWRxmbaZ__uWRxmbaZ_gQ8rpEIJ_081c6c" eSuperTypes="//Property__gQ8rpEIJ //Tag__Property__uWRxmbaZ">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Category [ uWRxmbaZ_gQ8rpEIJ_081c6c ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Category"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uWRxmbaZ_gQ8rpEIJ_081c6c"/>
+      <details key="MetaPropertyId" value="gQ8rpEIJ"/>
+      <details key="parent" value="uWRxmbaZ"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Category"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uWRxmbaZ__uWRxmbaZ_u3jKS8fI_0610de" eSuperTypes="//Property__u3jKS8fI //Tag__Property__uWRxmbaZ">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="SemanticId [ uWRxmbaZ_u3jKS8fI_0610de ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="SemanticId"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uWRxmbaZ_u3jKS8fI_0610de"/>
+      <details key="MetaPropertyId" value="u3jKS8fI"/>
+      <details key="parent" value="uWRxmbaZ"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SemanticId"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uWRxmbaZ__uWRxmbaZ_vJgXdStH_c60268" eSuperTypes="//Property__vJgXdStH //Tag__Property__uWRxmbaZ">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Id [ uWRxmbaZ_vJgXdStH_c60268 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Id"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uWRxmbaZ_vJgXdStH_c60268"/>
+      <details key="MetaPropertyId" value="vJgXdStH"/>
+      <details key="parent" value="uWRxmbaZ"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Id"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__mZbBbrg9" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ValueType"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uWRxmbaZ__uWRxmbaZ_mZbBbrg9_4978d6" eSuperTypes="//Property__mZbBbrg9 //Tag__Property__uWRxmbaZ">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="ValueType [ uWRxmbaZ_mZbBbrg9_4978d6 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="ValueType"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uWRxmbaZ_mZbBbrg9_4978d6"/>
+      <details key="MetaPropertyId" value="mZbBbrg9"/>
+      <details key="parent" value="uWRxmbaZ"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ValueType"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uWRxmbaZ__uWRxmbaZ_ahsaoDvq_95547f" eSuperTypes="//Property__ahsaoDvq //Tag__Property__uWRxmbaZ">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Value [ uWRxmbaZ_ahsaoDvq_95547f ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Value"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uWRxmbaZ_ahsaoDvq_95547f"/>
+      <details key="MetaPropertyId" value="ahsaoDvq"/>
+      <details key="parent" value="uWRxmbaZ"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Value"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__twmd4W9B" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ValueId"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uWRxmbaZ__uWRxmbaZ_twmd4W9B_b5bfe0" eSuperTypes="//Property__twmd4W9B //Tag__Property__uWRxmbaZ">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="ValueId [ uWRxmbaZ_twmd4W9B_b5bfe0 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="ValueId"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uWRxmbaZ_twmd4W9B_b5bfe0"/>
+      <details key="MetaPropertyId" value="twmd4W9B"/>
+      <details key="parent" value="uWRxmbaZ"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ValueId"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uWRxmbaZ__uWRxmbaZ_fU6Ypm3a_1313fc" eSuperTypes="//Property__fU6Ypm3a //Tag__Property__uWRxmbaZ">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="DEPreferedName [ uWRxmbaZ_fU6Ypm3a_1313fc ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="DEPreferedName"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uWRxmbaZ_fU6Ypm3a_1313fc"/>
+      <details key="MetaPropertyId" value="fU6Ypm3a"/>
+      <details key="parent" value="uWRxmbaZ"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="DEPreferedName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uWRxmbaZ__uWRxmbaZ_mdW0ZG8C_1b60dd" eSuperTypes="//Property__mdW0ZG8C //Tag__Property__uWRxmbaZ">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="DEDefinition [ uWRxmbaZ_mdW0ZG8C_1b60dd ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="DEDefinition"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uWRxmbaZ_mdW0ZG8C_1b60dd"/>
+      <details key="MetaPropertyId" value="mdW0ZG8C"/>
+      <details key="parent" value="uWRxmbaZ"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="DEDefinition"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uWRxmbaZ__uWRxmbaZ_o0JuAd2c_1624a8" eSuperTypes="//Property__o0JuAd2c //Tag__Property__uWRxmbaZ">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="ENPreferedName [ uWRxmbaZ_o0JuAd2c_1624a8 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="ENPreferedName"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uWRxmbaZ_o0JuAd2c_1624a8"/>
+      <details key="MetaPropertyId" value="o0JuAd2c"/>
+      <details key="parent" value="uWRxmbaZ"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ENPreferedName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uWRxmbaZ__uWRxmbaZ_rCQu0cHV_c189cf" eSuperTypes="//Property__rCQu0cHV //Tag__Property__uWRxmbaZ">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="ENDefinition [ uWRxmbaZ_rCQu0cHV_c189cf ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="ENDefinition"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uWRxmbaZ_rCQu0cHV_c189cf"/>
+      <details key="MetaPropertyId" value="rCQu0cHV"/>
+      <details key="parent" value="uWRxmbaZ"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ENDefinition"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uWRxmbaZ__uWRxmbaZ_irWZ9srI_a621a3" eSuperTypes="//Property__irWZ9srI //Tag__Property__uWRxmbaZ">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="shortName [ uWRxmbaZ_irWZ9srI_a621a3 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="shortName"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uWRxmbaZ_irWZ9srI_a621a3"/>
+      <details key="MetaPropertyId" value="irWZ9srI"/>
+      <details key="parent" value="uWRxmbaZ"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="shortName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__d8Y1N6v4" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="dateType"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uWRxmbaZ__uWRxmbaZ_d8Y1N6v4_a989a4" eSuperTypes="//Property__d8Y1N6v4 //Tag__Property__uWRxmbaZ">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="dateType [ uWRxmbaZ_d8Y1N6v4_a989a4 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="dateType"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uWRxmbaZ_d8Y1N6v4_a989a4"/>
+      <details key="MetaPropertyId" value="d8Y1N6v4"/>
+      <details key="parent" value="uWRxmbaZ"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="dateType"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__uZ04c0Fd" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SubmodelElementCollection"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__uZ04c0Fd" containment="true" eOpposite="//Tag__Property__uZ04c0Fd/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__uZ04c0Fd" containment="true" eOpposite="//Tag__InputPoint__uZ04c0Fd/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__uZ04c0Fd" containment="true" eOpposite="//Tag__OutputPoint__uZ04c0Fd/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__uZ04c0Fd" containment="true" eOpposite="//Tag__UndirectedPoint__uZ04c0Fd/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__uZ04c0Fd" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__uZ04c0Fd" eOpposite="//Object__uZ04c0Fd/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__uZ04c0Fd" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__uZ04c0Fd" eOpposite="//Object__uZ04c0Fd/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__uZ04c0Fd" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__uZ04c0Fd" eOpposite="//Object__uZ04c0Fd/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__uZ04c0Fd" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__uZ04c0Fd" eOpposite="//Object__uZ04c0Fd/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uZ04c0Fd__uZ04c0Fd_xMFCGr6i_85a1bb" eSuperTypes="//Property__xMFCGr6i //Tag__Property__uZ04c0Fd">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="IdShort [ uZ04c0Fd_xMFCGr6i_85a1bb ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="IdShort"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uZ04c0Fd_xMFCGr6i_85a1bb"/>
+      <details key="MetaPropertyId" value="xMFCGr6i"/>
+      <details key="parent" value="uZ04c0Fd"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="IdShort"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uZ04c0Fd__uZ04c0Fd_gQ8rpEIJ_a11798" eSuperTypes="//Property__gQ8rpEIJ //Tag__Property__uZ04c0Fd">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Category [ uZ04c0Fd_gQ8rpEIJ_a11798 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Category"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uZ04c0Fd_gQ8rpEIJ_a11798"/>
+      <details key="MetaPropertyId" value="gQ8rpEIJ"/>
+      <details key="parent" value="uZ04c0Fd"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Category"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uZ04c0Fd__uZ04c0Fd_u3jKS8fI_ab2955" eSuperTypes="//Property__u3jKS8fI //Tag__Property__uZ04c0Fd">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="SemanticId [ uZ04c0Fd_u3jKS8fI_ab2955 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="SemanticId"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uZ04c0Fd_u3jKS8fI_ab2955"/>
+      <details key="MetaPropertyId" value="u3jKS8fI"/>
+      <details key="parent" value="uZ04c0Fd"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SemanticId"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uZ04c0Fd__uZ04c0Fd_vJgXdStH_7fad92" eSuperTypes="//Property__vJgXdStH //Tag__Property__uZ04c0Fd">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="Id [ uZ04c0Fd_vJgXdStH_7fad92 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="Id"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uZ04c0Fd_vJgXdStH_7fad92"/>
+      <details key="MetaPropertyId" value="vJgXdStH"/>
+      <details key="parent" value="uZ04c0Fd"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Id"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__n3cv5Dud" eSuperTypes="//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="NumberOfValues"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uZ04c0Fd__uZ04c0Fd_n3cv5Dud_95c94f" eSuperTypes="//Property__n3cv5Dud //Tag__Property__uZ04c0Fd">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="NumberOfValues [ uZ04c0Fd_n3cv5Dud_95c94f ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="NumberOfValues"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uZ04c0Fd_n3cv5Dud_95c94f"/>
+      <details key="MetaPropertyId" value="n3cv5Dud"/>
+      <details key="parent" value="uZ04c0Fd"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="NumberOfValues"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uZ04c0Fd__uZ04c0Fd_fU6Ypm3a_1bd266" eSuperTypes="//Property__fU6Ypm3a //Tag__Property__uZ04c0Fd">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="DEPreferedName [ uZ04c0Fd_fU6Ypm3a_1bd266 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="DEPreferedName"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uZ04c0Fd_fU6Ypm3a_1bd266"/>
+      <details key="MetaPropertyId" value="fU6Ypm3a"/>
+      <details key="parent" value="uZ04c0Fd"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="DEPreferedName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uZ04c0Fd__uZ04c0Fd_o0JuAd2c_acee20" eSuperTypes="//Property__o0JuAd2c //Tag__Property__uZ04c0Fd">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="ENPreferedName [ uZ04c0Fd_o0JuAd2c_acee20 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="ENPreferedName"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uZ04c0Fd_o0JuAd2c_acee20"/>
+      <details key="MetaPropertyId" value="o0JuAd2c"/>
+      <details key="parent" value="uZ04c0Fd"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ENPreferedName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uZ04c0Fd__uZ04c0Fd_mdW0ZG8C_e1d165" eSuperTypes="//Property__mdW0ZG8C //Tag__Property__uZ04c0Fd">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="DEDefinition [ uZ04c0Fd_mdW0ZG8C_e1d165 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="DEDefinition"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uZ04c0Fd_mdW0ZG8C_e1d165"/>
+      <details key="MetaPropertyId" value="mdW0ZG8C"/>
+      <details key="parent" value="uZ04c0Fd"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="DEDefinition"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uZ04c0Fd__uZ04c0Fd_rCQu0cHV_f0b932" eSuperTypes="//Property__rCQu0cHV //Tag__Property__uZ04c0Fd">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="ENDefinition [ uZ04c0Fd_rCQu0cHV_f0b932 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="ENDefinition"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uZ04c0Fd_rCQu0cHV_f0b932"/>
+      <details key="MetaPropertyId" value="rCQu0cHV"/>
+      <details key="parent" value="uZ04c0Fd"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ENDefinition"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uZ04c0Fd__uZ04c0Fd_irWZ9srI_c0a80e" eSuperTypes="//Property__irWZ9srI //Tag__Property__uZ04c0Fd">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="shortName [ uZ04c0Fd_irWZ9srI_c0a80e ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="shortName"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uZ04c0Fd_irWZ9srI_c0a80e"/>
+      <details key="MetaPropertyId" value="irWZ9srI"/>
+      <details key="parent" value="uZ04c0Fd"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="shortName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__uZ04c0Fd__uZ04c0Fd_d8Y1N6v4_fe9bd7" eSuperTypes="//Property__d8Y1N6v4 //Tag__Property__uZ04c0Fd">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="dateType [ uZ04c0Fd_d8Y1N6v4_fe9bd7 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="dateType"/>
+      <details key="value" value="null"/>
+      <details key="self" value="uZ04c0Fd_d8Y1N6v4_fe9bd7"/>
+      <details key="MetaPropertyId" value="d8Y1N6v4"/>
+      <details key="parent" value="uZ04c0Fd"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="dateType"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__rmyYIX2q" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="MarkingConcept"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__rmyYIX2q" containment="true" eOpposite="//Tag__Property__rmyYIX2q/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__rmyYIX2q" containment="true" eOpposite="//Tag__InputPoint__rmyYIX2q/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__rmyYIX2q" containment="true" eOpposite="//Tag__OutputPoint__rmyYIX2q/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__rmyYIX2q" containment="true" eOpposite="//Tag__UndirectedPoint__rmyYIX2q/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__rmyYIX2q" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__rmyYIX2q" eOpposite="//Object__rmyYIX2q/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__rmyYIX2q" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__rmyYIX2q" eOpposite="//Object__rmyYIX2q/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__rmyYIX2q" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__rmyYIX2q" eOpposite="//Object__rmyYIX2q/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__rmyYIX2q" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__rmyYIX2q" eOpposite="//Object__rmyYIX2q/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__rmyYIX2q__rmyYIX2q_xMFCGr6i_2c6e86" eSuperTypes="//Property__xMFCGr6i //Tag__Property__rmyYIX2q">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="IdShort [ rmyYIX2q_xMFCGr6i_2c6e86 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="IdShort"/>
+      <details key="value" value="null"/>
+      <details key="self" value="rmyYIX2q_xMFCGr6i_2c6e86"/>
+      <details key="MetaPropertyId" value="xMFCGr6i"/>
+      <details key="parent" value="rmyYIX2q"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="IdShort"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__rmyYIX2q__rmyYIX2q_u3jKS8fI_2ea563" eSuperTypes="//Property__u3jKS8fI //Tag__Property__rmyYIX2q">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="SemanticId [ rmyYIX2q_u3jKS8fI_2ea563 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="SemanticId"/>
+      <details key="value" value="null"/>
+      <details key="self" value="rmyYIX2q_u3jKS8fI_2ea563"/>
+      <details key="MetaPropertyId" value="u3jKS8fI"/>
+      <details key="parent" value="rmyYIX2q"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SemanticId"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__rmyYIX2q__rmyYIX2q_fU6Ypm3a_c26d87" eSuperTypes="//Property__fU6Ypm3a //Tag__Property__rmyYIX2q">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="DEPreferedName [ rmyYIX2q_fU6Ypm3a_c26d87 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="DEPreferedName"/>
+      <details key="value" value="null"/>
+      <details key="self" value="rmyYIX2q_fU6Ypm3a_c26d87"/>
+      <details key="MetaPropertyId" value="fU6Ypm3a"/>
+      <details key="parent" value="rmyYIX2q"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="DEPreferedName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__rmyYIX2q__rmyYIX2q_o0JuAd2c_3a65d2" eSuperTypes="//Property__o0JuAd2c //Tag__Property__rmyYIX2q">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="ENPreferedName [ rmyYIX2q_o0JuAd2c_3a65d2 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="ENPreferedName"/>
+      <details key="value" value="null"/>
+      <details key="self" value="rmyYIX2q_o0JuAd2c_3a65d2"/>
+      <details key="MetaPropertyId" value="o0JuAd2c"/>
+      <details key="parent" value="rmyYIX2q"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ENPreferedName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__rmyYIX2q__rmyYIX2q_mdW0ZG8C_63596f" eSuperTypes="//Property__mdW0ZG8C //Tag__Property__rmyYIX2q">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="DEDefinition [ rmyYIX2q_mdW0ZG8C_63596f ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="DEDefinition"/>
+      <details key="value" value="null"/>
+      <details key="self" value="rmyYIX2q_mdW0ZG8C_63596f"/>
+      <details key="MetaPropertyId" value="mdW0ZG8C"/>
+      <details key="parent" value="rmyYIX2q"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="DEDefinition"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__rmyYIX2q__rmyYIX2q_rCQu0cHV_9676fe" eSuperTypes="//Property__rCQu0cHV //Tag__Property__rmyYIX2q">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="ENDefinition [ rmyYIX2q_rCQu0cHV_9676fe ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="ENDefinition"/>
+      <details key="value" value="null"/>
+      <details key="self" value="rmyYIX2q_rCQu0cHV_9676fe"/>
+      <details key="MetaPropertyId" value="rCQu0cHV"/>
+      <details key="parent" value="rmyYIX2q"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ENDefinition"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__rmyYIX2q__rmyYIX2q_irWZ9srI_2024ba" eSuperTypes="//Property__irWZ9srI //Tag__Property__rmyYIX2q">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="shortName [ rmyYIX2q_irWZ9srI_2024ba ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="shortName"/>
+      <details key="value" value="null"/>
+      <details key="self" value="rmyYIX2q_irWZ9srI_2024ba"/>
+      <details key="MetaPropertyId" value="irWZ9srI"/>
+      <details key="parent" value="rmyYIX2q"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="shortName"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__bSVe7qrw" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Nameplate"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__bSVe7qrw" containment="true" eOpposite="//Tag__Property__bSVe7qrw/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__bSVe7qrw" containment="true" eOpposite="//Tag__InputPoint__bSVe7qrw/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__bSVe7qrw" containment="true" eOpposite="//Tag__OutputPoint__bSVe7qrw/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__bSVe7qrw" containment="true" eOpposite="//Tag__UndirectedPoint__bSVe7qrw/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__bSVe7qrw" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__bSVe7qrw" eOpposite="//Object__bSVe7qrw/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__bSVe7qrw" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__bSVe7qrw" eOpposite="//Object__bSVe7qrw/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__bSVe7qrw" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__bSVe7qrw" eOpposite="//Object__bSVe7qrw/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__bSVe7qrw" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__bSVe7qrw" eOpposite="//Object__bSVe7qrw/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__t6JmEpfS" abstract="true" eSuperTypes="//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="MultiLanguageProperty"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//Tag__Property__t6JmEpfS" containment="true" eOpposite="//Tag__Property__t6JmEpfS/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1" eType="//Tag__InputPoint__t6JmEpfS" containment="true" eOpposite="//Tag__InputPoint__t6JmEpfS/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1" eType="//Tag__OutputPoint__t6JmEpfS" containment="true" eOpposite="//Tag__OutputPoint__t6JmEpfS/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1" eType="//Tag__UndirectedPoint__t6JmEpfS" containment="true" eOpposite="//Tag__UndirectedPoint__t6JmEpfS/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__t6JmEpfS" abstract="true" eSuperTypes="//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__t6JmEpfS" eOpposite="//Object__t6JmEpfS/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__t6JmEpfS" abstract="true" eSuperTypes="//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__t6JmEpfS" eOpposite="//Object__t6JmEpfS/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__t6JmEpfS" abstract="true" eSuperTypes="//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__t6JmEpfS" eOpposite="//Object__t6JmEpfS/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__t6JmEpfS" abstract="true" eSuperTypes="//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false" lowerBound="1" eType="//Object__t6JmEpfS" eOpposite="//Object__t6JmEpfS/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__ejr6hxil" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__ejr6hxil">
+    <eAnnotations source="annotation">
+      <details key="self" value="ejr6hxil"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="propertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="URIOfTheProduct[ejr6hxil]"/>
+      <details key="properties" value="Def__ejr6hxil__ejr6hxil_u3jKS8fI_85b756,ejr6hxil_u3jKS8fI_85b756,SemanticId,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="URIOfTheProduct"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__xmqKfUV9__ejr6hxil__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__xmqKfUV9__ejr6hxil__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__ejr6hxil__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__ejr6hxil__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__z58qGhze" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__z58qGhze">
+    <eAnnotations source="annotation">
+      <details key="self" value="z58qGhze"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="propertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="AssetInformation[z58qGhze]"/>
+      <details key="properties" value="Def__z58qGhze__z58qGhze_xFkw794q_d565b2,z58qGhze_xFkw794q_d565b2,Kind,null;Def__z58qGhze__z58qGhze_mCxsKE8M_c8176f,z58qGhze_mCxsKE8M_c8176f,GlobalAssetId,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="AssetInformation"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__xmqKfUV9__z58qGhze__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__xmqKfUV9__z58qGhze__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__z58qGhze__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__z58qGhze__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__xBCQ7yBV" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__xBCQ7yBV">
+    <eAnnotations source="annotation">
+      <details key="self" value="xBCQ7yBV"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="propertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="PropertyConcept[xBCQ7yBV]"/>
+      <details key="properties" value="Def__xBCQ7yBV__xBCQ7yBV_xMFCGr6i_47a799,xBCQ7yBV_xMFCGr6i_47a799,IdShort,null;Def__xBCQ7yBV__xBCQ7yBV_u3jKS8fI_7c6dd8,xBCQ7yBV_u3jKS8fI_7c6dd8,SemanticId,null;Def__xBCQ7yBV__xBCQ7yBV_fU6Ypm3a_3a966b,xBCQ7yBV_fU6Ypm3a_3a966b,DEPreferedName,null;Def__xBCQ7yBV__xBCQ7yBV_mdW0ZG8C_5accdd,xBCQ7yBV_mdW0ZG8C_5accdd,DEDefinition,null;Def__xBCQ7yBV__xBCQ7yBV_o0JuAd2c_75ec3b,xBCQ7yBV_o0JuAd2c_75ec3b,ENPreferedName,null;Def__xBCQ7yBV__xBCQ7yBV_rCQu0cHV_d43784,xBCQ7yBV_rCQu0cHV_d43784,ENDefinition,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="PropertyConcept"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__xmqKfUV9__xBCQ7yBV__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__xmqKfUV9__xBCQ7yBV__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__xBCQ7yBV__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__xBCQ7yBV__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__yXXMRsix" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__yXXMRsix">
+    <eAnnotations source="annotation">
+      <details key="self" value="yXXMRsix"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="containerMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="Concept[yXXMRsix]"/>
+      <details key="properties" value=""/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Concept"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decompose" eType="//Def__xmqKfUV9__yXXMRsix__decompose"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodes" upperBound="-1" eType="//Def__xmqKfUV9__yXXMRsix__explodes"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__yXXMRsix__decompose" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__yXXMRsix__explodes" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__sqNTWHyS" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__sqNTWHyS">
+    <eAnnotations source="annotation">
+      <details key="self" value="sqNTWHyS"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="propertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="File[sqNTWHyS]"/>
+      <details key="properties" value="Def__sqNTWHyS__sqNTWHyS_xMFCGr6i_036165,sqNTWHyS_xMFCGr6i_036165,IdShort,null;Def__sqNTWHyS__sqNTWHyS_gQ8rpEIJ_c60eba,sqNTWHyS_gQ8rpEIJ_c60eba,Category,null;Def__sqNTWHyS__sqNTWHyS_u3jKS8fI_c0d5af,sqNTWHyS_u3jKS8fI_c0d5af,SemanticId,null;Def__sqNTWHyS__sqNTWHyS_vJgXdStH_17b9cf,sqNTWHyS_vJgXdStH_17b9cf,Id,null;Def__sqNTWHyS__sqNTWHyS_ahsaoDvq_f5392f,sqNTWHyS_ahsaoDvq_f5392f,Value,null;Def__sqNTWHyS__sqNTWHyS_ty3bARyd_045bf9,sqNTWHyS_ty3bARyd_045bf9,ContentType,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="File"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__xmqKfUV9__sqNTWHyS__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__xmqKfUV9__sqNTWHyS__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__sqNTWHyS__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__sqNTWHyS__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__xAdHYpJf" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__xAdHYpJf">
+    <eAnnotations source="annotation">
+      <details key="self" value="xAdHYpJf"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="containerMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="AssetAdministrationShell[xAdHYpJf]"/>
+      <details key="properties" value="Def__xAdHYpJf__xAdHYpJf_xMFCGr6i_3e443e,xAdHYpJf_xMFCGr6i_3e443e,IdShort,null;Def__xAdHYpJf__xAdHYpJf_vJgXdStH_7e75b7,xAdHYpJf_vJgXdStH_7e75b7,Id,null;Def__xAdHYpJf__xAdHYpJf_xFkw794q_4e8ed4,xAdHYpJf_xFkw794q_4e8ed4,Kind,null;Def__xAdHYpJf__xAdHYpJf_mCxsKE8M_4ce2e9,xAdHYpJf_mCxsKE8M_4ce2e9,GlobalAssetId,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="AssetAdministrationShell"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decompose" eType="//Def__xmqKfUV9__xAdHYpJf__decompose"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodes" upperBound="-1" eType="//Def__xmqKfUV9__xAdHYpJf__explodes"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__xAdHYpJf__decompose" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__xAdHYpJf__explodes" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__tGQ5X7BP" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__tGQ5X7BP">
+    <eAnnotations source="annotation">
+      <details key="self" value="tGQ5X7BP"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="containerMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="Submodel[tGQ5X7BP]"/>
+      <details key="properties" value="Def__tGQ5X7BP__tGQ5X7BP_fsfLzfKV_fa43fe,tGQ5X7BP_fsfLzfKV_fa43fe,SubmodelRef,null;Def__tGQ5X7BP__tGQ5X7BP_xMFCGr6i_99fe61,tGQ5X7BP_xMFCGr6i_99fe61,IdShort,null;Def__tGQ5X7BP__tGQ5X7BP_vJgXdStH_d217de,tGQ5X7BP_vJgXdStH_d217de,Id,null;Def__tGQ5X7BP__tGQ5X7BP_xFkw794q_bfa2b3,tGQ5X7BP_xFkw794q_bfa2b3,Kind,null;Def__tGQ5X7BP__tGQ5X7BP_u3jKS8fI_97b88a,tGQ5X7BP_u3jKS8fI_97b88a,SemanticId,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Submodel"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decompose" eType="//Def__xmqKfUV9__tGQ5X7BP__decompose"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodes" upperBound="-1" eType="//Def__xmqKfUV9__tGQ5X7BP__explodes"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__tGQ5X7BP__decompose" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__tGQ5X7BP__explodes" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__r5ZzO4H1" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__r5ZzO4H1">
+    <eAnnotations source="annotation">
+      <details key="self" value="r5ZzO4H1"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="propertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="Nameplate3.0[r5ZzO4H1]"/>
+      <details key="properties" value="Def__r5ZzO4H1__r5ZzO4H1_iBG10dk2_2cc4f7,r5ZzO4H1_iBG10dk2_2cc4f7,URIOfTheProduct,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Nameplate3.0"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__xmqKfUV9__r5ZzO4H1__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__xmqKfUV9__r5ZzO4H1__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__r5ZzO4H1__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__r5ZzO4H1__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__qkOLKmxO" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__qkOLKmxO">
+    <eAnnotations source="annotation">
+      <details key="self" value="qkOLKmxO"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="containerMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="SubmodelElementCollectionConcept[qkOLKmxO]"/>
+      <details key="properties" value=""/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SubmodelElementCollectionConcept"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decompose" eType="//Def__xmqKfUV9__qkOLKmxO__decompose"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodes" upperBound="-1" eType="//Def__xmqKfUV9__qkOLKmxO__explodes"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__qkOLKmxO__decompose" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__qkOLKmxO__explodes" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__csRUzqXo" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__csRUzqXo">
+    <eAnnotations source="annotation">
+      <details key="self" value="csRUzqXo"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="propertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="ConceptFile[csRUzqXo]"/>
+      <details key="properties" value="Def__csRUzqXo__csRUzqXo_xMFCGr6i_3ccf22,csRUzqXo_xMFCGr6i_3ccf22,IdShort,null;Def__csRUzqXo__csRUzqXo_u3jKS8fI_b4ed15,csRUzqXo_u3jKS8fI_b4ed15,SemanticId,null;Def__csRUzqXo__csRUzqXo_fU6Ypm3a_0374cf,csRUzqXo_fU6Ypm3a_0374cf,DEPreferedName,null;Def__csRUzqXo__csRUzqXo_o0JuAd2c_75d921,csRUzqXo_o0JuAd2c_75d921,ENPreferedName,null;Def__csRUzqXo__csRUzqXo_mdW0ZG8C_a1c7ac,csRUzqXo_mdW0ZG8C_a1c7ac,DEDefinition,null;Def__csRUzqXo__csRUzqXo_rCQu0cHV_f77c0d,csRUzqXo_rCQu0cHV_f77c0d,ENDefinition,null;Def__csRUzqXo__csRUzqXo_irWZ9srI_2bc48d,csRUzqXo_irWZ9srI_2bc48d,shortName,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="ConceptFile"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__xmqKfUV9__csRUzqXo__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__xmqKfUV9__csRUzqXo__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__csRUzqXo__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__csRUzqXo__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__uWRxmbaZ" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__uWRxmbaZ">
+    <eAnnotations source="annotation">
+      <details key="self" value="uWRxmbaZ"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="propertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="Property[uWRxmbaZ]"/>
+      <details key="properties" value="Def__uWRxmbaZ__uWRxmbaZ_xMFCGr6i_7be66f,uWRxmbaZ_xMFCGr6i_7be66f,IdShort,null;Def__uWRxmbaZ__uWRxmbaZ_gQ8rpEIJ_081c6c,uWRxmbaZ_gQ8rpEIJ_081c6c,Category,null;Def__uWRxmbaZ__uWRxmbaZ_u3jKS8fI_0610de,uWRxmbaZ_u3jKS8fI_0610de,SemanticId,null;Def__uWRxmbaZ__uWRxmbaZ_vJgXdStH_c60268,uWRxmbaZ_vJgXdStH_c60268,Id,null;Def__uWRxmbaZ__uWRxmbaZ_mZbBbrg9_4978d6,uWRxmbaZ_mZbBbrg9_4978d6,ValueType,null;Def__uWRxmbaZ__uWRxmbaZ_ahsaoDvq_95547f,uWRxmbaZ_ahsaoDvq_95547f,Value,null;Def__uWRxmbaZ__uWRxmbaZ_twmd4W9B_b5bfe0,uWRxmbaZ_twmd4W9B_b5bfe0,ValueId,null;Def__uWRxmbaZ__uWRxmbaZ_fU6Ypm3a_1313fc,uWRxmbaZ_fU6Ypm3a_1313fc,DEPreferedName,null;Def__uWRxmbaZ__uWRxmbaZ_mdW0ZG8C_1b60dd,uWRxmbaZ_mdW0ZG8C_1b60dd,DEDefinition,null;Def__uWRxmbaZ__uWRxmbaZ_o0JuAd2c_1624a8,uWRxmbaZ_o0JuAd2c_1624a8,ENPreferedName,null;Def__uWRxmbaZ__uWRxmbaZ_rCQu0cHV_c189cf,uWRxmbaZ_rCQu0cHV_c189cf,ENDefinition,null;Def__uWRxmbaZ__uWRxmbaZ_irWZ9srI_a621a3,uWRxmbaZ_irWZ9srI_a621a3,shortName,null;Def__uWRxmbaZ__uWRxmbaZ_d8Y1N6v4_a989a4,uWRxmbaZ_d8Y1N6v4_a989a4,dateType,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Property"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__xmqKfUV9__uWRxmbaZ__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__xmqKfUV9__uWRxmbaZ__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__uWRxmbaZ__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__uWRxmbaZ__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__uZ04c0Fd" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__uZ04c0Fd">
+    <eAnnotations source="annotation">
+      <details key="self" value="uZ04c0Fd"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="containerMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="SubmodelElementCollection[uZ04c0Fd]"/>
+      <details key="properties" value="Def__uZ04c0Fd__uZ04c0Fd_xMFCGr6i_85a1bb,uZ04c0Fd_xMFCGr6i_85a1bb,IdShort,null;Def__uZ04c0Fd__uZ04c0Fd_gQ8rpEIJ_a11798,uZ04c0Fd_gQ8rpEIJ_a11798,Category,null;Def__uZ04c0Fd__uZ04c0Fd_u3jKS8fI_ab2955,uZ04c0Fd_u3jKS8fI_ab2955,SemanticId,null;Def__uZ04c0Fd__uZ04c0Fd_vJgXdStH_7fad92,uZ04c0Fd_vJgXdStH_7fad92,Id,null;Def__uZ04c0Fd__uZ04c0Fd_n3cv5Dud_95c94f,uZ04c0Fd_n3cv5Dud_95c94f,NumberOfValues,null;Def__uZ04c0Fd__uZ04c0Fd_fU6Ypm3a_1bd266,uZ04c0Fd_fU6Ypm3a_1bd266,DEPreferedName,null;Def__uZ04c0Fd__uZ04c0Fd_o0JuAd2c_acee20,uZ04c0Fd_o0JuAd2c_acee20,ENPreferedName,null;Def__uZ04c0Fd__uZ04c0Fd_mdW0ZG8C_e1d165,uZ04c0Fd_mdW0ZG8C_e1d165,DEDefinition,null;Def__uZ04c0Fd__uZ04c0Fd_rCQu0cHV_f0b932,uZ04c0Fd_rCQu0cHV_f0b932,ENDefinition,null;Def__uZ04c0Fd__uZ04c0Fd_irWZ9srI_c0a80e,uZ04c0Fd_irWZ9srI_c0a80e,shortName,null;Def__uZ04c0Fd__uZ04c0Fd_d8Y1N6v4_fe9bd7,uZ04c0Fd_d8Y1N6v4_fe9bd7,dateType,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="SubmodelElementCollection"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decompose" eType="//Def__xmqKfUV9__uZ04c0Fd__decompose"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodes" upperBound="-1" eType="//Def__xmqKfUV9__uZ04c0Fd__explodes"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__uZ04c0Fd__decompose" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__uZ04c0Fd__explodes" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__rmyYIX2q" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__rmyYIX2q">
+    <eAnnotations source="annotation">
+      <details key="self" value="rmyYIX2q"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="propertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="MarkingConcept[rmyYIX2q]"/>
+      <details key="properties" value="Def__rmyYIX2q__rmyYIX2q_xMFCGr6i_2c6e86,rmyYIX2q_xMFCGr6i_2c6e86,IdShort,null;Def__rmyYIX2q__rmyYIX2q_u3jKS8fI_2ea563,rmyYIX2q_u3jKS8fI_2ea563,SemanticId,null;Def__rmyYIX2q__rmyYIX2q_fU6Ypm3a_c26d87,rmyYIX2q_fU6Ypm3a_c26d87,DEPreferedName,null;Def__rmyYIX2q__rmyYIX2q_o0JuAd2c_3a65d2,rmyYIX2q_o0JuAd2c_3a65d2,ENPreferedName,null;Def__rmyYIX2q__rmyYIX2q_mdW0ZG8C_63596f,rmyYIX2q_mdW0ZG8C_63596f,DEDefinition,null;Def__rmyYIX2q__rmyYIX2q_rCQu0cHV_9676fe,rmyYIX2q_rCQu0cHV_9676fe,ENDefinition,null;Def__rmyYIX2q__rmyYIX2q_irWZ9srI_2024ba,rmyYIX2q_irWZ9srI_2024ba,shortName,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="MarkingConcept"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__xmqKfUV9__rmyYIX2q__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__xmqKfUV9__rmyYIX2q__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__rmyYIX2q__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__rmyYIX2q__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__bSVe7qrw" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__bSVe7qrw">
+    <eAnnotations source="annotation">
+      <details key="self" value="bSVe7qrw"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="propertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="Nameplate[bSVe7qrw]"/>
+      <details key="properties" value=""/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="Nameplate"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__xmqKfUV9__bSVe7qrw__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__xmqKfUV9__bSVe7qrw__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__bSVe7qrw__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__bSVe7qrw__explodesN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__t6JmEpfS" eSuperTypes="//Tag__Object__xmqKfUV9 //Object__t6JmEpfS">
+    <eAnnotations source="annotation">
+      <details key="self" value="t6JmEpfS"/>
+      <details key="parent" value="xmqKfUV9"/>
+      <details key="mode" value="propertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="MultiLanguageProperty[t6JmEpfS]"/>
+      <details key="properties" value=""/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="MultiLanguageProperty"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="//Def__xmqKfUV9__t6JmEpfS__decomposeN" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1" eType="//Def__xmqKfUV9__t6JmEpfS__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__t6JmEpfS__decomposeN" eSuperTypes="//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__xmqKfUV9__t6JmEpfS__explodesN" eSuperTypes="//GraphGen"/>
+</ecore:EPackage>

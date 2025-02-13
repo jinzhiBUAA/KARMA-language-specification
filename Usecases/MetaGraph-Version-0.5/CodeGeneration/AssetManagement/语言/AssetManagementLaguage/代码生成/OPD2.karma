@@ -1,0 +1,34 @@
+codeGenerator OPD2
+
+ File file1 = File("D:/DEMO5.opd");
+  entrypoint rule forheadline( ){
+		to 
+			String e(
+				e <-  "<aas:aasenv xmlns:xsi=\"http:\/\/www.w3.org\/2001\/XMLSchema-instance\" xmlns:IEC61360=\"http:\/\/www.admin-shell.io\/IEC61360\/1\/0\" xmlns:aas=\"http:\/\/www.admin-shell.io\/aas\/1\/0\" xsi:schemaLocation=\"http:\/\/www.admin-shell.io\/aas\/1\/0 AAS.xsd http:\/\/www.admin-shell.io\/IEC61360\/1\/0 IEC61360.xsd\">";
+			)
+			do{
+				file1.append(e);
+			}
+  }
+  rule Rule_OPD_PT{
+	 from
+	   Object[xAdHYpJf] OS;
+	   Object[z58qGhze] ACT;
+	   OS.explode(ACT);
+	   in Model[model_xmqKfUV9_7ae9d] MD;
+	      using{
+			  Template OPD_Assemble_Start(P1,P2) =<%
+					\\<Assemble Main=\"<P1>\" Source=\"<P2>\" Target=\"\">   
+			  \n%>;
+	        }  
+        to			
+			String d(
+				d <- OPD_Assemble_Start(OS.localName,ACT.Property["Kind"])+"\n";
+			)					
+			do{
+			file1.append(d);
+		}
+  }  
+  
+
+end OPD2

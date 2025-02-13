@@ -1,0 +1,465 @@
+codeGenerator OPD3
+ File file1 = File("D:/0124案例/测试案例/案例2/01_Festo_m/aasx/wwwcompanycomidsaas9350_1162_7091_7335/wwwcompanycomidsaas9350_1162_7091_7335.aas.xml");
+ Compressedfiles("D:/0124案例/测试案例/案例2/01_Festo_m");
+  entrypoint rule forheadline( ){
+		to 
+			String e(
+				e <-  "<?xml version=\"1.0\"?>"+"\n"+"<aas:aasenv xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:IEC61360=\"http://www.admin-shell.io/IEC61360/1/0\" xmlns:aas=\"http://www.admin-shell.io/aas/1/0\" xsi:schemaLocation=\"http://www.admin-shell.io/aas/1/0 AAS.xsd http://www.admin-shell.io/IEC61360/1/0 IEC61360.xsd\">"+"\n";
+			)
+			do{
+				file1.append(e);
+			}
+  }  
+   rule Rule_OPD_PT{
+	 from
+	   Object[xAdHYpJf] Shell;
+	   Object[z58qGhze] Asset;
+	   Object[tGQ5X7BP] Submodel;
+	   Shell.explode(Asset);
+	   Shell.explode(Submodel);
+	   in Model[model_xmqKfUV9_7ae9d] MD;
+	      using{
+			  Template OPD_Assemble_Start0(P1,P2) =<%
+			  \\<aas:assetAdministrationShells>
+				\\<aas:assetAdministrationShell>
+					\\<aas:idShort><P1>\\</aas:idShort>
+					\\<aas:category>CONSTANT\\</aas:category>
+					\\<aas:identification idType=\"URI\"><P2>\\</aas:identification> 
+			  \n%>;
+			  Template OPD_Assemble_Start1(P1) =<%
+			  \\<aas:assetRef>
+				\\<aas:keys>
+					\\<aas:key type=\"Asset\" local=\"true\" idType=\"URI\"><P1>\\</aas:key>
+					\\</aas:keys>
+				\\</aas:assetRef>
+			  \n%>;
+			  Template OPD_Assemble_Start2(P1) =<%
+				  \\<aas:submodelRefs>
+					\\<aas:submodelRef>
+					\\<aas:keys>
+					\\<aas:key type=\"Submodel\" local=\"true\" idType=\"URI\"><P1>\\</aas:key>
+					\\</aas:keys>
+					\\</aas:submodelRef>
+					\\</aas:submodelRefs>
+					\\<aas:conceptDictionaries/>
+					\\</aas:assetAdministrationShell>
+					\\</aas:assetAdministrationShells>
+			  \n%>;
+			  Template OPD_Assemble_Start3(P1,P2) =<%
+				  \\<aas:assets>
+					\\<aas:asset>
+					\\<aas:idShort>FPK_3s7plfdrs35\\</aas:idShort>
+					\\<aas:description>
+					\\<aas:langString lang=\"EN\">Festo OVEL Vacuum generator\\</aas:langString>
+					\\<aas:langString lang=\"DE\">Festo OVEL Vakuumsaugdüse\\</aas:langString>
+					\\</aas:description>
+					\\<aas:identification idType=\"URI\"><P1>\\</aas:identification>
+					\\<aas:kind><P2>\\</aas:kind>
+					\\</aas:asset>
+					\\</aas:assets>
+			  \n%>;
+			  Template OPD_Assemble_Start4(P1,P2,P3,P4) =<%
+				  \\<aas:submodels>
+					\\<aas:submodel>
+					\\<aas:idShort><P1>\\</aas:idShort>
+					\\<aas:identification idType=\"URI\"><P2>\\</aas:identification>
+					\\<aas:semanticId>
+					\\<aas:keys>
+					\\<aas:key type=\"GlobalReference\" local=\"false\" idType=\"URI\"><P3>\\</aas:key>
+					\\</aas:keys>
+					\\</aas:semanticId>
+					\\<aas:kind><P4>\\</aas:kind>
+					\\<aas:qualifier/>
+			  \n%>;
+	        }  
+        to			
+			String d(
+				d <- OPD_Assemble_Start0(Shell.Property["IdShort"],Shell.Property["Id"])+"\n";
+			),	
+			String e(
+				e <- OPD_Assemble_Start1(Asset.Property["GlobalAssetId"])+"\n";
+			),
+			String f(
+				f <- OPD_Assemble_Start2(Submodel.Property["SubmodelRef"])+"\n";
+			),	
+			String g(
+				g <- OPD_Assemble_Start3(Asset.Property["GlobalAssetId"],Asset.Property["Kind"])+"\n";
+			),	
+			String h(
+				h <- OPD_Assemble_Start4(Submodel.Property["IdShort"],Submodel.Property["Id"],Submodel.Property["SemanticId"],Submodel.Property["Kind"])+"\n";
+			),
+			String j(
+				j <- "<aas:submodelElements>"+"\n";
+			)		
+			do{
+				file1.append(d);
+				file1.append(e);
+				file1.append(f);
+				file1.append(g);
+				file1.append(h);
+				file1.append(j);
+			}
+  } 
+  rule Rule_OPD_PT2{
+	 from
+	   Object[xAdHYpJf] Shell;
+	   Object[uWRxmbaZ] Pro;
+	   Object[tGQ5X7BP] Submodel;
+	   Shell.explode(Submodel);
+	   Submodel.explode(Pro);
+	   in Model[model_xmqKfUV9_7ae9d] MD;
+	      using{
+			  Template OPD_Assemble_Start5(P1,P2,P3,P4,P5) =<%
+				  \\<aas:submodelElement>
+					\\<aas:property>
+					\\<aas:idShort><P1>\\</aas:idShort>
+					\\<aas:category><P2>\\</aas:category>
+					\\<aas:semanticId>
+					\\<aas:keys>
+					\\<aas:key type=\"ConceptDescription\" local=\"true\" idType=\"IRDI\"><P3>\\</aas:key>
+					\\</aas:keys>
+					\\</aas:semanticId>
+					\\<aas:kind>Instance\\</aas:kind>
+					\\<aas:qualifier/>
+					\\<aas:valueType><P4>\\</aas:valueType>
+					\\<aas:value><P5>\\</aas:value>
+					\\</aas:property>
+					\\</aas:submodelElement>
+			  \n%>;
+	        }  
+        to			
+			String d(
+				d <- OPD_Assemble_Start5(Pro.Property["IdShort"],Pro.Property["Category"],Pro.Property["Id"],Pro.Property["ValueType"],Pro.Property["Value"])+"\n";
+			)	
+			do{
+				file1.append(d);
+			}
+  } 
+    exploderule generateSubmodelElement3( ){
+  		from  
+		   Object[sqNTWHyS] Files;
+		in	Model[variableValue] FTA;
+		using{
+			Template generateComponent3(P1,P2,P3,P4,P5) =<%
+				\\<aas:submodelElement>
+					\\<aas:file>
+					\\<aas:idShort><P1>\\</aas:idShort>
+					\\<aas:category><P2>\\</aas:category>
+					\\<aas:semanticId>
+					\\<aas:keys>
+					\\<aas:key type=\"ConceptDescription\" local=\"true\" idType=\"IRDI\"><P3>\\</aas:key>
+					\\</aas:keys>
+					\\</aas:semanticId>
+					\\<aas:kind>Instance\\</aas:kind>
+					\\<aas:qualifier/>
+					\\<aas:mimeType><P4>\\</aas:mimeType>
+					\\<aas:value><P5>\\</aas:value>
+					\\</aas:file>
+					\\</aas:submodelElement>			
+			%>;	
+	        }
+		to
+		String e(
+			e<-generateComponent3(Files.Property["IdShort"],Files.Property["Category"],Files.Property["Id"],Files.Property["ContentType"],Files.Property["Value"])+"\n";
+		)
+		do{
+			file1.append(e);
+		}
+  }  
+  exploderule generateSubmodelElement2( ){
+  		from  
+		   Object[uWRxmbaZ] Pro;
+		in	Model[variableValue] FTA;
+		using{
+			Template generateComponent2(P1,P2,P3,P4,P5) =<%
+			\\<aas:submodelElement>
+				\\<aas:property>
+					\\<aas:idShort><P1>\\</aas:idShort>
+					\\<aas:category><P2>\\</aas:category>
+					\\<aas:semanticId>
+					\\<aas:keys>
+					\\<aas:key type=\"ConceptDescription\" local=\"true\" idType=\"IRDI\"><P3>\\</aas:key>
+					\\</aas:keys>
+					\\</aas:semanticId>
+					\\<aas:kind>Instance\\</aas:kind>
+					\\<aas:qualifier/>
+					\\<aas:valueType><P4>\\</aas:valueType>
+					\\<aas:value><P5>\\</aas:value>
+				\\</aas:property>
+			\\</aas:submodelElement>			
+			%>;	
+	        }
+		to
+		String e(
+			e<-generateComponent2(Pro.Property["IdShort"],Pro.Property["Category"],Pro.Property["Id"],Pro.Property["ValueType"],Pro.Property["Value"])+"\n";
+		)
+		do{
+		file1.append(e);
+		}
+  }
+  exploderule generateSubmodelElement1( ){
+  		from  
+		   Object[uZ04c0Fd] subModelConnection;
+		in	Model[variableValue] FTA;
+		using{
+			  Template OPD_Assemble_Start6(P1,P2,P3) =<%
+				  \\<aas:submodelElement>
+					\\<aas:submodelElementCollection>
+					\\<aas:idShort><P1>\\</aas:idShort>
+					\\<aas:category><P2>\\</aas:category>
+					\\<aas:semanticId>
+					\\<aas:keys>
+					\\<aas:key type=\"ConceptDescription\" local=\"true\" idType=\"URI\"><P3>\\</aas:key>
+					\\</aas:keys>
+					\\</aas:semanticId>
+					\\<aas:kind>Instance\\</aas:kind>
+					\\<aas:qualifier/>
+					\\<aas:value>
+			  \n%>;
+	        }
+		to
+		String d(
+			d <- OPD_Assemble_Start6(subModelConnection.Property["IdShort"],subModelConnection.Property["Category"],subModelConnection.Property["Id"])+"\n";
+		),
+		String e(
+			e <- "</aas:value>"+"\n"+"<aas:ordered>false</aas:ordered>"+"\n"+"<aas:allowDuplicates>false</aas:allowDuplicates>"+"\n"+"</aas:submodelElementCollection>"+"\n"+"</aas:submodelElement>"+"\n";
+		)
+		do{
+			file1.append(d);
+			exploderule.generateSubmodelElement2(subModelConnection.id);
+			exploderule.generateSubmodelElement3(subModelConnection.id);
+			file1.append(e);
+		}
+  }
+  exploderule generateSubmodelElement0( ){
+  		from  
+		   Object[tGQ5X7BP] subModel;
+		in	Model[variableValue] FTA;
+		using{
+			  Template OPD_Assemble_Start7(P1) =<%
+			  \n%>;
+	    } 
+		to
+		String e(
+			e <- OPD_Assemble_Start7(subModel.Property["SubmodelRef"]) + "\n";
+		)
+		do{
+			file1.append(e);
+			exploderule.generateSubmodelElement1(subModel.id);
+		}
+	}
+  rule Rule_OPD_PT3{
+	 from
+	   Object[xAdHYpJf] Shell;
+	   in Model[model_xmqKfUV9_7ae9d] MD;
+	      using{
+			  Template OPD_Assemble_Start8(P1) =<%
+			  \n%>;
+	        }  
+        to			
+			String d(
+				d <- OPD_Assemble_Start8(Shell.Property["IdShort"])+"\n";
+			),
+			String e(
+				e <- "</aas:submodelElements>"+"\n"+"</aas:submodel>"+"\n"+"</aas:submodels>"+"\n" + "<aas:conceptDescriptions>" + "\n";
+			)	
+			do{
+				file1.append(d);
+				exploderule.generateSubmodelElement0(Shell.id);
+				file1.append(e);
+			}
+  } 
+  rule Rule_OPD_PT4{
+	 from
+	   Object[xAdHYpJf] Shell;
+	   Object[xBCQ7yBV] Pro;
+	   Object[yXXMRsix] Submodel;
+	   Shell.explode(Submodel);
+	   Submodel.explode(Pro);
+	   in Model[model_xmqKfUV9_7ae9d] MD;
+	      using{
+			  Template OPD_Assemble_Start10(P1,P2,P3,P4,P5,P6,P7,P8) =<%
+				  \\<aas:conceptDescription>
+					\\<aas:idShort><P1>\\</aas:idShort>
+					\\<aas:identification idType=\"IRDI\"><P2>\\</aas:identification>
+					\\<aas:embeddedDataSpecification>
+					\\<aas:hasDataSpecification>
+					\\<aas:keys/>
+					\\</aas:hasDataSpecification>
+					\\<aas:dataSpecificationContent>
+					\\<aas:dataSpecificationIEC61360>
+					\\<IEC61360:preferredName>
+					\\<aas:langString lang=\"EN\"><P3>\\</aas:langString>
+					\\<aas:langString lang=\"DE\"><P4>\\</aas:langString>
+					\\</IEC61360:preferredName>
+					\\<IEC61360:shortName><P5>\\</IEC61360:shortName>
+					\\<IEC61360:unit/>
+					\\<IEC61360:sourceOfDefinition/>
+					\\<IEC61360:dataType><P6>\\</IEC61360:dataType>
+					\\<IEC61360:definition>
+					\\<aas:langString lang=\"DE\"><P7>\\</aas:langString>
+					\\<aas:langString lang=\"EN\"><P8>\\</aas:langString>
+					\\</IEC61360:definition>
+					\\</aas:dataSpecificationIEC61360>
+					\\</aas:dataSpecificationContent>
+					\\</aas:embeddedDataSpecification>
+					\\</aas:conceptDescription>
+			  \n%>;
+	        }  
+        to			
+			String d(
+				d <- OPD_Assemble_Start10(Pro.Property["IdShort"],Pro.Property["SemanticId"],Pro.Property["ENPreferedName"],Pro.Property["DEPreferedName"],Pro.Property["shortName"],Pro.Property["dateType"],Pro.Property["DEDefinition"],Pro.Property["ENDefinition"])+"\n";
+			)	
+			do{
+				file1.append(d);
+			}
+  } 
+  rule Rule_OPD_PT5{
+	 from
+	   Object[xAdHYpJf] Shell;
+	   Object[xBCQ7yBV] Pro;
+	   Object[yXXMRsix] Submodel;
+	   Object[qkOLKmxO] SubmodelConnection;
+	   Shell.explode(Submodel);
+	   Submodel.explode(SubmodelConnection);
+	   SubmodelConnection.explode(Pro);
+	   in Model[model_xmqKfUV9_7ae9d] MD;
+	      using{
+			  Template OPD_Assemble_Start11(P1,P2,P3,P4,P5,P6,P7,P8) =<%
+				  \\<aas:conceptDescription>
+					\\<aas:idShort><P1>\\</aas:idShort>
+					\\<aas:identification idType=\"IRDI\"><P2>\\</aas:identification>
+					\\<aas:embeddedDataSpecification>
+					\\<aas:hasDataSpecification>
+					\\<aas:keys/>
+					\\</aas:hasDataSpecification>
+					\\<aas:dataSpecificationContent>
+					\\<aas:dataSpecificationIEC61360>
+					\\<IEC61360:preferredName>
+					\\<aas:langString lang=\"EN\"><P3>\\</aas:langString>
+					\\<aas:langString lang=\"DE\"><P4>\\</aas:langString>
+					\\</IEC61360:preferredName>
+					\\<IEC61360:shortName><P5>\\</IEC61360:shortName>
+					\\<IEC61360:unit/>
+					\\<IEC61360:sourceOfDefinition/>
+					\\<IEC61360:dataType><P6>\\</IEC61360:dataType>
+					\\<IEC61360:definition>
+					\\<aas:langString lang=\"DE\"><P7>\\</aas:langString>
+					\\<aas:langString lang=\"EN\"><P8>\\</aas:langString>
+					\\</IEC61360:definition>
+					\\</aas:dataSpecificationIEC61360>
+					\\</aas:dataSpecificationContent>
+					\\</aas:embeddedDataSpecification>
+					\\</aas:conceptDescription>
+			  \n%>;
+	        }  
+        to			
+			String d(
+				d <- OPD_Assemble_Start11(Pro.Property["IdShort"],Pro.Property["SemanticId"],Pro.Property["ENPreferedName"],Pro.Property["DEPreferedName"],Pro.Property["shortName"],Pro.Property["dateType"],Pro.Property["DEDefinition"],Pro.Property["ENDefinition"])+"\n";
+			)	
+			do{
+				file1.append(d);
+			}
+  }
+  rule Rule_OPD_PT6{
+	 from
+	   Object[xAdHYpJf] Shell;
+	   Object[csRUzqXo] ConceptFile;
+	   Object[yXXMRsix] Submodel;
+	   Shell.explode(Submodel);
+	   Submodel.explode(ConceptFile);
+	   in Model[model_xmqKfUV9_7ae9d] MD;
+	      using{
+			  Template OPD_Assemble_Start12(P1,P2,P3,P4,P5,P6) =<%
+				  \\<aas:conceptDescription>
+					\\<aas:idShort>File\\</aas:idShort>
+					\\<aas:identification idType=\"IRDI\"><P1>\\</aas:identification>
+					\\<aas:embeddedDataSpecification>
+					\\<aas:hasDataSpecification>
+					\\<aas:keys>
+					\\<aas:key type=\"GlobalReference\" local=\"false\" idType=\"URI\"><P2>\\</aas:key>
+					\\</aas:keys>
+					\\</aas:hasDataSpecification>
+					\\<aas:dataSpecificationContent>
+					\\<aas:dataSpecificationIEC61360>
+					\\<IEC61360:preferredName>
+					\\<aas:langString lang=\"DE\"><P3>\\</aas:langString>
+					\\<aas:langString lang=\"EN\"><P4>\\</aas:langString>
+					\\</IEC61360:preferredName>
+					\\<IEC61360:shortName>File\\</IEC61360:shortName>
+					\\<IEC61360:unit/>
+					\\<IEC61360:sourceOfDefinition/>
+					\\<IEC61360:dataType/>
+					\\<IEC61360:definition>
+					\\<aas:langString lang=\"DE\"><P5>\\</aas:langString>
+					\\<aas:langString lang=\"EN\"><P6>\\</aas:langString>
+					\\</IEC61360:definition>
+					\\</aas:dataSpecificationIEC61360>
+					\\</aas:dataSpecificationContent>
+					\\</aas:embeddedDataSpecification>
+					\\</aas:conceptDescription>
+			  \n%>;
+	        }  
+        to	
+		String d(
+			d <- OPD_Assemble_Start12(ConceptFile.Property["IdShort"],ConceptFile.Property["SemanticId"],ConceptFile.Property["DEPreferedName"],ConceptFile.Property["ENPreferedName"],ConceptFile.Property["DEDefinition"],ConceptFile.Property["ENDefinition"])+"\n";
+		)	
+		do{
+			file1.append(d);
+		}
+  } 
+  rule Rule_OPD_PT7{
+	 from
+	   Object[xAdHYpJf] Shell;
+	   Object[rmyYIX2q] MarkingConcept;
+	   Object[yXXMRsix] Submodel;
+	   Shell.explode(Submodel);
+	   Submodel.explode(MarkingConcept);
+	   in Model[model_xmqKfUV9_7ae9d] MD;
+	      using{
+			  Template OPD_Assemble_Start13(P1,P2,P3,P4,P5,P6) =<%
+				  \\<aas:conceptDescription>
+					\\<aas:idShort><P1>\\</aas:idShort>
+					\\<aas:identification idType=\"URI\"><P2>\\</aas:identification>
+					\\<aas:embeddedDataSpecification>
+					\\<aas:hasDataSpecification>
+					\\</aas:hasDataSpecification>
+					\\<aas:dataSpecificationContent>
+					\\<aas:dataSpecificationIEC61360>
+					\\<IEC61360:preferredName>
+					\\<aas:langString lang=\"DE\"><P3>\\</aas:langString>
+					\\<aas:langString lang=\"EN\"><P4>\\</aas:langString>
+					\\</IEC61360:preferredName>
+					\\<IEC61360:shortName><P1>\\</IEC61360:shortName>
+					\\<IEC61360:unit/>
+					\\<IEC61360:sourceOfDefinition/>
+					\\<IEC61360:dataType/>
+					\\<IEC61360:definition>
+					\\<aas:langString lang=\"DE\"><P5>\\</aas:langString>
+					\\<aas:langString lang=\"EN\"><P6>\\</aas:langString>
+					\\</IEC61360:definition>
+					\\</aas:dataSpecificationIEC61360>
+					\\</aas:dataSpecificationContent>
+					\\</aas:embeddedDataSpecification>
+					\\</aas:conceptDescription>
+			  \n%>;
+	        }  
+        to	
+		String d(
+			d <- OPD_Assemble_Start13(MarkingConcept.Property["IdShort"],MarkingConcept.Property["SemanticId"],MarkingConcept.Property["DEPreferedName"],MarkingConcept.Property["ENPreferedName"],MarkingConcept.Property["DEDefinition"],MarkingConcept.Property["ENDefinition"])+"\n";
+		)	
+		do{
+			file1.append(d);
+		}
+  }
+	endpoint rule endline( ){
+		to 
+			String e(
+				e <-  "</aas:conceptDescriptions>"+"\n"+"</aas:aasenv>"+"\n";
+			)
+			do{
+				file1.append(e);
+			}
+  }
+
+end OPD3
