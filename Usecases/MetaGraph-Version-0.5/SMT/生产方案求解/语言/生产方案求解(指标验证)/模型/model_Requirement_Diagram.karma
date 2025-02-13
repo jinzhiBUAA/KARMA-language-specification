@@ -1,0 +1,134 @@
+    partial Model model_Requirement_Diagram instanceof Requirement_Diagram
+    
+      Object model_Requirement_Diagram_object_fd69 refer Object_Requirement
+        Property model_Requirement_Diagram_property_2eb1 = "木材生产" refer Object_Requirement_Property_Name_e98a43 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(510,45,140,70),
+          localLabel="需求",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Requirement_Diagram_object_fd69;
+
+      Object model_Requirement_Diagram_object_c0b8 refer Object_Requirement
+        Property model_Requirement_Diagram_property_0be0 = "材料1" refer Object_Requirement_Property_Name_e98a43 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Object_Requirement_Property_Property_dd7f5b_6878 = "800" refer Object_Requirement_Property_Property_dd7f5b annotation(localLabel = "数量",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(235,185,140,70),
+          localLabel="需求",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Requirement_Diagram_object_c0b8;
+
+      Object model_Requirement_Diagram_object_8e80 refer Object_Requirement
+        Property model_Requirement_Diagram_property_2efc = "材料2" refer Object_Requirement_Property_Name_e98a43 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Object_Requirement_Property_Property_dd7f5b_ead6 = "400" refer Object_Requirement_Property_Property_dd7f5b annotation(localLabel = "数量",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(750,190,140,70),
+          localLabel="需求",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Requirement_Diagram_object_8e80;
+
+      Relationship model_Requirement_Diagram_relationship_cf11 refer Relationship_Containment
+        Role model_Requirement_Diagram_fromrole_a807 refer Role_Containment_Start
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end model_Requirement_Diagram_fromrole_a807;
+         Role model_Requirement_Diagram_torole_3cd5 refer Role_Containment_End
+          annotation(
+            localLabel="包含终端",
+            shape="solidTriangle"
+          );
+        end model_Requirement_Diagram_torole_3cd5;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(304,186;786,-61),
+          polylineLocation="[-1,-34,-276,106]$[-1,-141,-276,-1]$[206,-141,-69,-1]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Requirement_Diagram_relationship_cf11;
+ 
+      Relationship model_Requirement_Diagram_relationship_6c4b refer Relationship_Containment
+        Role model_Requirement_Diagram_fromrole_77b2 refer Role_Containment_Start
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end model_Requirement_Diagram_fromrole_77b2;
+         Role model_Requirement_Diagram_torole_83a3 refer Role_Containment_End
+          annotation(
+            localLabel="包含终端",
+            shape="solidTriangle"
+          );
+        end model_Requirement_Diagram_torole_83a3;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(819,191;409,-66),
+          polylineLocation="[-1,-34,239,111]$[-1,-146,239,-1]$[-171,-146,69,-1]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Requirement_Diagram_relationship_6c4b;
+ 
+    Connect(connector(model_Requirement_Diagram_object_c0b8,model_Requirement_Diagram_relationship_cf11.model_Requirement_Diagram_fromrole_a807),connector(model_Requirement_Diagram_object_fd69,model_Requirement_Diagram_relationship_cf11.model_Requirement_Diagram_torole_3cd5));
+ 
+    Connect(connector(model_Requirement_Diagram_object_8e80,model_Requirement_Diagram_relationship_6c4b.model_Requirement_Diagram_fromrole_77b2),connector(model_Requirement_Diagram_object_fd69,model_Requirement_Diagram_relationship_6c4b.model_Requirement_Diagram_torole_83a3));
+ 
+
+      annotation(
+        localLabel="需求图",
+    );
+    
+   end model_Requirement_Diagram;

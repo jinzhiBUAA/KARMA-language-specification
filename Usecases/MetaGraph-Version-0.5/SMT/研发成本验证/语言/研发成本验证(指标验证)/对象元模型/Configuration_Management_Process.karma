@@ -1,0 +1,18 @@
+   Object Configuration_Management_Process
+      initial Property  Configuration_Management_Process_Purpose_b224f6 = 0 extends Purpose annotation(localLabel ="目的");
+      initial Property  Configuration_Management_Process_Description_5d45ab = 0 extends Description annotation(localLabel ="描述");
+      initial Property  Configuration_Management_Process_Inputs_adbc26 = 0 extends Inputs annotation(localLabel ="输入");
+      initial Property  Configuration_Management_Process_Outputs_66900f = 0 extends Outputs annotation(localLabel ="输出");
+      initial Property  Configuration_Management_Process_Target_daily_cost_cb6d04 = 0 extends Target_daily_cost annotation(localLabel ="目标每日花费");
+      initial Property  Configuration_Management_Process_Target_days_437dc7 = 0 extends Target_days annotation(localLabel ="目标天数");
+      initial Property  Configuration_Management_Process_Estimated_daily_cost_ed7694 = 0 extends Estimated_daily_cost annotation(localLabel ="预计每日花费");
+      initial Property  Configuration_Management_Process_Estimated_days_30d8c6 = 0 extends Estimated_days annotation(localLabel ="预计天数");
+   annotation(
+      localLabel="技术状态管理过程",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Configuration_Management_Process;
+ 

@@ -1,0 +1,18 @@
+   Object Maintenance_Process
+      initial Property  Maintenance_Process_Purpose_8dce01 = 0 extends Purpose annotation(localLabel ="目的");
+      initial Property  Maintenance_Process_Description_e9e1a1 = 0 extends Description annotation(localLabel ="描述");
+      initial Property  Maintenance_Process_Inputs_708de1 = 0 extends Inputs annotation(localLabel ="输入");
+      initial Property  Maintenance_Process_Outputs_f6bd82 = 0 extends Outputs annotation(localLabel ="输出");
+      initial Property  Maintenance_Process_Target_daily_cost_6cc050 = 0 extends Target_daily_cost annotation(localLabel ="目标每日花费");
+      initial Property  Maintenance_Process_Target_days_110a3b = 0 extends Target_days annotation(localLabel ="目标天数");
+      initial Property  Maintenance_Process_Estimated_daily_cost_a51368 = 0 extends Estimated_daily_cost annotation(localLabel ="预计每日花费");
+      initial Property  Maintenance_Process_Estimated_days_cff4cb = 0 extends Estimated_days annotation(localLabel ="预计天数");
+   annotation(
+      localLabel="维护过程",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Maintenance_Process;
+ 

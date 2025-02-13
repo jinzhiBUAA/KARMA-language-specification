@@ -1,0 +1,90 @@
+    partial Model vgu7vzN8 instanceof graph_act
+      Object vgu7vzN8_object_9c71 refer object_callbehavior
+        Property vgu7vzN8_object_9c71_property_a5c7 = "发送转向信号" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point vgu7vzN8_object_9c71_output_6026 refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="转向信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(111,-12,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end vgu7vzN8_object_9c71_output_6026;
+ 
+        annotation(
+          initialLocation=(18,161,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end vgu7vzN8_object_9c71;
+
+      Object vgu7vzN8_object_88eb refer object_decision
+        annotation(
+          initialLocation=(44,299,86,56),
+          localLabel="决策",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end vgu7vzN8_object_88eb;
+
+      Relationship vgu7vzN8_relationship_e156 refer controlflow
+        Role vgu7vzN8_fromrole_c3e1 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end vgu7vzN8_fromrole_c3e1;
+         Role vgu7vzN8_torole_3275 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end vgu7vzN8_torole_3275;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(87,327;88,126),
+          polylineLocation="[0,0,0,70]$[0,-70,0,0];(0.5,0.0);(0.5,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end vgu7vzN8_relationship_e156;
+ 
+    Connect(connector(vgu7vzN8_object_88eb,vgu7vzN8_relationship_e156.vgu7vzN8_fromrole_c3e1),connector(vgu7vzN8_object_9c71,vgu7vzN8_relationship_e156.vgu7vzN8_torole_3275));
+ 
+
+      annotation(
+        localLabel="飞控系统",
+        SDIdentification="",
+    );
+   end vgu7vzN8;

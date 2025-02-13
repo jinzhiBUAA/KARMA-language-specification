@@ -1,0 +1,549 @@
+    partial Model model_graph_act_50558 instanceof graph_act
+    
+      Object model_graph_act_50558_object_d7e5 refer object_action
+        Property model_graph_act_50558_object_d7e5_property_4680 = "检查电缆网配电情况" refer object_action_property_name_737256 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_act_50558_object_d7e5_input_fe10 refer object_action_port_In_49baba
+      annotation(
+         localLabel="工作信号in",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,9,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_act_50558_object_d7e5_input_fe10;
+ 
+      
+        annotation(
+          initialLocation=(228,111,140,70),
+          localLabel="动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_act_50558_object_d7e5;
+
+      Object model_graph_act_50558_object_2175 refer object_signal
+        Property model_graph_act_50558_object_2175_property_3463 = "null" refer object_signal_property_name_219c92 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(42,120,115,49),
+          localLabel="in 工作信号",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_graph_act_50558_object_2175;
+
+      Object model_graph_act_50558_object_942d refer object_merge
+      
+        annotation(
+          initialLocation=(252,474,113,43),
+          localLabel="合并",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_graph_act_50558_object_942d;
+
+      Object model_graph_act_50558_object_3e6a refer object_action
+        Property model_graph_act_50558_object_3e6a_property_fbbf = "启动备用电源" refer object_action_property_name_737256 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_act_50558_object_3e6a_input_4f25 refer object_action_port_In_49baba
+      annotation(
+         localLabel="欠电信号in",
+         labelLocation=(-1,-1),
+		 initialLocation=(65,-12,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_act_50558_object_3e6a_input_4f25;
+ 
+      
+        annotation(
+          initialLocation=(42,462,140,70),
+          localLabel="动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_act_50558_object_3e6a;
+
+      Object model_graph_act_50558_object_6996 refer object_decision
+      
+        annotation(
+          initialLocation=(245,222,104,43),
+          localLabel="决策",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_graph_act_50558_object_6996;
+
+      Object model_graph_act_50558_object_f9d6 refer object_action
+        Property model_graph_act_50558_object_f9d6_property_a899 = "发送供电信号" refer object_action_property_name_737256 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_act_50558_object_f9d6_output_1e87 refer object_action_port_Out_a27318
+      annotation(
+         localLabel="供电信号out",
+         labelLocation=(-1,-1),
+		 initialLocation=(130,18,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_act_50558_object_f9d6_output_1e87;
+ 
+      
+        annotation(
+          initialLocation=(245,570,140,70),
+          localLabel="动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_act_50558_object_f9d6;
+
+      Object model_graph_act_50558_object_db5e refer object_signal
+        Property model_graph_act_50558_object_db5e_property_7200 = "null" refer object_signal_property_name_219c92 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(450,582,110,43),
+          localLabel="out 供电信号",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_graph_act_50558_object_db5e;
+
+      Object model_graph_act_50558_object_450b refer object_action
+        Property model_graph_act_50558_object_450b_property_aaf2 = "正常供电" refer object_action_property_name_737256 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(240,348,140,70),
+          localLabel="动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_act_50558_object_450b;
+
+      Object model_graph_act_50558_object_f45f refer object_action
+        Property model_graph_act_50558_object_f45f_property_32d5 = "发送欠电信号" refer object_action_property_name_737256 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_act_50558_object_f45f_output_5a3d refer object_action_port_Out_a27318
+      annotation(
+         localLabel="欠电信号out",
+         labelLocation=(-1,-1),
+		 initialLocation=(60,60,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_act_50558_object_f45f_output_5a3d;
+ 
+      
+        annotation(
+          initialLocation=(48,335,140,70),
+          localLabel="动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_act_50558_object_f45f;
+
+      Relationship model_graph_act_50558_relationship_dcec refer controlflow
+        Role model_graph_act_50558_fromrole_c20f refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end model_graph_act_50558_fromrole_c20f;
+         Role model_graph_act_50558_torole_7e20 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end model_graph_act_50558_torole_7e20;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(298,146;297,286),
+          polylineLocation="[0,0,0,-43]$[0,43,0,0];(0.5,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_act_50558_relationship_dcec;
+ 
+      Relationship model_graph_act_50558_relationship_d580 refer controlflow
+        Role model_graph_act_50558_fromrole_3972 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end model_graph_act_50558_fromrole_3972;
+         Role model_graph_act_50558_torole_a694 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end model_graph_act_50558_torole_a694;
+       
+        annotation(
+          localLabel="电缆网异常",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(291,243;-80,440),
+          polylineLocation="[-6,0,192,-70]$[-6,35,192,-35]$[-198,35,0,-35]$[-198,70,0,0];(0.5865384615384616,1.0);(0.43478260869565216,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_act_50558_relationship_d580;
+ 
+      Relationship model_graph_act_50558_relationship_c911 refer controlflow
+        Role model_graph_act_50558_fromrole_5a2f refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end model_graph_act_50558_fromrole_5a2f;
+         Role model_graph_act_50558_torole_b6e0 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end model_graph_act_50558_torole_b6e0;
+       
+        annotation(
+          localLabel="电缆网正常",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(297,243;310,466),
+          polylineLocation="[0,0,3,-83]$[0,83,3,0];(0.5288461538461539,1.0);(0.41304347826086957,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_act_50558_relationship_c911;
+ 
+      Relationship model_graph_act_50558_relationship_d513 refer controlflow
+        Role model_graph_act_50558_fromrole_22a5 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end model_graph_act_50558_fromrole_22a5;
+         Role model_graph_act_50558_torole_2409 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end model_graph_act_50558_torole_2409;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(310,383;308,553),
+          polylineLocation="[0,0,0,-58]$[0,58,0,0];(0.4927536231884058,1.0);(0.49557522123893805,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_act_50558_relationship_d513;
+ 
+      Relationship model_graph_act_50558_relationship_ad70 refer controlflow
+        Role model_graph_act_50558_fromrole_6f66 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end model_graph_act_50558_fromrole_6f66;
+         Role model_graph_act_50558_torole_1ef5 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end model_graph_act_50558_torole_1ef5;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(300,495;307,658),
+          polylineLocation="[-8,0,-8,-53]$[-8,53,-8,0];(0.5486725663716814,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_act_50558_relationship_ad70;
+ 
+      Relationship model_graph_act_50558_relationship_4f59 refer controlflow
+        Role model_graph_act_50558_fromrole_9f8e refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end model_graph_act_50558_fromrole_9f8e;
+         Role model_graph_act_50558_torole_0910 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end model_graph_act_50558_torole_0910;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(112,497;380,495),
+          polylineLocation="[0,0,-72,0]$[72,0,0,0];(1.0,0.4852941176470588);(0.0,0.4883720930232558)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_act_50558_relationship_4f59;
+ 
+      Relationship model_graph_act_50558_relationship_0818 refer objectflow
+        Role model_graph_act_50558_fromrole_e5ae refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end model_graph_act_50558_fromrole_e5ae;
+         Role model_graph_act_50558_torole_70ff refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end model_graph_act_50558_torole_70ff;
+       
+        annotation(
+          localLabel="对象流",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(123,369;117,532),
+          polylineLocation="[5,-1,2,-36]$[5,35,2,0];(0.15,1.0);(0.35,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_act_50558_relationship_0818;
+ 
+      Relationship model_graph_act_50558_relationship_4327 refer objectflow
+        Role model_graph_act_50558_fromrole_cfb7 refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end model_graph_act_50558_fromrole_cfb7;
+         Role model_graph_act_50558_torole_ebd8 refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end model_graph_act_50558_torole_ebd8;
+       
+        annotation(
+          localLabel="对象流",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(315,605;560,603),
+          polylineLocation="[0,0,-55,0]$[55,0,0,0];(1.0,0.75);(0.0,0.4883720930232558)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_act_50558_relationship_4327;
+ 
+      Relationship model_graph_act_50558_relationship_8d07 refer objectflow
+        Role model_graph_act_50558_fromrole_b9fa refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end model_graph_act_50558_fromrole_b9fa;
+         Role model_graph_act_50558_torole_c777 refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end model_graph_act_50558_torole_c777;
+       
+        annotation(
+          localLabel="对象流",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(99,132;357,134),
+          polylineLocation="[0,-12,-59,0]$[59,-12,0,0];(1.0,0.4897959183673469);(0.0,0.6)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_act_50558_relationship_8d07;
+ 
+    Connect(connector(model_graph_act_50558_object_d7e5,model_graph_act_50558_relationship_dcec.model_graph_act_50558_fromrole_c20f),connector(model_graph_act_50558_object_6996,model_graph_act_50558_relationship_dcec.model_graph_act_50558_torole_7e20));
+ 
+    Connect(connector(model_graph_act_50558_object_6996,model_graph_act_50558_relationship_d580.model_graph_act_50558_fromrole_3972),connector(model_graph_act_50558_object_f45f,model_graph_act_50558_relationship_d580.model_graph_act_50558_torole_a694));
+ 
+    Connect(connector(model_graph_act_50558_object_6996,model_graph_act_50558_relationship_c911.model_graph_act_50558_fromrole_5a2f),connector(model_graph_act_50558_object_450b,model_graph_act_50558_relationship_c911.model_graph_act_50558_torole_b6e0));
+ 
+    Connect(connector(model_graph_act_50558_object_450b,model_graph_act_50558_relationship_d513.model_graph_act_50558_fromrole_22a5),connector(model_graph_act_50558_object_942d,model_graph_act_50558_relationship_d513.model_graph_act_50558_torole_2409));
+ 
+    Connect(connector(model_graph_act_50558_object_942d,model_graph_act_50558_relationship_ad70.model_graph_act_50558_fromrole_6f66),connector(model_graph_act_50558_object_f9d6,model_graph_act_50558_relationship_ad70.model_graph_act_50558_torole_1ef5));
+ 
+    Connect(connector(model_graph_act_50558_object_3e6a,model_graph_act_50558_relationship_4f59.model_graph_act_50558_fromrole_9f8e),connector(model_graph_act_50558_object_942d,model_graph_act_50558_relationship_4f59.model_graph_act_50558_torole_0910));
+ 
+    Connect(connector(model_graph_act_50558_object_f45f.model_graph_act_50558_object_f45f_output_5a3d,model_graph_act_50558_relationship_0818.model_graph_act_50558_fromrole_e5ae),connector(model_graph_act_50558_object_3e6a.model_graph_act_50558_object_3e6a_input_4f25,model_graph_act_50558_relationship_0818.model_graph_act_50558_torole_70ff));
+ 
+    Connect(connector(model_graph_act_50558_object_f9d6.model_graph_act_50558_object_f9d6_output_1e87,model_graph_act_50558_relationship_4327.model_graph_act_50558_fromrole_cfb7),connector(model_graph_act_50558_object_db5e,model_graph_act_50558_relationship_4327.model_graph_act_50558_torole_ebd8));
+ 
+    Connect(connector(model_graph_act_50558_object_2175,model_graph_act_50558_relationship_8d07.model_graph_act_50558_fromrole_b9fa),connector(model_graph_act_50558_object_d7e5.model_graph_act_50558_object_d7e5_input_fe10,model_graph_act_50558_relationship_8d07.model_graph_act_50558_torole_c777));
+ 
+
+      annotation(
+        localLabel="收放电缆网自检",
+        SDIdentification="",
+    );
+    
+   end model_graph_act_50558;

@@ -1,0 +1,18 @@
+   Object Integration_Process
+      initial Property  Integration_Process_Purpose_8d974b = 0 extends Purpose annotation(localLabel ="目的");
+      initial Property  Integration_Process_Description_693979 = 0 extends Description annotation(localLabel ="描述");
+      initial Property  Integration_Process_Inputs_d89e48 = 0 extends Inputs annotation(localLabel ="输入");
+      initial Property  Integration_Process_Outputs_b330c0 = 0 extends Outputs annotation(localLabel ="输出");
+      initial Property  Integration_Process_Target_daily_cost_ee7a0d = 0 extends Target_daily_cost annotation(localLabel ="目标每日花费");
+      initial Property  Integration_Process_Target_days_6ef359 = 0 extends Target_days annotation(localLabel ="目标天数");
+      initial Property  Integration_Process_Estimated_daily_cost_3fb5b0 = 0 extends Estimated_daily_cost annotation(localLabel ="预计每日花费");
+      initial Property  Integration_Process_Estimated_days_df1da7 = 0 extends Estimated_days annotation(localLabel ="预计天数");
+   annotation(
+      localLabel="集成过程",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Integration_Process;
+ 

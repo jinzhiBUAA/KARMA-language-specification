@@ -1,0 +1,16 @@
+   Object Object_Gain
+      initial Property  Object_Gain_Property_Name_079377 = "Gain" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Gain_Property_Parameters_840a76 = "1" extends Property_Parameters annotation(localLabel ="参数");
+      Input Point Object_Gain_Point_Inport_bcb2db extends Point_Inport annotation (localLabel ="输入");
+      Output Point Object_Gain_Point_Outport_1f5a73 extends Point_Outport annotation (localLabel ="输出");
+   annotation(
+      localLabel="Gain",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="Gain.png",
+      UnfoldDirection=Y,
+      );
+   end Object_Gain;
+ 

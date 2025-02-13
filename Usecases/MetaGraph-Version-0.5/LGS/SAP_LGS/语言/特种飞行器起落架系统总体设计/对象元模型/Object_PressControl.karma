@@ -1,0 +1,19 @@
+   Object Object_PressControl
+      initial Property unique Object_PressControl_Property_Name_d09fbb = "null" extends Property_Name annotation(localLabel ="Name");
+      initial Property  Object_PressControl_Property_Pressure_5571cf = 0 extends Property_Pressure annotation(localLabel ="Pressure");
+      initial Property  Object_PressControl_Property_FlowRate_732453 = 0 extends Property_FlowRate annotation(localLabel ="FlowRate");
+      initial Property  Object_PressControl_Property_Value_5f506b = 0 extends Property_Value annotation(localLabel ="Value");
+      Undirected Point Object_PressControl_Point_SignalPort_6c6bbc extends Point_SignalPort annotation (localLabel ="SignalPort");
+      Undirected Point Object_PressControl_Point_ParameterPort_ead03b extends Point_ParameterPort annotation (localLabel ="ParameterPort");
+      Undirected Point Object_PressControl_Point_HydraulicPort_c23e35 extends Point_HydraulicPort annotation (localLabel ="HydraulicPort");
+   annotation(
+      localLabel="PressControl",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="单向阀.png",
+      UnfoldDirection=Y,
+      );
+   end Object_PressControl;
+ 

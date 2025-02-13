@@ -1,0 +1,18 @@
+   Object Portfolio_Management_Process
+      initial Property  Portfolio_Management_Process_Purpose_e05b88 = 0 extends Purpose annotation(localLabel ="目的");
+      initial Property  Portfolio_Management_Process_Description_a18b50 = 0 extends Description annotation(localLabel ="描述");
+      initial Property  Portfolio_Management_Process_Inputs_dbed03 = 0 extends Inputs annotation(localLabel ="输入");
+      initial Property  Portfolio_Management_Process_Outputs_e78aae = 0 extends Outputs annotation(localLabel ="输出");
+      initial Property  Portfolio_Management_Process_Target_daily_cost_3e0194 = 0 extends Target_daily_cost annotation(localLabel ="目标每日花费");
+      initial Property  Portfolio_Management_Process_Target_days_fd2781 = 0 extends Target_days annotation(localLabel ="目标天数");
+      initial Property  Portfolio_Management_Process_Estimated_daily_cost_ed38a4 = 0 extends Estimated_daily_cost annotation(localLabel ="预计每日花费");
+      initial Property  Portfolio_Management_Process_Estimated_days_eee452 = 0 extends Estimated_days annotation(localLabel ="预计天数");
+   annotation(
+      localLabel="项目群管理过程",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Portfolio_Management_Process;
+ 

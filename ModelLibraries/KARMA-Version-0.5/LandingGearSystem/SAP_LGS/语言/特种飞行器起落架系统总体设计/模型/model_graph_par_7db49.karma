@@ -1,0 +1,769 @@
+    partial Model model_graph_par_7db49 instanceof graph_par
+    
+      Object model_graph_par_7db49_object_11db refer paramater_constraint
+        Property model_graph_par_7db49_object_11db_property_3a99 = "起落架MTBF计算" refer paramater_constraint_property_name_ac58ea annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_11db_property_10b9 = "MTBF=1/lamda" refer paramater_constraint_property_constraint_f47ba4 annotation(localLabel = "约束",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_par_7db49_object_11db_undirected_b15c refer paramater_constraint_point_port_e357f3
+      annotation(
+         localLabel="MTBF",
+         labelLocation=(-1,-1),
+		 initialLocation=(12,-12,22,22),
+         shape="rectangle",
+         color="227,164,156;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_11db_undirected_b15c;
+ 
+      Point model_graph_par_7db49_object_11db_point_a5da refer paramater_constraint_point_port_e357f3
+      annotation(
+         localLabel="lamda",
+         labelLocation=(-1,-1),
+		 initialLocation=(179,68,22,22),
+         shape="rectangle",
+         color="227,164,156;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_11db_point_a5da;
+ 
+      
+        annotation(
+          initialLocation=(516,132,189,124),
+          localLabel="约束属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_par_7db49_object_11db;
+
+      Object model_graph_par_7db49_object_2d78 refer paramater_value
+        Property model_graph_par_7db49_object_2d78_property_a111 = "收放子系统失效率" refer paramater_value_property_name_9d9789 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_2d78_property_c66a = "lamda2" refer paramater_value_property_variable_639633 annotation(localLabel = "变量",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_2d78_property_63be = 0 refer paramater_value_property_value_49723b annotation(localLabel = "值",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_par_7db49_object_2d78_undirected_0227 refer paramater_value_point_port_f9fb9b
+      annotation(
+         localLabel="lamda2",
+         labelLocation=(-1,-1),
+		 initialLocation=(130,12,22,22),
+         shape="rectangle",
+         color="166,193,152;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_2d78_undirected_0227;
+ 
+      
+        annotation(
+          initialLocation=(276,306,140,93),
+          localLabel="值属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_par_7db49_object_2d78;
+
+      Object model_graph_par_7db49_object_cf0a refer paramater_value
+        Property model_graph_par_7db49_object_cf0a_property_9d77 = "前轮转向子系统失效率" refer paramater_value_property_name_9d9789 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_cf0a_property_a239 = "lamda3" refer paramater_value_property_variable_639633 annotation(localLabel = "变量",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_cf0a_property_0f3d = 0 refer paramater_value_property_value_49723b annotation(localLabel = "值",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_par_7db49_object_cf0a_undirected_a4c5 refer paramater_value_point_port_f9fb9b
+      annotation(
+         localLabel="lamda3",
+         labelLocation=(-1,-1),
+		 initialLocation=(130,0,22,22),
+         shape="rectangle",
+         color="166,193,152;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_cf0a_undirected_a4c5;
+ 
+      
+        annotation(
+          initialLocation=(276,453,140,94),
+          localLabel="值属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_par_7db49_object_cf0a;
+
+      Object model_graph_par_7db49_object_6609 refer paramater_value
+        Property model_graph_par_7db49_object_6609_property_4552 = "控制驱动器子系统失效率" refer paramater_value_property_name_9d9789 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_6609_property_11ae = "lamda4" refer paramater_value_property_variable_639633 annotation(localLabel = "变量",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_6609_property_37a4 = 0 refer paramater_value_property_value_49723b annotation(localLabel = "值",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_par_7db49_object_6609_undirected_eae2 refer paramater_value_point_port_f9fb9b
+      annotation(
+         localLabel="lamda4",
+         labelLocation=(-1,-1),
+		 initialLocation=(29,-12,22,22),
+         shape="rectangle",
+         color="166,193,152;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_6609_undirected_eae2;
+ 
+      
+        annotation(
+          initialLocation=(547,453,140,96),
+          localLabel="值属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_par_7db49_object_6609;
+
+      Object model_graph_par_7db49_object_f33f refer paramater_value
+        Property model_graph_par_7db49_object_f33f_property_d74f = "传感器子系统失效率" refer paramater_value_property_name_9d9789 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_f33f_property_2961 = "lamda5" refer paramater_value_property_variable_639633 annotation(localLabel = "变量",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_f33f_property_19ba = 0 refer paramater_value_property_value_49723b annotation(localLabel = "值",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_par_7db49_object_f33f_undirected_361f refer paramater_value_point_port_f9fb9b
+      annotation(
+         localLabel="lamda5",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,0,22,22),
+         shape="rectangle",
+         color="166,193,152;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_f33f_undirected_361f;
+ 
+      
+        annotation(
+          initialLocation=(792,456,140,93),
+          localLabel="值属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_par_7db49_object_f33f;
+
+      Object model_graph_par_7db49_object_9223 refer paramater_value
+        Property model_graph_par_7db49_object_9223_property_bf82 = "供配电子系统失效率" refer paramater_value_property_name_9d9789 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_9223_property_4a0f = "lamda6" refer paramater_value_property_variable_639633 annotation(localLabel = "变量",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_9223_property_1bea = 0 refer paramater_value_property_value_49723b annotation(localLabel = "值",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_par_7db49_object_9223_undirected_179b refer paramater_value_point_port_f9fb9b
+      annotation(
+         localLabel="lamda6",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,0,22,22),
+         shape="rectangle",
+         color="166,193,152;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_9223_undirected_179b;
+ 
+      
+        annotation(
+          initialLocation=(792,318,140,93),
+          localLabel="值属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_par_7db49_object_9223;
+
+      Object model_graph_par_7db49_object_b3f3 refer paramater_value
+        Property model_graph_par_7db49_object_b3f3_property_85bf = "机轮刹车子系统失效率" refer paramater_value_property_name_9d9789 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_b3f3_property_a6a6 = "lamda1" refer paramater_value_property_variable_639633 annotation(localLabel = "变量",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_b3f3_property_5c27 = 0 refer paramater_value_property_value_49723b annotation(localLabel = "值",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_par_7db49_object_b3f3_undirected_44d0 refer paramater_value_point_port_f9fb9b
+      annotation(
+         localLabel="lamda1",
+         labelLocation=(-1,-1),
+		 initialLocation=(130,18,22,22),
+         shape="rectangle",
+         color="166,193,152;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_b3f3_undirected_44d0;
+ 
+      
+        annotation(
+          initialLocation=(270,138,140,93),
+          localLabel="值属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_par_7db49_object_b3f3;
+
+      Object model_graph_par_7db49_object_f31f refer paramater_value
+        Property model_graph_par_7db49_object_f31f_property_c1af = "起落架系统失效率" refer paramater_value_property_name_9d9789 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_f31f_property_5aa3 = "lamda" refer paramater_value_property_variable_639633 annotation(localLabel = "变量",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_f31f_property_44d5 = 0 refer paramater_value_property_value_49723b annotation(localLabel = "值",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_par_7db49_object_f31f_undirected_2ebf refer paramater_value_point_port_f9fb9b
+      annotation(
+         localLabel="lamda",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,18,22,22),
+         shape="rectangle",
+         color="166,193,152;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_f31f_undirected_2ebf;
+ 
+      
+        annotation(
+          initialLocation=(792,132,140,88),
+          localLabel="值属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_par_7db49_object_f31f;
+
+      Object model_graph_par_7db49_object_8064 refer paramater_value
+        Property model_graph_par_7db49_object_8064_property_3dd2 = "平均故障间隔时间" refer paramater_value_property_name_9d9789 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_8064_property_ba53 = "MTBF" refer paramater_value_property_variable_639633 annotation(localLabel = "变量",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_8064_property_250e = 0 refer paramater_value_property_value_49723b annotation(localLabel = "值",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_par_7db49_object_8064_undirected_f509 refer paramater_value_point_port_f9fb9b
+      annotation(
+         localLabel="MTBF",
+         labelLocation=(-1,-1),
+		 initialLocation=(114,78,22,22),
+         shape="rectangle",
+         color="166,193,152;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_8064_undirected_f509;
+ 
+      
+        annotation(
+          initialLocation=(535,6,152,88),
+          localLabel="值属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_par_7db49_object_8064;
+
+      Object model_graph_par_7db49_object_ab05 refer paramater_constraint
+        Property model_graph_par_7db49_object_ab05_property_3063 = "起落架失效率计算" refer paramater_constraint_property_name_ac58ea annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_graph_par_7db49_object_ab05_property_5755 = "lamda=lamda1+lamda2+lamda3/(lamda1+lamda2+lamda3)+lamda4+lamda5+lamda6" refer paramater_constraint_property_constraint_f47ba4 annotation(localLabel = "约束",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_par_7db49_object_ab05_undirected_7d79 refer paramater_constraint_point_port_e357f3
+      annotation(
+         localLabel="lamda",
+         labelLocation=(-1,-1),
+		 initialLocation=(184,-12,22,22),
+         shape="rectangle",
+         color="227,164,156;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_ab05_undirected_7d79;
+ 
+      Point model_graph_par_7db49_object_ab05_point_3d3a refer paramater_constraint_point_port_e357f3
+      annotation(
+         localLabel="lamda5",
+         labelLocation=(-1,-1),
+		 initialLocation=(212,84,22,22),
+         shape="rectangle",
+         color="227,164,156;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_ab05_point_3d3a;
+ 
+      Point model_graph_par_7db49_object_ab05_point_46b1 refer paramater_constraint_point_port_e357f3
+      annotation(
+         localLabel="lamda1",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,0,22,22),
+         shape="rectangle",
+         color="227,164,156;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_ab05_point_46b1;
+ 
+      Point model_graph_par_7db49_object_ab05_point_102c refer paramater_constraint_point_port_e357f3
+      annotation(
+         localLabel="lamda2",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,42,22,22),
+         shape="rectangle",
+         color="227,164,156;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_ab05_point_102c;
+ 
+      Point model_graph_par_7db49_object_ab05_point_707c refer paramater_constraint_point_port_e357f3
+      annotation(
+         localLabel="lamda3",
+         labelLocation=(-1,-1),
+		 initialLocation=(0,107,22,22),
+         shape="rectangle",
+         color="227,164,156;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_ab05_point_707c;
+ 
+      Point model_graph_par_7db49_object_ab05_point_ff9c refer paramater_constraint_point_port_e357f3
+      annotation(
+         localLabel="lamda4",
+         labelLocation=(-1,-1),
+		 initialLocation=(154,107,22,22),
+         shape="rectangle",
+         color="227,164,156;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_ab05_point_ff9c;
+ 
+      Point model_graph_par_7db49_object_ab05_point_6ef1 refer paramater_constraint_point_port_e357f3
+      annotation(
+         localLabel="lamda6",
+         labelLocation=(-1,-1),
+		 initialLocation=(212,18,22,22),
+         shape="rectangle",
+         color="227,164,156;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_par_7db49_object_ab05_point_6ef1;
+ 
+      
+        annotation(
+          initialLocation=(500,294,222,117),
+          localLabel="约束属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_par_7db49_object_ab05;
+
+      Relationship model_graph_par_7db49_relationship_7a01 refer bindingconnector
+        Role model_graph_par_7db49_fromrole_0676 refer bindingconnector_in
+          annotation(
+            localLabel="绑定连接器始端",
+            shape="no"
+          );
+        end model_graph_par_7db49_fromrole_0676;
+         Role model_graph_par_7db49_torole_bb0f refer bindconnector_out
+          annotation(
+            localLabel="绑定连接器终端",
+            shape="no"
+          );
+        end model_graph_par_7db49_torole_bb0f;
+       
+        annotation(
+          localLabel="绑定连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(611,50;490,210),
+          polylineLocation="[0,0,120,-16]$[0,8,120,-8]$[-120,8,0,-8]$[-120,16,0,0];(0.45,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_par_7db49_relationship_7a01;
+ 
+      Relationship model_graph_par_7db49_relationship_1e00 refer bindingconnector
+        Role model_graph_par_7db49_fromrole_9322 refer bindingconnector_in
+          annotation(
+            localLabel="绑定连接器始端",
+            shape="no"
+          );
+        end model_graph_par_7db49_fromrole_9322;
+         Role model_graph_par_7db49_torole_28f8 refer bindconnector_out
+          annotation(
+            localLabel="绑定连接器终端",
+            shape="no"
+          );
+        end model_graph_par_7db49_torole_28f8;
+       
+        annotation(
+          localLabel="绑定连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(340,203;683,489),
+          polylineLocation="[0,19,-72,-118]$[0,75,-72,-62]$[72,75,0,-62]$[72,137,0,0];(1.0,0.05);(0.2,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_par_7db49_relationship_1e00;
+ 
+      Relationship model_graph_par_7db49_relationship_eb3f refer bindingconnector
+        Role model_graph_par_7db49_fromrole_e4e2 refer bindingconnector_in
+          annotation(
+            localLabel="绑定连接器始端",
+            shape="no"
+          );
+        end model_graph_par_7db49_fromrole_e4e2;
+         Role model_graph_par_7db49_torole_54b8 refer bindconnector_out
+          annotation(
+            localLabel="绑定连接器终端",
+            shape="no"
+          );
+        end model_graph_par_7db49_torole_54b8;
+       
+        annotation(
+          localLabel="绑定连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(610,202;927,134),
+          polylineLocation="[0,8,-65,50]$[35,8,-30,50]$[35,-42,-30,0]$[65,-42,0,0];(1.0,0.1);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_par_7db49_relationship_eb3f;
+ 
+      Relationship model_graph_par_7db49_relationship_9f6e refer bindingconnector
+        Role model_graph_par_7db49_fromrole_7c3f refer bindingconnector_in
+          annotation(
+            localLabel="绑定连接器始端",
+            shape="no"
+          );
+        end model_graph_par_7db49_fromrole_7c3f;
+         Role model_graph_par_7db49_torole_60bb refer bindconnector_out
+          annotation(
+            localLabel="绑定连接器终端",
+            shape="no"
+          );
+        end model_graph_par_7db49_torole_60bb;
+       
+        annotation(
+          localLabel="绑定连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(856,176;523,470),
+          polylineLocation="[-6,0,82,-124]$[-6,118,82,-6]$[-88,118,0,-6];(0.6,1.0);(1.0,0.6)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_par_7db49_relationship_9f6e;
+ 
+      Relationship model_graph_par_7db49_relationship_ddb8 refer bindingconnector
+        Role model_graph_par_7db49_fromrole_f1ce refer bindingconnector_in
+          annotation(
+            localLabel="绑定连接器始端",
+            shape="no"
+          );
+        end model_graph_par_7db49_fromrole_f1ce;
+         Role model_graph_par_7db49_torole_2ff7 refer bindconnector_out
+          annotation(
+            localLabel="绑定连接器终端",
+            shape="no"
+          );
+        end model_graph_par_7db49_torole_2ff7;
+       
+        annotation(
+          localLabel="绑定连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(346,352;673,370),
+          polylineLocation="[0,0,-62,-18]$[31,0,-31,-18]$[31,18,-31,0]$[62,18,0,0];(1.0,0.6);(0.0,0.6)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_par_7db49_relationship_ddb8;
+ 
+      Relationship model_graph_par_7db49_relationship_e2ff refer bindingconnector
+        Role model_graph_par_7db49_fromrole_5a9e refer bindingconnector_in
+          annotation(
+            localLabel="绑定连接器始端",
+            shape="no"
+          );
+        end model_graph_par_7db49_fromrole_5a9e;
+         Role model_graph_par_7db49_torole_bb10 refer bindconnector_out
+          annotation(
+            localLabel="绑定连接器终端",
+            shape="no"
+          );
+        end model_graph_par_7db49_torole_bb10;
+       
+        annotation(
+          localLabel="绑定连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(336,491;689,311),
+          polylineLocation="[-10,-9,-88,32]$[-10,-24,-88,17]$[78,-24,0,17]$[78,-41,0,0];(1.0,0.45);(0.2,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_par_7db49_relationship_e2ff;
+ 
+      Relationship model_graph_par_7db49_relationship_0e98 refer bindingconnector
+        Role model_graph_par_7db49_fromrole_0df4 refer bindingconnector_in
+          annotation(
+            localLabel="绑定连接器始端",
+            shape="no"
+          );
+        end model_graph_par_7db49_fromrole_0df4;
+         Role model_graph_par_7db49_torole_4651 refer bindconnector_out
+          annotation(
+            localLabel="绑定连接器终端",
+            shape="no"
+          );
+        end model_graph_par_7db49_torole_4651;
+       
+        annotation(
+          localLabel="绑定连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(618,501;688,332),
+          polylineLocation="[1,0,-76,20]$[1,-9,-76,11]$[77,-9,0,11]$[77,-20,0,0];(0.55,0.0);(0.5,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_par_7db49_relationship_0e98;
+ 
+      Relationship model_graph_par_7db49_relationship_c42b refer bindingconnector
+        Role model_graph_par_7db49_fromrole_40d4 refer bindingconnector_in
+          annotation(
+            localLabel="绑定连接器始端",
+            shape="no"
+          );
+        end model_graph_par_7db49_fromrole_40d4;
+         Role model_graph_par_7db49_torole_6816 refer bindconnector_out
+          annotation(
+            localLabel="绑定连接器终端",
+            shape="no"
+          );
+        end model_graph_par_7db49_torole_6816;
+       
+        annotation(
+          localLabel="绑定连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(850,512;551,284),
+          polylineLocation="[-12,10,48,82]$[-36,10,24,82]$[-36,-68,24,4]$[-60,-68,0,4];(0.6,0.0);(1.0,0.3)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_par_7db49_relationship_c42b;
+ 
+      Relationship model_graph_par_7db49_relationship_4737 refer bindingconnector
+        Role model_graph_par_7db49_fromrole_527e refer bindingconnector_in
+          annotation(
+            localLabel="绑定连接器始端",
+            shape="no"
+          );
+        end model_graph_par_7db49_fromrole_527e;
+         Role model_graph_par_7db49_torole_0432 refer bindconnector_out
+          annotation(
+            localLabel="绑定连接器终端",
+            shape="no"
+          );
+        end model_graph_par_7db49_torole_0432;
+       
+        annotation(
+          localLabel="绑定连接器",
+          labelLocation=(-27,-5),
+          shape="solidLine",
+          endLocation=(862,358;563,334),
+          polylineLocation="[0,-6,48,12]$[-24,-6,24,12]$[-24,-18,24,0]$[-48,-18,0,0];(0.0,0.9);(1.0,0.3)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_par_7db49_relationship_4737;
+ 
+    Connect(connector(model_graph_par_7db49_object_8064.model_graph_par_7db49_object_8064_undirected_f509,model_graph_par_7db49_relationship_7a01.model_graph_par_7db49_fromrole_0676),connector(model_graph_par_7db49_object_11db.model_graph_par_7db49_object_11db_undirected_b15c,model_graph_par_7db49_relationship_7a01.model_graph_par_7db49_torole_bb0f));
+ 
+    Connect(connector(model_graph_par_7db49_object_b3f3.model_graph_par_7db49_object_b3f3_undirected_44d0,model_graph_par_7db49_relationship_1e00.model_graph_par_7db49_fromrole_9322),connector(model_graph_par_7db49_object_ab05.model_graph_par_7db49_object_ab05_point_46b1,model_graph_par_7db49_relationship_1e00.model_graph_par_7db49_torole_28f8));
+ 
+    Connect(connector(model_graph_par_7db49_object_11db.model_graph_par_7db49_object_11db_point_a5da,model_graph_par_7db49_relationship_eb3f.model_graph_par_7db49_fromrole_e4e2),connector(model_graph_par_7db49_object_f31f.model_graph_par_7db49_object_f31f_undirected_2ebf,model_graph_par_7db49_relationship_eb3f.model_graph_par_7db49_torole_54b8));
+ 
+    Connect(connector(model_graph_par_7db49_object_f31f.model_graph_par_7db49_object_f31f_undirected_2ebf,model_graph_par_7db49_relationship_9f6e.model_graph_par_7db49_fromrole_7c3f),connector(model_graph_par_7db49_object_ab05.model_graph_par_7db49_object_ab05_undirected_7d79,model_graph_par_7db49_relationship_9f6e.model_graph_par_7db49_torole_60bb));
+ 
+    Connect(connector(model_graph_par_7db49_object_2d78.model_graph_par_7db49_object_2d78_undirected_0227,model_graph_par_7db49_relationship_ddb8.model_graph_par_7db49_fromrole_f1ce),connector(model_graph_par_7db49_object_ab05.model_graph_par_7db49_object_ab05_point_102c,model_graph_par_7db49_relationship_ddb8.model_graph_par_7db49_torole_2ff7));
+ 
+    Connect(connector(model_graph_par_7db49_object_cf0a.model_graph_par_7db49_object_cf0a_undirected_a4c5,model_graph_par_7db49_relationship_e2ff.model_graph_par_7db49_fromrole_5a9e),connector(model_graph_par_7db49_object_ab05.model_graph_par_7db49_object_ab05_point_707c,model_graph_par_7db49_relationship_e2ff.model_graph_par_7db49_torole_bb10));
+ 
+    Connect(connector(model_graph_par_7db49_object_6609.model_graph_par_7db49_object_6609_undirected_eae2,model_graph_par_7db49_relationship_0e98.model_graph_par_7db49_fromrole_0df4),connector(model_graph_par_7db49_object_ab05.model_graph_par_7db49_object_ab05_point_ff9c,model_graph_par_7db49_relationship_0e98.model_graph_par_7db49_torole_4651));
+ 
+    Connect(connector(model_graph_par_7db49_object_f33f.model_graph_par_7db49_object_f33f_undirected_361f,model_graph_par_7db49_relationship_c42b.model_graph_par_7db49_fromrole_40d4),connector(model_graph_par_7db49_object_ab05.model_graph_par_7db49_object_ab05_point_3d3a,model_graph_par_7db49_relationship_c42b.model_graph_par_7db49_torole_6816));
+ 
+    Connect(connector(model_graph_par_7db49_object_9223.model_graph_par_7db49_object_9223_undirected_179b,model_graph_par_7db49_relationship_4737.model_graph_par_7db49_fromrole_527e),connector(model_graph_par_7db49_object_ab05.model_graph_par_7db49_object_ab05_point_6ef1,model_graph_par_7db49_relationship_4737.model_graph_par_7db49_torole_0432));
+ 
+
+      annotation(
+        localLabel="MTBF参数",
+        SDIdentification="",
+    );
+    
+   end model_graph_par_7db49;

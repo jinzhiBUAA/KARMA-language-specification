@@ -1,0 +1,246 @@
+    partial Model model_Plan_Diagram instanceof Plan_Diagram
+    
+      Object model_Plan_Diagram_object_338a refer Object_Plan
+        Property model_Plan_Diagram_property_b0f6 = "生产方案" refer Object_Plan_Property_Name_e26a35 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(450,50,140,70),
+          localLabel="方案",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Plan_Diagram_object_338a;
+
+      Object model_Plan_Diagram_object_e49f refer Object_Plan
+        Property model_Plan_Diagram_property_a5be = "方案A" refer Object_Plan_Property_Name_e26a35 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Plan_Diagram_property_a97a = "3" refer Object_Plan_Property_Property_e1a137 annotation(localLabel = "材料1",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Object_Plan_Property_Property_e1a137_e29b = "1" refer Object_Plan_Property_Property_e1a137 annotation(localLabel = "材料2",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(80,235,153,83),
+          localLabel="方案",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Plan_Diagram_object_e49f;
+
+      Object model_Plan_Diagram_object_78ac refer Object_Plan
+        Property model_Plan_Diagram_property_ba2b = "方案B" refer Object_Plan_Property_Name_e26a35 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Plan_Diagram_property_55f2 = "2" refer Object_Plan_Property_Property_e1a137 annotation(localLabel = "材料1",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Object_Plan_Property_Property_e1a137_4e14 = "6" refer Object_Plan_Property_Property_e1a137 annotation(localLabel = "材料2",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(310,235,153,83),
+          localLabel="方案",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Plan_Diagram_object_78ac;
+
+      Object model_Plan_Diagram_object_aa73 refer Object_Plan
+        Property model_Plan_Diagram_property_3d0a = "方案C" refer Object_Plan_Property_Name_e26a35 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Plan_Diagram_property_e754 = "1" refer Object_Plan_Property_Property_e1a137 annotation(localLabel = "材料1",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Object_Plan_Property_Property_e1a137_3b9b = "9" refer Object_Plan_Property_Property_e1a137 annotation(localLabel = "材料2",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(555,235,153,83),
+          localLabel="方案",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Plan_Diagram_object_aa73;
+
+      Object model_Plan_Diagram_object_43c8 refer Object_Plan
+        Property model_Plan_Diagram_property_3241 = "方案D" refer Object_Plan_Property_Name_e26a35 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Plan_Diagram_property_2c4d = "0" refer Object_Plan_Property_Property_e1a137 annotation(localLabel = "材料1",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Object_Plan_Property_Property_e1a137_9b72 = "13" refer Object_Plan_Property_Property_e1a137 annotation(localLabel = "材料2",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(795,235,153,83),
+          localLabel="方案",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Plan_Diagram_object_43c8;
+
+      Relationship model_Plan_Diagram_relationship_6d8a refer Relationship_Containment
+        Role model_Plan_Diagram_fromrole_0904 refer Role_Containment_Start
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end model_Plan_Diagram_fromrole_0904;
+         Role model_Plan_Diagram_torole_ea50 refer Role_Containment_End
+          annotation(
+            localLabel="包含终端",
+            shape="solidTriangle"
+          );
+        end model_Plan_Diagram_torole_ea50;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(191,236;821,-114),
+          polylineLocation="[35,-40,-329,151]$[35,-205,-329,-14]$[295,-205,-69,-14]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Plan_Diagram_relationship_6d8a;
+ 
+      Relationship model_Plan_Diagram_relationship_ee85 refer Relationship_Containment
+        Role model_Plan_Diagram_fromrole_a63f refer Role_Containment_Start
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end model_Plan_Diagram_fromrole_a63f;
+         Role model_Plan_Diagram_torole_d640 refer Role_Containment_End
+          annotation(
+            localLabel="包含终端",
+            shape="solidTriangle"
+          );
+        end model_Plan_Diagram_torole_d640;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(386,276;611,-49),
+          polylineLocation="[0,0,-115,117]$[0,-140,-115,-23]$[85,-140,-30,-23]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Plan_Diagram_relationship_ee85;
+ 
+      Relationship model_Plan_Diagram_relationship_ddea refer Relationship_Containment
+        Role model_Plan_Diagram_fromrole_9c8b refer Role_Containment_Start
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end model_Plan_Diagram_fromrole_9c8b;
+         Role model_Plan_Diagram_torole_4a1d refer Role_Containment_End
+          annotation(
+            localLabel="包含终端",
+            shape="solidTriangle"
+          );
+        end model_Plan_Diagram_torole_4a1d;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(631,276;483,-49),
+          polylineLocation="[0,0,66,117]$[0,-140,66,-23]$[-43,-140,23,-23]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Plan_Diagram_relationship_ddea;
+ 
+      Relationship model_Plan_Diagram_relationship_d161 refer Relationship_Containment
+        Role model_Plan_Diagram_fromrole_3504 refer Role_Containment_Start
+          annotation(
+            localLabel="包含始端",
+            shape="no"
+          );
+        end model_Plan_Diagram_fromrole_3504;
+         Role model_Plan_Diagram_torole_f210 refer Role_Containment_End
+          annotation(
+            localLabel="包含终端",
+            shape="solidTriangle"
+          );
+        end model_Plan_Diagram_torole_f210;
+       
+        annotation(
+          localLabel="包含",
+          shape="solidLine",
+          endLocation=(834,236;244,-109),
+          polylineLocation="[-37,-40,314,151]$[-37,-200,314,-9]$[-282,-200,69,-9]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Plan_Diagram_relationship_d161;
+ 
+    Connect(connector(model_Plan_Diagram_object_e49f,model_Plan_Diagram_relationship_6d8a.model_Plan_Diagram_fromrole_0904),connector(model_Plan_Diagram_object_338a,model_Plan_Diagram_relationship_6d8a.model_Plan_Diagram_torole_ea50));
+ 
+    Connect(connector(model_Plan_Diagram_object_78ac,model_Plan_Diagram_relationship_ee85.model_Plan_Diagram_fromrole_a63f),connector(model_Plan_Diagram_object_338a,model_Plan_Diagram_relationship_ee85.model_Plan_Diagram_torole_d640));
+ 
+    Connect(connector(model_Plan_Diagram_object_aa73,model_Plan_Diagram_relationship_ddea.model_Plan_Diagram_fromrole_9c8b),connector(model_Plan_Diagram_object_338a,model_Plan_Diagram_relationship_ddea.model_Plan_Diagram_torole_4a1d));
+ 
+    Connect(connector(model_Plan_Diagram_object_43c8,model_Plan_Diagram_relationship_d161.model_Plan_Diagram_fromrole_3504),connector(model_Plan_Diagram_object_338a,model_Plan_Diagram_relationship_d161.model_Plan_Diagram_torole_f210));
+ 
+
+      annotation(
+        localLabel="方案图",
+    );
+    
+   end model_Plan_Diagram;

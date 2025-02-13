@@ -1,0 +1,18 @@
+   Object Verification_Process
+      initial Property  Verification_Process_Purpose_c334f9 = 0 extends Purpose annotation(localLabel ="目的");
+      initial Property  Verification_Process_Description_e63f66 = 0 extends Description annotation(localLabel ="描述");
+      initial Property  Verification_Process_Inputs_bf7214 = 0 extends Inputs annotation(localLabel ="输入");
+      initial Property  Verification_Process_Outputs_eefc60 = 0 extends Outputs annotation(localLabel ="输出");
+      initial Property  Verification_Process_Target_daily_cost_7c6e04 = 0 extends Target_daily_cost annotation(localLabel ="目标每日花费");
+      initial Property  Verification_Process_Target_days_4213e4 = 0 extends Target_days annotation(localLabel ="目标天数");
+      initial Property  Verification_Process_Estimated_daily_cost_caf860 = 0 extends Estimated_daily_cost annotation(localLabel ="预计每日花费");
+      initial Property  Verification_Process_Estimated_days_7e0bd7 = 0 extends Estimated_days annotation(localLabel ="预计天数");
+   annotation(
+      localLabel="验证过程",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Verification_Process;
+ 

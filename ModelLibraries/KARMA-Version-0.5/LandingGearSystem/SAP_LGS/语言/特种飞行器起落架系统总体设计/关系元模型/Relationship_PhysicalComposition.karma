@@ -1,0 +1,12 @@
+   Relationship Relationship_PhysicalComposition
+      initial Property unique Relationship_PhysicalComposition_Property_Name_ebf74b = "null" extends Property_Name annotation(localLabel ="Name");
+   Role Role_PhysicalCompositionSource;
+   Role Role_PhysicalCompositionTarget;
+   annotation(
+      localLabel="PhysicalComposition",
+      description="",
+      icon="",
+      shape="boldSolidLine",
+      );
+   end Relationship_PhysicalComposition;
+ 

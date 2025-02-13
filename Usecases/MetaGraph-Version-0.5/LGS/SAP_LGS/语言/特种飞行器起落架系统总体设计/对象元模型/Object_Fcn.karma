@@ -1,0 +1,16 @@
+   Object Object_Fcn
+      initial Property  Object_Fcn_Property_Name_3d616c = "Fcn" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Fcn_Property_Parameters_34dd65 = "null" extends Property_Parameters annotation(localLabel ="参数");
+      Input Point Object_Fcn_Point_Inport_20f0ac extends Point_Inport annotation (localLabel ="输入");
+      Output Point Object_Fcn_Point_Outport_ad06f0 extends Point_Outport annotation (localLabel ="输出");
+   annotation(
+      localLabel="Fcn",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="Fcn.png",
+      UnfoldDirection=Y,
+      );
+   end Object_Fcn;
+ 

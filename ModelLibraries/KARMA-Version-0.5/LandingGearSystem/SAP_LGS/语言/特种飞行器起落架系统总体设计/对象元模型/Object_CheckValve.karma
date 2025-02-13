@@ -1,0 +1,16 @@
+   Object Object_CheckValve
+      initial Property unique Object_CheckValve_Property_Name_66635e = "null" extends Property_Name annotation(localLabel ="Name");
+      initial Property  Object_CheckValve_Property_Pressure_4957d4 = 0 extends Property_Pressure annotation(localLabel ="Pressure");
+      initial Property  Object_CheckValve_Property_FlowRate_7d0c06 = 0 extends Property_FlowRate annotation(localLabel ="FlowRate");
+      Undirected Point Object_CheckValve_Point_HydraulicPort_fa5770 extends Point_HydraulicPort annotation (localLabel ="HydraulicPort");
+   annotation(
+      localLabel="CheckValve",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="单向阀.png",
+      UnfoldDirection=Y,
+      );
+   end Object_CheckValve;
+ 

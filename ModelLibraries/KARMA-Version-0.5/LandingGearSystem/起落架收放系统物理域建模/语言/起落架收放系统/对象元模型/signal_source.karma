@@ -1,0 +1,33 @@
+   Object signal_source
+      initial Property  signal_source_Prop_component_name_9c07c8 = "null" extends Prop_component_name annotation(localLabel ="元件名字");
+      initial Property  signal_source_Prop_component_nickname_86e405 = "null" extends Prop_component_nickname annotation(localLabel ="元件别名");
+      initial Property  signal_source_Prop_component_situation_42d298 = "null" extends Prop_component_situation annotation(localLabel ="元件位置");
+      initial Property  signal_source_Prop_component_type_fd5d43 = "null" extends Prop_component_type annotation(localLabel ="元件类型");
+      initial Property  signal_source_Prop_Store_sub_model_situation_c6cee6 = "null" extends Prop_Store_sub_model_situation annotation(localLabel ="子模型库位置");
+      initial Property  signal_source_Prop_sub_model_name_6009ad = "null" extends Prop_sub_model_name annotation(localLabel ="子模型名称");
+      initial Property  signal_source_number_of_stages_381f4c = "null" extends number_of_stages annotation(localLabel ="阶跃级数");
+      initial Property  signal_source_output_at_start_of_stage_1_f63604 = "null" extends output_at_start_of_stage_1 annotation(localLabel ="第1阶段开始时的输出");
+      initial Property  signal_source_output_at_end_of_stage_1_46cd38 = "null" extends output_at_end_of_stage_1 annotation(localLabel ="第1阶段结束时的输出");
+      initial Property  signal_source_duration_of_stage_1_7f08bc = "null" extends duration_of_stage_1 annotation(localLabel ="第1阶段持续时间");
+      initial Property  signal_source_output_at_start_of_stage_2_210a3b = "null" extends output_at_start_of_stage_2 annotation(localLabel ="第2阶段开始时的输出");
+      initial Property  signal_source_output_at_end_of_stage_2_4553f6 = "null" extends output_at_end_of_stage_2 annotation(localLabel ="第2阶段结束时的输出");
+      initial Property  signal_source_duration_of_stage_2_640b0c = "null" extends duration_of_stage_2 annotation(localLabel ="第2阶段持续时间");
+      initial Property  signal_source_Component_parameter_name_1_453793 = "null" extends Component_parameter_name_1 annotation(localLabel ="元件参数名称");
+      initial Property  signal_source_Component_parameter_name_1_1_2fd31a = "null" extends Component_parameter_name_1_1 annotation(localLabel ="元件参数名称_1");
+      initial Property  signal_source_Component_parameter_name_2_d8e2ef = "null" extends Component_parameter_name_2 annotation(localLabel ="元件参数名称_2");
+      initial Property  signal_source_Component_parameter_name_3_58093b = "null" extends Component_parameter_name_3 annotation(localLabel ="元件参数名称_3");
+      initial Property  signal_source_Component_parameter_name_4_cf6266 = "null" extends Component_parameter_name_4 annotation(localLabel ="元件参数名称_4");
+      initial Property  signal_source_Component_parameter_name_5_0da5e7 = "null" extends Component_parameter_name_5 annotation(localLabel ="元件参数名称_5");
+      initial Property  signal_source_Component_parameter_name_6_c144b5 = "null" extends Component_parameter_name_6 annotation(localLabel ="元件参数名称_6");
+      Undirected Point signal_source_Port_Signal_46afbc extends Port_Signal annotation (localLabel ="信号端口");
+   annotation(
+      localLabel="信号源",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="信号源.png",
+      UnfoldDirection=Y,
+      );
+   end signal_source;
+ 

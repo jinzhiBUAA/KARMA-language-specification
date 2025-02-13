@@ -1,0 +1,21 @@
+   Object signal_choice_switch
+      initial Property  signal_choice_switch_Prop_component_name_841967 = "null" extends Prop_component_name annotation(localLabel ="元件名字");
+      initial Property  signal_choice_switch_Prop_component_nickname_67d15c = "null" extends Prop_component_nickname annotation(localLabel ="元件别名");
+      initial Property  signal_choice_switch_Prop_component_situation_09b86c = "null" extends Prop_component_situation annotation(localLabel ="元件位置");
+      initial Property  signal_choice_switch_Prop_component_type_d047b8 = "null" extends Prop_component_type annotation(localLabel ="元件类型");
+      initial Property  signal_choice_switch_Prop_Store_sub_model_situation_5f6dff = "null" extends Prop_Store_sub_model_situation annotation(localLabel ="子模型库位置");
+      initial Property  signal_choice_switch_Prop_sub_model_name_49eb47 = "null" extends Prop_sub_model_name annotation(localLabel ="子模型名称");
+      initial Property  signal_choice_switch_switch_threshold_65c1e8 = "null" extends switch_threshold annotation(localLabel ="开关阈值");
+      initial Property  signal_choice_switch_Component_parameter_name_1_89e1dc = "null" extends Component_parameter_name_1 annotation(localLabel ="元件参数名称");
+      Undirected Point signal_choice_switch_Port_Signal_f1d745 extends Port_Signal annotation (localLabel ="信号端口");
+   annotation(
+      localLabel="信号转换",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="信号转换.png",
+      UnfoldDirection=Y,
+      );
+   end signal_choice_switch;
+ 

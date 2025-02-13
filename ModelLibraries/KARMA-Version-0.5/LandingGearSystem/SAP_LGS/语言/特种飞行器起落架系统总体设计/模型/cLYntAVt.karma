@@ -1,0 +1,91 @@
+    partial Model cLYntAVt instanceof graph_act
+      Object cLYntAVt_object_faf1 refer object_callbehavior
+        Property cLYntAVt_object_faf1_property_9d61 = "进行起落架下放" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point cLYntAVt_object_faf1_input_bb68 refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="下放信号in",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,0,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end cLYntAVt_object_faf1_input_bb68;
+ 
+    this.decompose(rREN6u5b);
+        annotation(
+          initialLocation=(36,131,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end cLYntAVt_object_faf1;
+
+      Object cLYntAVt_object_139b refer object_end
+        annotation(
+          initialLocation=(78,317,61,55),
+          localLabel="结束",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end cLYntAVt_object_139b;
+
+      Relationship cLYntAVt_relationship_b5d7 refer controlflow
+        Role cLYntAVt_fromrole_9e36 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end cLYntAVt_fromrole_9e36;
+         Role cLYntAVt_torole_7d7c refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end cLYntAVt_torole_7d7c;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(106,166;108,462),
+          polylineLocation="[0,0,0,-118]$[0,118,0,0];(0.5217391304347826,1.0);(0.4918032786885246,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end cLYntAVt_relationship_b5d7;
+ 
+    Connect(connector(cLYntAVt_object_faf1,cLYntAVt_relationship_b5d7.cLYntAVt_fromrole_9e36),connector(cLYntAVt_object_139b,cLYntAVt_relationship_b5d7.cLYntAVt_torole_7d7c));
+ 
+
+      annotation(
+        localLabel="起落架系统",
+        SDIdentification="",
+    );
+   end cLYntAVt;

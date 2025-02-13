@@ -1,0 +1,18 @@
+   Object Transition_Process
+      initial Property  Transition_Process_Purpose_160f24 = 0 extends Purpose annotation(localLabel ="目的");
+      initial Property  Transition_Process_Description_118e46 = 0 extends Description annotation(localLabel ="描述");
+      initial Property  Transition_Process_Inputs_cc006b = 0 extends Inputs annotation(localLabel ="输入");
+      initial Property  Transition_Process_Outputs_9fc255 = 0 extends Outputs annotation(localLabel ="输出");
+      initial Property  Transition_Process_Target_daily_cost_3c20ed = 0 extends Target_daily_cost annotation(localLabel ="目标每日花费");
+      initial Property  Transition_Process_Target_days_3730df = 0 extends Target_days annotation(localLabel ="目标天数");
+      initial Property  Transition_Process_Estimated_daily_cost_769f7c = 0 extends Estimated_daily_cost annotation(localLabel ="预计每日花费");
+      initial Property  Transition_Process_Estimated_days_b8cf64 = 0 extends Estimated_days annotation(localLabel ="预计天数");
+   annotation(
+      localLabel="移交过程",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Transition_Process;
+ 

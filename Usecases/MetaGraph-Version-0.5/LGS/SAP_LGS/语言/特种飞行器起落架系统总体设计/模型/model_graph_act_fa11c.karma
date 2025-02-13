@@ -1,0 +1,279 @@
+    partial Model model_graph_act_fa11c instanceof graph_act
+    
+      Object model_graph_act_fa11c_object_fa53 refer object_lane
+    this.decompose(dGXNRDH8);
+      
+        annotation(
+          initialLocation=(24,36,233,461),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="dGXNRDH8:(0,0,233,461)",
+        );
+      end model_graph_act_fa11c_object_fa53;
+
+      Object model_graph_act_fa11c_object_db44 refer object_lane
+    this.decompose(nYjkA9t4);
+      
+        annotation(
+          initialLocation=(258,36,251,461),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="nYjkA9t4:(0,0,251,461)",
+        );
+      end model_graph_act_fa11c_object_db44;
+
+      Object model_graph_act_fa11c_object_a1e8 refer object_lane
+    this.decompose(zPbf8Th5);
+      
+        annotation(
+          initialLocation=(510,36,269,461),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="zPbf8Th5:(0,0,269,461)",
+        );
+      end model_graph_act_fa11c_object_a1e8;
+
+      Object model_graph_act_fa11c_object_2c85 refer object_lane
+    this.decompose(dLUJ2Qwx);
+      
+        annotation(
+          initialLocation=(780,36,257,461),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="dLUJ2Qwx:(0,0,257,461)",
+        );
+      end model_graph_act_fa11c_object_2c85;
+
+      Object model_graph_act_fa11c_object_b068 refer object_lane
+    this.decompose(hKPiDHM9);
+      
+        annotation(
+          initialLocation=(1038,36,215,461),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="hKPiDHM9:(0,0,215,461)",
+        );
+      end model_graph_act_fa11c_object_b068;
+
+      Relationship model_graph_act_fa11c_relationship_8fb5 refer controlflow
+        Role model_graph_act_fa11c_fromrole_2745 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end model_graph_act_fa11c_fromrole_2745;
+         Role model_graph_act_fa11c_torole_86a7 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end model_graph_act_fa11c_torole_86a7;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(-9,-10),
+          shape="dotttedLine",
+          endLocation=(137,76;208,76),
+          polylineLocation="[37,0,-65,0]$[102,0,0,0];(0.7885714285714286,0.5);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_act_fa11c_relationship_8fb5;
+ 
+      Relationship model_graph_act_fa11c_relationship_1841 refer controlflow
+        Role model_graph_act_fa11c_fromrole_2c96 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end model_graph_act_fa11c_fromrole_2c96;
+         Role model_graph_act_fa11c_torole_c447 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end model_graph_act_fa11c_torole_c447;
+       
+        annotation(
+          localLabel="一切正常",
+          labelLocation=(9,-10),
+          shape="dotttedLine",
+          endLocation=(104,389;3,388),
+          polylineLocation="[0,0,122,0]$[-97,0,25,0];(0.0,0.4489795918367347);(0.8466257668711656,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_act_fa11c_relationship_1841;
+ 
+      Relationship model_graph_act_fa11c_relationship_5f84 refer controlflow
+        Role model_graph_act_fa11c_fromrole_053f refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end model_graph_act_fa11c_fromrole_053f;
+         Role model_graph_act_fa11c_torole_2794 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end model_graph_act_fa11c_torole_2794;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(-15,-10),
+          shape="dotttedLine",
+          endLocation=(100,456;608,-36),
+          polylineLocation="[0,68,-444,290]$[0,90,-444,312]$[514,90,70,312]$[514,-178,70,44];(0.4049079754601227,0.0);(0.041666666666666664,0.35294117647058826)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_act_fa11c_relationship_5f84;
+ 
+      Relationship model_graph_act_fa11c_relationship_2ce7 refer objectflow
+        Role model_graph_act_fa11c_fromrole_201f refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end model_graph_act_fa11c_fromrole_201f;
+         Role model_graph_act_fa11c_torole_63ce refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end model_graph_act_fa11c_torole_63ce;
+       
+        annotation(
+          localLabel="对象流",
+          labelLocation=(3,-10),
+          shape="solidLine",
+          endLocation=(111,179;268,-52),
+          polylineLocation="[-1,19,-181,137]$[-1,42,-181,160]$[143,42,-37,160]$[143,-128,-37,-10]$[168,-128,-12,-10];(0.3,0.0);(0.6,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_act_fa11c_relationship_2ce7;
+ 
+      Relationship model_graph_act_fa11c_relationship_55aa refer objectflow
+        Role model_graph_act_fa11c_fromrole_dcd4 refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end model_graph_act_fa11c_fromrole_dcd4;
+         Role model_graph_act_fa11c_torole_accb refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end model_graph_act_fa11c_torole_accb;
+       
+        annotation(
+          localLabel="对象流",
+          labelLocation=(-11,-10),
+          shape="solidLine",
+          endLocation=(93,142;200,136),
+          polylineLocation="[-1,0,-101,0]$[100,0,0,0];(1.0,0.45);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_act_fa11c_relationship_55aa;
+ 
+    Connect(connector(nYjkA9t4_object_4bc9,model_graph_act_fa11c_relationship_8fb5.model_graph_act_fa11c_fromrole_2745),connector(zPbf8Th5_object_6065,model_graph_act_fa11c_relationship_8fb5.model_graph_act_fa11c_torole_86a7));
+ 
+    Connect(connector(zPbf8Th5_object_5367,model_graph_act_fa11c_relationship_1841.model_graph_act_fa11c_fromrole_2c96),connector(nYjkA9t4_object_ebc3,model_graph_act_fa11c_relationship_1841.model_graph_act_fa11c_torole_c447));
+ 
+    Connect(connector(nYjkA9t4_object_ebc3,model_graph_act_fa11c_relationship_5f84.model_graph_act_fa11c_fromrole_053f),connector(dLUJ2Qwx_object_f43f,model_graph_act_fa11c_relationship_5f84.model_graph_act_fa11c_torole_2794));
+ 
+    Connect(connector(dGXNRDH8_object_4145.dGXNRDH8_object_4145_output_dbe7,model_graph_act_fa11c_relationship_2ce7.model_graph_act_fa11c_fromrole_201f),connector(nYjkA9t4_object_4bc9.nYjkA9t4_object_4bc9_point_7ca9,model_graph_act_fa11c_relationship_2ce7.model_graph_act_fa11c_torole_63ce));
+ 
+    Connect(connector(dLUJ2Qwx_object_f43f.dLUJ2Qwx_object_f43f_output_67ba,model_graph_act_fa11c_relationship_55aa.model_graph_act_fa11c_fromrole_dcd4),connector(hKPiDHM9_object_b60a.hKPiDHM9_object_b60a_input_0dc2,model_graph_act_fa11c_relationship_55aa.model_graph_act_fa11c_torole_accb));
+ 
+
+      annotation(
+        localLabel="刹车过程",
+        SDIdentification="",
+    );
+    
+   end model_graph_act_fa11c;

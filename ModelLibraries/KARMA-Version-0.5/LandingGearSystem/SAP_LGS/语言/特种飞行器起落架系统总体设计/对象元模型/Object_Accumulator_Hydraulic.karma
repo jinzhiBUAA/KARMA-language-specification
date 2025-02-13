@@ -1,0 +1,21 @@
+   Object Object_Accumulator_Hydraulic
+      initial Property unique Object_Accumulator_Hydraulic_Property_Name_747e78 = "null" extends property_name annotation(localLabel ="Name");
+      initial Property  Object_Accumulator_Hydraulic_Property_Pressure_4f4eb8 = 0 extends Property_Pressure annotation(localLabel ="Pressure");
+      initial Property  Object_Accumulator_Hydraulic_Property_Volume_2a89fd = 0 extends Property_Volume annotation(localLabel ="Volume");
+      initial Property  Object_Accumulator_Hydraulic_Property_FlowRate_a39740 = 0 extends Property_FlowRate annotation(localLabel ="FlowRate");
+      initial Property  Object_Accumulator_Hydraulic_Property_Speed_0a11ef = 0 extends Property_Speed annotation(localLabel ="Speed");
+      initial Property  Object_Accumulator_Hydraulic_Property_Value_29384a = "0" extends property_value annotation(localLabel ="Value");
+      Undirected Point Object_Accumulator_Hydraulic_Point_HydraulicPort_d09058 extends Point_HydraulicPort annotation (localLabel ="HydraulicPort");
+      Undirected Point Object_Accumulator_Hydraulic_Point_SignalPort_7d2238 extends Point_SignalPort annotation (localLabel ="SignalPort");
+      Undirected Point Object_Accumulator_Hydraulic_Point_ParameterPort_e04c74 extends Point_ParameterPort annotation (localLabel ="ParameterPort");
+   annotation(
+      localLabel="Accumulator_Hydraulic",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="液压蓄能器.png",
+      UnfoldDirection=Y,
+      );
+   end Object_Accumulator_Hydraulic;
+ 

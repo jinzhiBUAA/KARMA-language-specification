@@ -1,0 +1,274 @@
+    partial Model model_graph_ibd_94ced instanceof graph_ibd
+    
+      Object model_graph_ibd_94ced_object_6eaf refer object_pilot
+      
+        annotation(
+          initialLocation=(282,156,145,93),
+          localLabel="飞行员",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="飞行员.jpg",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_graph_ibd_94ced_object_6eaf;
+
+      Object model_graph_ibd_94ced_object_3373 refer object_dimian
+      
+        annotation(
+          initialLocation=(504,156,145,96),
+          localLabel="地面监测中心",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="地面监测中心.jpg",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_graph_ibd_94ced_object_3373;
+
+      Object model_graph_ibd_94ced_object_ea2d refer object_kongdi
+      
+        annotation(
+          initialLocation=(60,156,151,96),
+          localLabel="空地感应系统",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="空地感应系统.jpg",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_graph_ibd_94ced_object_ea2d;
+
+      Object model_graph_ibd_94ced_object_c829 refer object_LGS
+      
+        annotation(
+          initialLocation=(504,344,145,101),
+          localLabel="起落架系统",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="起落架系统.jpg",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_graph_ibd_94ced_object_c829;
+
+      Object model_graph_ibd_94ced_object_4e4a refer object_feikong
+      
+        annotation(
+          initialLocation=(282,343,145,98),
+          localLabel="飞行控制系统",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="飞控系统.jpg",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_graph_ibd_94ced_object_4e4a;
+
+      Relationship model_graph_ibd_94ced_relationship_ff39 refer relationship_projectflow
+        Role model_graph_ibd_94ced_fromrole_0da5 refer projectflow_In
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end model_graph_ibd_94ced_fromrole_0da5;
+         Role model_graph_ibd_94ced_torole_6994 refer projectflow_Out
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end model_graph_ibd_94ced_torole_6994;
+       
+        annotation(
+          localLabel="飞行器位置",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(134,195;425,193),
+          polylineLocation="[-1,-9,-72,-5]$[71,-9,0,-5];(1.0,0.5470588235294117);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_94ced_relationship_ff39;
+ 
+      Relationship model_graph_ibd_94ced_relationship_eac0 refer relationship_projectflow
+        Role model_graph_ibd_94ced_fromrole_2712 refer projectflow_In
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end model_graph_ibd_94ced_fromrole_2712;
+         Role model_graph_ibd_94ced_torole_451a refer projectflow_Out
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end model_graph_ibd_94ced_torole_451a;
+       
+        annotation(
+          localLabel="请求",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(353,198;653,200),
+          polylineLocation="[-1,-4,-78,0]$[77,-4,0,0];(1.0,0.4946236559139785);(0.0,0.448252688172043)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_94ced_relationship_eac0;
+ 
+      Relationship model_graph_ibd_94ced_relationship_cf8b refer relationship_projectflow
+        Role model_graph_ibd_94ced_fromrole_587c refer projectflow_In
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end model_graph_ibd_94ced_fromrole_587c;
+         Role model_graph_ibd_94ced_torole_b194 refer projectflow_Out
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end model_graph_ibd_94ced_torole_b194;
+       
+        annotation(
+          localLabel="反馈",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(576,199;276,197),
+          polylineLocation="[0,-5,77,-5]$[-78,-5,-1,-5];(0.0,0.5);(1.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_94ced_relationship_cf8b;
+ 
+      Relationship model_graph_ibd_94ced_relationship_2ef5 refer relationship_projectflow
+        Role model_graph_ibd_94ced_fromrole_b4de refer projectflow_In
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end model_graph_ibd_94ced_fromrole_b4de;
+         Role model_graph_ibd_94ced_torole_08c2 refer projectflow_Out
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end model_graph_ibd_94ced_torole_08c2;
+       
+        annotation(
+          localLabel="控制",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(354,202;354,483),
+          polylineLocation="[0,0,0,-91]$[0,91,0,0];(0.496551724137931,1.0);(0.496551724137931,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_94ced_relationship_2ef5;
+ 
+      Relationship model_graph_ibd_94ced_relationship_2628 refer relationship_projectflow
+        Role model_graph_ibd_94ced_fromrole_9785 refer projectflow_In
+          annotation(
+            localLabel="项目流始端",
+            shape="no"
+          );
+        end model_graph_ibd_94ced_fromrole_9785;
+         Role model_graph_ibd_94ced_torole_051c refer projectflow_Out
+          annotation(
+            localLabel="项目流终端",
+            shape="solidArrow"
+          );
+        end model_graph_ibd_94ced_torole_051c;
+       
+        annotation(
+          localLabel="控制",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(354,392;653,394),
+          polylineLocation="[0,0,-77,0]$[77,0,0,0];(1.0,0.47058823529411764);(0.0,0.455549765502866)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_94ced_relationship_2628;
+ 
+    Connect(connector(model_graph_ibd_94ced_object_ea2d,model_graph_ibd_94ced_relationship_ff39.model_graph_ibd_94ced_fromrole_0da5),connector(model_graph_ibd_94ced_object_6eaf,model_graph_ibd_94ced_relationship_ff39.model_graph_ibd_94ced_torole_6994));
+ 
+    Connect(connector(model_graph_ibd_94ced_object_6eaf,model_graph_ibd_94ced_relationship_eac0.model_graph_ibd_94ced_fromrole_2712),connector(model_graph_ibd_94ced_object_3373,model_graph_ibd_94ced_relationship_eac0.model_graph_ibd_94ced_torole_451a));
+ 
+    Connect(connector(model_graph_ibd_94ced_object_3373,model_graph_ibd_94ced_relationship_cf8b.model_graph_ibd_94ced_fromrole_587c),connector(model_graph_ibd_94ced_object_6eaf,model_graph_ibd_94ced_relationship_cf8b.model_graph_ibd_94ced_torole_b194));
+ 
+    Connect(connector(model_graph_ibd_94ced_object_6eaf,model_graph_ibd_94ced_relationship_2ef5.model_graph_ibd_94ced_fromrole_b4de),connector(model_graph_ibd_94ced_object_4e4a,model_graph_ibd_94ced_relationship_2ef5.model_graph_ibd_94ced_torole_08c2));
+ 
+    Connect(connector(model_graph_ibd_94ced_object_4e4a,model_graph_ibd_94ced_relationship_2628.model_graph_ibd_94ced_fromrole_9785),connector(model_graph_ibd_94ced_object_c829,model_graph_ibd_94ced_relationship_2628.model_graph_ibd_94ced_torole_051c));
+ 
+
+      annotation(
+        localLabel="起落架系统域",
+        SDIdentification="",
+    );
+    
+   end model_graph_ibd_94ced;

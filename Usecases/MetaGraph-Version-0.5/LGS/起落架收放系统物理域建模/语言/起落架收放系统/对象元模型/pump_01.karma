@@ -1,0 +1,20 @@
+   Object pump_01
+      initial Property  pump_01_Prop_component_name_227f3f = "null" extends Prop_component_name annotation(localLabel ="元件名字");
+      initial Property  pump_01_Prop_component_nickname_f14197 = "null" extends Prop_component_nickname annotation(localLabel ="元件别名");
+      initial Property  pump_01_Prop_component_situation_36faa9 = "null" extends Prop_component_situation annotation(localLabel ="元件位置");
+      initial Property  pump_01_Prop_component_type_fe3b83 = "null" extends Prop_component_type annotation(localLabel ="元件类型");
+      initial Property  pump_01_Prop_Store_sub_model_situation_6dda4c = "null" extends Prop_Store_sub_model_situation annotation(localLabel ="子模型库位置");
+      initial Property  pump_01_Prop_sub_model_name_2ea2a6 = "null" extends Prop_sub_model_name annotation(localLabel ="子模型名称");
+      initial Property  pump_01_Component_parameter_name_1_4cd975 = "null" extends Component_parameter_name_1 annotation(localLabel ="元件参数名称");
+      Undirected Point pump_01_Port_hydraulic_1e68ce extends Port_hydraulic annotation (localLabel ="液压端口");
+   annotation(
+      localLabel="定量泵",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="主油泵.png",
+      UnfoldDirection=Y,
+      );
+   end pump_01;
+ 

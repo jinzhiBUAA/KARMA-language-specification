@@ -1,0 +1,15 @@
+   Object Object_IfActionSubsystem
+      initial Property  Object_IfActionSubsystem_Property_Name_569fb4 = "If Action Subsystem" extends Property_Name annotation(localLabel ="名称");
+      Input Point Object_IfActionSubsystem_Point_Inport_12bc2f extends Point_Inport annotation (localLabel ="输入");
+      Output Point Object_IfActionSubsystem_Point_Outport_03af95 extends Point_Outport annotation (localLabel ="输出");
+   annotation(
+      localLabel="If Action Subsystem",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="IfActionSubsystem.png",
+      UnfoldDirection=Y,
+      );
+   end Object_IfActionSubsystem;
+ 

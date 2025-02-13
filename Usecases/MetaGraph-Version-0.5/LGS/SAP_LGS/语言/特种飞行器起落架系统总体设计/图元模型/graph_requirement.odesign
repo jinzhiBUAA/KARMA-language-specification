@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:properties="http://www.eclipse.org/sirius/properties/1.0.0" xmlns:properties-ext-widgets-reference="http://www.eclipse.org/sirius/properties/1.0.0/ext/widgets/reference" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="model" version="12.0.0.2017041100">
+  <ownedViewpoints name="graph_requirement" modelFileExtension="model">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" dropDescriptions="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='container%20drop']" name="graph_requirement" pasteDescriptions="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='paste']" domainClass="graph_requirement::DiagramGen">
+      <metamodel href="/SAP_LGS/语言/特种飞行器起落架系统总体设计/图元模型/graph_requirement.ecore#/"/>
+      <layout xsi:type="description_1:CompositeLayout"/>
+      <defaultLayer name="Default" reusedMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple']">
+        <nodeMappings name="GanttGenNode" label="GanttGen" semanticCandidatesExpression="aql:self.primaryGraph.gantts" domainClass="graph_requirement::GanttGen">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" sizeComputationExpression="4" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="Def__graph_requirement__satisfied" label="Def__graph_requirement__satisfied" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='rel']" semanticCandidatesExpression="aql:self.findAllRelationships('Def__graph_requirement__satisfied')" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" sourceMapping="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple']" targetMapping="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple']" targetFinderExpression="aql:self.toRole.connect" sourceFinderExpression="aql:self.fromRole.connect" domainClass="graph_requirement::Def__graph_requirement__satisfied" useDomainElement="true">
+          <style routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription showIcon="false" labelExpression="aql:self.name" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Def__graph_requirement__trace" label="Def__graph_requirement__trace" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='rel']" semanticCandidatesExpression="aql:self.findAllRelationships('Def__graph_requirement__trace')" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" sourceMapping="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple']" targetMapping="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple']" targetFinderExpression="aql:self.toRole.connect" sourceFinderExpression="aql:self.fromRole.connect" domainClass="graph_requirement::Def__graph_requirement__trace" useDomainElement="true">
+          <style lineStyle="dash" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription showIcon="false" labelExpression="aql:self.name" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Def__graph_requirement__verify" label="Def__graph_requirement__verify" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='rel']" semanticCandidatesExpression="aql:self.findAllRelationships('Def__graph_requirement__verify')" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" sourceMapping="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple']" targetMapping="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple']" targetFinderExpression="aql:self.toRole.connect" sourceFinderExpression="aql:self.fromRole.connect" domainClass="graph_requirement::Def__graph_requirement__verify" useDomainElement="true">
+          <style targetArrow="OutputFillClosedArrow" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription showIcon="false" labelExpression="aql:self.name" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Def__graph_requirement__derive" label="Def__graph_requirement__derive" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='rel']" semanticCandidatesExpression="aql:self.findAllRelationships('Def__graph_requirement__derive')" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" sourceMapping="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple']" targetMapping="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple']" targetFinderExpression="aql:self.toRole.connect" sourceFinderExpression="aql:self.fromRole.connect" domainClass="graph_requirement::Def__graph_requirement__derive" useDomainElement="true">
+          <style lineStyle="dot" targetArrow="NoDecoration" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription showIcon="false" labelExpression="aql:self.name" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Def__graph_requirement__refine" label="Def__graph_requirement__refine" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='rel']" semanticCandidatesExpression="aql:self.findAllRelationships('Def__graph_requirement__refine')" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" sourceMapping="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple']" targetMapping="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple']" targetFinderExpression="aql:self.toRole.connect" sourceFinderExpression="aql:self.fromRole.connect" domainClass="graph_requirement::Def__graph_requirement__refine" useDomainElement="true">
+          <style lineStyle="dash" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription showIcon="false" labelExpression="aql:self.name" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Def__graph_requirement__contain" label="Def__graph_requirement__contain" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='rel']" semanticCandidatesExpression="aql:self.findAllRelationships('Def__graph_requirement__contain')" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" sourceMapping="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple']" targetMapping="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple']" targetFinderExpression="aql:self.toRole.connect" sourceFinderExpression="aql:self.fromRole.connect" domainClass="graph_requirement::Def__graph_requirement__contain" useDomainElement="true">
+          <style targetArrow="OutputArrow" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription showIcon="false" labelExpression="aql:self.name" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="TableContainer" label="TableContainer" semanticCandidatesExpression="aql:self.primaryGraph.tables" domainClass="graph_requirement::TableGen" childrenPresentation="VerticalStack">
+          <subContainerMappings name="TableRowContainer" label="TableRowContainer" semanticCandidatesExpression="feature:rows" domainClass="graph_requirement::TableRowGen" childrenPresentation="HorizontalStack">
+            <subContainerMappings name="TableCellContainer" label="TableCellContainer" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.2/@ownedTools[name='deleteTableCell']" semanticCandidatesExpression="feature:columns" domainClass="graph_requirement::TableCellGen" childrenPresentation="List">
+              <subNodeMappings name="TableCellNodeNode" label="TableCellNode" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.2/@ownedTools[name='deleteTableCell']" semanticCandidatesExpression="aql:self" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::TableCellGen">
+                <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="feature:text" labelPosition="node">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+                </style>
+              </subNodeMappings>
+              <style xsi:type="style:FlatContainerStyleDescription" showIcon="false" labelExpression="" hideLabelByDefault="true">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='light_gray']"/>
+              </style>
+            </subContainerMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" showIcon="false" labelExpression="" hideLabelByDefault="true">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='light_gray']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" showIcon="false" labelExpression="" hideLabelByDefault="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="LayoutContainer" label="LayoutContainer" semanticCandidatesExpression="aql:self.primaryGraph.layouts" domainClass="graph_requirement::LayoutGen">
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" showIcon="false" labelAlignment="LEFT">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+            <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.0"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="Reused_graph_requirementContainer" label="Reused_graph_requirement" pasteDescriptions="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='paste']" semanticCandidatesExpression="null" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Model__graph_requirement" dropDescriptions="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='container%20drop']">
+          <subContainerMappings name="Def__graph_requirement__object_note__Simple" label="Def__graph_requirement__object_note__Simple" pasteDescriptions="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='pasteRel']" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='deleteOriginWithClone']" semanticCandidatesExpression="aql:self.findEmbededObjects('Def__graph_requirement__object_note', false)" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__graph_requirement__object_note" childrenPresentation="List">
+            <subNodeMappings name="Def__object_note__object_note_property_text_e7a2b5" label="object_note_property_text_e7a2b5" semanticCandidatesExpression="feature:properties" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__object_note__object_note_property_text_e7a2b5">
+              <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.value" labelAlignment="LEFT" sizeComputationExpression="2">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif" tooltipExpression="aql:self.isClone()" widthComputationExpression="14" heightComputationExpression="7" backgroundStyle="GradientTopToBottom">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='light_blue']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="Def__graph_requirement__object_requirement__Simple" label="Def__graph_requirement__object_requirement__Simple" pasteDescriptions="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='pasteRel']" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='deleteOriginWithClone']" semanticCandidatesExpression="aql:self.findEmbededObjects('Def__graph_requirement__object_requirement', false)" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__graph_requirement__object_requirement" childrenPresentation="List">
+            <subNodeMappings name="Def__object_requirement__object_requirement_property_name_0b2ddb" label="object_requirement_property_name_0b2ddb" semanticCandidatesExpression="feature:properties" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__object_requirement__object_requirement_property_name_0b2ddb">
+              <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.value" labelAlignment="LEFT" sizeComputationExpression="2">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="Def__object_requirement__object_requirement_property_text_6b8bea" label="object_requirement_property_text_6b8bea" semanticCandidatesExpression="feature:properties" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__object_requirement__object_requirement_property_text_6b8bea">
+              <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.value" labelAlignment="LEFT" sizeComputationExpression="2">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif" tooltipExpression="aql:self.isClone()" widthComputationExpression="14" heightComputationExpression="7" backgroundStyle="GradientTopToBottom">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='light_blue']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="Def__graph_requirement__object_functionalreq__Simple" label="Def__graph_requirement__object_functionalreq__Simple" pasteDescriptions="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='pasteRel']" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='deleteOriginWithClone']" semanticCandidatesExpression="aql:self.findEmbededObjects('Def__graph_requirement__object_functionalreq', false)" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__graph_requirement__object_functionalreq" childrenPresentation="List">
+            <subNodeMappings name="Def__object_functionalreq__object_functionalreq_property_name_a0706a" label="object_functionalreq_property_name_a0706a" semanticCandidatesExpression="feature:properties" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__object_functionalreq__object_functionalreq_property_name_a0706a">
+              <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.value" labelAlignment="LEFT" sizeComputationExpression="2">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="Def__object_functionalreq__object_functionalreq_property_text_188536" label="object_functionalreq_property_text_188536" semanticCandidatesExpression="feature:properties" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__object_functionalreq__object_functionalreq_property_text_188536">
+              <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.value" labelAlignment="LEFT" sizeComputationExpression="2">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif" tooltipExpression="aql:self.isClone()" widthComputationExpression="14" heightComputationExpression="7" backgroundStyle="GradientTopToBottom">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='light_blue']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="Def__graph_requirement__object_interfacereq__Simple" label="Def__graph_requirement__object_interfacereq__Simple" pasteDescriptions="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='pasteRel']" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='deleteOriginWithClone']" semanticCandidatesExpression="aql:self.findEmbededObjects('Def__graph_requirement__object_interfacereq', false)" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__graph_requirement__object_interfacereq" childrenPresentation="List">
+            <subNodeMappings name="Def__object_interfacereq__object_interfacereq_property_name_ed9f34" label="object_interfacereq_property_name_ed9f34" semanticCandidatesExpression="feature:properties" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__object_interfacereq__object_interfacereq_property_name_ed9f34">
+              <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.value" labelAlignment="LEFT" sizeComputationExpression="2">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="Def__object_interfacereq__object_interfacereq_property_text_a93629" label="object_interfacereq_property_text_a93629" semanticCandidatesExpression="feature:properties" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__object_interfacereq__object_interfacereq_property_text_a93629">
+              <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.value" labelAlignment="LEFT" sizeComputationExpression="2">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif" tooltipExpression="aql:self.isClone()" widthComputationExpression="14" heightComputationExpression="7" backgroundStyle="GradientTopToBottom">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='light_blue']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="Def__graph_requirement__object_performancereq__Simple" label="Def__graph_requirement__object_performancereq__Simple" pasteDescriptions="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='pasteRel']" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='deleteOriginWithClone']" semanticCandidatesExpression="aql:self.findEmbededObjects('Def__graph_requirement__object_performancereq', false)" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__graph_requirement__object_performancereq" childrenPresentation="List">
+            <subNodeMappings name="Def__object_performancereq__object_performancereq_property_name_61ea5a" label="object_performancereq_property_name_61ea5a" semanticCandidatesExpression="feature:properties" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__object_performancereq__object_performancereq_property_name_61ea5a">
+              <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.value" labelAlignment="LEFT" sizeComputationExpression="2">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="Def__object_performancereq__object_performancereq_property_text_db6ef1" label="object_performancereq_property_text_db6ef1" semanticCandidatesExpression="feature:properties" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__object_performancereq__object_performancereq_property_text_db6ef1">
+              <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.value" labelAlignment="LEFT" sizeComputationExpression="2">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif" tooltipExpression="aql:self.isClone()" widthComputationExpression="14" heightComputationExpression="7" backgroundStyle="GradientTopToBottom">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='light_blue']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="Def__graph_requirement__object_physicalreq__Simple" label="Def__graph_requirement__object_physicalreq__Simple" pasteDescriptions="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='pasteRel']" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='deleteOriginWithClone']" semanticCandidatesExpression="aql:self.findEmbededObjects('Def__graph_requirement__object_physicalreq', false)" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__graph_requirement__object_physicalreq" childrenPresentation="List">
+            <subNodeMappings name="Def__object_physicalreq__object_physicalreq_property_name_85bec0" label="object_physicalreq_property_name_85bec0" semanticCandidatesExpression="feature:properties" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__object_physicalreq__object_physicalreq_property_name_85bec0">
+              <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.value" labelAlignment="LEFT" sizeComputationExpression="2">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="Def__object_physicalreq__object_physicalreq_property_text_b4c551" label="object_physicalreq_property_text_b4c551" semanticCandidatesExpression="feature:properties" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__object_physicalreq__object_physicalreq_property_text_b4c551">
+              <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.value" labelAlignment="LEFT" sizeComputationExpression="2">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif" tooltipExpression="aql:self.isClone()" widthComputationExpression="14" heightComputationExpression="7" backgroundStyle="GradientTopToBottom">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='light_blue']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="Def__graph_requirement__object_designconstraint__Simple" label="Def__graph_requirement__object_designconstraint__Simple" pasteDescriptions="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='pasteRel']" deletionDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='deleteOriginWithClone']" semanticCandidatesExpression="aql:self.findEmbededObjects('Def__graph_requirement__object_designconstraint', false)" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__graph_requirement__object_designconstraint" childrenPresentation="List">
+            <subNodeMappings name="Def__object_designconstraint__object_designconstraint_property_name_b68a96" label="object_designconstraint_property_name_b68a96" semanticCandidatesExpression="feature:properties" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__object_designconstraint__object_designconstraint_property_name_b68a96">
+              <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.value" labelAlignment="LEFT" sizeComputationExpression="2">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="Def__object_designconstraint__object_designconstraint_property_text_8de4a5" label="object_designconstraint_property_text_8de4a5" semanticCandidatesExpression="feature:properties" doubleClickDescription="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@toolSections.0/@ownedTools[name='']" domainClass="graph_requirement::Def__object_designconstraint__object_designconstraint_property_text_8de4a5">
+              <style xsi:type="style:SquareDescription" labelExpression="aql:self.name+' : '+self.value" labelAlignment="LEFT" sizeComputationExpression="2">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif" tooltipExpression="aql:self.isClone()" widthComputationExpression="14" heightComputationExpression="7" backgroundStyle="GradientTopToBottom">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#/0/@systemColors/@entries[name='light_blue']"/>
+            </style>
+          </subContainerMappings>
+        </containerMappings>
+        <toolSections name="需求图 - 对象">
+          <ownedTools xsi:type="tool:ToolGroup" name="graph_requirement"/>
+          <ownedTools xsi:type="tool_1:GroupMenu" name="cloneGroup" locationURI="menu">
+            <itemDescriptions xsi:type="tool_1:OperationAction" name="clone" label="克隆" precondition="aql:self.validClone()" forceRefresh="true" icon="/org.eclipse.ui/icons/full/etool16/copy_edit.png">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="service:clone()"/>
+              </initialOperation>
+            </itemDescriptions>
+            <itemDescriptions xsi:type="tool_1:OperationAction" name="update" label="同步" precondition="aql:self.validUpdate()" forceRefresh="true" icon="/org.eclipse.team.ui/icons/full/elcl16/refresh.png">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="service:update()"/>
+              </initialOperation>
+            </itemDescriptions>
+            <itemDescriptions xsi:type="tool_1:OperationAction" name="paste" label="粘贴" precondition="aql:self.validPaste()" forceRefresh="true" icon="/org.eclipse.ui/icons/full/etool16/paste_edit.png">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="service:paste()"/>
+              </initialOperation>
+            </itemDescriptions>
+            <itemDescriptions xsi:type="tool_1:OperationAction" name="goto" label="跳转至属性引用所在视图" precondition="aql:self.validGoto()" forceRefresh="true" icon="/org.eclipse.ui/icons/full/etool16/paste_edit.png">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="service:goTo()"/>
+              </initialOperation>
+            </itemDescriptions>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="deleteOriginWithClone" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.delete()"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="deleteContainerModeDenied" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="rel" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.deleteRel()"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerDropDescription" name="container drop" precondition="aql:self.canDrop()" forceRefresh="true" mappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple']" dragSource="BOTH">
+            <oldContainer name="oldSemanticContainer"/>
+            <newContainer name="newSemanticContainer"/>
+            <element name="element"/>
+            <newViewContainer name="newContainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.dropEObjectOnTarget(element)"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:PasteDescription" name="paste" precondition="aql:self.canPaste()" forceRefresh="true">
+            <container name="container"/>
+            <containerView name="containerView"/>
+            <copiedView name="copiedView"/>
+            <copiedElement name="copiedElement"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="service:copyedObject(copiedElement,copiedView)"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:PasteDescription" name="pasteRel" precondition="aql:self.pasteNo()" forceRefresh="true">
+            <container name="container"/>
+            <containerView name="containerView"/>
+            <copiedView name="copiedView"/>
+            <copiedElement name="copiedElement"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="service:copyedRel(copiedElement,copiedView)"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" mappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='TableRowContainer']/@subContainerMappings[name='TableCellContainer']/@subNodeMappings[name='TableCellNodeNode'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="properties:DialogModelOperation" titleExpression="属性设置">
+                <buttons labelExpression="取消" closeDialogOnClick="true" rollbackChangesOnClose="true"/>
+                <buttons labelExpression="确定" default="true" closeDialogOnClick="true"/>
+                <page name="Object__basicPage" labelExpression="对象信息" domainClass="ObjectGen" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isNormalDiagram()" groups="//@extensions.0/@categories.0/@groups.2 //@extensions.0/@categories.0/@groups.9 //@extensions.0/@categories.0/@groups.10 //@extensions.0/@categories.0/@groups.13"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="properties:DialogModelOperation" titleExpression="属性设置">
+                <buttons labelExpression="取消" closeDialogOnClick="true" rollbackChangesOnClose="true"/>
+                <buttons labelExpression="确定" default="true" closeDialogOnClick="true"/>
+                <page name="Point__basicPage" labelExpression="点信息" domainClass="PointGen" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isNormalDiagram()" groups="//@extensions.0/@categories.0/@groups.2 //@extensions.0/@categories.0/@groups.9"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" mappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@edgeMappings[name='Def__graph_requirement__satisfied'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@edgeMappings[name='Def__graph_requirement__trace'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@edgeMappings[name='Def__graph_requirement__verify'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@edgeMappings[name='Def__graph_requirement__derive'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@edgeMappings[name='Def__graph_requirement__refine'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@edgeMappings[name='Def__graph_requirement__contain']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="properties:DialogModelOperation" titleExpression="属性设置">
+                <buttons labelExpression="取消" closeDialogOnClick="true" rollbackChangesOnClose="true"/>
+                <buttons labelExpression="确定" default="true" closeDialogOnClick="true"/>
+                <page name="Relationship__basicPage" labelExpression="关系信息" domainClass="RelationshipGen" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isNormalDiagram()" groups="//@extensions.0/@categories.0/@groups.2 //@extensions.0/@categories.0/@groups.9 //@extensions.0/@categories.0/@groups.11 //@extensions.0/@categories.0/@groups.14"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" mappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple']/@subNodeMappings[name='Def__object_note__object_note_property_text_e7a2b5'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple']/@subNodeMappings[name='Def__object_requirement__object_requirement_property_name_0b2ddb'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple']/@subNodeMappings[name='Def__object_requirement__object_requirement_property_text_6b8bea'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple']/@subNodeMappings[name='Def__object_functionalreq__object_functionalreq_property_name_a0706a'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple']/@subNodeMappings[name='Def__object_functionalreq__object_functionalreq_property_text_188536'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple']/@subNodeMappings[name='Def__object_interfacereq__object_interfacereq_property_name_ed9f34'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple']/@subNodeMappings[name='Def__object_interfacereq__object_interfacereq_property_text_a93629'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple']/@subNodeMappings[name='Def__object_performancereq__object_performancereq_property_name_61ea5a'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple']/@subNodeMappings[name='Def__object_performancereq__object_performancereq_property_text_db6ef1'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple']/@subNodeMappings[name='Def__object_physicalreq__object_physicalreq_property_name_85bec0'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple']/@subNodeMappings[name='Def__object_physicalreq__object_physicalreq_property_text_b4c551'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple']/@subNodeMappings[name='Def__object_designconstraint__object_designconstraint_property_name_b68a96'] //@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple']/@subNodeMappings[name='Def__object_designconstraint__object_designconstraint_property_text_8de4a5']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="properties:DialogModelOperation" titleExpression="属性设置">
+                <buttons labelExpression="OSLC服务" default="true" closeDialogOnClick="true">
+                  <initialOperation>
+                    <firstModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.oslcAction" forceRefresh="true" id="org.fc.mdt.sirius.oslcAction"/>
+                  </initialOperation>
+                </buttons>
+                <buttons labelExpression="属性引用" default="true" closeDialogOnClick="true">
+                  <initialOperation>
+                    <firstModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.extingPropertyActions" forceRefresh="true" id="org.fc.mdt.sirius.extingPropertyActions"/>
+                  </initialOperation>
+                </buttons>
+                <buttons labelExpression="取消" closeDialogOnClick="true" rollbackChangesOnClose="true"/>
+                <buttons labelExpression="确定" default="true" closeDialogOnClick="true"/>
+                <page name="Property__basicPage" labelExpression="属性信息" domainClass="PropertyGen" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isNormalDiagram()" groups="//@extensions.0/@categories.0/@groups.3 //@extensions.0/@categories.0/@groups.4"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" mappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.dc()"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Def__graph_requirement__object_note" label="注释" precondition="aql:self.canCreateObject('Def__graph_requirement__object_note')" forceRefresh="true" containerMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_note__Simple']" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createObject('Def__graph_requirement__object_note')"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Def__graph_requirement__object_requirement" label="需求" precondition="aql:self.canCreateObject('Def__graph_requirement__object_requirement')" forceRefresh="true" containerMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_requirement__Simple']" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createObject('Def__graph_requirement__object_requirement')"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Def__graph_requirement__object_functionalreq" label="功能需求" precondition="aql:self.canCreateObject('Def__graph_requirement__object_functionalreq')" forceRefresh="true" containerMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_functionalreq__Simple']" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createObject('Def__graph_requirement__object_functionalreq')"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Def__graph_requirement__object_interfacereq" label="接口需求" precondition="aql:self.canCreateObject('Def__graph_requirement__object_interfacereq')" forceRefresh="true" containerMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_interfacereq__Simple']" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createObject('Def__graph_requirement__object_interfacereq')"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Def__graph_requirement__object_performancereq" label="性能需求" precondition="aql:self.canCreateObject('Def__graph_requirement__object_performancereq')" forceRefresh="true" containerMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_performancereq__Simple']" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createObject('Def__graph_requirement__object_performancereq')"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Def__graph_requirement__object_physicalreq" label="物理需求" precondition="aql:self.canCreateObject('Def__graph_requirement__object_physicalreq')" forceRefresh="true" containerMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_physicalreq__Simple']" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createObject('Def__graph_requirement__object_physicalreq')"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Def__graph_requirement__object_designconstraint" label="设计约束" precondition="aql:self.canCreateObject('Def__graph_requirement__object_designconstraint')" forceRefresh="true" containerMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='Reused_graph_requirementContainer']/@subContainerMappings[name='Def__graph_requirement__object_designconstraint__Simple']" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createObject('Def__graph_requirement__object_designconstraint')"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="需求图 - 关系">
+          <ownedTools xsi:type="tool:ToolGroup" name="graph_requirement"/>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Def__graph_requirement__satisfied" label="满足" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@edgeMappings[name='Def__graph_requirement__satisfied']" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createRelationship(target, 'Def__graph_requirement__satisfied')"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Def__graph_requirement__trace" label="追溯" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@edgeMappings[name='Def__graph_requirement__trace']" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createRelationship(target, 'Def__graph_requirement__trace')"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Def__graph_requirement__verify" label="验证" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@edgeMappings[name='Def__graph_requirement__verify']" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createRelationship(target, 'Def__graph_requirement__verify')"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Def__graph_requirement__derive" label="继承" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@edgeMappings[name='Def__graph_requirement__derive']" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createRelationship(target, 'Def__graph_requirement__derive')"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Def__graph_requirement__refine" label="改善" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@edgeMappings[name='Def__graph_requirement__refine']" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createRelationship(target, 'Def__graph_requirement__refine')"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Def__graph_requirement__contain" label="包含" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@edgeMappings[name='Def__graph_requirement__contain']" iconPath="/org.fc.mdt.sirius/icons/Class_Thing.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createRelationship(target, 'Def__graph_requirement__contain')"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="插件">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="creategraph_requirement_gantt" label="甘特图插件" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@nodeMappings[name='GanttGenNode']" iconPath="/org.fc.mdt.sirius/icons/plugin/gantt.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:container.primaryGraph">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="graph_requirement::Def__graph_requirement__gantt" referenceName="gantts">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="id" valueExpression="service:getGanttId()"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="甘特图插件"/>
+                  <subModelOperations xsi:type="tool_1:CreateInstance" typeName="graph_requirement::Def__graph_requirement__ganttTask" referenceName="ganttTasks">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="id" valueExpression="service:getGanttTaskId()"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="甘特图插件"/>
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="graph_requirement::Def__graph_requirement__ganttTaskElement" referenceName="ganttTaskElements">
+                      <subModelOperations xsi:type="tool_1:SetValue" featureName="id" valueExpression="service:getGanttTaskElementId()"/>
+                      <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="甘特图插件"/>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ToolGroup" name="TableGroup">
+            <tools xsi:type="tool:ContainerCreationDescription" name="Create_Table" label="表单插件" forceRefresh="true" containerMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='TableContainer']" iconPath="/org.fc.mdt.sirius/icons/plugin/table.png">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:container.primaryGraph">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createTable()"/>
+                </firstModelOperations>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool_1:ToolDescription" name="InsertRowBefore" label="向上插入行" precondition="aql:self.canEditTable()" forceRefresh="true" iconPath="/org.fc.mdt.sirius/icons/plugin/table.png">
+              <element name="element"/>
+              <elementView name="elementView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.insertRowBefore()"/>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool_1:ToolDescription" name="InsertRowAfter" label="向下插入行" precondition="aql:self.canEditTable()" forceRefresh="true" iconPath="/org.fc.mdt.sirius/icons/plugin/table.png">
+              <element name="element"/>
+              <elementView name="elementView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.insertRowAfter()"/>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool_1:ToolDescription" name="InsertColumnBefore" label="向前插入列" precondition="aql:self.canEditTable()" forceRefresh="true" iconPath="/org.fc.mdt.sirius/icons/plugin/table.png">
+              <element name="element"/>
+              <elementView name="elementView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.insertColumnBefore()"/>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool_1:ToolDescription" name="InsertColumnAfter" label="向后插入列" precondition="aql:self.canEditTable()" forceRefresh="true" iconPath="/org.fc.mdt.sirius/icons/plugin/table.png">
+              <element name="element"/>
+              <elementView name="elementView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.insertColumnAfter()"/>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool_1:ToolDescription" name="DeleteRow" label="删除行" precondition="aql:self.canEditTable()" forceRefresh="true" iconPath="/org.fc.mdt.sirius/icons/plugin/table.png">
+              <element name="element"/>
+              <elementView name="elementView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.deleteRow()"/>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool_1:ToolDescription" name="DeleteColumn" label="删除列" precondition="aql:self.canEditTable()" forceRefresh="true" iconPath="/org.fc.mdt.sirius/icons/plugin/table.png">
+              <element name="element"/>
+              <elementView name="elementView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.deleteColumn()"/>
+              </initialOperation>
+            </tools>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="deleteTableCell" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="text" valueExpression=""/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Create_Table" label="布局插件" forceRefresh="true" containerMappings="//@ownedViewpoints[name='graph_requirement']/@ownedRepresentations[name='graph_requirement']/@defaultLayer/@containerMappings[name='LayoutContainer']" iconPath="/org.fc.mdt.sirius/icons/plugin/layout.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:container.primaryGraph">
+                <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.createlayout()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <customization>
+          <vsmElementCustomizations xsi:type="description:VSMElementCustomization" predicateExpression="aql:self.highlight = 'highlight'">
+            <featureCustomizations xsi:type="description:EReferenceCustomization" applyOnAll="true" referenceName="color">
+              <value href="environment:/viewpoint#/0/@systemColors/@entries[name='red']"/>
+            </featureCustomizations>
+            <featureCustomizations xsi:type="description:EReferenceCustomization" applyOnAll="true" referenceName="labelColor">
+              <value href="environment:/viewpoint#/0/@systemColors/@entries[name='red']"/>
+            </featureCustomizations>
+            <featureCustomizations xsi:type="description:EReferenceCustomization" applyOnAll="true" referenceName="borderColor">
+              <value href="environment:/viewpoint#/0/@systemColors/@entries[name='red']"/>
+            </featureCustomizations>
+            <featureCustomizations xsi:type="description:EReferenceCustomization" applyOnAll="true" referenceName="backgroundColor">
+              <value href="environment:/viewpoint#/0/@systemColors/@entries[name='red']"/>
+            </featureCustomizations>
+            <featureCustomizations xsi:type="description:EReferenceCustomization" applyOnAll="true" referenceName="foreGroundColor">
+              <value href="environment:/viewpoint#/0/@systemColors/@entries[name='red']"/>
+            </featureCustomizations>
+            <featureCustomizations xsi:type="description:EAttributeCustomization" applyOnAll="true" attributeName="borderSize" value="3"/>
+            <featureCustomizations xsi:type="description:EAttributeCustomization" applyOnAll="true" attributeName="borderSizeComputationExpression" value="3"/>
+          </vsmElementCustomizations>
+        </customization>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="org.fc.mdt.sirius.services.EObjectServices"/>
+    <ownedJavaExtensions qualifiedClassName="org.fc.mdt.sirius.services.CommonServices"/>
+  </ownedViewpoints>
+  <userColorsPalettes name="MetaGraphColors">
+    <entries xsi:type="description:UserFixedColor" red="150" green="197" blue="250" name="MetaGraphBlue"/>
+  </userColorsPalettes>
+  <extensions xsi:type="properties:ViewExtensionDescription">
+    <categories name="默认页面">
+      <pages name="Model__basicPage" labelExpression="模型信息" domainClass="GraphGen" semanticCandidateExpression="aql:self.autoselect()" preconditionExpression="aql:self.isNormalDiagram()" groups="//@extensions.0/@categories.0/@groups.2 //@extensions.0/@categories.0/@groups.9 //@extensions.0/@categories.0/@groups.12"/>
+      <pages name="Object__basicPage" labelExpression="对象信息" domainClass="ObjectGen" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isNormalDiagram()" groups="//@extensions.0/@categories.0/@groups.2 //@extensions.0/@categories.0/@groups.9 //@extensions.0/@categories.0/@groups.13"/>
+      <pages name="Object__pointPage" labelExpression="对象点信息" domainClass="ObjectGen" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isNormalDiagram()" groups="//@extensions.0/@categories.0/@groups.10"/>
+      <pages name="Point__basicPage" labelExpression="点信息" domainClass="PointGen" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isNormalDiagram()" groups="//@extensions.0/@categories.0/@groups.2 //@extensions.0/@categories.0/@groups.9"/>
+      <pages name="Property__basicPage" labelExpression="属性信息" domainClass="PropertyGen" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isNormalDiagram()" groups="//@extensions.0/@categories.0/@groups.3 //@extensions.0/@categories.0/@groups.4"/>
+      <pages name="Relationship__basicPage" labelExpression="关系信息" domainClass="RelationshipGen" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isNormalDiagram()" groups="//@extensions.0/@categories.0/@groups.2 //@extensions.0/@categories.0/@groups.9 //@extensions.0/@categories.0/@groups.14"/>
+      <pages name="Role__basicPage" labelExpression="角色信息" domainClass="RelationshipGen" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isNormalDiagram()" groups="//@extensions.0/@categories.0/@groups.11"/>
+      <pages name="Layout__basicPage" labelExpression="模型信息" domainClass="LayoutGen" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isNormalDiagram()" groups="//@extensions.0/@categories.0/@groups.5"/>
+      <pages name="Matrix__basicPage" labelExpression="模型信息" domainClass="MatrixGen" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isNormalDiagram()" groups="//@extensions.0/@categories.0/@groups.6"/>
+      <pages name="Fragment__basicPage" labelExpression="交互块信息" domainClass="InteractionFragment" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isNormalDiagram()" groups="//@extensions.0/@categories.0/@groups.2"/>
+      <pages name="Table__basicPage" labelExpression="模型信息" domainClass="TableGen" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.0"/>
+      <pages name="TableCell__basicPage" labelExpression="单元格" domainClass="TableCellGen" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.1"/>
+      <groups name="BasicGroup__Table" labelExpression="单元格" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:LabelDescription" name="idLabel" labelExpression="id" valueExpression="service:getReferenceId()"/>
+        <controls xsi:type="properties:TextDescription" name="nameText" labelExpression="标签" valueExpression="aql:self.name">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+      </groups>
+      <groups name="BasicGroup__TableCell" labelExpression="单元格" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:LabelDescription" name="idLabel" labelExpression="id" valueExpression="service:getReferenceId()"/>
+        <controls xsi:type="properties:TextDescription" name="valueText" labelExpression="属性值" valueExpression="aql:self.text">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="text" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+      </groups>
+      <groups name="BasicGroup__General" labelExpression="基本信息" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:LabelDescription" labelExpression="元模型信息" valueExpression="service:getMetaInfo()"/>
+        <controls xsi:type="properties:LabelDescription" name="idLabel" labelExpression="id" valueExpression="service:getReferenceId()"/>
+        <controls xsi:type="properties:TextDescription" name="nameText" labelExpression="标签" valueExpression="aql:self.name">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+      </groups>
+      <groups name="BasicGroup__Property" labelExpression="属性基本信息" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isNormal()">
+        <controls xsi:type="properties:LabelDescription" labelExpression="元模型信息" valueExpression="service:getMetaInfo()"/>
+        <controls xsi:type="properties:LabelDescription" name="idLabel" labelExpression="id" valueExpression="service:getReferenceId()"/>
+        <controls xsi:type="properties:TextDescription" name="nameText" labelExpression="标签" valueExpression="aql:self.name">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+        <controls xsi:type="properties:TextDescription" name="valueText" labelExpression="属性值" valueExpression="aql:self.value">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="value" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+      </groups>
+      <groups name="BasicGroup__Property" labelExpression="属性基本信息" semanticCandidateExpression="var:self" preconditionExpression="aql:self.isClass()">
+        <controls xsi:type="properties:LabelDescription" labelExpression="元模型信息" valueExpression="service:getMetaInfo()"/>
+        <controls xsi:type="properties:LabelDescription" name="idLabel" labelExpression="id" valueExpression="service:getReferenceId()"/>
+        <controls xsi:type="properties:TextDescription" name="nameText" labelExpression="标签" valueExpression="aql:self.name">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+        <controls xsi:type="properties:HyperlinkDescription" labelExpression="属性值" valueExpression="aql:self.value" displayExpression="aql:self.value">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.4/@controls.3/@initialOperation/@firstModelOperations/@subModelOperations.0">
+              <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.selectValue" forceRefresh="true" id="org.fc.mdt.sirius.selectValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+      </groups>
+      <groups name="BasicGroup_Layout" labelExpression="布局插件" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:LabelDescription" name="idLabel" labelExpression="id" valueExpression="service:getReferenceId()"/>
+        <controls xsi:type="properties:TextDescription" name="nameText" labelExpression="标签" valueExpression="aql:self.name">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+        <controls xsi:type="properties:TextDescription" name="modelElementNameText" labelExpression="关联元素id" valueExpression="aql:self.modelElementName">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="modelElementName" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+      </groups>
+      <groups name="BasicGroup__Matrix" labelExpression="表单" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:LabelDescription" name="idLabel" labelExpression="id" valueExpression="service:getReferenceId()"/>
+        <controls xsi:type="properties:TextDescription" name="nameText" labelExpression="标签" valueExpression="aql:self.name">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+        <controls xsi:type="properties:TextDescription" name="valueText" labelExpression="属性值" valueExpression="aql:self.value">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="value" valueExpression="var:newValue"/>
+              <subModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.6/@controls.2/@initialOperation/@firstModelOperations/@subModelOperations.1/@subModelOperations.0">
+                <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.matrix" forceRefresh="true" id="org.fc.mdt.sirius.matrix"/>
+              </subModelOperations>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+      </groups>
+      <groups name="BasicGroup__Gantt" labelExpression="甘特图" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:LabelDescription" name="idLabel" labelExpression="id" valueExpression="service:getGanttId()"/>
+        <controls xsi:type="properties:TextDescription" name="nameText" labelExpression="标签" valueExpression="aql:self.name">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+        <controls xsi:type="properties:SelectDescription" labelExpression="时间单位" valueExpression="aql:graph_requirement::times.getEEnumLiteral(self.time.toString())" candidatesExpression="aql:graph_requirement::times.eLiterals" candidateDisplayExpression="aql:candidate.name">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="time" valueExpression="aql:newValue.instance"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+        <controls xsi:type="properties:TextDescription" name="timeUnitText" labelExpression="时间间隔" valueExpression="aql:self.timeUnit">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="timeUnit" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+        <controls xsi:type="properties:TextDescription" name="startTimeText" labelExpression="起始时间" valueExpression="aql:self.startTime">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="startTime" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+        <controls xsi:type="properties:TextDescription" name="endTimeText" labelExpression="终止时间" valueExpression="aql:self.endTime">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="endTime" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+      </groups>
+      <groups name="ganttTaskGroup" labelExpression="任务" domainClass="Gantt" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties-ext-widgets-reference:ExtReferenceDescription" labelExpression="任务" referenceNameExpression="ganttTasks" referenceOwnerExpression="var:self">
+          <onClickOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:selection->at(1)">
+              <subModelOperations xsi:type="tool_1:If" conditionExpression="aql:onClickEventKind='DOUBLE_CLICK'">
+                <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="属性设置">
+                  <buttons labelExpression="取消" closeDialogOnClick="true" rollbackChangesOnClose="true"/>
+                  <buttons labelExpression="确定" default="true" closeDialogOnClick="true"/>
+                  <page name="GanttTaskPage" labelExpression="任务" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.8/@controls.0/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                  <groups name="GanttTaskGroup" labelExpression="默认属性" semanticCandidateExpression="var:self">
+                    <controls xsi:type="properties:LabelDescription" labelExpression="元模型信息" valueExpression="service:getMetaInfo()"/>
+                    <controls xsi:type="properties:LabelDescription" name="idLabel" labelExpression="id" valueExpression="service:getGanttTaskId()"/>
+                    <controls xsi:type="properties:TextDescription" name="nameText" labelExpression="标签" valueExpression="aql:self.name">
+                      <initialOperation>
+                        <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+                        </firstModelOperations>
+                      </initialOperation>
+                    </controls>
+                    <controls xsi:type="properties-ext-widgets-reference:ExtReferenceDescription" name="ganttTaskElementsRef" labelExpression="任务事件" referenceNameExpression="ganttTaskElements" referenceOwnerExpression="var:self">
+                      <onClickOperation>
+                        <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:selection->at(1)">
+                          <subModelOperations xsi:type="tool_1:If" conditionExpression="aql:onClickEventKind='DOUBLE_CLICK'">
+                            <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="属性设置">
+                              <buttons labelExpression="取消" closeDialogOnClick="true" rollbackChangesOnClose="true"/>
+                              <buttons labelExpression="确定" default="true" closeDialogOnClick="true"/>
+                              <page name="GanttTaskElement" labelExpression="" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.8/@controls.0/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@groups.0/@controls.3/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                              <groups name="GanttTaskElementGroup" labelExpression="默认属性" semanticCandidateExpression="var:self">
+                                <controls xsi:type="properties:LabelDescription" labelExpression="元模型信息" valueExpression="service:getMetaInfo()"/>
+                                <controls xsi:type="properties:LabelDescription" name="idLabel" labelExpression="id" valueExpression="service:getGanttTaskElementId()"/>
+                                <controls xsi:type="properties:TextDescription" name="nameText" labelExpression="标签" valueExpression="aql:self.name">
+                                  <initialOperation>
+                                    <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+                                      <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+                                    </firstModelOperations>
+                                  </initialOperation>
+                                </controls>
+                                <controls xsi:type="properties:TextDescription" name="elementOffsetText" labelExpression="起始时间位置" valueExpression="aql:self.elementOffset">
+                                  <initialOperation>
+                                    <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+                                      <subModelOperations xsi:type="tool_1:SetValue" featureName="elementOffset" valueExpression="var:newValue"/>
+                                    </firstModelOperations>
+                                  </initialOperation>
+                                </controls>
+                                <controls xsi:type="properties:TextDescription" name="elementLengthText" labelExpression="终止时间位置" valueExpression="aql:self.elementLength">
+                                  <initialOperation>
+                                    <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+                                      <subModelOperations xsi:type="tool_1:SetValue" featureName="elementLength" valueExpression="var:newValue"/>
+                                    </firstModelOperations>
+                                  </initialOperation>
+                                </controls>
+                                <controls xsi:type="properties:TextDescription" name="elementColorText" labelExpression="颜色" valueExpression="aql:self.elementColor">
+                                  <initialOperation>
+                                    <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+                                      <subModelOperations xsi:type="tool_1:SetValue" featureName="elementColor" valueExpression="var:newValue"/>
+                                    </firstModelOperations>
+                                  </initialOperation>
+                                </controls>
+                              </groups>
+                            </subModelOperations>
+                          </subModelOperations>
+                        </firstModelOperations>
+                      </onClickOperation>
+                    </controls>
+                  </groups>
+                </subModelOperations>
+              </subModelOperations>
+            </firstModelOperations>
+          </onClickOperation>
+        </controls>
+      </groups>
+      <groups name="PropertyGroup" labelExpression="同源属性信息" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties-ext-widgets-reference:ExtReferenceDescription" labelExpression="模型同源属性" referenceNameExpression="properties" referenceOwnerExpression="var:self">
+          <onClickOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:selection->at(1)">
+              <subModelOperations xsi:type="tool_1:If" conditionExpression="aql:onClickEventKind='DOUBLE_CLICK'">
+                <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="属性设置">
+                  <buttons labelExpression="OSLC服务" default="true" closeDialogOnClick="true">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.9/@controls.0/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@buttons.0/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                        <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.oslcAction" forceRefresh="true" id="org.fc.mdt.sirius.oslcAction"/>
+                      </firstModelOperations>
+                    </initialOperation>
+                  </buttons>
+                  <buttons labelExpression="属性引用" default="true" closeDialogOnClick="true">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.9/@controls.0/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@buttons.1/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                        <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.extingPropertyActions" forceRefresh="true" id="org.fc.mdt.sirius.extingPropertyActions"/>
+                      </firstModelOperations>
+                    </initialOperation>
+                  </buttons>
+                  <buttons labelExpression="取消" closeDialogOnClick="true" rollbackChangesOnClose="true"/>
+                  <buttons labelExpression="确定" default="true" closeDialogOnClick="true"/>
+                  <page labelExpression="属性" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.3 //@extensions.0/@categories.0/@groups.4"/>
+                </subModelOperations>
+              </subModelOperations>
+            </firstModelOperations>
+          </onClickOperation>
+        </controls>
+      </groups>
+      <groups name="subPointGroup" labelExpression="模型点" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties-ext-widgets-reference:ExtReferenceDescription" labelExpression="输入点" referenceNameExpression="input" referenceOwnerExpression="var:self">
+          <onClickOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:selection->at(1)">
+              <subModelOperations xsi:type="tool_1:If" conditionExpression="aql:onClickEventKind='DOUBLE_CLICK'">
+                <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="属性设置">
+                  <buttons labelExpression="OSLC服务" default="true" closeDialogOnClick="true">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.10/@controls.0/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@buttons.0/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                        <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.oslcAction" forceRefresh="true" id="org.fc.mdt.sirius.oslcAction"/>
+                      </firstModelOperations>
+                    </initialOperation>
+                  </buttons>
+                  <buttons labelExpression="属性引用" default="true" closeDialogOnClick="true">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.10/@controls.0/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@buttons.1/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                        <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.extingPropertyActions" forceRefresh="true" id="org.fc.mdt.sirius.extingPropertyActions"/>
+                      </firstModelOperations>
+                    </initialOperation>
+                  </buttons>
+                  <buttons labelExpression="取消" closeDialogOnClick="true" rollbackChangesOnClose="true"/>
+                  <buttons labelExpression="确定" default="true" closeDialogOnClick="true"/>
+                  <page labelExpression="属性" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.2 //@extensions.0/@categories.0/@groups.9"/>
+                </subModelOperations>
+              </subModelOperations>
+            </firstModelOperations>
+          </onClickOperation>
+        </controls>
+        <controls xsi:type="properties-ext-widgets-reference:ExtReferenceDescription" labelExpression="输出点" referenceNameExpression="output" referenceOwnerExpression="var:self">
+          <onClickOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:selection->at(1)">
+              <subModelOperations xsi:type="tool_1:If" conditionExpression="aql:onClickEventKind='DOUBLE_CLICK'">
+                <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="属性设置">
+                  <buttons labelExpression="OSLC服务" default="true" closeDialogOnClick="true">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.10/@controls.1/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@buttons.0/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                        <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.oslcAction" forceRefresh="true" id="org.fc.mdt.sirius.oslcAction"/>
+                      </firstModelOperations>
+                    </initialOperation>
+                  </buttons>
+                  <buttons labelExpression="属性引用" default="true" closeDialogOnClick="true">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.10/@controls.1/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@buttons.1/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                        <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.extingPropertyActions" forceRefresh="true" id="org.fc.mdt.sirius.extingPropertyActions"/>
+                      </firstModelOperations>
+                    </initialOperation>
+                  </buttons>
+                  <buttons labelExpression="取消" closeDialogOnClick="true" rollbackChangesOnClose="true"/>
+                  <buttons labelExpression="确定" default="true" closeDialogOnClick="true"/>
+                  <page labelExpression="属性" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.2 //@extensions.0/@categories.0/@groups.9"/>
+                </subModelOperations>
+              </subModelOperations>
+            </firstModelOperations>
+          </onClickOperation>
+        </controls>
+        <controls xsi:type="properties-ext-widgets-reference:ExtReferenceDescription" labelExpression="无向点" referenceNameExpression="undirected" referenceOwnerExpression="var:self">
+          <onClickOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:selection->at(1)">
+              <subModelOperations xsi:type="tool_1:If" conditionExpression="aql:onClickEventKind='DOUBLE_CLICK'">
+                <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="属性设置">
+                  <buttons labelExpression="OSLC服务" default="true" closeDialogOnClick="true">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.10/@controls.2/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@buttons.0/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                        <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.oslcAction" forceRefresh="true" id="org.fc.mdt.sirius.oslcAction"/>
+                      </firstModelOperations>
+                    </initialOperation>
+                  </buttons>
+                  <buttons labelExpression="属性引用" default="true" closeDialogOnClick="true">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.10/@controls.2/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@buttons.1/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                        <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.extingPropertyActions" forceRefresh="true" id="org.fc.mdt.sirius.extingPropertyActions"/>
+                      </firstModelOperations>
+                    </initialOperation>
+                  </buttons>
+                  <buttons labelExpression="取消" closeDialogOnClick="true" rollbackChangesOnClose="true"/>
+                  <buttons labelExpression="确定" default="true" closeDialogOnClick="true"/>
+                  <page labelExpression="属性" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.2 //@extensions.0/@categories.0/@groups.9"/>
+                </subModelOperations>
+              </subModelOperations>
+            </firstModelOperations>
+          </onClickOperation>
+        </controls>
+      </groups>
+      <groups name="subRoleRef" labelExpression="模型角色" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:ContainerDescription">
+          <controls xsi:type="properties:HyperlinkDescription" labelExpression="始端角色" valueExpression="aql:self.fromRole" displayExpression="aql:self.fromRole.id+'  [ '+self.fromRole.name+' ]'">
+            <initialOperation>
+              <firstModelOperations xsi:type="properties:DialogModelOperation" titleExpression="属性设置">
+                <buttons labelExpression="取消" closeDialogOnClick="true" rollbackChangesOnClose="true"/>
+                <buttons labelExpression="确定" default="true" closeDialogOnClick="true"/>
+                <page labelExpression="属性" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.11/@controls.0/@controls.0/@initialOperation/@firstModelOperations/@groups.0 //@extensions.0/@categories.0/@groups.11/@controls.0/@controls.0/@initialOperation/@firstModelOperations/@groups.1"/>
+                <groups name="fromRolepropertyGroup" label="fromRolepropertyGroup" labelExpression="默认属性" semanticCandidateExpression="aql:self.fromRole">
+                  <controls xsi:type="properties:LabelDescription" labelExpression="元模型信息" valueExpression="service:getMetaInfo()"/>
+                  <controls xsi:type="properties:LabelDescription" name="idLabel" labelExpression="id" valueExpression="service:getReferenceId()"/>
+                  <controls xsi:type="properties:TextDescription" name="nameText" labelExpression="标签" valueExpression="aql:self.name">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+                        <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+                      </firstModelOperations>
+                    </initialOperation>
+                  </controls>
+                </groups>
+                <groups name="fromRoleProperties" labelExpression="同源属性信息" semanticCandidateExpression="var:self">
+                  <controls xsi:type="properties-ext-widgets-reference:ExtReferenceDescription" labelExpression="模型同源属性" referenceNameExpression="properties" referenceOwnerExpression="aql:self.fromRole">
+                    <onClickOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:selection->at(1)">
+                        <subModelOperations xsi:type="tool_1:If" conditionExpression="aql:onClickEventKind='DOUBLE_CLICK'">
+                          <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="属性设置">
+                            <buttons labelExpression="OSLC服务" default="true" closeDialogOnClick="true">
+                              <initialOperation>
+                                <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.11/@controls.0/@controls.0/@initialOperation/@firstModelOperations/@groups.1/@controls.0/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@buttons.0/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                                  <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.oslcAction" forceRefresh="true" id="org.fc.mdt.sirius.oslcAction"/>
+                                </firstModelOperations>
+                              </initialOperation>
+                            </buttons>
+                            <buttons labelExpression="属性引用" default="true" closeDialogOnClick="true">
+                              <initialOperation>
+                                <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.11/@controls.0/@controls.0/@initialOperation/@firstModelOperations/@groups.1/@controls.0/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@buttons.1/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                                  <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.extingPropertyActions" forceRefresh="true" id="org.fc.mdt.sirius.extingPropertyActions"/>
+                                </firstModelOperations>
+                              </initialOperation>
+                            </buttons>
+                            <buttons labelExpression="取消" closeDialogOnClick="true" rollbackChangesOnClose="true"/>
+                            <buttons labelExpression="确定" default="true" closeDialogOnClick="true"/>
+                            <page labelExpression="属性" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.3 //@extensions.0/@categories.0/@groups.4"/>
+                          </subModelOperations>
+                        </subModelOperations>
+                      </firstModelOperations>
+                    </onClickOperation>
+                  </controls>
+                </groups>
+              </firstModelOperations>
+            </initialOperation>
+          </controls>
+          <controls xsi:type="properties:ButtonDescription" buttonLabelExpression="+">
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.11/@controls.0/@controls.1/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.javaActions.fetchRolesNew" forceRefresh="true" id="org.fc.mdt.sirius.javaActions.fetchRolesNew"/>
+              </firstModelOperations>
+            </initialOperation>
+          </controls>
+          <layout xsi:type="properties:GridLayoutDescription" numberOfColumns="2" makeColumnsWithEqualWidth="true"/>
+        </controls>
+        <controls xsi:type="properties:ContainerDescription">
+          <controls xsi:type="properties:HyperlinkDescription" labelExpression="终端角色" valueExpression="aql:self.toRole" displayExpression="aql:self.toRole.id+'  [ '+self.toRole.name+' ]'">
+            <initialOperation>
+              <firstModelOperations xsi:type="properties:DialogModelOperation" titleExpression="属性设置">
+                <buttons labelExpression="取消" closeDialogOnClick="true" rollbackChangesOnClose="true"/>
+                <buttons labelExpression="确定" default="true" closeDialogOnClick="true"/>
+                <page labelExpression="属性" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.11/@controls.1/@controls.0/@initialOperation/@firstModelOperations/@groups.0 //@extensions.0/@categories.0/@groups.11/@controls.1/@controls.0/@initialOperation/@firstModelOperations/@groups.1"/>
+                <groups name="toRolepropertyGroup" label="toRolepropertyGroup" labelExpression="默认属性" semanticCandidateExpression="aql:self.toRole">
+                  <controls xsi:type="properties:LabelDescription" labelExpression="元模型信息" valueExpression="service:getMetaInfo()"/>
+                  <controls xsi:type="properties:LabelDescription" name="idLabel" labelExpression="id" valueExpression="service:getReferenceId()"/>
+                  <controls xsi:type="properties:TextDescription" name="nameText" labelExpression="标签" valueExpression="aql:self.name">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+                        <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+                      </firstModelOperations>
+                    </initialOperation>
+                  </controls>
+                </groups>
+                <groups name="toRoleProperties" labelExpression="同源属性信息" semanticCandidateExpression="var:self">
+                  <controls xsi:type="properties-ext-widgets-reference:ExtReferenceDescription" labelExpression="模型同源属性" referenceNameExpression="properties" referenceOwnerExpression="aql:self.toRole">
+                    <onClickOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:selection->at(1)">
+                        <subModelOperations xsi:type="tool_1:If" conditionExpression="aql:onClickEventKind='DOUBLE_CLICK'">
+                          <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="属性设置">
+                            <buttons labelExpression="OSLC服务" default="true" closeDialogOnClick="true">
+                              <initialOperation>
+                                <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.11/@controls.1/@controls.0/@initialOperation/@firstModelOperations/@groups.1/@controls.0/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@buttons.0/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                                  <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.oslcAction" forceRefresh="true" id="org.fc.mdt.sirius.oslcAction"/>
+                                </firstModelOperations>
+                              </initialOperation>
+                            </buttons>
+                            <buttons labelExpression="属性引用" default="true" closeDialogOnClick="true">
+                              <initialOperation>
+                                <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.11/@controls.1/@controls.0/@initialOperation/@firstModelOperations/@groups.1/@controls.0/@onClickOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@buttons.1/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                                  <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.extingPropertyActions" forceRefresh="true" id="org.fc.mdt.sirius.extingPropertyActions"/>
+                                </firstModelOperations>
+                              </initialOperation>
+                            </buttons>
+                            <buttons labelExpression="取消" closeDialogOnClick="true" rollbackChangesOnClose="true"/>
+                            <buttons labelExpression="确定" default="true" closeDialogOnClick="true"/>
+                            <page labelExpression="属性" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.3 //@extensions.0/@categories.0/@groups.4"/>
+                          </subModelOperations>
+                        </subModelOperations>
+                      </firstModelOperations>
+                    </onClickOperation>
+                  </controls>
+                </groups>
+              </firstModelOperations>
+            </initialOperation>
+          </controls>
+          <controls xsi:type="properties:ButtonDescription" buttonLabelExpression="+">
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.11/@controls.1/@controls.1/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.javaActions.fetchToRolesNew" forceRefresh="true" id="org.fc.mdt.sirius.javaActions.fetchToRolesNew"/>
+              </firstModelOperations>
+            </initialOperation>
+          </controls>
+          <layout xsi:type="properties:GridLayoutDescription" numberOfColumns="2" makeColumnsWithEqualWidth="true"/>
+        </controls>
+      </groups>
+      <groups name="CifCodebasicGroup" labelExpression="添加仿真代码" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:ContainerDescription">
+          <controls xsi:type="properties:ButtonDescription" labelExpression="点击添加" buttonLabelExpression="添加模型代码">
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.12/@controls.0/@controls.0/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.modeCifOperate" forceRefresh="true" id="org.fc.mdt.sirius.modeCifOperate"/>
+              </firstModelOperations>
+            </initialOperation>
+          </controls>
+          <controls xsi:type="properties:ButtonDescription" buttonLabelExpression="添加SVG代码">
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.12/@controls.0/@controls.1/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.svgCifOperate" forceRefresh="true" id="org.fc.mdt.sirius.svgCifOperate"/>
+              </firstModelOperations>
+            </initialOperation>
+          </controls>
+          <layout xsi:type="properties:GridLayoutDescription" numberOfColumns="8" makeColumnsWithEqualWidth="true"/>
+        </controls>
+      </groups>
+      <groups name="CifCodebasicGroup" labelExpression="添加仿真代码" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:ButtonDescription" labelExpression="点击添加" buttonLabelExpression="添加对象代码">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.13/@controls.0/@initialOperation/@firstModelOperations/@subModelOperations.0">
+              <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.objectCifOperate" forceRefresh="true" id="org.fc.mdt.sirius.objectCifOperate"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+      </groups>
+      <groups name="CifCodebasicGroup" labelExpression="添加仿真代码" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:ButtonDescription" labelExpression="点击添加" buttonLabelExpression="添加关系代码">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ExternalJavaActionCall" forceRefresh="true" action="//@extensions.0/@categories.0/@groups.14/@controls.0/@initialOperation/@firstModelOperations/@subModelOperations.0">
+              <subModelOperations xsi:type="tool_1:ExternalJavaAction" name="org.fc.mdt.sirius.relationshipCifOperate" forceRefresh="true" id="org.fc.mdt.sirius.relationshipCifOperate"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+      </groups>
+    </categories>
+  </extensions>
+</description:Group>

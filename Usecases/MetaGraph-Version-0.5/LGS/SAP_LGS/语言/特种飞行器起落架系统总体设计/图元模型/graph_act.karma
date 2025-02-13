@@ -1,0 +1,68 @@
+   partial Graph graph_act
+    Object object_action;
+    Object object_decision;
+    Object object_divide;
+    Object object_end;
+    Object object_flowstop;
+    Object object_note;
+    Object object_start;
+    Object object_lane;
+    Object object_callbehavior;
+    Object object_signal;
+    Object object_merge;
+    Relationship controlflow;
+    Relationship objectflow;
+    Constraint (
+    bind connector(object_end,controlflow.controlflow_In),
+    bind connector(object_flowstop,controlflow.controlflow_In),
+    bind connector(object_divide,controlflow.controlflow_In),
+    bind connector(object_merge,controlflow.controlflow_In),
+    bind connector(object_start,controlflow.controlflow_In),
+    bind connector(object_callbehavior,controlflow.controlflow_In),
+    bind connector(object_decision,controlflow.controlflow_In),
+    bind connector(object_action,controlflow.controlflow_In),
+    bind connector(object_note,controlflow.controlflow_In),
+    bind connector(object_end,controlflow.controlflow_Out),
+    bind connector(object_flowstop,controlflow.controlflow_Out),
+    bind connector(object_divide,controlflow.controlflow_Out),
+    bind connector(object_merge,controlflow.controlflow_Out),
+    bind connector(object_start,controlflow.controlflow_Out),
+    bind connector(object_callbehavior,controlflow.controlflow_Out),
+    bind connector(object_decision,controlflow.controlflow_Out),
+    bind connector(object_action,controlflow.controlflow_Out),
+    bind connector(object_note,controlflow.controlflow_Out),
+    bind connector(object_end,objectflow.objectflow_In),
+    bind connector(object_flowstop,objectflow.objectflow_In),
+    bind connector(object_divide,objectflow.objectflow_In),
+    bind connector(object_callbehavior.object_callbehavior_port_Out_6a170c,objectflow.objectflow_In),
+    bind connector(object_merge,objectflow.objectflow_In),
+    bind connector(object_start,objectflow.objectflow_In),
+    bind connector(object_callbehavior,objectflow.objectflow_In),
+    bind connector(object_signal,objectflow.objectflow_In),
+    bind connector(object_decision,objectflow.objectflow_In),
+    bind connector(object_action.object_action_port_Out_a27318,objectflow.objectflow_In),
+    bind connector(object_action,objectflow.objectflow_In),
+    bind connector(object_note,objectflow.objectflow_In),
+    bind connector(object_end,objectflow.objectflow_Out),
+    bind connector(object_callbehavior.object_callbehavior_port_In_9e533c,objectflow.objectflow_Out),
+    bind connector(object_flowstop,objectflow.objectflow_Out),
+    bind connector(object_action.object_action_port_In_49baba,objectflow.objectflow_Out),
+    bind connector(object_divide,objectflow.objectflow_Out),
+    bind connector(object_merge,objectflow.objectflow_Out),
+    bind connector(object_start,objectflow.objectflow_Out),
+    bind connector(object_callbehavior,objectflow.objectflow_Out),
+    bind connector(object_signal,objectflow.objectflow_Out),
+    bind connector(object_decision,objectflow.objectflow_Out),
+    bind connector(object_action,objectflow.objectflow_Out),
+    bind connector(object_note,objectflow.objectflow_Out),
+    object_lane.explode(graph_act),
+    object_callbehavior.explode(graph_act),
+    object_lane.decompose(graph_act),
+    object_callbehavior.decompose(graph_act),
+    );
+    annotation(
+        localLabel="活动图",
+        type = diagram,
+        description="",
+       );
+        end graph_act;

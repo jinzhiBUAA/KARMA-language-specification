@@ -1,0 +1,18 @@
+   Object Validation_Process
+      initial Property  Validation_Process_Purpose_541d5d = 0 extends Purpose annotation(localLabel ="目的");
+      initial Property  Validation_Process_Description_068b0d = 0 extends Description annotation(localLabel ="描述");
+      initial Property  Validation_Process_Inputs_f76ae0 = 0 extends Inputs annotation(localLabel ="输入");
+      initial Property  Validation_Process_Outputs_bc5fef = 0 extends Outputs annotation(localLabel ="输出");
+      initial Property  Validation_Process_Target_daily_cost_779d77 = 0 extends Target_daily_cost annotation(localLabel ="目标每日花费");
+      initial Property  Validation_Process_Target_days_13a892 = 0 extends Target_days annotation(localLabel ="目标天数");
+      initial Property  Validation_Process_Estimated_daily_cost_5020c8 = 0 extends Estimated_daily_cost annotation(localLabel ="预计每日花费");
+      initial Property  Validation_Process_Estimated_days_1a59f3 = 0 extends Estimated_days annotation(localLabel ="预计天数");
+   annotation(
+      localLabel="确认过程",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Validation_Process;
+ 

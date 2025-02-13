@@ -1,0 +1,15 @@
+   Object Object_Outport
+      initial Property  Object_Outport_Property_Name_0a9626 = "Outport" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Outport_Property_Parameters_bab18e = "null" extends Property_Parameters annotation(localLabel ="参数");
+      Input Point Object_Outport_Point_Inport_2f32d9 extends Point_Inport annotation (localLabel ="输入");
+   annotation(
+      localLabel="Outport",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="Outport.png",
+      UnfoldDirection=Y,
+      );
+   end Object_Outport;
+ 

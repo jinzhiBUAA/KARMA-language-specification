@@ -1,0 +1,16 @@
+   Object object_simmerge
+      initial Property  object_simmerge_Property_Parameters_86fe88 = "null" extends Property_Parameters annotation(localLabel ="参数");
+      initial Property  object_simmerge_property_name_9ff460 = "null" extends property_name annotation(localLabel ="名称");
+      Input Point object_simmerge_Point_Inport_46dd7d extends Point_Inport annotation (localLabel ="输入");
+      Output Point object_simmerge_Point_Outport_fad600 extends Point_Outport annotation (localLabel ="输出");
+   annotation(
+      localLabel="merge",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="Merge.png",
+      UnfoldDirection=Y,
+      );
+   end object_simmerge;
+ 

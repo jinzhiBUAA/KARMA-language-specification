@@ -1,0 +1,18 @@
+   partial Graph graph_sd
+    Object object_block;
+    Object object_lifelineobject;
+    Object object_message;
+    Object object_note;
+    Relationship create_message;
+    Relationship pass_message;
+    Relationship reply_message;
+    Relationship send_message;
+    Relationship association;
+    Constraint (
+    );
+    annotation(
+        localLabel="序列图",
+        type = sequenceDiagram,
+        description="",
+       );
+        end graph_sd;

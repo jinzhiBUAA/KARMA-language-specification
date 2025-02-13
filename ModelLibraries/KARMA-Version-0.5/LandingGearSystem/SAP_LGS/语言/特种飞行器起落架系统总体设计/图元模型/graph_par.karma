@@ -1,0 +1,25 @@
+   partial Graph graph_par
+    Object object_note;
+    Object paramater_constraint;
+    Object paramater_value;
+    Relationship notelink;
+    Relationship bindingconnector;
+    Relationship relationship_projectflow;
+    Constraint (
+    bind connector(object_note,notelink.notepart),
+    bind connector(object_note,notelink.objectpart),
+    bind connector(paramater_value.paramater_value_point_port_f9fb9b,bindingconnector.bindconnector_out),
+    bind connector(paramater_constraint.paramater_constraint_point_port_e357f3,bindingconnector.bindconnector_out),
+    bind connector(paramater_value.paramater_value_point_port_f9fb9b,bindingconnector.bindingconnector_in),
+    bind connector(paramater_constraint.paramater_constraint_point_port_e357f3,bindingconnector.bindingconnector_in),
+    bind connector(paramater_value.paramater_value_point_port_f9fb9b,relationship_projectflow.projectflow_In),
+    bind connector(paramater_constraint.paramater_constraint_point_port_e357f3,relationship_projectflow.projectflow_In),
+    bind connector(paramater_value.paramater_value_point_port_f9fb9b,relationship_projectflow.projectflow_Out),
+    bind connector(paramater_constraint.paramater_constraint_point_port_e357f3,relationship_projectflow.projectflow_Out),
+    );
+    annotation(
+        localLabel="参数图",
+        type = diagram,
+        description="",
+       );
+        end graph_par;

@@ -1,0 +1,21 @@
+   Object Object_Contcont
+      initial Property unique Object_Contcont_Property_Name_a8696b = "null" extends Property_Name annotation(localLabel ="Name");
+      initial Property  Object_Contcont_Property_Length_e12722 = 0 extends Property_Length annotation(localLabel ="Length");
+      initial Property  Object_Contcont_Property_Force_81062a = 0 extends Property_Force annotation(localLabel ="Force");
+      initial Property  Object_Contcont_Property_Torque_c39685 = 0 extends Property_Torque annotation(localLabel ="Torque");
+      initial Property  Object_Contcont_Property_Speed_83e09b = 0 extends Property_Speed annotation(localLabel ="Speed");
+      initial Property  Object_Contcont_Property_DampingCoefficient_a7ef56 = 0 extends Property_DampingCoefficient annotation(localLabel ="DampingCoefficient");
+      initial Property  Object_Contcont_Property_RotaryDampingCoefficient_d6dc04 = 0 extends Property_RotaryDampingCoefficient annotation(localLabel ="RotaryDampingCoefficient");
+      Undirected Point Object_Contcont_Point_ForcePort_ff49ac extends Point_ForcePort annotation (localLabel ="ForcePort");
+      Undirected Point Object_Contcont_Point_ParameterPort_085db1 extends Point_ParameterPort annotation (localLabel ="ParameterPort");
+   annotation(
+      localLabel="Contcont",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="凸轮.png",
+      UnfoldDirection=Y,
+      );
+   end Object_Contcont;
+ 

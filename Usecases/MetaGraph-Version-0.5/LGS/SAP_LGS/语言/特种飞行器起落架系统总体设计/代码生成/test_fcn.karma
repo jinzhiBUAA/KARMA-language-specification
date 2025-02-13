@@ -1,0 +1,31 @@
+codeGenerator test_fcn
+
+File file1 = File("D:/Eugene_Y/BIT/metagraph/LGS/fcn_sim.m");
+      entrypoint rule forheadline( )
+      {
+        to
+          String e(
+                   e <- "open_system('lgs_retract_20240508');";
+                  )
+              do{
+                 file1.append(e);
+                                 } 
+       }
+      rule add_block{
+		from
+			Object[Object_Fcn] obj4;		
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_block(ann,bnn) =<%
+				add_block('Simulink/User-Defined Functions/<ann>','lgs_retract_20240508/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block(obj4.Property["名称"],obj4.Property["名称"]);
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+end test_fcn

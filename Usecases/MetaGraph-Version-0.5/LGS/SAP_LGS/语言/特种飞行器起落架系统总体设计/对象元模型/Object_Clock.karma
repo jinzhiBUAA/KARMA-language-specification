@@ -1,0 +1,17 @@
+   Object Object_Clock
+      initial Property  Object_Clock_Property_Name_71f84e = "Clock" extends property_name annotation(localLabel ="名称");
+      initial Property  Object_Clock_Property_Parameters_c6a002 = "5" extends Property_Parameters annotation(localLabel ="参数");
+      initial Property  Object_Clock_Property_Type_00f885 = "null" extends Property_Type annotation(localLabel ="类型");
+      Input Point Object_Clock_Point_Inport_0c6bf2 extends Point_Inport annotation (localLabel ="输入");
+      Output Point Object_Clock_Point_Outport_1de4a8 extends Point_Outport annotation (localLabel ="输出");
+   annotation(
+      localLabel="Clock",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="Clock.png",
+      UnfoldDirection=Y,
+      );
+   end Object_Clock;
+ 

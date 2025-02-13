@@ -1,0 +1,743 @@
+    partial Model model_graph_uc_61022 instanceof graph_uc
+    
+      Object model_graph_uc_61022_object_47fa refer object_boundary
+    this.explode(model_graph_uc_c8a72);
+      
+        annotation(
+          initialLocation=(390,36,-1,-1),
+          localLabel="起落架系统",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="model_graph_uc_c8a72:(0,0,-1,-1)",
+        );
+      end model_graph_uc_61022_object_47fa;
+
+      Object model_graph_uc_61022_object_59a9 refer object_pilot
+      
+        annotation(
+          initialLocation=(89,156,152,109),
+          localLabel="飞行员",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="飞行员.jpg",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_graph_uc_61022_object_59a9;
+
+      Object model_graph_uc_61022_object_73ed refer object_kongdi
+      
+        annotation(
+          initialLocation=(89,426,152,103),
+          localLabel="空地感应系统",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="空地感应系统.jpg",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_graph_uc_61022_object_73ed;
+
+      Object model_graph_uc_61022_object_05d2 refer object_dimian
+      
+        annotation(
+          initialLocation=(804,156,157,109),
+          localLabel="地面监测中心",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="地面监测中心.jpg",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_graph_uc_61022_object_05d2;
+
+      Object model_graph_uc_61022_object_383d refer object_feikong
+      
+        annotation(
+          initialLocation=(804,426,157,109),
+          localLabel="飞行控制系统",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="飞控系统.jpg",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_graph_uc_61022_object_383d;
+
+      Relationship model_graph_uc_61022_relationship_988a refer association
+        Role model_graph_uc_61022_fromrole_3025 refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_3025;
+         Role model_graph_uc_61022_torole_1af7 refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_1af7;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(173,207;354,21),
+          polylineLocation="[8,-3,-216,58]$[224,-61,0,0];(0.9407894736842105,0.5045871559633028);(0.0,0.42857142857142855)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_988a;
+ 
+      Relationship model_graph_uc_61022_relationship_1a46 refer association
+        Role model_graph_uc_61022_fromrole_da83 refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_da83;
+         Role model_graph_uc_61022_torole_fd27 refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_fd27;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(175,211;356,224),
+          polylineLocation="[10,1,-216,-39]$[226,40,0,0];(0.9276315789473685,0.5137614678899083);(0.0,0.42857142857142855)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_1a46;
+ 
+      Relationship model_graph_uc_61022_relationship_3865 refer association
+        Role model_graph_uc_61022_fromrole_a2d8 refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_a2d8;
+         Role model_graph_uc_61022_torole_376b refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_376b;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(164,210;345,424),
+          polylineLocation="[-1,0,-288,-108]$[215,138,-72,30]$[215,138,-72,30];(1.0,0.5504587155963303);(0.5142857142857142,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_3865;
+ 
+      Relationship model_graph_uc_61022_relationship_75ca refer association
+        Role model_graph_uc_61022_fromrole_f1a7 refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_f1a7;
+         Role model_graph_uc_61022_torole_93e6 refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_93e6;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(170,216;351,632),
+          polylineLocation="[5,6,-294,-208]$[221,244,-78,30]$[221,244,-78,30];(0.9605263157894737,0.5137614678899083);(0.5571428571428572,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_75ca;
+ 
+      Relationship model_graph_uc_61022_relationship_a4c0 refer association
+        Role model_graph_uc_61022_fromrole_99f3 refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_99f3;
+         Role model_graph_uc_61022_torole_9019 refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_9019;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(170,219;351,842),
+          polylineLocation="[5,9,-282,-307]$[221,352,-66,36]$[221,352,-66,36];(0.9605263157894737,0.5137614678899083);(0.4714285714285714,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_a4c0;
+ 
+      Relationship model_graph_uc_61022_relationship_1f60 refer association
+        Role model_graph_uc_61022_fromrole_e2de refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_e2de;
+         Role model_graph_uc_61022_torole_dbc6 refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_dbc6;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(167,472;348,-232),
+          polylineLocation="[2,-5,-300,269]$[218,-314,-84,-40]$[218,-314,-84,-40];(0.9802631578947368,0.36893203883495146);(0.6,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_1f60;
+ 
+      Relationship model_graph_uc_61022_relationship_fbcd refer association
+        Role model_graph_uc_61022_fromrole_2154 refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_2154;
+         Role model_graph_uc_61022_torole_bd25 refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_bd25;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(169,472;350,-23),
+          polylineLocation="[4,-5,-216,202]$[220,-207,0,0];(0.9671052631578947,0.3786407766990291);(0.0,0.5142857142857142)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_fbcd;
+ 
+      Relationship model_graph_uc_61022_relationship_534f refer association
+        Role model_graph_uc_61022_fromrole_1544 refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_1544;
+         Role model_graph_uc_61022_torole_a1b8 refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_a1b8;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(171,473;352,178),
+          polylineLocation="[6,-4,-216,104]$[222,-108,0,0];(0.9539473684210527,0.34951456310679613);(0.0,0.42857142857142855)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_534f;
+ 
+      Relationship model_graph_uc_61022_relationship_8104 refer association
+        Role model_graph_uc_61022_fromrole_5fc4 refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_5fc4;
+         Role model_graph_uc_61022_torole_846d refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_846d;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(171,476;352,387),
+          polylineLocation="[6,-1,-216,9]$[222,-1,0,9];(0.9539473684210527,0.3300970873786408);(0.0,0.34285714285714286)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_8104;
+ 
+      Relationship model_graph_uc_61022_relationship_5df8 refer association
+        Role model_graph_uc_61022_fromrole_8436 refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_8436;
+         Role model_graph_uc_61022_torole_4637 refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_4637;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(868,206;-92,24),
+          polylineLocation="[-14,-4,208,54]$[-222,-58,0,0];(0.08917197452229299,0.47706422018348627);(1.0,0.42857142857142855)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_5df8;
+ 
+      Relationship model_graph_uc_61022_relationship_a0b0 refer association
+        Role model_graph_uc_61022_fromrole_02f7 refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_02f7;
+         Role model_graph_uc_61022_torole_e668 refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_e668;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(882,210;-78,244),
+          polylineLocation="[0,0,208,-60]$[-208,60,0,0];(0.0,0.44036697247706424);(1.0,0.6)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_a0b0;
+ 
+      Relationship model_graph_uc_61022_relationship_c2a2 refer association
+        Role model_graph_uc_61022_fromrole_18ad refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_18ad;
+         Role model_graph_uc_61022_torole_0570 refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_0570;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(873,217;-131,616),
+          polylineLocation="[-9,7,252,-221]$[-261,228,0,0];(0.05732484076433121,0.3853211009174312);(0.6857142857142857,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_c2a2;
+ 
+      Relationship model_graph_uc_61022_relationship_f4b0 refer association
+        Role model_graph_uc_61022_fromrole_9431 refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_9431;
+         Role model_graph_uc_61022_torole_13db refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_13db;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(867,230;-125,832),
+          polylineLocation="[-15,20,240,-322]$[-255,342,0,0];(0.09554140127388536,0.27522935779816515);(0.7714285714285715,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_f4b0;
+ 
+      Relationship model_graph_uc_61022_relationship_fa3e refer association
+        Role model_graph_uc_61022_fromrole_3c6b refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_3c6b;
+         Role model_graph_uc_61022_torole_9615 refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_9615;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(874,467;-86,-267),
+          polylineLocation="[-8,-13,208,336]$[-216,-349,0,0];(0.050955414012738856,0.6090909090909091);(1.0,0.34285714285714286)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_fa3e;
+ 
+      Relationship model_graph_uc_61022_relationship_c232 refer association
+        Role model_graph_uc_61022_fromrole_6591 refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_6591;
+         Role model_graph_uc_61022_torole_c3f9 refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_c3f9;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(878,477;-156,-9),
+          polylineLocation="[-4,-3,282,190]$[-286,-193,0,0];(0.025477707006369428,0.5363636363636364);(0.4714285714285714,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_c232;
+ 
+      Relationship model_graph_uc_61022_relationship_6496 refer association
+        Role model_graph_uc_61022_fromrole_7471 refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_7471;
+         Role model_graph_uc_61022_torole_674a refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_674a;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(876,478;-194,197),
+          polylineLocation="[-6,-2,318,87]$[-324,-89,0,0];(0.03821656050955414,0.5181818181818182);(0.21428571428571427,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_6496;
+ 
+      Relationship model_graph_uc_61022_relationship_bac6 refer association
+        Role model_graph_uc_61022_fromrole_bdf1 refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_bdf1;
+         Role model_graph_uc_61022_torole_daf5 refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_daf5;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(882,480;-78,364),
+          polylineLocation="[0,0,208,24]$[-208,-24,0,0];(0.0,0.4909090909090909);(1.0,0.42857142857142855)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_bac6;
+ 
+      Relationship model_graph_uc_61022_relationship_d596 refer association
+        Role model_graph_uc_61022_fromrole_fced refer association_In
+          annotation(
+            localLabel="关联始端",
+            shape="no"
+          );
+        end model_graph_uc_61022_fromrole_fced;
+         Role model_graph_uc_61022_torole_fdb5 refer association_Out
+          annotation(
+            localLabel="关联终端",
+            shape="no"
+          );
+        end model_graph_uc_61022_torole_fdb5;
+       
+        annotation(
+          localLabel="关联",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(872,483;-88,576),
+          polylineLocation="[-10,3,208,-83]$[-218,86,0,0];(0.06369426751592357,0.4727272727272727);(1.0,0.5142857142857142)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Straight",
+        );
+      end model_graph_uc_61022_relationship_d596;
+ 
+    Connect(connector(model_graph_uc_61022_object_59a9,model_graph_uc_61022_relationship_988a.model_graph_uc_61022_fromrole_3025),connector(model_graph_uc_c8a72_object_198a,model_graph_uc_61022_relationship_988a.model_graph_uc_61022_torole_1af7));
+ 
+    Connect(connector(model_graph_uc_61022_object_59a9,model_graph_uc_61022_relationship_1a46.model_graph_uc_61022_fromrole_da83),connector(model_graph_uc_c8a72_object_baf6,model_graph_uc_61022_relationship_1a46.model_graph_uc_61022_torole_fd27));
+ 
+    Connect(connector(model_graph_uc_61022_object_59a9,model_graph_uc_61022_relationship_3865.model_graph_uc_61022_fromrole_a2d8),connector(model_graph_uc_c8a72_object_3277,model_graph_uc_61022_relationship_3865.model_graph_uc_61022_torole_376b));
+ 
+    Connect(connector(model_graph_uc_61022_object_59a9,model_graph_uc_61022_relationship_75ca.model_graph_uc_61022_fromrole_f1a7),connector(model_graph_uc_c8a72_object_939d,model_graph_uc_61022_relationship_75ca.model_graph_uc_61022_torole_93e6));
+ 
+    Connect(connector(model_graph_uc_61022_object_59a9,model_graph_uc_61022_relationship_a4c0.model_graph_uc_61022_fromrole_99f3),connector(model_graph_uc_c8a72_object_08a7,model_graph_uc_61022_relationship_a4c0.model_graph_uc_61022_torole_9019));
+ 
+    Connect(connector(model_graph_uc_61022_object_73ed,model_graph_uc_61022_relationship_1f60.model_graph_uc_61022_fromrole_e2de),connector(model_graph_uc_c8a72_object_198a,model_graph_uc_61022_relationship_1f60.model_graph_uc_61022_torole_dbc6));
+ 
+    Connect(connector(model_graph_uc_61022_object_73ed,model_graph_uc_61022_relationship_fbcd.model_graph_uc_61022_fromrole_2154),connector(model_graph_uc_c8a72_object_baf6,model_graph_uc_61022_relationship_fbcd.model_graph_uc_61022_torole_bd25));
+ 
+    Connect(connector(model_graph_uc_61022_object_73ed,model_graph_uc_61022_relationship_534f.model_graph_uc_61022_fromrole_1544),connector(model_graph_uc_c8a72_object_3277,model_graph_uc_61022_relationship_534f.model_graph_uc_61022_torole_a1b8));
+ 
+    Connect(connector(model_graph_uc_61022_object_73ed,model_graph_uc_61022_relationship_8104.model_graph_uc_61022_fromrole_5fc4),connector(model_graph_uc_c8a72_object_939d,model_graph_uc_61022_relationship_8104.model_graph_uc_61022_torole_846d));
+ 
+    Connect(connector(model_graph_uc_61022_object_05d2,model_graph_uc_61022_relationship_5df8.model_graph_uc_61022_fromrole_8436),connector(model_graph_uc_c8a72_object_198a,model_graph_uc_61022_relationship_5df8.model_graph_uc_61022_torole_4637));
+ 
+    Connect(connector(model_graph_uc_61022_object_05d2,model_graph_uc_61022_relationship_a0b0.model_graph_uc_61022_fromrole_02f7),connector(model_graph_uc_c8a72_object_baf6,model_graph_uc_61022_relationship_a0b0.model_graph_uc_61022_torole_e668));
+ 
+    Connect(connector(model_graph_uc_61022_object_05d2,model_graph_uc_61022_relationship_c2a2.model_graph_uc_61022_fromrole_18ad),connector(model_graph_uc_c8a72_object_939d,model_graph_uc_61022_relationship_c2a2.model_graph_uc_61022_torole_0570));
+ 
+    Connect(connector(model_graph_uc_61022_object_05d2,model_graph_uc_61022_relationship_f4b0.model_graph_uc_61022_fromrole_9431),connector(model_graph_uc_c8a72_object_08a7,model_graph_uc_61022_relationship_f4b0.model_graph_uc_61022_torole_13db));
+ 
+    Connect(connector(model_graph_uc_61022_object_383d,model_graph_uc_61022_relationship_fa3e.model_graph_uc_61022_fromrole_3c6b),connector(model_graph_uc_c8a72_object_198a,model_graph_uc_61022_relationship_fa3e.model_graph_uc_61022_torole_9615));
+ 
+    Connect(connector(model_graph_uc_61022_object_383d,model_graph_uc_61022_relationship_c232.model_graph_uc_61022_fromrole_6591),connector(model_graph_uc_c8a72_object_baf6,model_graph_uc_61022_relationship_c232.model_graph_uc_61022_torole_c3f9));
+ 
+    Connect(connector(model_graph_uc_61022_object_383d,model_graph_uc_61022_relationship_6496.model_graph_uc_61022_fromrole_7471),connector(model_graph_uc_c8a72_object_3277,model_graph_uc_61022_relationship_6496.model_graph_uc_61022_torole_674a));
+ 
+    Connect(connector(model_graph_uc_61022_object_383d,model_graph_uc_61022_relationship_bac6.model_graph_uc_61022_fromrole_bdf1),connector(model_graph_uc_c8a72_object_939d,model_graph_uc_61022_relationship_bac6.model_graph_uc_61022_torole_daf5));
+ 
+    Connect(connector(model_graph_uc_61022_object_383d,model_graph_uc_61022_relationship_d596.model_graph_uc_61022_fromrole_fced),connector(model_graph_uc_c8a72_object_08a7,model_graph_uc_61022_relationship_d596.model_graph_uc_61022_torole_fdb5));
+ 
+
+      annotation(
+        localLabel="顶层用例",
+        SDIdentification="",
+    );
+    
+   end model_graph_uc_61022;

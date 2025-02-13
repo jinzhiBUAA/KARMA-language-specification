@@ -1,0 +1,63 @@
+   partial Graph graph_uc
+    Object object_actor;
+    Object object_block;
+    Object object_package;
+    Object object_uc;
+    Object object_boundary;
+    Object object_dimian;
+    Object object_feikong;
+    Object object_kongdi;
+    Object object_pilot;
+    Relationship association;
+    Relationship contain;
+    Relationship generalization;
+    Relationship relationship_extend;
+    Constraint (
+    bind connector(object_actor,association.association_In),
+    bind connector(object_kongdi,association.association_In),
+    bind connector(object_pilot,association.association_In),
+    bind connector(object_feikong,association.association_In),
+    bind connector(object_dimian,association.association_In),
+    bind connector(object_uc,association.association_In),
+    bind connector(object_block,association.association_In),
+    bind connector(object_package,association.association_In),
+    bind connector(object_actor,association.association_Out),
+    bind connector(object_kongdi,association.association_Out),
+    bind connector(object_pilot,association.association_Out),
+    bind connector(object_feikong,association.association_Out),
+    bind connector(object_dimian,association.association_Out),
+    bind connector(object_uc,association.association_Out),
+    bind connector(object_block,association.association_Out),
+    bind connector(object_package,association.association_Out),
+    bind connector(object_actor,contain.contain_In),
+    bind connector(object_uc,contain.contain_In),
+    bind connector(object_block,contain.contain_In),
+    bind connector(object_package,contain.contain_In),
+    bind connector(object_actor,contain.contain_Out),
+    bind connector(object_uc,contain.contain_Out),
+    bind connector(object_block,contain.contain_Out),
+    bind connector(object_package,contain.contain_Out),
+    bind connector(object_actor,generalization.generalize_In),
+    bind connector(object_uc,generalization.generalize_In),
+    bind connector(object_block,generalization.generalize_In),
+    bind connector(object_package,generalization.generalize_In),
+    bind connector(object_actor,generalization.generalize_Out),
+    bind connector(object_uc,generalization.generalize_Out),
+    bind connector(object_block,generalization.generalize_Out),
+    bind connector(object_package,generalization.generalize_Out),
+    bind connector(object_actor,relationship_extend.extend_In),
+    bind connector(object_uc,relationship_extend.extend_In),
+    bind connector(object_block,relationship_extend.extend_In),
+    bind connector(object_package,relationship_extend.extend_In),
+    bind connector(object_actor,relationship_extend.extend_Out),
+    bind connector(object_uc,relationship_extend.extend_Out),
+    bind connector(object_block,relationship_extend.extend_Out),
+    bind connector(object_package,relationship_extend.extend_Out),
+    object_boundary.explode(graph_uc),
+    );
+    annotation(
+        localLabel="用例图",
+        type = diagram,
+        description="",
+       );
+        end graph_uc;

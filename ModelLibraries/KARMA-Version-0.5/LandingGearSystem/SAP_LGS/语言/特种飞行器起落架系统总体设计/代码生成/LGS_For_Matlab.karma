@@ -1,0 +1,595 @@
+codeGenerator LGS_For_Matlab
+  File file1 = File("D:/Eugene_Y/BIT/metagraph/LGS/LGS_sim.m");  //生成Matlab脚本
+      entrypoint rule forheadline( )
+      {
+        to
+          String e(
+                   e <- "new_system('lgs_retract_20240508');"+"\n"+"open_system('lgs_retract_20240508');"+"\n";
+                  )   //创建名称为“lgs_retract_20240508”的系统并打开
+              do{
+                 file1.append(e);
+                                 } 
+       }
+       
+    rule add_block{
+		from
+			Object[Object_Scope] obj;		//定位对象元模型
+		in	Model[model_Graph_Model_ad1de] Md;   //定位项目模型
+		using{
+				Template add_block(ann,bnn) =<%
+				add_block('LGS_Retract/<ann>','lgs_retract_20240508/<bnn>');%>;  //定义“add_block”规则
+		}
+		to
+			String e(
+				e <- add_block(obj.Property["名称"],obj.Property["名称"])+"\n";  //读取对象元模型属性并转换
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule add_block2{
+		from
+			Object[Object_Clock] obj2;		
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_block2(ann,bnn) =<%
+				add_block('LGS_Retract/<ann>','lgs_retract_20240508/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block2(obj2.Property["名称"],obj2.Property["名称"])+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule add_block3{
+		from
+			Object[Object_TransferFcn] obj3;		
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_block3(ann,bnn) =<%
+				add_block('LGS_Retract/<ann>','lgs_retract_20240508/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block3(obj3.Property["名称"],obj3.Property["名称"])+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+		
+	rule add_block4{
+		from
+			Object[Object_Fcn] obj4;		
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_block4(ann,bnn) =<%
+				add_block('LGS_Retract/<ann>','lgs_retract_20240508/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block4(obj4.Property["名称"],obj4.Property["名称"])+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule add_block5{
+		from
+			Object[Object_Constant] obj5;		
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_block5(ann,bnn) =<%
+				add_block('LGS_Retract/<ann>','lgs_retract_20240508/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block5(obj5.Property["名称"],obj5.Property["名称"])+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule add_block6{
+		from
+			Object[Object_If] obj6;		
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_block6(ann,bnn) =<%
+				add_block('LGS_Retract/<ann>','lgs_retract_20240508/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block6(obj6.Property["名称"],obj6.Property["名称"])+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule add_block7{
+		from
+			Object[Object_IfActionSubsystem] obj7;		
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_block7(ann,bnn) =<%
+				add_block('LGS_Retract/<ann>','lgs_retract_20240508/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block7(obj7.Property["名称"],obj7.Property["名称"])+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule add_block8{
+		from
+			Object[object_simmerge] obj8;		
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_block8(ann,bnn) =<%
+				add_block('LGS_Retract/<ann>','lgs_retract_20240508/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block8(obj8.Property["名称"],obj8.Property["名称"])+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule add_block9{
+		from
+			Object[Object_RepeatingSequenceInterpolated] obj9;		
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_block9(ann,bnn) =<%
+				add_block('LGS_Retract/<ann>','lgs_retract_20240508/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block9(obj9.Property["名称"],obj9.Property["名称"])+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule add_block10{
+		from
+			Object[Object_Gain] obj10;		
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_block10(ann,bnn) =<%
+				add_block('LGS_Retract/<ann>','lgs_retract_20240508/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block10(obj10.Property["名称"],obj10.Property["名称"])+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule add_block11{
+		from
+			Object[Object_Sum] obj11;		
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_block11(ann,bnn) =<%
+				add_block('LGS_Retract/<ann>','lgs_retract_20240508/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block11(obj11.Property["名称"],obj11.Property["名称"])+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule add_block12{
+		from
+			Object[Object_Mux] obj12;		
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_block12(ann,bnn) =<%
+				add_block('LGS_Retract/<ann>','lgs_retract_20240508/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block12(obj12.Property["名称"],obj12.Property["名称"])+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	
+	rule add_line1{
+		from
+			Object[Object_Clock] obj1;  //定位对象元模型
+			Object[Object_If] obj2;     
+			Point[Point_Inport] IP;     //定位点元模型
+			Point[Point_Outport] OP;    
+			Relationship[Relationship_Line] rel;  //定位关系元模型
+			rel.source(OP);             //定位关系元模型输入端
+			rel.target(IP);             //定位关系元模型输出端
+			obj1.include(OP);           //定位对象元模型端口
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;   //定位项目模型
+		using{
+				Template add_line1(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}                               //定义“add_line”规则
+		to
+			String e(
+				e <- add_line1(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)                           //读取对象元模型与点元模型属性并转换
+			do{
+			file1.append(e);
+		}	
+	}
+    
+    rule add_line2{
+		from
+			Object[Object_RepeatingSequenceInterpolated] obj1;
+			Object[Object_TransferFcn] obj2;
+			Point[Point_Inport] IP;
+			Point[Point_Outport] OP;
+			Relationship[Relationship_Line] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_line2(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line2(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}  
+	
+	rule add_line3{
+		from
+			Object[Object_If] obj1;
+			Object[Object_IfActionSubsystem] obj2;
+			Point[Point_Inport] IP;
+			Point[Point_Outport] OP;
+			Relationship[Relationship_Line] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_line3(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line3(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}  
+	
+	rule add_line4{
+		from
+			Object[Object_TransferFcn] obj1;
+			Object[Object_IfActionSubsystem] obj2;
+			Point[Point_Inport] IP;
+			Point[Point_Outport] OP;
+			Relationship[Relationship_Line] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_line4(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line4(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}  
+	
+	rule add_line5{
+		from
+			Object[Object_Constant] obj1;
+			Object[Object_IfActionSubsystem] obj2;
+			Point[Point_Inport] IP;
+			Point[Point_Outport] OP;
+			Relationship[Relationship_Line] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_line5(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line5(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}    
+	
+	rule add_line6{
+		from
+			Object[Object_Constant] obj1;
+			Object[Object_Mux] obj2;
+			Point[Point_Inport] IP;
+			Point[Point_Outport] OP;
+			Relationship[Relationship_Line] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_line6(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line6(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule add_line7{
+		from
+			Object[Object_IfActionSubsystem] obj1;
+			Object[object_simmerge] obj2;
+			Point[Point_Inport] IP;
+			Point[Point_Outport] OP;
+			Relationship[Relationship_Line] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_line7(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line7(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}  
+	
+	rule add_line8{
+		from
+			Object[object_simmerge] obj1;
+			Object[Object_Mux] obj2;
+			Point[Point_Inport] IP;
+			Point[Point_Outport] OP;
+			Relationship[Relationship_Line] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_line8(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line8(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}  
+	
+	rule add_line9{
+		from
+			Object[Object_Mux] obj1;
+			Object[Object_Fcn] obj2;
+			Point[Point_Inport] IP;
+			Point[Point_Outport] OP;
+			Relationship[Relationship_Line] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_line9(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line9(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule add_line10{
+		from
+			Object[Object_Fcn] obj1;
+			Object[Object_Gain] obj2;
+			Point[Point_Inport] IP;
+			Point[Point_Outport] OP;
+			Relationship[Relationship_Line] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_line10(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line10(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	} 
+	
+	rule add_line11{
+		from
+			Object[Object_Fcn] obj1;
+			Object[Object_Sum] obj2;
+			Point[Point_Inport] IP;
+			Point[Point_Outport] OP;
+			Relationship[Relationship_Line] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_line11(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line11(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+
+	rule add_line12{
+		from
+			Object[Object_Sum] obj1;
+			Object[Object_Scope] obj2;
+			Point[Point_Inport] IP;
+			Point[Point_Outport] OP;
+			Relationship[Relationship_Line] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_line12(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line12(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule add_line13{
+		from
+			Object[Object_Gain] obj1;
+			Object[Object_Scope] obj2;
+			Point[Point_Inport] IP;
+			Point[Point_Outport] OP;
+			Relationship[Relationship_Line] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_line13(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line13(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule add_line14{
+		from
+			Object[object_simmerge] obj1;
+			Object[Object_Scope] obj2;
+			Point[Point_Inport] IP;
+			Point[Point_Outport] OP;
+			Relationship[Relationship_Line] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_line14(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line14(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+		rule add_line15{
+		from
+			Object[Object_Gain] obj1;
+			Object[Object_Sum] obj2;
+			Point[Point_Inport] IP;
+			Point[Point_Outport] OP;
+			Relationship[Relationship_Line] rel;
+			rel.source(OP);
+			rel.target(IP);
+			obj1.include(OP);
+			obj2.include(IP);
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_line15(cnn,dnn,enn,fnn) =<%
+				add_line('lgs_retract_20240508','<cnn>/<dnn>','<enn>/<fnn>','autorouting','on');%>;
+		}
+		to
+			String e(
+				e <- add_line15(obj1.Property["名称"],OP.localName,obj2.Property["名称"],IP.localName)+"\n";
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+end LGS_For_Matlab

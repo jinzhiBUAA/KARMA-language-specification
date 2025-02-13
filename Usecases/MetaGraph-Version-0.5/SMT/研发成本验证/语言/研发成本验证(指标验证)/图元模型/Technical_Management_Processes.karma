@@ -1,0 +1,67 @@
+   partial Graph Technical_Management_Processes
+    Object Risk_Management_Process;
+    Object Project_Planning_Process;
+    Object End_Event;
+    Object Project_Assessment_and_Control_Process;
+    Object Decision_Management_Process;
+    Object Text_Annotation;
+    Object Start_Event;
+    Object Configuration_Management_Process;
+    Object Quality_Assurance_Process;
+    Object Measurement_Process;
+    Object Information_Management_Process;
+    Relationship Anchor;
+    Relationship Association;
+    Relationship Sequence_Flow;
+    Constraint (
+    bind connector(Risk_Management_Process,Anchor.Anchor_Incoming),
+    bind connector(Project_Planning_Process,Anchor.Anchor_Incoming),
+    bind connector(End_Event,Anchor.Anchor_Incoming),
+    bind connector(Project_Assessment_and_Control_Process,Anchor.Anchor_Incoming),
+    bind connector(Decision_Management_Process,Anchor.Anchor_Incoming),
+    bind connector(Start_Event,Anchor.Anchor_Incoming),
+    bind connector(Configuration_Management_Process,Anchor.Anchor_Incoming),
+    bind connector(Quality_Assurance_Process,Anchor.Anchor_Incoming),
+    bind connector(Measurement_Process,Anchor.Anchor_Incoming),
+    bind connector(Information_Management_Process,Anchor.Anchor_Incoming),
+    bind connector(Risk_Management_Process,Association.Association_Outgoing),
+    bind connector(Project_Planning_Process,Association.Association_Outgoing),
+    bind connector(Project_Assessment_and_Control_Process,Association.Association_Outgoing),
+    bind connector(Decision_Management_Process,Association.Association_Outgoing),
+    bind connector(Configuration_Management_Process,Association.Association_Outgoing),
+    bind connector(Quality_Assurance_Process,Association.Association_Outgoing),
+    bind connector(Measurement_Process,Association.Association_Outgoing),
+    bind connector(Information_Management_Process,Association.Association_Outgoing),
+    bind connector(Text_Annotation,Anchor.Anchor_Outgoing),
+    bind connector(Risk_Management_Process,Association.Association_Incoming),
+    bind connector(Project_Planning_Process,Association.Association_Incoming),
+    bind connector(Project_Assessment_and_Control_Process,Association.Association_Incoming),
+    bind connector(Decision_Management_Process,Association.Association_Incoming),
+    bind connector(Configuration_Management_Process,Association.Association_Incoming),
+    bind connector(Quality_Assurance_Process,Association.Association_Incoming),
+    bind connector(Measurement_Process,Association.Association_Incoming),
+    bind connector(Information_Management_Process,Association.Association_Incoming),
+    bind connector(Risk_Management_Process,Sequence_Flow.Outcoming),
+    bind connector(Project_Planning_Process,Sequence_Flow.Outcoming),
+    bind connector(End_Event,Sequence_Flow.Outcoming),
+    bind connector(Project_Assessment_and_Control_Process,Sequence_Flow.Outcoming),
+    bind connector(Decision_Management_Process,Sequence_Flow.Outcoming),
+    bind connector(Configuration_Management_Process,Sequence_Flow.Outcoming),
+    bind connector(Quality_Assurance_Process,Sequence_Flow.Outcoming),
+    bind connector(Measurement_Process,Sequence_Flow.Outcoming),
+    bind connector(Information_Management_Process,Sequence_Flow.Outcoming),
+    bind connector(Risk_Management_Process,Sequence_Flow.Incoming),
+    bind connector(Project_Planning_Process,Sequence_Flow.Incoming),
+    bind connector(Project_Assessment_and_Control_Process,Sequence_Flow.Incoming),
+    bind connector(Decision_Management_Process,Sequence_Flow.Incoming),
+    bind connector(Start_Event,Sequence_Flow.Incoming),
+    bind connector(Configuration_Management_Process,Sequence_Flow.Incoming),
+    bind connector(Quality_Assurance_Process,Sequence_Flow.Incoming),
+    bind connector(Measurement_Process,Sequence_Flow.Incoming),
+    bind connector(Information_Management_Process,Sequence_Flow.Incoming),
+    );
+    annotation(
+        localLabel="技术管理过程组",
+        description="",
+       );
+        end Technical_Management_Processes;

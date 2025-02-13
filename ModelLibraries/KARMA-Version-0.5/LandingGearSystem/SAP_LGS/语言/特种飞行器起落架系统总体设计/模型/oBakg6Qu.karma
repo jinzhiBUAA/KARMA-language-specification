@@ -1,0 +1,155 @@
+    partial Model oBakg6Qu instanceof graph_act
+      Object oBakg6Qu_object_9826 refer object_callbehavior
+        Property oBakg6Qu_object_9826_property_6515 = "舱门解锁" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point oBakg6Qu_object_9826_point_7ab3 refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="驱动力in",
+         labelLocation=(21,1),
+		 initialLocation=(-12,0,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end oBakg6Qu_object_9826_point_7ab3;
+ 
+        annotation(
+          initialLocation=(24,54,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end oBakg6Qu_object_9826;
+
+      Object oBakg6Qu_object_d093 refer object_callbehavior
+        Property oBakg6Qu_object_d093_property_0ef4 = "起落架解锁" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(24,312,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end oBakg6Qu_object_d093;
+
+      Object oBakg6Qu_object_b287 refer object_callbehavior
+        Property oBakg6Qu_object_b287_property_e1b4 = "舱门和起落架上锁" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(24,587,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end oBakg6Qu_object_b287;
+
+      Object oBakg6Qu_object_02e1 refer object_callbehavior
+        Property oBakg6Qu_object_02e1_property_af51 = "舱门和起落架机械解锁" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point oBakg6Qu_object_02e1_input_5eb8 refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="应急下放信号in",
+         labelLocation=(-1,-1),
+		 initialLocation=(0,-12,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end oBakg6Qu_object_02e1_input_5eb8;
+ 
+        annotation(
+          initialLocation=(24,462,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end oBakg6Qu_object_02e1;
+
+      Object oBakg6Qu_object_c37e refer object_end
+        annotation(
+          initialLocation=(65,689,56,55),
+          localLabel="结束",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end oBakg6Qu_object_c37e;
+
+      Relationship oBakg6Qu_relationship_e340 refer controlflow
+        Role oBakg6Qu_fromrole_95d2 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end oBakg6Qu_fromrole_95d2;
+         Role oBakg6Qu_torole_2a70 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end oBakg6Qu_torole_2a70;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(6,-10),
+          shape="dotttedLine",
+          endLocation=(94,622;93,762),
+          polylineLocation="[0,0,0,-46]$[0,46,0,0];(0.5,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end oBakg6Qu_relationship_e340;
+ 
+    Connect(connector(oBakg6Qu_object_b287,oBakg6Qu_relationship_e340.oBakg6Qu_fromrole_95d2),connector(oBakg6Qu_object_c37e,oBakg6Qu_relationship_e340.oBakg6Qu_torole_2a70));
+ 
+
+      annotation(
+        localLabel="锁机构",
+        SDIdentification="",
+    );
+   end oBakg6Qu;

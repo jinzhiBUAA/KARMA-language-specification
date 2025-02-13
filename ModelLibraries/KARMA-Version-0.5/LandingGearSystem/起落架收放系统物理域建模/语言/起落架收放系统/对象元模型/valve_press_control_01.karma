@@ -1,0 +1,21 @@
+   Object valve_press_control_01
+      initial Property  valve_press_control_01_Prop_component_name_243773 = "null" extends Prop_component_name annotation(localLabel ="元件名字");
+      initial Property  valve_press_control_01_Prop_component_nickname_cf5ee3 = "null" extends Prop_component_nickname annotation(localLabel ="元件别名");
+      initial Property  valve_press_control_01_Prop_component_situation_a83816 = "null" extends Prop_component_situation annotation(localLabel ="元件位置");
+      initial Property  valve_press_control_01_Prop_component_type_0677b3 = "null" extends Prop_component_type annotation(localLabel ="元件类型");
+      initial Property  valve_press_control_01_Prop_Store_sub_model_situation_b70b35 = "null" extends Prop_Store_sub_model_situation annotation(localLabel ="子模型库位置");
+      initial Property  valve_press_control_01_Prop_sub_model_name_8d18a4 = "null" extends Prop_sub_model_name annotation(localLabel ="子模型名称");
+      initial Property  valve_press_control_01_relief_valve_cracking_pressure_1_078074 = "null" extends relief_valve_cracking_pressure_1 annotation(localLabel ="溢流阀开启压力");
+      initial Property  valve_press_control_01_Component_parameter_name_1_e2c3ba = "null" extends Component_parameter_name_1 annotation(localLabel ="元件参数名称");
+      Undirected Point valve_press_control_01_Port_hydraulic_1d8b10 extends Port_hydraulic annotation (localLabel ="液压端口");
+   annotation(
+      localLabel="压力控制阀",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="溢流阀.png",
+      UnfoldDirection=Y,
+      );
+   end valve_press_control_01;
+ 

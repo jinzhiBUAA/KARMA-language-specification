@@ -1,0 +1,59 @@
+   partial Graph Requirement_Diagram
+    Object Requirement;
+    Object Testcase;
+    Object Constraint_Object;
+    Object Text_Annotation;
+    Relationship Trace;
+    Relationship Refine;
+    Relationship Anchor;
+    Relationship Copy;
+    Relationship Contain;
+    Relationship Satisfy;
+    Relationship Verify;
+    Constraint (
+    bind connector(Requirement,Anchor.Anchor_Incoming),
+    bind connector(Testcase,Anchor.Anchor_Incoming),
+    bind connector(Constraint_Object,Anchor.Anchor_Incoming),
+    bind connector(Requirement,Refine.Refine_Incoming),
+    bind connector(Testcase,Refine.Refine_Incoming),
+    bind connector(Constraint_Object,Refine.Refine_Incoming),
+    bind connector(Requirement,Copy.Copy_Incoming),
+    bind connector(Testcase,Copy.Copy_Incoming),
+    bind connector(Constraint_Object,Copy.Copy_Incoming),
+    bind connector(Requirement,Trace.Trace_Incoming),
+    bind connector(Testcase,Trace.Trace_Incoming),
+    bind connector(Constraint_Object,Trace.Trace_Incoming),
+    bind connector(Requirement,Copy.Copy_Outgoing),
+    bind connector(Testcase,Copy.Copy_Outgoing),
+    bind connector(Constraint_Object,Copy.Copy_Outgoing),
+    bind connector(Text_Annotation,Anchor.Anchor_Outgoing),
+    bind connector(Requirement,Refine.Refine_Outgoing),
+    bind connector(Testcase,Refine.Refine_Outgoing),
+    bind connector(Constraint_Object,Refine.Refine_Outgoing),
+    bind connector(Requirement,Satisfy.Satisfy_Incoming),
+    bind connector(Testcase,Satisfy.Satisfy_Incoming),
+    bind connector(Constraint_Object,Satisfy.Satisfy_Incoming),
+    bind connector(Requirement,Contain.Contain_Incoming),
+    bind connector(Testcase,Contain.Contain_Incoming),
+    bind connector(Constraint_Object,Contain.Contain_Incoming),
+    bind connector(Requirement,Verify.Verify_Incoming),
+    bind connector(Testcase,Verify.Verify_Incoming),
+    bind connector(Constraint_Object,Verify.Verify_Incoming),
+    bind connector(Requirement,Verify.Verify_Outgoing),
+    bind connector(Testcase,Verify.Verify_Outgoing),
+    bind connector(Constraint_Object,Verify.Verify_Outgoing),
+    bind connector(Requirement,Contain.Contain_Outgoing),
+    bind connector(Testcase,Contain.Contain_Outgoing),
+    bind connector(Constraint_Object,Contain.Contain_Outgoing),
+    bind connector(Requirement,Trace.Trace_Outgoing),
+    bind connector(Testcase,Trace.Trace_Outgoing),
+    bind connector(Constraint_Object,Trace.Trace_Outgoing),
+    bind connector(Requirement,Satisfy.Satisfy_Outgoing),
+    bind connector(Testcase,Satisfy.Satisfy_Outgoing),
+    bind connector(Constraint_Object,Satisfy.Satisfy_Outgoing),
+    );
+    annotation(
+        localLabel="需求图",
+        description="",
+       );
+        end Requirement_Diagram;

@@ -1,0 +1,217 @@
+    partial Model zPbf8Th5 instanceof graph_act
+      Object zPbf8Th5_object_6065 refer object_callbehavior
+        Property zPbf8Th5_object_6065_property_d56c = "检查跑道情况" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(36,41,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end zPbf8Th5_object_6065;
+
+      Object zPbf8Th5_object_c630 refer object_decision
+        annotation(
+          initialLocation=(54,155,103,49),
+          localLabel="决策",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end zPbf8Th5_object_c630;
+
+      Object zPbf8Th5_object_4044 refer object_callbehavior
+        Property zPbf8Th5_object_4044_property_4123 = "同意刹车" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(36,251,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end zPbf8Th5_object_4044;
+
+      Object zPbf8Th5_object_5367 refer object_decision
+        annotation(
+          initialLocation=(56,365,97,49),
+          localLabel="决策",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end zPbf8Th5_object_5367;
+
+      Relationship zPbf8Th5_relationship_7f41 refer controlflow
+        Role zPbf8Th5_fromrole_ec23 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end zPbf8Th5_fromrole_ec23;
+         Role zPbf8Th5_torole_79eb refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end zPbf8Th5_torole_79eb;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(106,76;105,225),
+          polylineLocation="[0,0,0,-46]$[0,46,0,0];(0.4503311258278146,1.0);(0.4854368932038835,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end zPbf8Th5_relationship_7f41;
+ 
+      Relationship zPbf8Th5_relationship_8971 refer controlflow
+        Role zPbf8Th5_fromrole_4631 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end zPbf8Th5_fromrole_4631;
+         Role zPbf8Th5_torole_739c refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end zPbf8Th5_torole_739c;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(105,167;106,321),
+          polylineLocation="[0,-12,0,-47]$[0,35,0,0];(0.49514563106796117,1.2448979591836735);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end zPbf8Th5_relationship_8971;
+ 
+      Relationship zPbf8Th5_relationship_801f refer controlflow
+        Role zPbf8Th5_fromrole_03f5 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end zPbf8Th5_fromrole_03f5;
+         Role zPbf8Th5_torole_2c17 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end zPbf8Th5_torole_2c17;
+       
+        annotation(
+          localLabel="else",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(137,413;142,-7),
+          polylineLocation="[33,24,27,185]$[84,24,78,185]$[84,-186,78,-25]$[37,-186,31,-25];(0.6597938144329897,0.0);(0.6990291262135923,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end zPbf8Th5_relationship_801f;
+ 
+      Relationship zPbf8Th5_relationship_fe46 refer controlflow
+        Role zPbf8Th5_fromrole_26ed refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end zPbf8Th5_fromrole_26ed;
+         Role zPbf8Th5_torole_8069 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end zPbf8Th5_torole_8069;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(106,286;104,435),
+          polylineLocation="[0,0,0,-46]$[0,46,0,0];(0.4927536231884058,1.0);(0.4948453608247423,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end zPbf8Th5_relationship_fe46;
+ 
+    Connect(connector(zPbf8Th5_object_6065,zPbf8Th5_relationship_7f41.zPbf8Th5_fromrole_ec23),connector(zPbf8Th5_object_c630,zPbf8Th5_relationship_7f41.zPbf8Th5_torole_79eb));
+ 
+    Connect(connector(zPbf8Th5_object_c630,zPbf8Th5_relationship_8971.zPbf8Th5_fromrole_4631),connector(zPbf8Th5_object_4044,zPbf8Th5_relationship_8971.zPbf8Th5_torole_739c));
+ 
+    Connect(connector(zPbf8Th5_object_5367,zPbf8Th5_relationship_801f.zPbf8Th5_fromrole_03f5),connector(zPbf8Th5_object_c630,zPbf8Th5_relationship_801f.zPbf8Th5_torole_2c17));
+ 
+    Connect(connector(zPbf8Th5_object_4044,zPbf8Th5_relationship_fe46.zPbf8Th5_fromrole_26ed),connector(zPbf8Th5_object_5367,zPbf8Th5_relationship_fe46.zPbf8Th5_torole_8069));
+ 
+
+      annotation(
+        localLabel="地面监测中心",
+        SDIdentification="",
+    );
+   end zPbf8Th5;

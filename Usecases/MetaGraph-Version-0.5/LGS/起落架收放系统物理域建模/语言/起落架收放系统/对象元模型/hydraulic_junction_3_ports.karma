@@ -1,0 +1,20 @@
+   Object hydraulic_junction_3_ports
+      initial Property  hydraulic_junction_3_ports_Prop_component_name_ace474 = "null" extends Prop_component_name annotation(localLabel ="元件名字");
+      initial Property  hydraulic_junction_3_ports_Prop_component_nickname_66a58c = "null" extends Prop_component_nickname annotation(localLabel ="元件别名");
+      initial Property  hydraulic_junction_3_ports_Prop_component_situation_fca477 = "null" extends Prop_component_situation annotation(localLabel ="元件位置");
+      initial Property  hydraulic_junction_3_ports_Prop_component_type_c8a8f8 = "null" extends Prop_component_type annotation(localLabel ="元件类型");
+      initial Property  hydraulic_junction_3_ports_Prop_Store_sub_model_situation_d6bf11 = "null" extends Prop_Store_sub_model_situation annotation(localLabel ="子模型库位置");
+      initial Property  hydraulic_junction_3_ports_Prop_sub_model_name_48b07d = "null" extends Prop_sub_model_name annotation(localLabel ="子模型名称");
+      initial Property  hydraulic_junction_3_ports_Component_parameter_name_1_e4f18f = "null" extends Component_parameter_name_1 annotation(localLabel ="元件参数名称");
+      Undirected Point hydraulic_junction_3_ports_Port_hydraulic_f8175e extends Port_hydraulic annotation (localLabel ="液压端口");
+   annotation(
+      localLabel="液压节点_3",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="液压节点_3.png",
+      UnfoldDirection=Y,
+      );
+   end hydraulic_junction_3_ports;
+ 

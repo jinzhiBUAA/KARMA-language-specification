@@ -1,0 +1,24 @@
+   Object anglesensor_02
+      initial Property  anglesensor_02_Prop_component_name_db528a = "null" extends Prop_component_name annotation(localLabel ="元件名字");
+      initial Property  anglesensor_02_Prop_component_nickname_0f4e9a = "null" extends Prop_component_nickname annotation(localLabel ="元件别名");
+      initial Property  anglesensor_02_Prop_component_situation_9eac9c = "null" extends Prop_component_situation annotation(localLabel ="元件位置");
+      initial Property  anglesensor_02_Prop_component_type_c3d2c6 = "null" extends Prop_component_type annotation(localLabel ="元件类型");
+      initial Property  anglesensor_02_Prop_Store_sub_model_situation_48a831 = "null" extends Prop_Store_sub_model_situation annotation(localLabel ="子模型库位置");
+      initial Property  anglesensor_02_Prop_sub_model_name_76116d = "null" extends Prop_sub_model_name annotation(localLabel ="子模型名称");
+      initial Property  anglesensor_02_Component_parameter_name_1_ae6595 = "null" extends Component_parameter_name_1 annotation(localLabel ="元件参数名称");
+      initial Property  anglesensor_02_rotary_damping_coefficient_289f55 = "null" extends rotary_damping_coefficient annotation(localLabel ="旋转阻尼系数");
+      initial Property  anglesensor_02_offset_to_be_subtracted_from_angle_2df69f = "null" extends offset_to_be_subtracted_from_angle annotation(localLabel ="角度中减去偏移量");
+      Undirected Point anglesensor_02_Port_Parameter_ff77a6 extends Port_Parameter annotation (localLabel ="参数端口");
+      Undirected Point anglesensor_02_Port_machine_f6cca7 extends Port_machine annotation (localLabel ="机械端口");
+      Undirected Point anglesensor_02_Port_Signal_b507f1 extends Port_Signal annotation (localLabel ="信号端口");
+   annotation(
+      localLabel="角度传感器",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="角度传感器.png",
+      UnfoldDirection=Y,
+      );
+   end anglesensor_02;
+ 

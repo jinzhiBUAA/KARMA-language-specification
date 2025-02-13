@@ -1,0 +1,87 @@
+    partial Model h5XWm8yv instanceof graph_act
+      Object h5XWm8yv_object_dca2 refer object_callbehavior
+        Property h5XWm8yv_object_dca2_property_72aa = "检测飞行器位置" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point h5XWm8yv_object_dca2_output_e07a refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="飞行器位置out",
+		 initialLocation=(96,60,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end h5XWm8yv_object_dca2_output_e07a;
+ 
+        annotation(
+          initialLocation=(54,179,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end h5XWm8yv_object_dca2;
+
+      Object h5XWm8yv_object_d851 refer object_start
+        annotation(
+          initialLocation=(90,59,55,55),
+          localLabel="开始",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end h5XWm8yv_object_d851;
+
+      Relationship h5XWm8yv_relationship_f1cb refer controlflow
+        Role h5XWm8yv_fromrole_d9ac refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end h5XWm8yv_fromrole_d9ac;
+         Role h5XWm8yv_torole_8df9 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end h5XWm8yv_torole_8df9;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(117,86;81,271),
+          polylineLocation="[0,0,36,-65]$[0,65,36,0];(0.5454545454545454,1.0);(0.21739130434782608,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end h5XWm8yv_relationship_f1cb;
+ 
+    Connect(connector(h5XWm8yv_object_d851,h5XWm8yv_relationship_f1cb.h5XWm8yv_fromrole_d9ac),connector(h5XWm8yv_object_dca2,h5XWm8yv_relationship_f1cb.h5XWm8yv_torole_8df9));
+ 
+
+      annotation(
+        localLabel="空地感应系统",
+    );
+   end h5XWm8yv;

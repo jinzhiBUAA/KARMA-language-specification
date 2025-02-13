@@ -1,0 +1,31 @@
+   partial Graph Agreement_Process
+    Object End_Event;
+    Object Supply_Process;
+    Object Text_Annotation;
+    Object Start_Event;
+    Object Acquisition_Process;
+    Relationship Anchor;
+    Relationship Association;
+    Relationship Sequence_Flow;
+    Constraint (
+    bind connector(End_Event,Anchor.Anchor_Incoming),
+    bind connector(Supply_Process,Anchor.Anchor_Incoming),
+    bind connector(Start_Event,Anchor.Anchor_Incoming),
+    bind connector(Acquisition_Process,Anchor.Anchor_Incoming),
+    bind connector(Supply_Process,Association.Association_Outgoing),
+    bind connector(Acquisition_Process,Association.Association_Outgoing),
+    bind connector(Text_Annotation,Anchor.Anchor_Outgoing),
+    bind connector(End_Event,Sequence_Flow.Outcoming),
+    bind connector(Supply_Process,Sequence_Flow.Outcoming),
+    bind connector(Acquisition_Process,Sequence_Flow.Outcoming),
+    bind connector(Supply_Process,Association.Association_Incoming),
+    bind connector(Acquisition_Process,Association.Association_Incoming),
+    bind connector(Supply_Process,Sequence_Flow.Incoming),
+    bind connector(Start_Event,Sequence_Flow.Incoming),
+    bind connector(Acquisition_Process,Sequence_Flow.Incoming),
+    );
+    annotation(
+        localLabel="协定过程组",
+        description="",
+       );
+        end Agreement_Process;

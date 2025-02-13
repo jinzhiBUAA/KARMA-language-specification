@@ -1,0 +1,55 @@
+    partial Model nYjkA9t4 instanceof graph_act
+      Object nYjkA9t4_object_4bc9 refer object_callbehavior
+        Property nYjkA9t4_object_4bc9_property_b4ef = "请求进行刹车操作" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point nYjkA9t4_object_4bc9_point_7ca9 refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="飞行器位置",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,5,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end nYjkA9t4_object_4bc9_point_7ca9;
+ 
+        annotation(
+          initialLocation=(30,41,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end nYjkA9t4_object_4bc9;
+
+      Object nYjkA9t4_object_ebc3 refer object_callbehavior
+        Property nYjkA9t4_object_ebc3_property_93c9 = "选择刹车模式" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(30,353,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end nYjkA9t4_object_ebc3;
+
+
+      annotation(
+        localLabel="驾驶员",
+        SDIdentification="",
+    );
+   end nYjkA9t4;

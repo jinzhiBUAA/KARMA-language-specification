@@ -1,0 +1,16 @@
+   Object Object_Mux
+      initial Property  Object_Mux_Property_Name_c2f684 = "Mux" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Mux_Property_Parameters_f5fccc = "3" extends Property_Parameters annotation(localLabel ="参数");
+      Input Point Object_Mux_Point_Inport_8cb423 extends Point_Inport annotation (localLabel ="输入");
+      Output Point Object_Mux_Point_Outport_4ee77a extends Point_Outport annotation (localLabel ="输出");
+   annotation(
+      localLabel="Mux",
+      description="",
+      icon="",
+      shape="narrowSolidRectangle",
+      visualizedMode=blankPropertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end Object_Mux;
+ 

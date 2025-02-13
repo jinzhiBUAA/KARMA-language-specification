@@ -1,0 +1,20 @@
+   Object valve_press_control_02
+      initial Property  valve_press_control_02_Prop_component_name_02baec = "null" extends Prop_component_name annotation(localLabel ="元件名字");
+      initial Property  valve_press_control_02_Prop_component_nickname_f65628 = "null" extends Prop_component_nickname annotation(localLabel ="元件别名");
+      initial Property  valve_press_control_02_Prop_component_situation_b29056 = "null" extends Prop_component_situation annotation(localLabel ="元件位置");
+      initial Property  valve_press_control_02_Prop_component_type_89c0a6 = "null" extends Prop_component_type annotation(localLabel ="元件类型");
+      initial Property  valve_press_control_02_Prop_Store_sub_model_situation_d73c29 = "null" extends Prop_Store_sub_model_situation annotation(localLabel ="子模型库位置");
+      initial Property  valve_press_control_02_Prop_sub_model_name_598afb = "null" extends Prop_sub_model_name annotation(localLabel ="子模型名称");
+      initial Property  valve_press_control_02_Component_parameter_name_1_32ea15 = "null" extends Component_parameter_name_1 annotation(localLabel ="元件参数名称");
+      Undirected Point valve_press_control_02_Port_hydraulic_b3b075 extends Port_hydraulic annotation (localLabel ="液压端口");
+   annotation(
+      localLabel="单向压力控制阀",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="单向阀.png",
+      UnfoldDirection=Y,
+      );
+   end valve_press_control_02;
+ 

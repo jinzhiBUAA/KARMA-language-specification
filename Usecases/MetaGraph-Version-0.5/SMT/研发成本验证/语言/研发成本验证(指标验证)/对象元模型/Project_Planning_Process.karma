@@ -1,0 +1,18 @@
+   Object Project_Planning_Process
+      initial Property  Project_Planning_Process_Purpose_9fcd33 = 0 extends Purpose annotation(localLabel ="目的");
+      initial Property  Project_Planning_Process_Description_ea4e8b = 0 extends Description annotation(localLabel ="描述");
+      initial Property  Project_Planning_Process_Inputs_2c2411 = 0 extends Inputs annotation(localLabel ="输入");
+      initial Property  Project_Planning_Process_Outputs_156608 = 0 extends Outputs annotation(localLabel ="输出");
+      initial Property  Project_Planning_Process_Target_daily_cost_e6bf64 = 0 extends Target_daily_cost annotation(localLabel ="目标每日花费");
+      initial Property  Project_Planning_Process_Target_days_d240e2 = 0 extends Target_days annotation(localLabel ="目标天数");
+      initial Property  Project_Planning_Process_Estimated_daily_cost_f71253 = 0 extends Estimated_daily_cost annotation(localLabel ="预计每日花费");
+      initial Property  Project_Planning_Process_Estimated_days_33c161 = 0 extends Estimated_days annotation(localLabel ="预计天数");
+   annotation(
+      localLabel="项目规划过程",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Project_Planning_Process;
+ 

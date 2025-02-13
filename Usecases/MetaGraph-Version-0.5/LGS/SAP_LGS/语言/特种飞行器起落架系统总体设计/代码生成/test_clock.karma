@@ -1,0 +1,32 @@
+codeGenerator test_clock
+
+File file1 = File("D:/Eugene_Y/BIT/metagraph/LGS/clock_sim.m");
+      entrypoint rule forheadline( )
+      {
+        to
+          String e(
+                   e <- "open_system('lgs_retract_20240508');";
+                  )
+              do{
+                 file1.append(e);
+                                 } 
+       }
+      
+       rule add_block{
+		from
+			Object[Object_Clock] obj2;		
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_block(ann,bnn) =<%
+				add_block('simulink/Sources/<ann>','lgs_retract_20240508/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block(obj2.Property["名称"],obj2.Property["名称"]);
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+end test_clock

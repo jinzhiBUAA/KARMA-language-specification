@@ -1,0 +1,18 @@
+   Object System_Analysis_Process
+      initial Property  System_Analysis_Process_Purpose_e82839 = 0 extends Purpose annotation(localLabel ="目的");
+      initial Property  System_Analysis_Process_Description_8cf2f2 = 0 extends Description annotation(localLabel ="描述");
+      initial Property  System_Analysis_Process_Inputs_95d817 = 0 extends Inputs annotation(localLabel ="输入");
+      initial Property  System_Analysis_Process_Outputs_637668 = 0 extends Outputs annotation(localLabel ="输出");
+      initial Property  System_Analysis_Process_Target_daily_cost_7ab4b6 = 0 extends Target_daily_cost annotation(localLabel ="目标每日花费");
+      initial Property  System_Analysis_Process_Target_days_7d3c10 = 0 extends Target_days annotation(localLabel ="目标天数");
+      initial Property  System_Analysis_Process_Estimated_daily_cost_65807a = 0 extends Estimated_daily_cost annotation(localLabel ="预计每日花费");
+      initial Property  System_Analysis_Process_Estimated_days_d1c7fc = 0 extends Estimated_days annotation(localLabel ="预计天数");
+   annotation(
+      localLabel="系统分析过程",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end System_Analysis_Process;
+ 

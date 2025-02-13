@@ -1,0 +1,942 @@
+    partial Model model_Technical_Processes instanceof Technical_Processes
+    continuous Real cost = 0;
+    discrete Real day_cost = 0;
+      State      Object Technical_Processes_object_Start_Event_b0bd refer Start_Event
+        Property Start_Event_Name_f30244_8cc2 = "null" refer Start_Event_Name_f30244 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      initial;
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(280,0,140,140),
+          localLabel="开始事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_Start_Event_b0bd;
+
+      State      Object Technical_Processes_object_End_Event_1996 refer End_Event
+        Property End_Event_Name_deb18e_9e1f = "null" refer End_Event_Name_deb18e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(1900,20,140,140),
+          localLabel="结束事件",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_End_Event_1996;
+
+      State      Object Technical_Processes_object_Business_or_Mission_Analysi_Process_2863 refer Business_or_Mission_Analysi_Process
+        Property Business_or_Mission_Analysi_Process_Purpose_671679_da26 = "定义业务或使命的问题或机遇，刻画出解决方案的空间，确定能解决问题或利用机遇的潜在解决方案的类别" refer Business_or_Mission_Analysi_Process_Purpose_671679 annotation(localLabel = "目的",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Business_or_Mission_Analysi_Process_Target_daily_cost_5deeb8_ed96 = 5 refer Business_or_Mission_Analysi_Process_Target_daily_cost_5deeb8 annotation(localLabel = "目标每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Business_or_Mission_Analysi_Process_Target_days_c49af4_5537 = 60 refer Business_or_Mission_Analysi_Process_Target_days_c49af4 annotation(localLabel = "目标天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Business_or_Mission_Analysi_Process_Estimated_daily_cost_217511_b458 = 4 refer Business_or_Mission_Analysi_Process_Estimated_daily_cost_217511 annotation(localLabel = "预计每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Business_or_Mission_Analysi_Process_Estimated_days_602297_98c0 = 58 refer Business_or_Mission_Analysi_Process_Estimated_days_602297 annotation(localLabel = "预计天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(230,200,140,70),
+          localLabel="业务或任务分析过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_Business_or_Mission_Analysi_Process_2863;
+
+      State      Object Technical_Processes_object_Architecture_Definition_Process_bf1f refer Architecture_Definition_Process
+        Property Architecture_Definition_Process_Purpose_49103f_2ba9 = "产生系统架构备选方案，即选择构建涵盖利益相关方关注且满足系统需求的一个或多个备选框架，并用一致的视图进行表达" refer Architecture_Definition_Process_Purpose_49103f annotation(localLabel = "目的",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Architecture_Definition_Process_Target_daily_cost_9a5be9_f8e3 = 5 refer Architecture_Definition_Process_Target_daily_cost_9a5be9 annotation(localLabel = "目标每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Architecture_Definition_Process_Target_days_c53d02_b6eb = 30 refer Architecture_Definition_Process_Target_days_c53d02 annotation(localLabel = "目标天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Architecture_Definition_Process_Estimated_daily_cost_a772e0_2678 = 6 refer Architecture_Definition_Process_Estimated_daily_cost_a772e0 annotation(localLabel = "预计每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Architecture_Definition_Process_Estimated_days_6211fe_43b0 = 35 refer Architecture_Definition_Process_Estimated_days_6211fe annotation(localLabel = "预计天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(521,760,140,70),
+          localLabel="架构定义过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_Architecture_Definition_Process_bf1f;
+
+      State      Object Technical_Processes_object_System_Analysis_Process_175f refer System_Analysis_Process
+        Property System_Analysis_Process_Purpose_e82839_b794 = "为技术理解提供严格的数据和信息基础，以辅助整个生存周期中的决策" refer System_Analysis_Process_Purpose_e82839 annotation(localLabel = "目的",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property System_Analysis_Process_Target_daily_cost_7ab4b6_d75a = 25 refer System_Analysis_Process_Target_daily_cost_7ab4b6 annotation(localLabel = "目标每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property System_Analysis_Process_Target_days_7d3c10_3afb = 90 refer System_Analysis_Process_Target_days_7d3c10 annotation(localLabel = "目标天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property System_Analysis_Process_Estimated_daily_cost_65807a_eaa5 = 23 refer System_Analysis_Process_Estimated_daily_cost_65807a annotation(localLabel = "预计每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property System_Analysis_Process_Estimated_days_d1c7fc_c3df = 80 refer System_Analysis_Process_Estimated_days_d1c7fc annotation(localLabel = "预计天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(660,1150,140,70),
+          localLabel="系统分析过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_System_Analysis_Process_175f;
+
+      State      Object Technical_Processes_object_Verification_Process_0d7d refer Verification_Process
+        Property Verification_Process_Purpose_c334f9_52cc = "提供客观的证据证明系统或系统元素满足其特定需求和特征" refer Verification_Process_Purpose_c334f9 annotation(localLabel = "目的",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Verification_Process_Target_daily_cost_7c6e04_3fa1 = 15 refer Verification_Process_Target_daily_cost_7c6e04 annotation(localLabel = "目标每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Verification_Process_Target_days_4213e4_075c = 90 refer Verification_Process_Target_days_4213e4 annotation(localLabel = "目标天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Verification_Process_Estimated_daily_cost_caf860_300a = 13 refer Verification_Process_Estimated_daily_cost_caf860 annotation(localLabel = "预计每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Verification_Process_Estimated_days_7e0bd7_84f0 = 90 refer Verification_Process_Estimated_days_7e0bd7 annotation(localLabel = "预计天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(1350,1145,140,70),
+          localLabel="验证过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_Verification_Process_0d7d;
+
+      State      Object Technical_Processes_object_Maintenance_Process_dd27 refer Maintenance_Process
+        Property Maintenance_Process_Purpose_8dce01_6740 = "维持系统对外提供服务的能力" refer Maintenance_Process_Purpose_8dce01 annotation(localLabel = "目的",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Maintenance_Process_Description_e9e1a1_708b = "null" refer Maintenance_Process_Description_e9e1a1 annotation(localLabel = "描述",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Maintenance_Process_Inputs_708de1_635b = "null" refer Maintenance_Process_Inputs_708de1 annotation(localLabel = "输入",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Maintenance_Process_Outputs_f6bd82_e585 = "null" refer Maintenance_Process_Outputs_f6bd82 annotation(localLabel = "输出",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Maintenance_Process_Target_daily_cost_6cc050_3e73 = 8 refer Maintenance_Process_Target_daily_cost_6cc050 annotation(localLabel = "目标每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Maintenance_Process_Target_days_110a3b_c13f = 50 refer Maintenance_Process_Target_days_110a3b annotation(localLabel = "目标天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Maintenance_Process_Estimated_daily_cost_a51368_6b10 = 10 refer Maintenance_Process_Estimated_daily_cost_a51368 annotation(localLabel = "预计每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Maintenance_Process_Estimated_days_cff4cb_17d5 = 45 refer Maintenance_Process_Estimated_days_cff4cb annotation(localLabel = "预计天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(1689,390,140,70),
+          localLabel="维护过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_Maintenance_Process_dd27;
+
+      State      Object Technical_Processes_object_Design_Definition_Process_115f refer Design_Definition_Process
+        Property Design_Definition_Process_Purpose_899335_4c43 = "提供有关系统及其元素的足够详细的数据和信息，以保持实现与系统架构模型和视图所定义的架构实体的一致性" refer Design_Definition_Process_Purpose_899335 annotation(localLabel = "目的",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Design_Definition_Process_Target_daily_cost_b7b3a3_dca3 = 30 refer Design_Definition_Process_Target_daily_cost_b7b3a3 annotation(localLabel = "目标每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Design_Definition_Process_Target_days_6a3797_418e = 360 refer Design_Definition_Process_Target_days_6a3797 annotation(localLabel = "目标天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Design_Definition_Process_Estimated_daily_cost_a9116a_aa19 = 28 refer Design_Definition_Process_Estimated_daily_cost_a9116a annotation(localLabel = "预计每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Design_Definition_Process_Estimated_days_f4b054_511b = 365 refer Design_Definition_Process_Estimated_days_f4b054 annotation(localLabel = "预计天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(565,965,140,70),
+          localLabel="设计定义过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_Design_Definition_Process_115f;
+
+      State      Object Technical_Processes_object_Implementation_Process_359e refer Implementation_Process
+        Property Implementation_Process_Purpose_925d28_6616 = "实现特定的系统元素" refer Implementation_Process_Purpose_925d28 annotation(localLabel = "目的",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Implementation_Process_Target_daily_cost_986033_1aee = 50 refer Implementation_Process_Target_daily_cost_986033 annotation(localLabel = "目标每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Implementation_Process_Target_days_e5cd69_5817 = 180 refer Implementation_Process_Target_days_e5cd69 annotation(localLabel = "目标天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Implementation_Process_Estimated_daily_cost_efbd86_579e = 52 refer Implementation_Process_Estimated_daily_cost_efbd86 annotation(localLabel = "预计每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Implementation_Process_Estimated_days_22ce6f_5901 = 200 refer Implementation_Process_Estimated_days_22ce6f annotation(localLabel = "预计天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(750,1330,140,70),
+          localLabel="实现过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_Implementation_Process_359e;
+
+      State      Object Technical_Processes_object_Operation_Process_c7c7 refer Operation_Process
+        Property Operation_Process_Purpose_5fb68d_00b7 = "使用系统来移交其服务" refer Operation_Process_Purpose_5fb68d annotation(localLabel = "目的",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operation_Process_Target_daily_cost_44e829_5a94 = 5 refer Operation_Process_Target_daily_cost_44e829 annotation(localLabel = "目标每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operation_Process_Target_days_2edd6c_cb30 = 2000 refer Operation_Process_Target_days_2edd6c annotation(localLabel = "目标天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operation_Process_Estimated_daily_cost_34a1a0_14fc = 6 refer Operation_Process_Estimated_daily_cost_34a1a0 annotation(localLabel = "预计每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Operation_Process_Estimated_days_d3ea97_88a0 = 2200 refer Operation_Process_Estimated_days_d3ea97 annotation(localLabel = "预计天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(1605,586,140,70),
+          localLabel="运行过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_Operation_Process_c7c7;
+
+      State      Object Technical_Processes_object_System_Requirements_Definition_Process_12c9 refer System_Requirements_Definition_Process
+        Property System_Requirements_Definition_Process_Purpose_14cd77_009e = "把期望的能力从面向利益相关方或月湖的视图，转化为满足用户运行需要的解决方案技术视图" refer System_Requirements_Definition_Process_Purpose_14cd77 annotation(localLabel = "目的",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property System_Requirements_Definition_Process_Target_daily_cost_35ca86_9899 = 5 refer System_Requirements_Definition_Process_Target_daily_cost_35ca86 annotation(localLabel = "目标每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property System_Requirements_Definition_Process_Target_days_a326a4_a2d9 = 30 refer System_Requirements_Definition_Process_Target_days_a326a4 annotation(localLabel = "目标天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property System_Requirements_Definition_Process_Estimated_daily_cost_e26e8c_1454 = 5 refer System_Requirements_Definition_Process_Estimated_daily_cost_e26e8c annotation(localLabel = "预计每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property System_Requirements_Definition_Process_Estimated_days_c00d58_f77f = 32 refer System_Requirements_Definition_Process_Estimated_days_c00d58 annotation(localLabel = "预计天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(410,570,140,70),
+          localLabel="系统需求定义过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_System_Requirements_Definition_Process_12c9;
+
+      State      Object Technical_Processes_object_Transition_Process_8ac3 refer Transition_Process
+        Property Transition_Process_Purpose_160f24_a2df = "为系统建立能够在运行环境中提供由利益相关方需求所规定的的服务能力" refer Transition_Process_Purpose_160f24 annotation(localLabel = "目的",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Transition_Process_Target_daily_cost_3c20ed_483b = 10 refer Transition_Process_Target_daily_cost_3c20ed annotation(localLabel = "目标每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Transition_Process_Target_days_3730df_d792 = 20 refer Transition_Process_Target_days_3730df annotation(localLabel = "目标天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Transition_Process_Estimated_daily_cost_769f7c_6fa6 = 11 refer Transition_Process_Estimated_daily_cost_769f7c annotation(localLabel = "预计每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Transition_Process_Estimated_days_b8cf64_4bd1 = 15 refer Transition_Process_Estimated_days_b8cf64 annotation(localLabel = "预计天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(1455,975,140,70),
+          localLabel="移交过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_Transition_Process_8ac3;
+
+      State      Object Technical_Processes_object_Integration_Process_5602 refer Integration_Process
+        Property Integration_Process_Purpose_8d974b_36db = "合成一组系统元素，实现满足系统需求、架构和设计的系统（产品或服务）。" refer Integration_Process_Purpose_8d974b annotation(localLabel = "目的",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Integration_Process_Target_daily_cost_ee7a0d_4018 = 20 refer Integration_Process_Target_daily_cost_ee7a0d annotation(localLabel = "目标每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Integration_Process_Target_days_6ef359_9d57 = 90 refer Integration_Process_Target_days_6ef359 annotation(localLabel = "目标天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Integration_Process_Estimated_daily_cost_3fb5b0_ff6c = 15 refer Integration_Process_Estimated_daily_cost_3fb5b0 annotation(localLabel = "预计每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Integration_Process_Estimated_days_df1da7_7267 = 80 refer Integration_Process_Estimated_days_df1da7 annotation(localLabel = "预计天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(1180,1325,278,137),
+          localLabel="集成过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_Integration_Process_5602;
+
+      State      Object Technical_Processes_object_Validation_Process_e35a refer Validation_Process
+        Property Validation_Process_Purpose_541d5d_6762 = "提供客观的证据，证明系统在使用时能够符合其业务或使命目标，以及利益相关方的需求，并在预期的运行环境中实现其预期的使用" refer Validation_Process_Purpose_541d5d annotation(localLabel = "目的",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Validation_Process_Target_daily_cost_779d77_5464 = 5 refer Validation_Process_Target_daily_cost_779d77 annotation(localLabel = "目标每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Validation_Process_Target_days_13a892_a5dd = 30 refer Validation_Process_Target_days_13a892 annotation(localLabel = "目标天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Validation_Process_Estimated_daily_cost_5020c8_a71e = 4 refer Validation_Process_Estimated_daily_cost_5020c8 annotation(localLabel = "预计每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Validation_Process_Estimated_days_1a59f3_6b8c = 20 refer Validation_Process_Estimated_days_1a59f3 annotation(localLabel = "预计天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(1545,755,140,70),
+          localLabel="确认过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_Validation_Process_e35a;
+
+      State      Object Technical_Processes_object_Disposal_Process_6c2a refer Disposal_Process
+        Property Disposal_Process_Purpose_4d97ee_d88f = "终止已有的特定用途的系统元素或系统的运行" refer Disposal_Process_Purpose_4d97ee annotation(localLabel = "目的",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Disposal_Process_Target_daily_cost_c233d5_96fb = 5 refer Disposal_Process_Target_daily_cost_c233d5 annotation(localLabel = "目标每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Disposal_Process_Target_days_991c08_2f20 = 50 refer Disposal_Process_Target_days_991c08 annotation(localLabel = "目标天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Disposal_Process_Estimated_daily_cost_e73c7a_142b = 5 refer Disposal_Process_Estimated_daily_cost_e73c7a annotation(localLabel = "预计每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Disposal_Process_Estimated_days_6fc402_cb65 = 30 refer Disposal_Process_Estimated_days_6fc402 annotation(localLabel = "预计天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(1785,230,140,70),
+          localLabel="处置过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_Disposal_Process_6c2a;
+
+      State      Object Technical_Processes_object_Stakeholder_Needs_and_Requirements_Definition_Process_a39a refer Stakeholder_Needs_and_Requirements_Definition_Process
+        Property Stakeholder_Needs_and_Requirements_Definition_Process_Purpose_c8a837_ff9c = "定义利益相关方对系统的需求，此系统能够在定义的环境下，提供用户及其他当事方需要的能力" refer Stakeholder_Needs_and_Requirements_Definition_Process_Purpose_c8a837 annotation(localLabel = "目的",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Stakeholder_Needs_and_Requirements_Definition_Process_Target_daily_cost_736c72_ba9a = 7 refer Stakeholder_Needs_and_Requirements_Definition_Process_Target_daily_cost_736c72 annotation(localLabel = "目标每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Stakeholder_Needs_and_Requirements_Definition_Process_Target_days_79ec84_e64f = 30 refer Stakeholder_Needs_and_Requirements_Definition_Process_Target_days_79ec84 annotation(localLabel = "目标天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Stakeholder_Needs_and_Requirements_Definition_Process_Estimated_daily_cost_31bc5a_e51c = 8 refer Stakeholder_Needs_and_Requirements_Definition_Process_Estimated_daily_cost_31bc5a annotation(localLabel = "预计每日花费",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property Stakeholder_Needs_and_Requirements_Definition_Process_Estimated_days_5e7d0d_298b = 28 refer Stakeholder_Needs_and_Requirements_Definition_Process_Estimated_days_5e7d0d annotation(localLabel = "预计天数",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      equation cost'= day_cost;
+        annotation(
+          initialLocation=(280,395,140,70),
+          localLabel="利益相关方需要和需求定义过程",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end Technical_Processes_object_Stakeholder_Needs_and_Requirements_Definition_Process_a39a;
+
+      Relationship Sequence_Flow_f84d refer Sequence_Flow
+        Role Incoming_de1a refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_de1a;
+         Role Outcoming_6a79 refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_6a79;
+       transition{
+         when (time>0);
+         do day_cost=4;
+         goto Technical_Processes_object_Business_or_Mission_Analysi_Process_2863;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(350,70;300,330),
+          polylineLocation="[0,0,-1,-60]$[0,60,-1,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_f84d;
+ 
+      Relationship Sequence_Flow_764d refer Sequence_Flow
+        Role Incoming_a03f refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_a03f;
+         Role Outcoming_1ef3 refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_1ef3;
+       transition{
+         when (time>58);
+         do day_cost=8;
+         goto Technical_Processes_object_Stakeholder_Needs_and_Requirements_Definition_Process_a39a;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(389,235;439,500),
+          polylineLocation="[89,0,-105,-70]$[89,70,-105,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_764d;
+ 
+      Relationship Sequence_Flow_8ee1 refer Sequence_Flow
+        Role Incoming_e413 refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_e413;
+         Role Outcoming_3529 refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_3529;
+       transition{
+         when (time>86);
+         do day_cost=5;
+         goto Technical_Processes_object_System_Requirements_Definition_Process_12c9;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(361,430;491,655),
+          polylineLocation="[11,0,-112,-50]$[11,50,-112,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_8ee1;
+ 
+      Relationship Sequence_Flow_3899 refer Sequence_Flow
+        Role Incoming_e909 refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_e909;
+         Role Outcoming_0ddd refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_0ddd;
+       transition{
+         when (time>118);
+         do day_cost=6;
+         goto Technical_Processes_object_Architecture_Definition_Process_bf1f;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(479,605;590,860),
+          polylineLocation="[-1,0,-185,-65]$[-1,65,-185,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_3899;
+ 
+      Relationship Sequence_Flow_e1b2 refer Sequence_Flow
+        Role Incoming_0025 refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_0025;
+         Role Outcoming_965c refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_965c;
+       transition{
+         when (time>153);
+         do day_cost=28;
+         goto Technical_Processes_object_Design_Definition_Process_115f;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(482,795;526,1064),
+          polylineLocation="[-109,0,-125,-64]$[-109,64,-125,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_e1b2;
+ 
+      Relationship Sequence_Flow_67be refer Sequence_Flow
+        Role Incoming_eb92 refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_eb92;
+         Role Outcoming_3f32 refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_3f32;
+       transition{
+         when (time>518);
+         do day_cost=23;
+         goto Technical_Processes_object_System_Analysis_Process_175f;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(574,1000;669,1245),
+          polylineLocation="[-61,0,-56,-60]$[-61,60,-56,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_67be;
+ 
+      Relationship Sequence_Flow_58a0 refer Sequence_Flow
+        Role Incoming_5d59 refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_5d59;
+         Role Outcoming_e0ba refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_e0ba;
+       transition{
+         when (time>598);
+         do day_cost=52;
+         goto Technical_Processes_object_Implementation_Process_359e;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(764,1185;854,1420),
+          polylineLocation="[34,0,65,-55]$[34,55,65,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_58a0;
+ 
+      Relationship Sequence_Flow_e3c3 refer Sequence_Flow
+        Role Incoming_d2c7 refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_d2c7;
+         Role Outcoming_99d8 refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_99d8;
+       transition{
+         when (time>798);
+         do day_cost=15;
+         goto Technical_Processes_object_Integration_Process_5602;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(1054,1319;1601,1314),
+          polylineLocation="[234,-46,-334,68]$[351,-46,-217,68]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_e3c3;
+ 
+      Relationship Sequence_Flow_234d refer Sequence_Flow
+        Role Incoming_37bc refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_37bc;
+         Role Outcoming_a358 refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_a358;
+       transition{
+         when (time>878);
+         do day_cost=13;
+         goto Technical_Processes_object_Verification_Process_0d7d;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(1336,1269;1506,1034),
+          polylineLocation="[17,-124,-109,180]$[17,-179,-109,125]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_234d;
+ 
+      Relationship Sequence_Flow_741f refer Sequence_Flow
+        Role Incoming_6ebc refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_6ebc;
+         Role Outcoming_eaf7 refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_eaf7;
+       transition{
+         when (time>969);
+         do day_cost=11;
+         goto Technical_Processes_object_Transition_Process_8ac3;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(1471,1055;1576,840),
+          polylineLocation="[51,-125,-87,170]$[51,-170,-87,125]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_741f;
+ 
+      Relationship Sequence_Flow_8186 refer Sequence_Flow
+        Role Incoming_ac4d refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_ac4d;
+         Role Outcoming_8c64 refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_8c64;
+       transition{
+         when (time>983);
+         do day_cost=4;
+         goto Technical_Processes_object_Validation_Process_e35a;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(1544,885;1634,586),
+          polylineLocation="[19,-125,209,220]$[19,-204,209,141]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_8186;
+ 
+      Relationship Sequence_Flow_1147 refer Sequence_Flow
+        Role Incoming_eb67 refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_eb67;
+         Role Outcoming_c981 refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_c981;
+       transition{
+         when (time>1003);
+         do day_cost=6;
+         goto Technical_Processes_object_Operation_Process_c7c7;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(1885,649;1945,420),
+          polylineLocation="[270,-141,50,169]$[270,-201,50,109]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_1147;
+ 
+      Relationship Sequence_Flow_3558 refer Sequence_Flow
+        Role Incoming_1d89 refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_1d89;
+         Role Outcoming_c63a refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_c63a;
+       transition{
+         when (time>3203);
+         do day_cost=10;
+         goto Technical_Processes_object_Maintenance_Process_dd27;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(1775,512;1859,120),
+          polylineLocation="[100,-109,0,196]$[100,-305,0,0]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_3558;
+ 
+      Relationship Sequence_Flow_c5d1 refer Sequence_Flow
+        Role Incoming_7951 refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_7951;
+         Role Outcoming_2343 refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_2343;
+       transition{
+         when (time>3248);
+         do day_cost=5;
+         goto Technical_Processes_object_Disposal_Process_6c2a;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(1813,268;1909,73),
+          polylineLocation="[54,-157,-81,160]$[54,-192,-81,125]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_c5d1;
+ 
+      Relationship Sequence_Flow_c779 refer Sequence_Flow
+        Role Incoming_900d refer Incoming
+          annotation(
+            localLabel="序列流始端",
+            shape="no"
+          );
+        end Incoming_900d;
+         Role Outcoming_6936 refer Outcoming
+          annotation(
+            localLabel="序列流终端",
+            shape="solidArrow"
+          );
+        end Outcoming_6936;
+       transition{
+         when (time>3278);
+         do day_cost=0;
+         goto Technical_Processes_object_End_Event_1996;
+      };
+        annotation(
+          localLabel="序列流",
+          shape="solidLine",
+          endLocation=(1883,140;1998,-140),
+          polylineLocation="[28,-125,-16,210]$[28,-195,-16,140]",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end Sequence_Flow_c779;
+ 
+    Connect(connector(Technical_Processes_object_Start_Event_b0bd,Sequence_Flow_f84d.Incoming_de1a),connector(Technical_Processes_object_Business_or_Mission_Analysi_Process_2863,Sequence_Flow_f84d.Outcoming_6a79));
+ 
+    Connect(connector(Technical_Processes_object_Business_or_Mission_Analysi_Process_2863,Sequence_Flow_764d.Incoming_a03f),connector(Technical_Processes_object_Stakeholder_Needs_and_Requirements_Definition_Process_a39a,Sequence_Flow_764d.Outcoming_1ef3));
+ 
+    Connect(connector(Technical_Processes_object_Stakeholder_Needs_and_Requirements_Definition_Process_a39a,Sequence_Flow_8ee1.Incoming_e413),connector(Technical_Processes_object_System_Requirements_Definition_Process_12c9,Sequence_Flow_8ee1.Outcoming_3529));
+ 
+    Connect(connector(Technical_Processes_object_System_Requirements_Definition_Process_12c9,Sequence_Flow_3899.Incoming_e909),connector(Technical_Processes_object_Architecture_Definition_Process_bf1f,Sequence_Flow_3899.Outcoming_0ddd));
+ 
+    Connect(connector(Technical_Processes_object_Architecture_Definition_Process_bf1f,Sequence_Flow_e1b2.Incoming_0025),connector(Technical_Processes_object_Design_Definition_Process_115f,Sequence_Flow_e1b2.Outcoming_965c));
+ 
+    Connect(connector(Technical_Processes_object_Design_Definition_Process_115f,Sequence_Flow_67be.Incoming_eb92),connector(Technical_Processes_object_System_Analysis_Process_175f,Sequence_Flow_67be.Outcoming_3f32));
+ 
+    Connect(connector(Technical_Processes_object_System_Analysis_Process_175f,Sequence_Flow_58a0.Incoming_5d59),connector(Technical_Processes_object_Implementation_Process_359e,Sequence_Flow_58a0.Outcoming_e0ba));
+ 
+    Connect(connector(Technical_Processes_object_Implementation_Process_359e,Sequence_Flow_e3c3.Incoming_d2c7),connector(Technical_Processes_object_Integration_Process_5602,Sequence_Flow_e3c3.Outcoming_99d8));
+ 
+    Connect(connector(Technical_Processes_object_Integration_Process_5602,Sequence_Flow_234d.Incoming_37bc),connector(Technical_Processes_object_Verification_Process_0d7d,Sequence_Flow_234d.Outcoming_a358));
+ 
+    Connect(connector(Technical_Processes_object_Verification_Process_0d7d,Sequence_Flow_741f.Incoming_6ebc),connector(Technical_Processes_object_Transition_Process_8ac3,Sequence_Flow_741f.Outcoming_eaf7));
+ 
+    Connect(connector(Technical_Processes_object_Transition_Process_8ac3,Sequence_Flow_8186.Incoming_ac4d),connector(Technical_Processes_object_Validation_Process_e35a,Sequence_Flow_8186.Outcoming_8c64));
+ 
+    Connect(connector(Technical_Processes_object_Validation_Process_e35a,Sequence_Flow_1147.Incoming_eb67),connector(Technical_Processes_object_Operation_Process_c7c7,Sequence_Flow_1147.Outcoming_c981));
+ 
+    Connect(connector(Technical_Processes_object_Operation_Process_c7c7,Sequence_Flow_3558.Incoming_1d89),connector(Technical_Processes_object_Maintenance_Process_dd27,Sequence_Flow_3558.Outcoming_c63a));
+ 
+    Connect(connector(Technical_Processes_object_Maintenance_Process_dd27,Sequence_Flow_c5d1.Incoming_7951),connector(Technical_Processes_object_Disposal_Process_6c2a,Sequence_Flow_c5d1.Outcoming_2343));
+ 
+    Connect(connector(Technical_Processes_object_Disposal_Process_6c2a,Sequence_Flow_c779.Incoming_900d),connector(Technical_Processes_object_End_Event_1996,Sequence_Flow_c779.Outcoming_6936));
+ 
+
+      annotation(
+        localLabel="技术过程组",
+    );
+    
+   end model_Technical_Processes;

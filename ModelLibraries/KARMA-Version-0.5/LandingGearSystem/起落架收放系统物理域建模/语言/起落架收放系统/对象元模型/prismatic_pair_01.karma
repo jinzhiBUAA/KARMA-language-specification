@@ -1,0 +1,21 @@
+   Object prismatic_pair_01
+      initial Property  prismatic_pair_01_Prop_component_name_b5c70c = "null" extends Prop_component_name annotation(localLabel ="元件名字");
+      initial Property  prismatic_pair_01_Prop_component_nickname_d526c6 = "null" extends Prop_component_nickname annotation(localLabel ="元件别名");
+      initial Property  prismatic_pair_01_Prop_component_situation_4a9f67 = "null" extends Prop_component_situation annotation(localLabel ="元件位置");
+      initial Property  prismatic_pair_01_Prop_component_type_fd048d = "null" extends Prop_component_type annotation(localLabel ="元件类型");
+      initial Property  prismatic_pair_01_Prop_Store_sub_model_situation_63bfd9 = "null" extends Prop_Store_sub_model_situation annotation(localLabel ="子模型库位置");
+      initial Property  prismatic_pair_01_Prop_sub_model_name_754edc = "null" extends Prop_sub_model_name annotation(localLabel ="子模型名称");
+      initial Property  prismatic_pair_01_damping_coefficient_6f672d = "null" extends damping_coefficient annotation(localLabel ="阻尼系数");
+      initial Property  prismatic_pair_01_Component_parameter_name_1_39f602 = "null" extends Component_parameter_name_1 annotation(localLabel ="元件参数名称");
+      Undirected Point prismatic_pair_01_Port_machine_81c6eb extends Port_machine annotation (localLabel ="机械端口");
+   annotation(
+      localLabel="移动副",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="移动副.png",
+      UnfoldDirection=Y,
+      );
+   end prismatic_pair_01;
+ 

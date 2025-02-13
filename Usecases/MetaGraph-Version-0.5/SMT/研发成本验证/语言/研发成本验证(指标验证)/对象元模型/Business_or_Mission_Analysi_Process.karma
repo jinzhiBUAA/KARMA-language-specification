@@ -1,0 +1,18 @@
+   Object Business_or_Mission_Analysi_Process
+      initial Property  Business_or_Mission_Analysi_Process_Purpose_671679 = 0 extends Purpose annotation(localLabel ="目的");
+      initial Property  Business_or_Mission_Analysi_Process_Description_96ed45 = 0 extends Description annotation(localLabel ="描述");
+      initial Property  Business_or_Mission_Analysi_Process_Inputs_5d03e0 = 0 extends Inputs annotation(localLabel ="输入");
+      initial Property  Business_or_Mission_Analysi_Process_Outputs_6f02aa = 0 extends Outputs annotation(localLabel ="输出");
+      initial Property  Business_or_Mission_Analysi_Process_Target_daily_cost_5deeb8 = 0 extends Target_daily_cost annotation(localLabel ="目标每日花费");
+      initial Property  Business_or_Mission_Analysi_Process_Target_days_c49af4 = 0 extends Target_days annotation(localLabel ="目标天数");
+      initial Property  Business_or_Mission_Analysi_Process_Estimated_daily_cost_217511 = 0 extends Estimated_daily_cost annotation(localLabel ="预计每日花费");
+      initial Property  Business_or_Mission_Analysi_Process_Estimated_days_602297 = 0 extends Estimated_days annotation(localLabel ="预计天数");
+   annotation(
+      localLabel="业务或任务分析过程",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Business_or_Mission_Analysi_Process;
+ 

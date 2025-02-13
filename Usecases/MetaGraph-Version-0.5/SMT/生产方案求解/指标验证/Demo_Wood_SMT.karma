@@ -1,0 +1,37 @@
+SMTAnalysis Demo_Wood_SMT
+
+ Optimize SMT_A
+
+ Real Requirenment_1=KwcVNBXUb.model_Requirement_Diagram.model_Requirement_Diagram_object_c0b8.Property [Object_Requirement_Property_Property_dd7f5b_6878];
+ Real Requirenment_2=KwcVNBXUb.model_Requirement_Diagram.model_Requirement_Diagram_object_8e80.Property [Object_Requirement_Property_Property_dd7f5b_ead6]; 
+ 
+ Real PlanA_1=KwcVNBXUb.model_Plan_Diagram.model_Plan_Diagram_object_e49f.Property [model_Plan_Diagram_property_a97a];
+ Real PlanA_2=KwcVNBXUb.model_Plan_Diagram.model_Plan_Diagram_object_e49f.Property [Object_Plan_Property_Property_e1a137_e29b];
+ Real PlanB_1=KwcVNBXUb.model_Plan_Diagram.model_Plan_Diagram_object_78ac.Property [model_Plan_Diagram_property_55f2];
+ Real PlanB_2=KwcVNBXUb.model_Plan_Diagram.model_Plan_Diagram_object_78ac.Property [Object_Plan_Property_Property_e1a137_4e14];
+ Real PlanC_1=KwcVNBXUb.model_Plan_Diagram.model_Plan_Diagram_object_aa73.Property [model_Plan_Diagram_property_e754];
+ Real PlanC_2=KwcVNBXUb.model_Plan_Diagram.model_Plan_Diagram_object_aa73.Property [Object_Plan_Property_Property_e1a137_3b9b];
+ Real PlanD_1=KwcVNBXUb.model_Plan_Diagram.model_Plan_Diagram_object_43c8.Property [model_Plan_Diagram_property_2c4d];
+ Real PlanD_2=KwcVNBXUb.model_Plan_Diagram.model_Plan_Diagram_object_43c8.Property [Object_Plan_Property_Property_e1a137_9b72];
+ 
+ Real PlanA_Number;
+ Real PlanB_Number;
+ Real PlanC_Number;
+ Real PlanD_Number;
+  
+ SMT_A.Add(PlanA_Number>=0);
+ SMT_A.Add(PlanB_Number>=0);
+ SMT_A.Add(PlanC_Number>=0);
+ SMT_A.Add(PlanD_Number>=0);
+  
+ SMT_A.Min(PlanA_Number+PlanB_Number+PlanC_Number+PlanD_Number);
+ SMT_A.Add(PlanA_Number*PlanA_1+PlanB_Number*PlanB_1+PlanC_Number*PlanC_1+PlanD_Number*PlanD_1>=Requirenment_1);
+ SMT_A.Add(PlanA_Number*PlanA_2+PlanB_Number*PlanB_2+PlanC_Number*PlanC_2+PlanD_Number*PlanD_2>=Requirenment_2);
+
+
+ SMT_A.Check;
+ SMT_A.Solution( );
+
+ end SMT_A
+ 
+end Demo_Wood_SMT

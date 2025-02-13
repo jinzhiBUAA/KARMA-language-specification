@@ -1,0 +1,38 @@
+    partial Model dLUJ2Qwx instanceof graph_act
+      Object dLUJ2Qwx_object_f43f refer object_callbehavior
+        Property dLUJ2Qwx_object_f43f_property_7cd3 = "发送刹车信号" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point dLUJ2Qwx_object_f43f_output_67ba refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="刹车信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(130,0,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end dLUJ2Qwx_object_f43f_output_67ba;
+ 
+        annotation(
+          initialLocation=(24,107,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end dLUJ2Qwx_object_f43f;
+
+
+      annotation(
+        localLabel="飞控系统",
+        SDIdentification="",
+    );
+   end dLUJ2Qwx;

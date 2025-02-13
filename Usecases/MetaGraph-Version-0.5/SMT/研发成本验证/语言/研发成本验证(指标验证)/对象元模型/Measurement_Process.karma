@@ -1,0 +1,18 @@
+   Object Measurement_Process
+      initial Property  Measurement_Process_Purpose_3ebd2c = 0 extends Purpose annotation(localLabel ="目的");
+      initial Property  Measurement_Process_Description_b7c1ff = 0 extends Description annotation(localLabel ="描述");
+      initial Property  Measurement_Process_Inputs_209f9f = 0 extends Inputs annotation(localLabel ="输入");
+      initial Property  Measurement_Process_Outputs_cab09b = 0 extends Outputs annotation(localLabel ="输出");
+      initial Property  Measurement_Process_Target_daily_cost_cb36d3 = 0 extends Target_daily_cost annotation(localLabel ="目标每日花费");
+      initial Property  Measurement_Process_Target_days_496ef9 = 0 extends Target_days annotation(localLabel ="目标天数");
+      initial Property  Measurement_Process_Estimated_daily_cost_50b554 = 0 extends Estimated_daily_cost annotation(localLabel ="预计每日花费");
+      initial Property  Measurement_Process_Estimated_days_e6a42c = 0 extends Estimated_days annotation(localLabel ="预计天数");
+   annotation(
+      localLabel="测量过程",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      );
+   end Measurement_Process;
+ 

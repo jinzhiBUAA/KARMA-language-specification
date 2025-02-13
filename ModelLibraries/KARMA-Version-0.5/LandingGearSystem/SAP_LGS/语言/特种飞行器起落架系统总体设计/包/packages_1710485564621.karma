@@ -1,0 +1,104 @@
+import External_plugin plugin_b9a3b7f577454091b75128999cfed4f8 annotation(localLabel = "利益相关者需求", type = "reqif", External_plugin_resource = "model_stakeholderreq.reqif");
+
+import External_plugin plugin_5ea815743e2441a28dcbb5a8501a004c annotation(localLabel = "系统需求", type = "reqif", External_plugin_resource = "model_systemreq.reqif");
+
+import External_plugin plugin_65e818abfc0b43e2b53fd4f6ca68444b annotation(localLabel = "任务需求", type = "reqif", External_plugin_resource = "model_taskreq.reqif");
+
+import External_plugin plugin_fc56acaab14a4805b586d0f4491d50f6 annotation(localLabel = "L_F", type = "dsm", External_plugin_resource = "L_TO_F.dsm");
+
+import External_plugin plugin_a6bee169e135417c92f0d964fa40b96b annotation(localLabel = "P_L", type = "dsm", External_plugin_resource = "P_TO_L.dsm");
+
+import External_plugin plugin_749265466d4d4edd85561bca4e39bdc7 annotation(localLabel = "活动到结构分配（下放）", type = "dsm", External_plugin_resource = "act_str1.dsm");
+
+import External_plugin plugin_9c8474e5b7d8448eacceed4736f28a2f annotation(localLabel = "活动到结构分配（收缩）", type = "dsm", External_plugin_resource = "act_str2.dsm");
+
+import External_plugin plugin_0e58ea0d99564a13a8558eda457f7dc0 annotation(localLabel = "F_R", type = "dsm", External_plugin_resource = "F_TPO_R.dsm");
+
+import External_plugin plugin_c624d882464b4cadb5855d63992f7e84 annotation(localLabel = "FF_RR", type = "dsm", External_plugin_resource = "FF_RR.dsm");
+
+import External_plugin plugin_a781d39bc59d4b94bdc373eab28d06f3 annotation(localLabel = "FF_RR", type = "dsm", External_plugin_resource = "FF_TO_RR.dsm");
+
+import External_plugin plugin_4c08cd6ce48e49679586cb06a28a9dd5 annotation(localLabel = "活动到结构下放", type = "mTable", External_plugin_resource = "xiafang_LF.mTable");
+
+import External_plugin plugin_cf1fe7e21b4a4146b2e2e3f3c7bc6d6d annotation(localLabel = "帅帅说", type = "mTable", External_plugin_resource = "ssP_L.mTable");
+
+Package packages_1710485564621
+  Package packages_1710485587063
+    External_plugin plugin_b9a3b7f577454091b75128999cfed4f8;
+    External_plugin plugin_5ea815743e2441a28dcbb5a8501a004c;
+    External_plugin plugin_65e818abfc0b43e2b53fd4f6ca68444b;
+    Model model_graph_requirement_ec51e;
+    Model model_graph_requirement_f5ec6;
+    Model model_graph_requirement_f65ae;
+    annotation(
+      localLabel = "需求",
+    );
+   end packages_1710485587063;
+  Package packages_1710485683780
+    External_plugin plugin_0e58ea0d99564a13a8558eda457f7dc0;
+    External_plugin plugin_c624d882464b4cadb5855d63992f7e84;
+    External_plugin plugin_a781d39bc59d4b94bdc373eab28d06f3;
+    Model model_graph_uc_61022;
+    Model model_graph_act_bba4c;
+    Model model_graph_act_fa11c;
+    Model model_graph_bdd_f7af1;
+    Model model_graph_ibd_c2bbf;
+    Package packages_1712817584071
+      Model model_graph_bdd_7adf8;
+      Model model_graph_ibd_94ced;
+      annotation(
+        localLabel = "系统上下文",
+      );
+     end packages_1712817584071;
+    Package packages_1712832073245
+      Model model_graph_act_aa5a7;
+      Model vCPjNC7n;
+      annotation(
+        localLabel = "起落架收缩过程",
+      );
+     end packages_1712832073245;
+    Package packages_1712832083689
+      Model model_graph_act_dfadc;
+      Model rREN6u5b;
+      annotation(
+        localLabel = "起落架下放过程",
+      );
+     end packages_1712832083689;
+    annotation(
+      localLabel = "功能",
+    );
+   end packages_1710485683780;
+  Package packages_1710485694069
+    External_plugin plugin_fc56acaab14a4805b586d0f4491d50f6;
+    External_plugin plugin_749265466d4d4edd85561bca4e39bdc7;
+    External_plugin plugin_9c8474e5b7d8448eacceed4736f28a2f;
+    External_plugin plugin_4c08cd6ce48e49679586cb06a28a9dd5;
+    Model model_graph_bdd_68f5e;
+    Model model_graph_par_1252a;
+    Model model_graph_bdd_3e907;
+    Model model_graph_ibd_c61e4;
+    Model model_Graph_Model_ad1de;
+    Model rREN6u5b;
+    Model model_graph_act_50558;
+    Model vCPjNC7n;
+    Model model_graph_par_aec31;
+    Model model_graph_par_7db49;
+    annotation(
+      localLabel = "逻辑",
+    );
+   end packages_1710485694069;
+  Package packages_1710485700305
+    External_plugin plugin_a6bee169e135417c92f0d964fa40b96b;
+    External_plugin plugin_cf1fe7e21b4a4146b2e2e3f3c7bc6d6d;
+    Model model_graph_bdd_ed765;
+    Model model_graph_ibd_98090;
+    Model model_graph_bdd_69ef5;
+    Model model_graph_bdd_0867e;
+    annotation(
+      localLabel = "物理",
+    );
+   end packages_1710485700305;
+  annotation(
+    localLabel = "起落架系统",
+  );
+ end packages_1710485564621;

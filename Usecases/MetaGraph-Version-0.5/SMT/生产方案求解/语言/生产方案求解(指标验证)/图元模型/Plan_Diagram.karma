@@ -1,0 +1,13 @@
+   partial Graph Plan_Diagram
+    Object Object_Plan;
+    Relationship Relationship_Containment;
+    Constraint (
+    bind connector(Object_Plan,Relationship_Containment.Role_Containment_End),
+    bind connector(Object_Plan,Relationship_Containment.Role_Containment_Start),
+    );
+    annotation(
+        localLabel="方案图",
+        type = diagram,
+        description="",
+       );
+        end Plan_Diagram;

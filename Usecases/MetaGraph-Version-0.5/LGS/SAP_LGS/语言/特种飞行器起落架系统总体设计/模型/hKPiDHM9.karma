@@ -1,0 +1,90 @@
+    partial Model hKPiDHM9 instanceof graph_act
+      Object hKPiDHM9_object_b60a refer object_callbehavior
+        Property hKPiDHM9_object_b60a_property_78eb = "进行刹车操作" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point hKPiDHM9_object_b60a_input_0dc2 refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="刹车信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,5,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end hKPiDHM9_object_b60a_input_0dc2;
+ 
+        annotation(
+          initialLocation=(30,101,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end hKPiDHM9_object_b60a;
+
+      Object hKPiDHM9_object_7e9a refer object_end
+        annotation(
+          initialLocation=(78,269,54,55),
+          localLabel="结束",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end hKPiDHM9_object_7e9a;
+
+      Relationship hKPiDHM9_relationship_d334 refer controlflow
+        Role hKPiDHM9_fromrole_134b refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end hKPiDHM9_fromrole_134b;
+         Role hKPiDHM9_torole_62f8 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end hKPiDHM9_torole_62f8;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(100,136;105,396),
+          polylineLocation="[0,0,0,-100]$[0,100,0,0];(0.5098039215686274,0.9315068493150684);(0.5555555555555556,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end hKPiDHM9_relationship_d334;
+ 
+    Connect(connector(hKPiDHM9_object_b60a,hKPiDHM9_relationship_d334.hKPiDHM9_fromrole_134b),connector(hKPiDHM9_object_7e9a,hKPiDHM9_relationship_d334.hKPiDHM9_torole_62f8));
+ 
+
+      annotation(
+        localLabel="起落架系统",
+        SDIdentification="",
+    );
+   end hKPiDHM9;

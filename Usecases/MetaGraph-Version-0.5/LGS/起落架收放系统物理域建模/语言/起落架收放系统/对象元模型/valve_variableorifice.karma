@@ -1,0 +1,22 @@
+   Object valve_variableorifice
+      initial Property  valve_variableorifice_Prop_component_name_61b4dc = "null" extends Prop_component_name annotation(localLabel ="元件名字");
+      initial Property  valve_variableorifice_Prop_component_nickname_582bc4 = "null" extends Prop_component_nickname annotation(localLabel ="元件别名");
+      initial Property  valve_variableorifice_Prop_component_situation_f16cde = "null" extends Prop_component_situation annotation(localLabel ="元件位置");
+      initial Property  valve_variableorifice_Prop_component_type_0459d2 = "null" extends Prop_component_type annotation(localLabel ="元件类型");
+      initial Property  valve_variableorifice_Prop_Store_sub_model_situation_c77ef5 = "null" extends Prop_Store_sub_model_situation annotation(localLabel ="子模型库位置");
+      initial Property  valve_variableorifice_Prop_sub_model_name_00164e = "null" extends Prop_sub_model_name annotation(localLabel ="子模型名称");
+      initial Property  valve_variableorifice_Component_parameter_name_1_734471 = "null" extends Component_parameter_name_1 annotation(localLabel ="元件参数名称");
+      Undirected Point valve_variableorifice_Port_hydraulic_e807ac extends Port_hydraulic annotation (localLabel ="液压端口");
+      Undirected Point valve_variableorifice_Port_Parameter_23365c extends Port_Parameter annotation (localLabel ="参数端口");
+      Undirected Point valve_variableorifice_Port_Signal_004311 extends Port_Signal annotation (localLabel ="信号端口");
+   annotation(
+      localLabel="可变节流阀",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="可变节流阀.png",
+      UnfoldDirection=Y,
+      );
+   end valve_variableorifice;
+ 

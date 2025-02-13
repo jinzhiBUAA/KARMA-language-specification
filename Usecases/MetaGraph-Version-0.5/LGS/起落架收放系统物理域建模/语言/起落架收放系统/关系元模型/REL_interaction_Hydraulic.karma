@@ -1,0 +1,12 @@
+   Relationship REL_interaction_Hydraulic
+      initial Property  REL_interaction_Hydraulic_Prop_flow_Hydraulic_sort_5061e4 = "null" extends Prop_flow_Hydraulic_sort annotation(localLabel ="液压流排序");
+   Role ROLE_Hydraulic_interaction_start;
+   Role ROLE_Hydraulic_interaction_end;
+   annotation(
+      localLabel="液压流",
+      description="",
+      icon="",
+      shape="boldSolidLine",
+      );
+   end REL_interaction_Hydraulic;
+ 

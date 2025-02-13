@@ -1,0 +1,55 @@
+   partial Graph Organizational_Project_Enabling_Processes
+    Object Human_Resourece_Management_Process;
+    Object Knowledge_Management_Process;
+    Object End_Event;
+    Object Infrastructure_Management_Process;
+    Object Text_Annotation;
+    Object Start_Event;
+    Object Portfolio_Management_Process;
+    Object Life_Cycle_Model_Management_Process;
+    Object Quality_Management_Process;
+    Relationship Anchor;
+    Relationship Association;
+    Relationship Sequence_Flow;
+    Constraint (
+    bind connector(Human_Resourece_Management_Process,Anchor.Anchor_Incoming),
+    bind connector(Knowledge_Management_Process,Anchor.Anchor_Incoming),
+    bind connector(End_Event,Anchor.Anchor_Incoming),
+    bind connector(Infrastructure_Management_Process,Anchor.Anchor_Incoming),
+    bind connector(Start_Event,Anchor.Anchor_Incoming),
+    bind connector(Portfolio_Management_Process,Anchor.Anchor_Incoming),
+    bind connector(Life_Cycle_Model_Management_Process,Anchor.Anchor_Incoming),
+    bind connector(Quality_Management_Process,Anchor.Anchor_Incoming),
+    bind connector(Human_Resourece_Management_Process,Association.Association_Outgoing),
+    bind connector(Knowledge_Management_Process,Association.Association_Outgoing),
+    bind connector(Infrastructure_Management_Process,Association.Association_Outgoing),
+    bind connector(Portfolio_Management_Process,Association.Association_Outgoing),
+    bind connector(Life_Cycle_Model_Management_Process,Association.Association_Outgoing),
+    bind connector(Quality_Management_Process,Association.Association_Outgoing),
+    bind connector(Text_Annotation,Anchor.Anchor_Outgoing),
+    bind connector(Human_Resourece_Management_Process,Sequence_Flow.Outcoming),
+    bind connector(Knowledge_Management_Process,Sequence_Flow.Outcoming),
+    bind connector(End_Event,Sequence_Flow.Outcoming),
+    bind connector(Infrastructure_Management_Process,Sequence_Flow.Outcoming),
+    bind connector(Portfolio_Management_Process,Sequence_Flow.Outcoming),
+    bind connector(Life_Cycle_Model_Management_Process,Sequence_Flow.Outcoming),
+    bind connector(Quality_Management_Process,Sequence_Flow.Outcoming),
+    bind connector(Human_Resourece_Management_Process,Association.Association_Incoming),
+    bind connector(Knowledge_Management_Process,Association.Association_Incoming),
+    bind connector(Infrastructure_Management_Process,Association.Association_Incoming),
+    bind connector(Portfolio_Management_Process,Association.Association_Incoming),
+    bind connector(Life_Cycle_Model_Management_Process,Association.Association_Incoming),
+    bind connector(Quality_Management_Process,Association.Association_Incoming),
+    bind connector(Human_Resourece_Management_Process,Sequence_Flow.Incoming),
+    bind connector(Knowledge_Management_Process,Sequence_Flow.Incoming),
+    bind connector(Infrastructure_Management_Process,Sequence_Flow.Incoming),
+    bind connector(Start_Event,Sequence_Flow.Incoming),
+    bind connector(Portfolio_Management_Process,Sequence_Flow.Incoming),
+    bind connector(Life_Cycle_Model_Management_Process,Sequence_Flow.Incoming),
+    bind connector(Quality_Management_Process,Sequence_Flow.Incoming),
+    );
+    annotation(
+        localLabel="组织的项目使能过程组",
+        description="",
+       );
+        end Organizational_Project_Enabling_Processes;

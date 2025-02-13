@@ -1,0 +1,16 @@
+   Object Object_Sum
+      initial Property  Object_Sum_Property_Name_5fb7cc = "Sum" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Sum_Property_Parameters_bf483a = "|++" extends Property_Parameters annotation(localLabel ="参数");
+      Input Point Object_Sum_Point_Inport_feae25 extends Point_Inport annotation (localLabel ="输入");
+      Output Point Object_Sum_Point_Outport_42eed2 extends Point_Outport annotation (localLabel ="输出");
+   annotation(
+      localLabel="Sum",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="Sum.png",
+      UnfoldDirection=Y,
+      );
+   end Object_Sum;
+ 

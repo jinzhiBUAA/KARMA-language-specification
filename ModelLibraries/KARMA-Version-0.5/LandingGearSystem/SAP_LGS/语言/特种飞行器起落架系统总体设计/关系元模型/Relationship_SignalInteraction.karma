@@ -1,0 +1,12 @@
+   Relationship Relationship_SignalInteraction
+      initial Property unique Relationship_SignalInteraction_Property_Name_e775f6 = "null" extends Property_Name annotation(localLabel ="Name");
+   Role Role_SignalInteractionSource;
+   Role Role_SignalInteractionTarget;
+   annotation(
+      localLabel="SignalInteraction",
+      description="",
+      icon="",
+      shape="boldSolidLine",
+      );
+   end Relationship_SignalInteraction;
+ 

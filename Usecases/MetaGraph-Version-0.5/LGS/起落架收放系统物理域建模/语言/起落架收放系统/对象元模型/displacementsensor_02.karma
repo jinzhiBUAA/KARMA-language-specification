@@ -1,0 +1,23 @@
+   Object displacementsensor_02
+      initial Property  displacementsensor_02_Prop_component_name_aae8f1 = "null" extends Prop_component_name annotation(localLabel ="元件名字");
+      initial Property  displacementsensor_02_Prop_component_nickname_2ab3fa = "null" extends Prop_component_nickname annotation(localLabel ="元件别名");
+      initial Property  displacementsensor_02_Prop_component_situation_49ac51 = "null" extends Prop_component_situation annotation(localLabel ="元件位置");
+      initial Property  displacementsensor_02_Prop_component_type_df345d = "null" extends Prop_component_type annotation(localLabel ="元件类型");
+      initial Property  displacementsensor_02_Prop_Store_sub_model_situation_40a419 = "null" extends Prop_Store_sub_model_situation annotation(localLabel ="子模型库位置");
+      initial Property  displacementsensor_02_Prop_sub_model_name_0d18b7 = "null" extends Prop_sub_model_name annotation(localLabel ="子模型名称");
+      initial Property  displacementsensor_02_offset_to_be_subtracted_from_displacement_1_675552 = "null" extends offset_to_be_subtracted_from_displacement_1 annotation(localLabel ="位移中减去偏移量");
+      initial Property  displacementsensor_02_Component_parameter_name_1_f2acab = "null" extends Component_parameter_name_1 annotation(localLabel ="元件参数名称");
+      Undirected Point displacementsensor_02_Port_Parameter_541a8b extends Port_Parameter annotation (localLabel ="参数端口");
+      Undirected Point displacementsensor_02_Port_machine_f83c38 extends Port_machine annotation (localLabel ="机械端口");
+      Undirected Point displacementsensor_02_Port_Signal_e1456b extends Port_Signal annotation (localLabel ="信号端口");
+   annotation(
+      localLabel="位移传感器",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="位移传感器.png",
+      UnfoldDirection=Y,
+      );
+   end displacementsensor_02;
+ 

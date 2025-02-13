@@ -1,0 +1,134 @@
+    partial Model qq6hWJMN instanceof graph_act
+      Object qq6hWJMN_object_a6f7 refer object_callbehavior
+        Property qq6hWJMN_object_a6f7_property_daab = "自检" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point qq6hWJMN_object_a6f7_input_c83b refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="工作信号in",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,18,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end qq6hWJMN_object_a6f7_input_c83b;
+ 
+      Point qq6hWJMN_object_a6f7_output_9db1 refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="供电信号out",
+         labelLocation=(-23,-18),
+		 initialLocation=(114,60,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end qq6hWJMN_object_a6f7_output_9db1;
+ 
+    this.decompose(model_graph_act_50558);
+        annotation(
+          initialLocation=(23,35,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end qq6hWJMN_object_a6f7;
+
+      Object qq6hWJMN_object_140b refer object_callbehavior
+        Property qq6hWJMN_object_140b_property_5a32 = "进行供电" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point qq6hWJMN_object_140b_input_e3c0 refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="供电信号in",
+         labelLocation=(-1,-1),
+		 initialLocation=(111,-12,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end qq6hWJMN_object_140b_input_e3c0;
+ 
+      Point qq6hWJMN_object_140b_output_7d8a refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="驱动电流out",
+         labelLocation=(-23,21),
+		 initialLocation=(130,30,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end qq6hWJMN_object_140b_output_7d8a;
+ 
+        annotation(
+          initialLocation=(23,161,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end qq6hWJMN_object_140b;
+
+      Relationship qq6hWJMN_relationship_2d2a refer objectflow
+        Role qq6hWJMN_fromrole_bd55 refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end qq6hWJMN_fromrole_bd55;
+         Role qq6hWJMN_torole_0804 refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end qq6hWJMN_torole_0804;
+       
+        annotation(
+          localLabel="对象流",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(86,82;86,243),
+          polylineLocation="[-7,12,16,-43]$[-7,47,16,-8];(1.0,0.35);(0.0,0.4)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end qq6hWJMN_relationship_2d2a;
+ 
+    Connect(connector(qq6hWJMN_object_a6f7.qq6hWJMN_object_a6f7_output_9db1,qq6hWJMN_relationship_2d2a.qq6hWJMN_fromrole_bd55),connector(qq6hWJMN_object_140b.qq6hWJMN_object_140b_input_e3c0,qq6hWJMN_relationship_2d2a.qq6hWJMN_torole_0804));
+ 
+
+      annotation(
+        localLabel="收放电缆网",
+        SDIdentification="",
+    );
+   end qq6hWJMN;

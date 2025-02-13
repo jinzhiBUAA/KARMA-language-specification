@@ -1,0 +1,17 @@
+   Object Object_TransferFcn
+      initial Property  Object_TransferFcn_Property_Name_b50b8f = "Transfer Fcn" extends property_name annotation(localLabel ="名称");
+      initial Property  Object_TransferFcn_Property_Parameters_ba3528 = "null" extends Property_Parameters annotation(localLabel ="参数");
+      initial Property  Object_TransferFcn_Property_Type_8a5ad9 = "null" extends Property_Type annotation(localLabel ="类型");
+      Input Point Object_TransferFcn_Point_Inport_a5336f extends Point_Inport annotation (localLabel ="输入");
+      Output Point Object_TransferFcn_Point_Outport_c8caa4 extends Point_Outport annotation (localLabel ="输出");
+   annotation(
+      localLabel="Transfer Fcn",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="TransferFcn.png",
+      UnfoldDirection=Y,
+      );
+   end Object_TransferFcn;
+ 

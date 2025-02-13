@@ -1,0 +1,21 @@
+   Object actuator_001
+      initial Property  actuator_001_Prop_component_name_b83db0 = "null" extends Prop_component_name annotation(localLabel ="元件名字");
+      initial Property  actuator_001_Prop_component_nickname_1efaec = "null" extends Prop_component_nickname annotation(localLabel ="元件别名");
+      initial Property  actuator_001_Prop_component_situation_7f2c75 = "null" extends Prop_component_situation annotation(localLabel ="元件位置");
+      initial Property  actuator_001_Prop_component_type_9305fa = "null" extends Prop_component_type annotation(localLabel ="元件类型");
+      initial Property  actuator_001_Prop_Store_sub_model_situation_7b7228 = "null" extends Prop_Store_sub_model_situation annotation(localLabel ="子模型库位置");
+      initial Property  actuator_001_Prop_sub_model_name_3b01dc = "null" extends Prop_sub_model_name annotation(localLabel ="子模型名称");
+      initial Property  actuator_001_Component_parameter_name_1_f9db5d = "null" extends Component_parameter_name_1 annotation(localLabel ="元件参数名称");
+      Undirected Point actuator_001_Port_hydraulic_e38770 extends Port_hydraulic annotation (localLabel ="液压端口");
+      Undirected Point actuator_001_Port_machine_3e8484 extends Port_machine annotation (localLabel ="机械端口");
+   annotation(
+      localLabel="作动筒",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="作动筒.png",
+      UnfoldDirection=Y,
+      );
+   end actuator_001;
+ 
