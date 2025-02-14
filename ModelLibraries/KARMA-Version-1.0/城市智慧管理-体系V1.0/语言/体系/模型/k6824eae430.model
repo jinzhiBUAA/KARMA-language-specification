@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<k8b3baa8fa9:DiagramGen xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:k8b3baa8fa9="D:/Office/MetaGraph20241130_208zjs/ArchModeling/workspace/城市智慧管理-体系V1.0/语言/体系/图元模型/k8b3baa8fa9.karma" id="k6824eae430" name="无人装备体系能力效果" primaryGraph="//@graphs.0">
+  <graphs xsi:type="k8b3baa8fa9:Model__k8b3baa8fa9" id="k6824eae430" name="无人装备体系能力效果" metaMetaType="Graph">
+    <objects xsi:type="k8b3baa8fa9:Def__k8b3baa8fa9__k79433291a1" id="k21012e1e51_ca60" name="无人装备体系" clonedFrom="k6824eae430.model##graphs$$k6824eae430##objects$$k21012e1e51" originalId="k21012e1e51" metaMetaType="Object">
+      <input xsi:type="k8b3baa8fa9:Def__k79433291a1__k79433291a1_kb10cf08e6a_da02a1" id="kdd9cc8aa3d_6192" name="通信中继输入" originalId="kdd9cc8aa3d" metaMetaType="input" position="left"/>
+      <input xsi:type="k8b3baa8fa9:Def__k79433291a1__k79433291a1_kb10cf08e6a_da02a1" id="k79433291a1_kb10cf08e6a_da02a1_bc83_069d" name="5G专网" originalId="k79433291a1_kb10cf08e6a_da02a1_bc83" metaMetaType="input" position="left"/>
+      <input xsi:type="k8b3baa8fa9:Def__k79433291a1__k79433291a1_kb10cf08e6a_da02a1" id="k79433291a1_kb10cf08e6a_da02a1_ed22_f23c" name="5G专网" originalId="k79433291a1_kb10cf08e6a_da02a1_ed22" metaMetaType="input" position="down"/>
+      <output xsi:type="k8b3baa8fa9:Def__k79433291a1__k79433291a1_kb76db55211_8ec3ed" id="k581203381d_a76a" name="通信中继" originalId="k581203381d" metaMetaType="output" position="down"/>
+      <output xsi:type="k8b3baa8fa9:Def__k79433291a1__k79433291a1_kb76db55211_8ec3ed" id="k79433291a1_kb76db55211_8ec3ed_0a20_9426" name="5G专网" originalId="k79433291a1_kb76db55211_8ec3ed_0a20" metaMetaType="output" position="down"/>
+    </objects>
+    <objects xsi:type="k8b3baa8fa9:Def__k8b3baa8fa9__k348b2b31b6" id="k37a2e55af2_object_97f2_3247" name="能够通过5G专网将无人设备系统状态、货物状态、任务状态等关键信息快速传递到配送中心与中转站，确保各节点掌握最新动态。" clonedFrom="k6824eae430.model##graphs$$k6824eae430##objects$$k37a2e55af2_object_97f2" originalId="k37a2e55af2_object_97f2" metaMetaType="Object"/>
+    <objects xsi:type="k8b3baa8fa9:Def__k8b3baa8fa9__k348b2b31b6" id="k37a2e55af2_object_cecb_c43e" name="能够快速接收配送中心与中控系统传递的命令或状态信息，确保信息在接收端的准确性与完整性。" clonedFrom="k6824eae430.model##graphs$$k6824eae430##objects$$k37a2e55af2_object_cecb" originalId="k37a2e55af2_object_cecb" metaMetaType="Object"/>
+    <objects xsi:type="k8b3baa8fa9:Def__k8b3baa8fa9__k348b2b31b6" id="k37a2e55af2_object_0c0d_3036" name="无人设备能够根据中控系统的命令，快速精准地完成货物的取货操作。" clonedFrom="k6824eae430.model##graphs$$k6824eae430##objects$$k37a2e55af2_object_0c0d" originalId="k37a2e55af2_object_0c0d" metaMetaType="Object"/>
+    <objects xsi:type="k8b3baa8fa9:Def__k8b3baa8fa9__k348b2b31b6" id="k37a2e55af2_object_939c_1abe" name="确保无人设备能够根据任务指令，将货物准确、及时地配送到用户指定地点。" clonedFrom="k6824eae430.model##graphs$$k6824eae430##objects$$k37a2e55af2_object_939c" originalId="k37a2e55af2_object_939c" metaMetaType="Object"/>
+    <relationships xsi:type="k8b3baa8fa9:Def__k8b3baa8fa9__kd41b3b8ad7" id="k6824eae430_relationship_b298" name="具备" metaMetaType="Relationship">
+      <fromRole xsi:type="k8b3baa8fa9:Def__kd41b3b8ad7__k6538ec61e1" id="k6824eae430_fromrole_8722" name="关系始端" connect="//@graphs.0/@objects.0" metaMetaType="Role"/>
+      <toRole xsi:type="k8b3baa8fa9:Def__kd41b3b8ad7__kf2004d8ed5" id="k6824eae430_torole_081b" name="关系终端" connect="//@graphs.0/@objects.1" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="k8b3baa8fa9:Def__k8b3baa8fa9__kd41b3b8ad7" id="k6824eae430_relationship_174f" name="具备" metaMetaType="Relationship">
+      <fromRole xsi:type="k8b3baa8fa9:Def__kd41b3b8ad7__k6538ec61e1" id="k6824eae430_fromrole_9a52" name="关系始端" connect="//@graphs.0/@objects.0" metaMetaType="Role"/>
+      <toRole xsi:type="k8b3baa8fa9:Def__kd41b3b8ad7__kf2004d8ed5" id="k6824eae430_torole_88c1" name="关系终端" connect="//@graphs.0/@objects.2" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="k8b3baa8fa9:Def__k8b3baa8fa9__kd41b3b8ad7" id="k6824eae430_relationship_954c" name="具备" metaMetaType="Relationship">
+      <fromRole xsi:type="k8b3baa8fa9:Def__kd41b3b8ad7__k6538ec61e1" id="k6824eae430_fromrole_93e4" name="关系始端" connect="//@graphs.0/@objects.0" metaMetaType="Role"/>
+      <toRole xsi:type="k8b3baa8fa9:Def__kd41b3b8ad7__kf2004d8ed5" id="k6824eae430_torole_396b" name="关系终端" connect="//@graphs.0/@objects.3" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="k8b3baa8fa9:Def__k8b3baa8fa9__kd41b3b8ad7" id="k6824eae430_relationship_ef42" name="具备" metaMetaType="Relationship">
+      <fromRole xsi:type="k8b3baa8fa9:Def__kd41b3b8ad7__k6538ec61e1" id="k6824eae430_fromrole_24ab" name="关系始端" connect="//@graphs.0/@objects.0" metaMetaType="Role"/>
+      <toRole xsi:type="k8b3baa8fa9:Def__kd41b3b8ad7__kf2004d8ed5" id="k6824eae430_torole_625b" name="关系终端" connect="//@graphs.0/@objects.4" metaMetaType="Role"/>
+    </relationships>
+  </graphs>
+</k8b3baa8fa9:DiagramGen>

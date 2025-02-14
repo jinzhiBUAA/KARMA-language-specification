@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<KARMA_external_plugin> 
+  <physical name="k626b495f4d"> 
+    <phaseControl phaseControl="dev"/>  
+    <methodology localLabel="体系"> 
+      <metaGraph id="k626b495f4d__expgraphviewpoint__6d5a_object_86d2"> 
+        <tableInfo name="1.1场景分解" metaGraphId="k0f1ebdebb4" description="" type=""/> 
+      </metaGraph>  
+      <metaGraph id="k626b495f4d__expgraphviewpoint__6d5a_object_2e43"> 
+        <tableInfo name="1.3环境分析" metaGraphId="k8ea163f853" description="" type=""/> 
+      </metaGraph>  
+      <metaGraph id="k626b495f4d__expgraphviewpoint__6d5a_object_0f1a"> 
+        <tableInfo name="1.4智慧体系架构细化" metaGraphId="k8cfc4e2ba5" description="" type=""/> 
+      </metaGraph>  
+      <metaGraph id="k626b495f4d__expgraphviewpoint__6d5a_object_571f"> 
+        <tableInfo name="1.5运行活动设计" metaGraphId="ke5c488e125" description="" type=""/> 
+      </metaGraph>  
+      <metaGraph id="k626b495f4d__expgraphviewpoint__6d5a_object_e46a"> 
+        <tableInfo name="1.6信息交互展示" metaGraphId="kc88bea52e9" description="" type=""/> 
+      </metaGraph>  
+      <itemizedTable id="k626b495f4d__expgraphviewpoint__6d5a_object_eef7">
+        <tableInfo name="1.7信息交互设计" viewmetaObjectIds="ka8cc7e18cc" description="" type="" elementAdditionMode="自动" createNewElement="false">
+          <columnDispositions>
+            <columnDisposition attributeId="k4fec3bf8e2" type="元素属性"/>
+            <columnDisposition itemInformation="信息发送方" type="条目信息"/>
+            <columnDisposition itemInformation="信息接收方" type="条目信息"/>
+          </columnDispositions>
+        </tableInfo>
+      </itemizedTable>  
+      <metaGraph id="k626b495f4d__expgraphviewpoint__98c3_object_19af"> 
+        <tableInfo name="2.1活动映射能力" metaGraphId="k9c1d649899" description="" type=""/> 
+      </metaGraph>  
+      <relationalMapping id="k626b495f4d__expgraphviewpoint__98c3_object_9c24"> 
+        <tableInfo existLineEleId="ka8cc7e18cc" createRelationElement="true" existColumnEleId="kcaa9788539" metaRelationShipids="k6d6bb252d0" name="2.2活动-能力映射" columnRange="k626b495f4d__expgraphviewpoint__98c3_object_19af" description="" lineRange="k626b495f4d__expgraphviewpoint__6d5a_object_571f"/> 
+      </relationalMapping>  
+      <metaGraph id="k626b495f4d__expgraphviewpoint__98c3_object_e618"> 
+        <tableInfo name="2.3能力效果分析" metaGraphId="ka245c4dd97" description="" type=""/> 
+      </metaGraph>  
+      <metaGraph id="k626b495f4d__expgraphviewpoint__fbd0_object_882d"> 
+        <tableInfo name="3.2兴趣系统能力效果分析" metaGraphId="k8b3baa8fa9" description="" type=""/> 
+      </metaGraph>  
+      <relationalMapping id="k626b495f4d__expgraphviewpoint__fbd0_object_edc5"> 
+        <tableInfo existLineEleId="kcaa9788539" createRelationElement="true" existColumnEleId="k79433291a1" metaRelationShipids="k82c7f446d4" name="3.1能力-智慧体系要素追溯" columnRange="k626b495f4d__expgraphviewpoint__6d5a_object_36b9" description="" lineRange="k626b495f4d__expgraphviewpoint__98c3_object_19af"/> 
+      </relationalMapping>  
+      <informationTable id="k626b495f4d__expgraphviewpoint__6d5a_object_36b9"> 
+        <tableInfo name="1.2场景分析" description="" type=""> 
+          <columnDispositions> 
+            <columnDisposition tableType="模型元素" modelElementId="k214aa4d85e"/>  
+            <columnDisposition tableType="文本" elementName="任务意图"/>  
+            <columnDisposition tableType="时间段" elementName="任务时间"/>  
+            <columnDisposition tableType="模型元素" modelElementId="k79433291a1"/>  
+            <columnDisposition tableType="文本" elementName="部署位置"/>  
+            <columnDisposition tableType="模型元素" modelElementId="k6651ca9f0a"/> 
+          </columnDispositions> 
+        </tableInfo> 
+      </informationTable>  
+      <elementTransfer id="k626b495f4d__expgraphviewpoint__6d5a_relationship_d046"> 
+        <tableInfo metaObjectIds="k214aa4d85e"/> 
+      </elementTransfer>  
+      <elementTransfer id="k626b495f4d__expgraphviewpoint__6d5a_relationship_586b"> 
+        <tableInfo metaObjectIds="k6651ca9f0a"/> 
+      </elementTransfer>  
+      <elementTransfer id="k626b495f4d__expgraphviewpoint__6d5a_relationship_2f7f"> 
+        <tableInfo metaObjectIds="k79433291a1"/> 
+      </elementTransfer>  
+      <elementTransfer id="k626b495f4d__expgraphviewpoint__6d5a_relationship_e715"> 
+        <tableInfo metaObjectIds="k79433291a1"/> 
+      </elementTransfer>  
+      <elementTransfer id="k626b495f4d__expgraphviewpoint__6d5a_relationship_598b"> 
+        <tableInfo metaObjectIds="k79433291a1"/> 
+      </elementTransfer>  
+      <elementTransfer id="k626b495f4d_relationship_344e"> 
+        <tableInfo metaObjectIds="ka8cc7e18cc"/> 
+      </elementTransfer>  
+      <elementTransfer id="k626b495f4d__expgraphviewpoint__98c3_relationship_a9a9"> 
+        <tableInfo metaObjectIds="kcaa9788539"/> 
+      </elementTransfer>  
+      <elementTransfer id="k626b495f4d__expgraphviewpoint__98c3_relationship_fde2"> 
+        <tableInfo metaObjectIds="kcaa9788539"/> 
+      </elementTransfer>  
+      <elementTransfer id="k626b495f4d_relationship_224d"> 
+        <tableInfo metaObjectIds="k348b2b31b6"/> 
+      </elementTransfer>  
+      <elementTransfer id="k626b495f4d_relationship_0d57"> 
+        <tableInfo metaObjectIds="k79433291a1"/> 
+      </elementTransfer>  
+      <elementTransfer id="k626b495f4d_relationship_6b35"> 
+        <tableInfo metaObjectIds="k79433291a1"/> 
+      </elementTransfer>  
+      <elementTransfer id="k626b495f4d_relationship_30d4"> 
+        <tableInfo metaObjectIds="ka8cc7e18cc"/> 
+      </elementTransfer>  
+      <elementTransfer id="k626b495f4d_relationship_43b5"> 
+        <tableInfo metaObjectIds="kcaa9788539"/> 
+      </elementTransfer>  
+      <elementTransfer id="k626b495f4d__expgraphviewpoint__6d5a_relationship_59d7"> 
+        <tableInfo metaObjectIds="ka8cc7e18cc"/> 
+      </elementTransfer>  
+      <informationTable id="k626b495f4d__expgraphviewpoint__6d5a_object_c458"> 
+        <tableInfo name="1.3环境分析" description="" type=""> 
+          <columnDispositions> 
+            <columnDisposition tableType="模型元素" modelElementId="k98f5faf528"/>  
+            <columnDisposition tableType="模型元素" modelElementId="kc89d572a5a"/>  
+            <columnDisposition tableType="模型元素" modelElementId="kbf8d32351a"/>  
+            <columnDisposition tableType="模型元素" modelElementId="kf4f5773162"/>  
+            <columnDisposition tableType="模型元素" modelElementId="k06a5bc2a7b"/>  
+            <columnDisposition tableType="模型元素" modelElementId="ke6855759bb"/>  
+            <columnDisposition tableType="模型元素" modelElementId="k696ccb6e90"/>  
+            <columnDisposition tableType="模型元素" modelElementId="k9c77780d55"/>  
+            <columnDisposition tableType="模型元素" modelElementId="k7348a2eb4c"/>  
+            <columnDisposition tableType="模型元素" modelElementId="ked5f782f6a"/> 
+          </columnDispositions> 
+        </tableInfo> 
+      </informationTable> 
+    </methodology>  
+    <modelInformation><![CDATA[
+    partial Model k626b495f4d instanceof methodologyProcess_graph
+      Object k626b495f4d__object__0c30 refer lane_obj
+    
+        annotation(
+          initialLocation=(70,28,461,422),
+          localLabel="1.体系应用场景阶段",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="k626b495f4d__expgraphviewpoint__6d5a:(0,0,461,422)",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__object__0c30;
+
+      Object k626b495f4d__object__bafe refer lane_obj
+    
+        annotation(
+          initialLocation=(532,28,461,190),
+          localLabel="2.体系能力需求阶段",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="k626b495f4d__expgraphviewpoint__98c3:(0,0,461,190)",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__object__bafe;
+
+      Object k626b495f4d__object__dd9f refer lane_obj
+    
+        annotation(
+          initialLocation=(532,251,461,198),
+          localLabel="3.体系架构要素阶段",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="k626b495f4d__expgraphviewpoint__fbd0:(0,0,461,198)",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__object__dd9f;
+
+      Relationship k626b495f4d_relationship_344e refer elementTransfer_rel
+        Role k626b495f4d_fromrole_b7f6 refer elementTransfer_from
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_571f;
+ 
+          annotation(
+            localLabel="元素传递始端",
+            shape="no"
+          );
+        end k626b495f4d_fromrole_b7f6;
+         Role k626b495f4d_torole_ab55 refer elementTransfer_to
+          Connect k626b495f4d__expgraphviewpoint__98c3_object_19af;
+ 
+          annotation(
+            localLabel="元素传递终端",
+            shape="solidArrow"
+          );
+        end k626b495f4d_torole_ab55;
+         annotation(
+          localLabel="活动动作",
+          labelLocation=(0,-10),
+          shape="boldSolidLine",
+          endLocation=(314,218;232,-46),
+          polylineLocation="[-6,0,-201,103]$[76,0,-119,103]$[76,-132,-119,-29]$[157,-132,-38,-29];(1.0,0.453125);(0.7241379310344828,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end k626b495f4d_relationship_344e;
+ 
+      Relationship k626b495f4d_relationship_224d refer elementTransfer_rel
+        Role k626b495f4d_fromrole_2df0 refer elementTransfer_from
+          Connect k626b495f4d__expgraphviewpoint__98c3_object_e618;
+ 
+          annotation(
+            localLabel="元素传递始端",
+            shape="no"
+          );
+        end k626b495f4d_fromrole_2df0;
+         Role k626b495f4d_torole_1ce3 refer elementTransfer_to
+          Connect k626b495f4d__expgraphviewpoint__fbd0_object_882d;
+ 
+          annotation(
+            localLabel="元素传递终端",
+            shape="solidArrow"
+          );
+        end k626b495f4d_torole_1ce3;
+         annotation(
+          localLabel="能力效果",
+          labelLocation=(0,-10),
+          shape="boldSolidLine",
+          endLocation=(357,76;344,310),
+          polylineLocation="[-3,-1,4,-205]$[-3,204,4,0];(0.375,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end k626b495f4d_relationship_224d;
+ 
+      Relationship k626b495f4d_relationship_0d57 refer elementTransfer_rel
+        Role k626b495f4d_fromrole_aa3e refer elementTransfer_from
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_36b9;
+ 
+          annotation(
+            localLabel="元素传递始端",
+            shape="no"
+          );
+        end k626b495f4d_fromrole_aa3e;
+         Role k626b495f4d_torole_5910 refer elementTransfer_to
+          Connect k626b495f4d__expgraphviewpoint__fbd0_object_edc5;
+ 
+          annotation(
+            localLabel="元素传递终端",
+            shape="solidArrow"
+          );
+        end k626b495f4d_torole_5910;
+         annotation(
+          localLabel="智慧体系要素",
+          labelLocation=(0,-10),
+          shape="boldSolidLine",
+          endLocation=(182,112;467,380),
+          polylineLocation="[-22,24,-344,-223]$[-22,314,-344,67]$[347,314,25,67]$[347,266,25,19];(1.0,0.5535714285714286);(0.0,0.58)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end k626b495f4d_relationship_0d57;
+ 
+      Relationship k626b495f4d_relationship_6b35 refer elementTransfer_rel
+        Role k626b495f4d_fromrole_f1d1 refer elementTransfer_from
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_36b9;
+ 
+          annotation(
+            localLabel="元素传递始端",
+            shape="no"
+          );
+        end k626b495f4d_fromrole_f1d1;
+         Role k626b495f4d_torole_8927 refer elementTransfer_to
+          Connect k626b495f4d__expgraphviewpoint__fbd0_object_882d;
+ 
+          annotation(
+            localLabel="元素传递终端",
+            shape="solidArrow"
+          );
+        end k626b495f4d_torole_8927;
+         annotation(
+          localLabel="智慧体系要素",
+          labelLocation=(0,-10),
+          shape="boldSolidLine",
+          endLocation=(182,98;928,365),
+          polylineLocation="[-22,10,-575,-219]$[-22,300,-575,71]$[577,300,24,71]$[577,251,24,22];(1.0,0.8035714285714286);(0.0,0.5208333333333334)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end k626b495f4d_relationship_6b35;
+ 
+      Relationship k626b495f4d_relationship_30d4 refer elementTransfer_rel
+        Role k626b495f4d_fromrole_6474 refer elementTransfer_from
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_571f;
+ 
+          annotation(
+            localLabel="元素传递始端",
+            shape="no"
+          );
+        end k626b495f4d_fromrole_6474;
+         Role k626b495f4d_torole_3aec refer elementTransfer_to
+          Connect k626b495f4d__expgraphviewpoint__98c3_object_9c24;
+ 
+          annotation(
+            localLabel="元素传递终端",
+            shape="solidArrow"
+          );
+        end k626b495f4d_torole_3aec;
+         annotation(
+          localLabel="活动动作",
+          labelLocation=(0,-10),
+          shape="boldSolidLine",
+          endLocation=(314,232;550,-4),
+          polylineLocation="[-6,14,-306,119]$[150,14,-150,119]$[150,-28,-150,77]$[328,-28,28,77]$[328,-91,28,14];(1.0,0.234375);(0.0,0.7321428571428571)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end k626b495f4d_relationship_30d4;
+ 
+      Relationship k626b495f4d_relationship_43b5 refer elementTransfer_rel
+        Role k626b495f4d_fromrole_23f9 refer elementTransfer_from
+          Connect k626b495f4d__expgraphviewpoint__98c3_object_19af;
+ 
+          annotation(
+            localLabel="元素传递始端",
+            shape="no"
+          );
+        end k626b495f4d_fromrole_23f9;
+         Role k626b495f4d_torole_4ad0 refer elementTransfer_to
+          Connect k626b495f4d__expgraphviewpoint__fbd0_object_edc5;
+ 
+          annotation(
+            localLabel="元素传递终端",
+            shape="solidArrow"
+          );
+        end k626b495f4d_torole_4ad0;
+         annotation(
+          localLabel="所需能力",
+          labelLocation=(0,-10),
+          shape="boldSolidLine",
+          endLocation=(72,80;167,305),
+          polylineLocation="[0,0,-46,-195]$[0,97,-46,-98]$[46,97,0,-98]$[46,195,0,0];(0.5,1.0);(0.52,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end k626b495f4d_relationship_43b5;
+ 
+    Connect(connector(k626b495f4d__expgraphviewpoint__6d5a_object_571f,k626b495f4d_relationship_344e.k626b495f4d_fromrole_b7f6),connector(k626b495f4d__expgraphviewpoint__98c3_object_19af,k626b495f4d_relationship_344e.k626b495f4d_torole_ab55));
+ 
+    Connect(connector(k626b495f4d__expgraphviewpoint__98c3_object_e618,k626b495f4d_relationship_224d.k626b495f4d_fromrole_2df0),connector(k626b495f4d__expgraphviewpoint__fbd0_object_882d,k626b495f4d_relationship_224d.k626b495f4d_torole_1ce3));
+ 
+    Connect(connector(k626b495f4d__expgraphviewpoint__6d5a_object_36b9,k626b495f4d_relationship_0d57.k626b495f4d_fromrole_aa3e),connector(k626b495f4d__expgraphviewpoint__fbd0_object_edc5,k626b495f4d_relationship_0d57.k626b495f4d_torole_5910));
+ 
+    Connect(connector(k626b495f4d__expgraphviewpoint__6d5a_object_36b9,k626b495f4d_relationship_6b35.k626b495f4d_fromrole_f1d1),connector(k626b495f4d__expgraphviewpoint__fbd0_object_882d,k626b495f4d_relationship_6b35.k626b495f4d_torole_8927));
+ 
+    Connect(connector(k626b495f4d__expgraphviewpoint__6d5a_object_571f,k626b495f4d_relationship_30d4.k626b495f4d_fromrole_6474),connector(k626b495f4d__expgraphviewpoint__98c3_object_9c24,k626b495f4d_relationship_30d4.k626b495f4d_torole_3aec));
+ 
+    Connect(connector(k626b495f4d__expgraphviewpoint__98c3_object_19af,k626b495f4d_relationship_43b5.k626b495f4d_fromrole_23f9),connector(k626b495f4d__expgraphviewpoint__fbd0_object_edc5,k626b495f4d_relationship_43b5.k626b495f4d_torole_4ad0));
+ 
+
+      annotation(
+        localLabel="体系",
+        SDIdentification="",
+        representedObject=""
+    );
+   end k626b495f4d;
+]]></modelInformation>  
+    <modelInformation objID="k626b495f4d__object__0c30"><![CDATA[
+    partial Model k626b495f4d__expgraphviewpoint__6d5a instanceof methodologyProcess_graph
+      Object k626b495f4d__expgraphviewpoint__6d5a_object_36b9 refer informationform_obj
+        annotation(
+          initialLocation=(176,56,56,64),
+          localLabel="1.2场景分析",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__expgraphviewpoint__6d5a_object_36b9;
+
+      Object k626b495f4d__expgraphviewpoint__6d5a_object_c458 refer informationform_obj
+        annotation(
+          initialLocation=(344,80,57,57),
+          localLabel="1.3环境分析",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__expgraphviewpoint__6d5a_object_c458;
+
+      Object k626b495f4d__expgraphviewpoint__6d5a_object_eef7 refer itemizedTable_obj
+        annotation(
+          initialLocation=(296,326,48,56),
+          localLabel="1.7信息交互设计",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__expgraphviewpoint__6d5a_object_eef7;
+
+      Object k626b495f4d__expgraphviewpoint__6d5a_object_86d2 refer metaGraph_obj
+        annotation(
+          initialLocation=(29,52,64,64),
+          localLabel="1.1场景分解",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__expgraphviewpoint__6d5a_object_86d2;
+
+      Object k626b495f4d__expgraphviewpoint__6d5a_object_2e43 refer metaGraph_obj
+        annotation(
+          initialLocation=(316,57,64,65),
+          localLabel="1.3环境分析",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__expgraphviewpoint__6d5a_object_2e43;
+
+      Object k626b495f4d__expgraphviewpoint__6d5a_object_0f1a refer metaGraph_obj
+        annotation(
+          initialLocation=(106,185,62,64),
+          localLabel="1.4智慧体系架构细化",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__expgraphviewpoint__6d5a_object_0f1a;
+
+      Object k626b495f4d__expgraphviewpoint__6d5a_object_571f refer metaGraph_obj
+        annotation(
+          initialLocation=(288,184,64,68),
+          localLabel="1.5运行活动设计",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__expgraphviewpoint__6d5a_object_571f;
+
+      Object k626b495f4d__expgraphviewpoint__6d5a_object_e46a refer metaGraph_obj
+        annotation(
+          initialLocation=(109,318,56,64),
+          localLabel="1.6信息交互展示",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__expgraphviewpoint__6d5a_object_e46a;
+
+      Relationship k626b495f4d__expgraphviewpoint__6d5a_relationship_d046 refer elementTransfer_rel
+        Role k626b495f4d__expgraphviewpoint__6d5a_fromrole_1f5e refer elementTransfer_from
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_86d2;
+ 
+          annotation(
+            localLabel="元素传递始端",
+            shape="no"
+          );
+        end k626b495f4d__expgraphviewpoint__6d5a_fromrole_1f5e;
+         Role k626b495f4d__expgraphviewpoint__6d5a_torole_51ce refer elementTransfer_to
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_36b9;
+ 
+          annotation(
+            localLabel="元素传递终端",
+            shape="solidArrow"
+          );
+        end k626b495f4d__expgraphviewpoint__6d5a_torole_51ce;
+         annotation(
+          localLabel="任务场景",
+          labelLocation=(0,-10),
+          shape="boldSolidLine",
+          endLocation=(55,87;295,91),
+          polylineLocation="[-6,3,-89,3]$[87,3,4,3];(1.0,0.484375);(0.0,0.48214285714285715)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end k626b495f4d__expgraphviewpoint__6d5a_relationship_d046;
+ 
+      Relationship k626b495f4d__expgraphviewpoint__6d5a_relationship_586b refer elementTransfer_rel
+        Role k626b495f4d__expgraphviewpoint__6d5a_fromrole_adfd refer elementTransfer_from
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_36b9;
+ 
+          annotation(
+            localLabel="元素传递始端",
+            shape="no"
+          );
+        end k626b495f4d__expgraphviewpoint__6d5a_fromrole_adfd;
+         Role k626b495f4d__expgraphviewpoint__6d5a_torole_554a refer elementTransfer_to
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_2e43;
+ 
+          annotation(
+            localLabel="元素传递终端",
+            shape="solidArrow"
+          );
+        end k626b495f4d__expgraphviewpoint__6d5a_torole_554a;
+         annotation(
+          localLabel="环境要素",
+          labelLocation=(0,-10),
+          shape="boldSolidLine",
+          endLocation=(204,88;428,89),
+          polylineLocation="[0,0,-84,0]$[84,0,0,0];(1.0,0.5892857142857143);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end k626b495f4d__expgraphviewpoint__6d5a_relationship_586b;
+ 
+      Relationship k626b495f4d__expgraphviewpoint__6d5a_relationship_2f7f refer elementTransfer_rel
+        Role k626b495f4d__expgraphviewpoint__6d5a_fromrole_58e4 refer elementTransfer_from
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_36b9;
+ 
+          annotation(
+            localLabel="元素传递始端",
+            shape="no"
+          );
+        end k626b495f4d__expgraphviewpoint__6d5a_fromrole_58e4;
+         Role k626b495f4d__expgraphviewpoint__6d5a_torole_a24e refer elementTransfer_to
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_0f1a;
+ 
+          annotation(
+            localLabel="元素传递终端",
+            shape="solidArrow"
+          );
+        end k626b495f4d__expgraphviewpoint__6d5a_torole_a24e;
+         annotation(
+          localLabel="智慧体系要素",
+          labelLocation=(0,-10),
+          shape="boldSolidLine",
+          endLocation=(232,112;95,315),
+          polylineLocation="[28,24,67,-74]$[28,42,67,-56]$[-39,42,0,-56]$[-39,98,0,0];(0.0,0.5535714285714286);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end k626b495f4d__expgraphviewpoint__6d5a_relationship_2f7f;
+ 
+      Relationship k626b495f4d__expgraphviewpoint__6d5a_relationship_e715 refer elementTransfer_rel
+        Role k626b495f4d__expgraphviewpoint__6d5a_fromrole_a2cc refer elementTransfer_from
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_36b9;
+ 
+          annotation(
+            localLabel="元素传递始端",
+            shape="no"
+          );
+        end k626b495f4d__expgraphviewpoint__6d5a_fromrole_a2cc;
+         Role k626b495f4d__expgraphviewpoint__6d5a_torole_f4f4 refer elementTransfer_to
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_571f;
+ 
+          annotation(
+            localLabel="元素传递终端",
+            shape="solidArrow"
+          );
+        end k626b495f4d__expgraphviewpoint__6d5a_torole_f4f4;
+         annotation(
+          localLabel="智慧体系要素",
+          labelLocation=(0,-10),
+          shape="boldSolidLine",
+          endLocation=(224,87;439,288),
+          polylineLocation="[20,-1,-103,-73]$[20,17,-103,-55]$[123,17,0,-55]$[123,72,0,0];(0.375,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end k626b495f4d__expgraphviewpoint__6d5a_relationship_e715;
+ 
+      Relationship k626b495f4d__expgraphviewpoint__6d5a_relationship_598b refer elementTransfer_rel
+        Role k626b495f4d__expgraphviewpoint__6d5a_fromrole_6ab6 refer elementTransfer_from
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_36b9;
+ 
+          annotation(
+            localLabel="元素传递始端",
+            shape="no"
+          );
+        end k626b495f4d__expgraphviewpoint__6d5a_fromrole_6ab6;
+         Role k626b495f4d__expgraphviewpoint__6d5a_torole_636a refer elementTransfer_to
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_e46a;
+ 
+          annotation(
+            localLabel="元素传递终端",
+            shape="solidArrow"
+          );
+        end k626b495f4d__expgraphviewpoint__6d5a_torole_636a;
+         annotation(
+          localLabel="智慧体系要素",
+          labelLocation=(0,-10),
+          shape="boldSolidLine",
+          endLocation=(196,87;79,584),
+          polylineLocation="[-8,-1,55,-207]$[-8,234,55,28]$[-58,234,5,28];(0.75,1.0);(0.8214285714285714,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end k626b495f4d__expgraphviewpoint__6d5a_relationship_598b;
+ 
+      Relationship k626b495f4d__expgraphviewpoint__6d5a_relationship_59d7 refer elementTransfer_rel
+        Role k626b495f4d__expgraphviewpoint__6d5a_fromrole_75c3 refer elementTransfer_from
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_571f;
+ 
+          annotation(
+            localLabel="元素传递始端",
+            shape="no"
+          );
+        end k626b495f4d__expgraphviewpoint__6d5a_fromrole_75c3;
+         Role k626b495f4d__expgraphviewpoint__6d5a_torole_b6ba refer elementTransfer_to
+          Connect k626b495f4d__expgraphviewpoint__6d5a_object_eef7;
+ 
+          annotation(
+            localLabel="元素传递终端",
+            shape="solidArrow"
+          );
+        end k626b495f4d__expgraphviewpoint__6d5a_torole_b6ba;
+         annotation(
+          localLabel="活动动作",
+          labelLocation=(0,-10),
+          shape="boldSolidLine",
+          endLocation=(320,218;328,438),
+          polylineLocation="[0,0,0,-78]$[0,78,0,0];(0.5,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end k626b495f4d__expgraphviewpoint__6d5a_relationship_59d7;
+ 
+    Connect(connector(k626b495f4d__expgraphviewpoint__6d5a_object_86d2,k626b495f4d__expgraphviewpoint__6d5a_relationship_d046.k626b495f4d__expgraphviewpoint__6d5a_fromrole_1f5e),connector(k626b495f4d__expgraphviewpoint__6d5a_object_36b9,k626b495f4d__expgraphviewpoint__6d5a_relationship_d046.k626b495f4d__expgraphviewpoint__6d5a_torole_51ce));
+ 
+    Connect(connector(k626b495f4d__expgraphviewpoint__6d5a_object_36b9,k626b495f4d__expgraphviewpoint__6d5a_relationship_586b.k626b495f4d__expgraphviewpoint__6d5a_fromrole_adfd),connector(k626b495f4d__expgraphviewpoint__6d5a_object_2e43,k626b495f4d__expgraphviewpoint__6d5a_relationship_586b.k626b495f4d__expgraphviewpoint__6d5a_torole_554a));
+ 
+    Connect(connector(k626b495f4d__expgraphviewpoint__6d5a_object_36b9,k626b495f4d__expgraphviewpoint__6d5a_relationship_2f7f.k626b495f4d__expgraphviewpoint__6d5a_fromrole_58e4),connector(k626b495f4d__expgraphviewpoint__6d5a_object_0f1a,k626b495f4d__expgraphviewpoint__6d5a_relationship_2f7f.k626b495f4d__expgraphviewpoint__6d5a_torole_a24e));
+ 
+    Connect(connector(k626b495f4d__expgraphviewpoint__6d5a_object_36b9,k626b495f4d__expgraphviewpoint__6d5a_relationship_e715.k626b495f4d__expgraphviewpoint__6d5a_fromrole_a2cc),connector(k626b495f4d__expgraphviewpoint__6d5a_object_571f,k626b495f4d__expgraphviewpoint__6d5a_relationship_e715.k626b495f4d__expgraphviewpoint__6d5a_torole_f4f4));
+ 
+    Connect(connector(k626b495f4d__expgraphviewpoint__6d5a_object_36b9,k626b495f4d__expgraphviewpoint__6d5a_relationship_598b.k626b495f4d__expgraphviewpoint__6d5a_fromrole_6ab6),connector(k626b495f4d__expgraphviewpoint__6d5a_object_e46a,k626b495f4d__expgraphviewpoint__6d5a_relationship_598b.k626b495f4d__expgraphviewpoint__6d5a_torole_636a));
+ 
+    Connect(connector(k626b495f4d__expgraphviewpoint__6d5a_object_571f,k626b495f4d__expgraphviewpoint__6d5a_relationship_59d7.k626b495f4d__expgraphviewpoint__6d5a_fromrole_75c3),connector(k626b495f4d__expgraphviewpoint__6d5a_object_eef7,k626b495f4d__expgraphviewpoint__6d5a_relationship_59d7.k626b495f4d__expgraphviewpoint__6d5a_torole_b6ba));
+ 
+
+      annotation(
+        localLabel="",
+        SDIdentification="",
+        representedObject=""
+    );
+   end k626b495f4d__expgraphviewpoint__6d5a;
+]]></modelInformation>  
+    <modelInformation objID="k626b495f4d__object__dd9f"><![CDATA[
+    partial Model k626b495f4d__expgraphviewpoint__fbd0 instanceof methodologyProcess_graph
+      Object k626b495f4d__expgraphviewpoint__fbd0_object_edc5 refer mTable_obj
+        annotation(
+          initialLocation=(92,82,50,49),
+          localLabel="3.1能力-智慧体系要素追溯",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__expgraphviewpoint__fbd0_object_edc5;
+
+      Object k626b495f4d__expgraphviewpoint__fbd0_object_882d refer metaGraph_obj
+        annotation(
+          initialLocation=(323,82,48,49),
+          localLabel="3.2兴趣系统能力效果分析",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__expgraphviewpoint__fbd0_object_882d;
+
+
+      annotation(
+        localLabel="",
+        SDIdentification="",
+        representedObject=""
+    );
+   end k626b495f4d__expgraphviewpoint__fbd0;
+]]></modelInformation>  
+    <modelInformation objID="k626b495f4d__object__bafe"><![CDATA[
+    partial Model k626b495f4d__expgraphviewpoint__98c3 instanceof methodologyProcess_graph
+      Object k626b495f4d__expgraphviewpoint__98c3_object_9c24 refer mTable_obj
+        annotation(
+          initialLocation=(190,53,56,56),
+          localLabel="2.2活动-能力映射",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__expgraphviewpoint__98c3_object_9c24;
+
+      Object k626b495f4d__expgraphviewpoint__98c3_object_19af refer metaGraph_obj
+        annotation(
+          initialLocation=(43,52,58,57),
+          localLabel="2.1活动映射能力",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__expgraphviewpoint__98c3_object_19af;
+
+      Object k626b495f4d__expgraphviewpoint__98c3_object_e618 refer metaGraph_obj
+        annotation(
+          initialLocation=(336,53,48,48),
+          localLabel="2.3能力效果分析",
+          shape="customImage",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k626b495f4d__expgraphviewpoint__98c3_object_e618;
+
+      Relationship k626b495f4d__expgraphviewpoint__98c3_relationship_a9a9 refer elementTransfer_rel
+        Role k626b495f4d__expgraphviewpoint__98c3_fromrole_4088 refer elementTransfer_from
+          Connect k626b495f4d__expgraphviewpoint__98c3_object_19af;
+ 
+          annotation(
+            localLabel="元素传递始端",
+            shape="no"
+          );
+        end k626b495f4d__expgraphviewpoint__98c3_fromrole_4088;
+         Role k626b495f4d__expgraphviewpoint__98c3_torole_ba16 refer elementTransfer_to
+          Connect k626b495f4d__expgraphviewpoint__98c3_object_9c24;
+ 
+          annotation(
+            localLabel="元素传递终端",
+            shape="solidArrow"
+          );
+        end k626b495f4d__expgraphviewpoint__98c3_torole_ba16;
+         annotation(
+          localLabel="所需能力",
+          labelLocation=(0,-10),
+          shape="boldSolidLine",
+          endLocation=(72,80;308,81),
+          polylineLocation="[0,0,-89,0]$[89,0,0,0];(1.0,0.5);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end k626b495f4d__expgraphviewpoint__98c3_relationship_a9a9;
+ 
+      Relationship k626b495f4d__expgraphviewpoint__98c3_relationship_fde2 refer elementTransfer_rel
+        Role k626b495f4d__expgraphviewpoint__98c3_fromrole_b63f refer elementTransfer_from
+          Connect k626b495f4d__expgraphviewpoint__98c3_object_19af;
+ 
+          annotation(
+            localLabel="元素传递始端",
+            shape="no"
+          );
+        end k626b495f4d__expgraphviewpoint__98c3_fromrole_b63f;
+         Role k626b495f4d__expgraphviewpoint__98c3_torole_2961 refer elementTransfer_to
+          Connect k626b495f4d__expgraphviewpoint__98c3_object_e618;
+ 
+          annotation(
+            localLabel="元素传递终端",
+            shape="solidArrow"
+          );
+        end k626b495f4d__expgraphviewpoint__98c3_torole_2961;
+         annotation(
+          localLabel="所需能力",
+          labelLocation=(0,-10),
+          shape="boldSolidLine",
+          endLocation=(43,111;604,81),
+          polylineLocation="[-29,31,-264,31]$[-29,80,-264,80]$[221,80,-14,80]$[221,0,-14,0]$[239,0,4,0];(1.0,0.43103448275862066);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end k626b495f4d__expgraphviewpoint__98c3_relationship_fde2;
+ 
+    Connect(connector(k626b495f4d__expgraphviewpoint__98c3_object_19af,k626b495f4d__expgraphviewpoint__98c3_relationship_a9a9.k626b495f4d__expgraphviewpoint__98c3_fromrole_4088),connector(k626b495f4d__expgraphviewpoint__98c3_object_9c24,k626b495f4d__expgraphviewpoint__98c3_relationship_a9a9.k626b495f4d__expgraphviewpoint__98c3_torole_ba16));
+ 
+    Connect(connector(k626b495f4d__expgraphviewpoint__98c3_object_19af,k626b495f4d__expgraphviewpoint__98c3_relationship_fde2.k626b495f4d__expgraphviewpoint__98c3_fromrole_b63f),connector(k626b495f4d__expgraphviewpoint__98c3_object_e618,k626b495f4d__expgraphviewpoint__98c3_relationship_fde2.k626b495f4d__expgraphviewpoint__98c3_torole_2961));
+ 
+
+      annotation(
+        localLabel="",
+        SDIdentification="",
+        representedObject=""
+    );
+   end k626b495f4d__expgraphviewpoint__98c3;
+]]></modelInformation> 
+  </physical> 
+</KARMA_external_plugin>

@@ -1,0 +1,17 @@
+   Relationship k9276a624df
+   Import Role kcacc7992eb;
+   Export Role k635b59ddfd;
+    Constraint (
+    bind connector(k214aa4d85e,k214aa4d85e),
+    bind connector(kea7b99d6a2,k6651ca9f0a),
+    bind connector(kea7b99d6a2,k79433291a1),
+    );
+   annotation(
+      localLabel="定向组合",
+      description="",
+      icon="定向组合.png",
+      shape="solidLine",
+      seqType=$None,
+      );
+   end k9276a624df;
+ 

@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="k8cfc4e2ba5" nsURI="D:/Office/MetaGraph20241130_208zjs/ArchModeling/workspace/城市智慧管理-体系V1.0/语言/体系/图元模型/k8cfc4e2ba5.karma"
+    nsPrefix="k8cfc4e2ba5">
+  <eClassifiers xsi:type="ecore:EClass" name="DiagramGen" eSuperTypes="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//Diagram">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BuiltIn" eSuperTypes="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//Diagram">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LayoutGen" eSuperTypes="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KLayout">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MatrixGen" eSuperTypes="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KMatrix">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GanttGen" eSuperTypes="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KPlugin">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GraphGen" eSuperTypes="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KGraph">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ObjectGen" eSuperTypes="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KObject">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PointGen" eSuperTypes="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KPoint">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="direction" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="position" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyGen" eSuperTypes="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KProperty">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RelationshipGen" eSuperTypes="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KRelationship">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleGen" eSuperTypes="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KRole">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InputPointGen" eSuperTypes="#//PointGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OutputPointGen" eSuperTypes="#//PointGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UndirectedPointGen" eSuperTypes="#//PointGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ExportRoleGen" eSuperTypes="#//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ImportRoleGen" eSuperTypes="#//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaMetaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TableGen" eSuperTypes="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KTable"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TableRowGen" eSuperTypes="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KTableRow"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TableCellGen" eSuperTypes="platform:/plugin/org.fc.mdt.ecore/model/karma.ecore#//KTableCell"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Model__k8cfc4e2ba5" eSuperTypes="#//GraphGen">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="智慧体系架构细化 [ k8cfc4e2ba5 ] "/>
+      <details key="self" value="k8cfc4e2ba5"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="智慧体系架构细化"/>
+    </eAnnotations>
+    <eAnnotations source="Binding">
+      <details key="sourceRule" value="Def__k8cfc4e2ba5__kea7b99d6a2->Def__k9276a624df__kcacc7992eb"/>
+      <details key="targetRule" value="Def__k8cfc4e2ba5__k79433291a1->Def__k9276a624df__k635b59ddfd"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="layouts" upperBound="-1"
+        eType="#//Tag__Layout__k8cfc4e2ba5" containment="true" eOpposite="#//Tag__Layout__k8cfc4e2ba5/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tables" upperBound="-1"
+        eType="#//Tag__Table__k8cfc4e2ba5" containment="true" eOpposite="#//Tag__Table__k8cfc4e2ba5/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="matrixs" upperBound="-1"
+        eType="#//Tag__Matrix__k8cfc4e2ba5" containment="true" eOpposite="#//Tag__Matrix__k8cfc4e2ba5/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="gantts" upperBound="-1"
+        eType="#//Gantt" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1"
+        eType="#//Tag__Property__k8cfc4e2ba5" containment="true" eOpposite="#//Tag__Property__k8cfc4e2ba5/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="objects" upperBound="-1"
+        eType="#//Tag__Object__k8cfc4e2ba5" containment="true" eOpposite="#//Tag__Object__k8cfc4e2ba5/enclosingGraph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="relationships" upperBound="-1"
+        eType="#//Tag__Relationship__k8cfc4e2ba5" containment="true" eOpposite="#//Tag__Relationship__k8cfc4e2ba5/enclosingGraph"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Layout__k8cfc4e2ba5" eSuperTypes="#//LayoutGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="diagramKind" eType="#//diagramKinds"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modelElementType" eType="#//modelElementTypes"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modelElementName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false"
+        lowerBound="1" eType="#//Model__k8cfc4e2ba5" eOpposite="#//Model__k8cfc4e2ba5/layouts"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="diagramKinds">
+    <eLiterals name="bdd"/>
+    <eLiterals name="idd" value="1"/>
+    <eLiterals name="uc" value="2"/>
+    <eLiterals name="act" value="3"/>
+    <eLiterals name="sd" value="4"/>
+    <eLiterals name="stm" value="5"/>
+    <eLiterals name="par" value="6"/>
+    <eLiterals name="req" value="7"/>
+    <eLiterals name="pkg" value="8"/>
+    <eLiterals name="annotation" value="9"/>
+    <eLiterals name="others" value="10"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="modelElementTypes">
+    <eLiterals name="package"/>
+    <eLiterals name="model" value="1"/>
+    <eLiterals name="modelLibrary" value="2"/>
+    <eLiterals name="view" value="3"/>
+    <eLiterals name="block" value="4"/>
+    <eLiterals name="constraintBlock" value="5"/>
+    <eLiterals name="activity" value="6"/>
+    <eLiterals name="interaction" value="7"/>
+    <eLiterals name="stateMachine" value="8"/>
+    <eLiterals name="profile" value="9"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__layout" eSuperTypes="#//Tag__Layout__k8cfc4e2ba5 #//LayoutGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="布局插件"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Table__k8cfc4e2ba5" eSuperTypes="#//TableGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false"
+        lowerBound="1" eType="#//Model__k8cfc4e2ba5" eOpposite="#//Model__k8cfc4e2ba5/tables"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__table" eSuperTypes="#//Tag__Table__k8cfc4e2ba5 #//TableGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="表单"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Matrix__k8cfc4e2ba5" eSuperTypes="#//MatrixGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false"
+        lowerBound="1" eType="#//Model__k8cfc4e2ba5" eOpposite="#//Model__k8cfc4e2ba5/matrixs"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__matrix" eSuperTypes="#//Tag__Matrix__k8cfc4e2ba5 #//MatrixGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="表单"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Gantt" eSuperTypes="#//GanttGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="time" eType="#//times"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeUnit" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startTime" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endTime" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="color" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ganttTasks" upperBound="-1"
+        eType="#//GanttTask" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="times">
+    <eLiterals name="YEAR"/>
+    <eLiterals name="MONTH" value="1"/>
+    <eLiterals name="DAY" value="2"/>
+    <eLiterals name="HOUR" value="3"/>
+    <eLiterals name="MINUTE" value="4"/>
+    <eLiterals name="SECOND" value="5"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__gantt" eSuperTypes="#//Gantt"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GanttTask" abstract="true" eSuperTypes="#//GanttGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ganttTaskElements" upperBound="-1"
+        eType="#//GanttTaskElement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__ganttTask" eSuperTypes="#//GanttTask"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GanttTaskElement" abstract="true" eSuperTypes="#//GanttGen">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementOffset" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementLength" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementColor" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__ganttTaskElement"
+      eSuperTypes="#//GanttTaskElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__k8cfc4e2ba5" abstract="true"
+      eSuperTypes="#//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false"
+        lowerBound="1" eType="#//Model__k8cfc4e2ba5" eOpposite="#//Model__k8cfc4e2ba5/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Object__k8cfc4e2ba5" abstract="true"
+      eSuperTypes="#//ObjectGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false"
+        lowerBound="1" eType="#//Model__k8cfc4e2ba5" eOpposite="#//Model__k8cfc4e2ba5/objects"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Relationship__k8cfc4e2ba5" abstract="true"
+      eSuperTypes="#//RelationshipGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingGraph" ordered="false"
+        lowerBound="1" eType="#//Model__k8cfc4e2ba5" eOpposite="#//Model__k8cfc4e2ba5/relationships"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__kea7b99d6a2" abstract="true"
+      eSuperTypes="#//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="模块"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1"
+        eType="#//Tag__Property__kea7b99d6a2" containment="true" eOpposite="#//Tag__Property__kea7b99d6a2/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1"
+        eType="#//Tag__InputPoint__kea7b99d6a2" containment="true" eOpposite="#//Tag__InputPoint__kea7b99d6a2/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1"
+        eType="#//Tag__OutputPoint__kea7b99d6a2" containment="true" eOpposite="#//Tag__OutputPoint__kea7b99d6a2/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1"
+        eType="#//Tag__UndirectedPoint__kea7b99d6a2" containment="true" eOpposite="#//Tag__UndirectedPoint__kea7b99d6a2/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__kea7b99d6a2" abstract="true"
+      eSuperTypes="#//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false"
+        lowerBound="1" eType="#//Object__kea7b99d6a2" eOpposite="#//Object__kea7b99d6a2/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__kea7b99d6a2" abstract="true"
+      eSuperTypes="#//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false"
+        lowerBound="1" eType="#//Object__kea7b99d6a2" eOpposite="#//Object__kea7b99d6a2/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__kea7b99d6a2" abstract="true"
+      eSuperTypes="#//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false"
+        lowerBound="1" eType="#//Object__kea7b99d6a2" eOpposite="#//Object__kea7b99d6a2/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__kea7b99d6a2" abstract="true"
+      eSuperTypes="#//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false"
+        lowerBound="1" eType="#//Object__kea7b99d6a2" eOpposite="#//Object__kea7b99d6a2/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property__k42df8e3968" eSuperTypes="#//PropertyGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="描述"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__kea7b99d6a2__kea7b99d6a2_k42df8e3968_b3a242"
+      eSuperTypes="#//Property__k42df8e3968 #//Tag__Property__kea7b99d6a2">
+    <eAnnotations source="annotation">
+      <details key="metaInfo" value="描述 [ kea7b99d6a2_k42df8e3968_b3a242 ] "/>
+      <details key="dataType" value="String"/>
+      <details key="name" value="描述"/>
+      <details key="value" value="null"/>
+      <details key="self" value="kea7b99d6a2_k42df8e3968_b3a242"/>
+      <details key="parent" value="kea7b99d6a2"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="描述"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__BUILTIN_Object_Transfer_k79433291a1"
+      abstract="true" eSuperTypes="#//ObjectGen #//BuiltIn">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="智慧体系要素"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1"
+        eType="#//Tag__Property__BUILTIN_Object_Transfer_k79433291a1" containment="true"
+        eOpposite="#//Tag__Property__BUILTIN_Object_Transfer_k79433291a1/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1"
+        eType="#//Tag__InputPoint__BUILTIN_Object_Transfer_k79433291a1" containment="true"
+        eOpposite="#//Tag__InputPoint__BUILTIN_Object_Transfer_k79433291a1/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1"
+        eType="#//Tag__OutputPoint__BUILTIN_Object_Transfer_k79433291a1" containment="true"
+        eOpposite="#//Tag__OutputPoint__BUILTIN_Object_Transfer_k79433291a1/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1"
+        eType="#//Tag__UndirectedPoint__BUILTIN_Object_Transfer_k79433291a1" containment="true"
+        eOpposite="#//Tag__UndirectedPoint__BUILTIN_Object_Transfer_k79433291a1/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__BUILTIN_Object_Transfer_k79433291a1"
+      abstract="true" eSuperTypes="#//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false"
+        lowerBound="1" eType="#//Object__BUILTIN_Object_Transfer_k79433291a1" eOpposite="#//Object__BUILTIN_Object_Transfer_k79433291a1/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__BUILTIN_Object_Transfer_k79433291a1"
+      abstract="true" eSuperTypes="#//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false"
+        lowerBound="1" eType="#//Object__BUILTIN_Object_Transfer_k79433291a1" eOpposite="#//Object__BUILTIN_Object_Transfer_k79433291a1/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__BUILTIN_Object_Transfer_k79433291a1"
+      abstract="true" eSuperTypes="#//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false"
+        lowerBound="1" eType="#//Object__BUILTIN_Object_Transfer_k79433291a1" eOpposite="#//Object__BUILTIN_Object_Transfer_k79433291a1/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__BUILTIN_Object_Transfer_k79433291a1"
+      abstract="true" eSuperTypes="#//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false"
+        lowerBound="1" eType="#//Object__BUILTIN_Object_Transfer_k79433291a1" eOpposite="#//Object__BUILTIN_Object_Transfer_k79433291a1/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object__k79433291a1" abstract="true"
+      eSuperTypes="#//ObjectGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="智慧体系要素"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1"
+        eType="#//Tag__Property__k79433291a1" containment="true" eOpposite="#//Tag__Property__k79433291a1/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" upperBound="-1"
+        eType="#//Tag__InputPoint__k79433291a1" containment="true" eOpposite="#//Tag__InputPoint__k79433291a1/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="output" upperBound="-1"
+        eType="#//Tag__OutputPoint__k79433291a1" containment="true" eOpposite="#//Tag__OutputPoint__k79433291a1/enclosingObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="undirected" upperBound="-1"
+        eType="#//Tag__UndirectedPoint__k79433291a1" containment="true" eOpposite="#//Tag__UndirectedPoint__k79433291a1/enclosingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__k79433291a1" abstract="true"
+      eSuperTypes="#//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false"
+        lowerBound="1" eType="#//Object__k79433291a1" eOpposite="#//Object__k79433291a1/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__InputPoint__k79433291a1" abstract="true"
+      eSuperTypes="#//InputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false"
+        lowerBound="1" eType="#//Object__k79433291a1" eOpposite="#//Object__k79433291a1/input"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__OutputPoint__k79433291a1" abstract="true"
+      eSuperTypes="#//OutputPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false"
+        lowerBound="1" eType="#//Object__k79433291a1" eOpposite="#//Object__k79433291a1/output"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__UndirectedPoint__k79433291a1" abstract="true"
+      eSuperTypes="#//UndirectedPointGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingObject" ordered="false"
+        lowerBound="1" eType="#//Object__k79433291a1" eOpposite="#//Object__k79433291a1/undirected"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__k79433291a1_kb10cf08e6a_da02a1"
+      abstract="true" eSuperTypes="#//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false"
+        lowerBound="1" eType="#//Point__k79433291a1_kb10cf08e6a_da02a1" eOpposite="#//Point__k79433291a1_kb10cf08e6a_da02a1/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__k79433291a1_kb10cf08e6a_da02a1"
+      eSuperTypes="#//InputPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="通信中继输入"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1"
+        eType="#//Tag__Property__k79433291a1_kb10cf08e6a_da02a1" containment="true"
+        eOpposite="#//Tag__Property__k79433291a1_kb10cf08e6a_da02a1/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k79433291a1__k79433291a1_kb10cf08e6a_da02a1"
+      eSuperTypes="#//Tag__InputPoint__k79433291a1 #//Point__k79433291a1_kb10cf08e6a_da02a1">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="triangle"/>
+      <details key="parent" value="k79433291a1"/>
+      <details key="self" value="k79433291a1_kb10cf08e6a_da02a1"/>
+      <details key="metaInfo" value="通信中继输入 [ k79433291a1_kb10cf08e6a_da02a1 ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="通信中继输入"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__k79433291a1_kb76db55211_8ec3ed"
+      abstract="true" eSuperTypes="#//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingPoint" ordered="false"
+        lowerBound="1" eType="#//Point__k79433291a1_kb76db55211_8ec3ed" eOpposite="#//Point__k79433291a1_kb76db55211_8ec3ed/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point__k79433291a1_kb76db55211_8ec3ed"
+      eSuperTypes="#//OutputPointGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="通信中继输出"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1"
+        eType="#//Tag__Property__k79433291a1_kb76db55211_8ec3ed" containment="true"
+        eOpposite="#//Tag__Property__k79433291a1_kb76db55211_8ec3ed/enclosingPoint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k79433291a1__k79433291a1_kb76db55211_8ec3ed"
+      eSuperTypes="#//Tag__OutputPoint__k79433291a1 #//Point__k79433291a1_kb76db55211_8ec3ed">
+    <eAnnotations source="annotation">
+      <details key="pointShape" value="triangle"/>
+      <details key="parent" value="k79433291a1"/>
+      <details key="self" value="k79433291a1_kb76db55211_8ec3ed"/>
+      <details key="metaInfo" value="通信中继输出 [ k79433291a1_kb76db55211_8ec3ed ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="通信中继输出"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__kea7b99d6a2" eSuperTypes="#//Tag__Object__k8cfc4e2ba5 #//Object__kea7b99d6a2">
+    <eAnnotations source="annotation">
+      <details key="self" value="kea7b99d6a2"/>
+      <details key="parent" value="k8cfc4e2ba5"/>
+      <details key="mode" value="propertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="模块[kea7b99d6a2]"/>
+      <details key="properties" value="Def__kea7b99d6a2__kea7b99d6a2_k42df8e3968_b3a242,kea7b99d6a2_k42df8e3968_b3a242,描述,null"/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="模块"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="#//Def__k8cfc4e2ba5__kea7b99d6a2__decomposeN"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1"
+        eType="#//Def__k8cfc4e2ba5__kea7b99d6a2__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__kea7b99d6a2__decomposeN"
+      eSuperTypes="#//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__kea7b99d6a2__explodesN"
+      eSuperTypes="#//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__BUILTIN_Object_Transfer_k79433291a1"
+      eSuperTypes="#//Tag__Object__k8cfc4e2ba5 #//Object__BUILTIN_Object_Transfer_k79433291a1">
+    <eAnnotations source="annotation">
+      <details key="self" value="BUILTIN_Object_Transfer_k79433291a1"/>
+      <details key="parent" value="k8cfc4e2ba5"/>
+      <details key="mode" value="blankPropertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="智慧体系要素[BUILTIN_Object_Transfer_k79433291a1]"/>
+      <details key="properties" value=""/>
+      <details key="input" value=""/>
+      <details key="output" value=""/>
+      <details key="undirected" value=""/>
+      <details key="referedMetaObject" value="k79433291a1"/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="智慧体系要素"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="#//Def__k8cfc4e2ba5__BUILTIN_Object_Transfer_k79433291a1__decomposeN"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1"
+        eType="#//Def__k8cfc4e2ba5__BUILTIN_Object_Transfer_k79433291a1__explodesN"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__BUILTIN_Object_Transfer_k79433291a1__decomposeN"
+      eSuperTypes="#//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__BUILTIN_Object_Transfer_k79433291a1__explodesN"
+      eSuperTypes="#//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__k79433291a1" eSuperTypes="#//Tag__Object__k8cfc4e2ba5 #//Object__k79433291a1">
+    <eAnnotations source="annotation">
+      <details key="self" value="k79433291a1"/>
+      <details key="parent" value="k8cfc4e2ba5"/>
+      <details key="mode" value="blankPropertyMode"/>
+      <details key="shape" value="rectangle"/>
+      <details key="metaInfo" value="智慧体系要素[k79433291a1]"/>
+      <details key="properties" value=""/>
+      <details key="input" value="Def__k79433291a1__k79433291a1_kb10cf08e6a_da02a1,k79433291a1_kb10cf08e6a_da02a1,通信中继输入"/>
+      <details key="output" value="Def__k79433291a1__k79433291a1_kb76db55211_8ec3ed,k79433291a1_kb76db55211_8ec3ed,通信中继输出"/>
+      <details key="undirected" value=""/>
+    </eAnnotations>
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="智慧体系要素"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="highlight" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="decomposeN" eType="#//Def__k8cfc4e2ba5__k79433291a1__decomposeN"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="explodesN" upperBound="-1"
+        eType="#//Def__k8cfc4e2ba5__k79433291a1__explodesN" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__k79433291a1__decomposeN"
+      eSuperTypes="#//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__k79433291a1__explodesN"
+      eSuperTypes="#//GraphGen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__k9276a624df" abstract="true"
+      eSuperTypes="#//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRelationship"
+        ordered="false" lowerBound="1" eType="#//Relationship__k9276a624df" eOpposite="#//Relationship__k9276a624df/properties"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Relationship__k9276a624df" eSuperTypes="#//RelationshipGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="定向组合"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1"
+        eType="#//Tag__Property__k9276a624df" containment="true" eOpposite="#//Tag__Property__k9276a624df/enclosingRelationship"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fromRole" eType="#//Tag__Role__Import__k9276a624df"
+        containment="true" eOpposite="#//Tag__Role__Import__k9276a624df/enclosingRelationship"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="toRole" eType="#//Tag__Role__Export__k9276a624df"
+        containment="true" eOpposite="#//Tag__Role__Export__k9276a624df/enclosingRelationship"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Role__Import__k9276a624df" abstract="true"
+      eSuperTypes="#//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRelationship"
+        ordered="false" lowerBound="1" eType="#//Relationship__k9276a624df" eOpposite="#//Relationship__k9276a624df/fromRole"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Role__Export__k9276a624df" abstract="true"
+      eSuperTypes="#//RoleGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRelationship"
+        ordered="false" lowerBound="1" eType="#//Relationship__k9276a624df" eOpposite="#//Relationship__k9276a624df/toRole"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__kcacc7992eb" abstract="true"
+      eSuperTypes="#//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRole" ordered="false"
+        lowerBound="1" eType="#//Role__kcacc7992eb"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k9276a624df__kcacc7992eb" eSuperTypes="#//Tag__Role__Import__k9276a624df #//Role__kcacc7992eb">
+    <eAnnotations source="annotation">
+      <details key="shape" value="solidDiamond"/>
+      <details key="properties" value=""/>
+      <details key="metaInfo" value="定向组合始端 [ kcacc7992eb ] "/>
+      <details key="parent" value="k9276a624df"/>
+      <details key="self" value="kcacc7992eb"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Role__kcacc7992eb" eSuperTypes="#//ImportRoleGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="定向组合始端"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1"
+        eType="#//Tag__Property__kcacc7992eb" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag__Property__k635b59ddfd" abstract="true"
+      eSuperTypes="#//PropertyGen">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingRole" ordered="false"
+        lowerBound="1" eType="#//Role__k635b59ddfd"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k9276a624df__k635b59ddfd" eSuperTypes="#//Tag__Role__Export__k9276a624df #//Role__k635b59ddfd">
+    <eAnnotations source="annotation">
+      <details key="shape" value="arrowShape"/>
+      <details key="properties" value=""/>
+      <details key="metaInfo" value="定向组合终端 [ k635b59ddfd ] "/>
+      <details key="parent" value="k9276a624df"/>
+      <details key="self" value="k635b59ddfd"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Role__k635b59ddfd" eSuperTypes="#//ExportRoleGen">
+    <eAnnotations source="LocalLabel">
+      <details key="name" value="定向组合终端"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1"
+        eType="#//Tag__Property__k635b59ddfd" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Def__k8cfc4e2ba5__k9276a624df" eSuperTypes="#//Tag__Relationship__k8cfc4e2ba5 #//Relationship__k9276a624df">
+    <eAnnotations source="annotation">
+      <details key="parent" value="k8cfc4e2ba5"/>
+      <details key="self" value="k9276a624df"/>
+      <details key="roles" value="kcacc7992eb,k635b59ddfd"/>
+      <details key="metaInfo" value="定向组合 [ k9276a624df ] "/>
+      <details key="properties" value=""/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="k2ddc359d48_object_fc37" instanceTypeName="kea7b99d6a2"/>
+</ecore:EPackage>
