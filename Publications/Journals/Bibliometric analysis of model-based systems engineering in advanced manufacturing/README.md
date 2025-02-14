@@ -43,7 +43,7 @@ Jinzhi Lu, Yihui Gong, Guoxin Wang, Yan Yan
 **MLA**:Lu, Jinzhi, et al. "Bibliometric analysis of model-based systems engineering in advanced manufacturing." Journal of Intelligent Manufacturing and Special Equipment (2024): 2633-6596.
 **APA**: Lu, J., Gong, Y., Wng, G, X., Yan, Y. (2024). Bibliometric analysis of model-based systems engineering in advanced manufacturing. Journal of Intelligent Manufacturing and Special Equipment, 2633-6596.
 **Bibtex**:
-@article{Ma31012025,
+@article{lu2020domain,
   title = {Bibliometric analysis of model-based systems engineering in advanced manufacturing},
   author = {Jinzhi Lu, Yihui Gong, Guoxin Wang, Yan Yan },
   journal = { Journal of Intelligent Manufacturing and Special Equipment},
