@@ -1,0 +1,1225 @@
+    partial Model model_graph_ibd_c61e4 instanceof graph_ibd
+    
+      Object model_graph_ibd_c61e4_object_c13a refer object_block
+        Property model_graph_ibd_c61e4_object_c13a_property_fdd2 = "系统电源" refer object_block_property_name_c7eb65 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_ibd_c61e4_object_c13a_undirected_88bb refer object_block_point_port_914a0f
+      annotation(
+         localLabel="系统电源",
+         labelLocation=(-1,-1),
+		 initialLocation=(130,24,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_c13a_undirected_88bb;
+ 
+      
+        annotation(
+          initialLocation=(18,132,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_ibd_c61e4_object_c13a;
+
+      Object model_graph_ibd_c61e4_object_1e64 refer object_internalblock
+        Property model_graph_ibd_c61e4_object_1e64_property_a15c = "供配电子系统" refer object_internalblock_property_name_f2c3e2 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_ibd_c61e4_object_1e64_undirected_a6ad refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="支撑力",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,68,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_1e64_undirected_a6ad;
+ 
+      Point model_graph_ibd_c61e4_object_1e64_point_7903 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="供电",
+         labelLocation=(-1,-1),
+		 initialLocation=(114,84,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_1e64_point_7903;
+ 
+      Point model_graph_ibd_c61e4_object_1e64_point_26d6 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="系统电源",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_1e64_point_26d6;
+ 
+      Point model_graph_ibd_c61e4_object_1e64_point_d389 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="接收工作信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(12,84,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_1e64_point_d389;
+ 
+      
+        annotation(
+          initialLocation=(252,144,140,94),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_ibd_c61e4_object_1e64;
+
+      Object model_graph_ibd_c61e4_object_52a4 refer object_internalblock
+        Property model_graph_ibd_c61e4_object_52a4_property_5f8c = "控制驱动器子系统" refer object_internalblock_property_name_f2c3e2 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_ibd_c61e4_object_52a4_undirected_b4a6 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="支撑力",
+         labelLocation=(-1,-1),
+		 initialLocation=(0,87,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_52a4_undirected_b4a6;
+ 
+      Point model_graph_ibd_c61e4_object_52a4_point_1fb7 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="得电",
+         labelLocation=(-1,-1),
+		 initialLocation=(90,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_52a4_point_1fb7;
+ 
+      Point model_graph_ibd_c61e4_object_52a4_point_6c8d refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="驱动力",
+         labelLocation=(-1,-1),
+		 initialLocation=(156,87,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_52a4_point_6c8d;
+ 
+      Point model_graph_ibd_c61e4_object_52a4_point_39dc refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="接收收放信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,10,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_52a4_point_39dc;
+ 
+      Point model_graph_ibd_c61e4_object_52a4_point_f3e9 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="发送工作信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(30,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_52a4_point_f3e9;
+ 
+      Point model_graph_ibd_c61e4_object_52a4_point_9049 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="发送应急下放信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(162,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_52a4_point_9049;
+ 
+      Point model_graph_ibd_c61e4_object_52a4_point_2d54 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="接收传感器信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(84,87,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_52a4_point_2d54;
+ 
+      
+        annotation(
+          initialLocation=(234,338,189,97),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_ibd_c61e4_object_52a4;
+
+      Object model_graph_ibd_c61e4_object_9db0 refer object_internalblock
+        Property model_graph_ibd_c61e4_object_9db0_property_54c2 = "结构子系统" refer object_internalblock_property_name_f2c3e2 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_ibd_c61e4_object_9db0_undirected_e655 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="支撑力",
+         labelLocation=(-1,-1),
+		 initialLocation=(72,-12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_9db0_undirected_e655;
+ 
+      
+        annotation(
+          initialLocation=(372,570,140,70),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_ibd_c61e4_object_9db0;
+
+      Object model_graph_ibd_c61e4_object_7b74 refer object_internalblock
+        Property model_graph_ibd_c61e4_object_7b74_property_89a3 = "收放子系统" refer object_internalblock_property_name_f2c3e2 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_ibd_c61e4_object_7b74_point_5c7b refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="得到驱动力1",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,66,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_7b74_point_5c7b;
+ 
+      Point model_graph_ibd_c61e4_object_7b74_point_30a9 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="支撑力",
+         labelLocation=(-1,-1),
+		 initialLocation=(130,12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_7b74_point_30a9;
+ 
+      Point model_graph_ibd_c61e4_object_7b74_point_2e40 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="接收应急下放信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,12,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_7b74_point_2e40;
+ 
+      Point model_graph_ibd_c61e4_object_7b74_point_5830 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="发送位置信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(130,72,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_7b74_point_5830;
+ 
+      
+        annotation(
+          initialLocation=(509,126,140,106),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_ibd_c61e4_object_7b74;
+
+      Object model_graph_ibd_c61e4_object_4a40 refer object_internalblock
+        Property model_graph_ibd_c61e4_object_4a40_property_7fda = "机轮刹车子系统" refer object_internalblock_property_name_f2c3e2 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_ibd_c61e4_object_4a40_point_1b85 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="得到驱动力3",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,68,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_4a40_point_1b85;
+ 
+      Point model_graph_ibd_c61e4_object_4a40_point_d817 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="支撑力",
+         labelLocation=(-1,-1),
+		 initialLocation=(106,90,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_4a40_point_d817;
+ 
+      Point model_graph_ibd_c61e4_object_4a40_point_b054 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="发送速度信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(130,31,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_4a40_point_b054;
+ 
+      
+        annotation(
+          initialLocation=(509,405,140,100),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_ibd_c61e4_object_4a40;
+
+      Object model_graph_ibd_c61e4_object_169f refer object_internalblock
+        Property model_graph_ibd_c61e4_object_169f_property_fdd0 = "前轮转向子系统" refer object_internalblock_property_name_f2c3e2 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_ibd_c61e4_object_169f_point_bdbb refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="得到驱动力2",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,63,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_169f_point_bdbb;
+ 
+      Point model_graph_ibd_c61e4_object_169f_point_21b0 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="支撑力",
+         labelLocation=(-1,-1),
+		 initialLocation=(118,84,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_169f_point_21b0;
+ 
+      Point model_graph_ibd_c61e4_object_169f_point_7eb4 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="发送角度信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(130,15,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_169f_point_7eb4;
+ 
+      
+        annotation(
+          initialLocation=(509,282,140,94),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_ibd_c61e4_object_169f;
+
+      Object model_graph_ibd_c61e4_object_f50f refer object_internalblock
+        Property model_graph_ibd_c61e4_object_f50f_property_1350 = "传感器子系统" refer object_internalblock_property_name_f2c3e2 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_ibd_c61e4_object_f50f_undirected_da07 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="支撑力",
+         labelLocation=(-1,-1),
+		 initialLocation=(118,101,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_f50f_undirected_da07;
+ 
+      Point model_graph_ibd_c61e4_object_f50f_point_74ff refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="发送传感器信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(84,101,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_f50f_point_74ff;
+ 
+      Point model_graph_ibd_c61e4_object_f50f_point_c1c2 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="接收位置信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,0,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_f50f_point_c1c2;
+ 
+      Point model_graph_ibd_c61e4_object_f50f_point_46f6 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="接收速度信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(0,101,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_f50f_point_46f6;
+ 
+      Point model_graph_ibd_c61e4_object_f50f_point_4816 refer object_internalblock_point_port_fbed8c
+      annotation(
+         localLabel="接收角度信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,49,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_f50f_point_4816;
+ 
+      
+        annotation(
+          initialLocation=(762,252,140,111),
+          localLabel="组成部分属性",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_ibd_c61e4_object_f50f;
+
+      Object model_graph_ibd_c61e4_object_15d9 refer object_block
+        Property model_graph_ibd_c61e4_object_15d9_property_cf38 = "收放信号" refer object_block_property_name_c7eb65 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_graph_ibd_c61e4_object_15d9_undirected_7f6c refer object_block_point_port_914a0f
+      annotation(
+         localLabel="发出收放信号",
+         labelLocation=(-1,-1),
+		 initialLocation=(130,10,22,22),
+         shape="rectangle",
+         color="136,136,136;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_graph_ibd_c61e4_object_15d9_undirected_7f6c;
+ 
+      
+        annotation(
+          initialLocation=(18,338,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_ibd_c61e4_object_15d9;
+
+      Relationship model_graph_ibd_c61e4_relationship_584d refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_1f90 refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_1f90;
+         Role model_graph_ibd_c61e4_torole_22ef refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_22ef;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(318,201;282,474),
+          polylineLocation="[-4,10,38,-88]$[-4,49,38,-49]$[-46,49,-4,-49]$[-46,88,-4,-10];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_584d;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_7c14 refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_119c refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_119c;
+         Role model_graph_ibd_c61e4_torole_fdef refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_fdef;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(312,191;648,941),
+          polylineLocation="[-10,0,-214,-346]$[-58,0,-262,-346]$[-58,306,-262,-40]$[206,306,2,-40]$[206,336,2,-10];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_7c14;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_6d63 refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_9f46 refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_9f46;
+         Role model_graph_ibd_c61e4_torole_9cb6 refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_9cb6;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(333,396;654,728),
+          polylineLocation="[5,10,-205,-123]$[5,75,-205,-58]$[212,75,2,-58]$[212,123,2,-10];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_6d63;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_b880 refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_097b refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_097b;
+         Role model_graph_ibd_c61e4_torole_727d refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_727d;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(338,384;676,-37),
+          polylineLocation="[10,-2,-97,219]$[50,-2,-57,219]$[50,-216,-57,5]$[97,-216,-10,5];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_b880;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_2872 refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_23bf refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_23bf;
+         Role model_graph_ibd_c61e4_torole_a13a refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_a13a;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(338,384;676,259),
+          polylineLocation="[10,-2,-97,78]$[80,-2,-27,78]$[80,-70,-27,10]$[97,-70,-10,10];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_2872;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_12cc refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_53ec refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_53ec;
+         Role model_graph_ibd_c61e4_torole_fe9f refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_fe9f;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(324,396;676,503),
+          polylineLocation="[-4,10,-111,-38]$[-4,48,-111,0]$[97,48,-10,0];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_12cc;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_3266 refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_88b3 refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_88b3;
+         Role model_graph_ibd_c61e4_torole_8011 refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_8011;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(444,595;750,402),
+          polylineLocation="[2,-10,-169,53]$[2,-40,-169,23]$[171,-40,0,23]$[171,-53,0,10];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_3266;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_0efe refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_0da8 refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_0da8;
+         Role model_graph_ibd_c61e4_torole_41ec refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_41ec;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(452,595;1270,112),
+          polylineLocation="[10,-10,-426,195]$[438,-10,2,195]$[438,-195,2,10];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_0efe;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_1bdf refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_de1d refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_de1d;
+         Role model_graph_ibd_c61e4_torole_7b4b refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_7b4b;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(444,595;784,-241),
+          polylineLocation="[2,-10,-193,410]$[2,-40,-193,380]$[512,-40,317,380]$[512,-420,317,0]$[205,-420,10,0];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_1bdf;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_056c refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_f2f6 refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_f2f6;
+         Role model_graph_ibd_c61e4_torole_32ba refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_32ba;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(444,595;772,137),
+          polylineLocation="[2,-10,-181,182]$[2,-40,-181,152]$[272,-40,89,152]$[272,-192,89,0]$[193,-192,10,0];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_056c;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_0dc6 refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_0a8e refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_0a8e;
+         Role model_graph_ibd_c61e4_torole_614e refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_614e;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(328,386;322,113),
+          polylineLocation="[0,0,6,78]$[0,-78,6,0];(0.6,0.0);(0.3,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_0dc6;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_60f1 refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_17dc refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_17dc;
+         Role model_graph_ibd_c61e4_torole_4a3b refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_4a3b;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(328,386;668,-3),
+          polylineLocation="[0,0,-89,182]$[0,-182,-89,0]$[89,-182,0,0];(0.6,0.0);(0.0,0.3)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_60f1;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_b8d8 refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_7ee0 refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_7ee0;
+         Role model_graph_ibd_c61e4_torole_3157 refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_3157;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(850,321;-199,472),
+          polylineLocation="[18,14,526,-62]$[18,173,526,97]$[-527,173,-19,97]$[-527,86,-19,10];(0.0,0.3);(1.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_b8d8;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_1817 refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_d295 refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_d295;
+         Role model_graph_ibd_c61e4_torole_68b6 refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_68b6;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(569,198;923,366),
+          polylineLocation="[-10,19,-101,-40]$[-10,59,-101,0]$[91,59,0,0];(1.0,0.05);(0.0,0.3)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_1817;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_2790 refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_84c2 refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_84c2;
+         Role model_graph_ibd_c61e4_torole_b9f4 refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_b9f4;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(592,465;954,244),
+          polylineLocation="[13,10,-103,86]$[122,10,6,86]$[122,-63,6,13];(0.35,0.0);(0.0,0.35)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_2790;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_d616 refer relationship_connector
+        Role model_graph_ibd_c61e4_fromrole_83b6 refer connector_In
+          annotation(
+            localLabel="连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_83b6;
+         Role model_graph_ibd_c61e4_torole_57b3 refer connector_Out
+          annotation(
+            localLabel="连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_57b3;
+       
+        annotation(
+          localLabel="连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(579,329;923,307),
+          polylineLocation="[0,0,-91,0]$[91,0,0,0];(1.0,0.7);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_d616;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_d0db refer bindingconnector
+        Role model_graph_ibd_c61e4_fromrole_ffaf refer bindingconnector_in
+          annotation(
+            localLabel="绑定连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_ffaf;
+         Role model_graph_ibd_c61e4_torole_ac20 refer bindconnector_out
+          annotation(
+            localLabel="绑定连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_ac20;
+       
+        annotation(
+          localLabel="绑定连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(98,166;404,190),
+          polylineLocation="[10,-1,-82,-49]$[82,-1,-10,-49];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_d0db;
+ 
+      Relationship model_graph_ibd_c61e4_relationship_2de2 refer bindingconnector
+        Role model_graph_ibd_c61e4_fromrole_8ae8 refer bindingconnector_in
+          annotation(
+            localLabel="绑定连接器始端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_fromrole_8ae8;
+         Role model_graph_ibd_c61e4_torole_7429 refer bindconnector_out
+          annotation(
+            localLabel="绑定连接器终端",
+            shape="no"
+          );
+        end model_graph_ibd_c61e4_torole_7429;
+       
+        annotation(
+          localLabel="绑定连接器",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(88,379;382,392),
+          polylineLocation="[0,6,-54,0]$[54,6,0,0];(1.0,0.2);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_ibd_c61e4_relationship_2de2;
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_1e64.model_graph_ibd_c61e4_object_1e64_point_7903,model_graph_ibd_c61e4_relationship_584d.model_graph_ibd_c61e4_fromrole_1f90),connector(model_graph_ibd_c61e4_object_52a4.model_graph_ibd_c61e4_object_52a4_point_1fb7,model_graph_ibd_c61e4_relationship_584d.model_graph_ibd_c61e4_torole_22ef));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_1e64.model_graph_ibd_c61e4_object_1e64_undirected_a6ad,model_graph_ibd_c61e4_relationship_7c14.model_graph_ibd_c61e4_fromrole_119c),connector(model_graph_ibd_c61e4_object_9db0.model_graph_ibd_c61e4_object_9db0_undirected_e655,model_graph_ibd_c61e4_relationship_7c14.model_graph_ibd_c61e4_torole_fdef));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_52a4.model_graph_ibd_c61e4_object_52a4_undirected_b4a6,model_graph_ibd_c61e4_relationship_6d63.model_graph_ibd_c61e4_fromrole_9f46),connector(model_graph_ibd_c61e4_object_9db0.model_graph_ibd_c61e4_object_9db0_undirected_e655,model_graph_ibd_c61e4_relationship_6d63.model_graph_ibd_c61e4_torole_9cb6));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_52a4.model_graph_ibd_c61e4_object_52a4_point_6c8d,model_graph_ibd_c61e4_relationship_b880.model_graph_ibd_c61e4_fromrole_097b),connector(model_graph_ibd_c61e4_object_7b74.model_graph_ibd_c61e4_object_7b74_point_5c7b,model_graph_ibd_c61e4_relationship_b880.model_graph_ibd_c61e4_torole_727d));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_52a4.model_graph_ibd_c61e4_object_52a4_point_6c8d,model_graph_ibd_c61e4_relationship_2872.model_graph_ibd_c61e4_fromrole_23bf),connector(model_graph_ibd_c61e4_object_169f.model_graph_ibd_c61e4_object_169f_point_bdbb,model_graph_ibd_c61e4_relationship_2872.model_graph_ibd_c61e4_torole_a13a));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_52a4.model_graph_ibd_c61e4_object_52a4_point_6c8d,model_graph_ibd_c61e4_relationship_12cc.model_graph_ibd_c61e4_fromrole_53ec),connector(model_graph_ibd_c61e4_object_4a40.model_graph_ibd_c61e4_object_4a40_point_1b85,model_graph_ibd_c61e4_relationship_12cc.model_graph_ibd_c61e4_torole_fe9f));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_9db0.model_graph_ibd_c61e4_object_9db0_undirected_e655,model_graph_ibd_c61e4_relationship_3266.model_graph_ibd_c61e4_fromrole_88b3),connector(model_graph_ibd_c61e4_object_4a40.model_graph_ibd_c61e4_object_4a40_point_d817,model_graph_ibd_c61e4_relationship_3266.model_graph_ibd_c61e4_torole_8011));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_9db0.model_graph_ibd_c61e4_object_9db0_undirected_e655,model_graph_ibd_c61e4_relationship_0efe.model_graph_ibd_c61e4_fromrole_0da8),connector(model_graph_ibd_c61e4_object_f50f.model_graph_ibd_c61e4_object_f50f_undirected_da07,model_graph_ibd_c61e4_relationship_0efe.model_graph_ibd_c61e4_torole_41ec));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_9db0.model_graph_ibd_c61e4_object_9db0_undirected_e655,model_graph_ibd_c61e4_relationship_1bdf.model_graph_ibd_c61e4_fromrole_de1d),connector(model_graph_ibd_c61e4_object_7b74.model_graph_ibd_c61e4_object_7b74_point_30a9,model_graph_ibd_c61e4_relationship_1bdf.model_graph_ibd_c61e4_torole_7b4b));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_9db0.model_graph_ibd_c61e4_object_9db0_undirected_e655,model_graph_ibd_c61e4_relationship_056c.model_graph_ibd_c61e4_fromrole_f2f6),connector(model_graph_ibd_c61e4_object_169f.model_graph_ibd_c61e4_object_169f_point_21b0,model_graph_ibd_c61e4_relationship_056c.model_graph_ibd_c61e4_torole_32ba));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_52a4.model_graph_ibd_c61e4_object_52a4_point_f3e9,model_graph_ibd_c61e4_relationship_0dc6.model_graph_ibd_c61e4_fromrole_0a8e),connector(model_graph_ibd_c61e4_object_1e64.model_graph_ibd_c61e4_object_1e64_point_d389,model_graph_ibd_c61e4_relationship_0dc6.model_graph_ibd_c61e4_torole_614e));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_52a4.model_graph_ibd_c61e4_object_52a4_point_9049,model_graph_ibd_c61e4_relationship_60f1.model_graph_ibd_c61e4_fromrole_17dc),connector(model_graph_ibd_c61e4_object_7b74.model_graph_ibd_c61e4_object_7b74_point_2e40,model_graph_ibd_c61e4_relationship_60f1.model_graph_ibd_c61e4_torole_4a3b));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_f50f.model_graph_ibd_c61e4_object_f50f_point_74ff,model_graph_ibd_c61e4_relationship_b8d8.model_graph_ibd_c61e4_fromrole_7ee0),connector(model_graph_ibd_c61e4_object_52a4.model_graph_ibd_c61e4_object_52a4_point_2d54,model_graph_ibd_c61e4_relationship_b8d8.model_graph_ibd_c61e4_torole_3157));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_7b74.model_graph_ibd_c61e4_object_7b74_point_5830,model_graph_ibd_c61e4_relationship_1817.model_graph_ibd_c61e4_fromrole_d295),connector(model_graph_ibd_c61e4_object_f50f.model_graph_ibd_c61e4_object_f50f_point_c1c2,model_graph_ibd_c61e4_relationship_1817.model_graph_ibd_c61e4_torole_68b6));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_4a40.model_graph_ibd_c61e4_object_4a40_point_b054,model_graph_ibd_c61e4_relationship_2790.model_graph_ibd_c61e4_fromrole_84c2),connector(model_graph_ibd_c61e4_object_f50f.model_graph_ibd_c61e4_object_f50f_point_46f6,model_graph_ibd_c61e4_relationship_2790.model_graph_ibd_c61e4_torole_b9f4));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_169f.model_graph_ibd_c61e4_object_169f_point_7eb4,model_graph_ibd_c61e4_relationship_d616.model_graph_ibd_c61e4_fromrole_83b6),connector(model_graph_ibd_c61e4_object_f50f.model_graph_ibd_c61e4_object_f50f_point_4816,model_graph_ibd_c61e4_relationship_d616.model_graph_ibd_c61e4_torole_57b3));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_c13a.model_graph_ibd_c61e4_object_c13a_undirected_88bb,model_graph_ibd_c61e4_relationship_d0db.model_graph_ibd_c61e4_fromrole_ffaf),connector(model_graph_ibd_c61e4_object_1e64.model_graph_ibd_c61e4_object_1e64_point_26d6,model_graph_ibd_c61e4_relationship_d0db.model_graph_ibd_c61e4_torole_ac20));
+ 
+    Connect(connector(model_graph_ibd_c61e4_object_15d9.model_graph_ibd_c61e4_object_15d9_undirected_7f6c,model_graph_ibd_c61e4_relationship_2de2.model_graph_ibd_c61e4_fromrole_8ae8),connector(model_graph_ibd_c61e4_object_52a4.model_graph_ibd_c61e4_object_52a4_point_39dc,model_graph_ibd_c61e4_relationship_2de2.model_graph_ibd_c61e4_torole_7429));
+ 
+
+      annotation(
+        localLabel="逻辑系统内部模块",
+        SDIdentification="",
+    );
+    
+   end model_graph_ibd_c61e4;

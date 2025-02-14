@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
+  <THE-HEADER>
+    <REQ-IF-HEADER IDENTIFIER="rmf-545b6115-3195-40cc-8f28-fe2ff7ea646d">
+      <COMMENT>创建者：末泽</COMMENT>
+      <CREATION-TIME>2024-05-08T17:25:30.991+08:00</CREATION-TIME>
+      <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
+      <REQ-IF-VERSION>1.0</REQ-IF-VERSION>
+      <SOURCE-TOOL-ID>ProR (http://pror.org)</SOURCE-TOOL-ID>
+      <TITLE>利益相关者需求</TITLE>
+    </REQ-IF-HEADER>
+  </THE-HEADER>
+  <CORE-CONTENT>
+    <REQ-IF-CONTENT>
+      <DATATYPES>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_6iCssw0cEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:25:30.991+08:00" LONG-NAME="T_String32k" MAX-LENGTH="32000"/>
+      </DATATYPES>
+      <SPEC-TYPES>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_6iCstA0cEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:25:30.991+08:00" LONG-NAME="需求类型">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_6iCstQ0cEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:25:30.991+08:00" LONG-NAME="描述">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_6iCssw0cEe-nBKHZJ4BaCA</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_6iCstg0cEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:25:30.991+08:00" LONG-NAME="ID">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_6iCssw0cEe-nBKHZJ4BaCA</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_6iCstw0cEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:25:30.991+08:00" LONG-NAME="需求条目">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_6iCssw0cEe-nBKHZJ4BaCA</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPECIFICATION-TYPE IDENTIFIER="_6iCsuA0cEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:25:30.991+08:00" LONG-NAME="需求表单类型">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_6iCsuQ0cEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:25:30.991+08:00" LONG-NAME="描述">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_6iCssw0cEe-nBKHZJ4BaCA</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPECIFICATION-TYPE>
+      </SPEC-TYPES>
+      <SPEC-OBJECTS>
+        <SPEC-OBJECT IDENTIFIER="_6iCsug0cEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:26:19.075+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="起落架系统应该存在安全保障。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="安全性">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_GmumkA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:26:47.258+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="可靠性">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="在规定的使用寿命内，起落架系统应该无需频繁维修。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_Lp17IA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:27:22.023+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-1.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="系统运行安全">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="起落架应该能正常进行起飞、降落、转向等操作。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_Nv3McA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:27:35.989+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-1.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="手动控制">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="如果自动刹车、收放功能失灵，驾驶员应该能手动操作完成相关功能。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_OxiE0A0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:27:39.983+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-1.3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="位置检测与预警">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="起落架系统应该具备位置检测与预警系统。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_ZTPJAA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:28:55.168+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="低故障率">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-2.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="起落架系统平均故障间隔时间应该不低于1000h。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_dWp7IA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:29:22.503+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-2.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="便于维护">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="起落架系统维护时间和成本应该较低。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_eFD5QA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:29:27.015+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="起落架系统应该能适应各种极端环境。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="环境适应性">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_hFar4A0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:29:48.199+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="起落架系统应该防水、适应极端气温。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-3.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="气候适应">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_hX2fsA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:29:49.753+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="起落架系统应该能够抵抗盐雾、化学物质等环境因素的侵蚀。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-3.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="耐腐蚀性">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_hn1ccQ0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:29:51.688+08:00"/>
+        <SPEC-OBJECT IDENTIFIER="_i-NZgA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:30:00.427+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="在非常规跑道上工作时，起落架系统应该能正常运行。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-3.3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="地形适应性">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_juniwA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:30:04.333+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-4">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="参数要求">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="起落架相关参数应该满足相关标准。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_xBS5wA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:31:25.991+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="起落架材料应该高强度、耐腐蚀、环保、轻量。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-4.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="材料要求">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_xYM94A0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:31:36.697+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-4.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="尺寸要求">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="起落架尺寸应该符合相关标准。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_xntZgA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:31:39.103+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-4.3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="重量要求">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="起落架总重应该不超过整机的10%。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_x5qFIA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:31:40.728+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="SN-4.4">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstg0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="收放性能需求">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstw0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="起落架收放作动筒载荷不超过2MPa。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCstQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6iCstA0cEe-nBKHZJ4BaCA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+      </SPEC-OBJECTS>
+      <SPECIFICATIONS>
+        <SPECIFICATION IDENTIFIER="_6iCsvA0cEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:25:30.991+08:00" LONG-NAME="需求表单文档">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="需求表单">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6iCsuQ0cEe-nBKHZJ4BaCA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>_6iCsuA0cEe-nBKHZJ4BaCA</SPECIFICATION-TYPE-REF>
+          </TYPE>
+          <CHILDREN>
+            <SPEC-HIERARCHY IDENTIFIER="_6iCsvg0cEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:25:30.991+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_6iCsug0cEe-nBKHZJ4BaCA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_Lp5lgA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:27:22.023+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_Lp17IA0dEe-nBKHZJ4BaCA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_Nv620A0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:27:35.989+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_Nv3McA0dEe-nBKHZJ4BaCA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_OxmWQA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:27:39.983+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_OxiE0A0dEe-nBKHZJ4BaCA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_Gm3wgA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:26:47.258+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_GmumkA0dEe-nBKHZJ4BaCA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_ZTSzYA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:28:55.168+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_ZTPJAA0dEe-nBKHZJ4BaCA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                  <CHILDREN/>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_eFHjoA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:29:27.015+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_eFD5QA0dEe-nBKHZJ4BaCA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_hFeWQA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:29:48.199+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_hFar4A0dEe-nBKHZJ4BaCA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_hX6KEA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:29:49.753+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_hX2fsA0dEe-nBKHZJ4BaCA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_i-RD4A0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:30:00.427+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_i-NZgA0dEe-nBKHZJ4BaCA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_jurNIA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:30:04.333+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_juniwA0dEe-nBKHZJ4BaCA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_xBWkIA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:31:25.991+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_xBS5wA0dEe-nBKHZJ4BaCA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_xnySAA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:31:39.103+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_xntZgA0dEe-nBKHZJ4BaCA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_x5tvgA0dEe-nBKHZJ4BaCA" LAST-CHANGE="2024-05-08T17:31:40.728+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_x5qFIA0dEe-nBKHZJ4BaCA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+        </SPECIFICATION>
+      </SPECIFICATIONS>
+    </REQ-IF-CONTENT>
+  </CORE-CONTENT>
+  <TOOL-EXTENSIONS>
+    <REQ-IF-TOOL-EXTENSION>
+      <configuration:ProrToolExtension>
+        <configuration:specViewConfigurations>
+          <configuration:ProrSpecViewConfiguration specification="_6iCsvA0cEe-nBKHZJ4BaCA">
+            <configuration:columns>
+              <configuration:Column label="ID" width="150"/>
+              <configuration:Column label="需求条目" width="141"/>
+              <configuration:Column label="描述" width="400"/>
+            </configuration:columns>
+            <configuration:leftHeaderColumn>
+              <configuration:Column label="Lead Header Column" width="30"/>
+            </configuration:leftHeaderColumn>
+          </configuration:ProrSpecViewConfiguration>
+        </configuration:specViewConfigurations>
+        <configuration:generalConfiguration>
+          <configuration:ProrGeneralConfiguration>
+            <configuration:labelConfiguration>
+              <configuration:LabelConfiguration>
+                <defaultLabel>描述</defaultLabel>
+              </configuration:LabelConfiguration>
+            </configuration:labelConfiguration>
+          </configuration:ProrGeneralConfiguration>
+        </configuration:generalConfiguration>
+      </configuration:ProrToolExtension>
+    </REQ-IF-TOOL-EXTENSION>
+  </TOOL-EXTENSIONS>
+</REQ-IF>

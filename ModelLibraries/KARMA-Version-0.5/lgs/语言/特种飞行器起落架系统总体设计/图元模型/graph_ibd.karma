@@ -1,0 +1,70 @@
+   partial Graph graph_ibd
+    Object object_interfaceblock;
+    Object object_internalblock;
+    Object object_note;
+    Object object_block;
+    Object object_dimian;
+    Object object_feikong;
+    Object object_kongdi;
+    Object object_LGS;
+    Object object_pilot;
+    Relationship notelink;
+    Relationship relationship_projectflow;
+    Relationship relationship_connector;
+    Relationship bindingconnector;
+    Constraint (
+    bind connector(object_internalblock.object_internalblock_port_Out_cd6dc2,notelink.notepart),
+    bind connector(object_internalblock,notelink.notepart),
+    bind connector(object_interfaceblock,notelink.notepart),
+    bind connector(object_note,notelink.notepart),
+    bind connector(object_internalblock.object_internalblock_port_In_790df1,notelink.objectpart),
+    bind connector(object_internalblock,notelink.objectpart),
+    bind connector(object_interfaceblock,notelink.objectpart),
+    bind connector(object_note,notelink.objectpart),
+    bind connector(object_kongdi,relationship_projectflow.projectflow_In),
+    bind connector(object_internalblock.object_internalblock_port_Out_cd6dc2,relationship_projectflow.projectflow_In),
+    bind connector(object_LGS,relationship_projectflow.projectflow_In),
+    bind connector(object_pilot,relationship_projectflow.projectflow_In),
+    bind connector(object_feikong,relationship_projectflow.projectflow_In),
+    bind connector(object_dimian,relationship_projectflow.projectflow_In),
+    bind connector(object_internalblock.object_internalblock_point_port_fbed8c,relationship_projectflow.projectflow_In),
+    bind connector(object_internalblock,relationship_projectflow.projectflow_In),
+    bind connector(object_interfaceblock,relationship_projectflow.projectflow_In),
+    bind connector(object_note,relationship_projectflow.projectflow_In),
+    bind connector(object_kongdi,relationship_projectflow.projectflow_Out),
+    bind connector(object_LGS,relationship_projectflow.projectflow_Out),
+    bind connector(object_pilot,relationship_projectflow.projectflow_Out),
+    bind connector(object_feikong,relationship_projectflow.projectflow_Out),
+    bind connector(object_dimian,relationship_projectflow.projectflow_Out),
+    bind connector(object_internalblock.object_internalblock_port_In_790df1,relationship_projectflow.projectflow_Out),
+    bind connector(object_internalblock.object_internalblock_point_port_fbed8c,relationship_projectflow.projectflow_Out),
+    bind connector(object_internalblock,relationship_projectflow.projectflow_Out),
+    bind connector(object_interfaceblock,relationship_projectflow.projectflow_Out),
+    bind connector(object_note,relationship_projectflow.projectflow_Out),
+    bind connector(object_kongdi,relationship_connector.connector_In),
+    bind connector(object_internalblock.object_internalblock_port_Out_cd6dc2,relationship_connector.connector_In),
+    bind connector(object_LGS,relationship_connector.connector_In),
+    bind connector(object_pilot,relationship_connector.connector_In),
+    bind connector(object_feikong,relationship_connector.connector_In),
+    bind connector(object_dimian,relationship_connector.connector_In),
+    bind connector(object_internalblock.object_internalblock_point_port_fbed8c,relationship_connector.connector_In),
+    bind connector(object_internalblock,relationship_connector.connector_In),
+    bind connector(object_kongdi,relationship_connector.connector_Out),
+    bind connector(object_LGS,relationship_connector.connector_Out),
+    bind connector(object_pilot,relationship_connector.connector_Out),
+    bind connector(object_feikong,relationship_connector.connector_Out),
+    bind connector(object_dimian,relationship_connector.connector_Out),
+    bind connector(object_internalblock.object_internalblock_port_In_790df1,relationship_connector.connector_Out),
+    bind connector(object_internalblock.object_internalblock_point_port_fbed8c,relationship_connector.connector_Out),
+    bind connector(object_internalblock,relationship_connector.connector_Out),
+    bind connector(object_internalblock.object_internalblock_point_port_fbed8c,bindingconnector.bindingconnector_in),
+    bind connector(object_block.object_block_point_port_914a0f,bindingconnector.bindingconnector_in),
+    bind connector(object_internalblock.object_internalblock_point_port_fbed8c,bindingconnector.bindconnector_out),
+    bind connector(object_block.object_block_point_port_914a0f,bindingconnector.bindconnector_out),
+    );
+    annotation(
+        localLabel="内部模块图",
+        type = diagram,
+        description="",
+       );
+        end graph_ibd;

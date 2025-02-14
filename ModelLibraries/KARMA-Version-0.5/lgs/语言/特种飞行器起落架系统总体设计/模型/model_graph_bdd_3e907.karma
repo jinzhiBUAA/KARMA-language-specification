@@ -1,0 +1,942 @@
+    partial Model model_graph_bdd_3e907 instanceof graph_bdd
+    
+      Object model_graph_bdd_f7af1_object_8fae_5dbe clone model_graph_bdd_f7af1.model_graph_bdd_f7af1_object_8fae
+        Property model_graph_bdd_f7af1_object_8fae_property_49a8_8f78 = "起落架系统" clone model_graph_bdd_f7af1_object_8fae_property_49a8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(420,78,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_f7af1_object_8fae_5dbe;
+
+      Object model_graph_bdd_f7af1_object_a2d9_fb9a clone model_graph_bdd_f7af1.model_graph_bdd_f7af1_object_a2d9
+        Property model_graph_bdd_f7af1_object_a2d9_property_b5a5_5a0b = "前轮转向子系统" clone model_graph_bdd_f7af1_object_a2d9_property_b5a5 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(96,192,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_f7af1_object_a2d9_fb9a;
+
+      Object model_graph_bdd_f7af1_object_f952_7475 clone model_graph_bdd_f7af1.model_graph_bdd_f7af1_object_f952
+        Property model_graph_bdd_f7af1_object_f952_property_b021_476c = "结构子系统" clone model_graph_bdd_f7af1_object_f952_property_b021 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(264,192,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_f7af1_object_f952_7475;
+
+      Object model_graph_bdd_f7af1_object_423c_7f70 refer object_block
+        Property model_graph_bdd_f7af1_object_423c_property_6629_a62f = "收放子系统" refer object_block_property_name_c7eb65 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(444,192,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_f7af1_object_423c_7f70;
+
+      Object model_graph_bdd_f7af1_object_1d3b_57af refer object_block
+        Property model_graph_bdd_f7af1_object_1d3b_property_1568_6bf2 = "机轮刹车子系统" refer object_block_property_name_c7eb65 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(612,192,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_f7af1_object_1d3b_57af;
+
+      Object model_graph_bdd_f7af1_object_9e92_3b7a refer object_block
+        Property model_graph_bdd_f7af1_object_9e92_property_d515_d0b7 = "电控子系统" refer object_block_property_name_c7eb65 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(828,192,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_f7af1_object_9e92_3b7a;
+
+      Object model_graph_bdd_68f5e_object_36f3_6f97 refer object_block
+        Property model_graph_bdd_68f5e_object_36f3_property_572b_9a35 = "控制驱动器子系统" refer object_block_property_name_c7eb65 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(835,390,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_68f5e_object_36f3_6f97;
+
+      Object model_graph_bdd_68f5e_object_c8d3_1f27 refer object_block
+        Property model_graph_bdd_68f5e_object_c8d3_property_977e_11f5 = "传感器子系统" refer object_block_property_name_c7eb65 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(691,390,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_68f5e_object_c8d3_1f27;
+
+      Object model_graph_bdd_68f5e_object_5914_45e4 refer object_block
+        Property model_graph_bdd_68f5e_object_5914_property_9222_08a1 = "结构子系统" refer object_block_property_name_c7eb65 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(198,390,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_68f5e_object_5914_45e4;
+
+      Object model_graph_bdd_68f5e_object_2cde_13ae refer object_block
+        Property model_graph_bdd_68f5e_object_2cde_property_75a0_a208 = "收放子系统" refer object_block_property_name_c7eb65 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(372,390,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_68f5e_object_2cde_13ae;
+
+      Object model_graph_bdd_68f5e_object_04cf_597e refer object_block
+        Property model_graph_bdd_68f5e_object_04cf_property_c663_02de = "供配电子系统" refer object_block_property_name_c7eb65 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(979,390,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_68f5e_object_04cf_597e;
+
+      Object model_graph_bdd_68f5e_object_c7a7_d1ca refer object_block
+        Property model_graph_bdd_68f5e_object_c7a7_property_f4e5_0c55 = "机轮刹车子系统" refer object_block_property_name_c7eb65 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(540,390,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_68f5e_object_c7a7_d1ca;
+
+      Object model_graph_bdd_68f5e_object_a490_5047 refer object_block
+        Property model_graph_bdd_68f5e_object_a490_property_345f_2014 = "起落架系统" refer object_block_property_name_c7eb65 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(427,606,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_68f5e_object_a490_5047;
+
+      Object model_graph_bdd_68f5e_object_2525_2ac5 refer object_block
+        Property model_graph_bdd_68f5e_object_2525_property_9e6f_6276 = "前轮转向子系统" refer object_block_property_name_c7eb65 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(30,390,140,70),
+          localLabel="模块",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_68f5e_object_2525_2ac5;
+
+      Object model_graph_bdd_3e907_object_54de refer object_h_separator
+      
+        annotation(
+          initialLocation=(24,336,1093,8),
+          localLabel="分隔线",
+          shape="narrowSolidRectangle",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end model_graph_bdd_3e907_object_54de;
+
+      Relationship model_graph_bdd_3e907_relationship_4ec5 refer composition
+        Role model_graph_bdd_3e907_fromrole_afc2 refer combine_In
+          annotation(
+            localLabel="组合始端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_3e907_fromrole_afc2;
+         Role model_graph_bdd_3e907_torole_eaa3 refer combine_Out
+          annotation(
+            localLabel="组合终端",
+            shape="solidDiamond"
+          );
+        end model_graph_bdd_3e907_torole_eaa3;
+       
+        annotation(
+          localLabel="组合",
+          shape="solidLine",
+          endLocation=(166,227;824,67),
+          polylineLocation="[0,0,-264,96]$[0,-24,-264,72]$[334,-24,70,72]$[334,-46,70,50];(0.43478260869565216,0.0);(0.0,0.2647058823529412)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_3e907_relationship_4ec5;
+ 
+      Relationship model_graph_bdd_3e907_relationship_02c3 refer composition
+        Role model_graph_bdd_3e907_fromrole_bdf3 refer combine_In
+          annotation(
+            localLabel="组合始端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_3e907_fromrole_bdf3;
+         Role model_graph_bdd_3e907_torole_bb77 refer combine_Out
+          annotation(
+            localLabel="组合终端",
+            shape="solidDiamond"
+          );
+        end model_graph_bdd_3e907_torole_bb77;
+       
+        annotation(
+          localLabel="组合",
+          shape="solidLine",
+          endLocation=(334,227;645,67),
+          polylineLocation="[0,0,-189,46]$[0,-24,-189,22]$[155,-24,-34,22]$[155,-46,-34,0];(0.5,0.0);(0.7391304347826086,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_3e907_relationship_02c3;
+ 
+      Relationship model_graph_bdd_3e907_relationship_4901 refer composition
+        Role model_graph_bdd_3e907_fromrole_1b04 refer combine_In
+          annotation(
+            localLabel="组合始端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_3e907_fromrole_1b04;
+         Role model_graph_bdd_3e907_torole_aa2b refer combine_Out
+          annotation(
+            localLabel="组合终端",
+            shape="solidDiamond"
+          );
+        end model_graph_bdd_3e907_torole_aa2b;
+       
+        annotation(
+          localLabel="组合",
+          shape="solidLine",
+          endLocation=(489,227;465,67),
+          polylineLocation="[-25,0,-1,46]$[-25,-46,-1,0];(0.5,0.0);(0.5,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_3e907_relationship_4901;
+ 
+      Relationship model_graph_bdd_3e907_relationship_9553 refer composition
+        Role model_graph_bdd_3e907_fromrole_b658 refer combine_In
+          annotation(
+            localLabel="组合始端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_3e907_fromrole_b658;
+         Role model_graph_bdd_3e907_torole_7f9d refer combine_Out
+          annotation(
+            localLabel="组合终端",
+            shape="solidDiamond"
+          );
+        end model_graph_bdd_3e907_torole_7f9d;
+       
+        annotation(
+          localLabel="组合",
+          shape="solidLine",
+          endLocation=(682,227;288,67),
+          polylineLocation="[0,0,234,46]$[0,-24,234,22]$[-202,-24,32,22]$[-202,-46,32,0];(0.5652173913043478,0.0);(0.2608695652173913,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_3e907_relationship_9553;
+ 
+      Relationship model_graph_bdd_3e907_relationship_8940 refer composition
+        Role model_graph_bdd_3e907_fromrole_f87b refer combine_In
+          annotation(
+            localLabel="组合始端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_3e907_fromrole_f87b;
+         Role model_graph_bdd_3e907_torole_0c05 refer combine_Out
+          annotation(
+            localLabel="组合终端",
+            shape="solidDiamond"
+          );
+        end model_graph_bdd_3e907_torole_0c05;
+       
+        annotation(
+          localLabel="组合",
+          shape="solidLine",
+          endLocation=(898,227;83,67),
+          polylineLocation="[0,0,339,90]$[0,-24,339,66]$[-407,-24,-68,66]$[-407,-46,-68,44];(0.5,0.0);(1.0,0.35294117647058826)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_3e907_relationship_8940;
+ 
+      Relationship model_graph_bdd_68f5e_relationship_c6d7_a8fe refer composition
+        Role model_graph_bdd_68f5e_fromrole_9d47_9841 refer combine_In
+          annotation(
+            localLabel="组合始端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_68f5e_fromrole_9d47_9841;
+         Role model_graph_bdd_68f5e_fromrole_9d47_a46a refer combine_Out
+          annotation(
+            localLabel="组合始端",
+            shape="solidDiamond"
+          );
+        end model_graph_bdd_68f5e_fromrole_9d47_a46a;
+       
+        annotation(
+          localLabel="组合",
+          shape="solidLine",
+          endLocation=(269,459;725,823),
+          polylineLocation="[1,34,-228,-182]$[1,122,-228,-94]$[228,122,-1,-94]$[228,182,-1,-34];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_68f5e_relationship_c6d7_a8fe;
+ 
+      Relationship model_graph_bdd_68f5e_relationship_69e2_bf14 refer composition
+        Role model_graph_bdd_68f5e_fromrole_07ca_e90a refer combine_In
+          annotation(
+            localLabel="组合始端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_68f5e_fromrole_07ca_e90a;
+         Role model_graph_bdd_68f5e_fromrole_07ca_fcaa refer combine_Out
+          annotation(
+            localLabel="组合始端",
+            shape="solidDiamond"
+          );
+        end model_graph_bdd_68f5e_fromrole_07ca_fcaa;
+       
+        annotation(
+          localLabel="组合",
+          shape="solidLine",
+          endLocation=(904,459;88,823),
+          polylineLocation="[-1,34,407,-182]$[-1,122,407,-94]$[-409,122,-1,-94]$[-409,182,-1,-34];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_68f5e_relationship_69e2_bf14;
+ 
+      Relationship model_graph_bdd_68f5e_relationship_88cc_5b3d refer composition
+        Role model_graph_bdd_68f5e_fromrole_4df5_8373 refer combine_In
+          annotation(
+            localLabel="组合始端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_68f5e_fromrole_4df5_8373;
+         Role model_graph_bdd_68f5e_fromrole_4df5_61bb refer combine_Out
+          annotation(
+            localLabel="组合始端",
+            shape="solidDiamond"
+          );
+        end model_graph_bdd_68f5e_fromrole_4df5_61bb;
+       
+        annotation(
+          localLabel="组合",
+          shape="solidLine",
+          endLocation=(99,459;893,823),
+          polylineLocation="[-1,34,-398,-182]$[-1,122,-398,-94]$[396,122,-1,-94]$[396,182,-1,-34];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_68f5e_relationship_88cc_5b3d;
+ 
+      Relationship model_graph_bdd_68f5e_relationship_d955_172d refer composition
+        Role model_graph_bdd_68f5e_fromrole_b9e4_2fc3 refer combine_In
+          annotation(
+            localLabel="组合始端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_68f5e_fromrole_b9e4_2fc3;
+         Role model_graph_bdd_68f5e_fromrole_b9e4_ca46 refer combine_Out
+          annotation(
+            localLabel="组合始端",
+            shape="solidDiamond"
+          );
+        end model_graph_bdd_68f5e_fromrole_b9e4_ca46;
+       
+        annotation(
+          localLabel="组合",
+          shape="solidLine",
+          endLocation=(441,459;551,823),
+          polylineLocation="[-1,34,-56,-182]$[-1,122,-56,-94]$[54,122,-1,-94]$[54,182,-1,-34];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_68f5e_relationship_d955_172d;
+ 
+      Relationship model_graph_bdd_68f5e_relationship_e537_bee4 refer composition
+        Role model_graph_bdd_68f5e_fromrole_d880_c9dd refer combine_In
+          annotation(
+            localLabel="组合始端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_68f5e_fromrole_d880_c9dd;
+         Role model_graph_bdd_68f5e_fromrole_d880_c3ae refer combine_Out
+          annotation(
+            localLabel="组合始端",
+            shape="solidDiamond"
+          );
+        end model_graph_bdd_68f5e_fromrole_d880_c3ae;
+       
+        annotation(
+          localLabel="组合",
+          shape="solidLine",
+          endLocation=(611,459;383,823),
+          polylineLocation="[1,34,114,-182]$[1,122,114,-94]$[-114,122,-1,-94]$[-114,182,-1,-34];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_68f5e_relationship_e537_bee4;
+ 
+      Relationship model_graph_bdd_68f5e_relationship_a79d_1da1 refer composition
+        Role model_graph_bdd_68f5e_fromrole_760c_f494 refer combine_In
+          annotation(
+            localLabel="组合始端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_68f5e_fromrole_760c_f494;
+         Role model_graph_bdd_68f5e_fromrole_760c_aac1 refer combine_Out
+          annotation(
+            localLabel="组合始端",
+            shape="solidDiamond"
+          );
+        end model_graph_bdd_68f5e_fromrole_760c_aac1;
+       
+        annotation(
+          localLabel="组合",
+          shape="solidLine",
+          endLocation=(1052,459;-56,823),
+          polylineLocation="[3,34,555,-182]$[3,122,555,-94]$[-553,122,-1,-94]$[-553,182,-1,-34];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_68f5e_relationship_a79d_1da1;
+ 
+      Relationship model_graph_bdd_68f5e_relationship_dd5e_ba51 refer composition
+        Role model_graph_bdd_68f5e_fromrole_491f_9845 refer combine_In
+          annotation(
+            localLabel="组合始端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_68f5e_fromrole_491f_9845;
+         Role model_graph_bdd_68f5e_fromrole_491f_d95e refer combine_Out
+          annotation(
+            localLabel="组合始端",
+            shape="solidDiamond"
+          );
+        end model_graph_bdd_68f5e_fromrole_491f_d95e;
+       
+        annotation(
+          localLabel="组合",
+          shape="solidLine",
+          endLocation=(762,459;232,823),
+          polylineLocation="[1,34,265,-182]$[1,122,265,-94]$[-265,122,-1,-94]$[-265,182,-1,-34];(0.5,0.5);(0.5,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_68f5e_relationship_dd5e_ba51;
+ 
+      Relationship model_graph_bdd_3e907_relationship_e7e7 refer relationship_abstraction
+        Role model_graph_bdd_3e907_fromrole_ef52 refer abstraction_In
+          annotation(
+            localLabel="抽象始端",
+            shape="no"
+          );
+        end model_graph_bdd_3e907_fromrole_ef52;
+         Role model_graph_bdd_3e907_torole_e00f refer abstraction_Out
+          annotation(
+            localLabel="抽象终端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_3e907_torole_e00f;
+       
+        annotation(
+          localLabel="抽象",
+          shape="dashLine",
+          endLocation=(94,425;211,97),
+          polylineLocation="[-6,0,-51,130]$[-6,-65,-51,65]$[45,-65,0,65]$[45,-130,0,0];(0.6086956521739131,0.0);(0.45652173913043476,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_3e907_relationship_e7e7;
+ 
+      Relationship model_graph_bdd_3e907_relationship_e49b refer relationship_abstraction
+        Role model_graph_bdd_3e907_fromrole_ee5b refer abstraction_In
+          annotation(
+            localLabel="抽象始端",
+            shape="no"
+          );
+        end model_graph_bdd_3e907_fromrole_ee5b;
+         Role model_graph_bdd_3e907_torole_9fb5 refer abstraction_Out
+          annotation(
+            localLabel="抽象终端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_3e907_torole_9fb5;
+       
+        annotation(
+          localLabel="抽象",
+          shape="dashLine",
+          endLocation=(268,425;400,97),
+          polylineLocation="[0,0,-66,130]$[0,-65,-66,65]$[66,-65,0,65]$[66,-130,0,0];(0.5,0.0);(0.5,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_3e907_relationship_e49b;
+ 
+      Relationship model_graph_bdd_3e907_relationship_b057 refer relationship_abstraction
+        Role model_graph_bdd_3e907_fromrole_1a98 refer abstraction_In
+          annotation(
+            localLabel="抽象始端",
+            shape="no"
+          );
+        end model_graph_bdd_3e907_fromrole_1a98;
+         Role model_graph_bdd_3e907_torole_ed14 refer abstraction_Out
+          annotation(
+            localLabel="抽象终端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_3e907_torole_ed14;
+       
+        annotation(
+          localLabel="抽象",
+          shape="dashLine",
+          endLocation=(442,425;601,97),
+          polylineLocation="[0,0,-87,130]$[0,-65,-87,65]$[87,-65,0,65]$[87,-130,0,0];(0.5,0.0);(0.6086956521739131,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_3e907_relationship_b057;
+ 
+      Relationship model_graph_bdd_3e907_relationship_6268 refer relationship_abstraction
+        Role model_graph_bdd_3e907_fromrole_3568 refer abstraction_In
+          annotation(
+            localLabel="抽象始端",
+            shape="no"
+          );
+        end model_graph_bdd_3e907_fromrole_3568;
+         Role model_graph_bdd_3e907_torole_9071 refer abstraction_Out
+          annotation(
+            localLabel="抽象终端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_3e907_torole_9071;
+       
+        annotation(
+          localLabel="抽象",
+          shape="dashLine",
+          endLocation=(610,425;772,97),
+          polylineLocation="[0,0,-90,130]$[0,-65,-90,65]$[90,-65,0,65]$[90,-130,0,0];(0.5652173913043478,0.0);(0.6956521739130435,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_3e907_relationship_6268;
+ 
+      Relationship model_graph_bdd_3e907_relationship_e065 refer relationship_abstraction
+        Role model_graph_bdd_3e907_fromrole_1e43 refer abstraction_In
+          annotation(
+            localLabel="抽象始端",
+            shape="no"
+          );
+        end model_graph_bdd_3e907_fromrole_1e43;
+         Role model_graph_bdd_3e907_torole_9bc8 refer abstraction_Out
+          annotation(
+            localLabel="抽象终端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_3e907_torole_9bc8;
+       
+        annotation(
+          localLabel="抽象",
+          shape="dashLine",
+          endLocation=(761,425;1034,97),
+          polylineLocation="[0,0,-152,130]$[0,-65,-152,65]$[136,-65,-16,65]$[136,-130,-16,0];(0.5,0.0);(0.6086956521739131,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_3e907_relationship_e065;
+ 
+      Relationship model_graph_bdd_3e907_relationship_bba7 refer relationship_abstraction
+        Role model_graph_bdd_3e907_fromrole_982e refer abstraction_In
+          annotation(
+            localLabel="抽象始端",
+            shape="no"
+          );
+        end model_graph_bdd_3e907_fromrole_982e;
+         Role model_graph_bdd_3e907_torole_64d1 refer abstraction_Out
+          annotation(
+            localLabel="抽象终端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_3e907_torole_64d1;
+       
+        annotation(
+          localLabel="抽象",
+          shape="dashLine",
+          endLocation=(905,425;898,97),
+          polylineLocation="[0,0,0,130]$[0,-130,0,0];(0.4492753623188406,0.0);(0.5,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_3e907_relationship_bba7;
+ 
+      Relationship model_graph_bdd_3e907_relationship_6f17 refer relationship_abstraction
+        Role model_graph_bdd_3e907_fromrole_7faa refer abstraction_In
+          annotation(
+            localLabel="抽象始端",
+            shape="no"
+          );
+        end model_graph_bdd_3e907_fromrole_7faa;
+         Role model_graph_bdd_3e907_torole_55c1 refer abstraction_Out
+          annotation(
+            localLabel="抽象终端",
+            shape="arrowShape"
+          );
+        end model_graph_bdd_3e907_torole_55c1;
+       
+        annotation(
+          localLabel="抽象",
+          shape="dashLine",
+          endLocation=(1049,425;751,97),
+          polylineLocation="[0,0,147,130]$[0,-65,147,65]$[-147,-65,0,65]$[-147,-130,0,0];(0.47101449275362317,0.0);(0.5,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_graph_bdd_3e907_relationship_6f17;
+ 
+    Connect(connector(model_graph_bdd_f7af1_object_a2d9_fb9a,model_graph_bdd_3e907_relationship_4ec5.model_graph_bdd_3e907_fromrole_afc2),connector(model_graph_bdd_f7af1_object_8fae_5dbe,model_graph_bdd_3e907_relationship_4ec5.model_graph_bdd_3e907_torole_eaa3));
+ 
+    Connect(connector(model_graph_bdd_f7af1_object_f952_7475,model_graph_bdd_3e907_relationship_02c3.model_graph_bdd_3e907_fromrole_bdf3),connector(model_graph_bdd_f7af1_object_8fae_5dbe,model_graph_bdd_3e907_relationship_02c3.model_graph_bdd_3e907_torole_bb77));
+ 
+    Connect(connector(model_graph_bdd_f7af1_object_423c_7f70,model_graph_bdd_3e907_relationship_4901.model_graph_bdd_3e907_fromrole_1b04),connector(model_graph_bdd_f7af1_object_8fae_5dbe,model_graph_bdd_3e907_relationship_4901.model_graph_bdd_3e907_torole_aa2b));
+ 
+    Connect(connector(model_graph_bdd_f7af1_object_1d3b_57af,model_graph_bdd_3e907_relationship_9553.model_graph_bdd_3e907_fromrole_b658),connector(model_graph_bdd_f7af1_object_8fae_5dbe,model_graph_bdd_3e907_relationship_9553.model_graph_bdd_3e907_torole_7f9d));
+ 
+    Connect(connector(model_graph_bdd_f7af1_object_9e92_3b7a,model_graph_bdd_3e907_relationship_8940.model_graph_bdd_3e907_fromrole_f87b),connector(model_graph_bdd_f7af1_object_8fae_5dbe,model_graph_bdd_3e907_relationship_8940.model_graph_bdd_3e907_torole_0c05));
+ 
+    Connect(connector(model_graph_bdd_68f5e_object_5914_45e4,model_graph_bdd_68f5e_relationship_c6d7_a8fe.model_graph_bdd_68f5e_fromrole_9d47_9841),connector(model_graph_bdd_68f5e_object_a490_5047,model_graph_bdd_68f5e_relationship_c6d7_a8fe.model_graph_bdd_68f5e_fromrole_9d47_a46a));
+ 
+    Connect(connector(model_graph_bdd_68f5e_object_36f3_6f97,model_graph_bdd_68f5e_relationship_69e2_bf14.model_graph_bdd_68f5e_fromrole_07ca_e90a),connector(model_graph_bdd_68f5e_object_a490_5047,model_graph_bdd_68f5e_relationship_69e2_bf14.model_graph_bdd_68f5e_fromrole_07ca_fcaa));
+ 
+    Connect(connector(model_graph_bdd_68f5e_object_2525_2ac5,model_graph_bdd_68f5e_relationship_88cc_5b3d.model_graph_bdd_68f5e_fromrole_4df5_8373),connector(model_graph_bdd_68f5e_object_a490_5047,model_graph_bdd_68f5e_relationship_88cc_5b3d.model_graph_bdd_68f5e_fromrole_4df5_61bb));
+ 
+    Connect(connector(model_graph_bdd_68f5e_object_2cde_13ae,model_graph_bdd_68f5e_relationship_d955_172d.model_graph_bdd_68f5e_fromrole_b9e4_2fc3),connector(model_graph_bdd_68f5e_object_a490_5047,model_graph_bdd_68f5e_relationship_d955_172d.model_graph_bdd_68f5e_fromrole_b9e4_ca46));
+ 
+    Connect(connector(model_graph_bdd_68f5e_object_c7a7_d1ca,model_graph_bdd_68f5e_relationship_e537_bee4.model_graph_bdd_68f5e_fromrole_d880_c9dd),connector(model_graph_bdd_68f5e_object_a490_5047,model_graph_bdd_68f5e_relationship_e537_bee4.model_graph_bdd_68f5e_fromrole_d880_c3ae));
+ 
+    Connect(connector(model_graph_bdd_68f5e_object_04cf_597e,model_graph_bdd_68f5e_relationship_a79d_1da1.model_graph_bdd_68f5e_fromrole_760c_f494),connector(model_graph_bdd_68f5e_object_a490_5047,model_graph_bdd_68f5e_relationship_a79d_1da1.model_graph_bdd_68f5e_fromrole_760c_aac1));
+ 
+    Connect(connector(model_graph_bdd_68f5e_object_c8d3_1f27,model_graph_bdd_68f5e_relationship_dd5e_ba51.model_graph_bdd_68f5e_fromrole_491f_9845),connector(model_graph_bdd_68f5e_object_a490_5047,model_graph_bdd_68f5e_relationship_dd5e_ba51.model_graph_bdd_68f5e_fromrole_491f_d95e));
+ 
+    Connect(connector(model_graph_bdd_68f5e_object_2525_2ac5,model_graph_bdd_3e907_relationship_e7e7.model_graph_bdd_3e907_fromrole_ef52),connector(model_graph_bdd_f7af1_object_a2d9_fb9a,model_graph_bdd_3e907_relationship_e7e7.model_graph_bdd_3e907_torole_e00f));
+ 
+    Connect(connector(model_graph_bdd_68f5e_object_5914_45e4,model_graph_bdd_3e907_relationship_e49b.model_graph_bdd_3e907_fromrole_ee5b),connector(model_graph_bdd_f7af1_object_f952_7475,model_graph_bdd_3e907_relationship_e49b.model_graph_bdd_3e907_torole_9fb5));
+ 
+    Connect(connector(model_graph_bdd_68f5e_object_2cde_13ae,model_graph_bdd_3e907_relationship_b057.model_graph_bdd_3e907_fromrole_1a98),connector(model_graph_bdd_f7af1_object_423c_7f70,model_graph_bdd_3e907_relationship_b057.model_graph_bdd_3e907_torole_ed14));
+ 
+    Connect(connector(model_graph_bdd_68f5e_object_c7a7_d1ca,model_graph_bdd_3e907_relationship_6268.model_graph_bdd_3e907_fromrole_3568),connector(model_graph_bdd_f7af1_object_1d3b_57af,model_graph_bdd_3e907_relationship_6268.model_graph_bdd_3e907_torole_9071));
+ 
+    Connect(connector(model_graph_bdd_68f5e_object_c8d3_1f27,model_graph_bdd_3e907_relationship_e065.model_graph_bdd_3e907_fromrole_1e43),connector(model_graph_bdd_f7af1_object_9e92_3b7a,model_graph_bdd_3e907_relationship_e065.model_graph_bdd_3e907_torole_9bc8));
+ 
+    Connect(connector(model_graph_bdd_68f5e_object_36f3_6f97,model_graph_bdd_3e907_relationship_bba7.model_graph_bdd_3e907_fromrole_982e),connector(model_graph_bdd_f7af1_object_9e92_3b7a,model_graph_bdd_3e907_relationship_bba7.model_graph_bdd_3e907_torole_64d1));
+ 
+    Connect(connector(model_graph_bdd_68f5e_object_04cf_597e,model_graph_bdd_3e907_relationship_6f17.model_graph_bdd_3e907_fromrole_7faa),connector(model_graph_bdd_f7af1_object_9e92_3b7a,model_graph_bdd_3e907_relationship_6f17.model_graph_bdd_3e907_torole_55c1));
+ 
+
+      annotation(
+        localLabel="系统功能架构到逻辑架构",
+    );
+    
+   end model_graph_bdd_3e907;

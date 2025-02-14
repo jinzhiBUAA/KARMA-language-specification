@@ -1,0 +1,340 @@
+    partial Model kjuCkKLd instanceof graph_act
+      Object nlGvf74I_object_eabc_2fa4 refer object_merge
+        annotation(
+          initialLocation=(30,115,110,43),
+          localLabel="合并",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end nlGvf74I_object_eabc_2fa4;
+
+      Object nlGvf74I_object_9884_ade2 refer object_decision
+        annotation(
+          initialLocation=(35,565,100,49),
+          localLabel="决策",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end nlGvf74I_object_9884_ade2;
+
+      Object nlGvf74I_object_5215_bcdb refer object_callbehavior
+        Property nlGvf74I_object_5215_property_d97b_f4f0 = "检测舱门位置" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point nlGvf74I_object_5215_bcdb_point_ea7b refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="传感器信号out1",
+		 initialLocation=(62,60,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end nlGvf74I_object_5215_bcdb_point_ea7b;
+ 
+        annotation(
+          initialLocation=(16,181,160,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end nlGvf74I_object_5215_bcdb;
+
+      Object nlGvf74I_object_153a_8acb refer object_callbehavior
+        Property nlGvf74I_object_153a_property_d48b_0c68 = "检测起落架位置" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point nlGvf74I_object_153a_8acb_point_111c refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="传感器信号out2",
+		 initialLocation=(62,60,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end nlGvf74I_object_153a_8acb_point_111c;
+ 
+        annotation(
+          initialLocation=(18,463,156,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end nlGvf74I_object_153a_8acb;
+
+      Object nlGvf74I_object_fd13_a3ed refer object_merge
+        annotation(
+          initialLocation=(31,385,108,49),
+          localLabel="合并",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end nlGvf74I_object_fd13_a3ed;
+
+      Object nlGvf74I_object_ad67_0713 refer object_decision
+        annotation(
+          initialLocation=(33,277,104,49),
+          localLabel="决策",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end nlGvf74I_object_ad67_0713;
+
+      Relationship kjuCkKLd_relationship_c4be refer controlflow
+        Role kjuCkKLd_fromrole_eeba refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end kjuCkKLd_fromrole_eeba;
+         Role kjuCkKLd_torole_ddb9 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end kjuCkKLd_torole_ddb9;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(85,136;71,225),
+          polylineLocation="[0,0,0,-23]$[0,23,0,0];(0.5181818181818182,1.0);(0.44936708860759494,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end kjuCkKLd_relationship_c4be;
+ 
+      Relationship kjuCkKLd_relationship_268e refer controlflow
+        Role kjuCkKLd_fromrole_5610 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end kjuCkKLd_fromrole_5610;
+         Role kjuCkKLd_torole_0e9b refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end kjuCkKLd_torole_0e9b;
+       
+        annotation(
+          localLabel="else",
+          shape="dotttedLine",
+          endLocation=(112,325;112,-2),
+          polylineLocation="[27,24,21,143]$[72,24,66,143]$[72,-141,66,-22]$[30,-141,24,-22];(0.7403846153846154,0.0);(0.7818181818181819,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end kjuCkKLd_relationship_268e;
+ 
+      Relationship kjuCkKLd_relationship_83e0 refer controlflow
+        Role kjuCkKLd_fromrole_ba17 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end kjuCkKLd_fromrole_ba17;
+         Role kjuCkKLd_torole_ac23 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end kjuCkKLd_torole_ac23;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(85,409;72,516),
+          polylineLocation="[0,0,0,-29]$[0,29,0,0];(0.5185185185185185,1.0);(0.44805194805194803,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end kjuCkKLd_relationship_83e0;
+ 
+      Relationship kjuCkKLd_relationship_7729 refer controlflow
+        Role kjuCkKLd_fromrole_9a0e refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end kjuCkKLd_fromrole_9a0e;
+         Role kjuCkKLd_torole_dd05 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end kjuCkKLd_torole_dd05;
+       
+        annotation(
+          localLabel="else",
+          shape="dotttedLine",
+          endLocation=(128,613;128,253),
+          polylineLocation="[43,24,13,155]$[90,24,60,155]$[90,-156,60,-25]$[47,-156,17,-25];(0.57,0.0);(0.8425925925925926,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end kjuCkKLd_relationship_7729;
+ 
+      Relationship kjuCkKLd_relationship_82d0 refer objectflow
+        Role kjuCkKLd_fromrole_80f2 refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end kjuCkKLd_fromrole_80f2;
+         Role kjuCkKLd_torole_bc33 refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end kjuCkKLd_torole_bc33;
+       
+        annotation(
+          localLabel="对象流",
+          shape="solidLine",
+          endLocation=(104,229;121,341),
+          polylineLocation="[8,13,0,-16]$[8,29,0,0];(0.0,0.35);(0.5096153846153846,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end kjuCkKLd_relationship_82d0;
+ 
+      Relationship kjuCkKLd_relationship_7420 refer objectflow
+        Role kjuCkKLd_fromrole_68d0 refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end kjuCkKLd_fromrole_68d0;
+         Role kjuCkKLd_torole_d303 refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end kjuCkKLd_torole_d303;
+       
+        annotation(
+          localLabel="对象流",
+          shape="solidLine",
+          endLocation=(96,497;107,622),
+          polylineLocation="[0,-1,6,-23]$[0,11,6,-11]$[-6,11,0,-11]$[-6,22,0,0];(0.6,1.0);(0.51,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end kjuCkKLd_relationship_7420;
+ 
+    Connect(connector(nlGvf74I_object_eabc_2fa4,kjuCkKLd_relationship_c4be.kjuCkKLd_fromrole_eeba),connector(nlGvf74I_object_5215_bcdb,kjuCkKLd_relationship_c4be.kjuCkKLd_torole_ddb9));
+ 
+    Connect(connector(nlGvf74I_object_ad67_0713,kjuCkKLd_relationship_268e.kjuCkKLd_fromrole_5610),connector(nlGvf74I_object_eabc_2fa4,kjuCkKLd_relationship_268e.kjuCkKLd_torole_0e9b));
+ 
+    Connect(connector(nlGvf74I_object_fd13_a3ed,kjuCkKLd_relationship_83e0.kjuCkKLd_fromrole_ba17),connector(nlGvf74I_object_153a_8acb,kjuCkKLd_relationship_83e0.kjuCkKLd_torole_ac23));
+ 
+    Connect(connector(nlGvf74I_object_9884_ade2,kjuCkKLd_relationship_7729.kjuCkKLd_fromrole_9a0e),connector(nlGvf74I_object_fd13_a3ed,kjuCkKLd_relationship_7729.kjuCkKLd_torole_dd05));
+ 
+    Connect(connector(nlGvf74I_object_5215_bcdb.nlGvf74I_object_5215_bcdb_point_ea7b,kjuCkKLd_relationship_82d0.kjuCkKLd_fromrole_80f2),connector(nlGvf74I_object_ad67_0713,kjuCkKLd_relationship_82d0.kjuCkKLd_torole_bc33));
+ 
+    Connect(connector(nlGvf74I_object_153a_8acb.nlGvf74I_object_153a_8acb_point_111c,kjuCkKLd_relationship_7420.kjuCkKLd_fromrole_68d0),connector(nlGvf74I_object_9884_ade2,kjuCkKLd_relationship_7420.kjuCkKLd_torole_d303));
+ 
+
+      annotation(
+        localLabel="位置传感器",
+    );
+   end kjuCkKLd;

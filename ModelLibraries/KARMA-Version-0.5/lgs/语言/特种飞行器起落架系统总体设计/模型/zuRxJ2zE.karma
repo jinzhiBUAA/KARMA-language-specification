@@ -1,0 +1,36 @@
+    partial Model zuRxJ2zE instanceof graph_act
+      Object zuRxJ2zE_object_04e4 refer object_callbehavior
+        Property zuRxJ2zE_object_04e4_property_4c0e = "发送收起起落架信号" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point zuRxJ2zE_object_04e4_output_871e refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="收缩信号out",
+		 initialLocation=(118,-12,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end zuRxJ2zE_object_04e4_output_871e;
+ 
+        annotation(
+          initialLocation=(54,317,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end zuRxJ2zE_object_04e4;
+
+
+      annotation(
+        localLabel="飞控系统",
+    );
+   end zuRxJ2zE;

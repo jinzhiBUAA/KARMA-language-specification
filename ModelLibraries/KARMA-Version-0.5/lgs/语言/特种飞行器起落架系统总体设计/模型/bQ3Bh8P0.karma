@@ -1,0 +1,38 @@
+    partial Model bQ3Bh8P0 instanceof graph_act
+      Object bQ3Bh8P0_object_4088 refer object_callbehavior
+        Property bQ3Bh8P0_object_4088_property_8a3c = "发送起落架下放信号" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point bQ3Bh8P0_object_4088_output_e891 refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="下放信号out",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,0,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end bQ3Bh8P0_object_4088_output_e891;
+ 
+        annotation(
+          initialLocation=(24,59,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end bQ3Bh8P0_object_4088;
+
+
+      annotation(
+        localLabel="飞控系统",
+        SDIdentification="",
+    );
+   end bQ3Bh8P0;

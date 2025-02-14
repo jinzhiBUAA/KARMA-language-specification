@@ -1,0 +1,17 @@
+   Object Object_Constant
+      initial Property  Object_Constant_Property_Name_e6082e = "Constant" extends property_name annotation(localLabel ="名称");
+      initial Property  Object_Constant_Property_Parameters_b23939 = "1" extends Property_Parameters annotation(localLabel ="参数");
+      initial Property  Object_Constant_Property_Type_d9a28f = "null" extends Property_Type annotation(localLabel ="类型");
+      Input Point Object_Constant_Point_Inport_21ecb2 extends Point_Inport annotation (localLabel ="输入");
+      Output Point Object_Constant_Point_Outport_9d53e8 extends Point_Outport annotation (localLabel ="输出");
+   annotation(
+      localLabel="Constant",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="Constant.png",
+      UnfoldDirection=Y,
+      );
+   end Object_Constant;
+ 

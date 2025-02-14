@@ -1,0 +1,116 @@
+codeGenerator Paramater_For_Simulink
+
+ File file1 = File("D:/Eugene_Y/BIT/metagraph/LGS/Parameter.m");
+	entrypoint rule forheadline( ){
+		to
+			String e(
+				e <- "open_system('lgs_retract_20240508');"+"\n";
+			)
+		do{		
+			file1.append(e);
+			}
+	}
+	
+	rule set_param1{
+		from
+			Object[Object_Clock] obj;		     //定位属性元模型
+		in	Model[model_Graph_Model_ad1de] Md;  //定位项目模型
+		using{
+				Template set_param1(ann,bnn,cnn) =<%
+				set_param('lgs_retract_20240508/<ann>','<bnn>','<cnn>');%>;
+		}                     //定义“set_param”规则
+		to
+			String e(
+				e <- set_param1(obj.Property["名称"],obj.Property["类型"],obj.Property["参数"])+"\n";
+			)                 //读取对象元模型属性并转换
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule set_param2{
+		from
+			Object[Object_Constant] obj;		     //定位属性元模型
+		in	Model[model_Graph_Model_ad1de] Md;  //定位项目模型
+		using{
+				Template set_param2(ann,bnn,cnn) =<%
+				set_param('lgs_retract_20240508/<ann>','<bnn>','<cnn>');%>;
+		}                     //定义“set_param”规则
+		to
+			String e(
+				e <- set_param2(obj.Property["名称"],obj.Property["类型"],obj.Property["参数"])+"\n";
+			)                 //读取对象元模型并转换
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule set_param3{
+		from
+			Object[Object_RepeatingSequenceInterpolated] obj;		  
+		in	Model[model_Graph_Model_ad1de] Md;  
+		using{
+				Template set_param3(ann,bnn,cnn) =<%
+				set_param('lgs_retract_20240508/<ann>','<bnn>','<cnn>');%>;
+		}                    
+		to
+			String e(
+				e <- set_param3(obj.Property["类型1"],obj.Property["参数1"])+"\n";
+			)               
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule set_param4{
+		from
+			Object[Object_RepeatingSequenceInterpolated] obj;		  
+		in	Model[model_Graph_Model_ad1de] Md;  
+		using{
+				Template set_param4(ann,bnn,cnn) =<%
+				set_param('lgs_retract_20240508/<ann>','<bnn>','<cnn>');%>;
+		}                    
+		to
+			String e(
+				e <- set_param4(obj.Property["类型2"],obj.Property["参数2"])+"\n";
+			)               
+			do{
+			file1.append(e);
+		}	
+	}
+	
+	rule set_param5{
+		from
+			Object[Object_TransferFcn] obj;		  
+		in	Model[model_Graph_Model_ad1de] Md;  
+		using{
+				Template set_param5(ann,bnn,cnn) =<%
+				set_param('lgs_retract_20240508/<ann>','<bnn>','<cnn>');%>;
+		}                    
+		to
+			String e(
+				e <- set_param5(obj.Property["类型1"],obj.Property["参数1"])+"\n";
+			)               
+			do{
+			file1.append(e);
+		}	
+	}
+	
+		rule set_param6{
+		from
+			Object[Object_TransferFcn] obj;		  
+		in	Model[model_Graph_Model_ad1de] Md;  
+		using{
+				Template set_param6(ann,bnn,cnn) =<%
+				set_param('lgs_retract_20240508/<ann>','<bnn>','<cnn>');%>;
+		}                    
+		to
+			String e(
+				e <- set_param6(obj.Property["类型2"],obj.Property["参数2"])+"\n";
+			)               
+			do{
+			file1.append(e);
+		}	
+	}
+
+end Paramater_For_Simulink

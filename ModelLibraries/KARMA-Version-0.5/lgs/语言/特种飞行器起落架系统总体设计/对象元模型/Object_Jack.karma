@@ -1,0 +1,19 @@
+   Object Object_Jack
+      initial Property unique Object_Jack_Property_Name_5b8b5c = "null" extends Property_Name annotation(localLabel ="Name");
+      initial Property  Object_Jack_Property_Length_ef9d75 = 0 extends Property_Length annotation(localLabel ="Length");
+      initial Property  Object_Jack_Property_Force_d39e94 = 0 extends Property_Force annotation(localLabel ="Force");
+      initial Property  Object_Jack_Property_Speed_91ee7d = 0 extends Property_Speed annotation(localLabel ="Speed");
+      initial Property  Object_Jack_Property_Angle_5bf66a = 0 extends Property_Angle annotation(localLabel ="Angle");
+      initial Property  Object_Jack_Property_Acceleration_054fc4 = 0 extends Property_Acceleration annotation(localLabel ="Acceleration");
+      Undirected Point Object_Jack_Point_ForcePort_7f571f extends Point_ForcePort annotation (localLabel ="ForcePort");
+   annotation(
+      localLabel="Jack",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="作动器.png",
+      UnfoldDirection=Y,
+      );
+   end Object_Jack;
+ 

@@ -1,0 +1,90 @@
+    partial Model cboWb5ca instanceof graph_act
+      Object cboWb5ca_object_3f19 refer object_callbehavior
+        Property cboWb5ca_object_3f19_property_ffa0 = "检测飞行器位置" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point cboWb5ca_object_3f19_output_6f9c refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="飞行器位置out",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,0,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end cboWb5ca_object_3f19_output_6f9c;
+ 
+        annotation(
+          initialLocation=(42,173,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end cboWb5ca_object_3f19;
+
+      Object cboWb5ca_object_de59 refer object_start
+        annotation(
+          initialLocation=(86,59,49,49),
+          localLabel="开始",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end cboWb5ca_object_de59;
+
+      Relationship cboWb5ca_relationship_d054 refer controlflow
+        Role cboWb5ca_fromrole_1b15 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end cboWb5ca_fromrole_1b15;
+         Role cboWb5ca_torole_ec4d refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end cboWb5ca_torole_ec4d;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(110,83;112,273),
+          polylineLocation="[0,0,0,-65]$[0,65,0,0];(0.5102040816326531,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end cboWb5ca_relationship_d054;
+ 
+    Connect(connector(cboWb5ca_object_de59,cboWb5ca_relationship_d054.cboWb5ca_fromrole_1b15),connector(cboWb5ca_object_3f19,cboWb5ca_relationship_d054.cboWb5ca_torole_ec4d));
+ 
+
+      annotation(
+        localLabel="空地感应系统",
+        SDIdentification="",
+    );
+   end cboWb5ca;

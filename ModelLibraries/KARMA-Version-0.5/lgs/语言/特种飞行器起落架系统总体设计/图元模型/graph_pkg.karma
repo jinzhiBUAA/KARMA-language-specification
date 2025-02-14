@@ -1,0 +1,72 @@
+   partial Graph graph_pkg
+    Object object_block;
+    Object object_interfaceblock;
+    Object object_modellibrary;
+    Object object_package;
+    Object object_valuetype;
+    Object object_view;
+    Object object_model;
+    Object object_note;
+    Object object_constraintblock;
+    Relationship association;
+    Relationship composition;
+    Relationship generalization;
+    Relationship relationship_reference;
+    Constraint (
+    bind connector(object_block,association.association_In),
+    bind connector(object_interfaceblock,association.association_In),
+    bind connector(object_constraintblock,association.association_In),
+    bind connector(object_note,association.association_In),
+    bind connector(object_package,association.association_In),
+    bind connector(object_valuetype,association.association_In),
+    bind connector(object_block,association.association_Out),
+    bind connector(object_interfaceblock,association.association_Out),
+    bind connector(object_note,association.association_Out),
+    bind connector(object_constraintblock,association.association_Out),
+    bind connector(object_package,association.association_Out),
+    bind connector(object_valuetype,association.association_Out),
+    bind connector(object_block,composition.combine_In),
+    bind connector(object_model,composition.combine_In),
+    bind connector(object_interfaceblock,composition.combine_In),
+    bind connector(object_note,composition.combine_In),
+    bind connector(object_constraintblock,composition.combine_In),
+    bind connector(object_package,composition.combine_In),
+    bind connector(object_valuetype,composition.combine_In),
+    bind connector(object_block,composition.combine_Out),
+    bind connector(object_model,composition.combine_Out),
+    bind connector(object_interfaceblock,composition.combine_Out),
+    bind connector(object_note,composition.combine_Out),
+    bind connector(object_constraintblock,composition.combine_Out),
+    bind connector(object_package,composition.combine_Out),
+    bind connector(object_valuetype,composition.combine_Out),
+    bind connector(object_block,generalization.generalize_In),
+    bind connector(object_interfaceblock,generalization.generalize_In),
+    bind connector(object_constraintblock,generalization.generalize_In),
+    bind connector(object_package,generalization.generalize_In),
+    bind connector(object_valuetype,generalization.generalize_In),
+    bind connector(object_block,generalization.generalize_Out),
+    bind connector(object_interfaceblock,generalization.generalize_Out),
+    bind connector(object_constraintblock,generalization.generalize_Out),
+    bind connector(object_package,generalization.generalize_Out),
+    bind connector(object_valuetype,generalization.generalize_Out),
+    bind connector(object_block,relationship_reference.reference_In),
+    bind connector(object_model,relationship_reference.reference_In),
+    bind connector(object_interfaceblock,relationship_reference.reference_In),
+    bind connector(object_note,relationship_reference.reference_In),
+    bind connector(object_constraintblock,relationship_reference.reference_In),
+    bind connector(object_package,relationship_reference.reference_In),
+    bind connector(object_valuetype,relationship_reference.reference_In),
+    bind connector(object_block,relationship_reference.reference_Out),
+    bind connector(object_model,relationship_reference.reference_Out),
+    bind connector(object_interfaceblock,relationship_reference.reference_Out),
+    bind connector(object_note,relationship_reference.reference_Out),
+    bind connector(object_constraintblock,relationship_reference.reference_Out),
+    bind connector(object_package,relationship_reference.reference_Out),
+    bind connector(object_valuetype,relationship_reference.reference_Out),
+    );
+    annotation(
+        localLabel="包图",
+        type = diagram,
+        description="",
+       );
+        end graph_pkg;

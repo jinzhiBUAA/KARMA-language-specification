@@ -1,0 +1,32 @@
+codeGenerator test_merge
+
+File file1 = File("D:/Eugene_Y/BIT/metagraph/LGS/merge_sim.m");
+      entrypoint rule forheadline( )
+      {
+        to
+          String e(
+                   e <- "open_system('lgs_retract_20240508');";
+                  )
+              do{
+                 file1.append(e);
+                                 } 
+       }
+       
+       rule add_block{
+		from
+			Object[object_simmerge] obj;		
+		in	Model[model_Graph_Model_ad1de] Md;
+		using{
+				Template add_block(ann,bnn) =<%
+				add_block('simulink/signal Routing/<ann>','lgs_retract_20240508/<bnn>');%>;
+		}
+		to
+			String e(
+				e <- add_block(obj.Property["名称"],obj.Property["名称"]);
+			)
+			do{
+			file1.append(e);
+		}	
+	}
+	
+end test_merge
