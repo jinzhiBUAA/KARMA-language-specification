@@ -1,0 +1,17 @@
+   Object Object_SimulinkSubSystem
+      initial Property  Object_SimulinkSubSystem_Property_Name_a5a1d6 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_SimulinkSubSystem_Property_Type_980ebd = "null" extends Property_Type annotation(localLabel ="类型");
+      initial Property  Object_SimulinkSubSystem_Property_Parameters_ad70e2 = "null" extends Property_Parameters annotation(localLabel ="参数");
+      Input Point Object_SimulinkSubSystem_Point_Inport_3409aa extends Point_Inport annotation (localLabel ="输入");
+      Output Point Object_SimulinkSubSystem_Point_Outport_daa59c extends Point_Outport annotation (localLabel ="输出");
+   annotation(
+      localLabel="子系统",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      );
+   end Object_SimulinkSubSystem;
+ 

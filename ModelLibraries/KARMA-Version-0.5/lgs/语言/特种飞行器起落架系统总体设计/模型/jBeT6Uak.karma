@@ -1,0 +1,55 @@
+    partial Model jBeT6Uak instanceof graph_act
+      Object jBeT6Uak_object_ca2f refer object_callbehavior
+        Property jBeT6Uak_object_ca2f_property_ebb0 = "请求下放起落架" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point jBeT6Uak_object_ca2f_input_1853 refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="飞行器位置in",
+         labelLocation=(-1,-1),
+		 initialLocation=(-12,0,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end jBeT6Uak_object_ca2f_input_1853;
+ 
+        annotation(
+          initialLocation=(36,53,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end jBeT6Uak_object_ca2f;
+
+      Object jBeT6Uak_object_9cbb refer object_callbehavior
+        Property jBeT6Uak_object_9cbb_property_427f = "将起落架手柄拨动到DW位" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(36,335,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end jBeT6Uak_object_9cbb;
+
+
+      annotation(
+        localLabel="驾驶员",
+        SDIdentification="",
+    );
+   end jBeT6Uak;

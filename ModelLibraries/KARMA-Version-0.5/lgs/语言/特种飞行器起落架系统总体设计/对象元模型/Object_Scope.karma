@@ -1,0 +1,15 @@
+   Object Object_Scope
+      initial Property  Object_Scope_Property_Name_33b2f3 = "Scope" extends Property_Name annotation(localLabel ="名称");
+      Input Point Object_Scope_Point_Inport_bb33ea extends Point_Inport annotation (localLabel ="输入");
+      Output Point Object_Scope_Point_Outport_fd5c13 extends Point_Outport annotation (localLabel ="输出");
+   annotation(
+      localLabel="Scope",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="scope.png",
+      UnfoldDirection=Y,
+      );
+   end Object_Scope;
+ 

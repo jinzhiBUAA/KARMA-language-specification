@@ -1,0 +1,52 @@
+   partial Graph Graph_Model
+    Object Object_Scope;
+    Object Object_Clock;
+    Object Object_TransferFcn;
+    Object Object_Constant;
+    Object Object_Fcn;
+    Object Object_IfActionSubsystem;
+    Object Object_RepeatingSequenceInterpolated;
+    Object Object_Gain;
+    Object Object_If;
+    Object Object_Sum;
+    Object Object_ActionPort;
+    Object Object_Inport;
+    Object Object_Outport;
+    Object Object_Mux;
+    Object object_simmerge;
+    Relationship Relationship_Line;
+    Constraint (
+    bind connector(Object_Mux.Object_Mux_Point_Inport_8cb423,Relationship_Line.Role_Input),
+    bind connector(Object_Scope.Object_Scope_Point_Inport_bb33ea,Relationship_Line.Role_Input),
+    bind connector(Object_Clock.Object_Clock_Point_Inport_0c6bf2,Relationship_Line.Role_Input),
+    bind connector(Object_Fcn.Object_Fcn_Point_Inport_20f0ac,Relationship_Line.Role_Input),
+    bind connector(Object_Outport.Object_Outport_Point_Inport_2f32d9,Relationship_Line.Role_Input),
+    bind connector(Object_Sum.Object_Sum_Point_Inport_feae25,Relationship_Line.Role_Input),
+    bind connector(Object_TransferFcn.Object_TransferFcn_Point_Inport_a5336f,Relationship_Line.Role_Input),
+    bind connector(Object_Gain.Object_Gain_Point_Inport_bcb2db,Relationship_Line.Role_Input),
+    bind connector(Object_IfActionSubsystem.Object_IfActionSubsystem_Point_Inport_12bc2f,Relationship_Line.Role_Input),
+    bind connector(Object_Constant.Object_Constant_Point_Inport_21ecb2,Relationship_Line.Role_Input),
+    bind connector(object_simmerge.object_simmerge_Point_Inport_46dd7d,Relationship_Line.Role_Input),
+    bind connector(Object_RepeatingSequenceInterpolated.Object_RepeatingSequenceInterpolated_Point_Inport_b67e49,Relationship_Line.Role_Input),
+    bind connector(Object_If.Object_If_Point_Inport_1123d5,Relationship_Line.Role_Input),
+    bind connector(Object_Gain.Object_Gain_Point_Outport_1f5a73,Relationship_Line.Role_Output),
+    bind connector(Object_If.Object_If_Point_Outport_5df31a,Relationship_Line.Role_Output),
+    bind connector(Object_Sum.Object_Sum_Point_Outport_42eed2,Relationship_Line.Role_Output),
+    bind connector(Object_TransferFcn.Object_TransferFcn_Point_Outport_c8caa4,Relationship_Line.Role_Output),
+    bind connector(Object_IfActionSubsystem.Object_IfActionSubsystem_Point_Outport_03af95,Relationship_Line.Role_Output),
+    bind connector(Object_RepeatingSequenceInterpolated.Object_RepeatingSequenceInterpolated_Point_Outport_5c7f6a,Relationship_Line.Role_Output),
+    bind connector(Object_Inport.Object_Inport_Point_Outport_39bc58,Relationship_Line.Role_Output),
+    bind connector(Object_Fcn.Object_Fcn_Point_Outport_ad06f0,Relationship_Line.Role_Output),
+    bind connector(object_simmerge.object_simmerge_Point_Outport_fad600,Relationship_Line.Role_Output),
+    bind connector(Object_Scope.Object_Scope_Point_Outport_fd5c13,Relationship_Line.Role_Output),
+    bind connector(Object_Clock.Object_Clock_Point_Outport_1de4a8,Relationship_Line.Role_Output),
+    bind connector(Object_Mux.Object_Mux_Point_Outport_4ee77a,Relationship_Line.Role_Output),
+    bind connector(Object_Constant.Object_Constant_Point_Outport_9d53e8,Relationship_Line.Role_Output),
+    Object_IfActionSubsystem.explode(Graph_Model),
+    );
+    annotation(
+        localLabel="Simulink仿真图",
+        type = diagram,
+        description="",
+       );
+        end Graph_Model;

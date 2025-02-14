@@ -1,0 +1,87 @@
+    partial Model e4ZqzKbT instanceof graph_act
+      Object e4ZqzKbT_object_5b91 refer object_start
+        annotation(
+          initialLocation=(102,84,61,61),
+          localLabel="开始",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end e4ZqzKbT_object_5b91;
+
+      Object e4ZqzKbT_object_0638 refer object_callbehavior
+        Property e4ZqzKbT_object_0638_property_4af5 = "检测飞行器位置" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point e4ZqzKbT_object_0638_output_5298 refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="飞行器位置",
+		 initialLocation=(102,-12,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end e4ZqzKbT_object_0638_output_5298;
+ 
+        annotation(
+          initialLocation=(132,204,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end e4ZqzKbT_object_0638;
+
+      Relationship e4ZqzKbT_relationship_6fc8 refer controlflow
+        Role e4ZqzKbT_fromrole_e48b refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end e4ZqzKbT_fromrole_e48b;
+         Role e4ZqzKbT_torole_2aed refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end e4ZqzKbT_torole_2aed;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(132,114;234,293),
+          polylineLocation="[0,0,-72,-59]$[0,29,-72,-30]$[72,29,0,-30]$[72,59,0,0];(0.29508196721311475,1.0);(0.43478260869565216,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end e4ZqzKbT_relationship_6fc8;
+ 
+    Connect(connector(e4ZqzKbT_object_5b91,e4ZqzKbT_relationship_6fc8.e4ZqzKbT_fromrole_e48b),connector(e4ZqzKbT_object_0638,e4ZqzKbT_relationship_6fc8.e4ZqzKbT_torole_2aed));
+ 
+
+      annotation(
+        localLabel="空地感应系统",
+    );
+   end e4ZqzKbT;

@@ -1,0 +1,83 @@
+    partial Model vTkNU94U instanceof graph_act
+      Object vTkNU94U_object_1a0a refer object_callbehavior
+        Property vTkNU94U_object_1a0a_property_9dfc = "驱动舱门上位锁打开" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point vTkNU94U_object_1a0a_input_e26a refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="驱动电流in",
+		 initialLocation=(12,-12,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end vTkNU94U_object_1a0a_input_e26a;
+ 
+      Point vTkNU94U_object_1a0a_point_4a05 refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="驱动力out",
+		 initialLocation=(-12,0,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end vTkNU94U_object_1a0a_point_4a05;
+ 
+        annotation(
+          initialLocation=(50,53,153,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end vTkNU94U_object_1a0a;
+
+      Object vTkNU94U_object_3df4 refer object_callbehavior
+        Property vTkNU94U_object_3df4_property_1302 = "驱动起落架上位锁打开" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(32,312,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end vTkNU94U_object_3df4;
+
+      Object vTkNU94U_object_ed05 refer object_callbehavior
+        Property vTkNU94U_object_ed05_property_c0a6 = "驱动舱门和起落架下位锁锁定" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(32,594,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end vTkNU94U_object_ed05;
+
+
+      annotation(
+        localLabel="锁机构控制驱动器",
+    );
+   end vTkNU94U;

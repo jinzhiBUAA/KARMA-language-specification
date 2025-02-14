@@ -1,0 +1,79 @@
+    partial Model uqZ3S6Z1 instanceof graph_act
+      Object uqZ3S6Z1_object_bd34 refer object_callbehavior
+        Property uqZ3S6Z1_object_bd34_property_2551 = "驱动起落架下位锁打开" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point uqZ3S6Z1_object_bd34_input_f6be refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="驱动电流in",
+		 initialLocation=(-12,5,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end uqZ3S6Z1_object_bd34_input_f6be;
+ 
+      Point uqZ3S6Z1_object_bd34_point_f6aa refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="驱动力out",
+		 initialLocation=(113,-12,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end uqZ3S6Z1_object_bd34_point_f6aa;
+ 
+        annotation(
+          initialLocation=(30,41,159,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end uqZ3S6Z1_object_bd34;
+
+      Object uqZ3S6Z1_object_23a3 refer object_callbehavior
+        Property uqZ3S6Z1_object_23a3_property_9203 = "驱动舱门和起落架上位锁锁定" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point uqZ3S6Z1_object_23a3_point_218f refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="传感器信号in2",
+		 initialLocation=(96,-12,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end uqZ3S6Z1_object_23a3_point_218f;
+ 
+        annotation(
+          initialLocation=(35,541,150,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end uqZ3S6Z1_object_23a3;
+
+
+      annotation(
+        localLabel="锁机构控制驱动器",
+    );
+   end uqZ3S6Z1;

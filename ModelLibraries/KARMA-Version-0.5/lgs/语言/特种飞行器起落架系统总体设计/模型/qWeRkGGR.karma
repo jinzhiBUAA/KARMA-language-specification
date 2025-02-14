@@ -1,0 +1,217 @@
+    partial Model qWeRkGGR instanceof graph_act
+      Object qWeRkGGR_object_50de refer object_callbehavior
+        Property qWeRkGGR_object_50de_property_12d6 = "检查飞行器周围环境" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(48,53,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end qWeRkGGR_object_50de;
+
+      Object qWeRkGGR_object_58f2 refer object_callbehavior
+        Property qWeRkGGR_object_58f2_property_56c9 = "同意下放" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(46,251,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end qWeRkGGR_object_58f2;
+
+      Object qWeRkGGR_object_7c19 refer object_decision
+        annotation(
+          initialLocation=(71,353,91,43),
+          localLabel="决策",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end qWeRkGGR_object_7c19;
+
+      Object qWeRkGGR_object_92a7 refer object_merge
+        annotation(
+          initialLocation=(59,161,115,55),
+          localLabel="合并",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end qWeRkGGR_object_92a7;
+
+      Relationship qWeRkGGR_relationship_21bf refer controlflow
+        Role qWeRkGGR_fromrole_029a refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end qWeRkGGR_fromrole_029a;
+         Role qWeRkGGR_torole_55b1 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end qWeRkGGR_torole_55b1;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(116,286;116,408),
+          polylineLocation="[0,0,0,-34]$[0,34,0,0];(0.5072463768115942,1.0);(0.4945054945054945,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end qWeRkGGR_relationship_21bf;
+ 
+      Relationship qWeRkGGR_relationship_d24f refer controlflow
+        Role qWeRkGGR_fromrole_2f66 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end qWeRkGGR_fromrole_2f66;
+         Role qWeRkGGR_torole_e75c refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end qWeRkGGR_torole_e75c;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(118,88;116,228),
+          polylineLocation="[0,0,0,-40]$[0,40,0,0];(0.4927536231884058,1.0);(0.4956521739130435,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end qWeRkGGR_relationship_d24f;
+ 
+      Relationship qWeRkGGR_relationship_d740 refer controlflow
+        Role qWeRkGGR_fromrole_d515 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end qWeRkGGR_fromrole_d515;
+         Role qWeRkGGR_torole_5863 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end qWeRkGGR_torole_5863;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(116,188;116,321),
+          polylineLocation="[0,0,0,-35]$[0,35,0,0];(0.48695652173913045,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end qWeRkGGR_relationship_d740;
+ 
+      Relationship qWeRkGGR_relationship_a63b refer controlflow
+        Role qWeRkGGR_fromrole_7422 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end qWeRkGGR_fromrole_7422;
+         Role qWeRkGGR_torole_0ee6 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end qWeRkGGR_torole_0ee6;
+       
+        annotation(
+          localLabel="else",
+          labelLocation=(0,-10),
+          shape="dotttedLine",
+          endLocation=(140,395;152,23),
+          polylineLocation="[24,21,6,158]$[66,21,48,158]$[66,-165,48,-28]$[36,-165,18,-28];(0.7362637362637363,0.0);(0.8434782608695652,1.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end qWeRkGGR_relationship_a63b;
+ 
+    Connect(connector(qWeRkGGR_object_58f2,qWeRkGGR_relationship_21bf.qWeRkGGR_fromrole_029a),connector(qWeRkGGR_object_7c19,qWeRkGGR_relationship_21bf.qWeRkGGR_torole_55b1));
+ 
+    Connect(connector(qWeRkGGR_object_50de,qWeRkGGR_relationship_d24f.qWeRkGGR_fromrole_2f66),connector(qWeRkGGR_object_92a7,qWeRkGGR_relationship_d24f.qWeRkGGR_torole_e75c));
+ 
+    Connect(connector(qWeRkGGR_object_92a7,qWeRkGGR_relationship_d740.qWeRkGGR_fromrole_d515),connector(qWeRkGGR_object_58f2,qWeRkGGR_relationship_d740.qWeRkGGR_torole_5863));
+ 
+    Connect(connector(qWeRkGGR_object_7c19,qWeRkGGR_relationship_a63b.qWeRkGGR_fromrole_7422),connector(qWeRkGGR_object_92a7,qWeRkGGR_relationship_a63b.qWeRkGGR_torole_0ee6));
+ 
+
+      annotation(
+        localLabel="地面监测中心",
+        SDIdentification="",
+    );
+   end qWeRkGGR;

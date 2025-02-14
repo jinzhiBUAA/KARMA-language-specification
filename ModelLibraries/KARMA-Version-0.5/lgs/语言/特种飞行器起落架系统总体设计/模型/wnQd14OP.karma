@@ -1,0 +1,191 @@
+    partial Model wnQd14OP instanceof graph_act
+      Object wnQd14OP_object_5f29 refer object_decision
+        annotation(
+          initialLocation=(53,167,97,49),
+          localLabel="决策",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end wnQd14OP_object_5f29;
+
+      Object wnQd14OP_object_1ba7 refer object_callbehavior
+        Property wnQd14OP_object_1ba7_property_7c69 = "判断所需转向角度大小" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point wnQd14OP_object_1ba7_input_3ff9 refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="飞行器位置",
+		 initialLocation=(-12,18,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end wnQd14OP_object_1ba7_input_3ff9;
+ 
+        annotation(
+          initialLocation=(33,47,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end wnQd14OP_object_1ba7;
+
+      Object wnQd14OP_object_ff2a refer object_callbehavior
+        Property wnQd14OP_object_ff2a_property_40c6 = "拨动转弯手柄" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(38,287,129,69),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end wnQd14OP_object_ff2a;
+
+      Object wnQd14OP_object_8573 refer object_callbehavior
+        Property wnQd14OP_object_8573_property_aecb = "蹬脚蹬" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(174,215,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end wnQd14OP_object_8573;
+
+      Relationship wnQd14OP_relationship_23fd refer controlflow
+        Role wnQd14OP_fromrole_e5e3 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end wnQd14OP_fromrole_e5e3;
+         Role wnQd14OP_torole_811c refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end wnQd14OP_torole_811c;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(103,82;123,254),
+          polylineLocation="[0,0,0,-52]$[0,52,0,0];(0.4927536231884058,1.0);(0.4948453608247423,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end wnQd14OP_relationship_23fd;
+ 
+      Relationship wnQd14OP_relationship_48b3 refer controlflow
+        Role wnQd14OP_fromrole_b1bc refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end wnQd14OP_fromrole_b1bc;
+         Role wnQd14OP_torole_64db refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end wnQd14OP_torole_64db;
+       
+        annotation(
+          localLabel="转弯角度大于10°",
+          shape="dotttedLine",
+          endLocation=(101,191;86,382),
+          polylineLocation="[0,0,0,-71]$[0,71,0,0];(0.4948453608247423,1.0);(0.49606299212598426,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end wnQd14OP_relationship_48b3;
+ 
+      Relationship wnQd14OP_relationship_27e7 refer controlflow
+        Role wnQd14OP_fromrole_8c41 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end wnQd14OP_fromrole_8c41;
+         Role wnQd14OP_torole_7f42 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end wnQd14OP_torole_7f42;
+       
+        annotation(
+          localLabel="转弯角度小于10°",
+          shape="dotttedLine",
+          endLocation=(101,191;318,262),
+          polylineLocation="[0,0,-24,-57]$[96,0,72,-57]$[96,23,72,-34];(1.0,0.5102040816326531);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end wnQd14OP_relationship_27e7;
+ 
+    Connect(connector(wnQd14OP_object_1ba7,wnQd14OP_relationship_23fd.wnQd14OP_fromrole_e5e3),connector(wnQd14OP_object_5f29,wnQd14OP_relationship_23fd.wnQd14OP_torole_811c));
+ 
+    Connect(connector(wnQd14OP_object_5f29,wnQd14OP_relationship_48b3.wnQd14OP_fromrole_b1bc),connector(wnQd14OP_object_ff2a,wnQd14OP_relationship_48b3.wnQd14OP_torole_64db));
+ 
+    Connect(connector(wnQd14OP_object_5f29,wnQd14OP_relationship_27e7.wnQd14OP_fromrole_8c41),connector(wnQd14OP_object_8573,wnQd14OP_relationship_27e7.wnQd14OP_torole_7f42));
+ 
+
+      annotation(
+        localLabel="驾驶员",
+    );
+   end wnQd14OP;

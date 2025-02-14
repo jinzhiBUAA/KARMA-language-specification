@@ -1,0 +1,121 @@
+    partial Model hiOS9tIH instanceof graph_act
+      Object hiOS9tIH_object_6326 refer object_callbehavior
+        Property hiOS9tIH_object_6326_property_cf5f = "请求收起起落架" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point hiOS9tIH_object_6326_input_41ae refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="飞行器位置in",
+		 initialLocation=(-12,0,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end hiOS9tIH_object_6326_input_41ae;
+ 
+        annotation(
+          initialLocation=(54,47,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end hiOS9tIH_object_6326;
+
+      Object hiOS9tIH_object_b018 refer object_callbehavior
+        Property hiOS9tIH_object_b018_property_de03 = "将起落架手柄拨动到UP位" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(70,413,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end hiOS9tIH_object_b018;
+
+      Object hiOS9tIH_object_f62b refer object_callbehavior
+        Property hiOS9tIH_object_f62b_property_7ac9 = "将起落架手柄拨动到OFF位" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        annotation(
+          initialLocation=(70,503,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end hiOS9tIH_object_f62b;
+
+      Object hiOS9tIH_object_beae refer object_end
+        annotation(
+          initialLocation=(108,605,61,61),
+          localLabel="结束",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end hiOS9tIH_object_beae;
+
+      Relationship hiOS9tIH_relationship_a095 refer controlflow
+        Role hiOS9tIH_fromrole_fb47 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end hiOS9tIH_fromrole_fb47;
+         Role hiOS9tIH_torole_7eee refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end hiOS9tIH_torole_7eee;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(140,538;178,674),
+          polylineLocation="[0,0,0,-34]$[0,34,0,0];(0.4927536231884058,1.0);(0.4918032786885246,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end hiOS9tIH_relationship_a095;
+ 
+    Connect(connector(hiOS9tIH_object_f62b,hiOS9tIH_relationship_a095.hiOS9tIH_fromrole_fb47),connector(hiOS9tIH_object_beae,hiOS9tIH_relationship_a095.hiOS9tIH_torole_7eee));
+ 
+
+      annotation(
+        localLabel="驾驶员",
+    );
+   end hiOS9tIH;

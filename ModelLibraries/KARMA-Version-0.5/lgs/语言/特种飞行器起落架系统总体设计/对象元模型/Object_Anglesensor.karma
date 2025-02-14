@@ -1,0 +1,20 @@
+   Object Object_Anglesensor
+      initial Property unique Object_Anglesensor_Property_Name_864014 = "null" extends Property_Name annotation(localLabel ="Name");
+      initial Property  Object_Anglesensor_Property_Torque_922c83 = 0 extends Property_Torque annotation(localLabel ="Torque");
+      initial Property  Object_Anglesensor_Property_ShaftSpeed_05fe66 = 0 extends Property_ShaftSpeed annotation(localLabel ="ShaftSpeed");
+      initial Property  Object_Anglesensor_Property_Value_0e8073 = 0 extends Property_Value annotation(localLabel ="Value");
+      initial Property  Object_Anglesensor_Property_Angle_45a80f = 0 extends Property_Angle annotation(localLabel ="Angle");
+      Undirected Point Object_Anglesensor_Point_ForcePort_1c8ddd extends Point_ForcePort annotation (localLabel ="ForcePort");
+      Undirected Point Object_Anglesensor_Point_ParameterPort_6ddd29 extends Point_ParameterPort annotation (localLabel ="ParameterPort");
+      Undirected Point Object_Anglesensor_Point_SignalPort_843993 extends Point_SignalPort annotation (localLabel ="SignalPort");
+   annotation(
+      localLabel="Anglesensor",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="角度传感器.png",
+      UnfoldDirection=Y,
+      );
+   end Object_Anglesensor;
+ 

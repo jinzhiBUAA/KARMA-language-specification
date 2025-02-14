@@ -1,0 +1,18 @@
+   Object Object_Filter
+      initial Property unique Object_Filter_Property_Name_17fe59 = "null" extends Property_Name annotation(localLabel ="Name");
+      initial Property  Object_Filter_Property_FlowRate_c5b3f7 = 0 extends Property_FlowRate annotation(localLabel ="FlowRate");
+      initial Property  Object_Filter_Property_Pressure_eadfa9 = 0 extends Property_Pressure annotation(localLabel ="Pressure");
+      initial Property  Object_Filter_Property_Number_6a3e8a = 0 extends Property_Number annotation(localLabel ="Number");
+      initial Property  Object_Filter_Property_Value_dedd34 = 0 extends Property_Value annotation(localLabel ="Value");
+      Undirected Point Object_Filter_Point_HydraulicPort_4f9905 extends Point_HydraulicPort annotation (localLabel ="HydraulicPort");
+   annotation(
+      localLabel="Filter",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="过滤器.png",
+      UnfoldDirection=Y,
+      );
+   end Object_Filter;
+ 

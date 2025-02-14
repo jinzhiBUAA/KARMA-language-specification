@@ -1,0 +1,27 @@
+   partial Graph graph_stm
+    Object object_finalstate;
+    Object object_mixstate;
+    Object object_state;
+    Object object_end;
+    Object object_start;
+    Relationship relation_transfer;
+    Constraint (
+    bind connector(object_end,relation_transfer.transfer_In),
+    bind connector(object_finalstate,relation_transfer.transfer_In),
+    bind connector(object_mixstate,relation_transfer.transfer_In),
+    bind connector(object_start,relation_transfer.transfer_In),
+    bind connector(object_state,relation_transfer.transfer_In),
+    bind connector(object_end,relation_transfer.transfer_Out),
+    bind connector(object_finalstate,relation_transfer.transfer_Out),
+    bind connector(object_mixstate,relation_transfer.transfer_Out),
+    bind connector(object_start,relation_transfer.transfer_Out),
+    bind connector(object_state,relation_transfer.transfer_Out),
+    object_mixstate.explode(graph_stm),
+    object_mixstate.decompose(graph_stm),
+    );
+    annotation(
+        localLabel="状态机图",
+        type = diagram,
+        description="",
+       );
+        end graph_stm;

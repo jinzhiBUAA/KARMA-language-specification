@@ -1,0 +1,23 @@
+   Object Object_Pivot
+      initial Property unique Object_Pivot_Property_Name_c40c06 = "null" extends Property_Name annotation(localLabel ="Name");
+      initial Property  Object_Pivot_Property_Length_e228af = 0 extends Property_Length annotation(localLabel ="Length");
+      initial Property  Object_Pivot_Property_Torque_b5c544 = 0 extends Property_Torque annotation(localLabel ="Torque");
+      initial Property  Object_Pivot_Property_Force_afc555 = 0 extends Property_Force annotation(localLabel ="Force");
+      initial Property  Object_Pivot_Property_Angle_6c5343 = 0 extends Property_Angle annotation(localLabel ="Angle");
+      initial Property  Object_Pivot_Property_ShaftSpeed_24baf2 = 0 extends Property_ShaftSpeed annotation(localLabel ="ShaftSpeed");
+      initial Property  Object_Pivot_Property_RotaryDampingCoefficient_3153e4 = 0 extends Property_RotaryDampingCoefficient annotation(localLabel ="RotaryDampingCoefficient");
+      initial Property  Object_Pivot_Property_RotarySpringStiffness_4ce88c = 0 extends Property_RotarySpringStiffness annotation(localLabel ="RotarySpringStiffness");
+      initial Property  Object_Pivot_Property_DampingCoefficient_352def = 0 extends Property_DampingCoefficient annotation(localLabel ="DampingCoefficient");
+      initial Property  Object_Pivot_Property_SpringRate_7fb41e = 0 extends Property_SpringRate annotation(localLabel ="SpringRate");
+      Undirected Point Object_Pivot_Point_ForcePort_7982e8 extends Point_ForcePort annotation (localLabel ="ForcePort");
+   annotation(
+      localLabel="Pivot",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="旋转副.png",
+      UnfoldDirection=Y,
+      );
+   end Object_Pivot;
+ 

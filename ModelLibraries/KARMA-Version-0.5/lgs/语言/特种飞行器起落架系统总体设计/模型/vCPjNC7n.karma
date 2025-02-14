@@ -1,0 +1,537 @@
+    partial Model vCPjNC7n instanceof graph_act
+    
+      Object vCPjNC7n_object_f676 refer object_signal
+        Property vCPjNC7n_object_f676_property_1e8b = "null" refer object_signal_property_name_219c92 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(12,264,109,49),
+          localLabel="in 收缩信号",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end vCPjNC7n_object_f676;
+
+      Object vCPjNC7n_object_b50e refer object_lane
+    this.decompose(qq6hWJMN);
+      
+        annotation(
+          initialLocation=(337,126,226,624),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="qq6hWJMN:(0,0,226,624)",
+        );
+      end vCPjNC7n_object_b50e;
+
+      Object vCPjNC7n_object_2046 refer object_lane
+    this.decompose(muBAkGy4);
+      
+        annotation(
+          initialLocation=(564,126,215,624),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="muBAkGy4:(0,0,215,624)",
+        );
+      end vCPjNC7n_object_2046;
+
+      Object vCPjNC7n_object_08ef refer object_lane
+    this.decompose(uqZ3S6Z1);
+      
+        annotation(
+          initialLocation=(780,126,228,624),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="uqZ3S6Z1:(0,0,228,624)",
+        );
+      end vCPjNC7n_object_08ef;
+
+      Object vCPjNC7n_object_9b8b refer object_lane
+    this.decompose(km8jtcWj);
+      
+        annotation(
+          initialLocation=(1009,125,196,625),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="km8jtcWj:(0,0,196,625)",
+        );
+      end vCPjNC7n_object_9b8b;
+
+      Object vCPjNC7n_object_a7a4 refer object_lane
+    this.decompose(xUKBkmAA);
+      
+        annotation(
+          initialLocation=(1206,125,197,625),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="xUKBkmAA:(0,0,197,625)",
+        );
+      end vCPjNC7n_object_a7a4;
+
+      Object vCPjNC7n_object_1c0f refer object_lane
+    this.decompose(nlGvf74I);
+      
+        annotation(
+          initialLocation=(1404,125,209,625),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="nlGvf74I:(0,0,209,625)",
+        );
+      end vCPjNC7n_object_1c0f;
+
+      Object vCPjNC7n_object_4f49 refer object_lane
+    this.decompose(wGcL9XfE);
+      
+        annotation(
+          initialLocation=(132,125,204,625),
+          localLabel="泳道",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="wGcL9XfE:(0,0,204,625)",
+        );
+      end vCPjNC7n_object_4f49;
+
+      Relationship vCPjNC7n_relationship_2f52 refer controlflow
+        Role vCPjNC7n_fromrole_a6dd refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end vCPjNC7n_fromrole_a6dd;
+         Role vCPjNC7n_torole_c242 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end vCPjNC7n_torole_c242;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(93,79;142,79),
+          polylineLocation="[0,-4,-54,0]$[54,-4,0,0];(1.0,0.5588235294117647);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end vCPjNC7n_relationship_2f52;
+ 
+      Relationship vCPjNC7n_relationship_0c6b refer controlflow
+        Role vCPjNC7n_fromrole_bbf0 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end vCPjNC7n_fromrole_bbf0;
+         Role vCPjNC7n_torole_ace8 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end vCPjNC7n_torole_ace8;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(32,336;794,449),
+          polylineLocation="[-68,44,-766,-40]$[-68,78,-766,-6]$[698,78,0,-6];(1.0,0.35294117647058826);(0.0,0.6122448979591837)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end vCPjNC7n_relationship_0c6b;
+ 
+      Relationship vCPjNC7n_relationship_6c7f refer controlflow
+        Role vCPjNC7n_fromrole_d02f refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end vCPjNC7n_fromrole_d02f;
+         Role vCPjNC7n_torole_0ebd refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end vCPjNC7n_torole_0ebd;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(110,576;167,577),
+          polylineLocation="[0,0,-69,0]$[69,0,0,0];(1.0,0.5);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end vCPjNC7n_relationship_6c7f;
+ 
+      Relationship vCPjNC7n_relationship_8a55 refer controlflow
+        Role vCPjNC7n_fromrole_fcdc refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end vCPjNC7n_fromrole_fcdc;
+         Role vCPjNC7n_torole_7681 refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end vCPjNC7n_torole_7681;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(88,87;164,99),
+          polylineLocation="[0,4,-68,-8]$[68,4,0,-8];(1.0,0.4264705882352941);(0.0,0.6744186046511628)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end vCPjNC7n_relationship_8a55;
+ 
+      Relationship vCPjNC7n_relationship_5288 refer objectflow
+        Role vCPjNC7n_fromrole_e769 refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end vCPjNC7n_fromrole_e769;
+         Role vCPjNC7n_torole_2b38 refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end vCPjNC7n_torole_2b38;
+       
+        annotation(
+          localLabel="对象流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[37,-25,-33,10]$[63,-25,-7,10];(0.6605504587155964,1.0);(0.35,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end vCPjNC7n_relationship_5288;
+ 
+      Relationship vCPjNC7n_relationship_652e refer objectflow
+        Role vCPjNC7n_fromrole_e9d3 refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end vCPjNC7n_fromrole_e9d3;
+         Role vCPjNC7n_torole_39a4 refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end vCPjNC7n_torole_39a4;
+       
+        annotation(
+          localLabel="对象流",
+          shape="solidLine",
+          endLocation=(75,118;166,35),
+          polylineLocation="[-10,-12,-96,23]$[-10,-35,-96,0]$[86,-35,0,0];(1.0,0.6);(0.0,0.3)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end vCPjNC7n_relationship_652e;
+ 
+      Relationship vCPjNC7n_relationship_f6e5 refer objectflow
+        Role vCPjNC7n_fromrole_5a18 refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end vCPjNC7n_fromrole_5a18;
+         Role vCPjNC7n_torole_c6aa refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end vCPjNC7n_torole_c6aa;
+       
+        annotation(
+          localLabel="对象流",
+          shape="solidLine",
+          endLocation=(86,200;394,-63),
+          polylineLocation="[-1,4,-295,143]$[57,4,-237,143]$[57,-139,-237,0]$[294,-139,0,0];(1.0,0.35);(0.0,0.65)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end vCPjNC7n_relationship_f6e5;
+ 
+      Relationship vCPjNC7n_relationship_30ed refer objectflow
+        Role vCPjNC7n_fromrole_1161 refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end vCPjNC7n_fromrole_1161;
+         Role vCPjNC7n_torole_dd35 refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end vCPjNC7n_torole_dd35;
+       
+        annotation(
+          localLabel="起落架收缩到位",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[0,0,1143,0]$[-1144,0,-1,0];(0.0,0.6122448979591837);(1.0,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end vCPjNC7n_relationship_30ed;
+ 
+      Relationship vCPjNC7n_relationship_9f41 refer controlflow
+        Role vCPjNC7n_fromrole_3fc1 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end vCPjNC7n_fromrole_3fc1;
+         Role vCPjNC7n_torole_16ed refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end vCPjNC7n_torole_16ed;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(97,299;388,292),
+          polylineLocation="[0,0,-288,0]$[288,0,0,0];(1.0,0.4117647058823529);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end vCPjNC7n_relationship_9f41;
+ 
+      Relationship vCPjNC7n_relationship_bcf3 refer objectflow
+        Role vCPjNC7n_fromrole_fa0c refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end vCPjNC7n_fromrole_fa0c;
+         Role vCPjNC7n_torole_1319 refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end vCPjNC7n_torole_1319;
+       
+        annotation(
+          localLabel="舱门关闭到位",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[0,0,512,0]$[-512,0,0,0];(0.0,0.3673469387755102);(1.0,0.2)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end vCPjNC7n_relationship_bcf3;
+ 
+      Relationship vCPjNC7n_relationship_47ea refer objectflow
+        Role vCPjNC7n_fromrole_63b6 refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end vCPjNC7n_fromrole_63b6;
+         Role vCPjNC7n_torole_5f36 refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end vCPjNC7n_torole_5f36;
+       
+        annotation(
+          localLabel="对象流",
+          shape="solidLine",
+          endLocation=(108,76;196,96),
+          polylineLocation="[-1,0,-95,-13]$[56,0,-38,-13]$[56,13,-38,0]$[94,13,0,0];(1.0,0.3);(0.0,0.65)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end vCPjNC7n_relationship_47ea;
+ 
+    Connect(connector(km8jtcWj_object_4dbb,vCPjNC7n_relationship_2f52.vCPjNC7n_fromrole_a6dd),connector(xUKBkmAA_object_f149,vCPjNC7n_relationship_2f52.vCPjNC7n_torole_c242));
+ 
+    Connect(connector(muBAkGy4_object_f7de,vCPjNC7n_relationship_0c6b.vCPjNC7n_fromrole_bbf0),connector(nlGvf74I_object_fd13,vCPjNC7n_relationship_0c6b.vCPjNC7n_torole_ace8));
+ 
+    Connect(connector(uqZ3S6Z1_object_23a3,vCPjNC7n_relationship_6c7f.vCPjNC7n_fromrole_d02f),connector(km8jtcWj_object_7263,vCPjNC7n_relationship_6c7f.vCPjNC7n_torole_0ebd));
+ 
+    Connect(connector(xUKBkmAA_object_f149,vCPjNC7n_relationship_8a55.vCPjNC7n_fromrole_fcdc),connector(nlGvf74I_object_eabc,vCPjNC7n_relationship_8a55.vCPjNC7n_torole_7681));
+ 
+    Connect(connector(vCPjNC7n_object_f676,vCPjNC7n_relationship_5288.vCPjNC7n_fromrole_e769),connector(wGcL9XfE_object_85b3.wGcL9XfE_object_85b3_input_1df2,vCPjNC7n_relationship_5288.vCPjNC7n_torole_2b38));
+ 
+    Connect(connector(wGcL9XfE_object_85b3.wGcL9XfE_object_85b3_output_9ffe,vCPjNC7n_relationship_652e.vCPjNC7n_fromrole_e9d3),connector(qq6hWJMN_object_a6f7.qq6hWJMN_object_a6f7_input_c83b,vCPjNC7n_relationship_652e.vCPjNC7n_torole_39a4));
+ 
+    Connect(connector(qq6hWJMN_object_140b.qq6hWJMN_object_140b_output_7d8a,vCPjNC7n_relationship_f6e5.vCPjNC7n_fromrole_5a18),connector(uqZ3S6Z1_object_bd34.uqZ3S6Z1_object_bd34_input_f6be,vCPjNC7n_relationship_f6e5.vCPjNC7n_torole_c6aa));
+ 
+    Connect(connector(nlGvf74I_object_ad67,vCPjNC7n_relationship_30ed.vCPjNC7n_fromrole_1161),connector(wGcL9XfE_object_9eaf.wGcL9XfE_object_9eaf_input_fc3f,vCPjNC7n_relationship_30ed.vCPjNC7n_torole_dd35));
+ 
+    Connect(connector(wGcL9XfE_object_9eaf,vCPjNC7n_relationship_9f41.vCPjNC7n_fromrole_3fc1),connector(muBAkGy4_object_f7de,vCPjNC7n_relationship_9f41.vCPjNC7n_torole_16ed));
+ 
+    Connect(connector(nlGvf74I_object_9884,vCPjNC7n_relationship_bcf3.vCPjNC7n_fromrole_fa0c),connector(uqZ3S6Z1_object_23a3.uqZ3S6Z1_object_23a3_point_218f,vCPjNC7n_relationship_bcf3.vCPjNC7n_torole_1319));
+ 
+    Connect(connector(uqZ3S6Z1_object_bd34.uqZ3S6Z1_object_bd34_point_f6aa,vCPjNC7n_relationship_47ea.vCPjNC7n_fromrole_63b6),connector(km8jtcWj_object_4dbb.km8jtcWj_object_4dbb_point_32f4,vCPjNC7n_relationship_47ea.vCPjNC7n_torole_5f36));
+ 
+
+      annotation(
+        localLabel="进行起落架收缩",
+    );
+    
+   end vCPjNC7n;

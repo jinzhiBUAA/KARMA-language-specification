@@ -1,0 +1,23 @@
+   Object Object_FlowControl
+      initial Property unique Object_FlowControl_Property_Name_ba6e79 = "null" extends Property_Name annotation(localLabel ="Name");
+      initial Property  Object_FlowControl_Property_Number_d3a38b = 0 extends Property_Number annotation(localLabel ="Number");
+      initial Property  Object_FlowControl_Property_Pressure_fae865 = 0 extends Property_Pressure annotation(localLabel ="Pressure");
+      initial Property  Object_FlowControl_Property_FlowRate_82a09e = 0 extends Property_FlowRate annotation(localLabel ="FlowRate");
+      initial Property  Object_FlowControl_Property_Value_ddc8bd = 0 extends Property_Value annotation(localLabel ="Value");
+      initial Property  Object_FlowControl_Property_Length_490c81 = 0 extends Property_Length annotation(localLabel ="Length");
+      initial Property  Object_FlowControl_Property_Text_6e92c6 = "null" extends Property_Text annotation(localLabel ="Text");
+      initial Property  Object_FlowControl_Property_Area_f627a1 = "null" extends Property_Area annotation(localLabel ="Area");
+      Undirected Point Object_FlowControl_Point_ParameterPort_027aeb extends Point_ParameterPort annotation (localLabel ="ParameterPort");
+      Undirected Point Object_FlowControl_Point_SignalPort_d4c195 extends Point_SignalPort annotation (localLabel ="SignalPort");
+      Undirected Point Object_FlowControl_Point_HydraulicPort_b8ce8e extends Point_HydraulicPort annotation (localLabel ="HydraulicPort");
+   annotation(
+      localLabel="FlowControl",
+      description="",
+      icon="",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="节流阀.png",
+      UnfoldDirection=Y,
+      );
+   end Object_FlowControl;
+ 

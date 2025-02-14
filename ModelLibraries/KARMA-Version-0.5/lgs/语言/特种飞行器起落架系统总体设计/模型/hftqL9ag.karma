@@ -1,0 +1,194 @@
+    partial Model hftqL9ag instanceof graph_act
+      Object hftqL9ag_object_dab9 refer object_start
+        annotation(
+          initialLocation=(78,17,55,49),
+          localLabel="开始",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end hftqL9ag_object_dab9;
+
+      Object hftqL9ag_object_d4f8 refer object_callbehavior
+        Property hftqL9ag_object_d4f8_property_0a0b = "发送工作信号" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point hftqL9ag_object_d4f8_input_b39b refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="下放信号in",
+		 initialLocation=(-12,5,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end hftqL9ag_object_d4f8_input_b39b;
+ 
+      Point hftqL9ag_object_d4f8_output_27a1 refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="工作信号out",
+		 initialLocation=(111,-12,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end hftqL9ag_object_d4f8_output_27a1;
+ 
+        annotation(
+          initialLocation=(30,113,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end hftqL9ag_object_d4f8;
+
+      Object hftqL9ag_object_62d1 refer object_callbehavior
+        Property hftqL9ag_object_62d1_property_d17b = "发送应急下放信号" refer object_callbehavior_property_name_1bd499 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point hftqL9ag_object_62d1_point_5a2b refer object_callbehavior_port_In_9e533c
+      annotation(
+         localLabel="传感器信号in",
+		 initialLocation=(-12,5,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end hftqL9ag_object_62d1_point_5a2b;
+ 
+      Point hftqL9ag_object_62d1_output_a3e9 refer object_callbehavior_port_Out_6a170c
+      annotation(
+         localLabel="应急下放信号out",
+		 initialLocation=(66,60,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end hftqL9ag_object_62d1_output_a3e9;
+ 
+        annotation(
+          initialLocation=(23,347,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end hftqL9ag_object_62d1;
+
+      Object hftqL9ag_object_48ee refer object_divide
+        annotation(
+          initialLocation=(12,311,160,10),
+          localLabel="分支",
+          shape="narrowSolidRectangle",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end hftqL9ag_object_48ee;
+
+      Relationship hftqL9ag_relationship_7f62 refer controlflow
+        Role hftqL9ag_fromrole_3c19 refer controlflow_Out
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end hftqL9ag_fromrole_3c19;
+         Role hftqL9ag_torole_a1ad refer controlflow_In
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end hftqL9ag_torole_a1ad;
+       
+        annotation(
+          localLabel="控制流",
+          shape="dotttedLine",
+          endLocation=(105,41;57,184),
+          polylineLocation="[0,0,0,-47]$[0,47,0,0];(0.38181818181818183,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end hftqL9ag_relationship_7f62;
+ 
+      Relationship hftqL9ag_relationship_06c5 refer objectflow
+        Role hftqL9ag_fromrole_9763 refer objectflow_In
+          annotation(
+            localLabel="对象流始端",
+            shape="no"
+          );
+        end hftqL9ag_fromrole_9763;
+         Role hftqL9ag_torole_e901 refer objectflow_Out
+          annotation(
+            localLabel="对象流终端",
+            shape="arrowShape"
+          );
+        end hftqL9ag_torole_e901;
+       
+        annotation(
+          localLabel="对象流",
+          shape="solidLine",
+          endLocation=(0,0;0,0),
+          polylineLocation="[0,0,82,-31]$[0,15,82,-16]$[-82,15,0,-16]$[-82,31,0,0];(0.51875,1.0);(0.1,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end hftqL9ag_relationship_06c5;
+ 
+    Connect(connector(hftqL9ag_object_dab9,hftqL9ag_relationship_7f62.hftqL9ag_fromrole_3c19),connector(hftqL9ag_object_d4f8,hftqL9ag_relationship_7f62.hftqL9ag_torole_a1ad));
+ 
+    Connect(connector(hftqL9ag_object_48ee,hftqL9ag_relationship_06c5.hftqL9ag_fromrole_9763),connector(hftqL9ag_object_62d1.hftqL9ag_object_62d1_point_5a2b,hftqL9ag_relationship_06c5.hftqL9ag_torole_e901));
+ 
+
+      annotation(
+        localLabel="收放控制驱动器",
+    );
+   end hftqL9ag;
