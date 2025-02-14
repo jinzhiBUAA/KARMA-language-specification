@@ -8,7 +8,7 @@ Application of Multiarchitecture Modeling Method in Intelligent electric–vehic
 
 # Authors
 
-Junda Maa; Guoxin Wang; Jinzhi Lu; Xiaochen Zheng; Yan Yan
+Junda Ma; Guoxin Wang; Jinzhi Lu; Xiaochen Zheng; Yan Yan
 
 # Abstract
 
