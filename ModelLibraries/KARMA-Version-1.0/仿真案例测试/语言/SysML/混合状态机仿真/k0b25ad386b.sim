@@ -1,0 +1,87 @@
+//Autoevent for composition or pseudo
+event AUTOevent_k0b25ad386b_relationship_df9e;
+event AUTOevent_k0b25ad386b_object_9ef9;
+event AUTOevent_k0b25ad386b_object_a599;
+
+automaton k0b25ad386b:
+
+event Start;
+event PedalPressing;
+event BrakeHolding;
+event Mode_select;
+disc real acc_x0 = -1.5;
+
+location k0b25ad386b_object_9739:
+initial;
+edge Start   goto k0b25ad386b_object_6ca7;
+
+location k0b25ad386b_object_6ca7:
+edge tau when time>1  goto k0b25ad386b_object_a599;
+
+location k0b25ad386b_object_a599:
+edge AUTOevent_k0b25ad386b_relationship_df9e goto k0b25ad386b_object_9ef9;
+
+location k0b25ad386b_object_9ef9:
+edge Mode_select   goto k0b25ad386b_object_6d21;
+
+location k0b25ad386b_object_6d21:
+edge tau goto k0b25ad386b_object_fdc5;
+edge BrakeHolding   goto k0b25ad386b_object_0b0b;
+edge PedalPressing   goto k0b25ad386b_object_bbf0;
+
+location k0b25ad386b_object_fdc5:
+edge tau goto k0b25ad386b_object_6d21;
+edge tau goto k0b25ad386b_object_8719;
+
+location k0b25ad386b_object_8719:
+edge tau goto k0b25ad386b_object_98f7;
+
+location k0b25ad386b_object_98f7:
+edge tau goto k0b25ad386b_object_3e7b;
+
+location k0b25ad386b_object_3e7b;
+
+location k0b25ad386b_object_0b0b:
+edge tau goto k0b25ad386b_object_8719;
+
+location k0b25ad386b_object_bbf0:
+edge tau goto k0b25ad386b_object_8719;
+
+end
+
+
+automaton d1NEARTE:
+
+event Addpress;
+
+location d1NEARTE_object_d42d:
+initial;
+edge AUTOevent_k0b25ad386b_object_9ef9 goto d1NEARTE_object_5be5;
+
+location d1NEARTE_object_5be5:
+edge tau goto d1NEARTE_object_5eb7;
+
+location d1NEARTE_object_5eb7:
+edge Addpress   goto d1NEARTE_object_5be5;
+
+end
+
+
+automaton qj1oLP6x:
+
+location qj1oLP6x_object_7b74:
+initial;
+edge AUTOevent_k0b25ad386b_object_a599 goto qj1oLP6x_object_fffb;
+
+location qj1oLP6x_object_fffb:
+edge tau goto qj1oLP6x_object_a0a5;
+
+location qj1oLP6x_object_a0a5:
+edge tau goto qj1oLP6x_object_5305;
+edge tau goto qj1oLP6x_object_fffb;
+
+location qj1oLP6x_object_5305:
+edge AUTOevent_k0b25ad386b_relationship_df9e goto qj1oLP6x_object_7b74;
+
+end
+

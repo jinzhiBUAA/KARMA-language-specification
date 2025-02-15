@@ -1,0 +1,20 @@
+   Object Object_Flow_Final_Node
+      initial Property  Object_Flow_Final_Node_Property_Name_c0b192 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Flow_Final_Node_Property_To_Do_afb5b8 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Flow_Final_Node_Property_Graph_Reference = "null" extends Property_Graph_Reference annotation(localLabel ="引用图");
+      initial Property  Object_Flow_Final_Node_Property_Relationship_Reference = "null" extends Property_Relationship_Reference annotation(localLabel ="引用关系");
+      initial Property  Object_Flow_Final_Node_Property_Point_Reference = "null" extends Property_Point_Reference annotation(localLabel ="引用点");
+      initial Property  Object_Flow_Final_Node_Property_Object_Reference = "null" extends Property_Object_Reference annotation(localLabel ="引用对象");
+      initial Property  Object_Flow_Final_Node_Property_Role_Reference = "null" extends Property_Role_Reference annotation(localLabel ="引用角色");
+   annotation(
+      localLabel="流结束节点",
+      description="",
+      icon="流结束节点.png",
+      shape="circle",
+      visualizedMode=blankPropertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Flow_Final_Node;
+ 

@@ -1,0 +1,26 @@
+   Object Object_Composite_State
+      initial Property  Object_Composite_State_Property_Name_8d3b34 = "null" extends Property_Name annotation(localLabel ="名称", catalog="");
+      initial Property  Object_Composite_State_Property_State_Invariant_c7931e = "null" extends Property_State_Invariant annotation(localLabel ="状态不变条件", catalog="");
+      initial Property  Object_Composite_State_Property_Deferrable_Trigger_4e0130 = "null" extends Property_Deferrable_Trigger annotation(localLabel ="可延迟的触发器", catalog="");
+      initial Property  Object_Composite_State_Property_To_Do_61be98 = "null" extends Property_To_Do annotation(localLabel ="待办事项", catalog="");
+      initial Property  Object_Composite_State_Property_Documentation_46600d = "null" extends Property_Documentation annotation(localLabel ="文档", catalog="");
+      initial Property  Object_Composite_State_Property_Entry_Behavior_Type_f73952 = "null" extends Property_Entry_Behavior_Type annotation(localLabel ="入口行为类型", catalog="");
+      initial Property  Object_Composite_State_Property_Entry_Behavior_Element_6bf158 = "null" extends Property_Entry_Behavior_Element annotation(localLabel ="入口行为元素", catalog="");
+      initial Property  Object_Composite_State_Property_Do_Activity_Behavior_Element_411e43 = "null" extends Property_Do_Activity_Behavior_Element annotation(localLabel ="执行活动行为元素", catalog="");
+      initial Property  Object_Composite_State_Property_Do_Activity_Behavior_Type_76c7c7 = "null" extends Property_Do_Activity_Behavior_Type annotation(localLabel ="执行活动行为类型", catalog="");
+      initial Property  Object_Composite_State_Property_Exit_Behavior_Element_2d9d49 = "null" extends Property_Exit_Behavior_Element annotation(localLabel ="出口行为元素", catalog="");
+      initial Property  Object_Composite_State_Property_Exit_Behavior_Type_be1ed1 = "null" extends Property_Exit_Behavior_Type annotation(localLabel ="出口行为类型", catalog="");
+      Undirected Point Object_Composite_State_Point_Pseudo_State_752437 extends Point_Pseudo_State annotation (localLabel ="伪状态");
+    this.explode(State_Machine_Diagram),
+   annotation(
+      localLabel="组合状态",
+      description="",
+      icon="组合状态.png",
+      shape="roundedRectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Composite_State;
+ 

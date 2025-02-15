@@ -1,0 +1,29 @@
+   Object Object_Expansion_Region
+      initial Property  Object_Expansion_Region_Property_Name_8bf3df = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Expansion_Region_Property_Mode_e6979f = "null" extends Property_Mode annotation(localLabel ="模式");
+      initial Property  Object_Expansion_Region_Property_To_Do_727a07 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Expansion_Region_Property_In_Activity_b69e77 = "null" extends Property_In_Activity annotation(localLabel ="处于活动");
+      initial Property  Object_Expansion_Region_Property_Is_Locally_Reentrant_dde46e = false extends Property_Is_Locally_Reentrant annotation(localLabel ="是否本地可重入");
+      initial Property  Object_Expansion_Region_Property_Redefined_Node_ec34d4 = "null" extends Property_Redefined_Node annotation(localLabel ="重定义节点");
+      initial Property  Object_Expansion_Region_Property_Graph_Reference = "null" extends Property_Graph_Reference annotation(localLabel ="引用图");
+      initial Property  Object_Expansion_Region_Property_Object_Reference = "null" extends Property_Object_Reference annotation(localLabel ="引用对象");
+      initial Property  Object_Expansion_Region_Property_Point_Reference = "null" extends Property_Point_Reference annotation(localLabel ="引用点");
+      initial Property  Object_Expansion_Region_Property_Relationship_Reference = "null" extends Property_Relationship_Reference annotation(localLabel ="引用关系");
+      initial Property  Object_Expansion_Region_Property_Role_Reference = "null" extends Property_Role_Reference annotation(localLabel ="引用角色");
+      Output Point Object_Expansion_Region_Point_Output_Pin_d7bb10 extends Point_Output_Pin annotation (localLabel ="输出引脚");
+      Output Point Object_Expansion_Region_Point_Value_Pin_2380d1 extends Point_Value_Pin annotation (localLabel ="值引脚");
+      Input Point Object_Expansion_Region_Point_Action_Input_Pin_9ece65 extends Point_Action_Input_Pin annotation (localLabel ="动作输入引脚");
+      Undirected Point Object_Expansion_Region_Point_Expansion_Node_238043 extends Point_Expansion_Node annotation (localLabel ="扩展节点");
+      Input Point Object_Expansion_Region_Point_Input_Pin_7d0e46 extends Point_Input_Pin annotation (localLabel ="输入引脚");
+   annotation(
+      localLabel="扩展区域",
+      description="",
+      icon="扩展区域.png",
+      shape="roundedRectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Expansion_Region;
+ 

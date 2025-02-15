@@ -1,0 +1,91 @@
+    partial  Model zPcsEMQ4 instanceof State_Machine_Diagram
+    
+      State      Object zPcsEMQ4_object_9690 clone zPcsEMQ4.zPcsEMQ4_object_9690
+        Property Object_State_Property_Name_41bacd_83f3 = "仿真求解" clone Object_State_Property_Name_41bacd_83f3 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(60,30,152,-1),
+          localLabel="状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;255,255,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList="状态:152,35;"
+        );
+      end zPcsEMQ4_object_9690;
+
+      State      Object zPcsEMQ4_object_cd05 clone zPcsEMQ4.zPcsEMQ4_object_cd05
+      initial;
+        annotation(
+          initialLocation=(340,30,84,68),
+          localLabel="初始伪状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end zPcsEMQ4_object_cd05;
+
+      Relationship zPcsEMQ4_relationship_3152 refer Relationship_Transition
+        Role zPcsEMQ4_fromrole_0281 refer Role_Source
+          Connect zPcsEMQ4_object_cd05;
+ 
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end zPcsEMQ4_fromrole_0281;
+         Role zPcsEMQ4_torole_c663 refer Role_Target
+          Connect zPcsEMQ4_object_9690;
+ 
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end zPcsEMQ4_torole_c663;
+       
+        annotation(
+          localLabel="转换",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(382,64;-24,64),
+          polylineLocation="[0,0,126,0]$[-126,0,0,0];(0.0,0.5);(1.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end zPcsEMQ4_relationship_3152;
+ 
+    Connect(connector(zPcsEMQ4_object_cd05,zPcsEMQ4_relationship_3152.zPcsEMQ4_fromrole_0281),connector(zPcsEMQ4_object_9690,zPcsEMQ4_relationship_3152.zPcsEMQ4_torole_c663));
+ 
+
+      annotation(
+        localLabel="逻辑仿真1",
+        SDIdentification="",
+        representedObject="",
+        framePointsLocation=""
+    );
+
+    
+   end zPcsEMQ4;

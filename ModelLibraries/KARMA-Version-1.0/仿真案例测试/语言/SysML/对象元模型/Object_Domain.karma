@@ -1,0 +1,25 @@
+   Object Object_Domain
+      initial Property  Object_Domain_Property_Name_12082f = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Domain_Property_Is_Encapsulated_2d2b91 = false extends Property_Is_Encapsulated annotation(localLabel ="是否封装");
+      initial Property  Object_Domain_Property_Graph_Reference = "null" extends Property_Graph_Reference annotation(localLabel ="引用图");
+      initial Property  Object_Domain_Property_Object_Reference = "null" extends Property_Object_Reference annotation(localLabel ="引用对象");
+      initial Property  Object_Domain_Property_Point_Reference = "null" extends Property_Point_Reference annotation(localLabel ="引用点");
+      initial Property  Object_Domain_Property_Relationship_Reference = "null" extends Property_Relationship_Reference annotation(localLabel ="引用关系");
+      initial Property  Object_Domain_Property_Role_Reference = "null" extends Property_Role_Reference annotation(localLabel ="引用角色");
+      Undirected Point Object_Domain_Point_Proxy_Port_013205 extends Point_Proxy_Port annotation (localLabel ="代理端口");
+      Undirected Point Object_Domain_Point_Full_Port_a0c3bc extends Point_Full_Port annotation (localLabel ="完整端口");
+      Undirected Point Object_Domain_Point_Port_28f23c extends Point_Port annotation (localLabel ="端口");
+    this.decompose(Activity_Diagram,Block_Defintion_Diagram,Internal_Block_Diagram,Parametric_Diagram,Sequence_Diagram,State_Machine_Diagram),
+    this.explode(Activity_Diagram,Block_Defintion_Diagram,Internal_Block_Diagram,Parametric_Diagram,Sequence_Diagram,State_Machine_Diagram),
+   annotation(
+      localLabel="域模块",
+      description="",
+      icon="域模块.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Domain;
+ 

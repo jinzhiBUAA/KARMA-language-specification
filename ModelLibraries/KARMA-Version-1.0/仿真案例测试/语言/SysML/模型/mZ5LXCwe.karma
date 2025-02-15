@@ -1,0 +1,149 @@
+    partial Model mZ5LXCwe instanceof State_Machine_Diagram
+    
+      State      Object mZ5LXCwe_object_fc93 clone mZ5LXCwe.mZ5LXCwe_object_fc93
+      initial;
+        annotation(
+          initialLocation=(30,38,78,71),
+          localLabel="初始伪状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end mZ5LXCwe_object_fc93;
+
+      State      Object mZ5LXCwe_object_d3d9 clone mZ5LXCwe.mZ5LXCwe_object_d3d9
+      
+        annotation(
+          initialLocation=(212,40,136,-1),
+          localLabel="电机2上电状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList="电机2上电状态:136,35;"
+        );
+      end mZ5LXCwe_object_d3d9;
+
+      State      Object mZ5LXCwe_object_656a clone mZ5LXCwe.mZ5LXCwe_object_656a
+      
+        annotation(
+          initialLocation=(443,40,136,-1),
+          localLabel="电机2运转状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList="电机2运转状态:136,35;"
+        );
+      end mZ5LXCwe_object_656a;
+
+      Relationship mZ5LXCwe_relationship_c1c9 refer Relationship_Transition
+        Role mZ5LXCwe_fromrole_53d4 refer Role_Source
+          Connect mZ5LXCwe_object_fc93;
+ 
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end mZ5LXCwe_fromrole_53d4;
+         Role mZ5LXCwe_torole_d87c refer Role_Target
+          Connect mZ5LXCwe_object_d3d9;
+ 
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end mZ5LXCwe_torole_d87c;
+       
+        annotation(
+          localLabel="转换",
+          labelLocation=(-9,-15),
+          shape="solidLine",
+          endLocation=(69,72;355,74),
+          polylineLocation="[0,-1,-104,4]$[104,-1,0,4];(1.0,0.5070422535211268);(0.0,0.4264705882352941)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end mZ5LXCwe_relationship_c1c9;
+ 
+      Relationship mZ5LXCwe_relationship_57a1 refer Relationship_Transition
+        Role mZ5LXCwe_fromrole_d521 refer Role_Source
+          Connect mZ5LXCwe_object_d3d9;
+ 
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end mZ5LXCwe_fromrole_d521;
+         Role mZ5LXCwe_torole_f135 refer Role_Target
+          Connect mZ5LXCwe_object_656a;
+ 
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end mZ5LXCwe_torole_f135;
+       
+        annotation(
+          localLabel="转换",
+          labelLocation=(6,-10),
+          shape="solidLine",
+          endLocation=(280,39;604,39),
+          polylineLocation="[0,-1,-93,-1]$[93,-1,0,-1];(1.0,0.5);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end mZ5LXCwe_relationship_57a1;
+ 
+    Connect(connector(mZ5LXCwe_object_fc93,mZ5LXCwe_relationship_c1c9.mZ5LXCwe_fromrole_53d4),connector(mZ5LXCwe_object_d3d9,mZ5LXCwe_relationship_c1c9.mZ5LXCwe_torole_d87c));
+ 
+    Connect(connector(mZ5LXCwe_object_d3d9,mZ5LXCwe_relationship_57a1.mZ5LXCwe_fromrole_d521),connector(mZ5LXCwe_object_656a,mZ5LXCwe_relationship_57a1.mZ5LXCwe_torole_f135));
+ 
+
+      annotation(
+        localLabel="电机2启动",
+        SDIdentification="",
+        representedObject="",
+        framePointsLocation=""
+    );
+
+    
+   end mZ5LXCwe;

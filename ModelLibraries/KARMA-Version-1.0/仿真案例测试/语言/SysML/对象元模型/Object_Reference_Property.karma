@@ -1,0 +1,27 @@
+   Object Object_Reference_Property
+      initial Property  Object_Reference_Property_Property_Name_9fd65e = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Reference_Property_Property_Type_d9601c = "null" extends Property_Type annotation(localLabel ="类型");
+      initial Property  Object_Reference_Property_Property_Default_Value_11a2ed = "null" extends Property_Default_Value annotation(localLabel ="默认值");
+      initial Property  Object_Reference_Property_Property_Multiplicity_a38933 = "null" extends Property_Multiplicity annotation(localLabel ="多重度");
+      initial Property  Object_Reference_Property_Property_Is_Read_Only_632245 = false extends Property_Is_Read_Only annotation(localLabel ="是否只读");
+      initial Property  Object_Reference_Property_Property_Is_Static_9273c1 = false extends Property_Is_Static annotation(localLabel ="是否静态");
+      initial Property  Object_Reference_Property_Property_Aggregation_93a23f = "null" extends Property_Aggregation annotation(localLabel ="聚合");
+      initial Property  Object_Reference_Property_Property_Is_Derived_98cefa = false extends Property_Is_Derived annotation(localLabel ="是否派生");
+      initial Property  Object_Reference_Property_Property_To_Do_f04870 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      Undirected Point Object_Reference_Property_Point_Constraint_Parameter_1845b7 extends Point_Constraint_Parameter annotation (localLabel ="约束参数");
+      Undirected Point Object_Reference_Property_Point_Proxy_Port_5f8d79 extends Point_Proxy_Port annotation (localLabel ="代理端口");
+      Undirected Point Object_Reference_Property_Point_Full_Port_637310 extends Point_Full_Port annotation (localLabel ="完整端口");
+      Undirected Point Object_Reference_Property_Point_Port_922da7 extends Point_Port annotation (localLabel ="端口");
+      Undirected Point Object_Reference_Property_Point_Flow_Port_9b1668 extends Point_Flow_Port annotation (localLabel ="流端口");
+   annotation(
+      localLabel="引用属性",
+      description="",
+      icon="引用属性.png",
+      shape="rectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Reference_Property;
+ 

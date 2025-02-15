@@ -1,0 +1,30 @@
+   Relationship Relationship_Association_Block
+      initial Property  Relationship_Association_Block_Property_Graph_Reference_c08002 = "null" extends Property_Graph_Reference annotation(localLabel ="引用图");
+      initial Property  Relationship_Association_Block_Property_Object_Reference_2e6c0b = "null" extends Property_Object_Reference annotation(localLabel ="引用对象");
+      initial Property  Relationship_Association_Block_Property_Point_Reference_67211c = "null" extends Property_Point_Reference annotation(localLabel ="引用点");
+   Import Role Role_Role_B;
+   Export Role Role_Role_A;
+    Constraint (
+    bind connector(Object_Block,Object_System),
+    bind connector(Object_Block,Object_System_Context),
+    bind connector(Object_Block,Object_Domain),
+    bind connector(Object_Block,Object_Signal),
+    bind connector(Object_Block,Object_Interface_Block),
+    bind connector(Object_Block,Object_External),
+    bind connector(Object_Block,Object_Enumeration),
+    bind connector(Object_Block,Object_Block),
+    bind connector(Object_Block,Object_Flow_Specification),
+    bind connector(Object_Block,Object_Subsystem),
+    bind connector(Object_Block,Object_Constraint_Block),
+    bind connector(Object_Block,Object_Value_Type),
+    bind connector(Object_Block,Object_Interface),
+    );
+   annotation(
+      localLabel="关联块",
+      description="",
+      icon="关联块.png",
+      shape="solidLine",
+      seqType=$None,
+      );
+   end Relationship_Association_Block;
+ 

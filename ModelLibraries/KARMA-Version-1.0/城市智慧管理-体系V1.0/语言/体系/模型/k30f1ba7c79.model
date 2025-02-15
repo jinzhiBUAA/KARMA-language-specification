@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ke5c488e125:DiagramGen xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ke5c488e125="D:/Office/MetaGraph20241130_208zjs/ArchModeling/workspace/城市智慧管理-体系V1.0/语言/体系/图元模型/ke5c488e125.karma" id="k30f1ba7c79" name="中途监控与协作运行活动设计" primaryGraph="//@graphs.0">
+  <graphs xsi:type="ke5c488e125:Model__ke5c488e125" id="k30f1ba7c79" name="中途监控与协作运行活动设计" metaMetaType="Graph">
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__k77ff58a553" id="k30f1ba7c79_object_95c0" name="泳道" clonedFrom="k30f1ba7c79.model##graphs$$k30f1ba7c79##objects$$k30f1ba7c79_object_95c0" originalId="k30f1ba7c79_object_95c0" metaMetaType="Object" explodes="//@graphs.1"/>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__k0c4557e6cc" id="k30f1ba7c79_object_2ec7" name="初始节点" clonedFrom="k30f1ba7c79.model##graphs$$k30f1ba7c79##objects$$k30f1ba7c79_object_2ec7" originalId="k30f1ba7c79_object_2ec7" metaMetaType="Object"/>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__k77ff58a553" id="k30f1ba7c79_object_db9c" name="泳道" clonedFrom="k30f1ba7c79.model##graphs$$k30f1ba7c79##objects$$k30f1ba7c79_object_db9c" originalId="k30f1ba7c79_object_db9c" metaMetaType="Object" explodes="//@graphs.2"/>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__k77ff58a553" id="k30f1ba7c79_object_f97b" name="泳道" clonedFrom="k30f1ba7c79.model##graphs$$k30f1ba7c79##objects$$k30f1ba7c79_object_f97b" originalId="k30f1ba7c79_object_f97b" metaMetaType="Object" explodes="//@graphs.3"/>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__k77ff58a553" id="k30f1ba7c79_object_186d" name="泳道" clonedFrom="k30f1ba7c79.model##graphs$$k30f1ba7c79##objects$$k30f1ba7c79_object_186d" originalId="k30f1ba7c79_object_186d" metaMetaType="Object" explodes="//@graphs.4"/>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="k30f1ba7c79_relationship_b396" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="k30f1ba7c79_fromrole_c07c" name="控制流始端" connect="//@graphs.0/@objects.1" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="k30f1ba7c79_torole_14b0" name="控制流终端" connect="//@graphs.2/@objects.1" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="k30f1ba7c79_relationship_8b1b" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="k30f1ba7c79_fromrole_b87f" name="控制流始端" connect="//@graphs.2/@objects.1" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="k30f1ba7c79_torole_3138" name="控制流终端" connect="//@graphs.4/@objects.0" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="k30f1ba7c79_relationship_264c" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="k30f1ba7c79_fromrole_053f" name="控制流始端" connect="//@graphs.2/@objects.1" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="k30f1ba7c79_torole_621c" name="控制流终端" connect="//@graphs.3/@objects.0" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="k30f1ba7c79_relationship_1905" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="k30f1ba7c79_fromrole_f091" name="控制流始端" connect="//@graphs.3/@objects.0" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="k30f1ba7c79_torole_40aa" name="控制流终端" connect="//@graphs.1/@objects.1" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="k30f1ba7c79_relationship_2b9d" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="k30f1ba7c79_fromrole_e527" name="控制流始端" connect="//@graphs.4/@objects.0" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="k30f1ba7c79_torole_a83f" name="控制流终端" connect="//@graphs.1/@objects.1" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="k30f1ba7c79_relationship_5c6b" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="k30f1ba7c79_fromrole_2182" name="控制流始端" connect="//@graphs.2/@objects.0" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="k30f1ba7c79_torole_ed3c" name="控制流终端" connect="//@graphs.1/@objects.1" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="k30f1ba7c79_relationship_2105" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="k30f1ba7c79_fromrole_caa6" name="控制流始端" connect="//@graphs.3/@objects.1" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="k30f1ba7c79_torole_5865" name="控制流终端" connect="//@graphs.2/@objects.2" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="k30f1ba7c79_relationship_3cb0" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="k30f1ba7c79_fromrole_7eaa" name="控制流始端" connect="//@graphs.1/@objects.3" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="k30f1ba7c79_torole_89fa" name="控制流终端" connect="//@graphs.3/@objects.1" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="k30f1ba7c79_relationship_3a3c" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="k30f1ba7c79_fromrole_64b1" name="控制流始端" connect="//@graphs.1/@objects.4" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="k30f1ba7c79_torole_4018" name="控制流终端" connect="//@graphs.3/@objects.1" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="k30f1ba7c79_relationship_8a63" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="k30f1ba7c79_fromrole_7505" name="控制流始端" connect="//@graphs.3/@objects.4" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="k30f1ba7c79_torole_01c7" name="控制流终端" connect="//@graphs.4/@objects.1" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="k30f1ba7c79_relationship_55b7" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="k30f1ba7c79_fromrole_d0ff" name="控制流始端" connect="//@graphs.4/@objects.2" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="k30f1ba7c79_torole_96f1" name="控制流终端" connect="//@graphs.3/@objects.5" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__k961323a490" id="k30f1ba7c79_relationship_c1a6" name="1 文字/图片/视频 状态数据" metaMetaType="Relationship">
+      <properties xsi:type="ke5c488e125:Def__k961323a490__k961323a490_k4fec3bf8e2_e876ef" id="k30f1ba7c79_relationship_c1a6_property_1e11" name="ID" value="1" unit="null" metaMetaType="Property"/>
+      <fromRole xsi:type="ke5c488e125:Def__k961323a490__k2717188b68" id="k30f1ba7c79_fromrole_e265" name="对象流始端" connect="//@graphs.2/@objects.0/@output.0" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__k961323a490__k0b27db120e" id="k30f1ba7c79_torole_c978" name="对象流终端" connect="//@graphs.1/@objects.0/@input.0" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__k961323a490" id="k30f1ba7c79_relationship_922d" name="2 文字/图片/视频 状态数据" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__k961323a490__k2717188b68" id="k30f1ba7c79_fromrole_7cd0" name="对象流始端" connect="//@graphs.4/@objects.0/@output.0" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__k961323a490__k0b27db120e" id="k30f1ba7c79_torole_74de" name="对象流终端" connect="//@graphs.1/@objects.0/@input.1" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__k961323a490" id="k30f1ba7c79_relationship_ea7f" name="3 文字/图片/视频 状态数据" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__k961323a490__k2717188b68" id="k30f1ba7c79_fromrole_ead4" name="对象流始端" connect="//@graphs.3/@objects.0/@output.0" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__k961323a490__k0b27db120e" id="k30f1ba7c79_torole_7bc3" name="对象流终端" connect="//@graphs.1/@objects.0/@input.2" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__k961323a490" id="k30f1ba7c79_relationship_7eeb" name="4 文字 送货命令" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__k961323a490__k2717188b68" id="k30f1ba7c79_fromrole_caf0" name="对象流始端" connect="//@graphs.1/@objects.3/@output.0" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__k961323a490__k0b27db120e" id="k30f1ba7c79_torole_6a97" name="对象流终端" connect="//@graphs.3/@objects.1/@input.0" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__k961323a490" id="k30f1ba7c79_relationship_052d" name="5 文字 送货命令" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__k961323a490__k2717188b68" id="k30f1ba7c79_fromrole_e9bf" name="对象流始端" connect="//@graphs.1/@objects.4/@output.0" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__k961323a490__k0b27db120e" id="k30f1ba7c79_torole_715f" name="对象流终端" connect="//@graphs.3/@objects.1/@input.1" metaMetaType="Role"/>
+    </relationships>
+  </graphs>
+  <graphs xsi:type="ke5c488e125:Model__ke5c488e125" id="lhecreEn" name="中控系统" metaMetaType="Graph" path="k30f1ba7c79">
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__ka8cc7e18cc" id="lhecreEn_object_f875" name="A.3.4 实时接收配送中心、中转站、无人装备体系的状态数据" clonedFrom="lhecreEn.model##graphs$$lhecreEn##objects$$lhecreEn_object_f875" originalId="lhecreEn_object_f875" metaMetaType="Object">
+      <input xsi:type="ke5c488e125:Def__ka8cc7e18cc__ka8cc7e18cc_kb10cf08e6a_5d4e9e" id="ka8cc7e18cc_kb10cf08e6a_5d4e9e_7029" name="5G专网" originalId="ka8cc7e18cc_kb10cf08e6a_5d4e9e_7029" metaMetaType="Point" direction="input" position="left"/>
+      <input xsi:type="ke5c488e125:Def__ka8cc7e18cc__ka8cc7e18cc_kb10cf08e6a_5d4e9e" id="ka8cc7e18cc_kb10cf08e6a_5d4e9e_5b72" name="5G专网" originalId="ka8cc7e18cc_kb10cf08e6a_5d4e9e_5b72" metaMetaType="Point" direction="input" position="left"/>
+      <input xsi:type="ke5c488e125:Def__ka8cc7e18cc__ka8cc7e18cc_kb10cf08e6a_5d4e9e" id="ka8cc7e18cc_kb10cf08e6a_5d4e9e_9a58" name="5G专网" originalId="ka8cc7e18cc_kb10cf08e6a_5d4e9e_9a58" metaMetaType="Point" direction="input" position="left"/>
+    </objects>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__k1e807519c5" id="lhecreEn_object_e78e" name="分支节点" clonedFrom="lhecreEn.model##graphs$$lhecreEn##objects$$lhecreEn_object_e78e" originalId="lhecreEn_object_e78e" metaMetaType="Object"/>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__kcfc52ec84c" id="lhecreEn_object_44aa" name="选择节点" clonedFrom="lhecreEn.model##graphs$$lhecreEn##objects$$lhecreEn_object_44aa" originalId="lhecreEn_object_44aa" metaMetaType="Object"/>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__ka8cc7e18cc" id="lhecreEn_object_2ad6" name="A.3.5 调度无人装备体系从配送中心送货至用户指定地点" clonedFrom="lhecreEn.model##graphs$$lhecreEn##objects$$lhecreEn_object_2ad6" originalId="lhecreEn_object_2ad6" metaMetaType="Object">
+      <output xsi:type="ke5c488e125:Def__ka8cc7e18cc__ka8cc7e18cc_kb76db55211_44fe51" id="ka8cc7e18cc_kb76db55211_44fe51_58e3" name="5G专网" originalId="ka8cc7e18cc_kb76db55211_44fe51_58e3" metaMetaType="Point" direction="output" position="up"/>
+    </objects>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__ka8cc7e18cc" id="lhecreEn_object_e3bd" name="A.3.6 调度无人装备体系从配送中心送货至中转站" clonedFrom="lhecreEn.model##graphs$$lhecreEn##objects$$lhecreEn_object_e3bd" originalId="lhecreEn_object_e3bd" metaMetaType="Object">
+      <output xsi:type="ke5c488e125:Def__ka8cc7e18cc__ka8cc7e18cc_kb76db55211_44fe51" id="ka8cc7e18cc_kb76db55211_44fe51_00e5" name="5G专网" originalId="ka8cc7e18cc_kb76db55211_44fe51_00e5" metaMetaType="Point" direction="output" position="left"/>
+    </objects>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="lhecreEn_relationship_c481" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="lhecreEn_fromrole_d4a2" name="控制流始端" connect="//@graphs.1/@objects.1" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="lhecreEn_torole_0050" name="控制流终端" connect="//@graphs.1/@objects.0" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="lhecreEn_relationship_f87c" name="使用前期决策阶段的命令" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="lhecreEn_fromrole_d591" name="控制流始端" connect="//@graphs.1/@objects.0" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="lhecreEn_torole_cad3" name="控制流终端" connect="//@graphs.1/@objects.2" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="lhecreEn_relationship_63df" name="不使用中转站" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="lhecreEn_fromrole_5b8a" name="控制流始端" connect="//@graphs.1/@objects.2" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="lhecreEn_torole_b8f2" name="控制流终端" connect="//@graphs.1/@objects.3" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="lhecreEn_relationship_5d57" name="使用中转站" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="lhecreEn_fromrole_cc83" name="控制流始端" connect="//@graphs.1/@objects.2" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="lhecreEn_torole_6a9d" name="控制流终端" connect="//@graphs.1/@objects.4" metaMetaType="Role"/>
+    </relationships>
+  </graphs>
+  <graphs xsi:type="ke5c488e125:Model__ke5c488e125" id="fEyJgS0d" name="配送中心" metaMetaType="Graph" path="k30f1ba7c79">
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__ka8cc7e18cc" id="fEyJgS0d_object_f549" name="A3.1 实时传递状态信息" clonedFrom="fEyJgS0d.model##graphs$$fEyJgS0d##objects$$fEyJgS0d_object_f549" originalId="fEyJgS0d_object_f549" metaMetaType="Object">
+      <output xsi:type="ke5c488e125:Def__ka8cc7e18cc__ka8cc7e18cc_kb76db55211_44fe51" id="ka8cc7e18cc_kb76db55211_44fe51_7b09" name="5G专网" originalId="ka8cc7e18cc_kb76db55211_44fe51_7b09" metaMetaType="Point" direction="output" position="right"/>
+    </objects>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__k1e807519c5" id="fEyJgS0d_object_0f9d" name="分支节点" clonedFrom="fEyJgS0d.model##graphs$$fEyJgS0d##objects$$fEyJgS0d_object_0f9d" originalId="fEyJgS0d_object_0f9d" metaMetaType="Object"/>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__ka8cc7e18cc" id="fEyJgS0d_object_cec4" name="A.3.8 向无人装备体系交付货物" clonedFrom="fEyJgS0d.model##graphs$$fEyJgS0d##objects$$fEyJgS0d_object_cec4" originalId="fEyJgS0d_object_cec4" metaMetaType="Object"/>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="fEyJgS0d_relationship_d039" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="fEyJgS0d_fromrole_7b50" name="控制流始端" connect="//@graphs.2/@objects.1" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="fEyJgS0d_torole_ca60" name="控制流终端" connect="//@graphs.2/@objects.0" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="fEyJgS0d_relationship_2056" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="fEyJgS0d_fromrole_8ee8" name="控制流始端" connect="//@graphs.2/@objects.0" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="fEyJgS0d_torole_16ca" name="控制流终端" connect="//@graphs.2/@objects.2" metaMetaType="Role"/>
+    </relationships>
+  </graphs>
+  <graphs xsi:type="ke5c488e125:Model__ke5c488e125" id="xCtaSjRk" name="无人装备体系" metaMetaType="Graph" path="k30f1ba7c79">
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__ka8cc7e18cc" id="xCtaSjRk_object_850e" name="A3.3 实时传递状态信息" clonedFrom="xCtaSjRk.model##graphs$$xCtaSjRk##objects$$xCtaSjRk_object_850e" originalId="xCtaSjRk_object_850e" metaMetaType="Object">
+      <output xsi:type="ke5c488e125:Def__ka8cc7e18cc__ka8cc7e18cc_kb76db55211_44fe51" id="ka8cc7e18cc_kb76db55211_44fe51_53f8" name="5G专网" originalId="ka8cc7e18cc_kb76db55211_44fe51_53f8" metaMetaType="Point" direction="output" position="right"/>
+    </objects>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__ka8cc7e18cc" id="xCtaSjRk_object_f57f" name="A.3.7 接收中控系统命令" clonedFrom="xCtaSjRk.model##graphs$$xCtaSjRk##objects$$xCtaSjRk_object_f57f" originalId="xCtaSjRk_object_f57f" metaMetaType="Object">
+      <input xsi:type="ke5c488e125:Def__ka8cc7e18cc__ka8cc7e18cc_kb10cf08e6a_5d4e9e" id="ka8cc7e18cc_kb10cf08e6a_5d4e9e_4289" name="5G专网" originalId="ka8cc7e18cc_kb10cf08e6a_5d4e9e_4289" metaMetaType="Point" direction="input" position="up"/>
+      <input xsi:type="ke5c488e125:Def__ka8cc7e18cc__ka8cc7e18cc_kb10cf08e6a_5d4e9e" id="ka8cc7e18cc_kb10cf08e6a_5d4e9e_0dbb" name="5G专网" originalId="ka8cc7e18cc_kb10cf08e6a_5d4e9e_0dbb" metaMetaType="Point" direction="input" position="down"/>
+    </objects>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__ka8cc7e18cc" id="xCtaSjRk_object_21f1" name="A.3.10 将货物送到用户指定地点" clonedFrom="xCtaSjRk.model##graphs$$xCtaSjRk##objects$$xCtaSjRk_object_21f1" originalId="xCtaSjRk_object_21f1" metaMetaType="Object"/>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__kcfc52ec84c" id="xCtaSjRk_object_fedd" name="选择节点" clonedFrom="xCtaSjRk.model##graphs$$xCtaSjRk##objects$$xCtaSjRk_object_fedd" originalId="xCtaSjRk_object_fedd" metaMetaType="Object"/>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__ka8cc7e18cc" id="xCtaSjRk_object_67dc" name="A.3.11 将货物送到中转站" clonedFrom="xCtaSjRk.model##graphs$$xCtaSjRk##objects$$xCtaSjRk_object_67dc" originalId="xCtaSjRk_object_67dc" metaMetaType="Object"/>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__ka8cc7e18cc" id="xCtaSjRk_object_bf8b" name="A.3.14 接收新的运送任务" clonedFrom="xCtaSjRk.model##graphs$$xCtaSjRk##objects$$xCtaSjRk_object_bf8b" originalId="xCtaSjRk_object_bf8b" metaMetaType="Object"/>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__kce82843394" id="xCtaSjRk_object_1d28" name="结束节点" clonedFrom="xCtaSjRk.model##graphs$$xCtaSjRk##objects$$xCtaSjRk_object_1d28" originalId="xCtaSjRk_object_1d28" metaMetaType="Object"/>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__ka8cc7e18cc" id="xCtaSjRk_object_2d6d" name="A.3.15 将货物送到用户指定地点" clonedFrom="xCtaSjRk.model##graphs$$xCtaSjRk##objects$$xCtaSjRk_object_2d6d" originalId="xCtaSjRk_object_2d6d" metaMetaType="Object"/>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__kce82843394" id="xCtaSjRk_object_ec21" name="结束节点" clonedFrom="xCtaSjRk.model##graphs$$xCtaSjRk##objects$$xCtaSjRk_object_ec21" originalId="xCtaSjRk_object_ec21" metaMetaType="Object"/>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="xCtaSjRk_relationship_b87f" name="不使用中转站" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="xCtaSjRk_fromrole_99f5" name="控制流始端" connect="//@graphs.3/@objects.3" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="xCtaSjRk_torole_14f1" name="控制流终端" connect="//@graphs.3/@objects.2" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="xCtaSjRk_relationship_09c3" name="使用中转站" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="xCtaSjRk_fromrole_9e35" name="控制流始端" connect="//@graphs.3/@objects.3" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="xCtaSjRk_torole_caef" name="控制流终端" connect="//@graphs.3/@objects.4" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="xCtaSjRk_relationship_c3f3" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="xCtaSjRk_fromrole_31c7" name="控制流始端" connect="//@graphs.3/@objects.2" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="xCtaSjRk_torole_87f2" name="控制流终端" connect="//@graphs.3/@objects.6" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="xCtaSjRk_relationship_94f5" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="xCtaSjRk_fromrole_1e4b" name="控制流始端" connect="//@graphs.3/@objects.5" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="xCtaSjRk_torole_dd5d" name="控制流终端" connect="//@graphs.3/@objects.7" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="xCtaSjRk_relationship_dfe8" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="xCtaSjRk_fromrole_3c5e" name="控制流始端" connect="//@graphs.3/@objects.7" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="xCtaSjRk_torole_51d4" name="控制流终端" connect="//@graphs.3/@objects.8" metaMetaType="Role"/>
+    </relationships>
+  </graphs>
+  <graphs xsi:type="ke5c488e125:Model__ke5c488e125" id="c50FkeMT" name="中转站" metaMetaType="Graph" path="k30f1ba7c79">
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__ka8cc7e18cc" id="c50FkeMT_object_a4fe" name="A3.2 实时传递状态信息" clonedFrom="c50FkeMT.model##graphs$$c50FkeMT##objects$$c50FkeMT_object_a4fe" originalId="c50FkeMT_object_a4fe" metaMetaType="Object">
+      <output xsi:type="ke5c488e125:Def__ka8cc7e18cc__ka8cc7e18cc_kb76db55211_44fe51" id="ka8cc7e18cc_kb76db55211_44fe51_c53e" name="5G专网" originalId="ka8cc7e18cc_kb76db55211_44fe51_c53e" metaMetaType="Point" direction="output" position="right"/>
+    </objects>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__ka8cc7e18cc" id="c50FkeMT_object_1dcc" name="A.3.12 接收无人装备体系送到的货物" clonedFrom="c50FkeMT.model##graphs$$c50FkeMT##objects$$c50FkeMT_object_1dcc" originalId="c50FkeMT_object_1dcc" metaMetaType="Object"/>
+    <objects xsi:type="ke5c488e125:Def__ke5c488e125__ka8cc7e18cc" id="c50FkeMT_object_ee8b" name="A.3.13 分配货物到新的无人装备体系送货" clonedFrom="c50FkeMT.model##graphs$$c50FkeMT##objects$$c50FkeMT_object_ee8b" originalId="c50FkeMT_object_ee8b" metaMetaType="Object"/>
+    <relationships xsi:type="ke5c488e125:Def__ke5c488e125__ke05135610b" id="c50FkeMT_relationship_a447" name="控制流" metaMetaType="Relationship">
+      <fromRole xsi:type="ke5c488e125:Def__ke05135610b__kc7c69d58db" id="c50FkeMT_fromrole_2918" name="控制流始端" connect="//@graphs.4/@objects.1" metaMetaType="Role"/>
+      <toRole xsi:type="ke5c488e125:Def__ke05135610b__k6c765a558c" id="c50FkeMT_torole_72f3" name="控制流终端" connect="//@graphs.4/@objects.2" metaMetaType="Role"/>
+    </relationships>
+  </graphs>
+</ke5c488e125:DiagramGen>

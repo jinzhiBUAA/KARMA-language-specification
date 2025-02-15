@@ -1,0 +1,24 @@
+   Object Object_Boundary_System
+      initial Property  Object_Boundary_System_Property_Name_a38bb9 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Boundary_System_Property_Is_Abstract_bee658 = false extends Property_Is_Abstract annotation(localLabel ="是否抽象");
+      initial Property  Object_Boundary_System_Property_To_Do_95609f = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Boundary_System_Property_Owned_Behavior_f8e0da = "null" extends Property_Owned_Behavior annotation(localLabel ="拥有的行为");
+      initial Property  Object_Boundary_System_Property_Graph_Reference_40673f = "null" extends Property_Graph_Reference annotation(localLabel ="引用图");
+      initial Property  Object_Boundary_System_Property_Object_Reference_bb2b3a = "null" extends Property_Object_Reference annotation(localLabel ="引用对象");
+      initial Property  Object_Boundary_System_Property_Point_Reference_eb4c55 = "null" extends Property_Point_Reference annotation(localLabel ="引用点");
+      initial Property  Object_Boundary_System_Property_Relationship_Reference_25bd6b = "null" extends Property_Relationship_Reference annotation(localLabel ="引用关系");
+      initial Property  Object_Boundary_System_Property_Role_Reference_50290f = "null" extends Property_Role_Reference annotation(localLabel ="引用角色");
+    this.decompose(Activity_Diagram,Sequence_Diagram,State_Machine_Diagram),
+    this.explode(Activity_Diagram,Sequence_Diagram,State_Machine_Diagram),
+   annotation(
+      localLabel="边界系统",
+      description="",
+      icon="边界系统.png",
+      shape="rectangle",
+      visualizedMode=blankPropertyMode,
+      imageAddress="固定语法-立方体.png",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Boundary_System;
+ 

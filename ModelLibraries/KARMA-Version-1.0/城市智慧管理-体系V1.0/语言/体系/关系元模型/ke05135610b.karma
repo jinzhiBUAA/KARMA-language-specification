@@ -1,0 +1,21 @@
+   Relationship ke05135610b
+   Import Role kc7c69d58db;
+   Export Role k6c765a558c;
+    Constraint (
+    bind connector(k0c4557e6cc,ka8cc7e18cc),
+    bind connector(ka8cc7e18cc,k1e807519c5),
+    bind connector(ka8cc7e18cc,kce82843394),
+    bind connector(ka8cc7e18cc,ka8cc7e18cc),
+    bind connector(ka8cc7e18cc,kcfc52ec84c),
+    bind connector(k1e807519c5,ka8cc7e18cc),
+    bind connector(kcfc52ec84c,ka8cc7e18cc),
+    );
+   annotation(
+      localLabel="控制流",
+      description="",
+      icon="控制流.png",
+      shape="dashLine",
+      seqType=$None,
+      );
+   end ke05135610b;
+ 

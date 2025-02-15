@@ -1,0 +1,24 @@
+   Object Object_Design_Constraint
+      initial Property  Object_Design_Constraint_Property_Name = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Design_Constraint_Property_Source = "null" extends Property_Source annotation(localLabel ="来源");
+      initial Property  Object_Design_Constraint_Property_Text = "null" extends Property_Text annotation(localLabel ="文本");
+      initial Property  Object_Design_Constraint_Property_Risk = "null" extends Property_Risk annotation(localLabel ="风险");
+      initial Property  Object_Design_Constraint_Property_Verify_Method = "null" extends Property_Verify_Method annotation(localLabel ="验证方法");
+      initial Property  Object_Design_Constraint_Property_To_Do = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Design_Constraint_Property_Graph_Reference = "null" extends Property_Graph_Reference annotation(localLabel ="引用图");
+      initial Property  Object_Design_Constraint_Property_Object_Reference = "null" extends Property_Object_Reference annotation(localLabel ="引用对象");
+      initial Property  Object_Design_Constraint_Property_Point_Reference = "null" extends Property_Point_Reference annotation(localLabel ="引用点");
+      initial Property  Object_Design_Constraint_Property_Relationship_Reference = "null" extends Property_Relationship_Reference annotation(localLabel ="引用关系");
+      initial Property  Object_Design_Constraint_Property_Role_Reference = "null" extends Property_Role_Reference annotation(localLabel ="引用角色");
+   annotation(
+      localLabel="设计约束",
+      description="",
+      icon="设计约束.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Design_Constraint;
+ 

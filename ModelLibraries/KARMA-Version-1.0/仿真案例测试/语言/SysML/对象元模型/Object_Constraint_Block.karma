@@ -1,0 +1,22 @@
+   Object Object_Constraint_Block
+      initial Property  Object_Constraint_Block_Property_Name_e3d3de = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Constraint_Block_Property_Constraint_7c0a2d = "null" extends Property_Constraint annotation(localLabel ="约束");
+      initial Property  Object_Constraint_Block_Property_Graph_Reference = "null" extends Property_Graph_Reference annotation(localLabel ="引用图");
+      initial Property  Object_Constraint_Block_Property_Object_Reference = "null" extends Property_Object_Reference annotation(localLabel ="引用对象");
+      initial Property  Object_Constraint_Block_Property_Point_Reference = "null" extends Property_Point_Reference annotation(localLabel ="引用点");
+      initial Property  Object_Constraint_Block_Property_Relationship_Reference = "null" extends Property_Relationship_Reference annotation(localLabel ="引用关系");
+      initial Property  Object_Constraint_Block_Property_Role_Reference = "null" extends Property_Role_Reference annotation(localLabel ="引用角色");
+    this.decompose(Activity_Diagram,Block_Defintion_Diagram,Internal_Block_Diagram,Package_Diagram,Requirement_Diagram,Sequence_Diagram,State_Machine_Diagram),
+    this.explode(Activity_Diagram,Block_Defintion_Diagram,Internal_Block_Diagram,Parametric_Diagram,Requirement_Diagram,Sequence_Diagram,State_Machine_Diagram),
+   annotation(
+      localLabel="约束模块",
+      description="",
+      icon="约束模块.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Constraint_Block;
+ 

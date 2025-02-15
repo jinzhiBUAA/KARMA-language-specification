@@ -1,0 +1,116 @@
+    partial Model c50FkeMT instanceof ke5c488e125
+      Object c50FkeMT_object_a4fe clone c50FkeMT.c50FkeMT_object_a4fe
+      Point ka8cc7e18cc_kb76db55211_44fe51_c53e clone ka8cc7e18cc_kb76db55211_44fe51_c53e
+      annotation(
+         localLabel="5G专网",
+         labelLocation=(-1,-1),
+		 initialLocation=(132,21,22,22),
+         shape="triangle",
+         color="0,0,0;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",10,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=true,
+         imageAddress="",
+         );
+      end ka8cc7e18cc_kb76db55211_44fe51_c53e;
+ 
+        annotation(
+          initialLocation=(78,143,140,56),
+          localLabel="A3.2 实时传递状态信息",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",10,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end c50FkeMT_object_a4fe;
+
+      Object c50FkeMT_object_1dcc clone c50FkeMT.c50FkeMT_object_1dcc
+        annotation(
+          initialLocation=(50,886,197,78),
+          localLabel="A.3.12 接收无人装备体系送到的货物",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",10,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end c50FkeMT_object_1dcc;
+
+      Object c50FkeMT_object_ee8b clone c50FkeMT.c50FkeMT_object_ee8b
+        annotation(
+          initialLocation=(57,1026,204,78),
+          localLabel="A.3.13 分配货物到新的无人装备体系送货",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",10,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end c50FkeMT_object_ee8b;
+
+      Relationship c50FkeMT_relationship_a447 refer ke05135610b
+        Role c50FkeMT_fromrole_2918 refer kc7c69d58db
+          Connect c50FkeMT_object_1dcc;
+ 
+          annotation(
+            localLabel="控制流始端",
+            shape="no"
+          );
+        end c50FkeMT_fromrole_2918;
+         Role c50FkeMT_torole_72f3 refer k6c765a558c
+          Connect c50FkeMT_object_ee8b;
+ 
+          annotation(
+            localLabel="控制流终端",
+            shape="arrowShape"
+          );
+        end c50FkeMT_torole_72f3;
+       
+        annotation(
+          localLabel="控制流",
+          labelLocation=(0,-10),
+          shape="dashLine",
+          endLocation=(119,940;126,1143),
+          polylineLocation="[-29,15,-36,-63]$[-29,78,-36,0];(0.6446700507614214,0.7948717948717948);(0.622549019607843,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",10,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end c50FkeMT_relationship_a447;
+ 
+    Connect(connector(c50FkeMT_object_1dcc,c50FkeMT_relationship_a447.c50FkeMT_fromrole_2918),connector(c50FkeMT_object_ee8b,c50FkeMT_relationship_a447.c50FkeMT_torole_72f3));
+ 
+
+      annotation(
+        localLabel="中转站",
+        SDIdentification="",
+        representedObject=""
+    );
+   end c50FkeMT;

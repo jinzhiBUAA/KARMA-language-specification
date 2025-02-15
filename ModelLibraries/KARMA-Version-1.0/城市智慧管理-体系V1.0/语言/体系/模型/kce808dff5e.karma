@@ -1,0 +1,265 @@
+    partial Model kce808dff5e instanceof k0f1ebdebb4
+    
+      Object k287008c10c_9f26 clone kce808dff5e.k287008c10c
+      
+        annotation(
+          initialLocation=(511,91,140,70),
+          localLabel="城市智慧配送",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end k287008c10c_9f26;
+
+      Object kce808dff5e_object_ed0c clone kce808dff5e.kce808dff5e_object_ed0c
+      
+        annotation(
+          initialLocation=(161,273,140,70),
+          localLabel="订单生成与分配",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end kce808dff5e_object_ed0c;
+
+      Object kce808dff5e_object_ac48 clone kce808dff5e.kce808dff5e_object_ac48
+      
+        annotation(
+          initialLocation=(392,273,140,70),
+          localLabel="物品装载",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end kce808dff5e_object_ac48;
+
+      Object kce808dff5e_object_6383 clone kce808dff5e.kce808dff5e_object_6383
+      
+        annotation(
+          initialLocation=(630,273,140,70),
+          localLabel="中途监控与协作",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end kce808dff5e_object_6383;
+
+      Object kce808dff5e_object_1d62 clone kce808dff5e.kce808dff5e_object_1d62
+      
+        annotation(
+          initialLocation=(861,274,140,70),
+          localLabel="投递与确认",
+          shape="rectangle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end kce808dff5e_object_1d62;
+
+      Relationship kce808dff5e_relationship_70c0 refer k9276a624df
+        Role kce808dff5e_fromrole_6c41 refer kcacc7992eb
+          Connect k287008c10c_9f26;
+ 
+          annotation(
+            localLabel="定向组合始端",
+            shape="solidDiamond"
+          );
+        end kce808dff5e_fromrole_6c41;
+         Role kce808dff5e_torole_9c4d refer k635b59ddfd
+          Connect kce808dff5e_object_ed0c;
+ 
+          annotation(
+            localLabel="定向组合终端",
+            shape="arrowShape"
+          );
+        end kce808dff5e_torole_9c4d;
+       
+        annotation(
+          localLabel="定向组合",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(581,126;-56,476),
+          polylineLocation="[0,0,287,-168]$[-287,0,0,-168]$[-287,168,0,0];(0.0,0.2);(0.45,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end kce808dff5e_relationship_70c0;
+ 
+      Relationship kce808dff5e_relationship_da56 refer k9276a624df
+        Role kce808dff5e_fromrole_7491 refer kcacc7992eb
+          Connect k287008c10c_9f26;
+ 
+          annotation(
+            localLabel="定向组合始端",
+            shape="solidDiamond"
+          );
+        end kce808dff5e_fromrole_7491;
+         Role kce808dff5e_torole_c2fb refer k635b59ddfd
+          Connect kce808dff5e_object_ac48;
+ 
+          annotation(
+            localLabel="定向组合终端",
+            shape="arrowShape"
+          );
+        end kce808dff5e_torole_c2fb;
+       
+        annotation(
+          localLabel="定向组合",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(567,126;448,420),
+          polylineLocation="[-14,0,0,-112]$[-14,112,0,0];(0.2,1.0);(0.95,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end kce808dff5e_relationship_da56;
+ 
+      Relationship kce808dff5e_relationship_0d64 refer k9276a624df
+        Role kce808dff5e_fromrole_142f refer kcacc7992eb
+          Connect k287008c10c_9f26;
+ 
+          annotation(
+            localLabel="定向组合始端",
+            shape="solidDiamond"
+          );
+        end kce808dff5e_fromrole_142f;
+         Role kce808dff5e_torole_5c4e refer k635b59ddfd
+          Connect kce808dff5e_object_6383;
+ 
+          annotation(
+            localLabel="定向组合终端",
+            shape="arrowShape"
+          );
+        end kce808dff5e_torole_5c4e;
+       
+        annotation(
+          localLabel="定向组合",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(581,126;700,420),
+          polylineLocation="[0,0,0,-112]$[0,112,0,0];(0.95,1.0);(0.1,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end kce808dff5e_relationship_0d64;
+ 
+      Relationship kce808dff5e_relationship_bf73 refer k9276a624df
+        Role kce808dff5e_fromrole_e568 refer kcacc7992eb
+          Connect k287008c10c_9f26;
+ 
+          annotation(
+            localLabel="定向组合始端",
+            shape="solidDiamond"
+          );
+        end kce808dff5e_fromrole_e568;
+         Role kce808dff5e_torole_6a3c refer k635b59ddfd
+          Connect kce808dff5e_object_1d62;
+ 
+          annotation(
+            localLabel="定向组合终端",
+            shape="arrowShape"
+          );
+        end kce808dff5e_torole_6a3c;
+       
+        annotation(
+          localLabel="定向组合",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(581,126;1239,478),
+          polylineLocation="[0,0,-308,-169]$[308,0,0,-169]$[308,169,0,0];(1.0,0.2);(0.7,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end kce808dff5e_relationship_bf73;
+ 
+    Connect(connector(k287008c10c_9f26,kce808dff5e_relationship_70c0.kce808dff5e_fromrole_6c41),connector(kce808dff5e_object_ed0c,kce808dff5e_relationship_70c0.kce808dff5e_torole_9c4d));
+ 
+    Connect(connector(k287008c10c_9f26,kce808dff5e_relationship_da56.kce808dff5e_fromrole_7491),connector(kce808dff5e_object_ac48,kce808dff5e_relationship_da56.kce808dff5e_torole_c2fb));
+ 
+    Connect(connector(k287008c10c_9f26,kce808dff5e_relationship_0d64.kce808dff5e_fromrole_142f),connector(kce808dff5e_object_6383,kce808dff5e_relationship_0d64.kce808dff5e_torole_5c4e));
+ 
+    Connect(connector(k287008c10c_9f26,kce808dff5e_relationship_bf73.kce808dff5e_fromrole_e568),connector(kce808dff5e_object_1d62,kce808dff5e_relationship_bf73.kce808dff5e_torole_6a3c));
+ 
+
+      annotation(
+        localLabel="城市智慧配送场景分解",
+        SDIdentification="",
+        representedObject=""
+    );
+    
+   end kce808dff5e;
