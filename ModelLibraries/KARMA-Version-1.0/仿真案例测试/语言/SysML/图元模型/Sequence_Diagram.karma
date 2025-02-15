@@ -1,0 +1,16 @@
+   public Graph Sequence_Diagram
+      initial Property  Sequence_Diagram_Property_To_Do_566541 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Sequence_Diagram_Property_Context_eb3d1b = "null" extends Property_Context annotation(localLabel ="上下文");
+    Object Object_Lifeline;
+    Relationship Relationship_Event;
+    Relationship Message;
+    Constraint (
+    bind connector(Object_Lifeline,Relationship_Event.Relationship_Event_End),
+    bind connector(Object_Lifeline,Relationship_Event.Relationship_Event_Start),
+    );
+    annotation(
+        localLabel="时序图",
+        type = sequenceDiagram,
+        description="",
+       );
+        end Sequence_Diagram;

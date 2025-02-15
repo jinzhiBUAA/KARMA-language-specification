@@ -1,0 +1,12 @@
+   Relationship Relationship_Directed_Association
+      initial Property  Relationship_Directed_Association_Property_Name_e0cb73 = "null" extends Property_Name annotation(localLabel ="名称");
+   Role Role_Role_B;
+   Role Role_Directed_Role_A;
+   annotation(
+      localLabel="定向关联",
+      description="",
+      icon="定向关联.png",
+      shape="solidLine",
+      );
+   end Relationship_Directed_Association;
+ 

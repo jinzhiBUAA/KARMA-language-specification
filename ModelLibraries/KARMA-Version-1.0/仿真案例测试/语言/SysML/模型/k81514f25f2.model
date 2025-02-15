@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<State_Machine_Diagram:DiagramGen xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:State_Machine_Diagram="D:/Software/eclipse-rcp-2020-03-R-win32-x86_642/eclipse/WorkSpace208/tool208mcif/runtime-MetaGraph3/仿真案例测试/语言/SysML/图元模型/State_Machine_Diagram.karma" id="k81514f25f2" name="无人小车状态转换" primaryGraph="//@graphs.0">
+  <graphs xsi:type="State_Machine_Diagram:Model__State_Machine_Diagram" id="k81514f25f2" name="无人小车状态转换" metaMetaType="Graph">
+    <properties xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__State_Machine_Diagram_Property_To_Do" id="k81514f25f2_property_4197" name="待办事项" value="null" unit="null" metaMetaType="Property"/>
+    <properties xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__State_Machine_Diagram_Property_Context" id="k81514f25f2_property_0272" name="上下文" value="null" unit="null" metaMetaType="Property"/>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_Initial_Pseudo_State" id="k81514f25f2_object_b1ee" name="初始伪状态" clonedFrom="k81514f25f2.model##graphs$$k81514f25f2##objects$$k81514f25f2_object_b1ee" originalId="k81514f25f2_object_b1ee" metaMetaType="Object" highlight=""/>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_State" id="k81514f25f2_object_3bb9" name="待命状态" clonedFrom="k81514f25f2.model##graphs$$k81514f25f2##objects$$k81514f25f2_object_3bb9" originalId="k81514f25f2_object_3bb9" metaMetaType="Object" highlight=""/>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_Orthogonal_State" id="k81514f25f2_object_3336" name="正交状态" clonedFrom="k81514f25f2.model##graphs$$k81514f25f2##objects$$k81514f25f2_object_3336" originalId="k81514f25f2_object_3336" metaMetaType="Object" highlight="" explodes="//@graphs.1 //@graphs.2">
+      <undirected xsi:type="State_Machine_Diagram:Def__Object_Orthogonal_State__Object_Orthogonal_State_Point_Pseudo_State_fd382d" id="Object_Orthogonal_State_Point_Pseudo_State_fd382d_451c" name="进入点伪状态" originalId="Object_Orthogonal_State_Point_Pseudo_State_fd382d_451c" metaMetaType="Point"/>
+    </objects>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_Join_Pseudo_State" id="k81514f25f2_object_0baa" name="汇合伪状态" clonedFrom="k81514f25f2.model##graphs$$k81514f25f2##objects$$k81514f25f2_object_0baa" originalId="k81514f25f2_object_0baa" metaMetaType="Object" highlight=""/>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_State" id="k81514f25f2_object_3a1d" name="加速行驶状态" clonedFrom="k81514f25f2.model##graphs$$k81514f25f2##objects$$k81514f25f2_object_3a1d" originalId="k81514f25f2_object_3a1d" metaMetaType="Object" highlight=""/>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_State" id="k81514f25f2_object_f043" name="减速行驶状态" clonedFrom="k81514f25f2.model##graphs$$k81514f25f2##objects$$k81514f25f2_object_f043" originalId="k81514f25f2_object_f043" metaMetaType="Object" highlight=""/>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_State" id="k81514f25f2_object_606b" name="匀速行驶状态" clonedFrom="k81514f25f2.model##graphs$$k81514f25f2##objects$$k81514f25f2_object_606b" originalId="k81514f25f2_object_606b" metaMetaType="Object" highlight=""/>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_State" id="k81514f25f2_object_9d60" name="路面检测状态" clonedFrom="k81514f25f2.model##graphs$$k81514f25f2##objects$$k81514f25f2_object_9d60" originalId="k81514f25f2_object_9d60" metaMetaType="Object" highlight=""/>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_Junction_Pseudo_State" id="k81514f25f2_object_016d" name="连接伪状态" clonedFrom="k81514f25f2.model##graphs$$k81514f25f2##objects$$k81514f25f2_object_016d" originalId="k81514f25f2_object_016d" metaMetaType="Object" highlight=""/>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_Choice_Pseudo_State" id="k81514f25f2_object_986b" name="选择伪状态" clonedFrom="k81514f25f2.model##graphs$$k81514f25f2##objects$$k81514f25f2_object_986b" originalId="k81514f25f2_object_986b" metaMetaType="Object" highlight=""/>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_Final_State" id="k81514f25f2_object_c529" name="最终状态" clonedFrom="k81514f25f2.model##graphs$$k81514f25f2##objects$$k81514f25f2_object_c529" originalId="k81514f25f2_object_c529" metaMetaType="Object" highlight=""/>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_3d03" name="触发：开始" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_3353" name="来源" connect="//@graphs.0/@objects.0" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_306d" name="目标" connect="//@graphs.0/@objects.1" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_892a" name="触发：启动" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_3761" name="来源" connect="//@graphs.0/@objects.1" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_7bb0" name="目标" connect="//@graphs.0/@objects.2/@undirected.0" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_7830" name="转换" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_5d5c" name="来源" connect="//@graphs.1/@objects.2" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_e855" name="目标" connect="//@graphs.0/@objects.3" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_29ba" name="转换" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_435f" name="来源" connect="//@graphs.2/@objects.2" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_c070" name="目标" connect="//@graphs.0/@objects.3" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_4568" name="转换" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_4582" name="来源" connect="//@graphs.0/@objects.8" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_ff54" name="目标" connect="//@graphs.0/@objects.7" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_84da" name="转换" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_0c74" name="来源" connect="//@graphs.0/@objects.4" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_af4f" name="目标" connect="//@graphs.0/@objects.8" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_0630" name="转换" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_0f6e" name="来源" connect="//@graphs.0/@objects.5" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_289c" name="目标" connect="//@graphs.0/@objects.8" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_4e0c" name="转换" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_7d29" name="来源" connect="//@graphs.0/@objects.6" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_6c6b" name="目标" connect="//@graphs.0/@objects.8" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_70be" name="触发：加速指令" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_1c2b" name="来源" connect="//@graphs.0/@objects.9" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_cc95" name="目标" connect="//@graphs.0/@objects.4" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_bca3" name="触发：减速指令" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_f627" name="来源" connect="//@graphs.0/@objects.9" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_4fbe" name="目标" connect="//@graphs.0/@objects.5" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_2e27" name="触发：匀速指令" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_9be9" name="来源" connect="//@graphs.0/@objects.9" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_8134" name="目标" connect="//@graphs.0/@objects.6" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_6612" name="转换" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_88a9" name="来源" connect="//@graphs.0/@objects.7" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_d289" name="目标" connect="//@graphs.0/@objects.9" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_2b76" name="触发：结束指令" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_59ff" name="来源" connect="//@graphs.0/@objects.9" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_002f" name="目标" connect="//@graphs.0/@objects.10" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_7ca0" name="转换" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_10fa" name="来源" connect="//@graphs.0/@objects.2/@undirected.0" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_37d7" name="目标" connect="//@graphs.1/@objects.1" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_44df" name="转换" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_7956" name="来源" connect="//@graphs.0/@objects.2/@undirected.0" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_0208" name="目标" connect="//@graphs.2/@objects.1" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="k81514f25f2_relationship_76b4" name="转换" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="k81514f25f2_fromrole_f303" name="来源" connect="//@graphs.0/@objects.3" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="k81514f25f2_torole_5220" name="目标" connect="//@graphs.0/@objects.4" metaMetaType="Role"/>
+    </relationships>
+  </graphs>
+  <graphs xsi:type="State_Machine_Diagram:Model__State_Machine_Diagram" id="oQxvG0H0" name="电机1启动" metaMetaType="Graph" path="k81514f25f2">
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_Initial_Pseudo_State" id="oQxvG0H0_object_cbdc" name="初始伪状态" clonedFrom="oQxvG0H0.model##graphs$$oQxvG0H0##objects$$oQxvG0H0_object_cbdc" originalId="oQxvG0H0_object_cbdc" metaMetaType="Object" highlight=""/>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_State" id="oQxvG0H0_object_4b5a" name="电机1上电状态" clonedFrom="oQxvG0H0.model##graphs$$oQxvG0H0##objects$$oQxvG0H0_object_4b5a" originalId="oQxvG0H0_object_4b5a" metaMetaType="Object" highlight=""/>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_State" id="oQxvG0H0_object_3c98" name="电机1运转状态" clonedFrom="oQxvG0H0.model##graphs$$oQxvG0H0##objects$$oQxvG0H0_object_3c98" originalId="oQxvG0H0_object_3c98" metaMetaType="Object" highlight=""/>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="oQxvG0H0_relationship_a96a" name="转换" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="oQxvG0H0_fromrole_0630" name="来源" connect="//@graphs.1/@objects.0" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="oQxvG0H0_torole_a4af" name="目标" connect="//@graphs.1/@objects.1" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="oQxvG0H0_relationship_7597" name="转换" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="oQxvG0H0_fromrole_1410" name="来源" connect="//@graphs.1/@objects.1" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="oQxvG0H0_torole_cf47" name="目标" connect="//@graphs.1/@objects.2" metaMetaType="Role"/>
+    </relationships>
+  </graphs>
+  <graphs xsi:type="State_Machine_Diagram:Model__State_Machine_Diagram" id="mZ5LXCwe" name="电机2启动" metaMetaType="Graph" path="k81514f25f2">
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_Initial_Pseudo_State" id="mZ5LXCwe_object_fc93" name="初始伪状态" clonedFrom="mZ5LXCwe.model##graphs$$mZ5LXCwe##objects$$mZ5LXCwe_object_fc93" originalId="mZ5LXCwe_object_fc93" metaMetaType="Object" highlight=""/>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_State" id="mZ5LXCwe_object_d3d9" name="电机2上电状态" clonedFrom="mZ5LXCwe.model##graphs$$mZ5LXCwe##objects$$mZ5LXCwe_object_d3d9" originalId="mZ5LXCwe_object_d3d9" metaMetaType="Object" highlight=""/>
+    <objects xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Object_State" id="mZ5LXCwe_object_656a" name="电机2运转状态" clonedFrom="mZ5LXCwe.model##graphs$$mZ5LXCwe##objects$$mZ5LXCwe_object_656a" originalId="mZ5LXCwe_object_656a" metaMetaType="Object" highlight=""/>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="mZ5LXCwe_relationship_c1c9" name="转换" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="mZ5LXCwe_fromrole_53d4" name="来源" connect="//@graphs.2/@objects.0" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="mZ5LXCwe_torole_d87c" name="目标" connect="//@graphs.2/@objects.1" metaMetaType="Role"/>
+    </relationships>
+    <relationships xsi:type="State_Machine_Diagram:Def__State_Machine_Diagram__Relationship_Transition" id="mZ5LXCwe_relationship_57a1" name="转换" metaMetaType="Relationship" highlight="">
+      <fromRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Source" id="mZ5LXCwe_fromrole_d521" name="来源" connect="//@graphs.2/@objects.1" metaMetaType="Role"/>
+      <toRole xsi:type="State_Machine_Diagram:Def__Relationship_Transition__Role_Target" id="mZ5LXCwe_torole_f135" name="目标" connect="//@graphs.2/@objects.2" metaMetaType="Role"/>
+    </relationships>
+  </graphs>
+</State_Machine_Diagram:DiagramGen>

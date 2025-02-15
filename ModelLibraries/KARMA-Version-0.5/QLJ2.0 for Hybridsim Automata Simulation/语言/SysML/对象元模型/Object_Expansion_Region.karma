@@ -1,0 +1,22 @@
+   Object Object_Expansion_Region
+      initial Property  Object_Expansion_Region_Property_Name_1e98bf = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Expansion_Region_Property_Mode_60b3f0 = "null" extends Property_Mode annotation(localLabel ="模式");
+      initial Property  Object_Expansion_Region_Property_To_Do_8c91db = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Expansion_Region_Property_In_Activity_5e5512 = "null" extends Property_In_Activity annotation(localLabel ="处于活动");
+      initial Property  Object_Expansion_Region_Property_Is_Locally_Reentrant_687c46 = false extends Property_Is_Locally_Reentrant annotation(localLabel ="是否本地可重入");
+      initial Property  Object_Expansion_Region_Property_Redefined_Node_a9b0cf = "null" extends Property_Redefined_Node annotation(localLabel ="重定义节点");
+      Output Point Object_Expansion_Region_Point_Output_Pin_474d09 extends Point_Output_Pin annotation (localLabel ="输出引脚");
+      Output Point Object_Expansion_Region_Point_Value_Pin_8197a2 extends Point_Value_Pin annotation (localLabel ="值引脚");
+      Undirected Point Object_Expansion_Region_Point_Expansion_Node_007a41 extends Point_Expansion_Node annotation (localLabel ="扩展节点");
+      Undirected Point Object_Expansion_Region_Point_Input_Pin_a04eff extends Point_Input_Pin annotation (localLabel ="输入引脚");
+      Undirected Point Object_Expansion_Region_Point_Action_Input_Pin_82ecf1 extends Point_Action_Input_Pin annotation (localLabel ="动作输入引脚");
+   annotation(
+      localLabel="扩展区域",
+      description="",
+      icon="扩展区域.png",
+      shape="roundedRectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      );
+   end Object_Expansion_Region;
+ 

@@ -1,0 +1,91 @@
+    partial  Model vaTN8lLH instanceof State_Machine_Diagram
+    
+      State      Object vaTN8lLH_object_88dc clone vaTN8lLH.vaTN8lLH_object_88dc
+      initial;
+        annotation(
+          initialLocation=(348,44,78,64),
+          localLabel="初始伪状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end vaTN8lLH_object_88dc;
+
+      State      Object vaTN8lLH_object_27ed clone vaTN8lLH.vaTN8lLH_object_27ed
+        Property Object_State_Property_Name_41bacd_b5dd = "数据映射" clone Object_State_Property_Name_41bacd_b5dd annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(61,42,152,-1),
+          localLabel="状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;255,255,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList="状态:152,35;"
+        );
+      end vaTN8lLH_object_27ed;
+
+      Relationship vaTN8lLH_relationship_7955 refer Relationship_Transition
+        Role vaTN8lLH_fromrole_cc93 refer Role_Source
+          Connect vaTN8lLH_object_88dc;
+ 
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end vaTN8lLH_fromrole_cc93;
+         Role vaTN8lLH_torole_4e00 refer Role_Target
+          Connect vaTN8lLH_object_27ed;
+ 
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end vaTN8lLH_torole_4e00;
+       
+        annotation(
+          localLabel="转换",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(387,76;-33,74),
+          polylineLocation="[0,0,133,0]$[-133,0,0,0];(0.0,0.484375);(1.0,0.4852941176470588)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end vaTN8lLH_relationship_7955;
+ 
+    Connect(connector(vaTN8lLH_object_88dc,vaTN8lLH_relationship_7955.vaTN8lLH_fromrole_cc93),connector(vaTN8lLH_object_27ed,vaTN8lLH_relationship_7955.vaTN8lLH_torole_4e00));
+ 
+
+      annotation(
+        localLabel="逻辑仿真2",
+        SDIdentification="",
+        representedObject="",
+        framePointsLocation=""
+    );
+
+    
+   end vaTN8lLH;

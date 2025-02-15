@@ -1,0 +1,21 @@
+   Object Object_Subsystem
+      initial Property  Object_Subsystem_Property_Name_b1a9d4 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Subsystem_Property_Is_Encapsulated_2c468b = false extends Property_Is_Encapsulated annotation(localLabel ="是否封装");
+      Undirected Point Object_Subsystem_Point_Proxy_Port_b69372 extends Point_Proxy_Port annotation (localLabel ="代理端口");
+      Undirected Point Object_Subsystem_Point_Full_Port_e618fd extends Point_Full_Port annotation (localLabel ="完整端口");
+      Undirected Point Object_Subsystem_Point_Port_add748 extends Point_Port annotation (localLabel ="端口");
+      Undirected Point Object_Subsystem_Point_Flow_Port_f162c8 extends Point_Flow_Port annotation (localLabel ="流端口");
+    this.decompose(Activity_Diagram,Block_Defintion_Diagram,Internal_Block_Diagram,Parametric_Diagram,Sequence_Diagram,State_Machine_Diagram),
+    this.explode(Activity_Diagram,Block_Defintion_Diagram,Internal_Block_Diagram,Parametric_Diagram,Sequence_Diagram,State_Machine_Diagram),
+   annotation(
+      localLabel="子系统",
+      description="",
+      icon="子系统.png",
+      shape="rectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Subsystem;
+ 

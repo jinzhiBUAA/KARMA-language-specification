@@ -1,0 +1,12 @@
+   Relationship Relationship_Directed_Aggregation
+      initial Property  Relationship_Directed_Aggregation_Property_Name_9bacfc = "null" extends Property_Name annotation(localLabel ="名称");
+   Role Role_Aggregation_Role;
+   Role Role_Directed_Role_A;
+   annotation(
+      localLabel="定向聚合",
+      description="",
+      icon="定向聚合.png",
+      shape="solidLine",
+      );
+   end Relationship_Directed_Aggregation;
+ 

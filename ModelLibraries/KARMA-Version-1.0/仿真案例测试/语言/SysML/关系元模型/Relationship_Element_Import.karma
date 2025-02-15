@@ -1,0 +1,19 @@
+   Relationship Relationship_Element_Import
+      initial Property  Relationship_Element_Import_Property_To_Do_cf26a7 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Import Role Role_Importing_Namespace;
+   Export Role Role_Imported_Element;
+    Constraint (
+    bind connector(Object_Model,Object_Model),
+    bind connector(Object_Model,Object_Package),
+    bind connector(Object_Package,Object_Model),
+    bind connector(Object_Package,Object_Package),
+    );
+   annotation(
+      localLabel="元素导入",
+      description="",
+      icon="元素导入.png",
+      shape="dashLine",
+      seqType=$None,
+      );
+   end Relationship_Element_Import;
+ 

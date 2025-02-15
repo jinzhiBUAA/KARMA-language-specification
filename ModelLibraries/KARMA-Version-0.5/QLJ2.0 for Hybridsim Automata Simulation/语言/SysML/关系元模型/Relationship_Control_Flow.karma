@@ -1,0 +1,17 @@
+   Relationship Relationship_Control_Flow
+      initial Property  Relationship_Control_Flow_Property_Name_f99f7e = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Control_Flow_Property_Guard_5970ed = "null" extends Property_Guard annotation(localLabel ="保护");
+      initial Property  Relationship_Control_Flow_Property_To_Do_b1c3b5 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Relationship_Control_Flow_Property_Probability_18cbb4 = "null" extends Property_Probability annotation(localLabel ="概率");
+      initial Property  Relationship_Control_Flow_Property_Rate_4861d5 = "null" extends Property_Rate annotation(localLabel ="速率");
+      initial Property  Relationship_Control_Flow_Property_Redefined_Edge_37099f = "null" extends Property_Redefined_Edge annotation(localLabel ="重定义边");
+   Role Role_Source;
+   Role Role_Target;
+   annotation(
+      localLabel="控制流",
+      description="",
+      icon="控制流.png",
+      shape="dashLine",
+      );
+   end Relationship_Control_Flow;
+ 

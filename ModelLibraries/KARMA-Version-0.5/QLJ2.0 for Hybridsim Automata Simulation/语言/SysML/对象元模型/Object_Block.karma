@@ -1,0 +1,17 @@
+   Object Object_Block
+      initial Property  Object_Block_Property_Name_525f94 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Block_Property_Is_Encapsulated_5ed126 = false extends Property_Is_Encapsulated annotation(localLabel ="是否封装");
+      Undirected Point Object_Block_Point_Proxy_Port_dc16e0 extends Point_Proxy_Port annotation (localLabel ="代理端口");
+      Undirected Point Object_Block_Point_Full_Port_088059 extends Point_Full_Port annotation (localLabel ="完整端口");
+      Undirected Point Object_Block_Point_Port_57c48c extends Point_Port annotation (localLabel ="端口");
+      Undirected Point Object_Block_Point_Flow_Port_86b143 extends Point_Flow_Port annotation (localLabel ="流端口");
+   annotation(
+      localLabel="模块",
+      description="",
+      icon="模块.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      );
+   end Object_Block;
+ 

@@ -1,0 +1,16 @@
+   Object Object_Interruptible_Activity_Region
+      initial Property  Object_Interruptible_Activity_Region_Property_Name_6ed4d9 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Interruptible_Activity_Region_Property_Interruptible_Edge_a89a45 = "null" extends Property_Interruptible_Edge annotation(localLabel ="中断边");
+      initial Property  Object_Interruptible_Activity_Region_Property_To_Do_f57d5a = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   annotation(
+      localLabel="可中断的活动区域",
+      description="",
+      icon="可中断的活动区域.png",
+      shape="roundedRectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Interruptible_Activity_Region;
+ 

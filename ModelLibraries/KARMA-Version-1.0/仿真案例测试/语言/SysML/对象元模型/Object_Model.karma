@@ -1,0 +1,19 @@
+   Object Object_Model
+      initial Property  Object_Model_Property_Name_80afc3 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Model_Property_To_Do_c7e67b = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Model_Property_Author_4007a3 = "null" extends Property_Author annotation(localLabel ="作者");
+      initial Property  Object_Model_Property_Version_de5790 = "null" extends Property_Version annotation(localLabel ="版本");
+    this.decompose(Activity_Diagram,Block_Defintion_Diagram,Internal_Block_Diagram,Parametric_Diagram,Sequence_Diagram,State_Machine_Diagram,Package_Diagram,Use_Case_Diagram),
+    this.explode(Activity_Diagram,Block_Defintion_Diagram,Internal_Block_Diagram,Package_Diagram,Parametric_Diagram,Sequence_Diagram,State_Machine_Diagram,Use_Case_Diagram),
+   annotation(
+      localLabel="模型",
+      description="",
+      icon="模型.png",
+      shape="packageDiagram",
+      visualizedMode=blankPropertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Model;
+ 

@@ -1,0 +1,13 @@
+   Relationship Relationship_Exception_Handler
+      initial Property  Relationship_Exception_Handler_Property_Exception_Type_e0662e = "null" extends Property_Exception_Type annotation(localLabel ="异常类型");
+      initial Property  Relationship_Exception_Handler_Property_To_Do_9b0f07 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Protected_Node;
+   Role Role_Exception_Input;
+   annotation(
+      localLabel="异常处理程序",
+      description="",
+      icon="异常处理程序.png",
+      shape="solidLine",
+      );
+   end Relationship_Exception_Handler;
+ 

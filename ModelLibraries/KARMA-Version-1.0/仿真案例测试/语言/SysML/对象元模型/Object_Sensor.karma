@@ -1,0 +1,19 @@
+   Object Object_Sensor
+      initial Property  Object_Sensor_Property_Name_f7e7d6 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Sensor_Property_Is_Abstract_897be4 = false extends Property_Is_Abstract annotation(localLabel ="是否抽象");
+      initial Property  Object_Sensor_Property_To_Do_4ec79a = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Sensor_Property_Owned_Behavior_ca7e85 = "null" extends Property_Owned_Behavior annotation(localLabel ="拥有的行为");
+    this.decompose(Activity_Diagram,Sequence_Diagram,State_Machine_Diagram),
+    this.explode(Activity_Diagram,Sequence_Diagram,State_Machine_Diagram),
+   annotation(
+      localLabel="传感器",
+      description="",
+      icon="传感器.png",
+      shape="customImage",
+      visualizedMode=blankPropertyMode,
+      imageAddress="固定语法-立方体.png",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Sensor;
+ 

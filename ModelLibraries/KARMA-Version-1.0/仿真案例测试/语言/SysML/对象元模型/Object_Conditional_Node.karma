@@ -1,0 +1,20 @@
+   Object Object_Conditional_Node
+      initial Property  Object_Conditional_Node_Property_Name_e0a762 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Conditional_Node_Property_Is_Isolate_32adf4 = false extends Property_Is_Isolate annotation(localLabel ="是否隔离");
+      initial Property  Object_Conditional_Node_Property_Is_Determinate_2f299a = false extends Property_Is_Determinate annotation(localLabel ="是否确定");
+      initial Property  Object_Conditional_Node_Property_Is_Assured_eae07f = false extends Property_Is_Assured annotation(localLabel ="是否保证");
+      initial Property  Object_Conditional_Node_Property_To_Do_cac20b = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Conditional_Node_Property_Is_Locally_Reentrant_60f8f7 = false extends Property_Is_Locally_Reentrant annotation(localLabel ="是否本地可重入");
+      Output Point Object_Conditional_Node_Point_Output_Pin_c786fa extends Point_Output_Pin annotation (localLabel ="输出引脚");
+   annotation(
+      localLabel="条件节点",
+      description="",
+      icon="条件节点.png",
+      shape="roundedRectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Conditional_Node;
+ 

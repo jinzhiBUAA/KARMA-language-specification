@@ -1,0 +1,142 @@
+automaton model_State_Machine_Diagram_a9f82:
+
+event StartSignal;
+event acc;
+event dec;
+event Constant;
+event END;
+
+disc bool NavigationSystem = false;
+disc bool DetectionRadar = false;
+disc bool accelerate = false;
+disc bool decelerate = false;
+disc bool ImageCollectionSystem = false;
+cont  V = 0;
+cont  x1 = 0;
+cont  Q = 0;
+const real a1 = 3;
+const real a2 = -3;
+const real p1 = 40;
+const real p2 = 60;
+const real p3 = 20;
+disc bool ConstantSpeed = false;
+cont  t1 = 0;
+
+location model_State_Machine_Diagram_a9f82_object_3eed:
+initial;
+equation V' = 0;
+equation x1' = 0;
+equation Q' = 0;
+equation t1' = 0;
+edge tau when time>0  goto model_State_Machine_Diagram_a9f82_object_2c86;
+
+
+location model_State_Machine_Diagram_a9f82_object_2c86:
+equation V' = 0;
+equation x1' = 0;
+equation Q' = 0;
+equation t1' = 0;
+edge StartSignal  do NavigationSystem := true goto model_State_Machine_Diagram_a9f82_object_2c86_ffa8;
+
+
+location model_State_Machine_Diagram_a9f82_object_2c86_ffa8:
+equation V' = 0;
+equation x1' = 0;
+equation Q' = 0;
+equation t1' = 0;
+edge event_model_State_Machine_Diagram_a9f82_object_9950 goto model_State_Machine_Diagram_a9f82_object_9950;
+
+location model_State_Machine_Diagram_a9f82_object_9950:
+equation V' = 0;
+equation x1' = 0;
+equation Q' = 0;
+equation t1' = 0;
+edge Constant  do DetectionRadar := true,accelerate := true goto model_State_Machine_Diagram_a9f82_object_2c86_5966;
+
+
+location model_State_Machine_Diagram_a9f82_object_2c86_5966:
+equation V' = a1;
+equation x1' = V;
+equation Q' = p1;
+equation t1' = 1;
+edge tau when t1>10 do t1 := 0 goto model_State_Machine_Diagram_a9f82_object_eb78;
+
+
+location model_State_Machine_Diagram_a9f82_object_eb78:
+equation V' = 0;
+equation x1' = 0;
+equation Q' = 0;
+equation t1' = 0;
+edge tau goto model_State_Machine_Diagram_a9f82_object_2c86_b55c;
+
+location model_State_Machine_Diagram_a9f82_object_2c86_b55c:
+equation V' = 0;
+equation x1' = 0;
+equation Q' = 0;
+equation t1' = 0;
+edge tau goto model_State_Machine_Diagram_a9f82_object_2c86_b55c_78da;
+
+location model_State_Machine_Diagram_a9f82_object_2c86_b55c_78da:
+equation V' = 0;
+equation x1' = 0;
+equation Q' = 0;
+equation t1' = 0;
+edge tau goto model_State_Machine_Diagram_a9f82_object_425d;
+
+location model_State_Machine_Diagram_a9f82_object_425d:
+equation V' = 0;
+equation x1' = 0;
+equation Q' = 0;
+equation t1' = 0;
+edge dec  do accelerate := false,decelerate := true,ConstantSpeed := false goto model_State_Machine_Diagram_a9f82_object_2c86_b55c_6ddd;
+edge Constant  do accelerate := false,decelerate := false,ConstantSpeed := true goto model_State_Machine_Diagram_a9f82_object_2c86_b55c_21c5;
+edge acc  do ConstantSpeed := true,decelerate := false,accelerate := false goto model_State_Machine_Diagram_a9f82_object_2c86_5966;
+edge END   goto model_State_Machine_Diagram_a9f82_object_8ffb;
+
+
+location model_State_Machine_Diagram_a9f82_object_2c86_b55c_6ddd:
+equation V' = a2;
+equation x1' = V;
+equation Q' = p2;
+equation t1' = 1;
+edge tau when t1>10 do t1 := 0 goto model_State_Machine_Diagram_a9f82_object_eb78;
+
+
+location model_State_Machine_Diagram_a9f82_object_2c86_b55c_21c5:
+equation V' = 0;
+equation x1' = V;
+equation Q' = 1;
+equation t1' = 1;
+edge tau when t1>10 do t1 := 0 goto model_State_Machine_Diagram_a9f82_object_eb78;
+
+
+location model_State_Machine_Diagram_a9f82_object_8ffb:
+equation V' = 0;
+equation x1' = 0;
+equation Q' = 0;
+equation t1' = 0;
+
+//svg
+svgfile "UGV02.svg";
+svgin id "rect1" event StartSignal;
+svgin id "rect2" event dec;
+svgin id "rect3" event acc;
+svgin id "rect4" event Constant;
+svgin id "path1" event END;
+
+//svgout id "path16" attr "visibility" value if QLJ_red: "visible" else "hidden" end;
+//svgout id "path15" attr "visibility" value if QLJ_green: "visible" else "hidden" end;
+
+//svgout id "path6" attr "visibility" value if rengongshache : "visible" else "hidden" end;
+//svgout id "path4" attr "visibility" value if zidongshache: "visible" else "hidden" end;
+//svgout id "path5" attr "visibility" value if tingliushache: "visible" else "hidden" end;
+//svgout id "zhishideng" attr "fill" value if daozhan: "green" else "white" end;
+//svgout id "tlzhishideng" attr "fill" value if tl_permission: "green" else "red" end;
+//svgout id "rgzhishideng" attr "fill" value if rg_permission: "green" else "red" end;
+//svgout id "g30" attr "fill" value if sim_start: "green" else "red" end;
+
+end
+//event for persudo or composition!
+event event_model_State_Machine_Diagram_a9f82_object_9950;
+
+

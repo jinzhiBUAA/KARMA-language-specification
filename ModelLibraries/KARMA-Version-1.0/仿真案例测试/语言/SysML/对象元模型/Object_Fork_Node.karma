@@ -1,0 +1,21 @@
+   Object Object_Fork_Node
+      initial Property  Object_Fork_Node_Property_Name_1fae08 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Fork_Node_Property_To_Do_8da72d = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Fork_Node_Property_Redefined_Node_ad1c5b = "null" extends Property_Redefined_Node annotation(localLabel ="重定义节点");
+      initial Property  Object_Fork_Node_Property_Graph_Reference = "null" extends Property_Graph_Reference annotation(localLabel ="引用图");
+      initial Property  Object_Fork_Node_Property_Object_Reference = "null" extends Property_Object_Reference annotation(localLabel ="引用对象");
+      initial Property  Object_Fork_Node_Property_Point_Reference = "null" extends Property_Point_Reference annotation(localLabel ="引用点");
+      initial Property  Object_Fork_Node_Property_Relationship_Reference = "null" extends Property_Relationship_Reference annotation(localLabel ="引用关系");
+      initial Property  Object_Fork_Node_Property_Role_Reference = "null" extends Property_Role_Reference annotation(localLabel ="引用角色");
+   annotation(
+      localLabel="分支节点",
+      description="",
+      icon="分支节点.png",
+      shape="narrowSolidRectangle",
+      visualizedMode=blankPropertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Fork_Node;
+ 

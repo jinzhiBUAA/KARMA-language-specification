@@ -1,0 +1,149 @@
+    partial Model jQrOrq9P instanceof State_Machine_Diagram
+    
+      State      Object jQrOrq9P_object_3bfc clone jQrOrq9P.jQrOrq9P_object_3bfc
+      initial;
+        annotation(
+          initialLocation=(43,128,50,43),
+          localLabel="初始伪状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList=""
+        );
+      end jQrOrq9P_object_3bfc;
+
+      State      Object jQrOrq9P_object_75d5 clone jQrOrq9P.jQrOrq9P_object_75d5
+      
+        annotation(
+          initialLocation=(148,116,136,-1),
+          localLabel="状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList="状态:136,35;"
+        );
+      end jQrOrq9P_object_75d5;
+
+      State      Object jQrOrq9P_object_e147 clone jQrOrq9P.jQrOrq9P_object_e147
+      
+        annotation(
+          initialLocation=(379,116,136,-1),
+          localLabel="状态",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+          graphRepresentations="",
+          propertyFrameGeometryList="状态:136,35;"
+        );
+      end jQrOrq9P_object_e147;
+
+      Relationship jQrOrq9P_relationship_e232 refer Relationship_Transition
+        Role jQrOrq9P_fromrole_5d3b refer Role_Source
+          Connect jQrOrq9P_object_3bfc;
+ 
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end jQrOrq9P_fromrole_5d3b;
+         Role jQrOrq9P_torole_37ab refer Role_Target
+          Connect jQrOrq9P_object_75d5;
+ 
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end jQrOrq9P_torole_37ab;
+       
+        annotation(
+          localLabel="转换",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(68,149;228,137),
+          polylineLocation="[0,0,-55,0]$[55,0,0,0];(1.0,0.5116279069767442);(0.0,0.5)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end jQrOrq9P_relationship_e232;
+ 
+      Relationship jQrOrq9P_relationship_dd6d refer Relationship_Transition
+        Role jQrOrq9P_fromrole_0e5f refer Role_Source
+          Connect jQrOrq9P_object_75d5;
+ 
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end jQrOrq9P_fromrole_0e5f;
+         Role jQrOrq9P_torole_a3c2 refer Role_Target
+          Connect jQrOrq9P_object_e147;
+ 
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end jQrOrq9P_torole_a3c2;
+       
+        annotation(
+          localLabel="转换",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(216,103;540,103),
+          polylineLocation="[0,-13,-93,-13]$[93,-13,0,-13];(1.0,0.7941176470588235);(0.0,0.7941176470588235)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end jQrOrq9P_relationship_dd6d;
+ 
+    Connect(connector(jQrOrq9P_object_3bfc,jQrOrq9P_relationship_e232.jQrOrq9P_fromrole_5d3b),connector(jQrOrq9P_object_75d5,jQrOrq9P_relationship_e232.jQrOrq9P_torole_37ab));
+ 
+    Connect(connector(jQrOrq9P_object_75d5,jQrOrq9P_relationship_dd6d.jQrOrq9P_fromrole_0e5f),connector(jQrOrq9P_object_e147,jQrOrq9P_relationship_dd6d.jQrOrq9P_torole_a3c2));
+ 
+
+      annotation(
+        localLabel="剖视1",
+        SDIdentification="",
+        representedObject="",
+        framePointsLocation=""
+    );
+
+    
+   end jQrOrq9P;

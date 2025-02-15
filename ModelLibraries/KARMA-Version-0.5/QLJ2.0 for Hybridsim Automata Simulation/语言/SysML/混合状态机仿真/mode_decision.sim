@@ -1,0 +1,122 @@
+automaton m:
+
+event Start;
+disc dist real d = normal(200, 15);
+cont   x = 0;
+cont   y = 0;
+
+cont  speed_x = 65;
+cont  speed_y = -27;
+
+disc real acc_x = -1.5;
+disc real acc_x1 = -3;
+disc real acc_x2 = -4;
+disc real acc_x3 = -1;
+disc real acc_y = 3;
+
+disc bool QLJ_red = false;
+disc bool QLJ_green = false;
+disc bool rengongshache= false;
+disc bool tingliushache= false;
+disc bool zidongshache= false;
+disc bool tl_permission= false;
+disc bool rg_permission= false;
+disc bool daozhan= false;
+
+disc bool sim_start=false;
+event tabanpushed;
+event tingliubutton;
+
+location chushi:
+initial;
+equation x'= 0;
+equation y'= 0;
+equation  speed_x' = 0;
+equation  speed_y' = 0;
+edge Start do (y, d) := sample d,sim_start:=true goto model_1_0;
+
+location model_1_0:
+equation x'= speed_x;
+equation y'= speed_y;
+equation  speed_x' = 0;
+equation  speed_y' = 0;
+edge when y<150 do QLJ_red:=true, QLJ_green:= false, zidongshache:= true,tingliushache:=false,rengongshache:=false  goto model_1_1;
+
+
+location model_1_1:
+equation x'= speed_x;
+equation y'= speed_y;
+equation  speed_x' = 0;
+equation  speed_y' = 1;
+edge when y<100 do QLJ_red:=false, QLJ_green:= true, zidongshache:= true,tingliushache:=false,rengongshache:=false  goto model_1_2;
+
+location model_1_2:
+equation x'= speed_x;
+equation y'=speed_y;
+equation  speed_x' = acc_x;
+equation  speed_y' = acc_y;
+edge when (y<3 and x'*0.85<30) do QLJ_red:=false, QLJ_green:= true, zidongshache:= true,tingliushache:=false,rengongshache:=false,speed_x:=x',rg_permission:=true,tl_permission:=true goto model_1_3_1;
+edge when (y<3 and x'*0.85>=30) do QLJ_red:=false, QLJ_green:= true, zidongshache:= true,tingliushache:=false,rengongshache:=false,speed_x:=x',rg_permission:=true,tl_permission:=true  goto model_1_3_2;
+
+location  model_1_3_1:
+equation x'= speed_x*0.85;
+equation y'=0;
+equation  speed_x' = acc_x1;
+equation  speed_y' = 0;
+edge when x'<=20 do QLJ_red:=false, QLJ_green:= true, zidongshache:= true,tingliushache:=false,rengongshache:=false  goto jiansudaozhan;
+edge tabanpushed do QLJ_red:=false, QLJ_green:= true, zidongshache:= false,tingliushache:=false,rengongshache:=true,speed_x:=x',rg_permission:=false goto model_rengongshache;
+edge tingliubutton do QLJ_red:=false, QLJ_green:= true, zidongshache:= false,tingliushache:=true,rengongshache:=false,speed_x:=x',tl_permission:=false goto model_rengongshache;
+
+location model_1_3_2:
+equation x'= speed_x;
+equation y'=0;
+equation  speed_x' = acc_x2;
+equation  speed_y' = 0;
+edge when x'<2 do QLJ_red:=false, QLJ_green:= true, zidongshache:= true,tingliushache:=false,rengongshache:=false,speed_x:=x'  goto jiansudaozhan;
+edge tabanpushed do QLJ_red:=false, QLJ_green:= true, zidongshache:= false,tingliushache:=false,rengongshache:=true,speed_x:=x',rg_permission:=false goto model_rengongshache;
+edge tingliubutton do QLJ_red:=false, QLJ_green:= true, zidongshache:= false,tingliushache:=true,rengongshache:=false,speed_x:=x',tl_permission:=false goto model_tingliushache;
+
+location model_rengongshache:
+equation x'= speed_x;
+equation y'=0;
+equation  speed_x' = -4.5;
+equation  speed_y' = 0;
+edge when x'<3 do QLJ_red:=false, QLJ_green:= true, zidongshache:=false,tingliushache:=false,rengongshache:=true,speed_x:=x'  goto jiansudaozhan;
+edge tingliubutton do QLJ_red:=false, QLJ_green:= true, zidongshache:= false,tingliushache:=true,rengongshache:=false,speed_x:=x',tl_permission:=false goto model_tingliushache;
+
+location model_tingliushache:
+equation x'= speed_x;
+equation y'=0;
+equation  speed_x' = -5;
+equation  speed_y' = 0;
+edge when x'<2 do QLJ_red:=false, QLJ_green:= true, zidongshache:=false,tingliushache:=true,rengongshache:=false,tl_permission:=false  goto jiansudaozhan;
+
+location jiansudaozhan:
+equation x'= 2;
+equation y'=0;
+equation  speed_x' = acc_x3;
+equation  speed_y' = 0;
+edge when x >1000 do  QLJ_red:=false, QLJ_green:= false, zidongshache:= false,tingliushache:=false,rengongshache:=false,daozhan:=true,rg_permission:=false,tl_permission:=false goto state_end;
+
+location state_end:
+equation x'= 0;
+equation y'=0;
+equation  speed_x' = 0;
+equation  speed_y' = 0;
+
+//svg
+svgfile "p3.svg";
+svgin id "g30" event Start;
+svgin id "path22" event tabanpushed;
+svgin id "button" event tingliubutton;
+svgout id "path16" attr "visibility" value if QLJ_red: "visible" else "hidden" end;
+svgout id "path15" attr "visibility" value if QLJ_green: "visible" else "hidden" end;
+
+svgout id "path6" attr "visibility" value if rengongshache : "visible" else "hidden" end;
+svgout id "path4" attr "visibility" value if zidongshache: "visible" else "hidden" end;
+svgout id "path5" attr "visibility" value if tingliushache: "visible" else "hidden" end;
+svgout id "zhishideng" attr "fill" value if daozhan: "green" else "white" end;
+svgout id "tlzhishideng" attr "fill" value if tl_permission: "green" else "red" end;
+svgout id "rgzhishideng" attr "fill" value if rg_permission: "green" else "red" end;
+svgout id "g30" attr "fill" value if sim_start: "green" else "red" end;
+end

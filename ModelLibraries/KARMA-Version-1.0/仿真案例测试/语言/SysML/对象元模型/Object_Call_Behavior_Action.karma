@@ -1,0 +1,25 @@
+   Object Object_Call_Behavior_Action
+      initial Property  Object_Call_Behavior_Action_Property_Name_13dfea = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Call_Behavior_Action_Property_Behavior_9bd5cb = "null" extends Property_Behavior annotation(localLabel ="行为");
+      initial Property  Object_Call_Behavior_Action_Property_To_Do_41acc2 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Call_Behavior_Action_Property_Graph_Reference_cc8f8b = "null" extends Property_Graph_Reference annotation(localLabel ="引用图");
+      initial Property  Object_Call_Behavior_Action_Property_Object_Reference_ba4108 = "null" extends Property_Object_Reference annotation(localLabel ="引用对象");
+      initial Property  Object_Call_Behavior_Action_Property_Point_Reference_9fe89e = "null" extends Property_Point_Reference annotation(localLabel ="引用点");
+      Input Point Object_Call_Behavior_Action_Point_Input_Pin_bf64d3 extends Point_Input_Pin annotation (localLabel ="输入引脚");
+      Input Point Object_Call_Behavior_Action_Point_Action_Input_Pin_c5f242 extends Point_Action_Input_Pin annotation (localLabel ="动作输入引脚");
+      Output Point Object_Call_Behavior_Action_Point_Output_Pin_6634d3 extends Point_Output_Pin annotation (localLabel ="输出引脚");
+      Input Point Object_Call_Behavior_Action_Point_Value_Pin_a8c221 extends Point_Value_Pin annotation (localLabel ="值引脚");
+    this.decompose(Activity_Diagram,Sequence_Diagram,State_Machine_Diagram),
+    this.explode(Activity_Diagram,Sequence_Diagram,State_Machine_Diagram),
+   annotation(
+      localLabel="调用行为动作",
+      description="",
+      icon="调用行为动作.png",
+      shape="rectangle",
+      visualizedMode=blankPropertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$None,
+      );
+   end Object_Call_Behavior_Action;
+ 

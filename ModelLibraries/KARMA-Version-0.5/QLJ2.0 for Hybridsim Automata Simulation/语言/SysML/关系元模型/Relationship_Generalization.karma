@@ -1,0 +1,12 @@
+   Relationship Relationship_Generalization
+      initial Property  Relationship_Generalization_Property_To_Do_bb20ab = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Specific;
+   Role Role_General;
+   annotation(
+      localLabel="泛化",
+      description="",
+      icon="泛化.png",
+      shape="solidLine",
+      );
+   end Relationship_Generalization;
+ 

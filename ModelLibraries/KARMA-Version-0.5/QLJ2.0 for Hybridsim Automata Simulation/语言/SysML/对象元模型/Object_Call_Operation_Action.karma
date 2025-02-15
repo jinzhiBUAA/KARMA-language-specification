@@ -1,0 +1,17 @@
+   Object Object_Call_Operation_Action
+      initial Property  Object_Call_Operation_Action_Property_Name_44e8d2 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Call_Operation_Action_Property_Behavior_8d6a68 = "null" extends Property_Behavior annotation(localLabel ="行为");
+      Input Point Object_Call_Operation_Action_Point_Input_Pin_38d962 extends Point_Input_Pin annotation (localLabel ="输入引脚");
+      Input Point Object_Call_Operation_Action_Point_Value_Pin_9b30d8 extends Point_Value_Pin annotation (localLabel ="值引脚");
+      Input Point Object_Call_Operation_Action_Point_Action_Input_Pin_4d115a extends Point_Action_Input_Pin annotation (localLabel ="动作输入引脚");
+      Output Point Object_Call_Operation_Action_Point_Output_Pin_a75664 extends Point_Output_Pin annotation (localLabel ="输出引脚");
+   annotation(
+      localLabel="调用运行动作",
+      description="",
+      icon="调用运行动作.png",
+      shape="roundedRectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      );
+   end Object_Call_Operation_Action;
+ 

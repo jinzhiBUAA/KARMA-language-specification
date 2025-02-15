@@ -1,0 +1,16 @@
+   Relationship Relationship_Binding_Connector
+      initial Property  Relationship_Binding_Connector_Property_Name_fe276e = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Binding_Connector_Property_Contract_edb702 = "null" extends Property_Contract annotation(localLabel ="契约");
+      initial Property  Relationship_Binding_Connector_Property_Kind_5ec001 = "null" extends Property_Kind annotation(localLabel ="种类");
+      initial Property  Relationship_Binding_Connector_Property_Type_3408c6 = "null" extends Property_Type annotation(localLabel ="类型");
+      initial Property  Relationship_Binding_Connector_Property_To_Do_2c54a0 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Connectot_End_A;
+   Role Role_Connectot_End_B;
+   annotation(
+      localLabel="绑定连接器",
+      description="",
+      icon="绑定连接器.png",
+      shape="solidLine",
+      );
+   end Relationship_Binding_Connector;
+ 

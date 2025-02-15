@@ -1,0 +1,15 @@
+   partial Graph Sequence_Diagram
+      initial Property  Sequence_Diagram_Property_To_Do_d3ddca = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Sequence_Diagram_Property_Context_847d79 = "null" extends Property_Context annotation(localLabel ="上下文");
+    Object Lifeline;
+    Relationship Message;
+    Constraint (
+    bind connector(Lifeline,Message.Message_Source),
+    bind connector(Lifeline,Message.Message_Target),
+    );
+    annotation(
+        localLabel="时序图",
+        type = sequenceDiagram,
+        description="",
+       );
+        end Sequence_Diagram;

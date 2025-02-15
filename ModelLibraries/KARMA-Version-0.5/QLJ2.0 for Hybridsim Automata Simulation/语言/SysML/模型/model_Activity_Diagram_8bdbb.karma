@@ -1,0 +1,114 @@
+    partial Model model_Activity_Diagram_8bdbb instanceof Activity_Diagram
+    
+        Property model_Activity_Diagram_8bdbb_property_f320 = "null" refer Activity_Diagram_Property_To_Do_4f5d74 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_property_d069 = "null" refer Activity_Diagram_Property_Context_2475bb annotation(localLabel = "上下文",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Object model_Activity_Diagram_8bdbb_object_d909 refer Object_Call_Behavior_Action
+        Property model_Activity_Diagram_8bdbb_object_d909_property_de02 = "null" refer Object_Call_Behavior_Action_Property_Name_afe6b7 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_property_2fab = "null" refer Object_Call_Behavior_Action_Property_Behavior_176feb annotation(localLabel = "行为",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_property_0a16 = "null" refer Object_Call_Behavior_Action_Property_To_Do_c1d6ed annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      Point model_Activity_Diagram_8bdbb_object_d909_input_2949 refer Object_Call_Behavior_Action_Point_Input_Pin_d1c3dc
+        Property model_Activity_Diagram_8bdbb_object_d909_input_2949_property_5ef0 = "null" refer Point_Input_Pin_Property_Name_58db7a annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_2949_property_5a34 = "null" refer Point_Input_Pin_Property_Type_f4648c annotation(localLabel = "类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_2949_property_457a = "null" refer Point_Input_Pin_Property_Multiplicity_6d84f9 annotation(localLabel = "多重度",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_2949_property_41ca = "null" refer Point_Input_Pin_Property_In_State_c4c514 annotation(localLabel = "处于状态",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_2949_property_0ed7 = "null" refer Point_Input_Pin_Property_To_Do_a0eabb annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_2949_property_e94b = "null" refer Point_Input_Pin_Property_Rate_079986 annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_2949_property_3ef1 = "null" refer Point_Input_Pin_Property_Redefined_Node_583cc7 annotation(localLabel = "重定义节点",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      annotation(
+         localLabel="输入引脚",
+         labelLocation=(21,0),
+		 initialLocation=(-12,0,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Activity_Diagram_8bdbb_object_d909_input_2949;
+ 
+      Point model_Activity_Diagram_8bdbb_object_d909_input_3feb refer Object_Call_Behavior_Action_Point_Value_Pin_f0b44f
+        Property model_Activity_Diagram_8bdbb_object_d909_input_3feb_property_0fa4 = "null" refer Point_Value_Pin_Property_Name_2ccec9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_3feb_property_b72d = "null" refer Point_Value_Pin_Property_Value_c83b83 annotation(localLabel = "值",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_3feb_property_eb2e = "null" refer Point_Value_Pin_Property_Type_8c3581 annotation(localLabel = "类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_3feb_property_cb11 = "null" refer Point_Value_Pin_Property_Multiplicity_e73386 annotation(localLabel = "多重度",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_3feb_property_7ccc = "null" refer Point_Value_Pin_Property_To_Do_79b2f9 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_3feb_property_2881 = "null" refer Point_Value_Pin_Property_Rate_626fea annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_3feb_property_2a6c = "null" refer Point_Value_Pin_Property_Redefined_Node_c996ab annotation(localLabel = "重定义节点",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      annotation(
+         localLabel="值引脚",
+         labelLocation=(21,0),
+		 initialLocation=(-12,28,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Activity_Diagram_8bdbb_object_d909_input_3feb;
+ 
+      Point model_Activity_Diagram_8bdbb_object_d909_input_e301 refer Object_Call_Behavior_Action_Point_Action_Input_Pin_2de96c
+        Property model_Activity_Diagram_8bdbb_object_d909_input_e301_property_72c2 = "null" refer Point_Action_Input_Pin_Property_Name_285777 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_e301_property_07bb = "null" refer Point_Action_Input_Pin_Property_From_Action_c9e7b6 annotation(localLabel = "来自动作",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_e301_property_cfcf = "null" refer Point_Action_Input_Pin_Property_Type_bcf5c5 annotation(localLabel = "类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_e301_property_add5 = "null" refer Point_Action_Input_Pin_Property_Multiplicity_19e775 annotation(localLabel = "多重度",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_e301_property_5a06 = "null" refer Point_Action_Input_Pin_Property_To_Do_d0cd2e annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_e301_property_9263 = "null" refer Point_Action_Input_Pin_Property_Rate_c556ee annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_input_e301_property_3d7f = "null" refer Point_Action_Input_Pin_Property_Redefined_Node_3f954c annotation(localLabel = "重定义节点",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      annotation(
+         localLabel="动作输入引脚",
+         labelLocation=(21,0),
+		 initialLocation=(7,60,22,22),
+         shape="rectangle",
+         color="246,139,139;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Activity_Diagram_8bdbb_object_d909_input_e301;
+ 
+      Point model_Activity_Diagram_8bdbb_object_d909_output_73d8 refer Object_Call_Behavior_Action_Point_Output_Pin_9cfe4f
+        Property model_Activity_Diagram_8bdbb_object_d909_output_73d8_property_8d13 = "null" refer Point_Output_Pin_Property_Name_708ac0 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_output_73d8_property_955c = "null" refer Point_Output_Pin_Property_Type_13a949 annotation(localLabel = "类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_output_73d8_property_cf26 = "null" refer Point_Output_Pin_Property_Multiplicity_2d3f06 annotation(localLabel = "多重度",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_output_73d8_property_fae4 = "null" refer Point_Output_Pin_Property_To_Do_045baa annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_output_73d8_property_2869 = "null" refer Point_Output_Pin_Property_Rate_c75800 annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Activity_Diagram_8bdbb_object_d909_output_73d8_property_228b = "null" refer Point_Output_Pin_Property_Redefined_Node_cb930f annotation(localLabel = "重定义节点",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      annotation(
+         localLabel="输出引脚",
+         labelLocation=(21,0),
+		 initialLocation=(35,60,22,22),
+         shape="rectangle",
+         color="204,242,166;0,0,0;0,0,0",
+         text=("Microsoft YaHei UI",7,Normal,Normal),
+         iconDisplay=false,
+         labelDisplay=false,
+         imageAddress="",
+         );
+      end model_Activity_Diagram_8bdbb_object_d909_output_73d8;
+ 
+      
+        annotation(
+          initialLocation=(826,224,140,70),
+          localLabel="调用行为动作",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Activity_Diagram_8bdbb_object_d909;
+
+
+      annotation(
+        localLabel="a",
+        SDIdentification="",
+    );
+    
+   end model_Activity_Diagram_8bdbb;

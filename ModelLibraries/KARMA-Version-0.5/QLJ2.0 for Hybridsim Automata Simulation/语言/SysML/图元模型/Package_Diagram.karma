@@ -1,0 +1,29 @@
+   partial Graph Package_Diagram
+      initial Property  Package_Diagram_Property_To_Do_b0a263 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Package_Diagram_Property_Context_01f707 = "null" extends Property_Context annotation(localLabel ="上下文");
+    Object Object_Package;
+    Object Object_Model;
+    Relationship Relationship_Package_Import;
+    Relationship Relationship_Element_Import;
+    Relationship Relationship_Containment;
+    Constraint (
+    bind connector(Object_Model,Relationship_Package_Import.Role_Importing_Namespace),
+    bind connector(Object_Package,Relationship_Package_Import.Role_Importing_Namespace),
+    bind connector(Object_Model,Relationship_Package_Import.Role_Imported_Package),
+    bind connector(Object_Package,Relationship_Package_Import.Role_Imported_Package),
+    bind connector(Object_Model,Relationship_Element_Import.Role_Imported_Element),
+    bind connector(Object_Package,Relationship_Element_Import.Role_Imported_Element),
+    bind connector(Object_Model,Relationship_Element_Import.Role_Importing_Namespace),
+    bind connector(Object_Package,Relationship_Element_Import.Role_Importing_Namespace),
+    bind connector(Object_Model,Relationship_Containment.Role_Part),
+    bind connector(Object_Package,Relationship_Containment.Role_Part),
+    bind connector(Object_Model,Relationship_Containment.Role_Whole),
+    bind connector(Object_Package,Relationship_Containment.Role_Whole),
+    Object_Package.decompose(Package_Diagram),
+    );
+    annotation(
+        localLabel="包图",
+        type = diagram,
+        description="",
+       );
+        end Package_Diagram;
