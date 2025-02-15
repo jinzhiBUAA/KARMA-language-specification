@@ -1,0 +1,13 @@
+   Relationship Relationship_Usage
+      initial Property  Relationship_Usage_Property_Name_10cbf5 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Usage_Property_To_Do_d733ae = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Client;
+   Role Role_Supplier;
+   annotation(
+      localLabel="使用",
+      description="",
+      icon="使用.png",
+      shape="dashLine",
+      );
+   end Relationship_Usage;
+ 

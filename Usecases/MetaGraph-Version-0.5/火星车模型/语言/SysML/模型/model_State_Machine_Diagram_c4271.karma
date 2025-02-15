@@ -1,0 +1,363 @@
+    partial Model model_State_Machine_Diagram_c4271 instanceof State_Machine_Diagram
+    
+        Property model_State_Machine_Diagram_c4271_property_19ef = "null" refer State_Machine_Diagram_Property_To_Do_a9cf1e annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_property_6520 = "null" refer State_Machine_Diagram_Property_Context_43446a annotation(localLabel = "上下文",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Object shiminggainian_object_f4a5_20b5 refer Object_Initial_Pseudo_State
+        Property shiminggainian_object_f4a5_property_3f93_07e1 = "null" refer Object_Initial_Pseudo_State_Property_Name_8df0e9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_f4a5_property_392b_2cd7 = "null" refer Object_Initial_Pseudo_State_Property_To_Do_0010ed annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(182,91,85,92),
+          localLabel="初始伪状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end shiminggainian_object_f4a5_20b5;
+
+      Object shiminggainian_object_421e_94aa refer Object_State
+        Property shiminggainian_object_421e_property_d7f7_e555 = "发射前阶段" refer Object_State_Property_Name_85c6aa annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_d55d_1382 = "制造完成，准备发射" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "执行",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_1683_95a5 = "等待发射窗口期" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "可延迟条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(98,259,255,108),
+          localLabel="运行阶段",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end shiminggainian_object_421e_94aa;
+
+      Object shiminggainian_object_421e_94aa_d14e refer Object_State
+        Property shiminggainian_object_421e_property_d7f7_e555_68a1 = "发射阶段" refer Object_State_Property_Name_85c6aa annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_d55d_1382_8a62 = "升空完成，在太空维持运行，靠近火星" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "执行",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_1683_95a5_6154 = "轨道修正、姿态调整" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "可延迟条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(98,448,255,143),
+          localLabel="运行阶段",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end shiminggainian_object_421e_94aa_d14e;
+
+      Object shiminggainian_object_421e_94aa_d14e_437d refer Object_State
+        Property shiminggainian_object_421e_property_d7f7_e555_68a1_4712 = "登陆阶段" refer Object_State_Property_Name_85c6aa annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_d55d_1382_8a62_cd44 = "安全着陆、采集降落数据" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "执行",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_1683_95a5_6154_146a = "着陆后设备自检" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "可延迟条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(98,686,255,108),
+          localLabel="运行阶段",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end shiminggainian_object_421e_94aa_d14e_437d;
+
+      Object shiminggainian_object_421e_94aa_d14e_437d_b812 refer Object_State
+        Property shiminggainian_object_421e_property_d7f7_e555_68a1_4712_a7ba = "火星探索阶段" refer Object_State_Property_Name_85c6aa annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_d55d_1382_8a62_cd44_d124 = "完成对应区域的探索目标、执行飞行与制氧实验" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "执行",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_1683_95a5_6154_146a_7cd3 = "探索数据的分析和样本的采集保存" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "可延迟条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(98,889,255,108),
+          localLabel="运行阶段",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end shiminggainian_object_421e_94aa_d14e_437d_b812;
+
+      Object shiminggainian_object_39d0_a39c refer Object_Final_State
+        Property shiminggainian_object_39d0_property_5f0a_b9ac = "null" refer Object_Final_State_Property_Name_d73887 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_39d0_property_fc01_5416 = "null" refer Object_Final_State_Property_To_Do_cd58a6 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_39d0_property_a71c_9877 = "null" refer Object_Final_State_Property_Redefined_Vertex_8d4b3f annotation(localLabel = "重定义顶点",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_39d0_property_d101_016d = "null" refer Object_Final_State_Property_Entry_Behavior_Element_b3affc annotation(localLabel = "入口行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_39d0_property_e834_dd25 = "null" refer Object_Final_State_Property_Do_Activity_Behavior_Element_3c6e7b annotation(localLabel = "执行活动行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_39d0_property_3fce_f714 = "null" refer Object_Final_State_Property_Exit_Behavior_Element_207108 annotation(localLabel = "出口行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(175,1078,84,92),
+          localLabel="最终状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end shiminggainian_object_39d0_a39c;
+
+      Relationship model_State_Machine_Diagram_c4271_relationship_ad14 refer Relationship_Transition
+        Property model_State_Machine_Diagram_c4271_relationship_ad14_property_86e5 = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_ad14_property_9089 = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_ad14_property_f3ef = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_ad14_property_53f9 = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_ad14_property_0b7e = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_ad14_property_f9b2 = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_ad14_property_6465 = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_ad14_property_68bd = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_ad14_property_ca14 = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_ad14_property_4261 = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role model_State_Machine_Diagram_c4271_fromrole_752d refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end model_State_Machine_Diagram_c4271_fromrole_752d;
+         Role model_State_Machine_Diagram_c4271_torole_92dd refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end model_State_Machine_Diagram_c4271_torole_92dd;
+       
+        annotation(
+          localLabel="NASA完成规划",
+          labelLocation=(6,-61),
+          shape="solidLine",
+          endLocation=(224,137;225,389),
+          polylineLocation="[0,0,0,-76]$[0,76,0,0];(0.49411764705882355,1.0);(0.4980237154150198,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_State_Machine_Diagram_c4271_relationship_ad14;
+ 
+      Relationship model_State_Machine_Diagram_c4271_relationship_f231 refer Relationship_Transition
+        Property model_State_Machine_Diagram_c4271_relationship_f231_property_ab13 = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f231_property_7c32 = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f231_property_42a7 = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f231_property_daa1 = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f231_property_4bfe = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f231_property_1bec = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f231_property_16a9 = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f231_property_2d5b = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f231_property_ffb6 = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f231_property_6722 = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role model_State_Machine_Diagram_c4271_fromrole_ff56 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end model_State_Machine_Diagram_c4271_fromrole_ff56;
+         Role model_State_Machine_Diagram_c4271_torole_a0a1 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end model_State_Machine_Diagram_c4271_torole_a0a1;
+       
+        annotation(
+          localLabel="达到发射条件",
+          labelLocation=(-4,-68),
+          shape="solidLine",
+          endLocation=(205,313;205,602),
+          polylineLocation="[-20,0,0,-83]$[-20,83,0,0];(0.5810276679841897,1.0);(0.5019762845849802,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_State_Machine_Diagram_c4271_relationship_f231;
+ 
+      Relationship model_State_Machine_Diagram_c4271_relationship_b4ce refer Relationship_Transition
+        Property model_State_Machine_Diagram_c4271_relationship_b4ce_property_b399 = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_b4ce_property_ec16 = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_b4ce_property_5e3b = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_b4ce_property_4673 = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_b4ce_property_491f = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_b4ce_property_fc82 = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_b4ce_property_09d3 = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_b4ce_property_1136 = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_b4ce_property_07b9 = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_b4ce_property_9584 = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role model_State_Machine_Diagram_c4271_fromrole_987c refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end model_State_Machine_Diagram_c4271_fromrole_987c;
+         Role model_State_Machine_Diagram_c4271_torole_ca27 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end model_State_Machine_Diagram_c4271_torole_ca27;
+       
+        annotation(
+          localLabel="到达火星着陆点上空",
+          labelLocation=(-4,-79),
+          shape="solidLine",
+          endLocation=(202,519;202,837),
+          polylineLocation="[-23,0,-23,-97]$[-23,97,-23,0];(0.5889328063241107,1.0);(0.5889328063241107,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_State_Machine_Diagram_c4271_relationship_b4ce;
+ 
+      Relationship model_State_Machine_Diagram_c4271_relationship_f816 refer Relationship_Transition
+        Property model_State_Machine_Diagram_c4271_relationship_f816_property_919f = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f816_property_0eda = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f816_property_373a = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f816_property_7168 = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f816_property_719b = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f816_property_fd25 = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f816_property_a9de = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f816_property_cad5 = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f816_property_18e7 = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_f816_property_d6f6 = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role model_State_Machine_Diagram_c4271_fromrole_03f4 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end model_State_Machine_Diagram_c4271_fromrole_03f4;
+         Role model_State_Machine_Diagram_c4271_torole_4e53 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end model_State_Machine_Diagram_c4271_torole_4e53;
+       
+        annotation(
+          localLabel="着陆后设备检查无问题",
+          labelLocation=(3,-101),
+          shape="solidLine",
+          endLocation=(204,740;204,1040),
+          polylineLocation="[-21,0,-21,-97]$[-21,97,-21,0];(0.5810276679841897,1.0);(0.5810276679841897,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_State_Machine_Diagram_c4271_relationship_f816;
+ 
+      Relationship model_State_Machine_Diagram_c4271_relationship_7969 refer Relationship_Transition
+        Property model_State_Machine_Diagram_c4271_relationship_7969_property_0cd4 = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_7969_property_ee8f = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_7969_property_9f6f = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_7969_property_4ab3 = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_7969_property_d063 = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_7969_property_6e31 = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_7969_property_e2fd = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_7969_property_14a5 = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_7969_property_c058 = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_State_Machine_Diagram_c4271_relationship_7969_property_5d60 = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role model_State_Machine_Diagram_c4271_fromrole_b25b refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end model_State_Machine_Diagram_c4271_fromrole_b25b;
+         Role model_State_Machine_Diagram_c4271_torole_92e2 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end model_State_Machine_Diagram_c4271_torole_92e2;
+       
+        annotation(
+          localLabel="完成探索规划",
+          labelLocation=(3,-76),
+          shape="solidLine",
+          endLocation=(225,943;217,1207),
+          polylineLocation="[0,0,0,-83]$[0,83,0,0];(0.47035573122529645,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_State_Machine_Diagram_c4271_relationship_7969;
+ 
+    Connect(connector(shiminggainian_object_f4a5_20b5,model_State_Machine_Diagram_c4271_relationship_ad14.model_State_Machine_Diagram_c4271_fromrole_752d),connector(shiminggainian_object_421e_94aa,model_State_Machine_Diagram_c4271_relationship_ad14.model_State_Machine_Diagram_c4271_torole_92dd));
+ 
+    Connect(connector(shiminggainian_object_421e_94aa,model_State_Machine_Diagram_c4271_relationship_f231.model_State_Machine_Diagram_c4271_fromrole_ff56),connector(shiminggainian_object_421e_94aa_d14e,model_State_Machine_Diagram_c4271_relationship_f231.model_State_Machine_Diagram_c4271_torole_a0a1));
+ 
+    Connect(connector(shiminggainian_object_421e_94aa_d14e,model_State_Machine_Diagram_c4271_relationship_b4ce.model_State_Machine_Diagram_c4271_fromrole_987c),connector(shiminggainian_object_421e_94aa_d14e_437d,model_State_Machine_Diagram_c4271_relationship_b4ce.model_State_Machine_Diagram_c4271_torole_ca27));
+ 
+    Connect(connector(shiminggainian_object_421e_94aa_d14e_437d,model_State_Machine_Diagram_c4271_relationship_f816.model_State_Machine_Diagram_c4271_fromrole_03f4),connector(shiminggainian_object_421e_94aa_d14e_437d_b812,model_State_Machine_Diagram_c4271_relationship_f816.model_State_Machine_Diagram_c4271_torole_4e53));
+ 
+    Connect(connector(shiminggainian_object_421e_94aa_d14e_437d_b812,model_State_Machine_Diagram_c4271_relationship_7969.model_State_Machine_Diagram_c4271_fromrole_b25b),connector(shiminggainian_object_39d0_a39c,model_State_Machine_Diagram_c4271_relationship_7969.model_State_Machine_Diagram_c4271_torole_92e2));
+ 
+
+      annotation(
+        localLabel="1_3_定义运行概念",
+        SDIdentification="",
+    );
+    
+   end model_State_Machine_Diagram_c4271;

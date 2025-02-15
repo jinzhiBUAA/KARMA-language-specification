@@ -1,0 +1,12 @@
+   Relationship Relationship_Element_Import
+      initial Property  Relationship_Element_Import_Property_To_Do_0de014 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Importing_Namespace;
+   Role Role_Imported_Element;
+   annotation(
+      localLabel="元素导入",
+      description="",
+      icon="元素导入.png",
+      shape="dashLine",
+      );
+   end Relationship_Element_Import;
+ 

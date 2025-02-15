@@ -1,0 +1,15 @@
+   Object Object_Lifeline
+      Undirected Point Object_Lifeline_Point_Execution_f5b63e extends Point_Execution annotation (localLabel ="执行");
+      Undirected Point Object_Lifeline_Object_StateFragment_515199 extends Object_StateFragment annotation (localLabel ="状态块");
+   annotation(
+      localLabel="生命线",
+      description="",
+      icon="",
+      shape="rectangle",
+      visualizedMode=blankPropertyMode,
+      imageAddress="",
+      UnfoldDirection=Y,
+      seqType=$InstanceRole,
+      );
+   end Object_Lifeline;
+ 

@@ -1,0 +1,247 @@
+    partial Model model_Internal_Block_Diagram_b9bf0 instanceof Internal_Block_Diagram
+    
+        Property model_Internal_Block_Diagram_b9bf0_property_bb43 = "null" refer Internal_Block_Diagram_Property_To_Do_c37486 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_property_bf4e = "null" refer Internal_Block_Diagram_Property_Context_9f574a annotation(localLabel = "上下文",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Object model_Internal_Block_Diagram_b9bf0_object_f4fb refer Object_Part_Property
+        Property model_Internal_Block_Diagram_b9bf0_object_f4fb_property_c8ef = "毅力号" refer Object_Part_Property_Property_Name_5fa8d0 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(511,238,140,70),
+          localLabel="运行系统",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;152,168,191;152,168,191",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Internal_Block_Diagram_b9bf0_object_f4fb;
+
+      Object model_Internal_Block_Diagram_b9bf0_object_f4fb_60b4 refer Object_Part_Property
+        Property model_Internal_Block_Diagram_b9bf0_object_f4fb_property_c8ef_2a4d = "NASA" refer Object_Part_Property_Property_Name_5fa8d0 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(161,238,140,70),
+          localLabel="利益相关者",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;227,164,156;227,164,156",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Internal_Block_Diagram_b9bf0_object_f4fb_60b4;
+
+      Object model_Internal_Block_Diagram_b9bf0_object_f4fb_21c3 refer Object_Part_Property
+        Property model_Internal_Block_Diagram_b9bf0_object_f4fb_property_c8ef_32b4 = "运载火箭" refer Object_Part_Property_Property_Name_5fa8d0 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(511,385,140,70),
+          localLabel="运行系统",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;152,168,191;152,168,191",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Internal_Block_Diagram_b9bf0_object_f4fb_21c3;
+
+      Object model_Internal_Block_Diagram_b9bf0_object_f4fb_60b4_4f79 refer Object_Part_Property
+        Property model_Internal_Block_Diagram_b9bf0_object_f4fb_property_c8ef_2a4d_3e6e = "肯尼迪航天中心" refer Object_Part_Property_Property_Name_5fa8d0 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(161,392,140,70),
+          localLabel="利益相关者",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;227,164,156;227,164,156",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end model_Internal_Block_Diagram_b9bf0_object_f4fb_60b4_4f79;
+
+      Relationship model_Internal_Block_Diagram_b9bf0_relationship_46ac refer Relationship_Connector
+        Property model_Internal_Block_Diagram_b9bf0_relationship_46ac_property_ebaa = "null" refer Relationship_Connector_Property_Name_7a0547 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_46ac_property_8b70 = "null" refer Relationship_Connector_Property_Contract_a8425a annotation(localLabel = "契约",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_46ac_property_3e9d = "null" refer Relationship_Connector_Property_Kind_fdd11e annotation(localLabel = "种类",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_46ac_property_274f = "null" refer Relationship_Connector_Property_Type_5776b6 annotation(localLabel = "类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_46ac_property_cf7f = "null" refer Relationship_Connector_Property_To_Do_64eb03 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role model_Internal_Block_Diagram_b9bf0_fromrole_4527 refer Role_Connectot_End_A
+          annotation(
+            localLabel="连接器末端A",
+            shape="no"
+          );
+        end model_Internal_Block_Diagram_b9bf0_fromrole_4527;
+         Role model_Internal_Block_Diagram_b9bf0_torole_d24d refer Role_Connectot_End_B
+          annotation(
+            localLabel="连接器末端B",
+            shape="no"
+          );
+        end model_Internal_Block_Diagram_b9bf0_torole_d24d;
+       
+        annotation(
+          localLabel="设计、制造、测试",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(231,273;793,273),
+          polylineLocation="[0,0,-212,0]$[212,0,0,0];(1.0,0.20588235294117646);(0.0,0.20588235294117646)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Internal_Block_Diagram_b9bf0_relationship_46ac;
+ 
+      Relationship model_Internal_Block_Diagram_b9bf0_relationship_4dc6 refer Relationship_Connector
+        Property model_Internal_Block_Diagram_b9bf0_relationship_4dc6_property_e958 = "null" refer Relationship_Connector_Property_Name_7a0547 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_4dc6_property_6a7b = "null" refer Relationship_Connector_Property_Contract_a8425a annotation(localLabel = "契约",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_4dc6_property_4c0b = "null" refer Relationship_Connector_Property_Kind_fdd11e annotation(localLabel = "种类",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_4dc6_property_451f = "null" refer Relationship_Connector_Property_Type_5776b6 annotation(localLabel = "类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_4dc6_property_7bb1 = "null" refer Relationship_Connector_Property_To_Do_64eb03 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role model_Internal_Block_Diagram_b9bf0_fromrole_a532 refer Role_Connectot_End_A
+          annotation(
+            localLabel="连接器末端A",
+            shape="no"
+          );
+        end model_Internal_Block_Diagram_b9bf0_fromrole_a532;
+         Role model_Internal_Block_Diagram_b9bf0_torole_9106 refer Role_Connectot_End_B
+          annotation(
+            localLabel="连接器末端B",
+            shape="no"
+          );
+        end model_Internal_Block_Diagram_b9bf0_torole_9106;
+       
+        annotation(
+          localLabel="搭载",
+          labelLocation=(1,-59),
+          shape="solidLine",
+          endLocation=(581,273;581,499),
+          polylineLocation="[0,0,0,-79]$[0,79,0,0];(0.5,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Internal_Block_Diagram_b9bf0_relationship_4dc6;
+ 
+      Relationship model_Internal_Block_Diagram_b9bf0_relationship_8a3e refer Relationship_Connector
+        Property model_Internal_Block_Diagram_b9bf0_relationship_8a3e_property_15e7 = "null" refer Relationship_Connector_Property_Name_7a0547 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_8a3e_property_ef27 = "null" refer Relationship_Connector_Property_Contract_a8425a annotation(localLabel = "契约",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_8a3e_property_f277 = "null" refer Relationship_Connector_Property_Kind_fdd11e annotation(localLabel = "种类",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_8a3e_property_c558 = "null" refer Relationship_Connector_Property_Type_5776b6 annotation(localLabel = "类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_8a3e_property_a493 = "null" refer Relationship_Connector_Property_To_Do_64eb03 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role model_Internal_Block_Diagram_b9bf0_fromrole_5614 refer Role_Connectot_End_A
+          annotation(
+            localLabel="连接器末端A",
+            shape="no"
+          );
+        end model_Internal_Block_Diagram_b9bf0_fromrole_5614;
+         Role model_Internal_Block_Diagram_b9bf0_torole_786b refer Role_Connectot_End_B
+          annotation(
+            localLabel="连接器末端B",
+            shape="no"
+          );
+        end model_Internal_Block_Diagram_b9bf0_torole_786b;
+       
+        annotation(
+          localLabel="提供",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(231,427;793,420),
+          polylineLocation="[0,0,-212,0]$[212,0,0,0];(1.0,0.3088235294117647);(0.0,0.4117647058823529)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Internal_Block_Diagram_b9bf0_relationship_8a3e;
+ 
+      Relationship model_Internal_Block_Diagram_b9bf0_relationship_c280 refer Relationship_Connector
+        Property model_Internal_Block_Diagram_b9bf0_relationship_c280_property_f1a3 = "null" refer Relationship_Connector_Property_Name_7a0547 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_c280_property_64ff = "null" refer Relationship_Connector_Property_Contract_a8425a annotation(localLabel = "契约",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_c280_property_5658 = "null" refer Relationship_Connector_Property_Kind_fdd11e annotation(localLabel = "种类",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_c280_property_22ec = "null" refer Relationship_Connector_Property_Type_5776b6 annotation(localLabel = "类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property model_Internal_Block_Diagram_b9bf0_relationship_c280_property_64ad = "null" refer Relationship_Connector_Property_To_Do_64eb03 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role model_Internal_Block_Diagram_b9bf0_fromrole_8ad4 refer Role_Connectot_End_A
+          annotation(
+            localLabel="连接器末端A",
+            shape="no"
+          );
+        end model_Internal_Block_Diagram_b9bf0_fromrole_8ad4;
+         Role model_Internal_Block_Diagram_b9bf0_torole_446a refer Role_Connectot_End_B
+          annotation(
+            localLabel="连接器末端B",
+            shape="no"
+          );
+        end model_Internal_Block_Diagram_b9bf0_torole_446a;
+       
+        annotation(
+          localLabel="发射准备",
+          labelLocation=(-75,-10),
+          shape="solidLine",
+          endLocation=(231,427;847,187),
+          polylineLocation="[0,0,-238,133]$[0,-49,-238,84]$[266,-49,28,84]$[266,-86,28,47];(0.8115942028985508,0.0);(0.0,0.3088235294117647)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end model_Internal_Block_Diagram_b9bf0_relationship_c280;
+ 
+    Connect(connector(model_Internal_Block_Diagram_b9bf0_object_f4fb_60b4,model_Internal_Block_Diagram_b9bf0_relationship_46ac.model_Internal_Block_Diagram_b9bf0_fromrole_4527),connector(model_Internal_Block_Diagram_b9bf0_object_f4fb,model_Internal_Block_Diagram_b9bf0_relationship_46ac.model_Internal_Block_Diagram_b9bf0_torole_d24d));
+ 
+    Connect(connector(model_Internal_Block_Diagram_b9bf0_object_f4fb,model_Internal_Block_Diagram_b9bf0_relationship_4dc6.model_Internal_Block_Diagram_b9bf0_fromrole_a532),connector(model_Internal_Block_Diagram_b9bf0_object_f4fb_21c3,model_Internal_Block_Diagram_b9bf0_relationship_4dc6.model_Internal_Block_Diagram_b9bf0_torole_9106));
+ 
+    Connect(connector(model_Internal_Block_Diagram_b9bf0_object_f4fb_60b4_4f79,model_Internal_Block_Diagram_b9bf0_relationship_8a3e.model_Internal_Block_Diagram_b9bf0_fromrole_5614),connector(model_Internal_Block_Diagram_b9bf0_object_f4fb_21c3,model_Internal_Block_Diagram_b9bf0_relationship_8a3e.model_Internal_Block_Diagram_b9bf0_torole_786b));
+ 
+    Connect(connector(model_Internal_Block_Diagram_b9bf0_object_f4fb_60b4_4f79,model_Internal_Block_Diagram_b9bf0_relationship_c280.model_Internal_Block_Diagram_b9bf0_fromrole_8ad4),connector(model_Internal_Block_Diagram_b9bf0_object_f4fb,model_Internal_Block_Diagram_b9bf0_relationship_c280.model_Internal_Block_Diagram_b9bf0_torole_446a));
+ 
+
+      annotation(
+        localLabel="1_4_2_1发射前阶段运行系统",
+        SDIdentification="",
+    );
+    
+   end model_Internal_Block_Diagram_b9bf0;

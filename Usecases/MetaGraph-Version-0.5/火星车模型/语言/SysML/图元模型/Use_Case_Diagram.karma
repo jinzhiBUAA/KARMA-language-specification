@@ -1,0 +1,96 @@
+   partial Graph Use_Case_Diagram
+      initial Property  Use_Case_Diagram_Property_To_Do_da51d5 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Use_Case_Diagram_Property_Context_afc85d = "null" extends Property_Context annotation(localLabel ="上下文");
+    Object Object_Actor;
+    Object Object_Actuator;
+    Object Object_Boundary_System;
+    Object Object_Environmental_Effect;
+    Object Object_External_System;
+    Object Object_Sensor;
+    Object Object_User_System;
+    Object Object_Use_Case;
+    Object Object_Package;
+    Object Object_Block;
+    Object Object_System_Context;
+    Relationship Relationship_Include;
+    Relationship Relationship_Extend;
+    Relationship Relationship_Association;
+    Relationship Relationship_Generalization;
+    Relationship Relationship_Containment;
+    Constraint (
+    bind connector(Object_Use_Case,Relationship_Include.Role_Including_Case),
+    bind connector(Object_Use_Case,Relationship_Include.Role_Addition),
+    bind connector(Object_Use_Case,Relationship_Extend.Role_Extension),
+    bind connector(Object_Use_Case,Relationship_Extend.Role_Extended_Case),
+    bind connector(Object_Block,Relationship_Association.Role_Role_B),
+    bind connector(Object_Boundary_System,Relationship_Association.Role_Role_B),
+    bind connector(Object_User_System,Relationship_Association.Role_Role_B),
+    bind connector(Object_External_System,Relationship_Association.Role_Role_B),
+    bind connector(Object_System_Context,Relationship_Association.Role_Role_B),
+    bind connector(Object_Environmental_Effect,Relationship_Association.Role_Role_B),
+    bind connector(Object_Actor,Relationship_Association.Role_Role_B),
+    bind connector(Object_Sensor,Relationship_Association.Role_Role_B),
+    bind connector(Object_Actuator,Relationship_Association.Role_Role_B),
+    bind connector(Object_Use_Case,Relationship_Association.Role_Role_B),
+    bind connector(Object_Block,Relationship_Association.Role_Role_A),
+    bind connector(Object_Boundary_System,Relationship_Association.Role_Role_A),
+    bind connector(Object_User_System,Relationship_Association.Role_Role_A),
+    bind connector(Object_External_System,Relationship_Association.Role_Role_A),
+    bind connector(Object_System_Context,Relationship_Association.Role_Role_A),
+    bind connector(Object_Environmental_Effect,Relationship_Association.Role_Role_A),
+    bind connector(Object_Actor,Relationship_Association.Role_Role_A),
+    bind connector(Object_Sensor,Relationship_Association.Role_Role_A),
+    bind connector(Object_Actuator,Relationship_Association.Role_Role_A),
+    bind connector(Object_Use_Case,Relationship_Association.Role_Role_A),
+    bind connector(Object_Block,Relationship_Generalization.Role_Specific),
+    bind connector(Object_Boundary_System,Relationship_Generalization.Role_Specific),
+    bind connector(Object_User_System,Relationship_Generalization.Role_Specific),
+    bind connector(Object_External_System,Relationship_Generalization.Role_Specific),
+    bind connector(Object_System_Context,Relationship_Generalization.Role_Specific),
+    bind connector(Object_Environmental_Effect,Relationship_Generalization.Role_Specific),
+    bind connector(Object_Actor,Relationship_Generalization.Role_Specific),
+    bind connector(Object_Sensor,Relationship_Generalization.Role_Specific),
+    bind connector(Object_Actuator,Relationship_Generalization.Role_Specific),
+    bind connector(Object_Use_Case,Relationship_Generalization.Role_Specific),
+    bind connector(Object_Block,Relationship_Generalization.Role_General),
+    bind connector(Object_Boundary_System,Relationship_Generalization.Role_General),
+    bind connector(Object_User_System,Relationship_Generalization.Role_General),
+    bind connector(Object_External_System,Relationship_Generalization.Role_General),
+    bind connector(Object_System_Context,Relationship_Generalization.Role_General),
+    bind connector(Object_Environmental_Effect,Relationship_Generalization.Role_General),
+    bind connector(Object_Actor,Relationship_Generalization.Role_General),
+    bind connector(Object_Sensor,Relationship_Generalization.Role_General),
+    bind connector(Object_Actuator,Relationship_Generalization.Role_General),
+    bind connector(Object_Use_Case,Relationship_Generalization.Role_General),
+    bind connector(Object_Block,Relationship_Containment.Role_Part),
+    bind connector(Object_Boundary_System,Relationship_Containment.Role_Part),
+    bind connector(Object_User_System,Relationship_Containment.Role_Part),
+    bind connector(Object_External_System,Relationship_Containment.Role_Part),
+    bind connector(Object_System_Context,Relationship_Containment.Role_Part),
+    bind connector(Object_Environmental_Effect,Relationship_Containment.Role_Part),
+    bind connector(Object_Actor,Relationship_Containment.Role_Part),
+    bind connector(Object_Sensor,Relationship_Containment.Role_Part),
+    bind connector(Object_Actuator,Relationship_Containment.Role_Part),
+    bind connector(Object_Use_Case,Relationship_Containment.Role_Part),
+    bind connector(Object_Package,Relationship_Containment.Role_Part),
+    bind connector(Object_Block,Relationship_Containment.Role_Whole),
+    bind connector(Object_Boundary_System,Relationship_Containment.Role_Whole),
+    bind connector(Object_User_System,Relationship_Containment.Role_Whole),
+    bind connector(Object_External_System,Relationship_Containment.Role_Whole),
+    bind connector(Object_System_Context,Relationship_Containment.Role_Whole),
+    bind connector(Object_Environmental_Effect,Relationship_Containment.Role_Whole),
+    bind connector(Object_Actor,Relationship_Containment.Role_Whole),
+    bind connector(Object_Sensor,Relationship_Containment.Role_Whole),
+    bind connector(Object_Actuator,Relationship_Containment.Role_Whole),
+    bind connector(Object_Use_Case,Relationship_Containment.Role_Whole),
+    bind connector(Object_Package,Relationship_Containment.Role_Whole),
+    Object_Block.explode(Internal_Block_Diagram),
+    Object_System_Context.explode(Internal_Block_Diagram),
+    Object_Package.decompose(Use_Case_Diagram),
+    );
+    annotation(
+        localLabel="用例图",
+        type = diagram,
+        description="",
+       );
+        end Use_Case_Diagram;

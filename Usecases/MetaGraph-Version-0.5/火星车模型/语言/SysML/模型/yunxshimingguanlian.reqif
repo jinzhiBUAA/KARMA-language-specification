@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
+  <THE-HEADER>
+    <REQ-IF-HEADER IDENTIFIER="rmf-b78844bc-496c-42f0-a50d-128dc4390a69">
+      <COMMENT>创建者：26453</COMMENT>
+      <CREATION-TIME>2025-02-14T01:38:58.838+08:00</CREATION-TIME>
+      <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
+      <REQ-IF-VERSION>1.0</REQ-IF-VERSION>
+      <SOURCE-TOOL-ID>ProR (http://pror.org)</SOURCE-TOOL-ID>
+      <TITLE>1_4_1_运行-使命-兴趣系统对应关系</TITLE>
+    </REQ-IF-HEADER>
+  </THE-HEADER>
+  <CORE-CONTENT>
+    <REQ-IF-CONTENT>
+      <DATATYPES>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_Z9mDY-oxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:38:58.838+08:00" LONG-NAME="T_String32k" MAX-LENGTH="32000"/>
+      </DATATYPES>
+      <SPEC-TYPES>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_Z9mDZOoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:38:58.838+08:00" LONG-NAME="需求类型">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_Z9mDZeoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:38:58.838+08:00" LONG-NAME="描述">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_Z9mDY-oxEe-sRodV5Sdi0w</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_Z9mDZuoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:38:58.838+08:00" LONG-NAME="使命阶段">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_Z9mDY-oxEe-sRodV5Sdi0w</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_Z9mDZ-oxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:38:58.838+08:00" LONG-NAME="运行阶段">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_Z9mDY-oxEe-sRodV5Sdi0w</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_nAhHIOoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:40:24.183+08:00" LONG-NAME="兴趣系统生命周期阶段">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_Z9mDY-oxEe-sRodV5Sdi0w</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPECIFICATION-TYPE IDENTIFIER="_Z9mDaOoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:38:58.838+08:00" LONG-NAME="需求表单类型">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_Z9mDaeoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:38:58.838+08:00" LONG-NAME="描述">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_Z9mDY-oxEe-sRodV5Sdi0w</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPECIFICATION-TYPE>
+      </SPEC-TYPES>
+      <SPEC-OBJECTS>
+        <SPEC-OBJECT IDENTIFIER="_Z9mDauoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:38:58.838+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="从这里开始编辑。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDZeoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星车制造阶段">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDZuoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="发射前阶段">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDZ-oxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="毅力号的设计制造">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_nAhHIOoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Z9mDZOoxEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_tiBsUOoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:41:08.624+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星车发射阶段">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDZuoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="发射阶段">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDZ-oxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="毅力号的发射前往火星">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_nAhHIOoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Z9mDZOoxEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_vl-hEOoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:41:56.145+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星车探索阶段1（Jezero区域）">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDZuoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星探索阶段">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDZ-oxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="毅力号探索阶段">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_nAhHIOoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Z9mDZOoxEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_ynTkEOoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:41:42.071+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星车探索阶段2（Paver Stones区域）">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDZuoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星探索阶段">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDZ-oxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="毅力号探索阶段">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_nAhHIOoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Z9mDZOoxEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_3MJoQOoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:42:13.571+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星车探索阶段3（Three Forks区域）">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDZuoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星探索阶段">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDZ-oxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="毅力号探索阶段">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_nAhHIOoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Z9mDZOoxEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_5CvWcOoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:42:25.431+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星车探索阶段4（实验测试阶段）">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDZuoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星探索阶段">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDZ-oxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="毅力号探索阶段">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_nAhHIOoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Z9mDZOoxEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_ACO4IOoyEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:43:11.960+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="登陆阶段">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDZ-oxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="毅力号降落阶段">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_nAhHIOoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Z9mDZOoxEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+      </SPEC-OBJECTS>
+      <SPECIFICATIONS>
+        <SPECIFICATION IDENTIFIER="_Z9mDbOoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:38:58.838+08:00" LONG-NAME="需求表单文档">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="需求表单">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Z9mDaeoxEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>_Z9mDaOoxEe-sRodV5Sdi0w</SPECIFICATION-TYPE-REF>
+          </TYPE>
+          <CHILDREN>
+            <SPEC-HIERARCHY IDENTIFIER="_Z9mDbuoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:38:58.838+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_Z9mDauoxEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_tiF9wOoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:41:08.624+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_tiBsUOoxEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_ACSigOoyEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:43:11.960+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_ACO4IOoyEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_vmBkYOoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:41:21.870+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_vl-hEOoxEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_ynZDoOoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:41:42.071+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_ynTkEOoxEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_3MNSoOoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:42:13.571+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_3MJoQOoxEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_5C0O8OoxEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T01:42:25.431+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_5CvWcOoxEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+        </SPECIFICATION>
+      </SPECIFICATIONS>
+    </REQ-IF-CONTENT>
+  </CORE-CONTENT>
+  <TOOL-EXTENSIONS>
+    <REQ-IF-TOOL-EXTENSION>
+      <configuration:ProrToolExtension>
+        <configuration:specViewConfigurations>
+          <configuration:ProrSpecViewConfiguration specification="_Z9mDbOoxEe-sRodV5Sdi0w">
+            <configuration:columns>
+              <configuration:Column label="使命阶段" width="347"/>
+              <configuration:Column label="运行阶段" width="367"/>
+              <configuration:Column label="兴趣系统生命周期阶段" width="339"/>
+            </configuration:columns>
+            <configuration:leftHeaderColumn>
+              <configuration:Column label="Lead Header Column" width="30"/>
+            </configuration:leftHeaderColumn>
+          </configuration:ProrSpecViewConfiguration>
+        </configuration:specViewConfigurations>
+        <configuration:generalConfiguration>
+          <configuration:ProrGeneralConfiguration>
+            <configuration:labelConfiguration>
+              <configuration:LabelConfiguration>
+                <defaultLabel>描述</defaultLabel>
+              </configuration:LabelConfiguration>
+            </configuration:labelConfiguration>
+          </configuration:ProrGeneralConfiguration>
+        </configuration:generalConfiguration>
+      </configuration:ProrToolExtension>
+    </REQ-IF-TOOL-EXTENSION>
+  </TOOL-EXTENSIONS>
+</REQ-IF>

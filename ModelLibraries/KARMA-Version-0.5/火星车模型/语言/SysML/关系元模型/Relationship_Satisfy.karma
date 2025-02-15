@@ -1,0 +1,13 @@
+   Relationship Relationship_Satisfy
+      initial Property  Relationship_Satisfy_Property_Name_879123 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Satisfy_Property_To_Do_883a65 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Client;
+   Role Role_Supplier;
+   annotation(
+      localLabel="满足",
+      description="",
+      icon="满足.png",
+      shape="dashLine",
+      );
+   end Relationship_Satisfy;
+ 

@@ -1,0 +1,14 @@
+   Relationship Relationship_Item_Flow
+      initial Property  Relationship_Item_Flow_Property_Name_576543 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Item_Flow_Property_Conveyed_7598c7 = "null" extends Property_Conveyed annotation(localLabel ="传达");
+      initial Property  Relationship_Item_Flow_Property_To_Do_13c6f6 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Information_Source;
+   Role Role_Information_Target;
+   annotation(
+      localLabel="项目流",
+      description="",
+      icon="项目流.png",
+      shape="solidLine",
+      );
+   end Relationship_Item_Flow;
+ 

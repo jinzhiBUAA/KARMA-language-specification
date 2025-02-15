@@ -1,0 +1,21 @@
+   Relationship Relationship_Transition
+      initial Property  Relationship_Transition_Property_Name_3046d8 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Transition_Property_Guard_3cfe54 = "null" extends Property_Guard annotation(localLabel ="保护");
+      initial Property  Relationship_Transition_Property_To_Do_b526a0 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Relationship_Transition_Property_Documentation_936fcb = "null" extends Property_Documentation annotation(localLabel ="文档");
+      initial Property  Relationship_Transition_Property_Event_Type_3bcbf2 = "null" extends Property_Event_Type annotation(localLabel ="事件类型");
+      initial Property  Relationship_Transition_Property_Trigger_ec4413 = "null" extends Property_Trigger annotation(localLabel ="触发器");
+      initial Property  Relationship_Transition_Property_Event_Element_1c42c1 = "null" extends Property_Event_Element annotation(localLabel ="事件元素");
+      initial Property  Relationship_Transition_Property_Port_7a34d3 = "null" extends Property_Port annotation(localLabel ="端口");
+      initial Property  Relationship_Transition_Property_Effect_Behavior_Type_c99a92 = "null" extends Property_Effect_Behavior_Type annotation(localLabel ="影响行为类型");
+      initial Property  Relationship_Transition_Property_Effect_Behavior_Element_676faa = "null" extends Property_Effect_Behavior_Element annotation(localLabel ="影响行为元素");
+   Role Role_Source;
+   Role Role_Target;
+   annotation(
+      localLabel="转换",
+      description="",
+      icon="转换.png",
+      shape="solidLine",
+      );
+   end Relationship_Transition;
+ 

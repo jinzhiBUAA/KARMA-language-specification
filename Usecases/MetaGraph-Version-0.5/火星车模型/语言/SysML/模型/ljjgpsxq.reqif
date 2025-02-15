@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
+  <THE-HEADER>
+    <REQ-IF-HEADER IDENTIFIER="rmf-3d39b355-ab58-4e86-bc17-a69949182301">
+      <COMMENT>创建者：26453</COMMENT>
+      <CREATION-TIME>2025-02-14T22:09:37.720+08:00</CREATION-TIME>
+      <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
+      <REQ-IF-VERSION>1.0</REQ-IF-VERSION>
+      <SOURCE-TOOL-ID>ProR (http://pror.org)</SOURCE-TOOL-ID>
+      <TITLE>3_5_1逻辑架构派生需求</TITLE>
+    </REQ-IF-HEADER>
+  </THE-HEADER>
+  <CORE-CONTENT>
+    <REQ-IF-CONTENT>
+      <DATATYPES>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_U0IjE-rdEe-iwp2a2YDDGA" LAST-CHANGE="2025-02-14T22:09:37.720+08:00" LONG-NAME="T_String32k" MAX-LENGTH="32000"/>
+      </DATATYPES>
+      <SPEC-TYPES>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_U0IjFOrdEe-iwp2a2YDDGA" LAST-CHANGE="2025-02-14T22:09:37.720+08:00" LONG-NAME="需求类型">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_U0IjFerdEe-iwp2a2YDDGA" LAST-CHANGE="2025-02-14T22:09:37.720+08:00" LONG-NAME="描述">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_U0IjE-rdEe-iwp2a2YDDGA</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_U0IjFurdEe-iwp2a2YDDGA" LAST-CHANGE="2025-02-14T22:09:37.720+08:00" LONG-NAME="ID">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_U0IjE-rdEe-iwp2a2YDDGA</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_U0IjF-rdEe-iwp2a2YDDGA" LAST-CHANGE="2025-02-14T22:09:37.720+08:00" LONG-NAME="需求条目">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_U0IjE-rdEe-iwp2a2YDDGA</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPECIFICATION-TYPE IDENTIFIER="_U0IjGOrdEe-iwp2a2YDDGA" LAST-CHANGE="2025-02-14T22:09:37.720+08:00" LONG-NAME="需求表单类型">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_U0IjGerdEe-iwp2a2YDDGA" LAST-CHANGE="2025-02-14T22:09:37.720+08:00" LONG-NAME="描述">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_U0IjE-rdEe-iwp2a2YDDGA</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPECIFICATION-TYPE>
+      </SPEC-TYPES>
+      <SPEC-OBJECTS>
+        <SPEC-OBJECT IDENTIFIER="_U0IjGurdEe-iwp2a2YDDGA" LAST-CHANGE="2025-02-14T22:09:37.720+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="从这里开始编辑。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_U0IjFerdEe-iwp2a2YDDGA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="感知环境">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_U0IjFurdEe-iwp2a2YDDGA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_U0IjFOrdEe-iwp2a2YDDGA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_gWZsYOrdEe-iwp2a2YDDGA" LAST-CHANGE="2025-02-14T22:10:53.556+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="动作支持">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_U0IjFurdEe-iwp2a2YDDGA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_U0IjFOrdEe-iwp2a2YDDGA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_lRcDAOrdEe-iwp2a2YDDGA" LAST-CHANGE="2025-02-14T22:11:25.679+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="信息传递">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_U0IjFurdEe-iwp2a2YDDGA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_U0IjFOrdEe-iwp2a2YDDGA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+      </SPEC-OBJECTS>
+      <SPECIFICATIONS>
+        <SPECIFICATION IDENTIFIER="_U0IjHOrdEe-iwp2a2YDDGA" LAST-CHANGE="2025-02-14T22:09:37.720+08:00" LONG-NAME="需求表单文档">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="需求表单">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_U0IjGerdEe-iwp2a2YDDGA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>_U0IjGOrdEe-iwp2a2YDDGA</SPECIFICATION-TYPE-REF>
+          </TYPE>
+          <CHILDREN>
+            <SPEC-HIERARCHY IDENTIFIER="_U0IjHurdEe-iwp2a2YDDGA" LAST-CHANGE="2025-02-14T22:09:37.720+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_U0IjGurdEe-iwp2a2YDDGA</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_gWd90OrdEe-iwp2a2YDDGA" LAST-CHANGE="2025-02-14T22:10:53.556+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_gWZsYOrdEe-iwp2a2YDDGA</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_lRftYOrdEe-iwp2a2YDDGA" LAST-CHANGE="2025-02-14T22:11:25.679+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_lRcDAOrdEe-iwp2a2YDDGA</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+        </SPECIFICATION>
+      </SPECIFICATIONS>
+    </REQ-IF-CONTENT>
+  </CORE-CONTENT>
+  <TOOL-EXTENSIONS>
+    <REQ-IF-TOOL-EXTENSION>
+      <configuration:ProrToolExtension>
+        <configuration:specViewConfigurations>
+          <configuration:ProrSpecViewConfiguration specification="_U0IjHOrdEe-iwp2a2YDDGA">
+            <configuration:columns>
+              <configuration:Column label="ID" width="150"/>
+              <configuration:Column label="需求条目" width="400"/>
+              <configuration:Column label="描述" width="400"/>
+            </configuration:columns>
+            <configuration:leftHeaderColumn>
+              <configuration:Column label="Lead Header Column" width="30"/>
+            </configuration:leftHeaderColumn>
+          </configuration:ProrSpecViewConfiguration>
+        </configuration:specViewConfigurations>
+        <configuration:generalConfiguration>
+          <configuration:ProrGeneralConfiguration>
+            <configuration:labelConfiguration>
+              <configuration:LabelConfiguration>
+                <defaultLabel>描述</defaultLabel>
+              </configuration:LabelConfiguration>
+            </configuration:labelConfiguration>
+          </configuration:ProrGeneralConfiguration>
+        </configuration:generalConfiguration>
+      </configuration:ProrToolExtension>
+    </REQ-IF-TOOL-EXTENSION>
+  </TOOL-EXTENSIONS>
+</REQ-IF>

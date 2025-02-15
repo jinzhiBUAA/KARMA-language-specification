@@ -1,0 +1,679 @@
+    partial Model q6dhz1oE instanceof Activity_Diagram
+    
+        Property q6dhz1oE_property_cb74 = "null" refer Activity_Diagram_Property_To_Do_4f5d74 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_property_214f = "null" refer Activity_Diagram_Property_Context_2475bb annotation(localLabel = "上下文",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Object vK81woes_object_23c6_4e0a_9753 refer Object_Initial_Node
+        Property vK81woes_object_23c6_property_c736_cd20_024b = "null" refer Object_Initial_Node_Property_Name_a8af6c annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property vK81woes_object_23c6_property_cc34_21b3_d6d1 = "null" refer Object_Initial_Node_Property_To_Do_cc0216 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property vK81woes_object_23c6_property_f958_e898_5991 = "null" refer Object_Initial_Node_Property_Redefined_Node_5bc101 annotation(localLabel = "重定义节点",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(196,91,99,92),
+          localLabel="初始节点",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end vK81woes_object_23c6_4e0a_9753;
+
+      Object vK81woes_object_acaf_c996_e4e1 refer Object_Call_Behavior_Action
+        Property vK81woes_object_acaf_property_c825_f3c9_7695 = "确定定位，确定行进路线" refer Object_Call_Behavior_Action_Property_Name_afe6b7 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(152,259,190,87),
+          localLabel="活动",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end vK81woes_object_acaf_c996_e4e1;
+
+      Object vK81woes_object_acaf_c996_04ce refer Object_Call_Behavior_Action
+        Property vK81woes_object_acaf_property_c825_f3c9_37b2 = "前往探索区域" refer Object_Call_Behavior_Action_Property_Name_afe6b7 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(525,264,178,68),
+          localLabel="活动",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end vK81woes_object_acaf_c996_04ce;
+
+      Object q6dhz1oE_object_ee38 refer Object_Fork_Node
+        Property q6dhz1oE_object_ee38_property_54a3 = "null" refer Object_Fork_Node_Property_Name_a98baf annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_object_ee38_property_983c = "null" refer Object_Fork_Node_Property_To_Do_70f3dd annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_object_ee38_property_8cc5 = "null" refer Object_Fork_Node_Property_Redefined_Node_de1edd annotation(localLabel = "重定义节点",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(541,420,160,10),
+          localLabel="分支节点",
+          shape="narrowSolidRectangle",
+          color="0,0,0;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=false,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end q6dhz1oE_object_ee38;
+
+      Object vK81woes_object_acaf_c996_04ce_5eb2 refer Object_Call_Behavior_Action
+        Property vK81woes_object_acaf_property_c825_f3c9_37b2_661e = "目标区域地表拍照、记录、分析，注重化学元素分析" refer Object_Call_Behavior_Action_Property_Name_afe6b7 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(385,483,213,94),
+          localLabel="活动",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end vK81woes_object_acaf_c996_04ce_5eb2;
+
+      Object vK81woes_object_acaf_c996_04ce_e2ad refer Object_Call_Behavior_Action
+        Property vK81woes_object_acaf_property_c825_f3c9_37b2_113a = "生命迹象分析" refer Object_Call_Behavior_Action_Property_Name_afe6b7 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(392,630,178,68),
+          localLabel="活动",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end vK81woes_object_acaf_c996_04ce_e2ad;
+
+      Object vK81woes_object_acaf_c996_04ce_8b05 refer Object_Call_Behavior_Action
+        Property vK81woes_object_acaf_property_c825_f3c9_37b2_4740 = "采集保存样本" refer Object_Call_Behavior_Action_Property_Name_afe6b7 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(392,735,178,68),
+          localLabel="活动",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end vK81woes_object_acaf_c996_04ce_8b05;
+
+      Object vK81woes_object_acaf_c996_04ce_5eb2_7d86 refer Object_Call_Behavior_Action
+        Property vK81woes_object_acaf_property_c825_f3c9_37b2_661e_5aa9 = "拍摄环境图片、记录大气数据" refer Object_Call_Behavior_Action_Property_Name_afe6b7 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(679,560,213,94),
+          localLabel="活动",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end vK81woes_object_acaf_c996_04ce_5eb2_7d86;
+
+      Object q6dhz1oE_object_5bb4 refer Object_Merge_Node
+        Property q6dhz1oE_object_5bb4_property_b88a = "null" refer Object_Merge_Node_Property_Name_71057d annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_object_5bb4_property_fb56 = "null" refer Object_Merge_Node_Property_To_Do_e47dee annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_object_5bb4_property_ff82 = "null" refer Object_Merge_Node_Property_Redefined_Node_20f1a9 annotation(localLabel = "重定义节点",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(551,931,140,140),
+          localLabel="合并节点",
+          shape="rhombus",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end q6dhz1oE_object_5bb4;
+
+      Object q6dhz1oE_object_a173 refer Object_Activity_Final_Node
+        Property q6dhz1oE_object_a173_property_1b48 = "null" refer Object_Activity_Final_Node_Property_Name_e451a2 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_object_a173_property_7261 = "null" refer Object_Activity_Final_Node_Property_To_Do_2e9434 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_object_a173_property_93ba = "null" refer Object_Activity_Final_Node_Property_Redefined_Node_3beaec annotation(localLabel = "重定义节点",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(560,1274,122,119),
+          localLabel="活动结束节点",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end q6dhz1oE_object_a173;
+
+      Object vK81woes_object_acaf_c996_04ce_8b05_5190 refer Object_Call_Behavior_Action
+        Property vK81woes_object_acaf_property_c825_f3c9_37b2_4740_d507 = "无人机测试" refer Object_Call_Behavior_Action_Property_Name_afe6b7 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(525,1134,178,68),
+          localLabel="活动",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end vK81woes_object_acaf_c996_04ce_8b05_5190;
+
+      Relationship q6dhz1oE_relationship_b10a refer Relationship_Control_Flow
+        Property q6dhz1oE_relationship_b10a_property_e38b = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_b10a_property_913e = "null" refer Relationship_Control_Flow_Property_Guard_5970ed annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_b10a_property_4e43 = "null" refer Relationship_Control_Flow_Property_To_Do_b1c3b5 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_b10a_property_2032 = "null" refer Relationship_Control_Flow_Property_Probability_18cbb4 annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_b10a_property_d9ee = "null" refer Relationship_Control_Flow_Property_Rate_4861d5 annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_b10a_property_b70b = "null" refer Relationship_Control_Flow_Property_Redefined_Edge_37099f annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role q6dhz1oE_fromrole_ba7b refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end q6dhz1oE_fromrole_ba7b;
+         Role q6dhz1oE_torole_d071 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end q6dhz1oE_torole_d071;
+       
+        annotation(
+          localLabel="开始探索",
+          labelLocation=(6,-38),
+          shape="dashLine",
+          endLocation=(245,137;247,378),
+          polylineLocation="[0,0,0,-76]$[0,76,0,0];(0.5050505050505051,1.0);(0.5,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end q6dhz1oE_relationship_b10a;
+ 
+      Relationship q6dhz1oE_relationship_57c9 refer Relationship_Control_Flow
+        Property q6dhz1oE_relationship_57c9_property_0986 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_57c9_property_4da1 = "null" refer Relationship_Control_Flow_Property_Guard_5970ed annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_57c9_property_83da = "null" refer Relationship_Control_Flow_Property_To_Do_b1c3b5 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_57c9_property_3cda = "null" refer Relationship_Control_Flow_Property_Probability_18cbb4 annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_57c9_property_3f32 = "null" refer Relationship_Control_Flow_Property_Rate_4861d5 annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_57c9_property_8676 = "null" refer Relationship_Control_Flow_Property_Redefined_Edge_37099f annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role q6dhz1oE_fromrole_2912 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end q6dhz1oE_fromrole_2912;
+         Role q6dhz1oE_torole_ab5b refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end q6dhz1oE_torole_ab5b;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(21,-10),
+          shape="dashLine",
+          endLocation=(247,302;799,298),
+          polylineLocation="[0,0,-185,0]$[185,0,0,0];(1.0,0.16470588235294117);(0.0,0.13636363636363635)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end q6dhz1oE_relationship_57c9;
+ 
+      Relationship q6dhz1oE_relationship_6da6 refer Relationship_Control_Flow
+        Property q6dhz1oE_relationship_6da6_property_a2bf = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_6da6_property_edf6 = "null" refer Relationship_Control_Flow_Property_Guard_5970ed annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_6da6_property_f5eb = "null" refer Relationship_Control_Flow_Property_To_Do_b1c3b5 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_6da6_property_4177 = "null" refer Relationship_Control_Flow_Property_Probability_18cbb4 annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_6da6_property_1e1e = "null" refer Relationship_Control_Flow_Property_Rate_4861d5 annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_6da6_property_f336 = "null" refer Relationship_Control_Flow_Property_Redefined_Edge_37099f annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role q6dhz1oE_fromrole_6917 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end q6dhz1oE_fromrole_6917;
+         Role q6dhz1oE_torole_67ec refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end q6dhz1oE_torole_67ec;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="dashLine",
+          endLocation=(614,298;621,505),
+          polylineLocation="[0,0,0,-80]$[0,80,0,0];(0.35795454545454547,1.1515151515151516);(0.29375,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end q6dhz1oE_relationship_6da6;
+ 
+      Relationship q6dhz1oE_relationship_4828 refer Relationship_Control_Flow
+        Property q6dhz1oE_relationship_4828_property_1506 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_4828_property_93ff = "null" refer Relationship_Control_Flow_Property_Guard_5970ed annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_4828_property_e1b0 = "null" refer Relationship_Control_Flow_Property_To_Do_b1c3b5 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_4828_property_5b48 = "null" refer Relationship_Control_Flow_Property_Probability_18cbb4 annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_4828_property_a6ab = "null" refer Relationship_Control_Flow_Property_Rate_4861d5 annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_4828_property_29cd = "null" refer Relationship_Control_Flow_Property_Redefined_Edge_37099f annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role q6dhz1oE_fromrole_95cc refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end q6dhz1oE_fromrole_95cc;
+         Role q6dhz1oE_torole_8e50 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end q6dhz1oE_torole_8e50;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="dashLine",
+          endLocation=(621,425;464,583),
+          polylineLocation="[0,0,27,-53]$[0,26,27,-27]$[-27,26,0,-27]$[-27,53,0,0];(0.075,1.0);(0.6682464454976303,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end q6dhz1oE_relationship_4828;
+ 
+      Relationship q6dhz1oE_relationship_fa86 refer Relationship_Control_Flow
+        Property q6dhz1oE_relationship_fa86_property_3f3c = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_fa86_property_9872 = "null" refer Relationship_Control_Flow_Property_Guard_5970ed annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_fa86_property_33a0 = "null" refer Relationship_Control_Flow_Property_To_Do_b1c3b5 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_fa86_property_be58 = "null" refer Relationship_Control_Flow_Property_Probability_18cbb4 annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_fa86_property_1372 = "null" refer Relationship_Control_Flow_Property_Rate_4861d5 annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_fa86_property_5e4f = "null" refer Relationship_Control_Flow_Property_Redefined_Edge_37099f annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role q6dhz1oE_fromrole_cb61 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end q6dhz1oE_fromrole_cb61;
+         Role q6dhz1oE_torole_2582 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end q6dhz1oE_torole_2582;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="dashLine",
+          endLocation=(491,530;481,719),
+          polylineLocation="[0,0,0,-55]$[0,55,0,0];(0.5639810426540285,1.0);(0.6363636363636364,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end q6dhz1oE_relationship_fa86;
+ 
+      Relationship q6dhz1oE_relationship_c30a refer Relationship_Control_Flow
+        Property q6dhz1oE_relationship_c30a_property_e3ed = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_c30a_property_6fb4 = "null" refer Relationship_Control_Flow_Property_Guard_5970ed annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_c30a_property_42d4 = "null" refer Relationship_Control_Flow_Property_To_Do_b1c3b5 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_c30a_property_af69 = "null" refer Relationship_Control_Flow_Property_Probability_18cbb4 annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_c30a_property_bc85 = "null" refer Relationship_Control_Flow_Property_Rate_4861d5 annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_c30a_property_2452 = "null" refer Relationship_Control_Flow_Property_Redefined_Edge_37099f annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role q6dhz1oE_fromrole_6395 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end q6dhz1oE_fromrole_6395;
+         Role q6dhz1oE_torole_7667 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end q6dhz1oE_torole_7667;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="dashLine",
+          endLocation=(481,664;481,808),
+          polylineLocation="[0,0,0,-39]$[0,39,0,0];(0.6306818181818182,1.0);(0.6306818181818182,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end q6dhz1oE_relationship_c30a;
+ 
+      Relationship q6dhz1oE_relationship_c4fc refer Relationship_Control_Flow
+        Property q6dhz1oE_relationship_c4fc_property_bb51 = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_c4fc_property_0921 = "null" refer Relationship_Control_Flow_Property_Guard_5970ed annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_c4fc_property_e72d = "null" refer Relationship_Control_Flow_Property_To_Do_b1c3b5 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_c4fc_property_fde5 = "null" refer Relationship_Control_Flow_Property_Probability_18cbb4 annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_c4fc_property_0db6 = "null" refer Relationship_Control_Flow_Property_Rate_4861d5 annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_c4fc_property_ef21 = "null" refer Relationship_Control_Flow_Property_Redefined_Edge_37099f annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role q6dhz1oE_fromrole_f08f refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end q6dhz1oE_fromrole_f08f;
+         Role q6dhz1oE_torole_a943 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end q6dhz1oE_torole_a943;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="dashLine",
+          endLocation=(621,425;876,737),
+          polylineLocation="[0,0,-91,-130]$[0,65,-91,-65]$[91,65,0,-65]$[91,130,0,0];(0.775,1.0);(0.36492890995260663,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end q6dhz1oE_relationship_c4fc;
+ 
+      Relationship q6dhz1oE_relationship_5161 refer Relationship_Control_Flow
+        Property q6dhz1oE_relationship_5161_property_2a0e = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_5161_property_37dd = "null" refer Relationship_Control_Flow_Property_Guard_5970ed annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_5161_property_e11b = "null" refer Relationship_Control_Flow_Property_To_Do_b1c3b5 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_5161_property_2f68 = "null" refer Relationship_Control_Flow_Property_Probability_18cbb4 annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_5161_property_01fa = "null" refer Relationship_Control_Flow_Property_Rate_4861d5 annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_5161_property_51e4 = "null" refer Relationship_Control_Flow_Property_Redefined_Edge_37099f annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role q6dhz1oE_fromrole_8afb refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end q6dhz1oE_fromrole_8afb;
+         Role q6dhz1oE_torole_740d refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end q6dhz1oE_torole_740d;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(5,-10),
+          shape="dashLine",
+          endLocation=(785,607;506,1280),
+          polylineLocation="[0,0,126,-279]$[0,139,126,-140]$[-115,139,11,-140]$[-115,279,11,0];(0.26540284360189575,1.0);(0.4142857142857143,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end q6dhz1oE_relationship_5161;
+ 
+      Relationship q6dhz1oE_relationship_3ef1 refer Relationship_Control_Flow
+        Property q6dhz1oE_relationship_3ef1_property_d12f = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_3ef1_property_c067 = "null" refer Relationship_Control_Flow_Property_Guard_5970ed annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_3ef1_property_9dac = "null" refer Relationship_Control_Flow_Property_To_Do_b1c3b5 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_3ef1_property_7d08 = "null" refer Relationship_Control_Flow_Property_Probability_18cbb4 annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_3ef1_property_6845 = "null" refer Relationship_Control_Flow_Property_Rate_4861d5 annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_3ef1_property_4208 = "null" refer Relationship_Control_Flow_Property_Redefined_Edge_37099f annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role q6dhz1oE_fromrole_cd8a refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end q6dhz1oE_fromrole_cd8a;
+         Role q6dhz1oE_torole_96e1 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end q6dhz1oE_torole_96e1;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-6,-10),
+          shape="dashLine",
+          endLocation=(481,769;723,1131),
+          polylineLocation="[0,0,-91,-130]$[0,65,-91,-65]$[102,65,11,-65]$[102,130,11,0];(0.7159090909090909,1.0);(0.4142857142857143,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end q6dhz1oE_relationship_3ef1;
+ 
+      Relationship q6dhz1oE_relationship_3d43 refer Relationship_Control_Flow
+        Property q6dhz1oE_relationship_3d43_property_080c = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_3d43_property_6cbd = "null" refer Relationship_Control_Flow_Property_Guard_5970ed annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_3d43_property_eedc = "null" refer Relationship_Control_Flow_Property_To_Do_b1c3b5 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_3d43_property_742c = "null" refer Relationship_Control_Flow_Property_Probability_18cbb4 annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_3d43_property_7a18 = "null" refer Relationship_Control_Flow_Property_Rate_4861d5 annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_3d43_property_784e = "null" refer Relationship_Control_Flow_Property_Redefined_Edge_37099f annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role q6dhz1oE_fromrole_c32b refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end q6dhz1oE_fromrole_c32b;
+         Role q6dhz1oE_torole_faf9 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end q6dhz1oE_torole_faf9;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-31,0),
+          shape="dashLine",
+          endLocation=(553,1057;546,1287),
+          polylineLocation="[-68,56,0,-63]$[-68,119,0,0];(1.0,0.6);(0.5568181818181818,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end q6dhz1oE_relationship_3d43;
+ 
+      Relationship q6dhz1oE_relationship_1704 refer Relationship_Control_Flow
+        Property q6dhz1oE_relationship_1704_property_131f = "null" refer Relationship_Control_Flow_Property_Name_f99f7e annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_1704_property_d6e1 = "null" refer Relationship_Control_Flow_Property_Guard_5970ed annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_1704_property_d2e0 = "null" refer Relationship_Control_Flow_Property_To_Do_b1c3b5 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_1704_property_4b7d = "null" refer Relationship_Control_Flow_Property_Probability_18cbb4 annotation(localLabel = "概率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_1704_property_db6f = "null" refer Relationship_Control_Flow_Property_Rate_4861d5 annotation(localLabel = "速率",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property q6dhz1oE_relationship_1704_property_babd = "null" refer Relationship_Control_Flow_Property_Redefined_Edge_37099f annotation(localLabel = "重定义边",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role q6dhz1oE_fromrole_9909 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end q6dhz1oE_fromrole_9909;
+         Role q6dhz1oE_torole_d934 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end q6dhz1oE_torole_d934;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-10,0),
+          shape="dashLine",
+          endLocation=(565,1168;572,1407),
+          polylineLocation="[-49,0,0,-74]$[-49,74,0,0];(0.7556818181818182,1.0);(0.4016393442622951,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end q6dhz1oE_relationship_1704;
+ 
+    Connect(connector(vK81woes_object_23c6_4e0a_9753,q6dhz1oE_relationship_b10a.q6dhz1oE_fromrole_ba7b),connector(vK81woes_object_acaf_c996_e4e1,q6dhz1oE_relationship_b10a.q6dhz1oE_torole_d071));
+ 
+    Connect(connector(vK81woes_object_acaf_c996_e4e1,q6dhz1oE_relationship_57c9.q6dhz1oE_fromrole_2912),connector(vK81woes_object_acaf_c996_04ce,q6dhz1oE_relationship_57c9.q6dhz1oE_torole_ab5b));
+ 
+    Connect(connector(vK81woes_object_acaf_c996_04ce,q6dhz1oE_relationship_6da6.q6dhz1oE_fromrole_6917),connector(q6dhz1oE_object_ee38,q6dhz1oE_relationship_6da6.q6dhz1oE_torole_67ec));
+ 
+    Connect(connector(q6dhz1oE_object_ee38,q6dhz1oE_relationship_4828.q6dhz1oE_fromrole_95cc),connector(vK81woes_object_acaf_c996_04ce_5eb2,q6dhz1oE_relationship_4828.q6dhz1oE_torole_8e50));
+ 
+    Connect(connector(vK81woes_object_acaf_c996_04ce_5eb2,q6dhz1oE_relationship_fa86.q6dhz1oE_fromrole_cb61),connector(vK81woes_object_acaf_c996_04ce_e2ad,q6dhz1oE_relationship_fa86.q6dhz1oE_torole_2582));
+ 
+    Connect(connector(vK81woes_object_acaf_c996_04ce_e2ad,q6dhz1oE_relationship_c30a.q6dhz1oE_fromrole_6395),connector(vK81woes_object_acaf_c996_04ce_8b05,q6dhz1oE_relationship_c30a.q6dhz1oE_torole_7667));
+ 
+    Connect(connector(q6dhz1oE_object_ee38,q6dhz1oE_relationship_c4fc.q6dhz1oE_fromrole_f08f),connector(vK81woes_object_acaf_c996_04ce_5eb2_7d86,q6dhz1oE_relationship_c4fc.q6dhz1oE_torole_a943));
+ 
+    Connect(connector(vK81woes_object_acaf_c996_04ce_5eb2_7d86,q6dhz1oE_relationship_5161.q6dhz1oE_fromrole_8afb),connector(q6dhz1oE_object_5bb4,q6dhz1oE_relationship_5161.q6dhz1oE_torole_740d));
+ 
+    Connect(connector(vK81woes_object_acaf_c996_04ce_8b05,q6dhz1oE_relationship_3ef1.q6dhz1oE_fromrole_cd8a),connector(q6dhz1oE_object_5bb4,q6dhz1oE_relationship_3ef1.q6dhz1oE_torole_96e1));
+ 
+    Connect(connector(q6dhz1oE_object_5bb4,q6dhz1oE_relationship_3d43.q6dhz1oE_fromrole_c32b),connector(vK81woes_object_acaf_c996_04ce_8b05_5190,q6dhz1oE_relationship_3d43.q6dhz1oE_torole_faf9));
+ 
+    Connect(connector(vK81woes_object_acaf_c996_04ce_8b05_5190,q6dhz1oE_relationship_1704.q6dhz1oE_fromrole_9909),connector(q6dhz1oE_object_a173,q6dhz1oE_relationship_1704.q6dhz1oE_torole_d934));
+ 
+
+      annotation(
+        localLabel="0_4_2_3_火星车探索阶段使命活动",
+        SDIdentification="",
+    );
+    
+   end q6dhz1oE;

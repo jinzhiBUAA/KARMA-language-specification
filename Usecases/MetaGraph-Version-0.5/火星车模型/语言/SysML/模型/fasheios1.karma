@@ -1,0 +1,249 @@
+    partial Model fasheios1 instanceof Block_Defintion_Diagram
+    
+        Property fasheios1_property_4544 = "null" refer Block_Defintion_Diagram_Property_To_Do_3ac03f annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property fasheios1_property_1068 = "null" refer Block_Defintion_Diagram_Property_Context_9794be annotation(localLabel = "上下文",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Object iEhfq6kr_object_1870_b235_6588 refer Object_Block
+        Property iEhfq6kr_object_1870_property_a6fb_1289_e09f = "毅力号" refer Object_Block_Property_Name_525f94 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(546,217,140,70),
+          localLabel="运行系统",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;152,168,191;152,168,191",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end iEhfq6kr_object_1870_b235_6588;
+
+      Object iEhfq6kr_object_1870_6342_e19b refer Object_Block
+        Property iEhfq6kr_object_1870_property_a6fb_b481_7029 = "发射阶段" refer Object_Block_Property_Name_525f94 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(623,84,140,70),
+          localLabel="运行阶段",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;237,201,122;237,201,122",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end iEhfq6kr_object_1870_6342_e19b;
+
+      Object iEhfq6kr_object_1870_ed63 refer Object_Block
+        Property iEhfq6kr_object_1870_property_a6fb_e01a = "空气动力实验室" refer Object_Block_Property_Name_525f94 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(322,217,140,70),
+          localLabel="利益相关者",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;227,164,156;227,164,156",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end iEhfq6kr_object_1870_ed63;
+
+      Object iEhfq6kr_object_1870_b235_6588_a5e4 refer Object_Block
+        Property iEhfq6kr_object_1870_property_a6fb_1289_e09f_5b3b = "航天器" refer Object_Block_Property_Name_525f94 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(742,217,140,70),
+          localLabel="运行系统",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;152,168,191;152,168,191",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end iEhfq6kr_object_1870_b235_6588_a5e4;
+
+      Object iEhfq6kr_object_1870_b235_6588_02a2 refer Object_Block
+        Property iEhfq6kr_object_1870_property_a6fb_1289_e09f_7708 = "运载火箭" refer Object_Block_Property_Name_525f94 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(938,217,140,70),
+          localLabel="运行系统",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;152,168,191;152,168,191",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end iEhfq6kr_object_1870_b235_6588_02a2;
+
+      Relationship fasheios1_relationship_e70a refer Relationship_Directed_Aggregation
+        Property fasheios1_relationship_e70a_property_7dc1 = "null" refer Relationship_Directed_Aggregation_Property_Name_9bacfc annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role fasheios1_fromrole_ba68 refer Role_Aggregation_Role
+          annotation(
+            localLabel="聚合角色",
+            shape="dottedDiamond"
+          );
+        end fasheios1_fromrole_ba68;
+         Role fasheios1_torole_435e refer Role_Directed_Role_A
+          annotation(
+            localLabel="定向角色A",
+            shape="arrowShape"
+          );
+        end fasheios1_torole_435e;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(692,119;91,312),
+          polylineLocation="[-1,0,299,-60]$[-301,60,-1,0];(0.5072463768115942,1.0);(0.5072463768115942,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end fasheios1_relationship_e70a;
+ 
+      Relationship fasheios1_relationship_fb41 refer Relationship_Directed_Aggregation
+        Property fasheios1_relationship_fb41_property_41b2 = "null" refer Relationship_Directed_Aggregation_Property_Name_9bacfc annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role fasheios1_fromrole_38a3 refer Role_Aggregation_Role
+          annotation(
+            localLabel="聚合角色",
+            shape="dottedDiamond"
+          );
+        end fasheios1_fromrole_38a3;
+         Role fasheios1_torole_9dd3 refer Role_Directed_Role_A
+          annotation(
+            localLabel="定向角色A",
+            shape="arrowShape"
+          );
+        end fasheios1_torole_9dd3;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(692,119;915,312),
+          polylineLocation="[-1,0,-301,-60]$[299,60,-1,0];(0.5072463768115942,1.0);(0.5072463768115942,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end fasheios1_relationship_fb41;
+ 
+      Relationship fasheios1_relationship_363f refer Relationship_Directed_Aggregation
+        Property fasheios1_relationship_363f_property_e17b = "null" refer Relationship_Directed_Aggregation_Property_Name_9bacfc annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role fasheios1_fromrole_2e4f refer Role_Aggregation_Role
+          annotation(
+            localLabel="聚合角色",
+            shape="dottedDiamond"
+          );
+        end fasheios1_fromrole_2e4f;
+         Role fasheios1_torole_01c3 refer Role_Directed_Role_A
+          annotation(
+            localLabel="定向角色A",
+            shape="arrowShape"
+          );
+        end fasheios1_torole_01c3;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(692,119;711,312),
+          polylineLocation="[-1,0,99,-60]$[-101,60,-1,0];(0.5072463768115942,1.0);(0.5072463768115942,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end fasheios1_relationship_363f;
+ 
+      Relationship fasheios1_relationship_da72 refer Relationship_Directed_Aggregation
+        Property fasheios1_relationship_da72_property_6ae5 = "null" refer Relationship_Directed_Aggregation_Property_Name_9bacfc annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role fasheios1_fromrole_34bc refer Role_Aggregation_Role
+          annotation(
+            localLabel="聚合角色",
+            shape="dottedDiamond"
+          );
+        end fasheios1_fromrole_34bc;
+         Role fasheios1_torole_c407 refer Role_Directed_Role_A
+          annotation(
+            localLabel="定向角色A",
+            shape="arrowShape"
+          );
+        end fasheios1_torole_c407;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(692,119;1107,312),
+          polylineLocation="[-1,0,-101,-60]$[99,60,-1,0];(0.5072463768115942,1.0);(0.5072463768115942,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end fasheios1_relationship_da72;
+ 
+    Connect(connector(iEhfq6kr_object_1870_6342_e19b,fasheios1_relationship_e70a.fasheios1_fromrole_ba68),connector(iEhfq6kr_object_1870_ed63,fasheios1_relationship_e70a.fasheios1_torole_435e));
+ 
+    Connect(connector(iEhfq6kr_object_1870_6342_e19b,fasheios1_relationship_fb41.fasheios1_fromrole_38a3),connector(iEhfq6kr_object_1870_b235_6588,fasheios1_relationship_fb41.fasheios1_torole_9dd3));
+ 
+    Connect(connector(iEhfq6kr_object_1870_6342_e19b,fasheios1_relationship_363f.fasheios1_fromrole_2e4f),connector(iEhfq6kr_object_1870_b235_6588_a5e4,fasheios1_relationship_363f.fasheios1_torole_01c3));
+ 
+    Connect(connector(iEhfq6kr_object_1870_6342_e19b,fasheios1_relationship_da72.fasheios1_fromrole_34bc),connector(iEhfq6kr_object_1870_b235_6588_02a2,fasheios1_relationship_da72.fasheios1_torole_c407));
+ 
+
+      annotation(
+        localLabel="1_4_2_2发射阶段实体识别",
+        SDIdentification="",
+    );
+    
+   end fasheios1;

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
+  <THE-HEADER>
+    <REQ-IF-HEADER IDENTIFIER="rmf-76606f0e-bb04-47a7-b027-e77d9d089739">
+      <COMMENT>创建者：26453</COMMENT>
+      <CREATION-TIME>2025-02-14T15:04:19.476+08:00</CREATION-TIME>
+      <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
+      <REQ-IF-VERSION>1.0</REQ-IF-VERSION>
+      <SOURCE-TOOL-ID>ProR (http://pror.org)</SOURCE-TOOL-ID>
+      <TITLE>1_4_4运行任务能力需求</TITLE>
+    </REQ-IF-HEADER>
+  </THE-HEADER>
+  <CORE-CONTENT>
+    <REQ-IF-CONTENT>
+      <DATATYPES>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_6THkUuqhEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:04:19.476+08:00" LONG-NAME="T_String32k" MAX-LENGTH="32000"/>
+      </DATATYPES>
+      <SPEC-TYPES>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_6THkU-qhEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:04:19.476+08:00" LONG-NAME="需求类型">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_6THkVOqhEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:04:19.476+08:00" LONG-NAME="描述">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_6THkUuqhEe-sRodV5Sdi0w</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_6THkVeqhEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:04:19.476+08:00" LONG-NAME="运行任务">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_6THkUuqhEe-sRodV5Sdi0w</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_6THkVuqhEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:04:19.476+08:00" LONG-NAME="能力需求">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_6THkUuqhEe-sRodV5Sdi0w</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPECIFICATION-TYPE IDENTIFIER="_6THkV-qhEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:04:19.476+08:00" LONG-NAME="需求表单类型">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_6THkWOqhEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:04:19.476+08:00" LONG-NAME="描述">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_6THkUuqhEe-sRodV5Sdi0w</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPECIFICATION-TYPE>
+      </SPEC-TYPES>
+      <SPEC-OBJECTS>
+        <SPEC-OBJECT IDENTIFIER="_6THkWeqhEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:08:05.182+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="从这里开始编辑。">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVOqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="O.1.5搭载毅力号准备发射">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVeqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星和太空工作能力">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVuqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6THkU-qhEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_NWl1QOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:06:24.282+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="O.2.1装载毅力号和航天器进入太空">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVeqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6THkU-qhEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_XVw0IOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:08:13.232+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="O.2.3太空运行监测与调整">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVeqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="通信能力">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVuqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6THkU-qhEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_db8vQOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:08:13.266+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="远程控制能力">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVuqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="O.4.10设置毅力号前进路线">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVeqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6THkU-qhEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_euU9IOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:08:21.501+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="自主控制能力">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVuqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="O.4.7分析、记录探索结果">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVeqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6THkU-qhEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_gK5BwOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:08:31.789+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="导航能力">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVuqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="O.4.6到达探索区域">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVeqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6THkU-qhEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_hHX4IOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:08:37.822+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="姿态与高度感知能力">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVuqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="O.3.1确认着陆点">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVeqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6THkU-qhEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_jCEqQOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:08:50.509+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="实验分析能力">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVuqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="O.4.14地质环境分析">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVeqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6THkU-qhEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_sA4YUOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:09:51.432+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="O.3.3状态监测，调整进入大气层中的下降姿态">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVeqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6THkU-qhEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_vQ4JcOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:10:13.104+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="O.3.5打开降落伞">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVeqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6THkU-qhEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_zr90sOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:10:42.167+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="O.4.5发送采集数据">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVeqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6THkU-qhEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_38z-0OqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:11:10.953+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="O.4.1控制监测毅力号实施探索任务">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVeqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6THkU-qhEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="__O2pEOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:12:00.533+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="O.4.18制氧实验">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkVeqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_6THkU-qhEe-sRodV5Sdi0w</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+      </SPEC-OBJECTS>
+      <SPECIFICATIONS>
+        <SPECIFICATION IDENTIFIER="_6THkW-qhEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:04:19.476+08:00" LONG-NAME="需求表单文档">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="需求表单">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_6THkWOqhEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>_6THkV-qhEe-sRodV5Sdi0w</SPECIFICATION-TYPE-REF>
+          </TYPE>
+          <CHILDREN>
+            <SPEC-HIERARCHY IDENTIFIER="_6THkXeqhEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:04:19.476+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_6THkWeqhEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_NWpfoOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:06:24.282+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_NWl1QOqiEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_XV1FkOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:07:32.778+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_XVw0IOqiEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_zsDUQOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:10:42.167+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_zr90sOqiEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_dcAZoOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:08:13.266+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_db8vQOqiEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_385eYOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:11:10.953+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_38z-0OqiEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_euYAcOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:08:21.501+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_euU9IOqiEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_gK96QOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:08:31.789+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_gK5BwOqiEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_hHa7cOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:08:37.822+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_hHX4IOqiEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_sA8CsOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:09:51.432+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_sA4YUOqiEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_vQ8a4OqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:10:13.104+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_vQ4JcOqiEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_jCJiwOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:08:50.509+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_jCEqQOqiEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="__O5sYOqiEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:12:00.533+08:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>__O2pEOqiEe-sRodV5Sdi0w</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+        </SPECIFICATION>
+      </SPECIFICATIONS>
+    </REQ-IF-CONTENT>
+  </CORE-CONTENT>
+  <TOOL-EXTENSIONS>
+    <REQ-IF-TOOL-EXTENSION>
+      <configuration:ProrToolExtension>
+        <configuration:specViewConfigurations>
+          <configuration:ProrSpecViewConfiguration specification="_6THkW-qhEe-sRodV5Sdi0w">
+            <configuration:columns>
+              <configuration:Column label="能力需求" width="272"/>
+              <configuration:Column label="运行任务" width="400"/>
+              <configuration:Column label="描述" width="400"/>
+            </configuration:columns>
+            <configuration:leftHeaderColumn>
+              <configuration:Column label="Lead Header Column" width="30"/>
+            </configuration:leftHeaderColumn>
+          </configuration:ProrSpecViewConfiguration>
+        </configuration:specViewConfigurations>
+        <configuration:generalConfiguration>
+          <configuration:ProrGeneralConfiguration>
+            <configuration:labelConfiguration>
+              <configuration:LabelConfiguration>
+                <defaultLabel>描述</defaultLabel>
+              </configuration:LabelConfiguration>
+            </configuration:labelConfiguration>
+          </configuration:ProrGeneralConfiguration>
+        </configuration:generalConfiguration>
+      </configuration:ProrToolExtension>
+    </REQ-IF-TOOL-EXTENSION>
+  </TOOL-EXTENSIONS>
+</REQ-IF>

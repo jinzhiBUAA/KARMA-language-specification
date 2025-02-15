@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
+  <THE-HEADER>
+    <REQ-IF-HEADER IDENTIFIER="rmf-5f3a00e1-a16b-4e13-b702-908fe77b5db1">
+      <COMMENT>创建者：26453</COMMENT>
+      <CREATION-TIME>2025-02-13T15:41:58.068+08:00</CREATION-TIME>
+      <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
+      <REQ-IF-VERSION>1.0</REQ-IF-VERSION>
+      <SOURCE-TOOL-ID>ProR (http://pror.org)</SOURCE-TOOL-ID>
+      <TITLE>0_利益相关者列表</TITLE>
+    </REQ-IF-HEADER>
+  </THE-HEADER>
+  <CORE-CONTENT>
+    <REQ-IF-CONTENT>
+      <DATATYPES>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_AQHuU-neEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:41:58.068+08:00" LONG-NAME="T_String32k" MAX-LENGTH="32000"/>
+      </DATATYPES>
+      <SPEC-TYPES>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_AQHuVOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:41:58.068+08:00" LONG-NAME="需求类型">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_AQHuVuneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:41:58.068+08:00" LONG-NAME="IOS">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_AQHuU-neEe-P0udKvD5Ccw</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_lHNf4OqkEe-sRodV5Sdi0w" LAST-CHANGE="2025-02-14T15:23:24.195+08:00" LONG-NAME="提供能力">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_AQHuU-neEe-P0udKvD5Ccw</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_AQHuV-neEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:41:58.068+08:00" LONG-NAME="与系统关联">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_AQHuU-neEe-P0udKvD5Ccw</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPECIFICATION-TYPE IDENTIFIER="_AQHuWOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:41:58.068+08:00" LONG-NAME="需求表单类型">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_AQHuWeneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:41:58.068+08:00" LONG-NAME="描述">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_AQHuU-neEe-P0udKvD5Ccw</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPECIFICATION-TYPE>
+      </SPEC-TYPES>
+      <SPEC-OBJECTS>
+        <SPEC-OBJECT IDENTIFIER="_AQHuWuneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:41:58.068+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="NASA">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="探索计划规划者&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="指导火星探索计划、为火星探索活动一切支持">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_f1muUOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:27.274+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="美国政府">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="探索计划规划者&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="探索计划总体规划与经济支持">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_gF_TsOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:30.080+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="JPL实验室&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="地面支持者&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="服务火星车的探索过程">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_gYG-cOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:31.792+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="科学研究团队&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="地面支持者&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="分析采集数据，服务探索过程">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_gqDqEOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:33.694+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="肯尼迪航天中心&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="地面支持者&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="提供火星车测试、保证火箭发射">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_g48aoOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:35.570+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="空气动力实验室&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="地面支持者&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="控制调整火星车在太空和登陆是时的运行">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_hHcwsOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:37.134+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="运载火箭&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="服务运行系统&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="运送火星车至太空">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_hUtJkOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:39.182+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="毅力号&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="主要运行系统&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="执行火星探测活动">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_hkdc0OneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:40.699+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星2020航天器&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="服务运行系统&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="运送火星车至火星">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_oP-5oOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:46:24.037+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="地形相对导航系统&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="功能运行系统&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星地表导航">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_odhmYOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-14T15:25:10.927+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星勘测轨道飞行器&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="功能运行系统&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="火星轨道监测">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_oq1CkOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:46:27.950+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="雷达和摄像系统&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="功能运行系统&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="导航、拍照、分析">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_o5kpMOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:46:29.384+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Ingenuity直升机&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="功能运行系统&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="无人机实验与探索">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_pFqkcOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:46:30.899+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="环境矿物扫描分析仪&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="功能运行系统&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="地质、环境、生命探索">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_tw9O4OneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:47:01.644+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="地形传感器&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="功能运行系统&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="地质探索、导航">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_t_mu4OneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:47:03.551+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="岩石化学扫描仪&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="功能运行系统&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="样本分析">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_xcXJoOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:47:27.175+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="钻孔取芯机构&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="功能运行系统&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="样本采集">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_xqTfAOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-14T15:26:04.943+08:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="录音设备&#xD;&#xA;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuVuneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="功能运行系统">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuV-neEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="声音样本采集">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_lHNf4OqkEe-sRodV5Sdi0w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_AQHuVOneEe-P0udKvD5Ccw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+      </SPEC-OBJECTS>
+      <SPECIFICATIONS>
+        <SPECIFICATION IDENTIFIER="_AQHuXOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:41:58.068+08:00" LONG-NAME="需求表单文档">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="需求表单">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_AQHuWeneEe-P0udKvD5Ccw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>_AQHuWOneEe-P0udKvD5Ccw</SPECIFICATION-TYPE-REF>
+          </TYPE>
+          <CHILDREN>
+            <SPEC-HIERARCHY IDENTIFIER="_AQHuXuneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:41:58.068+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_AQHuWuneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_f1qYsOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:27.274+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_f1muUOneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_gGDlIOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:30.080+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_gF_TsOneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_gYKo0OneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:31.792+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_gYG-cOneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_gqIikOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:33.694+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_gqDqEOneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_g5DIUOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:35.570+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_g48aoOneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_hUypIOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:39.182+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_hUtJkOneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_hHiQQOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:37.135+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_hHcwsOneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_hkhHMOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:45:40.699+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_hkdc0OneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_oQFAQOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:46:24.037+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_oP-5oOneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_odl30OneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:46:26.535+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_odhmYOneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_oq6iIOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:46:27.950+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_oq1CkOneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_o5rW4OneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:46:29.384+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_o5kpMOneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_pFxSIOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:46:30.899+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_pFqkcOneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_txBgUOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:47:01.644+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_tw9O4OneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_t_tckOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:47:03.551+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_t_mu4OneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_xcbbEOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:47:27.175+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_xcXJoOneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_xqYXgOneEe-P0udKvD5Ccw" LAST-CHANGE="2025-02-13T15:47:28.227+08:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_xqTfAOneEe-P0udKvD5Ccw</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+        </SPECIFICATION>
+      </SPECIFICATIONS>
+    </REQ-IF-CONTENT>
+  </CORE-CONTENT>
+  <TOOL-EXTENSIONS>
+    <REQ-IF-TOOL-EXTENSION>
+      <configuration:ProrToolExtension>
+        <configuration:specViewConfigurations>
+          <configuration:ProrSpecViewConfiguration specification="_AQHuXOneEe-P0udKvD5Ccw">
+            <configuration:columns>
+              <configuration:Column label="IOS" width="154"/>
+              <configuration:Column label="与系统关联" width="349"/>
+              <configuration:Column label="提供能力" width="248"/>
+            </configuration:columns>
+            <configuration:leftHeaderColumn>
+              <configuration:Column label="Lead Header Column" width="30"/>
+            </configuration:leftHeaderColumn>
+          </configuration:ProrSpecViewConfiguration>
+        </configuration:specViewConfigurations>
+        <configuration:generalConfiguration>
+          <configuration:ProrGeneralConfiguration>
+            <configuration:labelConfiguration>
+              <configuration:LabelConfiguration>
+                <defaultLabel>描述</defaultLabel>
+              </configuration:LabelConfiguration>
+            </configuration:labelConfiguration>
+          </configuration:ProrGeneralConfiguration>
+        </configuration:generalConfiguration>
+      </configuration:ProrToolExtension>
+    </REQ-IF-TOOL-EXTENSION>
+  </TOOL-EXTENSIONS>
+</REQ-IF>

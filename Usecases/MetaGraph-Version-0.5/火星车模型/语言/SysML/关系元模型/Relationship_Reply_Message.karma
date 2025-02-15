@@ -1,0 +1,12 @@
+   Relationship Relationship_Reply_Message
+   Role Message_Source;
+   Role Message_Target;
+   annotation(
+      localLabel="回复消息",
+      description="",
+      icon="",
+      shape="boldSolidLine",
+      seqType=$ReplyMessage,
+      );
+   end Relationship_Reply_Message;
+ 

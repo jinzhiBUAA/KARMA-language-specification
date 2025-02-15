@@ -1,0 +1,13 @@
+   Relationship Relationship_Interface_Realization
+      initial Property  Relationship_Interface_Realization_Property_Name_4e993e = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Interface_Realization_Property_To_Do_19be22 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Implementing_Classifier;
+   Role Role_Contract;
+   annotation(
+      localLabel="接口实现",
+      description="",
+      icon="接口实现.png",
+      shape="dashLine",
+      );
+   end Relationship_Interface_Realization;
+ 

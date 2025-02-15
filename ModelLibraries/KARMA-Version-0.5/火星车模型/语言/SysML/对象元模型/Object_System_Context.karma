@@ -1,0 +1,17 @@
+   Object Object_System_Context
+      initial Property  Object_System_Context_Property_Name_6b7016 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_System_Context_Property_Is_Encapsulated_dec12b = false extends Property_Is_Encapsulated annotation(localLabel ="是否封装");
+      Undirected Point Object_System_Context_Point_Proxy_Port_321a93 extends Point_Proxy_Port annotation (localLabel ="代理端口");
+      Undirected Point Object_System_Context_Point_Full_Port_2bdcc7 extends Point_Full_Port annotation (localLabel ="完整端口");
+      Undirected Point Object_System_Context_Point_Port_ae3678 extends Point_Port annotation (localLabel ="端口");
+      Undirected Point Object_System_Context_Point_Flow_Port_74b9b6 extends Point_Flow_Port annotation (localLabel ="流端口");
+   annotation(
+      localLabel="系统上下文",
+      description="",
+      icon="系统上下文.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      );
+   end Object_System_Context;
+ 

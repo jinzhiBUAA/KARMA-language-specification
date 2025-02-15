@@ -1,0 +1,13 @@
+   Relationship Relationship_Copy
+      initial Property  Relationship_Copy_Property_Name_c8dc2f = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Copy_Property_To_Do_e7302a = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Client;
+   Role Role_Supplier;
+   annotation(
+      localLabel="复制",
+      description="",
+      icon="复制.png",
+      shape="dashLine",
+      );
+   end Relationship_Copy;
+ 

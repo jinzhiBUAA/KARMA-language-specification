@@ -1,0 +1,23 @@
+   Object Object_Composite_State
+      initial Property  Object_Composite_State_Property_Name_180cb9 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Composite_State_Property_State_Invariant_99c45c = "null" extends Property_State_Invariant annotation(localLabel ="状态不变条件");
+      initial Property  Object_Composite_State_Property_Deferrable_Trigger_bb7b8d = "null" extends Property_Deferrable_Trigger annotation(localLabel ="可延迟的触发器");
+      initial Property  Object_Composite_State_Property_To_Do_28e986 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Composite_State_Property_Documentation_d9cc04 = "null" extends Property_Documentation annotation(localLabel ="文档");
+      initial Property  Object_Composite_State_Property_Entry_Behavior_Type_ca0df1 = "null" extends Property_Entry_Behavior_Type annotation(localLabel ="入口行为类型");
+      initial Property  Object_Composite_State_Property_Entry_Behavior_Element_558cd3 = "null" extends Property_Entry_Behavior_Element annotation(localLabel ="入口行为元素");
+      initial Property  Object_Composite_State_Property_Do_Activity_Behavior_Type_9059f5 = "null" extends Property_Do_Activity_Behavior_Type annotation(localLabel ="执行活动行为类型");
+      initial Property  Object_Composite_State_Property_Do_Activity_Behavior_Element_74533c = "null" extends Property_Do_Activity_Behavior_Element annotation(localLabel ="执行活动行为元素");
+      initial Property  Object_Composite_State_Property_Exit_Behavior_Type_e0c5c3 = "null" extends Property_Exit_Behavior_Type annotation(localLabel ="出口行为类型");
+      initial Property  Object_Composite_State_Property_Exit_Behavior_Element_a21360 = "null" extends Property_Exit_Behavior_Element annotation(localLabel ="出口行为元素");
+      Undirected Point Object_Composite_State_Point_Pseudo_State_373e35 extends Point_Pseudo_State annotation (localLabel ="伪状态");
+   annotation(
+      localLabel="组合状态",
+      description="",
+      icon="组合状态.png",
+      shape="roundedRectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      );
+   end Object_Composite_State;
+ 

@@ -1,0 +1,17 @@
+   Object Object_Domain
+      initial Property  Object_Domain_Property_Name_2cae62 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Domain_Property_Is_Encapsulated_d7c422 = false extends Property_Is_Encapsulated annotation(localLabel ="是否封装");
+      Undirected Point Object_Domain_Point_Proxy_Port_74199e extends Point_Proxy_Port annotation (localLabel ="代理端口");
+      Undirected Point Object_Domain_Point_Full_Port_5db000 extends Point_Full_Port annotation (localLabel ="完整端口");
+      Undirected Point Object_Domain_Point_Port_c11ba7 extends Point_Port annotation (localLabel ="端口");
+      Undirected Point Object_Domain_Point_Full_Port_725da5 extends Point_Full_Port annotation (localLabel ="完整端口");
+   annotation(
+      localLabel="域模块",
+      description="",
+      icon="域模块.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      );
+   end Object_Domain;
+ 

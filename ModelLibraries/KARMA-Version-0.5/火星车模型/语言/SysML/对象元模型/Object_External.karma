@@ -1,0 +1,17 @@
+   Object Object_External
+      initial Property  Object_External_Property_Name_70634a = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_External_Property_Is_Encapsulated_fff5ae = false extends Property_Is_Encapsulated annotation(localLabel ="是否封装");
+      Undirected Point Object_External_Point_Proxy_Port_a078da extends Point_Proxy_Port annotation (localLabel ="代理端口");
+      Undirected Point Object_External_Point_Full_Port_fe78d2 extends Point_Full_Port annotation (localLabel ="完整端口");
+      Undirected Point Object_External_Point_Port_3ca804 extends Point_Port annotation (localLabel ="端口");
+      Undirected Point Object_External_Point_Full_Port_76ab6c extends Point_Full_Port annotation (localLabel ="完整端口");
+   annotation(
+      localLabel="外部模块",
+      description="",
+      icon="外部模块.png",
+      shape="rectangle",
+      visualizedMode=propertyMode,
+      imageAddress="",
+      );
+   end Object_External;
+ 

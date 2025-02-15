@@ -1,0 +1,12 @@
+   Relationship Relationship_Destroy_Message
+   Role Message_Source;
+   Role Message_Target;
+   annotation(
+      localLabel="销毁消息",
+      description="",
+      icon="",
+      shape="boldSolidLine",
+      seqType=$DestructMessage,
+      );
+   end Relationship_Destroy_Message;
+ 

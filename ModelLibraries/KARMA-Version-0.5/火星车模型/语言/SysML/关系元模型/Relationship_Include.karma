@@ -1,0 +1,13 @@
+   Relationship Relationship_Include
+      initial Property  Relationship_Include_Property_Name_64be99 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Relationship_Include_Property_To_Do_8f9c22 = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+   Role Role_Including_Case;
+   Role Role_Addition;
+   annotation(
+      localLabel="包含",
+      description="",
+      icon="包含.png",
+      shape="dashLine",
+      );
+   end Relationship_Include;
+ 

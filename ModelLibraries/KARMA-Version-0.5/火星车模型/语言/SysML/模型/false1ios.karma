@@ -1,0 +1,249 @@
+    partial Model false1ios instanceof Block_Defintion_Diagram
+    
+        Property false1ios_property_49f5 = "null" refer Block_Defintion_Diagram_Property_To_Do_3ac03f annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property false1ios_property_f599 = "null" refer Block_Defintion_Diagram_Property_Context_9794be annotation(localLabel = "上下文",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Object false1ios_object_2a3b refer Object_Block
+        Property false1ios_object_2a3b_property_8d45 = "火星车制造阶段" refer Object_Block_Property_Name_525f94 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(651,126,234,66),
+          localLabel="使命阶段",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;152,168,191;152,168,191",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end false1ios_object_2a3b;
+
+      Object false1ios_object_8479 refer Object_External
+        Property false1ios_object_8479_property_70ff = "毅力号" refer Object_External_Property_Name_70634a annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(805,234,157,59),
+          localLabel="实体",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;155,199,204;155,199,204",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end false1ios_object_8479;
+
+      Object false1ios_object_8f83 refer Object_Block
+        Property false1ios_object_8f83_property_9cd2 = "肯尼迪航天中心" refer Object_Block_Property_Name_525f94 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(287,347,189,66),
+          localLabel="执行者",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;227,164,156;227,164,156",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end false1ios_object_8f83;
+
+      Object false1ios_object_8f83_8b41 refer Object_Block
+        Property false1ios_object_8f83_property_9cd2_6d1c = "NASA" refer Object_Block_Property_Name_525f94 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(469,228,150,66),
+          localLabel="执行者",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;227,164,156;227,164,156",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end false1ios_object_8f83_8b41;
+
+      Object false1ios_object_8f83_8b41_b7ed refer Object_Block
+        Property false1ios_object_8f83_property_9cd2_6d1c_2c11 = "JPL实验室" refer Object_Block_Property_Name_525f94 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(546,347,150,66),
+          localLabel="执行者",
+          shape="rectangle",
+          color="0,0,0;0,0,0;0,0,0;227,164,156;227,164,156",
+          screenMode=propertyMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end false1ios_object_8f83_8b41_b7ed;
+
+      Relationship false1ios_relationship_1dc6 refer Relationship_Directed_Aggregation
+        Property false1ios_relationship_1dc6_property_d494 = "null" refer Relationship_Directed_Aggregation_Property_Name_9bacfc annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role false1ios_fromrole_9912 refer Role_Aggregation_Role
+          annotation(
+            localLabel="聚合角色",
+            shape="dottedDiamond"
+          );
+        end false1ios_fromrole_9912;
+         Role false1ios_torole_932b refer Role_Directed_Role_A
+          annotation(
+            localLabel="定向角色A",
+            shape="arrowShape"
+          );
+        end false1ios_torole_932b;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(767,159;650,321),
+          polylineLocation="[-1,0,-108,-60]$[106,60,-1,0];(0.5043103448275862,1.0);(0.5067567567567568,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end false1ios_relationship_1dc6;
+ 
+      Relationship false1ios_relationship_b7f7 refer Relationship_Directed_Aggregation
+        Property false1ios_relationship_b7f7_property_3c3e = "null" refer Relationship_Directed_Aggregation_Property_Name_9bacfc annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role false1ios_fromrole_8060 refer Role_Aggregation_Role
+          annotation(
+            localLabel="聚合角色",
+            shape="dottedDiamond"
+          );
+        end false1ios_fromrole_8060;
+         Role false1ios_torole_d954 refer Role_Directed_Role_A
+          annotation(
+            localLabel="定向角色A",
+            shape="arrowShape"
+          );
+        end false1ios_torole_d954;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(-12,-10),
+          shape="solidLine",
+          endLocation=(791,159;998,307),
+          polylineLocation="[23,0,-92,-44]$[23,22,-92,-22]$[115,22,0,-22]$[115,44,0,0];(0.5043103448275862,1.0);(0.5032258064516129,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end false1ios_relationship_b7f7;
+ 
+      Relationship false1ios_relationship_df05 refer Relationship_Directed_Aggregation
+        Property false1ios_relationship_df05_property_2a78 = "null" refer Relationship_Directed_Aggregation_Property_Name_9bacfc annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role false1ios_fromrole_9997 refer Role_Aggregation_Role
+          annotation(
+            localLabel="聚合角色",
+            shape="dottedDiamond"
+          );
+        end false1ios_fromrole_9997;
+         Role false1ios_torole_9ec5 refer Role_Directed_Role_A
+          annotation(
+            localLabel="定向角色A",
+            shape="arrowShape"
+          );
+        end false1ios_torole_9ec5;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(543,261;735,440),
+          polylineLocation="[-1,0,-116,-60]$[114,60,-1,0];(0.5067567567567568,1.0);(0.5067567567567568,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end false1ios_relationship_df05;
+ 
+      Relationship false1ios_relationship_6f2e refer Relationship_Directed_Aggregation
+        Property false1ios_relationship_6f2e_property_621b = "null" refer Relationship_Directed_Aggregation_Property_Name_9bacfc annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role false1ios_fromrole_60bf refer Role_Aggregation_Role
+          annotation(
+            localLabel="聚合角色",
+            shape="dottedDiamond"
+          );
+        end false1ios_fromrole_60bf;
+         Role false1ios_torole_059f refer Role_Directed_Role_A
+          annotation(
+            localLabel="定向角色A",
+            shape="arrowShape"
+          );
+        end false1ios_torole_059f;
+       
+        annotation(
+          localLabel="",
+          labelLocation=(0,-10),
+          shape="solidLine",
+          endLocation=(543,261;265,440),
+          polylineLocation="[-1,0,114,-60]$[-116,60,-1,0];(0.5067567567567568,1.0);(0.5026737967914439,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end false1ios_relationship_6f2e;
+ 
+    Connect(connector(false1ios_object_2a3b,false1ios_relationship_1dc6.false1ios_fromrole_9912),connector(false1ios_object_8f83_8b41,false1ios_relationship_1dc6.false1ios_torole_932b));
+ 
+    Connect(connector(false1ios_object_2a3b,false1ios_relationship_b7f7.false1ios_fromrole_8060),connector(false1ios_object_8479,false1ios_relationship_b7f7.false1ios_torole_d954));
+ 
+    Connect(connector(false1ios_object_8f83_8b41,false1ios_relationship_df05.false1ios_fromrole_9997),connector(false1ios_object_8f83_8b41_b7ed,false1ios_relationship_df05.false1ios_torole_9ec5));
+ 
+    Connect(connector(false1ios_object_8f83_8b41,false1ios_relationship_6f2e.false1ios_fromrole_60bf),connector(false1ios_object_8f83,false1ios_relationship_6f2e.false1ios_torole_059f));
+ 
+
+      annotation(
+        localLabel="0_4_1_1火星车制造阶段IOS分析",
+        SDIdentification="",
+    );
+    
+   end false1ios;

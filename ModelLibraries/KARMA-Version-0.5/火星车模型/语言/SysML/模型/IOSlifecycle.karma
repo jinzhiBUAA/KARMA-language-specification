@@ -1,0 +1,369 @@
+    partial Model IOSlifecycle instanceof State_Machine_Diagram
+    
+        Property IOSlifecycle_property_e6b8 = "null" refer State_Machine_Diagram_Property_To_Do_a9cf1e annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_property_717b = "null" refer State_Machine_Diagram_Property_Context_43446a annotation(localLabel = "上下文",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Object IOSlifecycle_object_5e9c refer Object_Initial_Pseudo_State
+        Property IOSlifecycle_object_5e9c_property_c7e8 = "null" refer Object_Initial_Pseudo_State_Property_Name_8df0e9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_5e9c_property_2c1f = "null" refer Object_Initial_Pseudo_State_Property_To_Do_0010ed annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(182,105,92,85),
+          localLabel="初始伪状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end IOSlifecycle_object_5e9c;
+
+      Object IOSlifecycle_object_8bcc refer Object_State
+        Property IOSlifecycle_object_8bcc_property_e3ff = "毅力号的设计制造" refer Object_State_Property_Name_85c6aa annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_8bcc_property_d69f = "设计毅力号" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "包含事件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_8bcc_property_ed5e = "制造毅力号" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "包含事件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_8bcc_property_ff20 = "测试毅力号" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "包含事件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(161,264,220,119),
+          localLabel="生命周期阶段",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end IOSlifecycle_object_8bcc;
+
+      Object IOSlifecycle_object_8bcc_40bd refer Object_State
+        Property IOSlifecycle_object_8bcc_property_e3ff_6488 = "毅力号的发射前往火星" refer Object_State_Property_Name_85c6aa annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_8bcc_property_d69f_5806 = "依靠运载火箭进入太空" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "包含事件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_8bcc_property_ed5e_45d7 = "维持运行前往火星" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "包含事件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_8bcc_property_ff20_ea38 = "接近火星准备登陆" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "包含事件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(140,490,332,129),
+          localLabel="生命周期阶段",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end IOSlifecycle_object_8bcc_40bd;
+
+      Object IOSlifecycle_object_8bcc_40bd_6ac2 refer Object_State
+        Property IOSlifecycle_object_8bcc_property_e3ff_6488_0854 = "毅力号探索阶段" refer Object_State_Property_Name_85c6aa annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_8bcc_property_d69f_5806_3180 = "地质探索" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "包含事件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_8bcc_property_ed5e_45d7_bb02 = "天体生物学探索" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "包含事件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_8bcc_property_ff20_ea38_5295 = "样本采集分析" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "包含事件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_8bcc_40bd_6ac2_property_2de1 = "制氧实验" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "包含事件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_8bcc_40bd_6ac2_property_5be0 = "无人机飞行试验" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "包含事件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(140,945,332,171),
+          localLabel="生命周期阶段",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end IOSlifecycle_object_8bcc_40bd_6ac2;
+
+      Object IOSlifecycle_object_8bcc_40bd_6ac2_deba refer Object_State
+        Property IOSlifecycle_object_8bcc_property_e3ff_6488_0854_eba2 = "毅力号降落阶段" refer Object_State_Property_Name_85c6aa annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_8bcc_property_d69f_5806_3180_3672 = "进入火星大气层" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "包含事件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_8bcc_property_ed5e_45d7_bb02_9111 = "推进降落" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "包含事件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_8bcc_property_ff20_ea38_5295_988c = "降落完成执行自检" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "包含事件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(140,714,332,122),
+          localLabel="生命周期阶段",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end IOSlifecycle_object_8bcc_40bd_6ac2_deba;
+
+      Object IOSlifecycle_object_9d07 refer Object_Final_State
+        Property IOSlifecycle_object_9d07_property_8e2c = "null" refer Object_Final_State_Property_Name_d73887 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_9d07_property_3942 = "null" refer Object_Final_State_Property_To_Do_cd58a6 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_9d07_property_c7f1 = "null" refer Object_Final_State_Property_Redefined_Vertex_8d4b3f annotation(localLabel = "重定义顶点",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_9d07_property_f4c5 = "null" refer Object_Final_State_Property_Entry_Behavior_Element_b3affc annotation(localLabel = "入口行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_9d07_property_7750 = "null" refer Object_Final_State_Property_Do_Activity_Behavior_Element_3c6e7b annotation(localLabel = "执行活动行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_object_9d07_property_128c = "null" refer Object_Final_State_Property_Exit_Behavior_Element_207108 annotation(localLabel = "出口行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(210,1204,108,105),
+          localLabel="最终状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end IOSlifecycle_object_9d07;
+
+      Relationship IOSlifecycle_relationship_0f4e refer Relationship_Transition
+        Property IOSlifecycle_relationship_0f4e_property_9697 = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_0f4e_property_d1eb = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_0f4e_property_28d4 = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_0f4e_property_96c3 = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_0f4e_property_3982 = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_0f4e_property_57e8 = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_0f4e_property_307e = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_0f4e_property_cbec = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_0f4e_property_043e = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_0f4e_property_a13e = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role IOSlifecycle_fromrole_7756 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end IOSlifecycle_fromrole_7756;
+         Role IOSlifecycle_torole_9731 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end IOSlifecycle_torole_9731;
+       
+        annotation(
+          localLabel="探索规划完成",
+          labelLocation=(0,-81),
+          shape="solidLine",
+          endLocation=(228,147;271,397),
+          polylineLocation="[0,0,0,-74]$[0,74,0,0];(0.45652173913043476,1.0);(0.2889908256880734,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end IOSlifecycle_relationship_0f4e;
+ 
+      Relationship IOSlifecycle_relationship_18aa refer Relationship_Transition
+        Property IOSlifecycle_relationship_18aa_property_3aab = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_18aa_property_e95f = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_18aa_property_5767 = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_18aa_property_1023 = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_18aa_property_7224 = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_18aa_property_db80 = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_18aa_property_761a = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_18aa_property_992c = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_18aa_property_0470 = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_18aa_property_8732 = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role IOSlifecycle_fromrole_c5f6 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end IOSlifecycle_fromrole_c5f6;
+         Role IOSlifecycle_torole_80de refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end IOSlifecycle_torole_80de;
+       
+        annotation(
+          localLabel="达到发射条件",
+          labelLocation=(3,-78),
+          shape="solidLine",
+          endLocation=(253,323;288,663),
+          polylineLocation="[-18,0,-39,-109]$[-18,109,-39,0];(0.3853211009174312,1.0);(0.38181818181818183,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end IOSlifecycle_relationship_18aa;
+ 
+      Relationship IOSlifecycle_relationship_fbf1 refer Relationship_Transition
+        Property IOSlifecycle_relationship_fbf1_property_e832 = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_fbf1_property_368c = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_fbf1_property_cbb8 = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_fbf1_property_cecf = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_fbf1_property_8da1 = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_fbf1_property_3730 = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_fbf1_property_565c = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_fbf1_property_8b84 = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_fbf1_property_758f = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_fbf1_property_9b88 = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role IOSlifecycle_fromrole_afe9 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end IOSlifecycle_fromrole_afe9;
+         Role IOSlifecycle_torole_5e72 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end IOSlifecycle_torole_5e72;
+       
+        annotation(
+          localLabel="进入火星大气层",
+          labelLocation=(-4,-109),
+          shape="solidLine",
+          endLocation=(283,554;283,872),
+          polylineLocation="[-23,0,-23,-97]$[-23,97,-23,0];(0.3333333333333333,1.0);(0.3333333333333333,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end IOSlifecycle_relationship_fbf1;
+ 
+      Relationship IOSlifecycle_relationship_3f67 refer Relationship_Transition
+        Property IOSlifecycle_relationship_3f67_property_eecc = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_3f67_property_14b0 = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_3f67_property_1719 = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_3f67_property_0131 = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_3f67_property_53be = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_3f67_property_a5d0 = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_3f67_property_90fd = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_3f67_property_9775 = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_3f67_property_b723 = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_3f67_property_dcd9 = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role IOSlifecycle_fromrole_c223 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end IOSlifecycle_fromrole_c223;
+         Role IOSlifecycle_torole_aab4 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end IOSlifecycle_torole_aab4;
+       
+        annotation(
+          localLabel="登陆成功，设备监测无问题",
+          labelLocation=(3,-124),
+          shape="solidLine",
+          endLocation=(306,775;306,1141),
+          polylineLocation="[0,0,-19,-111]$[0,111,-19,0];(0.296969696969697,1.0);(0.35454545454545455,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end IOSlifecycle_relationship_3f67;
+ 
+      Relationship IOSlifecycle_relationship_e8ce refer Relationship_Transition
+        Property IOSlifecycle_relationship_e8ce_property_7894 = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_e8ce_property_1d64 = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_e8ce_property_6486 = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_e8ce_property_f769 = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_e8ce_property_5742 = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_e8ce_property_244a = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_e8ce_property_b263 = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_e8ce_property_7aa5 = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_e8ce_property_84dc = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property IOSlifecycle_relationship_e8ce_property_7efc = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role IOSlifecycle_fromrole_e6bc refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end IOSlifecycle_fromrole_e6bc;
+         Role IOSlifecycle_torole_5b10 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end IOSlifecycle_torole_5b10;
+       
+        annotation(
+          localLabel="完成探索计划",
+          labelLocation=(6,-79),
+          shape="solidLine",
+          endLocation=(306,1030;264,1346),
+          polylineLocation="[0,0,0,-90]$[0,90,0,0];(0.34545454545454546,1.0);(0.4074074074074074,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end IOSlifecycle_relationship_e8ce;
+ 
+    Connect(connector(IOSlifecycle_object_5e9c,IOSlifecycle_relationship_0f4e.IOSlifecycle_fromrole_7756),connector(IOSlifecycle_object_8bcc,IOSlifecycle_relationship_0f4e.IOSlifecycle_torole_9731));
+ 
+    Connect(connector(IOSlifecycle_object_8bcc,IOSlifecycle_relationship_18aa.IOSlifecycle_fromrole_c5f6),connector(IOSlifecycle_object_8bcc_40bd,IOSlifecycle_relationship_18aa.IOSlifecycle_torole_80de));
+ 
+    Connect(connector(IOSlifecycle_object_8bcc_40bd,IOSlifecycle_relationship_fbf1.IOSlifecycle_fromrole_afe9),connector(IOSlifecycle_object_8bcc_40bd_6ac2_deba,IOSlifecycle_relationship_fbf1.IOSlifecycle_torole_5e72));
+ 
+    Connect(connector(IOSlifecycle_object_8bcc_40bd_6ac2_deba,IOSlifecycle_relationship_3f67.IOSlifecycle_fromrole_c223),connector(IOSlifecycle_object_8bcc_40bd_6ac2,IOSlifecycle_relationship_3f67.IOSlifecycle_torole_aab4));
+ 
+    Connect(connector(IOSlifecycle_object_8bcc_40bd_6ac2,IOSlifecycle_relationship_e8ce.IOSlifecycle_fromrole_e6bc),connector(IOSlifecycle_object_9d07,IOSlifecycle_relationship_e8ce.IOSlifecycle_torole_5b10));
+ 
+
+      annotation(
+        localLabel="1_2_定义兴趣系统生命周期",
+        SDIdentification="",
+    );
+    
+   end IOSlifecycle;

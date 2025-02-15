@@ -1,0 +1,24 @@
+   Object Object_Submachine_State
+      initial Property  Object_Submachine_State_Property_Name_725dd1 = "null" extends Property_Name annotation(localLabel ="名称");
+      initial Property  Object_Submachine_State_Property_State_Invariant_eabc76 = "null" extends Property_State_Invariant annotation(localLabel ="状态不变条件");
+      initial Property  Object_Submachine_State_Property_Deferrable_Trigger_6afd89 = "null" extends Property_Deferrable_Trigger annotation(localLabel ="可延迟的触发器");
+      initial Property  Object_Submachine_State_Property_Submachine_a53cdf = "null" extends Property_Submachine annotation(localLabel ="子机");
+      initial Property  Object_Submachine_State_Property_To_Do_29bb5d = "null" extends Property_To_Do annotation(localLabel ="待办事项");
+      initial Property  Object_Submachine_State_Property_Documentation_a33d77 = "null" extends Property_Documentation annotation(localLabel ="文档");
+      initial Property  Object_Submachine_State_Property_Entry_Behavior_Type_2cba99 = "null" extends Property_Entry_Behavior_Type annotation(localLabel ="入口行为类型");
+      initial Property  Object_Submachine_State_Property_Entry_Behavior_Element_043aba = "null" extends Property_Entry_Behavior_Element annotation(localLabel ="入口行为元素");
+      initial Property  Object_Submachine_State_Property_Do_Activity_Behavior_Type_9ce845 = "null" extends Property_Do_Activity_Behavior_Type annotation(localLabel ="执行活动行为类型");
+      initial Property  Object_Submachine_State_Property_Do_Activity_Behavior_Element_fefda7 = "null" extends Property_Do_Activity_Behavior_Element annotation(localLabel ="执行活动行为元素");
+      initial Property  Object_Submachine_State_Property_Exit_Behavior_Type_797db1 = "null" extends Property_Exit_Behavior_Type annotation(localLabel ="出口行为类型");
+      initial Property  Object_Submachine_State_Property_Exit_Behavior_Element_027303 = "null" extends Property_Exit_Behavior_Element annotation(localLabel ="出口行为元素");
+      Undirected Point Object_Submachine_State_Point_Connection_Point_Reference_b39e28 extends Point_Connection_Point_Reference annotation (localLabel ="连接点引用");
+   annotation(
+      localLabel="子机状态",
+      description="",
+      icon="子机状态.png",
+      shape="roundedRectangle",
+      visualizedMode=containerMode,
+      imageAddress="",
+      );
+   end Object_Submachine_State;
+ 

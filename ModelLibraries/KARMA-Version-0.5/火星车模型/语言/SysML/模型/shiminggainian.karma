@@ -1,0 +1,506 @@
+    partial Model shiminggainian instanceof State_Machine_Diagram
+    
+        Property shiminggainian_property_6ba3 = "null" refer State_Machine_Diagram_Property_To_Do_a9cf1e annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_property_1e9f = "null" refer State_Machine_Diagram_Property_Context_43446a annotation(localLabel = "上下文",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      Object shiminggainian_object_f4a5 refer Object_Initial_Pseudo_State
+        Property shiminggainian_object_f4a5_property_3f93 = "null" refer Object_Initial_Pseudo_State_Property_Name_8df0e9 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_f4a5_property_392b = "null" refer Object_Initial_Pseudo_State_Property_To_Do_0010ed annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(210,91,85,92),
+          localLabel="初始伪状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end shiminggainian_object_f4a5;
+
+      Object shiminggainian_object_421e refer Object_State
+        Property shiminggainian_object_421e_property_d7f7 = "火星车制造阶段" refer Object_State_Property_Name_85c6aa annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_d55d = "提出火星设计方案" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_1683 = "制造火星车" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_959a = "火星车通过实验测试" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(112,280,255,136),
+          localLabel="使命阶段",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end shiminggainian_object_421e;
+
+      Object shiminggainian_object_421e_e84c refer Object_State
+        Property shiminggainian_object_421e_property_d7f7_4f5a = "火星车发射阶段" refer Object_State_Property_Name_85c6aa annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_d55d_d5fa = "发射升空成功" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_e84c_property_e819 = "运送至火星轨道" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_e84c_property_f5bb = "降落火星成功" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_e84c_property_ac23 = "降落数据采集" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(609,280,283,150),
+          localLabel="使命阶段",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end shiminggainian_object_421e_e84c;
+
+      Object shiminggainian_object_421e_cee7 refer Object_State
+        Property shiminggainian_object_421e_property_d7f7_91b4 = "火星车探索阶段1（Jezero区域）" refer Object_State_Property_Name_85c6aa annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_d55d_ea35 = "到达探索区域" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_cee7_property_d8fb = "地质探索完成" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_cee7_property_ee8f = "天体生物学探索完成" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_cee7_property_02cd = "样本采集分析完成" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1113,301,304,171),
+          localLabel="使命阶段",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end shiminggainian_object_421e_cee7;
+
+      Object shiminggainian_object_421e_cee7_a233 refer Object_State
+        Property shiminggainian_object_421e_property_d7f7_91b4_2519 = "火星车探索阶段2（Paver Stones区域）" refer Object_State_Property_Name_85c6aa annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_d55d_ea35_aca6 = "到达探索区域" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_cee7_a233_property_02a6 = "地质探索完成" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_cee7_a233_property_93da = "天体生物学探索完成" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_cee7_a233_property_fc40 = "样本采集分析完成" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_cee7_a233_property_b249 = "无人机测试完成" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(1064,567,304,185),
+          localLabel="使命阶段",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end shiminggainian_object_421e_cee7_a233;
+
+      Object shiminggainian_object_421e_cee7_a6b1 refer Object_State
+        Property shiminggainian_object_421e_property_d7f7_91b4_11c2 = "火星车探索阶段3（Three Forks区域）" refer Object_State_Property_Name_85c6aa annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_d55d_ea35_8b88 = "到达目标区域" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_cee7_a6b1_property_ad28 = "地质探索完成" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_cee7_a6b1_property_7bf7 = "天体生物学探索完成" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_cee7_a6b1_property_a196 = "样本采集分析完成" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_cee7_a6b1_property_e58e = "无人机测试完成" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(602,567,297,185),
+          localLabel="使命阶段",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end shiminggainian_object_421e_cee7_a6b1;
+
+      Object shiminggainian_object_421e_cee7_97ed refer Object_State
+        Property shiminggainian_object_421e_property_d7f7_91b4_fa58 = "火星车探索阶段4（实验测试阶段）" refer Object_State_Property_Name_85c6aa annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_property_d55d_ea35_3ad7 = "制氧实验完成" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_421e_cee7_97ed_property_c1af = "保存所有采集样本" refer Object_State_Property_State_Invariant_172cee annotation(localLabel = "完成条件",color="0,0,0",text=("Microsoft YaHei UI",8,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(112,588,255,129),
+          localLabel="使命阶段",
+          shape="roundedRectangle",
+          color="0,0,0;0,0,0;0,0,0;194,239,255;255,255,255",
+          screenMode=decompositionMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(1,"solid"),
+          visualizationList="",
+        );
+      end shiminggainian_object_421e_cee7_97ed;
+
+      Object shiminggainian_object_39d0 refer Object_Final_State
+        Property shiminggainian_object_39d0_property_5f0a = "null" refer Object_Final_State_Property_Name_d73887 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_39d0_property_fc01 = "null" refer Object_Final_State_Property_To_Do_cd58a6 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_39d0_property_a71c = "null" refer Object_Final_State_Property_Redefined_Vertex_8d4b3f annotation(localLabel = "重定义顶点",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_39d0_property_d101 = "null" refer Object_Final_State_Property_Entry_Behavior_Element_b3affc annotation(localLabel = "入口行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_39d0_property_e834 = "null" refer Object_Final_State_Property_Do_Activity_Behavior_Element_3c6e7b annotation(localLabel = "执行活动行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_object_39d0_property_3fce = "null" refer Object_Final_State_Property_Exit_Behavior_Element_207108 annotation(localLabel = "出口行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+      
+        annotation(
+          initialLocation=(182,840,84,92),
+          localLabel="最终状态",
+          shape="circle",
+          color="194,239,255;0,0,0;0,0,0",
+          screenMode=blankMode,
+          imageAddress="",
+          SDIdentification="",
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          iconDisplay=true,
+          frame=(0,"solid"),
+          visualizationList="",
+        );
+      end shiminggainian_object_39d0;
+
+      Relationship shiminggainian_relationship_222f refer Relationship_Transition
+        Property shiminggainian_relationship_222f_property_b6c4 = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_222f_property_f84f = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_222f_property_076d = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_222f_property_c8fc = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_222f_property_0e2e = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_222f_property_40d8 = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_222f_property_031d = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_222f_property_f611 = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_222f_property_6671 = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_222f_property_c80f = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role shiminggainian_fromrole_53d9 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end shiminggainian_fromrole_53d9;
+         Role shiminggainian_torole_d80b refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end shiminggainian_torole_d80b;
+       
+        annotation(
+          localLabel="进入发射窗口期",
+          labelLocation=(-18,-33),
+          shape="solidLine",
+          endLocation=(239,384;994,391),
+          polylineLocation="[0,36,-244,45]$[244,36,0,45];(1.0,0.15671641791044777);(0.0,0.08108108108108109)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end shiminggainian_relationship_222f;
+ 
+      Relationship shiminggainian_relationship_b477 refer Relationship_Transition
+        Property shiminggainian_relationship_b477_property_2802 = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b477_property_afee = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b477_property_c780 = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b477_property_bec7 = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b477_property_3730 = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b477_property_d56c = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b477_property_d81a = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b477_property_32b5 = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b477_property_25be = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b477_property_a9fa = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role shiminggainian_fromrole_b2f3 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end shiminggainian_fromrole_b2f3;
+         Role shiminggainian_torole_6e31 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end shiminggainian_torole_6e31;
+       
+        annotation(
+          localLabel="探索规划制定",
+          labelLocation=(3,-78),
+          shape="solidLine",
+          endLocation=(244,137;231,445),
+          polylineLocation="[-8,0,13,-97]$[-8,97,13,0];(0.5882352941176471,1.0);(0.5019762845849802,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end shiminggainian_relationship_b477;
+ 
+      Relationship shiminggainian_relationship_2081 refer Relationship_Transition
+        Property shiminggainian_relationship_2081_property_1760 = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_2081_property_20ca = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_2081_property_7aa1 = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_2081_property_fb70 = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_2081_property_63c9 = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_2081_property_4991 = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_2081_property_9878 = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_2081_property_db7b = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_2081_property_a9a8 = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_2081_property_bc59 = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role shiminggainian_fromrole_21ac refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end shiminggainian_fromrole_21ac;
+         Role shiminggainian_torole_5fb4 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end shiminggainian_torole_5fb4;
+       
+        annotation(
+          localLabel="降落成功后设备测试一切正常",
+          labelLocation=(-1,-25),
+          shape="solidLine",
+          endLocation=(750,411;1488,442),
+          polylineLocation="[0,56,-223,28]$[223,56,0,28];(1.0,0.0945945945945946);(0.0,0.1242603550295858)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end shiminggainian_relationship_2081;
+ 
+      Relationship shiminggainian_relationship_6c0c refer Relationship_Transition
+        Property shiminggainian_relationship_6c0c_property_c037 = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_6c0c_property_18f9 = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_6c0c_property_62fc = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_6c0c_property_16b6 = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_6c0c_property_9580 = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_6c0c_property_dafe = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_6c0c_property_1634 = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_6c0c_property_04d9 = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_6c0c_property_00b0 = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_6c0c_property_214e = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role shiminggainian_fromrole_70ec refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end shiminggainian_fromrole_70ec;
+         Role shiminggainian_torole_9000 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end shiminggainian_torole_9000;
+       
+        annotation(
+          localLabel="完成区域计划任务",
+          labelLocation=(10,-102),
+          shape="solidLine",
+          endLocation=(1055,386;1006,756),
+          polylineLocation="[-210,0,-105,-97]$[-210,97,-105,0];(0.8344370860927153,1.0);(0.6490066225165563,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end shiminggainian_relationship_6c0c;
+ 
+      Relationship shiminggainian_relationship_b1f9 refer Relationship_Transition
+        Property shiminggainian_relationship_b1f9_property_3961 = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b1f9_property_0e36 = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b1f9_property_2264 = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b1f9_property_81ab = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b1f9_property_62c5 = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b1f9_property_8343 = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b1f9_property_3b28 = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b1f9_property_fe57 = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b1f9_property_f033 = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b1f9_property_f816 = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role shiminggainian_fromrole_75d8 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end shiminggainian_fromrole_75d8;
+         Role shiminggainian_torole_da2e refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end shiminggainian_torole_da2e;
+       
+        annotation(
+          localLabel="完成区域计划任务",
+          labelLocation=(11,10),
+          shape="solidLine",
+          endLocation=(1216,687;583,687),
+          polylineLocation="[0,28,209,28]$[-167,28,42,28];(0.0,0.07650273224043716);(0.8576271186440678,0.07650273224043717)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end shiminggainian_relationship_b1f9;
+ 
+      Relationship shiminggainian_relationship_b738 refer Relationship_Transition
+        Property shiminggainian_relationship_b738_property_f8d2 = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b738_property_18ee = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b738_property_be65 = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b738_property_53ad = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b738_property_d65b = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b738_property_1c01 = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b738_property_c132 = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b738_property_4e96 = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b738_property_4a44 = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_b738_property_1376 = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role shiminggainian_fromrole_d9c8 refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end shiminggainian_fromrole_d9c8;
+         Role shiminggainian_torole_35fc refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end shiminggainian_torole_35fc;
+       
+        annotation(
+          localLabel="完成区域计划任务",
+          labelLocation=(0,10),
+          shape="solidLine",
+          endLocation=(750,694;2,687),
+          polylineLocation="[0,35,237,0]$[-237,35,0,0];(0.0,0.03825136612021858);(1.0,0.16535433070866143)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end shiminggainian_relationship_b738;
+ 
+      Relationship shiminggainian_relationship_e80d refer Relationship_Transition
+        Property shiminggainian_relationship_e80d_property_a97b = "null" refer Relationship_Transition_Property_Name_3046d8 annotation(localLabel = "名称",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_e80d_property_b503 = "null" refer Relationship_Transition_Property_Guard_3cfe54 annotation(localLabel = "保护",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_e80d_property_2092 = "null" refer Relationship_Transition_Property_To_Do_b526a0 annotation(localLabel = "待办事项",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_e80d_property_7489 = "null" refer Relationship_Transition_Property_Documentation_936fcb annotation(localLabel = "文档",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_e80d_property_2a0d = "null" refer Relationship_Transition_Property_Event_Type_3bcbf2 annotation(localLabel = "事件类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_e80d_property_f2cb = "null" refer Relationship_Transition_Property_Trigger_ec4413 annotation(localLabel = "触发器",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_e80d_property_9e76 = "null" refer Relationship_Transition_Property_Event_Element_1c42c1 annotation(localLabel = "事件元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_e80d_property_7d16 = "null" refer Relationship_Transition_Property_Port_7a34d3 annotation(localLabel = "端口",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_e80d_property_7639 = "null" refer Relationship_Transition_Property_Effect_Behavior_Type_c99a92 annotation(localLabel = "影响行为类型",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Property shiminggainian_relationship_e80d_property_5548 = "null" refer Relationship_Transition_Property_Effect_Behavior_Element_676faa annotation(localLabel = "影响行为元素",color="0,0,0",text=("Microsoft YaHei UI",7,Normal,Normal),underline=false,strikeThrough=false);
+        Role shiminggainian_fromrole_3d2e refer Role_Source
+          annotation(
+            localLabel="来源",
+            shape="no"
+          );
+        end shiminggainian_fromrole_3d2e;
+         Role shiminggainian_torole_f716 refer Role_Target
+          annotation(
+            localLabel="目标",
+            shape="arrowShape"
+          );
+        end shiminggainian_torole_f716;
+       
+        annotation(
+          localLabel="完成所有探索计划",
+          labelLocation=(-4,-86),
+          shape="solidLine",
+          endLocation=(182,652;167,1011),
+          polylineLocation="[-57,0,-22,-125]$[-57,125,-22,0];(0.6640316205533597,1.0);(0.75,0.0)",
+          color="136,136,136;0,0,0",
+          labelDisplay=true,
+          text=("Microsoft YaHei UI",8,Normal,Normal),
+          SDIdentification="",
+          smoothness="None",
+          avoidObstructionsRouting=false,
+          closestDistanceRouting =false,
+          jumpLinkStatus="None",
+          jumpLinkType="Semicircle",
+          reverseJumpLink=false,
+          routingType="Manhattan",
+        );
+      end shiminggainian_relationship_e80d;
+ 
+    Connect(connector(shiminggainian_object_421e,shiminggainian_relationship_222f.shiminggainian_fromrole_53d9),connector(shiminggainian_object_421e_e84c,shiminggainian_relationship_222f.shiminggainian_torole_d80b));
+ 
+    Connect(connector(shiminggainian_object_f4a5,shiminggainian_relationship_b477.shiminggainian_fromrole_b2f3),connector(shiminggainian_object_421e,shiminggainian_relationship_b477.shiminggainian_torole_6e31));
+ 
+    Connect(connector(shiminggainian_object_421e_e84c,shiminggainian_relationship_2081.shiminggainian_fromrole_21ac),connector(shiminggainian_object_421e_cee7,shiminggainian_relationship_2081.shiminggainian_torole_5fb4));
+ 
+    Connect(connector(shiminggainian_object_421e_cee7,shiminggainian_relationship_6c0c.shiminggainian_fromrole_70ec),connector(shiminggainian_object_421e_cee7_a233,shiminggainian_relationship_6c0c.shiminggainian_torole_9000));
+ 
+    Connect(connector(shiminggainian_object_421e_cee7_a233,shiminggainian_relationship_b1f9.shiminggainian_fromrole_75d8),connector(shiminggainian_object_421e_cee7_a6b1,shiminggainian_relationship_b1f9.shiminggainian_torole_da2e));
+ 
+    Connect(connector(shiminggainian_object_421e_cee7_a6b1,shiminggainian_relationship_b738.shiminggainian_fromrole_d9c8),connector(shiminggainian_object_421e_cee7_97ed,shiminggainian_relationship_b738.shiminggainian_torole_35fc));
+ 
+    Connect(connector(shiminggainian_object_421e_cee7_97ed,shiminggainian_relationship_e80d.shiminggainian_fromrole_3d2e),connector(shiminggainian_object_39d0,shiminggainian_relationship_e80d.shiminggainian_torole_f716));
+ 
+
+      annotation(
+        localLabel="0_3_使命概念",
+        SDIdentification="",
+    );
+    
+   end shiminggainian;

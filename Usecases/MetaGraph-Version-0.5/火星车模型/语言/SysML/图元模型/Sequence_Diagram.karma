@@ -1,0 +1,52 @@
+   partial Graph Sequence_Diagram
+    Object Object_Lifeline;
+    Object Object_CombinedFragment_Alternatives;
+    Object Object_CombinedFragment_Loop;
+    Object Object_CombinedFragment_Option;
+    Object Object_CombinedFragment_Parallel;
+    Object Object_CombinedFragment_Critical;
+    Object Object_CombinedFragment_Negative;
+    Object Object_CombinedFragment_Assertion;
+    Object Object_CombinedFragment_Strict;
+    Object Object_CombinedFragment_Sequencing;
+    Object Object_CombinedFragment_Ignore;
+    Object Object_CombinedFragment_Consider;
+    Object Object_CombinedFragment_Break;
+    Object Object_InteractionUse;
+    Relationship Message;
+    Relationship Relationship_Call_Message;
+    Relationship Relationship_Send_Message;
+    Relationship Relationship_Reply_Message;
+    Relationship Relationship_Create_Message;
+    Relationship Relationship_Destroy_Message;
+    Constraint (
+    bind connector(Object_Lifeline,Message.Message_Source),
+    bind connector(Object_Lifeline.Object_Lifeline_Point_Execution_f5b63e,Message.Message_Source),
+    bind connector(Object_Lifeline,Message.Message_Target),
+    bind connector(Object_Lifeline.Object_Lifeline_Point_Execution_f5b63e,Message.Message_Target),
+    bind connector(Object_Lifeline,Relationship_Call_Message.Message_Source),
+    bind connector(Object_Lifeline.Object_Lifeline_Point_Execution_f5b63e,Relationship_Call_Message.Message_Source),
+    bind connector(Object_Lifeline,Relationship_Call_Message.Message_Target),
+    bind connector(Object_Lifeline.Object_Lifeline_Point_Execution_f5b63e,Relationship_Call_Message.Message_Target),
+    bind connector(Object_Lifeline,Relationship_Create_Message.Message_Source),
+    bind connector(Object_Lifeline.Object_Lifeline_Point_Execution_f5b63e,Relationship_Create_Message.Message_Source),
+    bind connector(Object_Lifeline,Relationship_Create_Message.Message_Target),
+    bind connector(Object_Lifeline,Relationship_Destroy_Message.Message_Source),
+    bind connector(Object_Lifeline.Object_Lifeline_Point_Execution_f5b63e,Relationship_Destroy_Message.Message_Source),
+    bind connector(Object_Lifeline,Relationship_Destroy_Message.Message_Target),
+    bind connector(Object_Lifeline.Object_Lifeline_Point_Execution_f5b63e,Relationship_Reply_Message.Message_Source),
+    bind connector(Object_Lifeline,Relationship_Reply_Message.Message_Target),
+    bind connector(Object_Lifeline.Object_Lifeline_Point_Execution_f5b63e,Relationship_Reply_Message.Message_Target),
+    bind connector(Object_Lifeline,Relationship_Send_Message.Message_Source),
+    bind connector(Object_Lifeline.Object_Lifeline_Point_Execution_f5b63e,Relationship_Send_Message.Message_Source),
+    bind connector(Object_Lifeline,Relationship_Send_Message.Message_Target),
+    bind connector(Object_Lifeline.Object_Lifeline_Point_Execution_f5b63e,Relationship_Send_Message.Message_Target),
+    Object_Lifeline.explode(Use_Case_Diagram, Block_Defintion_Diagram, Internal_Block_Diagram, Package_Diagram),
+    Object_InteractionUse.decompose(Sequence_Diagram, Activity_Diagram, State_Machine_Diagram),
+    );
+    annotation(
+        localLabel="时序图",
+        type = sequenceDiagram,
+        description="",
+       );
+        end Sequence_Diagram;

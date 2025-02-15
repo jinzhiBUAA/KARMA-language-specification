@@ -1,0 +1,12 @@
+   Relationship Relationship_SyncMessage
+   Role Message_Source;
+   Role Message_Target;
+   annotation(
+      localLabel="同步消息",
+      description="",
+      icon="",
+      shape="boldSolidLine",
+      seqType=$SyncMessage,
+      );
+   end Relationship_SyncMessage;
+ 
