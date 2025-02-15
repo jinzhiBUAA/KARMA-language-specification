@@ -1,4 +1,4 @@
-# Model for Landing Gear System of Special Aircraft (Version 1.0)
+# Model for Landing Gear System of Special Aircraft (Version 2.0)
 
 This is a behavior model about Landing Gear System of Special Aircraft based on KARMA language verified by Hybridsim Automata.
 
